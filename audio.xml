@@ -1,0 +1,3436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AudioInfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio.xsd">
+     	 
+	 <!--AnimEvents-->
+<!--      
+	  Attack_01
+	  Attack_02
+    Attack_03
+    Attack_04
+    CombatIdle
+    Idle
+    FootStep_01 - right foot
+    FootStep_02 - left foot
+    FootStep_03 
+    Die
+    OnDeadBodyImpact
+ -->
+ 
+ <!--*************************************************************************************************************************************************************-->
+  <!--PC-->
+  <!--*************************************************************************************************************************************************************-->
+
+  <WwiseSwitchInfo name="HUMAN_MALE">
+    <CharType name="human"/>
+    <Gender name="male"/>
+    <Size name="medium"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="HUMAN_FEMALE">
+    <CharType name="human"/>
+    <Gender name="female"/>
+    <Size name="medium"/>
+  </WwiseSwitchInfo>
+  
+  <!--*************************************************************************************************************************************************************-->
+  <!--MOUNTS-->
+  <!--*************************************************************************************************************************************************************-->
+
+  <WwiseSwitchInfo name="MOUNT_HORSE">
+    <CharType name="mount"/>
+    <MountType name="horse"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_HORSE_UNDEAD">
+    <CharType name="mount"/>
+    <MountType name="horse_undead"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_HORSE_ARMORED">
+    <CharType name="mount"/>
+    <MountType name="horse_armored"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_OX">
+    <CharType name="mount"/>
+    <MountType name="ox"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_MAMMOTH">
+    <CharType name="mount"/>
+    <MountType name="mammoth"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_CART">
+    <CharType name="mount"/>
+    <MountType name="cart"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DIREWOLF">
+    <CharType name="mount"/>
+    <MountType name="direwolf"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DIREBOAR">
+    <CharType name="mount"/>
+    <MountType name="direboar"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DIREBEAR">
+    <CharType name="mount"/>
+    <MountType name="direbear"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_COUGAR">
+    <CharType name="mount"/>
+    <MountType name="cougar"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_STAG">
+    <CharType name="mount"/>
+    <MountType name="stag"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DRAGON">
+    <CharType name="mount"/>
+    <MountType name="dragon"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_RAM">
+    <CharType name="mount"/>
+    <MountType name="ram"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_PIG">
+    <CharType name="mount"/>
+    <MountType name="pig"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_MOA">
+    <CharType name="mount"/>
+    <MountType name="moa"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_IMPALA">
+    <CharType name="mount"/>
+    <MountType name="impala"/>
+  </WwiseSwitchInfo>
+ <WwiseSwitchInfo name="MOUNT_BALLISTA">
+    <CharType name="mount"/>
+    <MountType name="ballista"/>
+  </WwiseSwitchInfo>
+ <WwiseSwitchInfo name="MOUNT_BAT">
+    <CharType name="mount"/>
+    <MountType name="bat"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_TOAD">
+    <CharType name="mount"/>
+    <MountType name="toad"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_HOUND">
+    <CharType name="mount"/>
+    <MountType name="hound"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_TIGER">
+    <CharType name="mount"/>
+    <MountType name="tiger"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_MULE">
+    <CharType name="mount"/>
+    <MountType name="mule"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_RHINO">
+    <CharType name="mount"/>
+    <MountType name="rhino"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_RHINO_BIG">
+    <CharType name="mount"/>
+    <MountType name="rhino_big"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_WARFARE_RAM">
+    <CharType name="mount"/>
+    <MountType name="warfare_ram"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_WOLF_SPECTER">
+    <CharType name="mount"/>
+    <MountType name="wolf_specter"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_BAT_BIG">
+    <CharType name="mount"/>
+    <MountType name="bat_big"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_FOX">
+    <CharType name="mount"/>
+    <MountType name="fox"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DOG">
+    <CharType name="mount"/>
+    <MountType name="dog"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_SLEIGH">
+    <CharType name="mount"/>
+    <MountType name="sleigh"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_TOWERCHARIOT">
+    <CharType name="mount"/>
+    <MountType name="towerchariot"/>
+  </WwiseSwitchInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--MOBS-->
+  <!--*************************************************************************************************************************************************************-->
+  <WwiseSwitchInfo name="MOB_TUTORIAL_DUMMY">
+    <CharType name="mob"/>
+    <Size name="medium"/>
+    <ArmorType name="plate"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--CITY WARFARE-->
+  <!--Highland-->
+  <WwiseSwitchInfo name="MOB_CITY_HIGHLAND_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="commander_highland"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="axe_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--Forest-->
+  <WwiseSwitchInfo name="MOB_CITY_FOREST_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="commander_forest"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="arrow_swoosh_mob"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--Mountain-->
+  <WwiseSwitchInfo name="MOB_CITY_MOUNTAIN_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="commander_mountain"/>
+    <Size name="big"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--Steppe-->
+  <WwiseSwitchInfo name="MOB_CITY_STEPPE_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="commander_steppe"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--Swamp-->
+  <WwiseSwitchInfo name="MOB_CITY_SWAMP_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="commander_swamp"/>
+    <Size name="big"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="fire"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--CHESTS-->
+  <WwiseSwitchInfo name="MOB_CHEST_STONE">
+    <CharType name="mob"/>  
+    <Size name="medium"/>  
+    <ArmorType name="stone"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CHEST_WOOD">
+    <CharType name="mob"/>
+    <Size name="medium"/> 
+    <ArmorType name="wood_hard"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CHEST_ROCK">
+    <CharType name="mob"/>
+    <Size name="medium"/> 
+    <ArmorType name="rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CHEST_PUMPKIN">
+    <CharType name="mob"/>
+    <Size name="medium"/> 
+    <ArmorType name="veggie"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_URN">
+    <CharType name="mob"/>
+    <Size name="small"/> 
+    <ArmorType name="clay"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CHEST_PRESENT">
+    <CharType name="mob"/>
+    <Size name="small"/>
+    <ArmorType name="cardboard"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <!--HIDE-->
+  <!--forest-->
+  <WwiseSwitchInfo name="MOB_RABBIT">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_rabbit"/>
+    <Size name="tiny"/>
+    <ArmorType name="hide"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_FOX">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_fox"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_WOLF">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_wolf"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>    
+  <WwiseSwitchInfo name="MOB_BOAR">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_boar"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>    
+  <WwiseSwitchInfo name="MOB_BEAR">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_bear"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DIREWOLF">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_direwolf"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DIREBOAR">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_direboar"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DIREBEAR">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_direbear"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--swamp-->
+  <WwiseSwitchInfo name="MOB_FROG">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_frog"/>
+    <Size name="tiny"/>
+    <ArmorType name="hide"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_TOAD">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_toad"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="toad"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_SNAKE">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_snake"/>
+    <Size name="snake_small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_small"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_GIANT_SNAKE">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_snake"/>
+    <Size name="snake_big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_LIZARD">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_lizard"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_SWAMPDRAGON">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_lizard"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--steppe-->
+  <WwiseSwitchInfo name="MOB_MOABIRD">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_moabird"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_TERRORBIRD">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_terrorbird"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_RHINO">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_rhino"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_IMPALA">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_impala"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_GIANTSTAG">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_giantstag"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MAMMOTH">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_mammoth"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_ANCIENT_MAMMOTH">
+    <CharType name="mob"/>
+    <MobFaction name="hide"/>
+    <MobType name="hide_mammoth"/>
+    <Size name="huge"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_RAT">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_rat"/>
+    <Size name="small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  
+  <!-- CRITTER-->  
+  <WwiseSwitchInfo name="MOB_COUGAR">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="critter_cougar"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_DRYAD">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="critter_dryad"/>
+    <Size name="wood_soft_medium"/>
+    <ArmorType name="wood_soft"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_FORESTSPIRIT">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="critter_forestspirit"/>
+    <Size name="wood_hard"/>
+    <ArmorType name="wood_hard"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_ELEMENTAL_MEDIUM">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="critter_elemental"/>
+    <Size name="rock_big"/>
+    <ArmorType name="rock"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_ELEMENTAL_BIG">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="critter_elemental"/>
+    <Size name="huge"/>
+    <ArmorType name="rock"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!-- GUARDIAN-->  
+  <WwiseSwitchInfo name="MOB_GUARDIAN_MAMMOTH">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="guardian_mammoth"/>
+    <Size name="huge"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_GUARDIAN_DRYAD">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="guardian_dryad"/>
+    <Size name="wood_soft_big"/>
+    <ArmorType name="wood_soft"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_GUARDIAN_FORESTSPIRIT">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="guardian_wood_elemental"/>
+    <Size name="wood_hard_big"/>
+    <ArmorType name="wood_hard"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_GUARDIAN_OREGIANT">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="guardian_ore_giant"/>
+    <Size name="huge"/>
+    <ArmorType name="rock"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_GUARDIAN_ROCKGIANT">
+    <CharType name="mob"/>
+    <MobFaction name="critter"/>
+    <MobType name="guardian_rock_giant"/>
+    <Size name="huge"/>
+    <ArmorType name="rock"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  
+  <!--HERETICS-->
+  <WwiseSwitchInfo name="MOB_HERETIC_TOTEM">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_totem"/>
+    <Size name="small"/>
+    <ArmorType name="wood_hard"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_THIEF">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_thief"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_ARCHER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_archer"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="arrow_swoosh_mob"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_HEALER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_healer"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="nature"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_BALLISTA">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_ballista"/>
+    <ArmorType name="cloth"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_BALLISTA_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_ballista_boss"/>
+    <ArmorType name="cloth"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_GIBSON">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_gibson"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_MORTAR">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_mortar"/>
+    <ArmorType name="wood_hard"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_OVERSEER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_overseer"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="whip"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_HERETIC_SCAVENGER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_scavenger"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_TANK">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_tank"/>
+    <Size name="medium"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_WOODGATHERER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_woodgatherer"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_LUMBERJACK_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_lumberjack_boss"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_STOOGE">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_stooge"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_BRAWLER">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_brawler"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_BRAWLER_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_brawler_boss"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_ALARMTRAP">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_alarmtrap"/>
+    <Size name="small"/>
+    <ArmorType name="wood_soft"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_DYNAMITE">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_dynamite_boss"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_HERETIC_SHADOWMASK">
+    <CharType name="mob"/>
+    <MobFaction name="heretic"/>
+    <MobType name="heretic_shadowmask"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--MORGANA-->
+  <WwiseSwitchInfo name="MOB_MORGANA_SOLDIER">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_soldier"/>
+    <Size name="medium"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="spear_standard"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_CROSSBOWMAN">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_crossbowman"/>
+    <Size name="medium"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="bolt_swoosh"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_KNIGHT">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_knight"/>
+    <Size name="big"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_CHAMPION">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_champion"/>
+    <Size name="big"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="swoosh_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_CULTIST">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_cultist"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="cursed"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_SISTERS_A">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_sisters_a"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="cursed"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+    <WwiseSwitchInfo name="MOB_MORGANA_SISTERS_B">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_sisters_b"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="cursed"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_SISTERS_C">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_sisters_c"/>
+    <Size name="medium"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_ROYALKNIGHT">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_royalknight"/>
+    <Size name="big"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_DEMON_PRINCE">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_demon_prince"/>
+    <Size name="huge"/>
+    <ArmorType name="no"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_RECRUIT">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_crossbowman"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="bolt_swoosh"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_BAT">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_bat"/>
+    <Size name="wing_small"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_BLOODHOUND">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_bloodhound"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="bite_medium"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_TORTURER">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_jailor"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="whip"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_MORGANA_TORTURER_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="morgana"/>
+    <MobType name="morgana_torturer"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--UNDEAD-->
+  <WwiseSwitchInfo name="MOB_UNDEAD_SOLDIER">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_soldier"/>
+    <Size name="bone_plate_medium"/>
+    <ArmorType name="bone_plate"/>
+    <WeaponType name="sword_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_ARCHER">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_archer"/>
+    <Size name="bone"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="arrow_swoosh_mob"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_MAGE">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_mage"/>
+    <Size name="bone"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="frost"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_UNDEAD_GHOUL">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_ghoul"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_GHOUL_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_ghoul_boss"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_CURSED_SKELETON">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_cursed_skeleton"/>
+    <Size name="bone"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="swoosh_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_PULLER">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_puller"/>
+    <Size name="bone_plate_big"/>
+    <ArmorType name="bone_plate"/>
+    <WeaponType name="sword_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_UNDEAD_SHADE">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_shade"/>
+    <Size name="incorporeal_medium"/>
+    <ArmorType name="incorporeal"/>
+    <WeaponType name="claw_shade"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_SARCOPHAGUS">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_sarcophagus"/>
+    <Size name="rock_big"/>
+    <ArmorType name="rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_NECROMANCER">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_necromancer"/>
+    <Size name="incorporeal_big"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="cursed"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_HARVESTER">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_harvester"/>
+    <Size name="bone_plate_big"/>
+    <ArmorType name="bone_plate"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_UNDEAD_GOVERNOR">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_governor"/>
+    <Size name="big"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="sword_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_GENERAL">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_general"/>
+    <Size name="bone_plate_big"/>
+    <ArmorType name="bone_plate"/>
+    <WeaponType name="sword_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_KNIGHT">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_knight"/>
+    <Size name="plate_medium"/>
+    <ArmorType name="plate"/>
+    <WeaponType name="sword_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_UNDEAD_MAGE_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="undead"/>
+    <MobType name="undead_mage_boss"/>
+    <Size name="bone"/>
+    <ArmorType name="bone"/>
+    <WeaponType name="frost"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+
+  <!--DEMON-->
+  <WwiseSwitchInfo name="MOB_DEMON_IMP">
+    <CharType name="mob"/>
+    <MobFaction name="demon"/>
+    <MobType name="demon_imp"/>
+    <Size name="wing_medium"/>    
+    <ArmorType name="hide"/>
+    <WeaponType name="cursed"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DEMON_SPIKED">
+    <CharType name="mob"/>
+    <MobFaction name="demon"/>
+    <MobType name="demon_spiked"/>
+    <Size name="medium"/>
+    <ArmorType name="hide"/>
+    <WeaponType name="claw_hide_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DEMON_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="demon"/>
+    <MobType name="demon_boss"/>
+    <Size name="huge"/>
+    <ArmorType name="incorporeal"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_DEMON_GATEKEEPER">
+    <CharType name="mob"/>
+    <MobFaction name="demon"/>
+    <MobType name="demon_gatekeeper"/>
+    <Size name="big"/>
+    <ArmorType name="hide"/>
+	<WeaponType name="claw_hide_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  
+  <!--KEEPERS-->
+  <WwiseSwitchInfo name="MOB_KEEPER_BERSERK">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_berserk"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="axe_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_CHIEFTAIN">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_chieftain"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="axe_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_AXETHROWER">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_axethrower"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="axe_swoosh_thrown"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_MUSHROOMTHROWER">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_mushroom_thrower"/>
+    <Size name="big"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="axe_swoosh_thrown"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_UNPROVEN_FEMALE">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_unproven_female"/>
+    <Size name="medium"/>
+    <ArmorType name="no"/>
+    <WeaponType name="sword_small"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_UNPROVEN_MALE">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_unproven_male"/>
+    <Size name="medium"/>
+    <ArmorType name="no"/>
+    <WeaponType name="swoosh_medium"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_DRUID">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_druid"/>
+    <Size name="big"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="nature"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_SEER">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_seer"/>
+    <Size name="big"/>
+    <ArmorType name="cloth"/>
+    <WeaponType name="swoosh_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_GIANT">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_giant"/>
+    <Size name="huge"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_ANCIENT_GIANT">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_ancient_giant"/>
+    <Size name="huge"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_KEEPER_CHRISTMAS_GIANT">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_giant"/>
+    <Size name="huge"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_rock"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_KEEPER_EARTHMOTHER">
+    <CharType name="mob"/>
+    <MobFaction name="keeper"/>
+    <MobType name="keeper_earthmother"/>
+    <Size name="huge"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="swoosh_huge"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--CASTLEGUARDS-->
+  <WwiseSwitchInfo name="MOB_CASTLEGUARD_SOLDIER">
+    <CharType name="mob"/>
+    <MobFaction name="castleguard"/>
+    <MobType name="castleguard_soldier"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="barehanded"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CASTLEGUARD_CROSSBOWMAN">
+    <CharType name="mob"/>
+    <MobFaction name="castleguard"/>
+    <MobType name="castleguard_crossbowman"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="bolt_swoosh"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>  
+  <WwiseSwitchInfo name="MOB_CASTLEGUARD_KNIGHT">
+    <CharType name="mob"/>
+    <MobFaction name="castleguard"/>
+    <MobType name="castleguard_knight"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="barehanded"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_CASTLEGUARD_LORD">
+    <CharType name="mob"/>
+    <MobFaction name="castleguard"/>
+    <MobType name="castleguard_lord"/>
+    <Size name="medium"/>
+    <ArmorType name="leather"/>
+    <WeaponType name="barehanded"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--ARCANE-->
+  <WwiseSwitchInfo name="MOB_ARCANE_ELEMENTAL">
+    <CharType name="mob"/>
+    <MobFaction name="arcane"/>
+    <MobType name="arcane_elemental"/>
+    <Size name="medium"/>    
+    <ArmorType name="arcane"/>
+    <WeaponType name="claw_hide_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_ARCANE_ELEMENTAL_BOSS">
+    <CharType name="mob"/>
+    <MobFaction name="arcane"/>
+    <MobType name="arcane_elemental_boss"/>
+    <Size name="huge"/>
+    <ArmorType name="arcane"/>
+    <WeaponType name="claw_hide_big"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--TERRITORY-->
+  <WwiseSwitchInfo name="MOB_TERRITORY_COLLECTOR">
+    <CharType name="mob"/>
+    <MobFaction name="territory"/>
+    <MobType name="territory_collector"/>
+    <Size name="medium"/>    
+    <ArmorType name="leather"/>
+    <WeaponType name="frost"/>
+    <MountType name="empty"/>
+  </WwiseSwitchInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--ARMORS-->
+  <!--*************************************************************************************************************************************************************-->
+
+  <WwiseSwitchInfo name="CLOTH_ARMOR">
+    <ArmorType name="cloth"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="LEATHER_ARMOR">
+    <ArmorType name="leather"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="PLATE_ARMOR">
+    <ArmorType name="plate"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="BONE_ARMOR">
+    <ArmorType name="bone"/>
+  </WwiseSwitchInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--WEAPONS-->
+  <!--*************************************************************************************************************************************************************-->
+    
+  <WwiseSwitchInfo name="ITEM_SWORD">
+    <WeaponType name="sword_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_SWORD_SMALL">
+    <WeaponType name="sword_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DUALSWORD">
+    <WeaponType name="dualsword"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_RAPIER">
+    <WeaponType name="rapier_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_RAPIER_BIG">
+    <WeaponType name="rapier_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DAGGER_SMALL">
+    <WeaponType name="dagger_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DAGGER_MEDIUM">
+    <WeaponType name="dagger_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_BLADE_SMALL">
+    <WeaponType name="blade_small"/>
+  </WwiseSwitchInfo>
+
+    <WwiseSwitchInfo name="ITEM_BLADE_MEDIUM">
+    <WeaponType name="blade_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_CLAW">
+    <WeaponType name="claw_metal"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_CLAW_BIG">
+    <WeaponType name="claw_metal_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_GAUNTLETS">
+    <WeaponType name="gauntlets"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="SWOOSH_SMALL">
+    <WeaponType name="swoosh_small"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="SWOOSH_MEDIUM">
+    <WeaponType name="swoosh_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="SWOOSH_BIG">
+    <WeaponType name="swoosh_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_QUARTERSTAFF_STANDARD">
+    <WeaponType name="staff_standard"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_QUARTERSTAFF_METAL">
+    <WeaponType name="staff_metal"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_QUARTERSTAFF_METAL_HIGH">
+    <WeaponType name="staff_metal_high"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_BLADED">
+    <WeaponType name="staff_bladed"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_BLADED_HIGH">
+    <WeaponType name="staff_bladed_high"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_ROCK">
+    <WeaponType name="staff_rock"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_SPEAR">
+    <WeaponType name="spear_standard"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_SPEAR_HIGH">
+    <WeaponType name="spear_high"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_SPEAR_2H">
+    <WeaponType name="spear_2h"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_HAMMER_SMALL">
+    <WeaponType name="hammer_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_HAMMER_MEDIUM">
+    <WeaponType name="hammer_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_HAMMER_BIG">
+    <WeaponType name="hammer_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_HAMMER_HUGE">
+    <WeaponType name="hammer_huge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DUALHAMMER_SMALL">
+    <WeaponType name="dualhammer_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DUALHAMMER_MEDIUM">
+    <WeaponType name="dualhammer_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_KEEPER_RAM">
+    <WeaponType name="ram"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_AXE_SMALL">
+    <WeaponType name="axe_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_AXE">
+    <WeaponType name="axe_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_AXE_BIG">
+    <WeaponType name="axe_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_AXE_HUGE">
+    <WeaponType name="axe_huge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DUALAXE_SMALL">
+    <WeaponType name="dualaxe_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_DUALAXE">
+    <WeaponType name="dualaxe_medium"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_SCYTHE">
+    <WeaponType name="scythe"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_EDGE">
+    <WeaponType name="edge_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_EDGE_BIG">
+    <WeaponType name="edge_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_MACE_SMALL">
+    <WeaponType name="mace_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_MACE_MEDIUM">
+    <WeaponType name="mace_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_MACE_BIG">
+    <WeaponType name="mace_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_MACE_2H">
+    <WeaponType name="mace_2h"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_MACE_2H_BIG">
+    <WeaponType name="mace_2h_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_MACE_ROCK">
+    <WeaponType name="mace_rock"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_BOW">
+    <WeaponType name="bow_standard"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_BOW_LARGE">
+    <WeaponType name="bow_large"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_BOW_LONG">
+    <WeaponType name="bow_long"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_BOW_HEAVY">
+    <WeaponType name="bow_heavy"/>
+  </WwiseSwitchInfo>
+  
+    <WwiseSwitchInfo name="ITEM_BOW_HUGE">
+    <WeaponType name="bow_huge"/>
+  </WwiseSwitchInfo>
+  
+    <WwiseSwitchInfo name="ITEM_BOW_BONE">
+    <WeaponType name="bow_bone"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_BOW_LONG_METAL">
+    <WeaponType name="bow_long_metal"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_CROSSBOW">
+    <WeaponType name="bolt_medium"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_CROSSBOW_BIG">
+    <WeaponType name="bolt_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_CROSSBOW_HEAVY">
+    <WeaponType name="bolt_heavy"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_CROSSBOW_MASSIVE">
+    <WeaponType name="bolt_massive"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_CROSSBOW_SMALL">
+    <WeaponType name="bolt_1h_small"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_DUALCROSSBOW_SMALL">
+    <WeaponType name="bolt_dual_small"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_DUALCROSSBOW_MEDIUM">
+    <WeaponType name="bolt_dual_medium"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_STAFF_CURSED">
+    <WeaponType name="cursed"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_FIRE">
+    <WeaponType name="fire"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="ITEM_STAFF_FROST">
+    <WeaponType name="frost"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_ARCANE">
+    <WeaponType name="arcane"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_HOLY">
+    <WeaponType name="holy"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_NATURE">
+    <WeaponType name="nature"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_PORTAL_GUN">
+    <WeaponType name="portal_gun"/>
+  </WwiseSwitchInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!-- OLD WEAPON SOUNDS (NOT USED ANYMORE - also the Weapon Types have new names!) -->
+  <!--*************************************************************************************************************************************************************-->
+  <!-- 
+  <WwiseSwitchInfo name="ITEM_STAFF_MEDIUM">
+    <WeaponType name="staff_swoosh_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="ITEM_STAFF_BIG">
+    <WeaponType name="staff_swoosh_big"/>
+  </WwiseSwitchInfo>
+    -->
+  
+  <!--*************************************************************************************************************************************************************-->
+  <!-- TOOLS -->
+  <!--*************************************************************************************************************************************************************-->
+  <!-- 
+    Currently all tools needs something set which is not barehanded  
+    The sound is only defined by resource material, only barehanded uses another switch container, 
+    but there must be an entry for the tools otherwise no switch is set and it stays on the last switch set by the last equipped weapon
+  -->
+  <WwiseSwitchInfo name="TOOL_PICK">
+    <WeaponType name="axe_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_PICK_HT6">
+    <WeaponType name="axe_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_HAMMER">
+    <WeaponType name="hammer_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_HAMMER_HT6">
+    <WeaponType name="hammer_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_AXE">
+    <WeaponType name="axe_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_AXE_HT6">
+    <WeaponType name="axe_huge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_SICKLE">
+    <WeaponType name="rapier_medium"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_SICKLE_HT6">
+    <WeaponType name="rapier_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_KNIFE">
+    <WeaponType name="dagger_small"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_SIEGEHAMMER">
+    <WeaponType name="hammer_big"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_SIEGEHAMMER_HT6">
+    <WeaponType name="hammer_huge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="TOOL_FISHINGROD">
+    <WeaponType name="swoosh_small"/>
+  </WwiseSwitchInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!-- SPELLS-->
+  <!--*************************************************************************************************************************************************************-->
+
+  <!-- Weapon Impacts -->
+  <WwiseEventInfo name="SPELLHIT_WEAPON_IMPACT">
+    <OnSpellHit>
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="PROJECTILEHIT_WEAPON_IMPACT">
+    <OnProjectileHit>
+      <ImpactType/>
+    </OnProjectileHit>
+  </WwiseEventInfo>
+
+  <!-- Melee-->
+  <WwiseEventInfo name="MELEE_SMALLCAST">
+    <OnCastStart name="Play_melee_swoosh_small" />
+    <OnSpellHit>
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SMALLCAST_SMALLIMPACT">
+    <OnCastStart name="Play_melee_swoosh_small" />
+    <OnSpellHit name="Play_melee_impact_small" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SMALLCAST_MEDIUM_ROCK_IMPACT">
+    <OnCastStart name="Play_melee_swoosh_small" />
+    <OnSpellHit name="Play_melee_impact_rock_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SMALLIMPACT">
+    <OnSpellHit name="Play_melee_impact_small" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MELEE_MEDIUMCAST">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMCAST_SMALLIMPACT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_small" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMCAST_MEDIUMIMPACT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_medium" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMCAST_BIGIMPACT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMCAST_BIG_ROCK_IMPACT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_rock_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMCAST_GEYSER_IMPACT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_geyser" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MEDIUMIMPACT">
+    <OnSpellHit name="Play_melee_impact_medium" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="MELEE_BIGCAST">
+    <OnCastStart name="Play_melee_swoosh_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_BIGCAST_BIGIMPACT">
+    <OnCastStart name="Play_melee_swoosh_big" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_BIGCAST_BIG_ROCK_IMPACT_NO_WEAPON_IMPACT">
+    <OnCastStart name="Play_melee_swoosh_small" />
+    <OnSpellHit name="Play_melee_impact_rock_big" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="MELEE_BIGIMPACT">
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_JUMP_ATTACK">
+    <OnCastFinished name="Play_melee_swoosh_fast" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_IMPACT_ROCK_MEDIUM">
+    <OnSpellHit name="Play_melee_impact_rock_medium" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_IMPACT_ROCK_BIG">
+    <OnSpellHit name="Play_melee_impact_rock_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_BIG_ROCK_IMPACT_NO_WEAPON_IMPACT">
+    <OnSpellHit name="Play_melee_impact_rock_small" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_IMPACT_BLOODY">
+    <OnSpellHit name="Play_melee_impact_bloody" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>  
+
+  <WwiseEventInfo name="MELEE_CHARGE">
+    <OnCastStart name="Play_charge" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_CHARGE_MEDIUMIMPACT">
+    <OnCastStart name="Play_charge" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_CHARGE_BIGIMPACT">
+    <OnCastStart name="Play_charge" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SPIN">
+    <OnCastStart name="Play_melee_spin" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_BIG_SPIN_BIG_IMPACT">
+    <OnCastStart name="Play_melee_spin_big" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SPINATTACK">
+    <OnCastStart name="Play_spinattack" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_STOMP_MEDIUM" >
+    <OnCastFinished name="Play_melee_stomp_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_STOMP_BIG" >
+    <OnCastFinished name="Play_melee_stomp_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SHRINK">
+    <OnSpellHit name="Play_melee_impact_shrink" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_KNOCKOUT">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnSpellHit name="Play_melee_impact_headnut" >  
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_FLING">
+    <OnCastStart name="Play_melee_swoosh_big" />
+    <OnCastFinished name="Play_melee_fling" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_FLING_NO_CAST">
+    <OnCastFinished name="Play_melee_fling" />
+    <OnSpellHit name="Play_melee_impact_big" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_DISEMBOWEL">
+    <OnChannelingStart name="Play_melee_disembowel_loop" />
+    <OnChannelingEnd name="Stop_melee_disembowel_loop" />
+    <OnChannelingInterrupted name="Stop_melee_disembowel_loop" />
+    <OnChannelingCancelled name="Stop_melee_disembowel_loop" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_FORESTOFSPEARS">
+    <OnChannelingStart name="Play_melee_forest_of_spears_loop" />
+    <OnChannelingEnd name="Stop_melee_forest_of_spears_loop" />
+    <OnChannelingInterrupted name="Stop_melee_forest_of_spears_loop" />
+    <OnChannelingCancelled name="Stop_melee_forest_of_spears_loop" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SPEARLUNGE">
+    <OnSpellHit name="Play_spear_impact" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_SWIRL">
+    <OnChannelingStart name="Play_melee_swirl_loop" />
+    <OnChannelingEnd name="Stop_melee_swirl_loop" />
+    <OnChannelingInterrupted name="Stop_melee_swirl_loop" />
+    <OnChannelingCancelled name="Stop_melee_swirl_loop" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_THREATENINGSMASH" >
+    <OnCastStart name="Play_melee_mace_swing" />
+    <OnCastFinished name="Play_melee_swoosh_big" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MELEE_CARTWHEEL">
+    <OnCastFinished name="Play_cartwheel" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_GROUNDSTAB">
+    <OnCastStart name="Play_swing_slow" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_JUMP">
+    <OnCastStart name="Play_melee_jump_start" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_JUMP_DELAYED">
+    <OnCastStart name="Play_melee_jump_start_delayed" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_VACUUMCAST">
+    <OnCastStart name="Play_melee_mace_swing" />
+    <OnCastFinished name="Play_melee_vacuumslash_cast" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MELEE_CAST_FATALBLADE">
+    <OnCastStart name="Play_cast_fatalblade" />
+  </WwiseEventInfo>
+
+
+  <!-- Ranged-->
+  <WwiseEventInfo name="SPELL_ARROW_CAST_MEDIUM">
+    <OnCastStart name="Play_arrow_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARROW_CAST_DEADLYSHOT">
+    <OnCastStart name="Play_arrow_cast_deadlyshot" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARROW_CAST_MEDIUM_PROJECTILE_IMPACT">
+    <OnCastFinished name="Play_arrow_cast_medium" />
+    <OnSpellHit name="Play_arcane_impact_medium" />
+    <OnProjectileHit>
+      <ImpactType/>
+    </OnProjectileHit>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARROW_CAST_BIG">
+    <OnCastStart name="Play_arrow_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARROW_HIT_MEDIUM">
+    <OnSpellHit name="Play_arrow_impact_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARROW_AUTOFIRE">
+    <OnChannelingHit name="Play_arrow_cast_medium" />
+    <OnSpellHit name="Play_arrow_impact_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_ARROW_RAIN">
+    <OnCastFinished name="Play_arrow_rain_of_arrows" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_MAGIC_ARROW">
+    <OnCastStart name="Play_arrow_cast_medium" />
+    <OnCastFinished name="Play_fire_cast_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_ROCK_HIT_MEDIUM">
+    <OnSpellHit name="Play_rock_impact_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_THROW_BLADES" >
+    <OnCastFinished name="Play_throw_blades" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_THROW_BLADES_IMPACT" >
+    <OnCastFinished name="Play_impact_blades" >
+      <ImpactType/>
+    </OnCastFinished>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_THROW_SPEAR" >
+    <OnCastFinished name="Play_throw_spear" />
+  </WwiseEventInfo>
+
+  <!-- Magic-->
+  <WwiseEventInfo name="SPELL_ARCANE_CAST_MEDIUM">
+    <OnCastFinished name="Play_arcane_cast_medium" />
+	 </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARCANE_CAST_MEDIUM_TANK">
+    <OnCastFinished name="Play_arcane_cast_medium_tank" />	
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARCANE_CAST_BIG">
+    <OnCastFinished name="Play_arcane_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARCANE_HIT_MEDIUM">
+    <OnSpellHit name="Play_arcane_impact_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CURSED_CAST_MEDIUM">
+    <OnCastFinished name="Play_cursed_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_CURSED_CAST_MEDIUM_HIT_MEDIUM">
+    <OnCastFinished name="Play_cursed_cast_medium" />
+    <OnSpellHit name="Play_cursed_impact_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_CURSED_HIT_SMALL">
+    <OnSpellHit name="Play_cursed_impact_small" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_CURSED_HIT_MEDIUM">
+    <OnSpellHit name="Play_cursed_impact_medium" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_FIRE_CAST_MEDIUM">    
+    <OnCastFinished name="Play_fire_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FIRE_CAST_BIG">
+    <OnCastFinished name="Play_fire_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FIRE_CAST_HUGE">
+    <OnCastFinished name="Play_fire_cast_huge" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FIRE_HIT_SMALL">
+    <OnSpellHit name="Play_fire_impact_small" />
+  </WwiseEventInfo>  
+  <WwiseEventInfo name="SPELL_FIRE_HIT_MEDIUM">
+    <OnSpellHit name="Play_fire_impact_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FIRE_BIG">
+    <OnCastFinished name="Play_fire_cast_big" />
+    <OnSpellHit name="Play_fire_impact_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FIRE_TORNADO">    
+    <OnCastStart name="Play_fire_cast_tornado" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_FROST_START_MEDIUM">
+    <OnCastStart name="Play_frost_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_CAST_MEDIUM">
+    <OnCastFinished name="Play_frost_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_CAST_BIG">
+    <OnCastFinished name="Play_frost_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_HIT_SMALL">
+    <OnSpellHit name="Play_frost_impact_small" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_HIT_MEDIUM">
+    <OnSpellHit name="Play_frost_impact_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_ICEROCK">
+    <OnSpellHit name="Play_frost_icerock" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FROST_ICEBLOCK">
+    <OnSpellHit name="Play_frost_cast_iceblock" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_HOLY_CAST_MEDIUM">
+    <OnCastFinished name="Play_holy_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HOLY_CAST_BIG">
+    <OnCastFinished name="Play_holy_cast_big" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_LIGHTNING_CAST_SMALL">
+    <OnCastFinished name="Play_lightning_cast_small" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_LIGHTNING_CAST_MEDIUM">
+    <OnCastFinished name="Play_lightning_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_LIGHTNING_CAST_BIG">
+    <OnCastFinished name="Play_lightning_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_LIGHTNING_CHAIN">
+    <OnCastFinished name="Play_lightningbolt_chain" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_NATURE_CAST_MEDIUM">
+    <OnCastFinished name="Play_nature_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_NATURE_CAST_BIG">
+    <OnCastFinished name="Play_nature_cast_big" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SHIELD_ARCANE">
+    <OnSpellHit name="Play_shield_arcane" />
+  </WwiseEventInfo>
+
+
+  
+  <!-- Misc -->
+  <WwiseEventInfo name="CHARGE_INCREASE" >
+    <OnCastFinished name="Play_charge_increase" />
+  </WwiseEventInfo>                  
+  <WwiseEventInfo name="SPELL_SELF_BUFF">
+    <OnCastStart name="Play_selfbuff_cast" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_SELF_BUFF_STOMP">
+    <OnCastStart name="Play_selfbuff_cast" />
+    <OnCastFinished name="Play_melee_stomp_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_SELF_BUFF_POISON">
+    <OnCastFinished name="Play_self_poison" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_SELF_KNOCKBACK">
+    <OnCastFinished name="Play_self_knockback" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_TELEPORT_CAST" >
+    <OnCastStart name="Play_teleport_cast" />
+    <OnCastFinished name="Play_teleport" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_JUMP" >
+    <OnCastStart name="Play_jump" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_DODGE" >
+    <OnCastStart name="Play_dodge_roll" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_EVASIVEJUMP" >
+    <OnCastStart name="Play_evasive_jump" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_INVISIBILITY">
+    <OnCastFinished name="Play_cast_invisibility" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_INVISIBILITY">
+    <OnChannelingStart name="Play_undead_invisiblility" />
+    <OnChannelingEnd name="Play_undead_invisibility_end" />
+    <OnChannelingInterrupted name="Play_undead_invisibility_end" />
+    <OnChannelingCancelled name="Play_undead_invisibility_end" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FEAR_HIT">
+    <OnCastFinished name="Play_fear_impact" />
+  </WwiseEventInfo>
+    <WwiseEventInfo name="SPELL_THROW_FISH" >
+    <OnCastFinished name="Play_throw_rotten_fish" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_FISH_IMPACT" >
+    <OnCastFinished name="Play_rotten_fish_impact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_GIANT" >
+    <OnCastFinished name="Play_enlarge" />
+    <OnSpellRemoved name="Play_shrink" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_SELF_BUFF_ROCK_IMPACT">
+    <OnCastStart name="Play_selfbuff_cast" />
+    <OnSpellHit name="Play_melee_impact_rock_small" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_PULL">
+    <!--
+    <OnSpellHit name="Play_pull" />
+    -->    
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_CHAIN_PULL" >
+    <OnCastStart name="Play_cast_chain" />
+    <OnSpellHit name="Play_harpune_chain" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_BALLISTA_SUPPORT" >
+    <OnCastStart name="Play_ballista_support" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_DASH">
+    <OnCastStart name="Play_undead_dash" />
+    <OnSpellHit name="Play_melee_impact_medium" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_UI_LOOTCHEST_OPEN">
+    <OnCastStart name="Play_ui_reward_open" />
+  </WwiseEventInfo>
+   <!-- Mounts -->
+  <WwiseEventInfo name="SPELL_RAGECLAW" >
+    <OnCastFinished name="Play_rageclaw_cast_buff_speed" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SPECTRAL_BONEHORSE" >
+    <OnCastFinished name="Play_spectral_bonehorse_undead_cast_invisiblity" />
+    <OnSpellHit name="Play_spectral_bonehorse_undead_invisiblity_loop" />
+    <OnSpellRemoved name="Stop_spectral_bonehorse_undead_invisiblity_loop" />    
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_NIGHTMARE" >
+    <OnCastFinished name="Play_nightmare_flaming_trail_cast" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_DRAGON_SPIT" >
+    <OnCastFinished name="Play_dragon_spit" />    
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_DRAGON_EXHALE" >
+    <OnCastFinished name="Play_dragon_poisonbreath_start" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_DRAGON_BREATH_POISON" >
+    <OnCastStart name="Play_dragon_cast_poison" />
+    <OnCastFinished name="Play_dragon_poisonbreath_start" />      
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_DRAGON_SPIT_POISON" >
+    <OnCastStart name="Play_dragon_cast_poison" />
+    <OnCastFinished name="Play_dragon_spit" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_DRAGON_FIREBOLT_START" >
+    <OnCastStart name="Play_dragon_firebreath_inhale" />
+    <OnCastFinished name="Play_dragon_firebolt_start" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_POISON_IMPACT" >
+    <OnCastFinished name="Play_poison_impact" />    
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_TOADJUMP" >
+    <OnCastStart name="Play_mount_toad_jump" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_BAT_BLINK" >
+    <OnCastStart name="Play_bat_blink" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SUMMON_FOX" >
+    <OnCastFinished name="Play_summon_fox" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SEND_FOX" >
+    <OnCastStart name="Play_send_fox" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_RHINO_CHARGE">
+    <OnCastStart name="Play_rhino_charge_cast" />
+    <OnCastFinished name="Play_rhino_charge_start" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_RHINO_SWOOSH">
+    <OnCastFinished name="Play_rhino_swoosh" />
+  </WwiseEventInfo>
+  
+  <!--****************************************************-->
+  <!--*** Spells for Mobs ***-->
+  <!--****************************************************-->
+  <!-- Arcane -->
+  <WwiseEventInfo name="SPELL_ARCANE_BOSS_SUMMON">
+    <OnCastFinished name="Play_mob_arcane_elemental_boss_fireball"/>
+    <OnSpellHit name="Play_fire_impact_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARCANE_BOSS_BEAM">
+    <OnCastStart name="Play_mob_arcane_elemental_boss_beam_inhale"/>
+    <OnCastFinished name="Play_mob_arcane_elemental_boss_beam_exhale"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_ARCANE_BOSS_TORNADO">
+    <OnCastFinished name="Play_mob_arcane_elemental_boss_tornado"/>
+  </WwiseEventInfo>
+ 
+  <WwiseEventInfo name="SPELL_GUARDS_SUMMON">
+    <!--
+    <OnChannelingHit name="" />
+    <OnSpellHit name=""/>
+    -->
+  </WwiseEventInfo>
+  <!--Guardians-->
+  <WwiseEventInfo name="SPELL_GUARDIAN_GIANT_ROAR">
+    <OnCastStart name="Play_keeper_giant_roar" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_GUARDIAN_SWAMP_VOIDZONE">
+    <OnCastFinished name="Play_nature_cast_big"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_GUARDIAN_FOREST_ROOT">
+    <OnCastStart name="Play_root_frost"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_GUARDIAN_STEPPE_AVALANCHE" >
+    <OnCastFinished name="Play_rock_avalanche" />
+  </WwiseEventInfo>
+  <!-- Hide-->
+  <WwiseEventInfo name="SPELL_HIDE_WOLF_HOWL">
+    <OnCastStart name="Play_cast_wolf_howl"/>
+  </WwiseEventInfo> 
+  
+  <!-- Heretics-->
+  <WwiseEventInfo name="SPELL_HERETIC_ARCHER_KNOCKBACK">
+    <OnCastFinished name="Play_arrow_cast_medium"/>
+    <OnSpellHit name="Play_fire_impact_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_BALLISTA_ATTACK">
+    <OnCastStart name="Play_ballista_load" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_BALLISTA_BOSS_MINE">
+    <OnCastFinished name="Play_ballista_boss_mine_vo" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_BALLISTA_BOSS_CONE">
+    <OnCastStart name="Play_ballista_boss_cone_vo" />
+  	<OnCastFinished name="Play_fire_cast_medium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_BALLISTA_BOSS_MORTAR">
+    <OnCastFinished name="Play_ballista_boss_mortar_vo" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_MORTAR">
+    <OnCastFinished name="Play_mortar_shoot" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_HERETIC_GIBSON_ENRAGE">
+    <OnCastFinished name="Play_gibson_enrage" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_GIBSON_SHIELD">
+    <OnCastFinished name="Play_gibson_shield" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_GIBSON_KNOCKBACK">
+    <OnSpellHit name="Play_gibson_knockback" />
+  </WwiseEventInfo>
+ 
+  <WwiseEventInfo name="SPELL_HERETIC_LUMBERJACK_WHIRLWIND_VO">
+  	<OnCastStart name="Play_lumberjack_boss_vo_whirlwind"/>
+    <OnCastFinished name="Play_melee_spin" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_DYNAMITE_STICKY">
+    <OnCastStart name="Play_dynamite_boss_stickybomb_vo" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_DYNAMITE_BIGBOMB">
+    <OnCastStart name="Play_dynamite_boss_poisontrap_vo" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_ALARMTRAP_SHORT">
+    <OnCastStart name="Play_alarmtrap_alarm_short" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_ALARMTRAP_LONG">
+    <OnCastStart name="Play_alarmtrap_alarm_long" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_BRAWLER_MINIBOSS_HAMMER">
+    <OnCastStart name="Play_brawler_boss_knockout_vo" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_BRAWLER_MINIBOSS_ENRAGE">
+    <OnCastStart name="Play_brawler_boss_special_vo" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_BRAWLER_MINIBOSS_KNOCKBACK">
+    <OnCastFinished name="Play_brawler_bounce" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HERETIC_SHADOWMASK_AOE">
+    <OnCastStart name="Play_shadowmask_aoe_vo" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_HERETIC_SHADOWMASK_FIRE">
+    <OnCastStart name="Play_shadowmask_fire_vo" />
+    <OnCastFinished name="Play_arrow_cast_medium" />
+    <OnSpellHit name="Play_arcane_impact_medium" />
+    <OnProjectileHit>
+      <ImpactType/>
+    </OnProjectileHit>
+  </WwiseEventInfo>
+
+  <!-- Keeper-->
+  <WwiseEventInfo name="SPELL_KEEPER_BERSERKER_ENRAGE">
+    <OnSpellHit name="Play_berserker_enrage" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_KEEPER_GIANT_ROAR">
+    <OnSpellHit name="Play_keeper_giant_roar" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_KEEPER_GIANT_PUNCH">
+    <OnCastStart name="Play_melee_swoosh_big" />
+    <OnSpellHit name="Play_melee_impact_big" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_KEEPER_CHIEFTAIN_ROAR">
+    <OnSpellHit name="Play_keeper_chieftain_roar" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_KEEPER_EARTHMOTHER_PHASE_CHANGE">
+    <OnCastStart name="Play_mob_keeper_earthmother_phase_change_cast" />
+  </WwiseEventInfo>
+
+  <!-- Morgana-->
+  <WwiseEventInfo name="SPELL_MORGANA_SUMMON">
+    <OnCastStart name="Play_mob_morgana_summon"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_MORGANA_ROYALKNIGHT_ENRAGE">
+    <OnCastFinished name="Play_mob_morgana_sisters_royalknight_enrage"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_ROYALKNIGHT_ONDEATH_VO_B">
+    <OnCastFinished name="Play_mob_morgana_sisters_b_vo_statechange"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_ROYALKNIGHT_ONDEATH_VO_C">
+    <OnCastFinished name="Play_mob_morgana_sisters_c_vo_statechange"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_MORGANA_SISTERS_A_AGGRO_VO">
+    <OnCastStart name="Play_mob_morgana_sisters_a_vo_aggro"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_SISTERS_A_DEBUFF">
+    <OnCastStart name="Play_mob_morgana_sisters_a_ravenattack_vo"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_SISTERS_B_SHIELD">
+    <OnCastStart name="Play_mob_morgana_sisters_b_shield_start"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_SISTERS_C_SPLITTINGSTRIKE">
+    <OnCastStart name="Play_mob_morgana_sisters_c_clawspell"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_CRUSH_SPIRIT">
+    <OnCastStart name="Play_mob_morgana_demonprince_crush_spirit_cast"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_PHASE_2">
+    <OnCastStart name="Play_mob_morgana_demonprince_phase_2_start" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_PHASE_3">
+    <OnCastStart name="Play_mob_morgana_demonprince_phase_3_start" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_PULL">
+    <OnCastFinished name="Play_mob_morgana_demonprince_pull_impact"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MORGANA_PORTAL_START">
+    <OnCastStart name="Play_mob_demonportal_loop"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MORGANA_PORTAL_DIE">
+    <OnCastStart name="Stop_mob_demonportal_loop"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_MORGANA_CHAMPION_SPIKES">
+    <OnCastStart name="Play_mob_morgana_champion_cast"/>
+    <OnCastFinished name="Play_mob_morgana_champion_spikes"/>
+    <OnSpellHit name="Play_demonic_flame_impact"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_MORGANA_CHAMPION_MORTAR">
+    <OnCastStart name="Play_ballista_projectile"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MORGANA_SOLDIER_STRIKE">
+    <OnCastStart name="Play_melee_swoosh_medium" />
+    <OnCastFinished name="Play_mob_morgana_soldier_flagellate" />
+  </WwiseEventInfo>
+  
+  <!-- Undead-->
+  <WwiseEventInfo name="SPELL_UNDEAD_HARVESTER_SCYTHE">
+    <OnCastFinished name="Play_melee_scythe" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_UNDEAD_SARCOPHAGUS_HEAL">
+    <OnSpellHit name="Play_undead_sarcophagus_heal"/>
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_SARCOPHAGUS_BLIZZARD">
+    <OnCastStart name="Play_undead_sarcophagus_blizzard_vo"/>
+    <OnCastFinished name="Play_frost_cast_big" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_SARCOPHAGUS_FROSTBOMB">
+    <OnCastStart name="Play_undead_sarcophagus_frostbomb_vo"/>
+    <OnCastFinished name="Play_frost_cast_medium" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_SARCOPHAGUS_DISASSEMBLE">
+    <OnCastFinished name="Play_undead_sarcophagus_explode"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_UNDEAD_NECROMANCER_SUMMON">
+    <OnCastStart name="Play_undead_necromancer_summening" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_NECROMANCER_PHASECHANGE">
+    <OnCastStart name="Play_undead_necromancer_phasechange" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_UNDEAD_GOVERNOR_FORCED_MOVEMENT">
+    <!--
+    <OnCastStart name="Play_undead_governor_forced_movement" />
+    -->
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_UNDEAD_GHOUL_BARF">
+    <OnCastStart name="Play_undead_ghoul_barf" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_GHOUL_HURL">
+    <OnCastStart name="Play_undead_ghoul_hurl" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_GHOUL_BOSS_BARF">
+    <OnCastStart name="Play_undead_ghoul_boss_barf" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_GHOUL_BOSS_HURL">
+    <OnCastStart name="Play_undead_ghoul_boss_hurl" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_MAGEBOSS_SUMMON">
+    <OnCastStart name="Play_undead_mageboss_summon" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_MAGEBOSS_FREEZE">
+    <OnCastStart name="Play_undead_mageboss_freeze" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_MAGEBOSS_AOE">
+    <OnCastStart name="Play_undead_mageboss_aoe_frost" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_UNDEAD_KNIGHT_SPLITTINGSTRIKE">
+    <OnCastStart name="Play_undead_knight_splittingstrike" />
+  </WwiseEventInfo>
+
+    <!-- City Faction Commander-->
+
+  <WwiseEventInfo name="SPELL_CITY_HIGHLAND_ROCKSLIDE">
+    <OnCastStart name="Play_highland_commander_rockslide_cast" />
+    <OnCastFinished name="Play_highland_commander_rockslide" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_HIGHLAND_WHIRLWIND_VO">
+    <OnCastStart name="Play_highland_commander_whirlwind_cast" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_HIGHLAND_ENRAGE">
+    <OnCastStart name="Play_highland_commander_enrage" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_HIGHLAND_GROUNDBREAKER">
+    <OnCastStart name="Play_highand_commander_strike_vo" />
+    <OnSpellHit name="Play_melee_impact_rock_big" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_FOREST_WHISTLE">
+    <OnCastStart name="Play_forest_commander_whistle" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_FOREST_BOARIS_DIE">
+    <OnCastFinished name="Play_forest_commander_boaris_die" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_FOREST_WINDWALL_CAST">
+    <OnCastStart name="Play_forest_commander_tornado_cast_start" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_CITY_FOREST_MULITSHOT_CAST">
+    <OnCastStart name="Play_forest_commander_cone_cast" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_STEPPE_DISENGAGE_CAST">
+    <OnCastStart name="Play_commander_steppe_disengage_cast" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_SWAMP_METEOR_CAST">
+    <OnCastStart name="Play_swamp_commander_meteor_cast_vo" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CITY_SWAMP_FIREWALL_CAST">
+    <OnCastStart name="Play_swamp_commander_cast_firewall" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_CITY_SWAMP_FIREBOLT_CAST">
+    <OnCastStart name="Play_swamp_commander_standard_firespell" />
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="SPELL_CITY_SWAMP_FIREBALLS_CAST">
+    <OnCastStart name="Play_swamp_commander_cast_fireball_vo" />
+    <OnCastFinished name="Play_fire_cast_medium" />
+  </WwiseEventInfo>
+  
+  
+  <!-- Mount Speed -->
+
+  <WwiseEventInfo name="SPELL_MOUNT_SPEED">
+    <OnSpellHit name="Play_mount_speed_increase" />
+  </WwiseEventInfo>
+
+
+  <!-- WwiseSpellEventDefaults: Define Default events for spells depending on uitype set in activespell info-->
+  <!-- SPELL TEMPLATE-->
+  <!--
+  <WwiseSpellEventDefaults>
+    <WhileChanneling uitype="damage" name="BLA"/>
+    <WhileChanneling uitype="heal" name="BLUB"/>
+  </WwiseSpellEventDefaults> 
+ 
+  <WwiseEventInfo name="SPELL_HEALINGCIRCLE">
+    <OnCastStart name="spell_cast_heal_wave" />
+    <WhileChanneling/>                                       <- if no name attribute is set the default sound from WwiseSpellEventDefaults will be used
+    <OnSpellHit name="spell_impact_heal">
+                                                             <- No child element ImpactType means no Impact sound 
+      <ImpactType/>                                          <- without any attributes it will trigger impact sound depending on attacker's weapon -
+      <ImpactType override="arrow_swoosh"/>                  <- with override the weapontype of the impact will be overriden with the defined value here 
+    </OnSpellHit>
+  </WwiseEventInfo>
+  -->
+  <!--Default Spell Events-->
+  <!--WwiseSpellEventDefaults>
+    <OnCastFinished uitype="heal" name="Play_castfinished" />
+    <OnCastFinished uitype="damage" name="Play_castfinished" />
+    <OnCastFinished uitype="buff" name="Play_castfinished" />
+    <OnCastFinished uitype="debuff" name="Play_castfinished" />
+    <OnCastFinished uitype="crowdcontrol" name="Play_castfinished" />
+    <OnCastFinished uitype="movement" name="Play_castfinished" />
+    <OnCastStart uitype="heal" name="Play_caststart" />
+    <OnCastStart uitype="damage" name="Play_caststart" />
+    <OnCastStart uitype="buff" name="Play_caststart" />
+    <OnCastStart uitype="debuff" name="Play_caststart" />
+    <OnCastStart uitype="crowdcontrol" name="Play_caststart" />
+    <OnCastStart uitype="movement" name="Play_caststart" />
+    <OnChannelingHit uitype="heal" name="Play_castfinished" />
+    <OnChannelingHit uitype="damage" name="Play_castfinished" />
+    <OnChannelingHit uitype="buff" name="Play_castfinished" />
+    <OnChannelingHit uitype="debuff" name="Play_castfinished" />
+    <OnChannelingHit uitype="crowdcontrol" name="Play_castfinished" />
+    <OnChannelingHit uitype="movement" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="heal" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="damage" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="buff" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="debuff" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="crowdcontrol" name="Play_castfinished" />
+    <OnChannelingInterrupted uitype="movement" name="Play_castfinished" />
+    <OnChannelingStart uitype="heal" name="Play_castfinished" />
+    <OnChannelingStart uitype="damage" name="Play_castfinished" />
+    <OnChannelingStart uitype="buff" name="Play_castfinished" />
+    <OnChannelingStart uitype="debuff" name="Play_castfinished" />
+    <OnChannelingStart uitype="crowdcontrol" name="Play_castfinished" />
+    <OnChannelingStart uitype="movement" name="Play_castfinished" />
+    <WhileCasting uitype="heal" name="Play_whilecasting" />
+    <WhileCasting uitype="damage" name="Play_whilecasting" />
+    <WhileCasting uitype="buff" name="Play_whilecasting" />
+    <WhileCasting uitype="debuff" name="Play_whilecasting" />
+    <WhileCasting uitype="crowdcontrol" name="Play_whilecasting" />
+    <WhileCasting uitype="movement" name="Play_whilecasting" />
+    <OnSpellHit uitype="heal" name="Play_spellhit" />
+    <OnSpellHit uitype="damage" name="Play_spellhit" />
+    <OnSpellHit uitype="buff" name="Play_spellhit" />
+    <OnSpellHit uitype="debuff" name="Play_spellhit" />
+    <OnSpellHit uitype="crowdcontrol" name="Play_spellhit" />
+    <OnSpellHit uitype="movement" name="Play_spellhit" />
+    <WhileCastingAndChanneling uitype="heal" name="Play_whilecasting" />
+    <WhileCastingAndChanneling uitype="damage" name="Play_whilecasting" />
+    <WhileCastingAndChanneling uitype="buff" name="Play_whilecasting" />
+    <WhileCastingAndChanneling uitype="debuff" name="Play_whilecasting" />
+    <WhileCastingAndChanneling uitype="crowdcontrol" name="Play_whilecasting" />
+    <WhileCastingAndChanneling uitype="movement" name="Play_whilecasting" />
+    <OnChannelingEnd uitype="heal" name="Play_channelingend" />
+    <OnChannelingEnd uitype="damage" name="Play_channelingend" />
+    <OnChannelingEnd uitype="buff" name="Play_channelingend" />
+    <OnChannelingEnd uitype="debuff" name="Play_channelingend" />
+    <OnChannelingEnd uitype="crowdcontrol" name="Play_channelingend" />
+    <OnChannelingEnd uitype="movement" name="Play_channelingend" />
+    <WhileChanneling uitype="heal" name="Play_whilechanneling" />
+    <WhileChanneling uitype="damage" name="Play_whilechanneling" />
+    <WhileChanneling uitype="buff" name="Play_whilechanneling" />
+    <WhileChanneling uitype="debuff" name="Play_whilechanneling" />
+    <WhileChanneling uitype="crowdcontrol" name="Play_whilechanneling" />
+    <WhileChanneling uitype="movement" name="Play_whilechanneling" />
+  </WwiseSpellEventDefaults-->
+  <!-- Old Spells for Reference-->
+  <!--<WwiseEventInfo name="SPELL_HEALINGCIRCLE">
+    <OnCastStart name="spell_cast_heal_wave" />
+    <OnSpellHit name="spell_impact_heal"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DEBUFF1">
+    <OnCastStart name="spell_impact_debuff_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DEBUFF2">
+    <OnCastStart name="spell_impact_debuff_02" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DEBUFF3">
+    <OnCastStart name="spell_impact_debuff_03" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOVEMENT">
+    <OnCastStart name="spell_cast_movement" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_SPEED">
+    <OnSpellHit name="spell_cast_movement" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HEAL">
+    <OnCastFinished name="spell_impact_heal" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HEALWAVE">
+    <OnSpellHit name="spell_cast_heal_wave" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DEBUFF">
+    <OnCastFinished name="spell_cast_debuff" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CC">
+    <OnCastFinished name="spell_impact_crowdcontrol" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDOT">
+    <OnCastFinished name="spell_cast_damage_strike" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileChanneling name="spell_cast_loop_arcane"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG_HAIL">
+    <OnCastStart name="spell_cast_damage_strike"  />
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileChanneling name="spell_cast_loop_arcane"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG_CURSED">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileChanneling name="spell_cast_loop_evil"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG_DEATHCURSE">
+    <OnCastFinished name="spell_cast_damage_strike"  />
+    <OnSpellRemoved name="spell_cast_damage_strike" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG_FROST">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileChanneling name="spell_cast_loop_frost"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTDMG_FIRE">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileChanneling name="spell_cast_loop_fire"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTAOE">
+    <OnCastFinished name="spell_cast_crowdcontrol" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CASTAOE_HIT">
+    <OnSpellHit name="spell_cast_crowdcontrol" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CLEAN">
+    <OnCastFinished name="spell_impact_buff" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_BUFF">
+    <OnCastStart name="Play_caststart" />
+    <WhileChanneling name="Play_whilechanneling" />
+    <WhileCasting name="Play_whilecasting" />
+    <OnChannelingEnd name="Play_channelingend" />
+    <OnSpellHit name="Play_spellhit" />
+    <OnCastFinished name="Play_castfinished" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_METEOR">
+    <OnCastFinished name="monster_keeper_earthmother_thunderslam_impact"/>
+  </WwiseEventInfo>
+
+  -->
+  <!-- Old Mob Spells for Reference-->
+  <!--
+  <WwiseEventInfo name="SPELL_DEMON_ATTACK">
+    <OnSpellHit name="AttackClawMedium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MOB_KEEPER_EARTMOTHER_THUNDERSLAM">
+    <OnCastStart name="monster_keeper_earthmother_thunderslam_cast" />
+    <OnCastFinished name="monster_keeper_earthmother_thunderslam_impact"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MOB_KEEPER_EARTMOTHER_FURY">
+    <OnCastStart name="monster_keeper_earthmother_clobbering_impact"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MOB_DEMON_BOSS_LAVABOMB">
+    <OnCastStart name="monster_demon_boss_spitlava_cast"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MOB_DEMON_BOSS_INFERNO">
+    <OnCastStart name="monster_demon_boss_slamground_cast"/>
+    <OnCastFinished name="monster_demon_boss_slamground_impact"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_HELLRIFT">
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_HELLRIFT_EFFECT">
+    <OnSpellHit name="monster_morgana_demonprince_hellrift_impact"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="MORGANA_DEMONPRINCE_LASERSWEEP">
+    <OnCastFinished name="monster_morgana_demonprince_laser sweep_start" />
+  </WwiseEventInfo>
+
+  -->
+  <!--*************************************-->
+  <!-- audio for new spells -->
+  <!--*************************************-->
+  <!--
+
+  <WwiseEventInfo name="SpellTemplate2">
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_GIANTSTEPS">
+    <OnCastStart name="spell_cast_gigantify_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_FORCEFIELD">
+    <OnCastStart name="weapon_hammer_attack" />
+    <OnSpellHit name="spell_impact_knockback_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DASH">
+    <OnCastFinished name="spell_dash_movement_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_KNOCKBACK">
+    <OnSpellHit name="spell_impact_knockback_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_KNOCKBACK_CROSSBOW">
+    <OnCastStart name="AttackBow" />
+    <OnSpellHit name="ImpactBow" />
+    <OnCastFinished name="spell_impact_knockback_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_PULL">
+    <OnSpellHit name="spell_impact_pull_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_ROOT">
+    <OnSpellHit name="spell_impact_root_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SLEEP">
+    <OnSpellHit name="spell_impact_sleep_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_STUN">
+    <OnSpellHit name="spell_impact_stun_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_TAUNT">
+    <OnSpellHit name="spell_taunt_monster_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_RESURRECTION">
+    <OnSpellHit name="spell_resurrection_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_TELEPORT">
+    <OnCastFinished name="spell_impact_teleport_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_ESCAPE_DUNGEON">
+    <OnCastStart name="spell_cast_damage_shot" />
+    <OnCastFinished name="spell_impact_teleport_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SNEAKYDASH">
+    <OnCastStart name="spell_sneakydash_warning_01" />
+    <OnCastFinished name="spell_impact_teleport_01" />
+    <OnSpellHit name="spell_impact_teleport_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DASH_SPEAR">
+    <OnCastFinished name="spell_dash_movement_01" />
+    <OnSpellHit name="spell_impact_spear_reckless_charge_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_BUFF_CAST_ARCANE">
+    <OnCastStart name="Play_caststart" />
+    <WhileChanneling name="Play_whilechanneling" />
+    <WhileCasting name="Play_whilecasting" />
+    <OnChannelingEnd name="Play_channelingend" />
+    <OnSpellHit name="Play_spellhit" />
+    <OnCastFinished name="Play_castfinished" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_BUFF_CAST_HEAL">
+    <OnCastStart name="Play_caststart" />
+    <WhileChanneling name="Play_whilechanneling" />
+    <WhileCasting name="Play_whilecasting" />
+    <OnChannelingEnd name="Play_channelingend" />
+    <OnSpellHit name="Play_spellhit" />
+    <OnCastFinished name="Play_castfinished" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_ARCANE">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileCasting name="spell_cast_loop_arcane" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_BOW">
+    <OnCastFinished name="AttackBow" />
+    <OnSpellHit name="ImpactBow" />
+    <WhileCasting name="weapon_bow_draw_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_CROSSBOW">
+    <OnCastFinished name="AttackBow" />
+    <OnSpellHit name="ImpactBow" />
+    <WhileCasting name="weapon_crossbow_draw_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_DEMONIC">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileCasting name="spell_cast_loop_evil" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_FIRE">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileCasting name="spell_cast_loop_fire" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_METEOR">
+    <OnSpellHit name="spell_impact_staff_meteor_01" />
+    <WhileCasting name="spell_cast_loop_fire" />
+    <OnCastFinished name="spell_cast_damage_strike" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_PYROBLAST">
+    <OnSpellHit name="spell_impact_staff_pyroblast_01" />
+    <WhileCasting name="spell_cast_loop_fire" />
+    <OnCastFinished name="spell_cast_damage_strike" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_CAST_FROST">
+    <OnCastFinished name="spell_cast_damage_strike" />
+    <WhileCasting name="spell_cast_loop_frost" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT">
+    <OnCastStart name="spell_cast_damage_shot" />
+    <OnSpellHit name="spell_cast_damage_strike" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_AXE">
+    <OnCastStart name="weapon_axe_attack" />
+    <OnSpellHit name="AttackClawMedium" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_DAGGER">
+    <OnCastStart name="AttackSword" />
+    <OnSpellHit name="AttackKnifeImpact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_DAGGER_HEAVY">
+    <OnCastStart name="AttackSword" />
+    <OnSpellHit name="spell_dagger_execute_heavy_impact_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_HAMMER">
+    <OnCastStart name="weapon_hammer_attack" />
+    <OnSpellHit name="weapon_thrown_axe_impact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_HAMMER_STUN">
+    <OnCastStart name="weapon_hammer_attack" />
+    <OnSpellHit name="spell_impact_stun_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_SWORD">
+    <OnCastStart name="AttackSword"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_QSTAFF">
+    <OnCastStart name="weapon_2h_mace_attack" />
+    <OnSpellHit name="weapon_thrown_axe_impact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_BOW">
+    <OnCastStart name="AttackBow" />
+    <OnSpellHit name="ImpactBow" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DMG_INSTANT_HALBERD">
+    <OnCastStart name="weapon_axe_attack" />
+    <OnSpellHit name="spell_impact_helbard_smash_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HEAL_INSTANT_HEAVY">
+    <OnSpellHit name="spell_holy_staff_desperate_prayer_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_ARCANE">
+    <OnChannelingStart name="spell_impact_buff" />
+    <WhileChanneling name="spell_cast_loop_arcane" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_DEMONIC">
+    <OnChannelingStart name="spell_impact_buff" />
+    <WhileChanneling name="spell_cast_loop_evil" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_BOW">
+    <WhileChanneling name="AttackBow" />
+    <OnSpellHit name="ImpactBow" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_WHIRLWIND_BLADED">
+    <WhileChanneling name="spell_whirlwind_loop_bladed_01" />
+    <OnSpellHit name="HitMediumArmor" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_WHIRLWIND_BLUNT">
+    <WhileChanneling name="spell_whirlwind_loop_blunt_01" />
+    <OnSpellHit name="weapon_thrown_axe_impact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_CHANNEL_HEAL">
+    <WhileChanneling name="spell_cast_loop_heal" />
+    <OnSpellHit name="spell_impact_heal" />
+    <OnChannelingHit name="spell_impact_heal" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HEAL_CAST">
+    <OnCastFinished name="spell_impact_heal" />
+    <WhileCasting name="spell_cast_loop_heal" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_PURGE">
+    <OnSpellHit name="spell_impact_debuff_03" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DASH_WITH_IMPACT">
+    <OnCastStart name="spell_dash_movement_01" />
+    <OnSpellHit name="weapon_thrown_axe_impact" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DASH_ROOT">
+    <OnCastStart name="spell_dash_movement_01" />
+    <OnSpellHit name="spell_impact_root_01" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_WINDWALL">
+    <OnCastStart name="spell_cast_windwall" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HOWL">
+    <OnCastStart name="spell_cast_sonicwave" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_SMOKEBOMB">
+    <OnCastStart name="spell_cast_smokebomb" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_DODGE">
+    <OnCastStart name="spell_cast_dodge" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_IMPACT_FROST">
+    <OnSpellHit name="spell_impact_frost" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_TRAP_PLACEMENT">
+    <OnSpellHit name="spell_cast_beartrap" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_TRAP_IMPACT">
+    <OnSpellHit name="spell_impact_beartrap" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_STORMFIELD">
+    <OnCastFinished name="spell_loop_thunder_shield" /> 
+    <OnSpellHit name="spell_impact_thunder" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_THUNDER">
+    <OnCastStart name="spell_cast_thunder_shield" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_HOLYLIGHT">
+    <OnCastStart name="spell_loop_holylight" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_LIFESAVIOR">
+    <OnCastStart name="spell_impact_lifesavior" />
+  </WwiseEventInfo>
+
+  -->
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--PROJECTILES-->
+  <!--*************************************************************************************************************************************************************-->
+
+  <!-- used as fallbakc if no projectile sound info is assigned -->
+  <WwiseEventInfo name="PROJECTILE_DEFAULT">
+    <OnProjectileInit name="Play_arrow_attack_medium"/>
+  </WwiseEventInfo>
+  
+  <WwiseEventInfo name="PROJECTILE_FIREBALL">
+    <!--<OnProjectileInit name="spell_cast_damage_shot"/>-->
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="PROJECTILE_ARROW">
+    <!--<OnProjectileInit name="weapon_bow_bullet_01"/>-->
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="PROJECTILE_LAVABOMB">
+    <!--<OnProjectileHit name="monster_demon_boss_spitlava_impact"/>-->
+  </WwiseEventInfo>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!-- BUILDINGS / FURNITURE / FARMABLEITEMS -->
+  <!--*************************************************************************************************************************************************************-->
+ <WwiseEventInfo name="FARMABLE_CHICKEN">
+    <OnOpened name="Play_ui_open_chicken"/>
+    <OnPlaced name="Play_ui_open_chicken"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_CHICKEN_BABY">
+    <OnOpened name="Play_ui_open_chicken_baby"/>
+    <OnPlaced name="Play_ui_open_chicken_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GOOSE">
+    <OnOpened name="Play_ui_open_goose"/>
+    <OnPlaced name="Play_ui_open_goose"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GOOSE_BABY">
+    <OnOpened name="Play_ui_open_goose_baby"/>
+    <OnPlaced name="Play_ui_open_goose_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_COW">
+    <OnOpened name="Play_ui_open_cow"/>
+    <OnPlaced name="Play_ui_open_cow"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_COW_BABY">
+    <OnOpened name="Play_ui_open_cow_baby"/>
+    <OnPlaced name="Play_ui_open_cow_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GOAT">
+    <OnOpened name="Play_ui_open_goat"/>
+    <OnPlaced name="Play_ui_open_goat"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GOAT_BABY">
+    <OnOpened name="Play_ui_open_goat_baby"/>
+    <OnPlaced name="Play_ui_open_goat_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_SHEEP">
+    <OnOpened name="Play_ui_open_sheep"/>
+    <OnPlaced name="Play_ui_open_sheep"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_SHEEP_BABY">
+    <OnOpened name="Play_ui_open_sheep_baby"/>
+    <OnPlaced name="Play_ui_open_sheep_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_PIG">
+    <OnOpened name="Play_ui_open_pig"/>
+    <OnPlaced name="Play_ui_open_pig"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_PIG_BABY">
+    <OnOpened name="Play_ui_open_pig_baby"/>
+    <OnPlaced name="Play_ui_open_pig_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_PLANTS">
+    <OnOpened name="Play_ui_open_plants"/>
+    <OnPlaced name="Play_ui_open_plants"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_OX">
+    <OnOpened name="Play_ui_open_ox"/>
+    <OnPlaced name="Play_ui_open_ox"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_OX_BABY">
+    <OnOpened name="Play_ui_open_ox_baby"/>
+    <OnPlaced name="Play_ui_open_ox_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_HORSE">
+    <OnOpened name="Play_ui_open_horse"/>
+    <OnPlaced name="Play_ui_open_horse"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_HORSE_BABY">
+    <OnOpened name="Play_ui_open_horse_baby"/>
+    <OnPlaced name="Play_ui_open_horse_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREWOLF">
+    <OnOpened name="Play_ui_open_direwolf"/>
+    <OnPlaced name="Play_ui_open_direwolf"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREWOLF_BABY">
+    <OnOpened name="Play_ui_open_direwolf_baby"/>
+    <OnPlaced name="Play_ui_open_direwolf_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREBOAR">
+    <OnOpened name="Play_ui_open_direboar"/>
+    <OnPlaced name="Play_ui_open_direboar"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREBOAR_BABY">
+    <OnOpened name="Play_ui_open_direboar_baby"/>
+    <OnPlaced name="Play_ui_open_direboar_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREBEAR">
+    <OnOpened name="Play_ui_open_direbear"/>
+    <OnPlaced name="Play_ui_open_direbear"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DIREBEAR_BABY">
+    <OnOpened name="Play_ui_open_direbear_baby"/>
+    <OnPlaced name="Play_ui_open_direbear_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DRAGON">
+    <OnOpened name="Play_ui_open_dragon"/>
+    <OnPlaced name="Play_ui_open_dragon"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_DRAGON_BABY">
+    <OnOpened name="Play_ui_open_dragon_baby"/>
+    <OnPlaced name="Play_ui_open_dragon_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GIANTSTAG">
+    <OnOpened name="Play_ui_open_stag"/>
+    <OnPlaced name="Play_ui_open_stag"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_GIANTSTAG_BABY">
+    <OnOpened name="Play_ui_open_stag_baby"/>
+    <OnPlaced name="Play_ui_open_stag_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_MAMMOTH">
+    <OnOpened name="Play_ui_open_mammoth"/>
+    <OnPlaced name="Play_ui_open_mammoth"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_MAMMOTH_BABY">
+    <OnOpened name="Play_ui_open_mammoth_baby"/>
+    <OnPlaced name="Play_ui_open_mammoth_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_COUGAR">
+    <OnOpened name="Play_ui_open_cougar"/>
+    <OnPlaced name="Play_ui_open_cougar"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_COUGAR_BABY">
+    <OnOpened name="Play_ui_open_cougar_baby"/>
+    <OnPlaced name="Play_ui_open_cougar_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_MOABIRD">
+    <OnOpened name="Play_ui_open_moa"/>
+    <OnPlaced name="Play_ui_open_moa"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="FARMABLE_MOABIRD_BABY">
+    <OnOpened name="Play_ui_open_moa_baby"/>
+    <OnPlaced name="Play_ui_open_moa_baby"/>
+  </WwiseEventInfo>
+
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--NPC-->
+  <!--*************************************************************************************************************************************************************-->
+  
+  <WwiseSwitchInfo name="NPC_ALCHEMIST">
+    <NpcType name="alchemist"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="NPC_ARENAMASTER">
+    <NpcType name="arena_guard"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ARTIFACT_FOUNDRY">
+    <NpcType name="artifact_foundry"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_BLACKMARKET">
+    <NpcType name="blackmarket"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_BUTCHER">
+    <NpcType name="butcher"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CARPENTER">
+    <NpcType name="carpenter"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_COOK">
+    <NpcType name="cook"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ENERGY_MANIPULATOR">
+    <NpcType name="energy_manipulator"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_EXPEDITION_MASTER">
+    <NpcType name="expedition_master"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_FARMING_MERCHANT">
+    <NpcType name="farming_merchant"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_FORGE">
+    <NpcType name="forge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_HUNTERSLODGE">
+    <NpcType name="hunterslodge"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ISLAND_MERCHANT">
+    <NpcType name="island_merchant"/>
+  </WwiseSwitchInfo>
+  
+  <WwiseSwitchInfo name="NPC_LABORER_FEMALE">
+    <NpcType name="laborer_female"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_LABORER_MALE">
+    <NpcType name="laborer_male"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_MAGE_TOWER">
+    <NpcType name="mage_tower"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_MARKETPLACE">
+    <NpcType name="marketplace"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_MILL">
+    <NpcType name="mill"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_REPAIRSHOP">
+    <NpcType name="repairshop"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ROYAL_COMMANDER">
+    <NpcType name="royal_commander"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ROYAL_CRAFTER">
+    <NpcType name="royal_crafter"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_ROYAL_SOLDIER">
+    <NpcType name="royal_soldier"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_SADDLER">
+    <NpcType name="saddler"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_SIEGE_CAMP">
+    <NpcType name="siege_camp"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_SMELTER">
+    <NpcType name="smelter"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_STONEMASONRY">
+    <NpcType name="stone_masonry"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TANNERY">
+    <NpcType name="tannery"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TERRITORY_MANAGER">
+    <NpcType name="territory_manager"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TOOLMAKER">
+    <NpcType name="toolmaker"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TOWNHALL">
+    <NpcType name="townhall"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TRAVEL_PLANNER_LAND">
+    <NpcType name="travel_planner_land"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_TRAVEL_PLANNER_SEA">
+    <NpcType name="travel_planner_sea"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_VANITY_MERCHANT">
+    <NpcType name="vanity_merchant"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_WEAVINGMILL">
+    <NpcType name="weavingmill"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_WORKBENCH">
+    <NpcType name="workbench"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CITY_COMMANDER_STEPPE">
+    <NpcType name="commander_steppe"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CITY_COMMANDER_FOREST">
+    <NpcType name="commander_forest"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CITY_COMMANDER_MOUNTAIN">
+    <NpcType name="commander_mountain"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CITY_COMMANDER_HIGHLAND">
+    <NpcType name="commander_highland"/>
+  </WwiseSwitchInfo>
+
+  <WwiseSwitchInfo name="NPC_CITY_COMMANDER_SWAMP">
+    <NpcType name="commander_swamp"/>
+  </WwiseSwitchInfo>
+  <!--
+    Arena_guard switch is defined in code in ArenaAgentObjectView.cs
+    Expedition_agent switch is defined in code in ExpeditionNarratorObjectView.cs  
+  -->
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--CLUSTER EFFECTS -->
+  <!--*************************************************************************************************************************************************************-->
+
+  <WwiseGlobalEnvironmentEffect name="dungeon_morgana">
+    <ClusterTypes name="Dungeon"/>
+    <MobFaction name="Morgana"/>
+  </WwiseGlobalEnvironmentEffect>
+
+  <WwiseGlobalEnvironmentEffect name="dungeon_heretic">
+    <ClusterTypes name="Dungeon"/>
+    <MobFaction name="Heretic"/>
+  </WwiseGlobalEnvironmentEffect>
+  
+  <WwiseGlobalEnvironmentEffect name="dungeon_hell">
+    <ClusterTypes name="Dungeon"/>
+  </WwiseGlobalEnvironmentEffect>
+  
+  <WwiseGlobalEnvironmentEffect name="arena">
+    <ClusterTypes name="Arena"/>    
+  </WwiseGlobalEnvironmentEffect>
+
+  <!--*************************************************************************************************************************************************************-->
+  <!--CLUSTER STATE OVERWRITES -->
+  <!--*************************************************************************************************************************************************************-->
+
+  <WwiseClusterStateOverwrite clustername="Torturer_EXP_FR_T6_MOR">
+    <Environment name="Dungeon"/>
+    <Biom name="Forest"/>
+    <SubBiom name="None"/>
+    <MobFaction name="Morgana"/>
+    <Music name="Dungeon"/>
+  </WwiseClusterStateOverwrite>
+
+  <!--Arena Custom Matches-->
+  <WwiseClusterStateOverwrite clustername="ARENA-Resources_ARE_FR_T7_NON">
+    <Environment name="World"/>
+    <Biom name="Forest"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="Arena"/>
+    <GlobalEnvironmentEffect name="forest"/>
+  </WwiseClusterStateOverwrite>
+
+  <WwiseClusterStateOverwrite clustername="ARENA-HomeTerritory_ARE_HL_T7_NON_ROY">
+    <Environment name="World"/>
+    <Biom name="Highlands"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="Arena"/>
+    <GlobalEnvironmentEffect name="highlands"/>
+  </WwiseClusterStateOverwrite>
+
+  <WwiseClusterStateOverwrite clustername="ARENA-FarmLand_ARE_HL_T7_NON_ROY">
+    <Environment name="World"/>
+    <Biom name="Highlands"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="Arena"/>
+    <GlobalEnvironmentEffect name="highlands"/>
+  </WwiseClusterStateOverwrite>
+
+  <!--Crystal Realms-->
+  <WwiseClusterStateOverwrite clustername="CrystalRealm_ARE_ST_T4_NON_ROY">
+    <Environment name="Crystalrealm"/>
+    <Biom name="Steppe"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="Arena"/>
+    <GlobalEnvironmentEffect name="crystalrealm"/>
+  </WwiseClusterStateOverwrite>
+
+  <!--Hall of Fame-->
+  <WwiseClusterStateOverwrite clustername="3010_CTY_HL_T1_NON">
+    <Environment name="HallOfFame"/>
+    <Biom name="Forest"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="HallOfFame"/>
+    <GlobalEnvironmentEffect name="hall_of_fame"/>
+  </WwiseClusterStateOverwrite>
+
+  <!--Carleon Auction House-->
+  <WwiseClusterStateOverwrite clustername="3005_CTY_HL_T7_NON">
+    <Environment name="Bank"/>
+    <Biom name="Forest"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="None"/>
+    <GlobalEnvironmentEffect name="hall_of_fame"/>
+  </WwiseClusterStateOverwrite>
+
+  <!--Carleon Bank-->
+  <WwiseClusterStateOverwrite clustername="3006_CTY_HL_T7_NON">
+    <Environment name="Bank"/>
+    <Biom name="Forest"/>
+    <SubBiom name="Dead"/>
+    <MobFaction name="None"/>
+    <Music name="None"/>
+    <GlobalEnvironmentEffect name="hall_of_fame"/>
+  </WwiseClusterStateOverwrite>
+  
+  <!--***********************************************************-->
+  <!--*************    Audio for Vanity Items     ***************-->
+  <!--***********************************************************-->
+  
+   <WwiseEventInfo name="VANITY_XMAS_HEAD">
+    <OnCastFinished name="Play_spell_snow_hut"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="VANITY_CONSUMABLE_FIREWORKS">
+    <OnCastFinished name="Play_caststart"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="VANITY_CONSUMABLE_SNOWBALL">
+    <OnSpellHit name="Play_caststart"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_SUMMONING">
+    <OnCastStart name="Play_easter_cast_mob"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_SUMMONING_PORTAL">
+    <OnProjectileHit name="Play_portal_gun_portal_spawn"/>
+    <!--
+    <OnCastFinished name="Play_portal_gun_portal_spawn"/>
+    -->
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_SUMMONING_PORTAL_MOB">
+    <OnCastStart name="Play_portal_gun_mob_spawn"/>
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_TRUMPET_FANFARE">
+    <OnChannelingStart name="Play_vanity_trumpet_fanfare" />
+    <OnChannelingEnd name="Stop_vanity_trumpet_fanfare" />
+    <OnChannelingInterrupted name="Stop_vanity_trumpet_fanfare" />
+    <OnChannelingCancelled name="Stop_vanity_trumpet_fanfare" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_TRUMPET_MAINTHEME">
+    <OnChannelingStart name="Play_vanity_trumpet_maintheme" />
+    <OnChannelingEnd name="Stop_vanity_trumpet_maintheme" />
+    <OnChannelingInterrupted name="Stop_vanity_trumpet_maintheme" />
+    <OnChannelingCancelled name="Stop_vanity_trumpet_maintheme" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_VANITY_TRUMPET_FUNERAL">
+    <OnChannelingStart name="Play_vanity_trumpet_funeral" />
+    <OnChannelingEnd name="Stop_vanity_trumpet_funeral" />
+    <OnChannelingInterrupted name="Stop_vanity_trumpet_funeral" />
+    <OnChannelingCancelled name="Stop_vanity_trumpet_funeral" />
+  </WwiseEventInfo>
+</AudioInfos>

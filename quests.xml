@@ -1,0 +1,3099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<quests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quests.xsd">
+  <!-- MISSIONS -->
+  <!-- MISSIONS --><!--
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_A" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_A_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_A_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_A_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="gotoa" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_A_COMPLETIONTEXT" cancelable="false">
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gotolocation locationid="POINT" markedonminimap="true" seconds="2" textloca="@MISSIONS_T2_TUTORIAL_TEST_A1_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER" textloca="@MISSIONS_T2_TUTORIAL_TEST_A2_SIDETEXT" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+    <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_B" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_B_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_B_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_B_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_B_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_A">
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gotolocation locationid="LIGHTHOUSEUP"  textloca="@MISSIONS_T2_TUTORIAL_TEST_B_SIDETEXT" />
+      </missionstep>
+      <missionstep>
+        <gotolocation locationid="LIGHTHOUSETOP" seconds="3" textloca="@MISSIONS_T2_TUTORIAL_TEST_B1_SIDETEXT" />
+      </missionstep>
+        <missionstep>
+        <gotolocation locationid="HERETICS" seconds="3" textloca="@MISSIONS_T2_TUTORIAL_TEST_B2_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+      <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_C" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_C_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_C_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_C_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_C_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_B">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gotolocation locationid="T1_RESOURCES" textloca="@MISSIONS_T2_TUTORIAL_TEST_C_SIDETEXT"/>
+      </missionstep>
+       <missionstep>
+        <gather itemid="T1_ROCK" count="6"/>
+        <gather itemid="T1_WOOD" count="10"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+        <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_D" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_D_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_D_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_D_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_D_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_C">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gotolocation locationid="FORGE" seconds="2" textloca="@MISSIONS_T2_TUTORIAL_TEST_D_SIDETEXT"/>
+        <craftitem itemid="T1_MAIN_SWORD" count="1"/>
+        <craftitem itemid="T1_OFF_SHIELD" count="1"/>
+        <equipitem itemid="T1_MAIN_SWORD" textloca="@MISSIONS_T2_TUTORIAL_TEST_D1_SIDETEXT"/>
+        <selectspell itemid="T1_MAIN_SWORD" textloca="@MISSIONS_T2_TUTORIAL_TEST_D2_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+      <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_E" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_E_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_E_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_E_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_E_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_D">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="GATE" textloca="@MISSIONS_T2_TUTORIAL_TEST_E_SIDETEXT"/>
+      </missionstep>
+      <missionstep>
+        <killmob mobid="T2_MOB_HERETIC_SCAVENGER_TUTORIAL" count="3"/>
+        <killmob mobid="T2_MOB_HERETIC_THIEF" count="1"/>
+       </missionstep>
+      <missionstep>
+        <gotolocation locationid="DESTINYBOARD" seconds="10" textloca="@MISSIONS_T2_TUTORIAL_TEST_E1_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotolocation locationid="CAPTAIN_TIA" textloca="@MISSIONS_T2_TUTORIAL_TEST_E2_SIDETEXT"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+        <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_F" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_F_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_F_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_F_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="gotoa" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_F_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_E" cancelable="false">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+     <dynamicquestgiver name ="CAPTAIN">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="CAPTAIN_TIA"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+       <gotoquestgiver questgivervariable="CAPTAIN" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_G" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_G_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_G_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_G_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captaintia" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_G_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_F">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="SHIP_CHECK" seconds="5" textloca="@MISSIONS_T2_TUTORIAL_TEST_G_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="100"/>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_H" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_H_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_H_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_H_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captaintia" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_H_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_G">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="MARKETPLACE" seconds="15" textloca="@MISSIONS_T2_TUTORIAL_TEST_H_SIDETEXT"/>
+       <acquireitem itemid="T2_MOUNT_MULE" count="1"/>
+         <equipitem itemid ="T2_MOUNT_MULE" textloca="@MISSIONS_T2_TUTORIAL_TEST_H2_SIDETEXT"/>
+      </missionstep>
+      <missionstep>
+        <gotolocation locationid="CRAFTER" seconds="0" textloca="@MISSIONS_T2_TUTORIAL_TEST_H3_SIDETEXT"/>
+      </missionstep>
+       <completionstep> 
+      <gotoquestgiver questgivervariable="CRAFTER" textloca="@MISSIONS_T2_TUTORIAL_TEST_H3_SIDETEXT"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+   <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_I" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_I_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_I_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_I_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_I_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_H">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T1_ROCK" count="6"/>
+        <gather itemid="T1_WOOD" count="6"/>
+      </missionstep>
+       <missionstep>
+        <gotolocation locationid="TOOLMAKER" seconds="3" textloca="@MISSIONS_T2_TUTORIAL_TEST_I_SIDETEXT"/>
+       <acquireitem itemid="T1_2H_TOOL_PICK" count="1"/>
+      <acquireitem itemid="T1_2H_TOOL_AXE" count="1"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_J" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_J_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_J_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_J_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_J_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_I">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <usefunction function="OpenWorldMap" textloca="@MISSIONS_T2_TUTORIAL_TEST_J1_SIDETEXT"/>
+        <gotolocation locationid="MAP" seconds="15" textloca="@MISSIONS_T2_TUTORIAL_TEST_J_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  
+   <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_K" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_K_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_K_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_K_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_K_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_J">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="T2_WOOD" seconds="2" textloca="@MISSIONS_T2_TUTORIAL_TEST_K1_SIDETEXT"/>
+        <gather itemid="T2_WOOD" count="6"/>
+      </missionstep>
+      <missionstep>
+        <gotolocation locationid="T2_ORE" seconds="2" textloca="@MISSIONS_T2_TUTORIAL_TEST_K2_SIDETEXT"/>
+        <gather itemid="T2_ORE" count="6"/>
+      </missionstep>
+      <missionstep>
+        <gotolocation locationid="CRAFTER" seconds="0" textloca="@MISSIONS_T2_TUTORIAL_TEST_H1_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_L" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_L_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_L_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_L_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_L_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_K">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+        <dynamicquestgiver name ="CAPTAIN">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="CAPTAIN_TIA"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="CARPENTER" textloca="@MISSIONS_T2_TUTORIAL_TEST_L1_SIDETEXT"/>
+         <acquireitem itemid="T2_PLANKS" count="6"/>
+      </missionstep>
+      <missionstep>
+        <gotolocation locationid="SMELTER" textloca="@MISSIONS_T2_TUTORIAL_TEST_L2_SIDETEXT"/>
+        <acquireitem itemid="T2_METALBAR" count="6"/>
+      </missionstep>
+        <completionstep>
+       <gotoquestgiver questgivervariable="CAPTAIN" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+   <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_M" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_M_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_M_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_M_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captaintia" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_M_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_L">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+       <missionstep>
+        <gotolocation locationid="SHIP_CHECK" seconds="5" textloca="@MISSIONS_T2_TUTORIAL_TEST_M_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_N" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_N_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_N_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_N_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captaintia" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_N_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_M">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+       <missionstep>
+         <usefunction function="OpenDestinyBoard" textloca="@MISSIONS_T2_TUTORIAL_TEST_N_SIDETEXT"/>
+         <gotolocation locationid="DESTINYBOARD" seconds="10" textloca="@MISSIONS_T2_TUTORIAL_TEST_N1_SIDETEXT"/>
+       </missionstep>
+      <missionstep>
+        <haveavgitempower itempower="300" textloca="@MISSIONS_T2_TUTORIAL_TEST_N2_SIDETEXT"/>
+        <unlockachievement achievement="PVE_T3" masterylevel="0" textloca="@MISSIONS_T2_TUTORIAL_TEST_N3_SIDETEXT"/>
+        <gotolocation locationid="GRIND" seconds="10" textloca="@MISSIONS_T2_TUTORIAL_TEST_N4_SIDETEXT"/>
+      </missionstep>
+      <completionstep>
+       <gotoquestgiver/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_O" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_O_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_O_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_O_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captaintia" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_O_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_N">  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+          <gotolocation locationid="LUMBERER" seconds="0"  textloca="@MISSIONS_T2_TUTORIAL_TEST_O1_SIDETEXT"/>
+        <killmob mobid="T3_MOB_HERETIC_LUMBERJACK_BOSS" count="1"/>
+       </missionstep>
+       <missionstep>
+           <gotolocation locationid="QUARRY" seconds="0" textloca="@MISSIONS_T2_TUTORIAL_TEST_O2_SIDETEXT"/>
+        <killmob mobid="T2_MOB_HERETIC_SCAVENGER" count="5"/>
+       </missionstep>
+       <missionstep>
+           <gotolocation locationid="BALLISTA" seconds="0" textloca="@MISSIONS_T2_TUTORIAL_TEST_O3_SIDETEXT"/>
+        <killmob mobid="T2_MOB_HERETIC_BALLISTA" count="2"/>
+       </missionstep>
+      <missionstep>
+           <gotolocation locationid="THIEF" textloca="@MISSIONS_T2_TUTORIAL_TEST_O4_SIDETEXT"/>
+        <killmob mobid="T2_MOB_HERETIC_THIEF_BOSS" count="1"/>
+       </missionstep>
+      <completionstep>
+       <gotolocation locationid="CAPTAIN_TIA"  textloca="@MISSIONS_T2_TUTORIAL_TEST_O5_SIDETEXT"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+    
+  --><!-- MISSIONS -->
+  
+  <!--Kay Tutorial-->
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="commander" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_COMPLETIONTEXT">
+     <!--GOTO_CRAFTER--> 
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON"
+     mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_TITLE"
+     offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_OFFERTEXT"
+     progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_PROGRESSTEXT"
+     priority="1" minlevel="1" maxlevel="2"
+     tags="crafter"
+     offertimeout="0" questtimeout="3600000" questslotcooldown="0"
+     uicategory="GATHERING" onceonly="true"
+     previousquests="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER"
+selectquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A;MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B;MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C"
+           completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_COMPLETIONTEXT">
+    <!--DECISION QUEST SETUP-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+      <dynamicquestgiver name ="COMMANDER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCOMMANDER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest> 
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT">
+   <!--TOOL_SWORD-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_PICK" count="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T1_2H_TOOL_PICK" />
+        <acquireitem itemid="T1_2H_TOOL_KNIFE" count="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T1_2H_TOOL_KNIFE" />
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT" >
+    <!--TOOL_BOW-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_AXE" count="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T1_2H_TOOL_AXE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT">
+    <!--TOOL_STAFF-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_PICK" count="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T1_2H_TOOL_PICK"/>
+        <acquireitem itemid="T1_2H_TOOL_AXE" count="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T1_2H_TOOL_AXE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_COMPLETIONTEXT">
+    <!--LEARN_MAP-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <usefunction function="OpenWorldMap"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+  <!--SWORD QUEST-->
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - GOTO_Miner-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="MINER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALMINER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="MINER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_MINER_SWORD" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - Miner_ORE-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_ORE" count="16" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ORE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_SWORD" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - Miner_METALBAR-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_METALBAR" count="16" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_METALBAR"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_SWORD" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - GOTO_Hunter-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="2" />
+        <presentresource resourceid="HIDE" tier="2"/>
+      </dynamiccluster>
+        <dynamicquestgiver name ="HUNTER">
+          <distancefromquestgiver mindistance="0" maxdistance="2"/>
+          <questgivertag tag="ROYALHUNTER"/>
+        </dynamicquestgiver>
+     
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="HUNTER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="hunter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP,MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_HUNTER_SWORD" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - Hunter_Hide-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+        <presentresource resourceid="HIDE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_HIDE" count="8" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_HIDE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="hunter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GATHER_HIDE_SWORD" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD_COMPLETIONTEXT">
+    <!--Sword Quest - Hunter_LEATHER-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+        <presentresource resourceid="HIDE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_LEATHER" count="8" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_LEATHER"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="hunter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_REFINE_LEATHER_SWORD" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER_COMPLETIONTEXT">
+    <!--Sword Quest - Return to Town-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+      
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+
+
+
+
+  <!--BOW QUEST-->
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW_COMPLETIONTEXT">
+    <!--Bow Quest - GOTO_Lumberjack-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="LUMBERJACK">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALLUMBERJACK"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="LUMBERJACK" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_BOW" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW_COMPLETIONTEXT">
+    <!--Bow Quest - Lumberjack_Wood-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_WOOD" count="32" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_WOOD"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_BOW" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW_COMPLETIONTEXT">
+    <!--Bow Quest - Lumberjack_Planks-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_PLANKS" count="32" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_PLANK"/>   
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_BOW" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER_COMPLETIONTEXT">
+    <!--Bow Quest - Return to Town-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="HIDE" tier="2"/>
+        <presentresource resourceid="WOOD" tier="2"/>
+        <presentresource resourceid="ORE" tier="2"/>
+        <presentresource resourceid="FIBER" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+  <!--STAFF QUEST-->
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - GOTO_Lumberjack-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="LUMBERJACK">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALLUMBERJACK"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="LUMBERJACK" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_LUMBERJACK_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - Lumberjack_Wood-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_WOOD" count="16" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_WOOD"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GATHER_WOOD_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - Lumberjack_Planks-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_PLANKS" count="16" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_PLANK"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="lumberjack" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_REFINE_WOOD_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - GOTO_Miner-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="2" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="MINER">
+        <distancefromquestgiver mindistance="0" maxdistance="2"/>
+        <questgivertag tag="ROYALMINER"/>
+      </dynamicquestgiver>
+
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="MINER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP,MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_MINER_STAFF" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - Miner_Ore-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_ORE" count="8" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ORE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GATHER_ORE_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF_COMPLETIONTEXT">
+    <!--Staff Quest - Miner_Metalbar-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_METALBAR" count="8" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_METALBAR"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="miner" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_MINER_REFINE_ORE_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER_COMPLETIONTEXT">
+    <!--Staff Quest - Go to Town-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="HIDE" tier="2"/>
+        <presentresource resourceid="WOOD" tier="2"/>
+        <presentresource resourceid="ORE" tier="2"/>
+        <presentresource resourceid="FIBER" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER"/>
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+
+
+
+
+
+  <!--CRAFTING QUEST-->
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_HUNTER_GOTO_CRAFTER" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_COMPLETIONTEXT" >
+    <!--Crafting Quest - Craft Sword-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_MAIN_SWORD" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T2_MAIN_SWORD"/>   
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_LUMBERJACK_GOTO_CRAFTER"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_COMPLETIONTEXT">
+    <!--Crafting Quest - Craft Bow-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_2H_BOW" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T2_2H_BOW"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_MINER_GOTO_CRAFTER"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_COMPLETIONTEXT">
+    <!--Crafting Quest - Craft Staff-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T2_MAIN_FIRESTAFF" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_T2_MAIN_FIRESTAFF"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF" requiresonlyonepreviousquest="true"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_COMPLETIONTEXT">
+    <!--Crafting Quest - Craft Armor + Offhand-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_CLOTH_SET1;T2_HEAD_LEATHER_SET1;T2_HEAD_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_HEAD_ARMOR"/>
+        <craftitem itemid="T2_ARMOR_CLOTH_SET1;T2_ARMOR_LEATHER_SET1;T2_ARMOR_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_CHEST_ARMOR"/>
+        <craftitem itemid="T2_SHOES_CLOTH_SET1;T2_SHOES_LEATHER_SET1;T2_SHOES_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_SHOES_ARMOR"/>
+        <craftitem itemid="T2_OFF_SHIELD;T2_OFF_BOOK" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_OFF_HAND"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_CAPE" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_COMPLETIONTEXT">
+    <!--Crafting Quest - Craft Armor-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_CLOTH_SET1;T2_HEAD_LEATHER_SET1;T2_HEAD_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_HEAD_ARMOR"/>
+        <craftitem itemid="T2_ARMOR_CLOTH_SET1;T2_ARMOR_LEATHER_SET1;T2_ARMOR_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_CHEST_ARMOR"/>
+        <craftitem itemid="T2_SHOES_CLOTH_SET1;T2_SHOES_LEATHER_SET1;T2_SHOES_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_SHOES_ARMOR"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_CAPE" count="1"/>
+    </rewards>
+  </quest>
+
+  
+  <!-- FIGHTING QUEST -->
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_COMPLETIONTEXT" >
+    <!--Fighting Quest - GOTO_Soldier-->
+    <variables>
+      <dynamicquestgiver name ="SOLDIER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALSOLDIER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="SOLDIER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="soldier" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_COMPLETIONTEXT">
+    <!--Fighting Quest - Collect Silver-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gathersilver value="150" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_COLLECT_SILVER"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="soldier" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_NEW_COMPLETIONTEXT">
+    <!--Fighting Quest - Get Donkey-->
+    <variables>
+      <dynamicquestgiver name ="COMMANDER">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALCOMMANDER"/>
+      </dynamicquestgiver>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="QUESTITEM_TOKEN_ROYAL_HORSE" count="1" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_GOTO_MARKETPLACE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver questgivervariable="COMMANDER">
+          <item itemid="QUESTITEM_TOKEN_ROYAL_HORSE" count="1" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_TOKEN_TO_COMMANDER" />
+        </gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_MOUNT_MULE" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="commander" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN_COMPLETIONTEXT">
+    <!--Fighting Quest - Go Captain-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1"/>
+      </dynamiccluster> 
+      <dynamicquestgiver name ="CAPTAIN">
+        <distancefromquestgiver mindistance="1" maxdistance="1"/>
+        <questgivertag tag="ROYALCAPTAIN"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CAPTAIN" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_UNLOCK_FIRST_REAVER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_UNLOCK_FIRST_REAVER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_UNLOCK_FIRST_REAVER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_UNLOCK_FIRST_REAVER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="captain" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CAPTAIN" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_UNLOCK_FIRST_REAVER_COMPLETIONTEXT">
+    <!--Fighting Quest - T4 Reaver-->
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <unlockachievement achievement="PVE_T3" masterylevel="0"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="QUESTITEM_TOKEN_ROYAL_T4" count="2"/>
+    </rewards>
+  </quest>
+
+
+
+  <!--DECISION OPTIONS-->
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A_PROGRESS" priority="4" minlevel="1" maxlevel="2" tags="unused" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="GATHERING" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A_COMPLETIONTEXT">
+    <variables>
+      <dynamicquestgiver name="AGENT_A" includingme="true">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag ="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="AGENT_A"></gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_MAIN_SWORD" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B_PROGRESS" priority="4" minlevel="1" maxlevel="2" tags="unused" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="GATHERING" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B_COMPLETIONTEXT">
+    <variables>
+      <dynamicquestgiver name="AGENT_A" includingme="true">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag ="ROYALCOMMANDER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="AGENT_A"></gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_2H_BOW" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C_PROGRESS" priority="4" minlevel="1" maxlevel="2" tags="unused" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="GATHERING" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C_COMPLETIONTEXT">
+    <variables>
+      <dynamicquestgiver name="AGENT_A" includingme="true">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag ="ROYALSOLDIER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="AGENT_A"></gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_MAIN_FIRESTAFF" count="1"/>
+    </rewards>
+  </quest>
+
+
+  <!--Faction Caravan Missions
+Light-->
+  <playerfactionquest uniquename="MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A" title="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_light">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="4" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="3"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_LIGHT_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TRADETEXT" textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_LIGHT_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="4"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B" title="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_light">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="5" maxdistance="7" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="3"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_LIGHT_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TRADETEXT" textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_LIGHT_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="5"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_C" title="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TITLE"
+  offertext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+  completetext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_light">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="6" maxdistance="8" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="3"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_LIGHT_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TRADETEXT" textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_LIGHT_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="6"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_D" title="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TITLE"
+  offertext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+  completetext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_light">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="7" maxdistance="10" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="3"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_LIGHT_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TRADETEXT" textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_LIGHT_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="7"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <!--Medium-->
+  <playerfactionquest uniquename="MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A" title="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_medium">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="4" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="7"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_MEDIUM_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_MEDIUM_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="9"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B" title="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_medium">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="5" maxdistance="7" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="7"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_MEDIUM_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_MEDIUM_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="10"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+  
+  <playerfactionquest uniquename="MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_C" title="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_medium">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="6" maxdistance="8" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="7"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_MEDIUM_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_MEDIUM_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="11"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+  
+  <playerfactionquest uniquename="MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_D" title="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_medium">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="7" maxdistance="10" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="7"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_MEDIUM_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_MEDIUM_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="13"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+  <!--Heavy-->
+  <playerfactionquest uniquename="MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A" title="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_heavy">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="4" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="15"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_HEAVY_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_HEAVY_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="19"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B" title="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TITLE"
+  offertext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+  completetext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_heavy">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="5" maxdistance="7" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="15"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_HEAVY_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_HEAVY_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="21"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_C" title="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TITLE"
+  offertext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+  completetext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_heavy">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="6" maxdistance="8" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="15"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_HEAVY_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_HEAVY_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="23"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_D" title="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TITLE"
+  offertext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+  completetext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_heavy">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="7" maxdistance="10" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="15"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_HEAVY_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_HEAVY_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="26"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+  
+  <!-- DEBUG FACTION MISSION -->
+  <playerfactionquest uniquename="MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DEBUG" title="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_light">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="0" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_LIGHT" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_LIGHT" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_LIGHT" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_LIGHT" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_LIGHT" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="3"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_LIGHT_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_TRADETEXT" textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_LIGHT_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="6"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DEBUG" title="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_medium">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="0" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_MEDIUM" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_MEDIUM" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_MEDIUM" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_MEDIUM" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_MEDIUM" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="7"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_MEDIUM_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_MEDIUM_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="12"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <playerfactionquest uniquename="MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DEBUG" title="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TITLE"
+   offertext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_OFFERTEXT" progresstext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_PROGRESSTEXT"
+   completetext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_COMPLETIONTEXT" questtimeout="86400" icon="icon_module_tradepack_heavy">
+    <variables>
+      <dynamicplayerfaction name="FACTION_B" includingown="false">
+        <filter faction="Swamp"/>
+        <filter faction="Steppe"/>
+        <filter faction="Forest"/>
+        <filter faction="Highland"/>
+        <filter faction="Mountain"/>
+      </dynamicplayerfaction>
+      <dynamicquestgiver name="AGENTS_A" factionvariable="FACTION_B" maxcount="999">
+        <distancefromquestgiver mindistance="0" maxdistance="6" />
+        <questgivertag tag="faction_outside" />
+      </dynamicquestgiver>
+      <dynamicfactionitem name="ITEM_A" factionvariable="self">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_B" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="QUESTITEM_CARAVAN_TRADEPACK_SWAMP_HEAVY" />
+        <perfaction faction="Forest" item="QUESTITEM_CARAVAN_TRADEPACK_FOREST_HEAVY" />
+        <perfaction faction="Steppe" item="QUESTITEM_CARAVAN_TRADEPACK_STEPPE_HEAVY" />
+        <perfaction faction="Highland" item="QUESTITEM_CARAVAN_TRADEPACK_HIGHLAND_HEAVY" />
+        <perfaction faction="Mountain" item="QUESTITEM_CARAVAN_TRADEPACK_MOUNTAIN_HEAVY" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REQUIRED" factionvariable="self">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+      <dynamicfactionitem name="ITEM_REWARD" factionvariable="FACTION_B">
+        <perfaction faction="Swamp" item="T1_FACTION_SWAMP_TOKEN_1" />
+        <perfaction faction="Steppe" item="T1_FACTION_STEPPE_TOKEN_1" />
+        <perfaction faction="Forest" item="T1_FACTION_FOREST_TOKEN_1" />
+        <perfaction faction="Highland" item="T1_FACTION_HIGHLAND_TOKEN_1" />
+        <perfaction faction="Mountain" item="T1_FACTION_MOUNTAIN_TOKEN_1" />
+      </dynamicfactionitem>
+    </variables>
+    <requirements>
+      <maxloadafteritemsreceived maxload="1"/>
+    </requirements>
+    <costs>
+      <item itemvariable="ITEM_REQUIRED" amount="15"/>
+    </costs>
+    <tasks>
+      <extendedmissionstep applybuff="TRADE_PACK_BUFF_HEAVY_A">
+        <preactions>
+          <receiveitem itemvariable="ITEM_A"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver questgivervariable="AGENTS_A" mustaccept="true" accepttext="@MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_TRADETEXT"  textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP1">
+            <item itemvariable="ITEM_A"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedmissionstep>
+      <extendedcompletionstep applybuff="TRADE_PACK_BUFF_HEAVY_B">
+        <preactions>
+          <receiveitem itemvariable="ITEM_B"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver textloca="@MISSIONS_TRADE_PACK_TO_OUTPOST_STEP2">
+            <item itemvariable="ITEM_B"/>
+          </gotoquestgiver>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+      <item itemvariable="ITEM_REWARD" count="23"/>
+    </rewards>
+    <failconditions>
+      <missionitemloss/>
+      <playerdeath/>
+      <changeflagging/>
+    </failconditions>
+  </playerfactionquest>
+
+  <!-- Old Tutorial
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="commander" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER_COMPLETIONTEXT" >
+  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+      <dynamicquestgiver name ="CRAFTER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCRAFTER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="CRAFTER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON"
+     mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_TITLE"
+     offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_OFFERTEXT"
+     progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_PROGRESSTEXT"
+     priority="1" minlevel="1" maxlevel="2"
+     tags="crafter"
+     offertimeout="0" questtimeout="14400" questslotcooldown="0"
+     uicategory="GATHERING" onceonly="true"
+     previousquests="MISSIONS_T2_TUTORIAL_ROYAL_COMMANDER_GOTO_CRAFTER"
+selectquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A;MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B;MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C"
+           completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CHOOSE_WEAPON_COMPLETIONTEXT">
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+      <dynamicquestgiver name ="COMMANDER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCOMMANDER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest> 
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_A" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT">
+  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_PICK" count="1" />
+        <acquireitem itemid="T1_2H_TOOL_KNIFE" count="1" />
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_B" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT" >
+    
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_AXE" count="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SELECT_OPTION_C" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="T1_2H_TOOL_PICK" count="1"/>
+        <acquireitem itemid="T1_2H_TOOL_AXE" count="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <usefunction function="OpenWorldMap"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD_COMPLETIONTEXT">
+ 
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamiccluster name="LOCATION_B">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="HIDE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_ORE" count="16"/>
+        <gather itemid="T2_HIDE" count="8"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+ 
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_BOW,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW_COMPLETIONTEXT">
+
+  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_WOOD" count="32"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_TOOL_STAFF,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_LEARN_MAP" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamiccluster name="LOCATION_B">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_ORE" count="8"/>
+        <gather itemid="T2_WOOD" count="16"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_SWORD" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD_COMPLETIONTEXT" >
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_METALBAR" count="16"/>
+        <craftitem itemid="T2_LEATHER" count="8"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_BOW" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW_COMPLETIONTEXT" >
+  
+    <variables>
+   <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_PLANKS" count="32"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GATHER_STAFF"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_METALBAR" count="8"/>
+        <craftitem itemid="T2_PLANKS" count="16"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_SWORD" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD_COMPLETIONTEXT" >
+  
+    
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_MAIN_SWORD" count ="1"/>   
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_BOW"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_2H_BOW" count ="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_REFINE_STAFF"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_MAIN_FIRESTAFF" count ="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_SWORD,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_STAFF" requiresonlyonepreviousquest="true"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF_COMPLETIONTEXT">
+  
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_CLOTH_SET1;T2_HEAD_LEATHER_SET1;T2_HEAD_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_HEAD_ARMOR"/>
+        <craftitem itemid="T2_ARMOR_CLOTH_SET1;T2_ARMOR_LEATHER_SET1;T2_ARMOR_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_CHEST_ARMOR"/>
+        <craftitem itemid="T2_SHOES_CLOTH_SET1;T2_SHOES_LEATHER_SET1;T2_SHOES_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_SHOES_ARMOR"/>
+        <craftitem itemid="T2_OFF_SHIELD;T2_OFF_BOOK" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_OFF_HAND"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_CAPE" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_BOW"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR_COMPLETIONTEXT">
+    
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_CLOTH_SET1;T2_HEAD_LEATHER_SET1;T2_HEAD_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_HEAD_ARMOR"/>
+        <craftitem itemid="T2_ARMOR_CLOTH_SET1;T2_ARMOR_LEATHER_SET1;T2_ARMOR_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_CHEST_ARMOR"/>
+        <craftitem itemid="T2_SHOES_CLOTH_SET1;T2_SHOES_LEATHER_SET1;T2_SHOES_PLATE_SET1" count ="1" textloca="@MISSIONS_DESCRIPTION_CRAFTITEM_ANY_SHOES_ARMOR"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_CAPE" count="1"/>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMORANDOFF,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_CRAFT_ARMOR" requiresonlyonepreviousquest="true" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER_COMPLETIONTEXT" >
+    
+    <variables>
+      <dynamicquestgiver name ="SOLDIER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALSOLDIER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="SOLDIER" />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="soldier" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GOTO_SOLDIER"  completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC_COMPLETIONTEXT">
+   
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gathersilver value="150" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_COLLECT_SILVER"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="soldier" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" previousquests="MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_KILL_HERETIC" completetext="@MISSIONS_T2_TUTORIAL_ROYAL_SOLDIER_GOTO_COMMANDER_COMPLETIONTEXT">
+  
+    <variables>
+      <dynamicquestgiver name ="COMMANDER">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="ROYALCOMMANDER"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <missionstep>
+        <acquireitem itemid="QUESTITEM_TOKEN_ROYAL_HORSE" count="1" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_GOTO_MARKETPLACE"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver questgivervariable="COMMANDER">
+          <item itemid="QUESTITEM_TOKEN_ROYAL_HORSE" count="1" textloca="@MISSIONS_T2_TUTORIAL_ROYAL_TOKEN_TO_COMMANDER" />
+        </gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <item itemid="T2_MOUNT_MULE" count="1"/>
+    </rewards>
+  </quest> -->
+
+  <!--Commented out for Update Galahad--><!--
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_AKINDOMFORAHORSE" mobfaction="ROYALARMY" title="@AKINDOMFORAHORSE" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="start" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="FIGHTING" >
+    
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+      </dynamiccluster>
+      <dynamicquestgiver name ="AGENT_1" includingme="false">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      
+      <completionstep>
+        <gotoquestgiver questgivervariable="AGENT_1" />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_SWORDANDSHIELD" mobfaction="ROYALARMY" title="@SWORDANDSHIELD" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="7" minlevel="1" maxlevel="2" tags="standard" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING" >
+    --><!-- SwordAndShield Mission --><!--
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+       <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamiccluster name="LOCATION_B">
+        <distancetocluster mindistance="0" maxdistance="1" />
+        <presentresource resourceid="HIDE" tier="2"/> 
+      </dynamiccluster>
+      <dynamiccluster name="LOCATION_C">
+        <distancetocluster mindistance="0" maxdistance="1" />
+        <presentresource resourceid="WOOD" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gotocluster cluster="LOCATION_A"/>
+        <gotocluster cluster="LOCATION_B"/>
+        <gotocluster cluster="LOCATION_C"/>
+
+        <gather itemid="T2_ORE" count="20" cluster="LOCATION_A" />
+        <gather itemid="T2_HIDE" count="8" cluster="LOCATION_B"/>
+        <gather itemid="T2_WOOD" count="4" cluster="LOCATION_C"/>
+      </missionstep>
+      <missionstep>
+        
+        <craftitem itemid="T2_METALBAR" count="20"/>
+        <craftitem itemid="T2_LEATHER" count="8"/>
+        <craftitem itemid="T2_PLANKS" count="4"/>
+      </missionstep>
+      <missionstep>
+        <craftitem itemid="T2_OFF_SHIELD" count ="1"/>
+        <craftitem itemid="T2_MAIN_SWORD" count ="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GENERIC_STAFFANDBOOK" mobfaction="ROYALARMY" title="@STAFFANDBOOK" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="6" minlevel="1" maxlevel="2" tags="standard" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING" >
+    --><!-- StaffAndBook Mission --><!--
+  <variables>
+    <dynamiccluster name="LOCATION_A">
+      <distancetocluster mindistance="0" maxdistance="1" />
+     --><!-- <presentresource resourceid="ORE" tier="2"/>
+      <presentresource resourceid="HIDE" tier="2"/>
+      <presentresource resourceid="WOOD" tier="2"/>
+      <presentresource resourceid="FIBER" tier="2"/>--><!--
+     </dynamiccluster>
+  </variables>
+  <tasks>
+    <missionstep>
+      <gather itemid="T2_ORE" count="8" />
+      <gather itemid="T2_HIDE" count="4" />
+      <gather itemid="T2_WOOD" count="16" />
+      <gather itemid="T2_FIBER" count="4" />
+    </missionstep>
+    <missionstep>
+      <craftitem itemid="T2_METALBAR" count="8"/>
+      <craftitem itemid="T2_LEATHER" count="4"/>
+      <craftitem itemid="T2_PLANKS" count="16"/>
+      <craftitem itemid="T2_CLOTH" count="4"/>
+    </missionstep>
+    <missionstep>
+      <craftitem itemid="T2_MAIN_FIRESTAFF" count ="1"/>
+      <craftitem itemid="T2_OFF_BOOK" count ="1"/>
+    </missionstep>
+    <completionstep>
+      <gotoquestgiver />
+    </completionstep>
+  </tasks>
+  <rewards>
+    <silver absolute="915" />
+  </rewards>
+  </quest>
+
+
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST3" mobfaction="ROYALARMY" title="@TEST3" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" previousquests="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST2, T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST1,MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GENERIC_STAFFANDBOOK"  progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="5" minlevel="1" maxlevel="2" tags="hope" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING" >
+    --><!-- Bow Mission --><!--
+    <variables>
+
+      <dynamicquestgiver name="T2_BOB">
+        <presentagent agentid="T2_AGENT_ROYALARMY_COMBAT_TEST"/>
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="T2_BOB"></gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+  
+  
+  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_ROYAL_CRAFTER_GENERIC_BOW" nextmission="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST3" mobfaction="ROYALARMY" title="@BOW" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" previousquests="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST2, T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST1"  progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="5" minlevel="1" maxlevel="2" tags="hope" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING" onceonly="true">
+    --><!-- Bow Mission --><!--
+    <variables>
+
+      <dynamicquestgiver name="T2_BOB">
+        --><!--<presentagent agentid="T2_AGENT_ROYALARMY_COMBAT_TEST"/>--><!--
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="T2_BOB"></gotoquestgiver>
+      </completionstep>
+      </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST2" nextmission="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST1" mobfaction="ROYALARMY" title="@TEST2" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="5" minlevel="1" maxlevel="2" tags="test" offertimeout="0" questtimeout="14400" questslotcooldown="600" uicategory="GATHERING">
+    --><!-- HeavyArmor Mission --><!--
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="1" maxdistance="1" />
+        <presentresource resourceid="ORE" tier="2"/>
+      </dynamiccluster>
+      <dynamicquestgiver name="T2_BOB">
+        --><!--<presentagent agentid="T2_AGENTSOCKET_1109_ROYALARTISAN_HUNTER_01"/>--><!--
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="T2_AGENTSOCKET_1109_ROYALARTISAN_HUNTER_01"></gotoquestgiver>     
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+ 
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_TEST1" mobfaction="ROYALARMY" title="@TEST1" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="4" minlevel="1" maxlevel="2" tags="whatever" offertimeout="0" questtimeout="14400" questslotcooldown="600" uicategory="GATHERING">
+    --><!-- HeavyArmor Mission --><!--
+    <variables>
+
+      <dynamicquestgiver name="T2_BOB">
+        --><!--<presentagent agentid="T2_AGENT_ROYALARMY_COMBAT_TEST"/>--><!--
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+      </dynamicquestgiver>
+    </variables>
+    <tasks>
+      <completionstep>
+        <gotoquestgiver questgivervariable="T2_BOB"></gotoquestgiver>
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_MEDIUMARMOR" mobfaction="ROYALARMY" title="@MEDIUMARMOR" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="3" minlevel="1" maxlevel="2" tags="standard" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING"  previousquests="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_HEAVYARMOR" >
+    --><!-- MediumArmor Mission --><!--
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+         <presentresource resourceid="HIDE" tier="2"/>
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_HIDE" count="32" />
+      </missionstep>
+      <missionstep>
+        <craftitem itemid="T2_LEATHER" count="32"/>
+      </missionstep>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_LEATHER_SET1" count ="1"/>
+        <craftitem itemid="T2_ARMOR_LEATHER_SET1" count ="1"/>
+        <craftitem itemid="T2_SHOES_LEATHER_SET1" count ="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+  
+  <quest uniquename="T2_MISSION_COMBAT_ROYALARMY_HERETIC_GENERIC_LIGHTARMOR" mobfaction="ROYALARMY" title="@LIGHTARMOR" offertext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_OFFERTEXT" progresstext="@MISSIONS_T2_COMBAT_ROYALARMY_HERETIC_GENERIC_1_PROGRESSTEXT" priority="2" minlevel="1" maxlevel="2" tags="standard" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING" >
+    --><!-- LightArmor Mission -->
+    <!--
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+         <presentresource resourceid="FIBER" tier="2"/>
+       </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_FIBER" count="32" />
+      </missionstep>
+      <missionstep>
+        <craftitem itemid="T2_CLOTH" count="32"/>
+      </missionstep>
+      <missionstep>
+        <craftitem itemid="T2_HEAD_CLOTH_SET1" count ="1"/>
+        <craftitem itemid="T2_ARMOR_CLOTH_SET1" count ="1"/>
+        <craftitem itemid="T2_SHOES_CLOTH_SET1" count ="1"/>
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="915" />
+    </rewards>
+  </quest>
+
+  <quest uniquename="T2_MISSION_GATHER_ROYALFORAGER_WARRIOR_1" faction="ROYALFORAGER" title="@MISSIONS_T2_GATHER_ROYALFORAGER_WARRIOR_1_TITLE" offertext="@MISSIONS_T2_GATHER_ROYALFORAGER_WARRIOR_1_OFFERTEXT" progresstext="@MISSIONS_T2_GATHER_ROYALFORAGER_WARRIOR_1_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" silverrequired="710" tags="standard" offertimeout="0" questtimeout="14400" questslotcooldown="0" uicategory="GATHERING">
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="0" />
+        <presentresource resourceid="ORE" tier="2" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <missionstep>
+        <gather itemid="T2_ORE" count="63" />
+        <gather itemid="T2_HIDE" count="8" />
+      </missionstep>
+      <completionstep>
+        <gotoquestgiver />
+      </completionstep>
+    </tasks>
+    <rewards>
+      <silver absolute="710" />
+    </rewards>
+  </quest>
+-->
+    
+</quests>
+
+
+
+
+
