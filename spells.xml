@@ -6478,7 +6478,11 @@
     <unlockavatar unlocktype="avatarring" unlockname="AVATARRING_TELLAFRIEND" target="self"/>
     <spellvfx event="OnSpellHit" target="self" prefab="FX/ClientPrefabs/fx_spell_holy_heal_impact_large" socket="floor" constraintpreset="pointconstraint" />
   </activespell>
-  
+  <activespell uniquename="UNIQUE_AVATARRING_TELLAFRIEND_02_SPELL" target="self" castingtime="0" recastdelay="0" energyusage="0" castrange="0" hitdelay="0.2" standtime="0.8" castanimation="ability_eat" keepmovingaftercast="true" uitype="heal" uisprite="BUFF_CCR" category="foodbuff" neutraleffect="true" buffpriority="10">
+    <unlockavatar unlocktype="avatarring" unlockname="AVATARRING_TELLAFRIEND_02" target="self"/>
+    <spellvfx event="OnSpellHit" target="self" prefab="FX/ClientPrefabs/fx_spell_holy_heal_impact_large" socket="floor" constraintpreset="pointconstraint" />
+  </activespell>
+
   <!-- GvG Season Avatars -->
   <activespell uniquename="UNIQUE_AVATAR_GVGSEASON_04_SPELL" target="self" castingtime="0" recastdelay="0" energyusage="0" castrange="0" hitdelay="0.2" standtime="0.8" castanimation="ability_eat" keepmovingaftercast="true" uitype="heal" uisprite="BUFF_CCR" category="foodbuff" neutraleffect="true" buffpriority="10">
     <unlockavatar unlocktype="avatar" unlockname="GVGSEASON_04" target="self"/>

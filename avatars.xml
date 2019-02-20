@@ -61,7 +61,9 @@
     <avatarring name="RING_FOUNDER_ELITE_01" locked="false" minfounderneeded="epic"/>
     <avatarring name="RING_FOUNDER_LEGENDARY_01" locked="false" minfounderneeded="legendary"/>
 
+    <!-- Other Rings -->
     <avatarring name="AVATARRING_TELLAFRIEND" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_TELLAFRIEND_02" locked="true" hidden="true"/>
 
     <!-- GvG Season Rings -->
     <avatarring name="RING_GVGSEASONREWARD_1ST" locked="true" hidden="true"/>
