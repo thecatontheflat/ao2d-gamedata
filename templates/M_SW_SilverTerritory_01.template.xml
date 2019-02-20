@@ -3631,5 +3631,10 @@
     <tile name="INVISIBLE_COLLISON_STRAIGHT" pos="0 0 31.5" />
     <tile name="INVISIBLE_COLLISON_STRAIGHT" pos="-4.5 0 26" roty="90" />
     <tile name="INVISIBLE_COLLISON_STRAIGHT" pos="4.5 0 26" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -24 -10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -24 10" />
   </tiles>
 </template>

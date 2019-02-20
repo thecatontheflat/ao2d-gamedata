@@ -3034,6 +3034,7 @@
     <tile name="FOREST_GREEN_UND_STONES_FALLEN_A" pos="217 -4 -70" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_TOP_STRAIGHT_A" pos="160 8 -130" roty="270" />
     <tile name="FOREST_GREEN_FILL_HUMAN_BONES_A" pos="178.5 -4 -116.5" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A" pos="272 -4 -123" roty="90" />
     <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_B" pos="220 -4 160" />
     <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_B" pos="220 -4 120" />
     <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_B" pos="220 -4 130" />
@@ -6829,6 +6830,9 @@
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-200 -14 -170" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-240 -14 -170" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-220 -14 -170" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_BLUE_C" pos="-224 -4 -260.5" roty="10" />
+    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_END_BLUE_B" pos="-228.92 -4 -259.63" roty="190" />
+    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_END_BLUE_B" pos="-219.08 -4 -261.37" roty="10" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-250 -14 -170" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-260 -40 -210" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-210 -32 -260" roty="270" />
@@ -6854,9 +6858,6 @@
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-240 -32 -260" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-300 -36 -230" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-240 -32 -190" roty="90" />
-    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_BLUE_C" pos="-224 -4 -260.5" roty="10" />
-    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_END_BLUE_B" pos="-228.92 -4 -259.63" roty="190" />
-    <tile name="FOREST_GREEN_UND_CRYPT_CARPET_END_BLUE_B" pos="-219.08 -4 -261.37" roty="10" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-310 -18 -210" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-280 -36 -190" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-310 -18 -240" roty="270" />

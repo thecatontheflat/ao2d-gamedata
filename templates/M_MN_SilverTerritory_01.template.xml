@@ -3209,5 +3209,9 @@
     <tile name="HIGHLAND_GREEN_WATER_8M_river_NO_COLLISION_OBJECT" pos="0 -12 70" />
     <compoundtile name="_MOUNTAIN_GREEN_FILL_DRYWOOD_10x10_COMP_01" pos="-19 0 -68" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-7.53 8.58 44.4" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -24 -10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -24 -10" />
   </tiles>
 </template>

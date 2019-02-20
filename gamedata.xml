@@ -85,7 +85,7 @@
       <!-- order is important: immunity LAST (obvious, right?) -->
     </SpawnBuff>
     <Logout timeseconds="60" inactivitylogoutminutes="30" />
-    <InCombat activetimeoutseconds="30" passivetimeoutseconds="30"/>
+    <InCombat activetimeoutseconds="20" passivetimeoutseconds="20"/>
     <FurnitureObjects placetimeseconds="3"/>
     <FarmableObjects placetimeseconds="1"/>
     <SpellCooldowns onequipmentchange="10" onmount="5"/>
@@ -216,9 +216,9 @@
         bonusdamagevsplayers="1.16"
         bonusdefensevsmobs="1.16"
         bonusdefensevsplayers="1.16"
-        energycostreduction="1"
+        energycostreduction="1.16"
         energyregenerationbonus="1"
-        healbonus="1"
+        healbonus="1.16"
         healmodifier="1.16"
         hitpointsregenerationbonus="1"
         magicattackdamagebonus="1.16"
@@ -487,9 +487,9 @@
         magiccooldownreduction="false"/>
 
       <armorshare head="0.0" armor="1.0" shoes="0.0" mainhand="0.0" shield="0.0" book="0.0" torch="0.0" cape="0.0" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.0" demonskull="0.0" totem="0.0"/>
-      <ccrshare head="0.0" armor="1.0" shoes="0.0" mainhand="0.0" shield="0.36" book="0.0" torch="0.0" cape="0.0" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.0" demonskull="0.0" totem="0.0"/>
-      <hitpointsshare head="0.25" armor="0.5" shoes="0.25" mainhand="0.0" shield="0.0" book="0.0" torch="0" cape="0.0" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.0" demonskull="0.0" totem="0.5"/>
-      <energyshare head="0.5" armor="0.25" shoes="0.15" mainhand="0.0" shield="0.0" book="0.15" torch="0.0" cape="0.10" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.4" demonskull="0.0" totem="0.0"/>
+      <ccrshare head="0.0" armor="1.0" shoes="0.0" mainhand="0.0" shield="0.60" book="0.0" torch="0.0" cape="0.0" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.0" demonskull="0.0" totem="0.0"/>
+      <hitpointsshare head="0.25" armor="0.5" shoes="0.25" mainhand="0.0" shield="0.0" book="0.0" torch="0" cape="0.0" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.0" demonskull="0.0" totem="0.42"/>
+      <energyshare head="0.5" armor="0.25" shoes="0.15" mainhand="0.0" shield="0.0" book="0.15" torch="0.0" cape="0.10" towershield="0.0" skullshield="0.0" spikedshield="0.0" horn="0.0" cane="0.0" lamp="0.0" orb="0.5" demonskull="0" totem="0.0"/>
     </ItemPowerProgression>
     <QualityLevels>
       <qualitylevel level="2" itempowerbonus="10"/>
@@ -512,8 +512,8 @@
 
     <attribute name="AttackDamage" min="-0.8" max="1.5" absolutemin="1"/>
     <attribute name="AttackSpeedBonus" min="-1" max="1.2" />
-    <attribute name="PhysicalAttackDamageBonus" min="-0.8" max="2"/>
-    <attribute name="MagicAttackDamageBonus" min="-0.8" max="2"/>
+    <attribute name="PhysicalAttackDamageBonus" min="-0.8" max="3"/>
+    <attribute name="MagicAttackDamageBonus" min="-0.8" max="3"/>
 
     <attribute name="PhysicalSpellDamageBonus" min="-0.8" max="1.5"/>
     <attribute name="MagicSpellDamageBonus" min="-0.8" max="1.5"/>

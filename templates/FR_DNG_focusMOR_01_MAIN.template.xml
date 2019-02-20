@@ -12094,7 +12094,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="30 -96 -250" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="80 -96 270" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-260 -96 280" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="50 -96 70" roty="0" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="50 -96 70" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-110 -96 -270" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-20 -96 -190" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-50 -96 230" roty="0" />
@@ -12454,7 +12454,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-130 -96 190" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="220 -96 -190" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-170 -96 260" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="21 -96 18" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="20 -96 20" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-200 -96 -90" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="40 -96 40" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-120 -96 260" roty="0" />
@@ -12918,7 +12918,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="140 -96 -130" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-50 -96 -60" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-180 -96 210" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="52 -96 60" roty="0" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="50 -96 60" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-80 -96 230" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-260 -96 -110" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="80 -96 -30" roty="0" />
@@ -13379,7 +13379,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="240 -96 -280" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="210 -96 -70" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="80 -96 -130" roty="0" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="21 -96 28" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="20 -96 30" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-210 -96 -150" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-140 -96 80" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="220 -96 -30" roty="0" />
@@ -14119,7 +14119,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-270 -96 270" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-100 -96 -110" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-70 -96 160" roty="0" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="21 -96 38" roty="0" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="20 -96 40" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="210 -96 -50" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-20 -96 -100" roty="0" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJECT" pos="-20 -96 200" roty="0" />

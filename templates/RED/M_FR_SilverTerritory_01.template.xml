@@ -3012,5 +3012,9 @@
     <compoundtile name="_FOREST_RED_BUSHES_10x10_COMP_01" pos="-14 -8 -65" />
     <compoundtile name="_FOREST_RED_BUSHES_10x10_COMP_01" pos="-34 -8 -52" />
     <compoundtile name="_FOREST_RED_BUSHES_10x10_LINE_COMP_01" pos="-8 -8 -65" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -24 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -24 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -24 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -24 0" />
   </tiles>
 </template>

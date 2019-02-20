@@ -2067,6 +2067,9 @@
     <tile name="FOREST_RED_FILL_PLATEAU_SMALL_B_NOCOL_OBJ" pos="-14 -9 28" roty="173" />
     <tile name="FOREST_RED_FILL_PLATEAU_SMALL_B_NOCOL_OBJ" pos="-5 -10 43" roty="173" />
     <tile name="FOREST_RED_FILL_PLATEAU_SMALL_B_NOCOL_OBJ" pos="-1 -14 42" rot="2 353 16" />
+    <tile name="FOREST_RED_FILL_DEAD_STUMP_SMALL_A" pos="37 4 10" roty="90" />
+    <tile name="FOREST_RED_T1_BUSH_C" pos="38.5 4 6.5" />
+    <tile name="FOREST_RED_T1_BUSH_B" pos="39.5 4 8.5" roty="90" />
     <tile name="FOREST_RED_T1_BUSH_A" pos="-119.5 0 -38.5" roty="218" />
     <tile name="FOREST_RED_T1_BUSH_A" pos="-27.5 0 21.5" roty="227" />
     <tile name="FOREST_RED_T1_BUSH_A" pos="-52.5 0 99.5" roty="314" />
@@ -2236,7 +2239,6 @@
     <tile name="FOREST_RED_T1_BUSH_C" pos="-48.5 6 -18.5" roty="256" />
     <tile name="FOREST_RED_T1_BUSH_C" pos="-52.5 7 0.5" roty="76" />
     <tile name="FOREST_RED_FILL_ROOTS_PLATEAU_STRAIGHT_A" pos="32 1 -5" rot="357 145 7" />
-    <tile name="FOREST_RED_FILL_ROOTS_PLATEAU_CORNER_B" pos="37 1 6" roty="90" />
     <tile name="FOREST_RED_VEG_FERN_A" pos="-145.5 0 -96.5" roty="79" />
     <tile name="FOREST_RED_VEG_FERN_A" pos="-13.5 0 -106.5" roty="98" />
     <tile name="FOREST_RED_VEG_FERN_A" pos="31.5 8 -79.5" roty="6" />
@@ -3489,7 +3491,7 @@
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="32 8 -80" />
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="71 0 -51" />
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="87 8 -48" roty="270" />
-    <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="35 7 9" />
+    <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="32 7 9" />
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="49 8 48" roty="270" />
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="50 8 33" roty="180" />
     <tile name="FOREST_RED_FILL_TREE_GIANT_B" pos="35 3 72" />

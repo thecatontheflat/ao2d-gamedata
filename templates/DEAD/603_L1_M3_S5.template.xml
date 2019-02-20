@@ -4559,7 +4559,7 @@
     <tile name="WOOD_HIGH_NODE" pos="-303 -6 -152" roty="90">
       <resourcenode nodetype="high" resourcetype="wood" />
     </tile>
-    <tile name="WOOD_HIGH_NODE" pos="-312 -1 -140" roty="270">
+    <tile name="WOOD_HIGH_NODE" pos="-284 0 -119" roty="270">
       <resourcenode nodetype="high" resourcetype="wood" />
     </tile>
     <tile name="WOOD_HIGH_NODE" pos="-225 -8 -140" roty="90">

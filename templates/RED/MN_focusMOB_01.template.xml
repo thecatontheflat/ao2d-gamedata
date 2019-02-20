@@ -12258,7 +12258,6 @@
     <tile name="MOUNTAIN_RED_FILL_ROCK_4M" pos="367 -8 393" roty="270" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_4M" pos="387 -8 377" roty="90" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_GATE_B" pos="172 0 396" roty="270" />
-    <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_E_NOCOL" pos="213 0 388" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_FLAT_A_NOCOL" pos="190 0 396" roty="180" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_A" pos="-364 24 289" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A" pos="-368 24 261.5" roty="180" />
@@ -13540,7 +13539,6 @@
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_E_PLATEAU" pos="-346 -8 -199" roty="90" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_F_PLATEAU" pos="-346.5 -8 -176.5" roty="90" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_F_PLATEAU" pos="-356.5 -8 -247.5" roty="90" />
-    <compoundtile name="_MOUNTAIN_RED_FILL_SOIL_WET_VEGETATION_MEDIUM_COMP_01" pos="271 -24 -378" roty="90" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_D_PLATEAU" pos="-347 -8 -184" roty="90" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_C_PLATEAU" pos="-352 -8 -241" roty="180" />
     <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_B_PLATEAU" pos="-347.5 -8 -230" roty="90" />
@@ -13724,5 +13722,7 @@
     <tile name="MOUNTAIN_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL" pos="-238 -8 -123" roty="270" />
     <tile name="MOUNTAIN_RED_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="219 -64 -442" roty="90" />
     <tile name="MOUNTAIN_RED_PLATEAU_ROCK_16M_A_DEBRIS_NOCOL" pos="216 -64 -423" />
+    <compoundtile name="_MOUNTAIN_RED_FILL_DRY_VEGETATION_BONES_COMP_01" pos="261 -24 -387" roty="90" />
+    <tile name="MOUNTAIN_RED_FILL_ROCK_ADD_HIGH_E" pos="213 0 386" />
   </tiles>
 </template>

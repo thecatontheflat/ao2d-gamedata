@@ -12754,8 +12754,41 @@
         <Item type="UNIQUE_SHOES_VANITY_DRESS_RED" weight="5"/>
         <Item type="UNIQUE_HEAD_VANITY_SKELETON" weight="1"/>      
       </OR>
-  </Lootlist>    
-  
+  </Lootlist>
+
+  <Lootlist name="UNIQUE_LOOTCHEST_ADC_MAR2019_LOOT">
+    <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
+    <OR>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_FIREBOWL" weight="8"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_CAULDRON" weight="8"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_HEATER" weight="8"/>
+      <Item type="T6_CAPE_PLATE_KEEPER" weight="2"/>
+      <Item type="T6_CAPE_LEATHER_KEEPER" weight="2"/>
+      <Item type="T6_CAPE_CLOTH_KEEPER" weight="2"/>      
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_SYMBOL_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_CANDLE_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_SHRINE_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_CAMP_FIRE_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_ALTAR_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_FLAG_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_SYMBOL_OF_POWER_A" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_KEEPER_STAR_OF_POWER_A" weight="1"/>
+    </OR>
+  </Lootlist>
+
+  <Lootlist name="UNIQUE_LOOTCHEST_ADC_APR2019_LOOT">
+    <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
+    <OR>
+      <Item type="UNIQUE_HEAD_VANITY_JESTER" weight="10"/>
+      <Item type="UNIQUE_ARMOR_VANITY_JESTER" weight="10"/>
+      <Item type="UNIQUE_SHOES_VANITY_JESTER" weight="10"/>
+      <Item type="UNIQUE_HEAD_VANITY_DRESS_RED" weight="5"/>
+      <Item type="UNIQUE_ARMOR_VANITY_DRESS_RED" weight="5"/>
+      <Item type="UNIQUE_SHOES_VANITY_DRESS_RED" weight="5"/>
+      <Item type="UNIQUE_HEAD_VANITY_SKELETON" weight="1"/>
+    </OR>
+  </Lootlist>
+
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_GENERAL">
     <Item type="T6_SKILLBOOK_NONTRADABLE" amount="2"/>
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1"/>

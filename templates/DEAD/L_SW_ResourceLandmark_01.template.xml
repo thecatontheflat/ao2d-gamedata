@@ -2339,7 +2339,7 @@
     <compoundtile name="_SWAMP_DEAD_T1_TREES_SLIM_HILLS_01" pos="146 0 -29" />
     <compoundtile name="_SWAMP_DEAD_RIVER_ISLAND_A_COMP_01" pos="-88 -1 4" />
     <compoundtile name="_SWAMP_DEAD_RIVER_ISLAND_A_COMP_01" pos="-44 -1 -73" />
-    <compoundtile name="_SWAMP_DEAD_RIVER_ISLAND_C_COMP_01" pos="-51 -1 103" />
+    <compoundtile name="_SWAMP_DEAD_RIVER_ISLAND_C_COMP_01" pos="-51 0 103" />
     <compoundtile name="_SWAMP_DEAD_RIVER_VEG_FILL_COMP_01" pos="100 -1 98" roty="270" />
     <compoundtile name="_SWAMP_DEAD_RIVER_VEG_FILL_COMP_02" pos="98 -1 104" />
     <compoundtile name="_SWAMP_DEAD_RIVER_VEG_FILL_COMP_04" pos="97 -1 103" />

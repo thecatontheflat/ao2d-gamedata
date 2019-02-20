@@ -1801,7 +1801,7 @@
         <tile name="ORE_MEDIUM_NODE" pos="57 0 -20">
           <resourcenode nodetype="medium" resourcetype="ore" />
         </tile>
-        <tile name="ORE_MEDIUM_NODE" pos="-66 1 -27" roty="90">
+        <tile name="ORE_MEDIUM_NODE" pos="-66 0 -27" roty="90">
           <resourcenode nodetype="medium" resourcetype="ore" />
         </tile>
         <tile name="ORE_MEDIUM_NODE" pos="-18 0 -5" roty="180">

@@ -561,5 +561,7 @@
     <tile name="FishingZone_FRESHWATER_SPOT_FISH" pos="38.7 -13 -19.8" />
     <tile name="FishingZone_FRESHWATER_SPOT_FISH" pos="-24.1 -13 30.9" />
     <tile name="FishingZone_FRESHWATER_SPOT_FISH" pos="-29.6 -13 -15.1" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -12 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -12 -10" />
   </tiles>
 </template>

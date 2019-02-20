@@ -167,7 +167,7 @@
         <tile name="HIDE_HIGH_NODE" pos="27 0 -70">
           <resourcenode nodetype="high" resourcetype="hide" />
         </tile>
-        <tile name="SWAMP_GREEN_BRIDGE_ROOTS_30M_A" pos="-101 0 25" />
+        <tile name="SWAMP_GREEN_BRIDGE_ROOTS_30M_A" pos="-102 0 25" />
         <tile name="SWAMP_GREEN_BRIDGE_ROOTS_30M_A" pos="-77 0 25" roty="180" />
         <tile name="SWAMP_GREEN_KPR_CAMPFIRE_B" pos="-49 0 23" />
         <tile name="SWAMP_GREEN_KPR_FIREBOWL_TRIPOD_A" pos="-59.5 0 28.5" />
@@ -750,7 +750,6 @@
     <tile name="SWAMP_GREEN_WATER_river" pos="-85 0 -15" roty="270" />
     <tile name="SWAMP_GREEN_WATER_river" pos="-45 0 75" roty="270" />
     <tile name="SWAMP_GREEN_WATER_river" pos="-35 0 75" roty="270" />
-    <tile name="SWAMP_GREEN_WATER_river" pos="-105 0 15" roty="180" />
     <tile name="SWAMP_GREEN_WATER_river" pos="25 0 15" />
     <tile name="SWAMP_GREEN_WATER_river" pos="-5 0 -25" roty="270" />
     <tile name="SWAMP_GREEN_WATER_river" pos="-95 0 -15" />
@@ -837,6 +836,7 @@
     <tile name="SWAMP_GREEN_WATER_river" pos="115 0 45" />
     <tile name="SWAMP_GREEN_WATER_river" pos="125 0 45" />
     <tile name="SWAMP_GREEN_GROUND" pos="-15 0 -85" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_river" pos="-105 0 15" />
     <compoundtile name="_SWAMP_GREEN_RIVER_STRAIGHT_D_COMP_01" pos="-135 0 -35" roty="180" />
     <compoundtile name="_SWAMP_GREEN_RIVER_STRAIGHT_D_COMP_01" pos="45 0 55" />
     <compoundtile name="_SWAMP_GREEN_RIVER_STRAIGHT_D_COMP_01" pos="55 0 75" roty="270" />

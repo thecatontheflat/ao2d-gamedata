@@ -446,7 +446,7 @@
       <roads nodes="290 0;315.34 0.48;0 -290;0.08 -315.19;-290 0;-314.91 0.09;267.46 -69.86;248.02 -180.14;113.36 -217;104.36 -277.07;0 -290;-154.01 -256.01;-184.22 -208.44;-267.46 -201.05;-284.49 -48.08;-290 0;-316.32 119.38;-378.66 214.09;-341.55 370.55;-160.45 359.27;-96.32 292.47;0 290;49.24 280.04;76.71 239.19;190.23 236.66;240.48 173.39;244.1 58.79" links="0 1;2 3;4 5;0 6;6 7;7 8;8 9;2 9;10 11;11 12;12 13;13 14;4 14;15 16;16 17;17 18;18 19;19 20;20 21;21 22;22 23;23 24;24 25;25 26;0 26" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="7" />
-        <resource name="WOOD" tier="1" count="3926" />
+        <resource name="WOOD" tier="1" count="3914" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="7" />
@@ -604,7 +604,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="108" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5497" />
+        <resource name="WOOD" tier="1" count="5482" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="108" />
@@ -703,7 +703,7 @@
         <resource name="ORE" tier="5" count="88" />
         <resource name="ORE" tier="6" count="53" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="5009" />
+        <resource name="WOOD" tier="1" count="4994" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="253" />
@@ -755,7 +755,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="152" />
         <resource name="ROCK" tier="1" count="48" />
-        <resource name="WOOD" tier="1" count="4162" />
+        <resource name="WOOD" tier="1" count="4147" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="152" />
@@ -793,7 +793,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="104" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5494" />
+        <resource name="WOOD" tier="1" count="5479" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="104" />
@@ -837,7 +837,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="149" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4233" />
+        <resource name="WOOD" tier="1" count="4218" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="149" />
@@ -884,7 +884,7 @@
         <resource name="ORE" tier="3" count="88" />
         <resource name="ORE" tier="4" count="52" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="5408" />
+        <resource name="WOOD" tier="1" count="5393" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="193" />
@@ -982,7 +982,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="141" />
         <resource name="ROCK" tier="1" count="168" />
-        <resource name="WOOD" tier="1" count="2794" />
+        <resource name="WOOD" tier="1" count="2779" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="141" />
@@ -1022,7 +1022,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="172" />
         <resource name="ROCK" tier="1" count="161" />
-        <resource name="WOOD" tier="1" count="2309" />
+        <resource name="WOOD" tier="1" count="2294" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="172" />
@@ -1073,7 +1073,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="339" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="2639" />
+        <resource name="WOOD" tier="1" count="2624" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="339" />
@@ -1106,7 +1106,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="332" />
         <resource name="ROCK" tier="1" count="128" />
-        <resource name="WOOD" tier="1" count="2585" />
+        <resource name="WOOD" tier="1" count="2570" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="332" />
@@ -1138,7 +1138,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="125" />
         <resource name="ROCK" tier="1" count="202" />
-        <resource name="WOOD" tier="1" count="2611" />
+        <resource name="WOOD" tier="1" count="2596" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="125" />
@@ -1270,7 +1270,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="184" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="2687" />
+        <resource name="WOOD" tier="1" count="2672" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="184" />
@@ -1346,7 +1346,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="141" />
         <resource name="ROCK" tier="1" count="281" />
-        <resource name="WOOD" tier="1" count="2793" />
+        <resource name="WOOD" tier="1" count="2778" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="141" />
@@ -1962,7 +1962,7 @@
       <roads nodes="-70 70;-72.28 -24.68;-233.2 -47.49;-315.26 0.29;-74.73 145.81;-108.93 164.64;-107.63 231.09;-0.71 314.2;70 -70;145.73 -54.16;187.04 -25.14;296.17 -34.07;313.75 -2.53;98.69 -204.08;0.43 -296.37;0.13 -313.99;22.69 -65.32;-22.1 61.94" links="0 1;1 2;2 3;0 4;4 5;5 6;6 7;8 9;9 10;10 11;11 12;8 13;14 15;13 14;8 16;0 17;16 17" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="5506" />
+        <resource name="WOOD" tier="1" count="5508" />
         <resource name="WOOD" tier="4" count="82" />
         <resource name="WOOD" tier="5" count="60" />
         <resource name="WOOD" tier="6" count="48" />
@@ -2050,7 +2050,7 @@
       <roads nodes="0 -230;-0.23 -313.75;0 220;-1.59 315.35;-58.13 -230.81;-65.52 -276.85;-148.08 -266.36;-201.66 -158.28;-269.55 -142.11;-277.63 -64.99;-229.17 -56.14;-230 0;-211.46 75.85;-154.61 155.09;-55.03 174.45;-42.54 215.73" links="0 1;2 3;0 4;4 5;5 6;6 7;7 8;8 9;9 10;10 11;11 12;12 13;13 14;14 15;2 15" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="6499" />
+        <resource name="WOOD" tier="1" count="6501" />
         <resource name="WOOD" tier="2" count="82" />
         <resource name="WOOD" tier="3" count="60" />
         <resource name="WOOD" tier="4" count="47" />
@@ -2161,7 +2161,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="143" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4242" />
+        <resource name="WOOD" tier="1" count="4227" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="143" />
@@ -2244,7 +2244,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="188" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="5042" />
+        <resource name="WOOD" tier="1" count="5054" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="188" />
@@ -2277,7 +2277,7 @@
       <roads nodes="-280 0;-314.54 -0.37;0 270;0.35 315.15;-277.85 186.37;-199.6 220.55;-194.57 295.89;-113.89 297.83;-80.52 270.61" links="0 1;2 3;0 4;4 5;5 6;6 7;7 8;2 8" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="3602" />
+        <resource name="WOOD" tier="1" count="3614" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -2323,7 +2323,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6793" />
+        <resource name="WOOD" tier="1" count="6805" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="159" />
@@ -2370,7 +2370,7 @@
         <resource name="FIBER" tier="6" count="62" />
         <resource name="HIDE" tier="1" count="290" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5231" />
+        <resource name="WOOD" tier="1" count="5243" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="290" />
@@ -2637,7 +2637,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="140" />
         <resource name="ROCK" tier="1" count="250" />
-        <resource name="WOOD" tier="1" count="2647" />
+        <resource name="WOOD" tier="1" count="2632" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="140" />
@@ -2685,7 +2685,7 @@
         <resource name="ROCK" tier="4" count="51" />
         <resource name="ROCK" tier="5" count="76" />
         <resource name="ROCK" tier="6" count="63" />
-        <resource name="WOOD" tier="1" count="2835" />
+        <resource name="WOOD" tier="1" count="2820" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="191" />
@@ -2730,7 +2730,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="6407" />
+        <resource name="WOOD" tier="1" count="6419" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -2756,7 +2756,7 @@
       <roads nodes="-240 190;-233.31 228.21;-210.22 241.93;-209.78 315.56;230 -210;315.15 -209.66;0 -280;0.37 -314.54;-270 0;-315.15 0.35;-141.47 191.4;-102.44 182.22;20.62 179.6;68.09 167.81;84.55 130.38;134.5 128.19;147.9 91.79;176.44 89.6;179.65 43.14;158.24 18.82;174.26 -40.3;239.21 -53.27;238.57 -141.87;50.71 -259.15;183.46 -240.28;205.61 -212.85;-186.37 -277.85;-220.55 -199.6;-295.89 -194.57;-297.83 -113.89;-270.61 -80.52;-279.07 181.15;-276.19 137.69" links="0 1;1 2;2 3;4 5;6 7;8 9;0 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;20 21;21 22;4 22;6 23;23 24;24 25;4 25;6 26;26 27;27 28;28 29;29 30;8 30;0 31;31 32;8 32" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="4123" />
+        <resource name="WOOD" tier="1" count="4135" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -2796,7 +2796,7 @@
         <resource name="ROCK" tier="2" count="51" />
         <resource name="ROCK" tier="3" count="76" />
         <resource name="ROCK" tier="4" count="62" />
-        <resource name="WOOD" tier="1" count="2874" />
+        <resource name="WOOD" tier="1" count="2859" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="228" />
@@ -2822,7 +2822,7 @@
       <roads nodes="-190 -240;-228.21 -233.31;-241.93 -210.22;-315.56 -209.78;210 230;209.66 315.15;0 -270;-0.35 -315.15;-191.4 -141.47;-182.22 -102.44;-179.6 20.62;-167.81 68.09;-130.38 84.55;-128.19 134.5;-91.79 147.9;-89.6 176.44;-43.14 179.65;-18.82 158.24;40.3 174.26;53.27 239.21;141.87 238.57;-181.15 -279.07;-137.69 -276.19" links="0 1;1 2;2 3;4 5;6 7;0 8;8 9;9 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;4 20;0 21;21 22;6 22" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="4160" />
+        <resource name="WOOD" tier="1" count="4172" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -2859,7 +2859,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="14" />
         <resource name="ROCK" tier="1" count="6" />
-        <resource name="WOOD" tier="1" count="3932" />
+        <resource name="WOOD" tier="1" count="3920" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="14" />
@@ -2998,7 +2998,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="115" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="5151" />
+        <resource name="WOOD" tier="1" count="5136" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="115" />
@@ -3106,7 +3106,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="166" />
         <resource name="ROCK" tier="1" count="188" />
-        <resource name="WOOD" tier="1" count="2816" />
+        <resource name="WOOD" tier="1" count="2801" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="166" />
@@ -3153,7 +3153,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="203" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="4115" />
+        <resource name="WOOD" tier="1" count="4100" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="203" />
@@ -3202,7 +3202,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="215" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4453" />
+        <resource name="WOOD" tier="1" count="4438" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="215" />
@@ -3242,7 +3242,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="218" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="5070" />
+        <resource name="WOOD" tier="1" count="5082" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="218" />
@@ -3654,7 +3654,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="162" />
         <resource name="ROCK" tier="1" count="314" />
-        <resource name="WOOD" tier="1" count="2692" />
+        <resource name="WOOD" tier="1" count="2677" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="162" />
@@ -3701,7 +3701,7 @@
         <resource name="FIBER" tier="6" count="225" />
         <resource name="HIDE" tier="1" count="290" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5381" />
+        <resource name="WOOD" tier="1" count="5393" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="290" />
@@ -3739,7 +3739,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6609" />
+        <resource name="WOOD" tier="1" count="6621" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -3783,7 +3783,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="7320" />
+        <resource name="WOOD" tier="1" count="7332" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="159" />
@@ -3835,7 +3835,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="5090" />
+        <resource name="WOOD" tier="1" count="5102" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -3874,7 +3874,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="188" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="5376" />
+        <resource name="WOOD" tier="1" count="5388" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -3927,7 +3927,7 @@
         <resource name="FIBER" tier="6" count="225" />
         <resource name="HIDE" tier="1" count="299" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="4770" />
+        <resource name="WOOD" tier="1" count="4782" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="299" />
@@ -3976,7 +3976,7 @@
         <resource name="FIBER" tier="6" count="225" />
         <resource name="HIDE" tier="1" count="337" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="5695" />
+        <resource name="WOOD" tier="1" count="5707" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="337" />
@@ -4020,7 +4020,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="171" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5189" />
+        <resource name="WOOD" tier="1" count="5201" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -4078,7 +4078,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6656" />
+        <resource name="WOOD" tier="1" count="6668" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="159" />
@@ -4122,7 +4122,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="5106" />
+        <resource name="WOOD" tier="1" count="5118" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -4165,7 +4165,7 @@
       <roads nodes="-240 190;-233.31 228.21;-210.22 241.93;-209.78 315.56;230 -210;315.15 -209.66;0 -280;0.37 -314.54;-270 0;-315.15 0.35;-141.47 191.4;-102.44 182.22;20.62 179.6;68.09 167.81;84.55 130.38;134.5 128.19;147.9 91.79;176.44 89.6;179.65 43.14;158.24 18.82;174.26 -40.3;239.21 -53.27;238.57 -141.87;50.71 -259.15;183.46 -240.28;205.61 -212.85;-186.37 -277.85;-220.55 -199.6;-295.89 -194.57;-297.83 -113.89;-270.61 -80.52;-279.07 181.15;-276.19 137.69" links="0 1;1 2;2 3;4 5;6 7;8 9;0 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;20 21;21 22;4 22;6 23;23 24;24 25;4 25;6 26;26 27;27 28;28 29;29 30;8 30;0 31;31 32;8 32" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="3933" />
+        <resource name="WOOD" tier="1" count="3945" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -4218,7 +4218,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="180" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="4004" />
+        <resource name="WOOD" tier="1" count="4016" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="180" />
@@ -4269,7 +4269,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="218" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="5504" />
+        <resource name="WOOD" tier="1" count="5516" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="218" />
@@ -4295,7 +4295,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="171" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5006" />
+        <resource name="WOOD" tier="1" count="5018" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="171" />
@@ -4333,7 +4333,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6970" />
+        <resource name="WOOD" tier="1" count="6982" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -4388,7 +4388,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="6061" />
+        <resource name="WOOD" tier="1" count="6073" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -4430,7 +4430,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="192" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="4799" />
+        <resource name="WOOD" tier="1" count="4811" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -4478,7 +4478,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="176" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="4763" />
+        <resource name="WOOD" tier="1" count="4775" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -4534,7 +4534,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="218" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="4727" />
+        <resource name="WOOD" tier="1" count="4739" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="218" />
@@ -4570,7 +4570,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="171" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="4932" />
+        <resource name="WOOD" tier="1" count="4944" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -4610,7 +4610,7 @@
       <roads nodes="240 -190;233.31 -228.21;210.22 -241.93;209.78 -315.56;-230 210;-315.15 209.66;0 280;-0.37 314.54;270 0;315.15 -0.35;141.47 -191.4;102.44 -182.22;-20.62 -179.6;-68.09 -167.81;-84.55 -130.38;-134.5 -128.19;-147.9 -91.79;-176.44 -89.6;-179.65 -43.14;-158.24 -18.82;-174.26 40.3;-239.21 53.27;-238.57 141.87;-50.71 259.15;-183.46 240.28;-205.61 212.85;186.37 277.85;220.55 199.6;295.89 194.57;297.83 113.89;270.61 80.52;279.07 -181.15;276.19 -137.69" links="0 1;1 2;2 3;4 5;6 7;8 9;0 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;20 21;21 22;4 22;6 23;23 24;24 25;4 25;6 26;26 27;27 28;28 29;29 30;8 30;0 31;31 32;8 32" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="3990" />
+        <resource name="WOOD" tier="1" count="4002" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -4665,7 +4665,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="5847" />
+        <resource name="WOOD" tier="1" count="5859" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -4842,7 +4842,7 @@
       <roads nodes="70 -70;72.28 24.68;233.2 47.49;315.26 -0.29;-70 70;-145.73 54.16;-187.04 25.14;-296.17 34.07;-313.75 2.53;-22.69 65.32;22.1 -61.94" links="0 1;1 2;2 3;4 5;5 6;6 7;7 8;4 9;0 10;9 10" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="5599" />
+        <resource name="WOOD" tier="1" count="5601" />
         <resource name="WOOD" tier="6" count="175" />
         <resource name="WOOD" tier="7" count="15" />
       </distribution>
@@ -5794,7 +5794,7 @@
       <roads nodes="-190 0;-267.37 -10.49;-315.14 -0.02;-10 -140;109.9 -108.47;204.85 -139.76;285.21 -92.47;300 0;-101.92 -113.63;-116.33 -0.91" links="0 1;1 2;3 4;4 5;5 6;6 7;3 8;8 9;0 9" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="5515" />
+        <resource name="WOOD" tier="1" count="5517" />
         <resource name="WOOD" tier="6" count="175" />
         <resource name="WOOD" tier="7" count="15" />
       </distribution>
@@ -6971,7 +6971,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="137" />
         <resource name="ROCK" tier="1" count="207" />
-        <resource name="WOOD" tier="1" count="2637" />
+        <resource name="WOOD" tier="1" count="2622" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7015,7 +7015,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="82" />
         <resource name="ROCK" tier="1" count="114" />
-        <resource name="WOOD" tier="1" count="2631" />
+        <resource name="WOOD" tier="1" count="2616" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="82" />
@@ -7055,7 +7055,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="143" />
         <resource name="ROCK" tier="1" count="218" />
-        <resource name="WOOD" tier="1" count="2680" />
+        <resource name="WOOD" tier="1" count="2665" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7106,7 +7106,7 @@
         <resource name="ROCK" tier="1" count="87" />
         <resource name="ROCK" tier="5" count="10" />
         <resource name="ROCK" tier="6" count="180" />
-        <resource name="WOOD" tier="1" count="2183" />
+        <resource name="WOOD" tier="1" count="2168" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="187" />
@@ -7150,7 +7150,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="323" />
         <resource name="ROCK" tier="1" count="97" />
-        <resource name="WOOD" tier="1" count="2742" />
+        <resource name="WOOD" tier="1" count="2727" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="323" />
@@ -7199,7 +7199,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="100" />
         <resource name="ROCK" tier="1" count="205" />
-        <resource name="WOOD" tier="1" count="2289" />
+        <resource name="WOOD" tier="1" count="2274" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="100" />
@@ -7249,7 +7249,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="67" />
         <resource name="ROCK" tier="1" count="82" />
-        <resource name="WOOD" tier="1" count="2522" />
+        <resource name="WOOD" tier="1" count="2507" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="67" />
@@ -7290,7 +7290,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="176" />
         <resource name="ROCK" tier="1" count="247" />
-        <resource name="WOOD" tier="1" count="2758" />
+        <resource name="WOOD" tier="1" count="2743" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7341,7 +7341,7 @@
         <resource name="ROCK" tier="1" count="133" />
         <resource name="ROCK" tier="5" count="10" />
         <resource name="ROCK" tier="6" count="180" />
-        <resource name="WOOD" tier="1" count="2375" />
+        <resource name="WOOD" tier="1" count="2360" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="191" />
@@ -7377,7 +7377,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="175" />
         <resource name="ROCK" tier="1" count="192" />
-        <resource name="WOOD" tier="1" count="2731" />
+        <resource name="WOOD" tier="1" count="2716" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7421,7 +7421,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="168" />
         <resource name="ROCK" tier="1" count="139" />
-        <resource name="WOOD" tier="1" count="2362" />
+        <resource name="WOOD" tier="1" count="2347" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="168" />
@@ -7468,7 +7468,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="85" />
         <resource name="ROCK" tier="1" count="176" />
-        <resource name="WOOD" tier="1" count="2571" />
+        <resource name="WOOD" tier="1" count="2556" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="85" />
@@ -7513,7 +7513,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="296" />
         <resource name="ROCK" tier="1" count="70" />
-        <resource name="WOOD" tier="1" count="2139" />
+        <resource name="WOOD" tier="1" count="2124" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="296" />
@@ -7564,7 +7564,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="167" />
         <resource name="ROCK" tier="1" count="138" />
-        <resource name="WOOD" tier="1" count="2357" />
+        <resource name="WOOD" tier="1" count="2342" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="167" />
@@ -7595,7 +7595,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="98" />
         <resource name="ROCK" tier="1" count="210" />
-        <resource name="WOOD" tier="1" count="2717" />
+        <resource name="WOOD" tier="1" count="2702" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="98" />
@@ -7627,7 +7627,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="166" />
         <resource name="ROCK" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="2312" />
+        <resource name="WOOD" tier="1" count="2297" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7669,7 +7669,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="181" />
         <resource name="ROCK" tier="1" count="138" />
-        <resource name="WOOD" tier="1" count="2167" />
+        <resource name="WOOD" tier="1" count="2152" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="181" />
@@ -7706,7 +7706,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="154" />
         <resource name="ROCK" tier="1" count="236" />
-        <resource name="WOOD" tier="1" count="2314" />
+        <resource name="WOOD" tier="1" count="2299" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7739,7 +7739,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="146" />
         <resource name="ROCK" tier="1" count="217" />
-        <resource name="WOOD" tier="1" count="2760" />
+        <resource name="WOOD" tier="1" count="2745" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -7791,7 +7791,7 @@
         <resource name="ROCK" tier="1" count="112" />
         <resource name="ROCK" tier="5" count="10" />
         <resource name="ROCK" tier="6" count="180" />
-        <resource name="WOOD" tier="1" count="2733" />
+        <resource name="WOOD" tier="1" count="2718" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="177" />
@@ -7835,7 +7835,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="297" />
         <resource name="ROCK" tier="1" count="70" />
-        <resource name="WOOD" tier="1" count="2522" />
+        <resource name="WOOD" tier="1" count="2507" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="297" />
@@ -7885,7 +7885,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="185" />
         <resource name="ROCK" tier="1" count="147" />
-        <resource name="WOOD" tier="1" count="2050" />
+        <resource name="WOOD" tier="1" count="2035" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="185" />
@@ -7936,7 +7936,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="72" />
         <resource name="ROCK" tier="1" count="169" />
-        <resource name="WOOD" tier="1" count="2707" />
+        <resource name="WOOD" tier="1" count="2692" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="72" />
@@ -7977,7 +7977,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="179" />
         <resource name="ROCK" tier="1" count="256" />
-        <resource name="WOOD" tier="1" count="2401" />
+        <resource name="WOOD" tier="1" count="2386" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8024,7 +8024,7 @@
         <resource name="ROCK" tier="1" count="122" />
         <resource name="ROCK" tier="5" count="10" />
         <resource name="ROCK" tier="6" count="180" />
-        <resource name="WOOD" tier="1" count="2500" />
+        <resource name="WOOD" tier="1" count="2485" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="161" />
@@ -8060,7 +8060,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="154" />
         <resource name="ROCK" tier="1" count="209" />
-        <resource name="WOOD" tier="1" count="2684" />
+        <resource name="WOOD" tier="1" count="2669" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8104,7 +8104,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="59" />
         <resource name="ROCK" tier="1" count="129" />
-        <resource name="WOOD" tier="1" count="2879" />
+        <resource name="WOOD" tier="1" count="2864" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="59" />
@@ -8145,7 +8145,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="174" />
         <resource name="ROCK" tier="1" count="223" />
-        <resource name="WOOD" tier="1" count="2388" />
+        <resource name="WOOD" tier="1" count="2373" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8189,7 +8189,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="132" />
         <resource name="ROCK" tier="1" count="142" />
-        <resource name="WOOD" tier="1" count="2689" />
+        <resource name="WOOD" tier="1" count="2674" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="132" />
@@ -8243,7 +8243,7 @@
         <resource name="ORE" tier="5" count="25" />
         <resource name="ORE" tier="6" count="180" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="5716" />
+        <resource name="WOOD" tier="1" count="5701" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="195" />
@@ -8281,7 +8281,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="210" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="3288" />
+        <resource name="WOOD" tier="1" count="3273" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8325,7 +8325,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="173" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4768" />
+        <resource name="WOOD" tier="1" count="4753" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="173" />
@@ -8366,7 +8366,7 @@
       <roads nodes="-290 0;-315.34 -0.48;0 290;-0.08 315.19;290 0;314.91 -0.09;0 -290;-0.12 -315.15;-267.46 69.86;-248.02 180.14;-113.36 217;-104.36 277.07;0 290;154.01 256.01;184.22 208.44;267.46 201.05;284.49 48.08;290 0;316.32 -119.38;378.66 -214.09;341.55 -370.55;160.45 -359.27;96.32 -292.47;0 -290;-49.24 -280.04;-76.71 -239.19;-190.23 -236.66;-240.48 -173.39;-244.1 -58.79" links="0 1;2 3;4 5;6 7;0 8;8 9;9 10;10 11;2 11;12 13;13 14;14 15;15 16;4 16;17 18;18 19;19 20;20 21;21 22;6 22;23 24;24 25;25 26;26 27;27 28;0 28" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="11" />
-        <resource name="WOOD" tier="1" count="4096" />
+        <resource name="WOOD" tier="1" count="4084" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="11" />
@@ -8419,7 +8419,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="106" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="4947" />
+        <resource name="WOOD" tier="1" count="4932" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="106" />
@@ -8451,7 +8451,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="208" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="3247" />
+        <resource name="WOOD" tier="1" count="3232" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="208" />
@@ -8483,7 +8483,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="179" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4350" />
+        <resource name="WOOD" tier="1" count="4335" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8528,7 +8528,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="150" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="3546" />
+        <resource name="WOOD" tier="1" count="3531" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="150" />
@@ -8566,7 +8566,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="112" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="4982" />
+        <resource name="WOOD" tier="1" count="4967" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8609,7 +8609,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="236" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="3460" />
+        <resource name="WOOD" tier="1" count="3445" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="236" />
@@ -8649,7 +8649,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="177" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4258" />
+        <resource name="WOOD" tier="1" count="4243" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8696,7 +8696,7 @@
         <resource name="ORE" tier="5" count="25" />
         <resource name="ORE" tier="6" count="180" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4532" />
+        <resource name="WOOD" tier="1" count="4517" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="228" />
@@ -8739,7 +8739,7 @@
       <roads nodes="0 290;-0.48 315.34;290 0;315.19 0.08;0 -290;-0.09 -314.91;-290 0;-315.15 0.12;69.86 267.46;180.14 248.02;217 113.36;277.07 104.36;290 0;256.01 -154.01;208.44 -184.22;201.05 -267.46;48.08 -284.49;0 -290;-119.38 -316.32;-214.09 -378.66;-370.55 -341.55;-359.27 -160.45;-292.47 -96.32;-290 0;-280.04 49.24;-239.19 76.71;-236.66 190.23;-173.39 240.48;-58.79 244.1" links="0 1;2 3;4 5;6 7;0 8;8 9;9 10;10 11;2 11;12 13;13 14;14 15;15 16;4 16;17 18;18 19;19 20;20 21;21 22;6 22;23 24;24 25;25 26;26 27;27 28;0 28" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="4" />
-        <resource name="WOOD" tier="1" count="3665" />
+        <resource name="WOOD" tier="1" count="3653" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="4" />
@@ -8792,7 +8792,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="228" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="3375" />
+        <resource name="WOOD" tier="1" count="3360" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="228" />
@@ -8832,7 +8832,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="180" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4847" />
+        <resource name="WOOD" tier="1" count="4832" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8865,7 +8865,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="118" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="5068" />
+        <resource name="WOOD" tier="1" count="5053" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -8912,7 +8912,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="151" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4022" />
+        <resource name="WOOD" tier="1" count="4007" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="151" />
@@ -8964,7 +8964,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="114" />
         <resource name="ROCK" tier="1" count="105" />
-        <resource name="WOOD" tier="1" count="4972" />
+        <resource name="WOOD" tier="1" count="4957" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="114" />
@@ -9013,7 +9013,7 @@
       <roads nodes="290 0;315.34 0.48;0 -290;0.08 -315.19;-290 0;-314.91 0.09;0 290;0.12 315.15;267.46 -69.86;248.02 -180.14;113.36 -217;104.36 -277.07;0 -290;-154.01 -256.01;-184.22 -208.44;-267.46 -201.05;-284.49 -48.08;-290 0;-316.32 119.38;-378.66 214.09;-341.55 370.55;-160.45 359.27;-96.32 292.47;0 290;49.24 280.04;76.71 239.19;190.23 236.66;240.48 173.39;244.1 58.79" links="0 1;2 3;4 5;6 7;0 8;8 9;9 10;10 11;2 11;12 13;13 14;14 15;15 16;4 16;17 18;18 19;19 20;20 21;21 22;6 22;23 24;24 25;25 26;26 27;27 28;0 28" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="3" />
-        <resource name="WOOD" tier="1" count="3818" />
+        <resource name="WOOD" tier="1" count="3806" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="3" />
@@ -9070,7 +9070,7 @@
         <resource name="ORE" tier="5" count="25" />
         <resource name="ORE" tier="6" count="180" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5417" />
+        <resource name="WOOD" tier="1" count="5402" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="189" />
@@ -9108,7 +9108,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="148" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="3871" />
+        <resource name="WOOD" tier="1" count="3856" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9153,7 +9153,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="105" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="4971" />
+        <resource name="WOOD" tier="1" count="4956" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="105" />
@@ -9194,7 +9194,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="216" />
         <resource name="ROCK" tier="1" count="98" />
-        <resource name="WOOD" tier="1" count="3166" />
+        <resource name="WOOD" tier="1" count="3151" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9228,7 +9228,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="174" />
         <resource name="ROCK" tier="1" count="44" />
-        <resource name="WOOD" tier="1" count="4759" />
+        <resource name="WOOD" tier="1" count="4744" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9273,7 +9273,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="151" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4011" />
+        <resource name="WOOD" tier="1" count="3996" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="151" />
@@ -9314,7 +9314,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="111" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5055" />
+        <resource name="WOOD" tier="1" count="5040" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9341,7 +9341,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="212" />
         <resource name="ROCK" tier="1" count="104" />
-        <resource name="WOOD" tier="1" count="3481" />
+        <resource name="WOOD" tier="1" count="3466" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="212" />
@@ -9380,7 +9380,7 @@
       <roads nodes="-290 0;-315.34 -0.48;0 290;-0.08 315.19;290 0;314.91 -0.09;0 -290;-0.12 -315.15;-267.46 69.86;-248.02 180.14;-113.36 217;-104.36 277.07;0 290;154.01 256.01;184.22 208.44;267.46 201.05;284.49 48.08;290 0;316.32 -119.38;378.66 -214.09;341.55 -370.55;160.45 -359.27;96.32 -292.47;0 -290;-49.24 -280.04;-76.71 -239.19;-190.23 -236.66;-240.48 -173.39;-244.1 -58.79" links="0 1;2 3;4 5;6 7;0 8;8 9;9 10;10 11;2 11;12 13;13 14;14 15;15 16;4 16;17 18;18 19;19 20;20 21;21 22;6 22;23 24;24 25;25 26;26 27;27 28;0 28" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="8" />
-        <resource name="WOOD" tier="1" count="3794" />
+        <resource name="WOOD" tier="1" count="3782" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="8" />
@@ -9432,7 +9432,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="151" />
         <resource name="ROCK" tier="1" count="42" />
-        <resource name="WOOD" tier="1" count="4512" />
+        <resource name="WOOD" tier="1" count="4497" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="151" />
@@ -9493,7 +9493,7 @@
         <resource name="ORE" tier="5" count="25" />
         <resource name="ORE" tier="6" count="180" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5465" />
+        <resource name="WOOD" tier="1" count="5450" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="186" />
@@ -9647,7 +9647,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="218" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="4756" />
+        <resource name="WOOD" tier="1" count="4768" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9690,7 +9690,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="175" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="4957" />
+        <resource name="WOOD" tier="1" count="4969" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="175" />
@@ -9731,7 +9731,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="159" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6847" />
+        <resource name="WOOD" tier="1" count="6859" />
       </distribution>
       <mobcounts>
         <mob name="MOB_TUTORIAL_DUMMY" count="6" />
@@ -9776,7 +9776,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="170" />
         <resource name="ROCK" tier="1" count="108" />
-        <resource name="WOOD" tier="1" count="5060" />
+        <resource name="WOOD" tier="1" count="5072" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="170" />
@@ -9823,7 +9823,7 @@
       <roads nodes="190 240;228.21 233.31;241.93 210.22;315.56 209.78;-210 -230;-209.66 -315.15;-280 0;-314.54 -0.37;0 270;0.35 315.15;191.4 141.47;182.22 102.44;179.6 -20.62;167.81 -68.09;130.38 -84.55;128.19 -134.5;91.79 -147.9;89.6 -176.44;43.14 -179.65;18.82 -158.24;-40.3 -174.26;-53.27 -239.21;-141.87 -238.57;-259.15 -50.71;-240.28 -183.46;-212.85 -205.61;-277.85 186.37;-199.6 220.55;-194.57 295.89;-113.89 297.83;-80.52 270.61;181.15 279.07;137.69 276.19" links="0 1;1 2;2 3;4 5;6 7;8 9;0 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;20 21;21 22;4 22;6 23;23 24;24 25;4 25;6 26;26 27;27 28;28 29;29 30;8 30;0 31;31 32;8 32" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="200" />
-        <resource name="WOOD" tier="1" count="4217" />
+        <resource name="WOOD" tier="1" count="4229" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="200" />
@@ -9875,7 +9875,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="176" />
         <resource name="ROCK" tier="1" count="101" />
-        <resource name="WOOD" tier="1" count="4752" />
+        <resource name="WOOD" tier="1" count="4764" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="176" />
@@ -9929,7 +9929,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="222" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="5091" />
+        <resource name="WOOD" tier="1" count="5103" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="222" />
@@ -10120,7 +10120,7 @@
       <roads nodes="-240 190;-233.31 228.21;-210.22 241.93;-209.78 315.56;230 -210;315.15 -209.66;0 -280;0.37 -314.54;-141.47 191.4;-102.44 182.22;20.62 179.6;68.09 167.81;84.55 130.38;134.5 128.19;147.9 91.79;176.44 89.6;179.65 43.14;158.24 18.82;174.26 -40.3;239.21 -53.27;238.57 -141.87;50.71 -259.15;183.46 -240.28;205.61 -212.85" links="0 1;1 2;2 3;4 5;6 7;0 8;8 9;9 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;4 20;6 21;21 22;22 23;4 23" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="4018" />
+        <resource name="WOOD" tier="1" count="4030" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="204" />
@@ -11322,7 +11322,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="191" />
         <resource name="ROCK" tier="1" count="216" />
-        <resource name="WOOD" tier="1" count="2625" />
+        <resource name="WOOD" tier="1" count="2610" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="191" />
@@ -14085,7 +14085,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="171" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5092" />
+        <resource name="WOOD" tier="1" count="5104" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="171" />
@@ -14128,7 +14128,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="109" />
         <resource name="ROCK" tier="1" count="195" />
-        <resource name="WOOD" tier="1" count="2247" />
+        <resource name="WOOD" tier="1" count="2232" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="109" />
@@ -14171,7 +14171,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="130" />
         <resource name="ROCK" tier="1" count="244" />
-        <resource name="WOOD" tier="1" count="2529" />
+        <resource name="WOOD" tier="1" count="2514" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="130" />
@@ -14214,7 +14214,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="185" />
         <resource name="ROCK" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="2121" />
+        <resource name="WOOD" tier="1" count="2106" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="185" />
@@ -14257,7 +14257,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="100" />
         <resource name="ROCK" tier="1" count="99" />
-        <resource name="WOOD" tier="1" count="5013" />
+        <resource name="WOOD" tier="1" count="4998" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="100" />
@@ -14406,7 +14406,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="171" />
         <resource name="ROCK" tier="1" count="112" />
-        <resource name="WOOD" tier="1" count="5012" />
+        <resource name="WOOD" tier="1" count="5024" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="171" />
@@ -14676,7 +14676,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="6" />
         <resource name="ROCK" tier="1" count="6" />
-        <resource name="WOOD" tier="1" count="4063" />
+        <resource name="WOOD" tier="1" count="4051" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="6" />
@@ -17915,7 +17915,7 @@
       <roads nodes="-240 190;-233.31 228.21;-210.22 241.93;-209.78 315.56;230 -210;315.15 -209.66;0 -280;0.37 -314.54;-141.47 191.4;-102.44 182.22;20.62 179.6;68.09 167.81;84.55 130.38;134.5 128.19;147.9 91.79;176.44 89.6;179.65 43.14;158.24 18.82;174.26 -40.3;239.21 -53.27;238.57 -141.87;50.71 -259.15;183.46 -240.28;205.61 -212.85" links="0 1;1 2;2 3;4 5;6 7;0 8;8 9;9 10;10 11;11 12;12 13;13 14;14 15;15 16;16 17;17 18;18 19;19 20;4 20;6 21;21 22;22 23;4 23" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="204" />
-        <resource name="WOOD" tier="1" count="3840" />
+        <resource name="WOOD" tier="1" count="3852" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="204" />
@@ -18026,7 +18026,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="295" />
         <resource name="ROCK" tier="1" count="70" />
-        <resource name="WOOD" tier="1" count="2731" />
+        <resource name="WOOD" tier="1" count="2716" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="295" />
@@ -18057,7 +18057,7 @@
       <roads nodes="290 0;315.34 0.48;0 -290;0.08 -315.19;-290 0;-314.91 0.09;267.46 -69.86;248.02 -180.14;113.36 -217;104.36 -277.07;0 -290;-154.01 -256.01;-184.22 -208.44;-267.46 -201.05;-284.49 -48.08;-290 0;-316.32 119.38;-378.66 214.09;-341.55 370.55;-160.45 359.27;-96.32 292.47;0 290;49.24 280.04;76.71 239.19;190.23 236.66;240.48 173.39;244.1 58.79" links="0 1;2 3;4 5;0 6;6 7;7 8;8 9;2 9;10 11;11 12;12 13;13 14;4 14;15 16;16 17;17 18;18 19;19 20;20 21;21 22;22 23;23 24;24 25;25 26;0 26" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="7" />
-        <resource name="WOOD" tier="1" count="3603" />
+        <resource name="WOOD" tier="1" count="3591" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="7" />
@@ -19028,7 +19028,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="173" />
         <resource name="ROCK" tier="1" count="136" />
-        <resource name="WOOD" tier="1" count="6860" />
+        <resource name="WOOD" tier="1" count="6872" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_SWAMP_TOAD" count="173" />
@@ -19112,7 +19112,7 @@
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="150" />
         <resource name="ROCK" tier="1" count="212" />
-        <resource name="WOOD" tier="1" count="2808" />
+        <resource name="WOOD" tier="1" count="2793" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_HIGHLAND_MARMOT" count="150" />
@@ -19140,7 +19140,7 @@
       <roads nodes="290 0;315.34 0.48;0 -290;0.08 -315.19;-290 0;-314.91 0.09;267.46 -69.86;248.02 -180.14;113.36 -217;104.36 -277.07;0 -290;-154.01 -256.01;-184.22 -208.44;-267.46 -201.05;-284.49 -48.08;-290 0;-316.32 119.38;-378.66 214.09;-341.55 370.55;-160.45 359.27;-96.32 292.47;0 290;49.24 280.04;76.71 239.19;190.23 236.66;240.48 173.39;244.1 58.79" links="0 1;2 3;4 5;0 6;6 7;7 8;8 9;2 9;10 11;11 12;12 13;13 14;4 14;15 16;16 17;17 18;18 19;19 20;20 21;21 22;22 23;23 24;24 25;25 26;0 26" />
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="4" />
-        <resource name="WOOD" tier="1" count="3852" />
+        <resource name="WOOD" tier="1" count="3840" />
       </distribution>
       <mobcounts>
         <mob name="T1_MOB_HIDE_MOUNTAIN_RABBIT" count="4" />
@@ -19328,7 +19328,7 @@
       </outposts>
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="6326" />
+        <resource name="WOOD" tier="1" count="6328" />
         <resource name="WOOD" tier="2" count="82" />
         <resource name="WOOD" tier="3" count="60" />
         <resource name="WOOD" tier="4" count="47" />
@@ -20310,7 +20310,7 @@
       </outposts>
       <distribution realestates="0">
         <resource name="HIDE" tier="1" count="145" />
-        <resource name="WOOD" tier="1" count="5717" />
+        <resource name="WOOD" tier="1" count="5719" />
         <resource name="WOOD" tier="2" count="82" />
         <resource name="WOOD" tier="3" count="60" />
         <resource name="WOOD" tier="4" count="47" />

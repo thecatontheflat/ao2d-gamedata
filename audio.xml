@@ -160,6 +160,10 @@
     <CharType name="mount"/>
     <MountType name="towerchariot"/>
   </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_TERRORBIRD">
+    <CharType name="mount"/>
+    <MountType name="terrorbird"/>
+  </WwiseSwitchInfo>
 
   <!--*************************************************************************************************************************************************************-->
   <!--MOBS-->
@@ -1788,6 +1792,13 @@
     <OnCastStart name="Play_cast_fatalblade" />
   </WwiseEventInfo>
 
+  <WwiseEventInfo name="MELEE_SMALL_SWOOSH">
+    <OnCastStart name="Play_melee_swoosh_basic" />
+    <OnSpellHit>
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
+
 
   <!-- Ranged-->
   <WwiseEventInfo name="SPELL_ARROW_CAST_MEDIUM">
@@ -1943,6 +1954,9 @@
     <OnSpellHit name="Play_shield_arcane" />
   </WwiseEventInfo>
 
+  <WwiseEventInfo name="SPELL_ARCANE_TIMEFREEZE">
+    <OnCastFinished name="Play_arcane_timefreeze" />
+  </WwiseEventInfo>
 
   
   <!-- Misc -->

@@ -1486,5 +1486,9 @@
     <tile name="FOREST_GREEN_WATER_8M_river_NO_COLLISION_OBJECT" pos="30 -16 -70" />
     <tile name="FOREST_GREEN_WATER_8M_river_NO_COLLISION_OBJECT" pos="-30 -8 -70" />
     <tile name="FOREST_GREEN_WATER_8M_river_NO_COLLISION_OBJECT" pos="70 -9 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -4 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -4 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -4 0" />
   </tiles>
 </template>

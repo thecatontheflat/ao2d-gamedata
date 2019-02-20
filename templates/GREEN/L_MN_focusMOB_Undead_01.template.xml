@@ -4870,14 +4870,6 @@
     <tile name="MOUNTAIN_GREEN_CASTLE_STRAIGHT_RAILING_A" pos="-75 24 -90" roty="270" />
     <tile name="MOUNTAIN_GREEN_CASTLE_STRAIGHT_RAILING_C" pos="90 24 75" roty="180" />
     <tile name="MOUNTAIN_GREEN_UND_WEAPONS_A" pos="0.5 28 -0.5" />
-    <tile name="FOREST_GREEN_FILL_HUMAN_BONES_A" pos="-12.5 28 2.5" scale="1.45 1.45 1.45" />
-    <tile name="FOREST_GREEN_UND_BONES_A" pos="-8.5 28 7.5" />
-    <tile name="FOREST_GREEN_FILL_BONES_C" pos="4.5 28 4.5" roty="270" />
-    <tile name="FOREST_GREEN_KPR_BONES_A" pos="-7.5 28 11.5" />
-    <tile name="FOREST_GREEN_FILL_HUMAN_BONES_B" pos="-11.5 28 7.5" />
-    <tile name="FOREST_GREEN_FILL_BONES_B" pos="-9.5 28 -1.5" />
-    <tile name="FOREST_GREEN_FILL_BONES_A" pos="-1.5 28 9.5" />
-    <tile name="FOREST_GREEN_FILL_BONES_C" pos="-2.5 28 0.5" />
     <tile name="MOUNTAIN_GREEN_UND_WEAPONS_B" pos="-11.5 28 3.5" roty="270" />
     <tile name="MOUNTAIN_GREEN_UND_WEAPONS_A" pos="-6.5 28 10.5" />
     <tile name="MOUNTAIN_GREEN_UND_SCORPION_CHAIN_C" pos="-11.5 28 11.5" roty="270" />
@@ -4888,16 +4880,25 @@
     <tile name="MOUNTAIN_GREEN_UND_CITY_BANNER_STANDING_A" pos="-8.5 28 16.5" roty="90" />
     <tile name="MOUNTAIN_GREEN_UND_BONES_B" pos="-8.5 28 1.5" roty="270" scale="1.244143 1.244142 1.244143" />
     <tile name="MOUNTAIN_GREEN_UND_STATUE_A" pos="-17 28 3" />
+    <tile name="MOUNTAIN_GREEN_FILL_BONES_A" pos="-1.5 28 9.5" />
     <tile name="MOUNTAIN_GREEN_UND_WEAPONS_A" pos="-0.5 28 11.5" roty="270" />
-    <tile name="FOREST_GREEN_FILL_HUMAN_BONES_A" pos="-0.5 28 0.5" roty="180" scale="1.45 1.45 1.45" />
+    <tile name="MOUNTAIN_GREEN_FILL_ROCK_SMALL_D" pos="89.5 0 -75.5" rot="3 179 1" />
+    <tile name="MOUNTAIN_GREEN_FILL_HUMAN_BONES_A" pos="-12.5 28 2.5" scale="1.45 1.45 1.45" />
     <tile name="MOUNTAIN_GREEN_FILL_STORAGE_BARRELS_BROKEN_B" pos="22.5 12 -59.5" />
     <tile name="MOUNTAIN_GREEN_FILL_STORAGE_CRATE_BROKEN_B" pos="60 12 -20.5" roty="180" />
+    <tile name="MOUNTAIN_GREEN_KPR_BONES_A" pos="-8.5 28 7.5" />
     <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_A" pos="17 12 -60" roty="270" />
-    <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_A" pos="17 12 -69" roty="270" />
-    <tile name="MOUNTAIN_GREEN_FILL_ROCK_ADD_SMALL_C" pos="90 8 -78" />
-    <tile name="MOUNTAIN_GREEN_FILL_ROCK_ADD_SMALL_D" pos="92 8 -78" />
     <tile name="MOUNTAIN_GREEN_FILL_ROCK_ADD_SMALL_D" pos="90 8 -76" roty="90" />
-    <tile name="MOUNTAIN_GREEN_FILL_ROCK_SMALL_D" pos="89.5 0 -75.5" rot="3 179 1" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_A" pos="17 12 -69" roty="270" />
+    <tile name="MOUNTAIN_GREEN_FILL_HUMAN_BONES_B" pos="-11.5 28 7.5" />
+    <tile name="MOUNTAIN_GREEN_FILL_ROCK_ADD_SMALL_C" pos="90 8 -78" />
+    <tile name="MOUNTAIN_GREEN_FILL_BONES_B" pos="-9.5 28 -1.5" />
+    <tile name="MOUNTAIN_GREEN_FILL_ROCK_ADD_SMALL_D" pos="92 8 -78" />
+    <tile name="MOUNTAIN_GREEN_FILL_BONES_C" pos="4.5 28 4.5" roty="270" />
+    <tile name="MOUNTAIN_GREEN_FILL_BONES_C" pos="-2.5 28 0.5" />
+    <tile name="MOUNTAIN_GREEN_FILL_HUMAN_BONES_A" pos="-0.5 28 0.5" roty="180" scale="1.45 1.45 1.45" />
+    <tile name="MOUNTAIN_GREEN_KPR_BONES_A" pos="-7.5 28 11.5" />
+    <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_D" pos="117 8 27" />
     <criticaltile name="Exit" pos="37.5 7 -37.5" roty="90" id="exit_01" type="exit">
       <exit size="13 13" spawnpos="10 10" faction="Undead" kind="DungeonGroup" roadtype="Primary" />
     </criticaltile>

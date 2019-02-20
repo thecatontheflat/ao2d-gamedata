@@ -4872,6 +4872,14 @@
     <tile name="FOREST_GREEN_WATER_river_OBJECT_DNG" pos="60 -21 -110" />
     <tile name="FOREST_GREEN_WATER_river_OBJECT_DNG" pos="30 -21 -20" />
     <tile name="FOREST_GREEN_WATER_river_OBJECT_DNG" pos="70 -21 70" />
+    <tile name="INVISIBLE_COLLISON_A" pos="-196 4 -5.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="-206 4 -5.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="-196 4 15.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="-206 4 15.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="198 4 4.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="188 4 4.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="198 4 25.5" roty="180" />
+    <tile name="INVISIBLE_COLLISON_A" pos="188 4 25.5" roty="180" />
     <tile name="Atmosphere_DNG_NONE_DL_NONE" pos="-5 0 5" roty="180" />
   </tiles>
 </template>
