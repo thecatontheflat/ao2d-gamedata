@@ -1,0 +1,615 @@
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Master/Start/Fr_TutorialIsland_Hub.unity" unityguid="70fd9f5cbabe4484d994ae832f49b4f5" editorBoundsMin="-265 -165" editorBoundsMax="145 305" colBoundsMin="-138 -5" colBoundsMax="72 181">
+  <criticalscenemembers>
+    <criticalscenemember id="exit_02" type="exit" layerId="">
+      <tile name="Exit" pos="-5.5 -4 87.5" roty="180">
+        <exit size="15 15" spawnpos="23.91905 24.41286" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="-29.41906 59.42134" />
+            <guard pos="-29.41906 68.08715" />
+          </guards>
+        </exit>
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="respawnpoint_01" type="respawnpoint" layerId="">
+      <tile name="RespawnPoint" pos="-52 -4 91">
+        <respawnpoint type="RespawnAfterDeath" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="exit_01" type="exit" layerId="">
+      <tile name="Exit" pos="0.5 14 137.5" roty="90">
+        <exit size="15 15" spawnpos="17.53171 0.4325249" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="7.378736 119.9683" />
+            <guard pos="-4.067474 119.9683" />
+          </guards>
+        </exit>
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="exit_03" type="exit" layerId="">
+      <tile name="Exit" pos="-68.5 -4 132.5" roty="90">
+        <exit size="15 15" spawnpos="12.68534 -1.013793" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="-64.67047 119.8147" />
+            <guard pos="-74.5138 119.8147" />
+          </guards>
+        </exit>
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_05" type="actionbuilding" layerId="">
+      <tile name="T2_CARPENTERSWORKSHOP_TUTORIAL" pos="-73 -4 89">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_04" type="actionbuilding" layerId="">
+      <tile name="T2_TOOLMAKER_TUTORIAL" pos="-58 -4 113" roty="69">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_06" type="actionbuilding" layerId="">
+      <tile name="T2_FORGE_TUTORIAL" pos="-51 -4 104" roty="349">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_07" type="actionbuilding" layerId="">
+      <tile name="T2_HUNTERSLODGE_TUTORIAL" pos="-41 -4 103" roty="84">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_08" type="actionbuilding" layerId="">
+      <tile name="T2_MAGICITEMS_TUTORIAL" pos="-32 -4 105" roty="88">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_09" type="actionbuilding" layerId="">
+      <tile name="T2_TANNERY_TUTORIAL" pos="-75 -4 98" roty="270">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_10" type="actionbuilding" layerId="">
+      <tile name="T2_WEAVINGMILL_TUTORIAL" pos="-74 -4 81">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_02" type="actionbuilding" layerId="">
+      <tile name="T2_REPAIRSHOP_TUTORIAL" pos="-73 -4 72" roty="272">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_03" type="actionbuilding" layerId="">
+      <tile name="FOREST_GREEN_MARKETPLACE_TUTORIAL" pos="-69 -4 69">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="questgiverobject_01" type="questgiverobject" layerId="">
+      <tile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-77.5 -4 113.5" roty="92">
+        <questgiverobject reference="WOUNDEDCRAFTER_SECONDENCOUNTER" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="questgiverobject_02" type="questgiverobject" layerId="">
+      <tile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-47.5 -4 79.5">
+        <questgiverobject reference="CAPTAIN_TIA" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_01" type="actionbuilding" layerId="">
+      <tile name="T2_SMELTER" pos="-76 -4 106">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_11" type="actionbuilding" layerId="">
+      <tile name="T1_TUTORIAL_SHIP_CRANE_A" pos="-57 -4 61">
+        <actionbuilding />
+      </tile>
+    </criticalscenemember>
+  </criticalscenemembers>
+  <tiles>
+    <tile name="Atmosphere_WRL_NONE_FR_GREEN_Tutorial" pos="0 12.8 0" />
+    <criticaltile name="Exit" pos="-5.5 -4 87.5" roty="180" id="exit_02" type="exit">
+      <exit size="15 15" spawnpos="23.91905 24.41286" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="-29.41906 59.42134" />
+          <guard pos="-29.41906 68.08715" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <criticaltile name="RespawnPoint" pos="-52 -4 91" id="respawnpoint_01" type="respawnpoint">
+      <respawnpoint type="RespawnAfterDeath" />
+    </criticaltile>
+    <criticaltile name="Exit" pos="0.5 14 137.5" roty="90" id="exit_01" type="exit">
+      <exit size="15 15" spawnpos="17.53171 0.4325249" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="7.378736 119.9683" />
+          <guard pos="-4.067474 119.9683" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <criticaltile name="Exit" pos="-68.5 -4 132.5" roty="90" id="exit_03" type="exit">
+      <exit size="15 15" spawnpos="12.68534 -1.013793" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="-64.67047 119.8147" />
+          <guard pos="-74.5138 119.8147" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <tile name="FOREST_GREEN_GROUND" pos="-80 -4 110" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-80 -4 120" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_CORNER_A_OBJ" pos="-90 -4 70" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="10 8 40" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="10 8 50" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-90 -4 100" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="10 8 60" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-90 -4 110" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="10 8 70" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-90 -4 120" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_CORNER_A_OBJ" pos="40 -4 30" roty="0" />
+    <tile name="FOREST_GREEN_GROUND" pos="-100 -4 110" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="28 -4 28" rot="0 90 333" scale="1 7.004298 1" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="28 -6 25" rot="0 90 333" scale="1 11.97657 1" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="30 -6 25" rot="5 90 333" scale="1 11.97657 1" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-50 -4 67" roty="71" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-46 -4 74" roty="71" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-49 -4 75" roty="251" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-53 -4 67" roty="251" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-58 -4 92" roty="258" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-65 -4 77" roty="352.09" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-56 -4 73" roty="341" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-56 -4 95" roty="110" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-40 -4 79" roty="279.7" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-36 -4 87" roty="232.4" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-39 -4 95" roty="184" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-47 -4 98" roty="146.61" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-57 -4 90" roty="78" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-36 -4 86" roty="78" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-44 -4 92" roty="235.72" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-44 -4 91" roty="78" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-52 -4 63" roty="286" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-68 -4 85" roty="236" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-47 -4 65" roty="161" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-47 -4 62" roty="15.72" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-46 -4 67" roty="15.72" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-48 -4 60" roty="15.72" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-47 -4 65" roty="15.72" />
+    <tile name="FOREST_GREEN_BEACH_S_HILL_B" pos="-20 -4 82" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="20 -4 30" roty="0" />
+    <tile name="FOREST_GREEN_BEACH_S_HILL_C" pos="-37 -4 50" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_HILL_C" pos="-32 -4 54" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_DIAGONAL_RIGHT_A" pos="-40 -4 45" roty="0" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_DIAGONAL_RIGHT_A" pos="-50 -4 55" roty="0" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-30 -4 40" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-80 -4 90" roty="0" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="30 -4 30" roty="0" />
+    <tile name="FOREST_GREEN_CLIFF_12M_CORNER_A" pos="-5 -4 85" roty="180" />
+    <tile name="FOREST_GREEN_CITY_4M_STAIRS_DEADEND_DOWN" pos="10 -20 80" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-90 -4 80" roty="90" />
+    <tile name="FOREST_GREEN_FILL_RUIN_STAIRS_4M_HILL_A_OBJ" pos="10 4 30" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-40 -4 60" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_DIAGONAL_RIGHT_A" pos="-60 -4 65" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-50 -4 70" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-40 -4 80" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-40 -4 70" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-50 -4 80" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-60 -4 80" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-60 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-50 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-30 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-40 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-20 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_INNERCORNER_A" pos="-30 -4 80" roty="0" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-80 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-30 -4 70" roty="270" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-30 -4 50" roty="270" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-70 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="10 8 74" roty="90" />
+    <tile name="FOREST_GREEN_CLIFF_12M_RAMP_LEFT_A" pos="-10 -4 55" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-30 -4 60" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="8 8 47" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="9 8 38" roty="90" />
+    <tile name="FOREST_GREEN_CLIFF_16M_CORNER_A" pos="25 -8 85" roty="270" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_A_OBJ_NOCOL" pos="10 -4 30" roty="0" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="27 -6 24" rot="0 270 32" scale="0.9999999 11.97657 1" />
+    <tile name="FOREST_GREEN_FILL_RUIN_BRIDGE_A" pos="10 6 30" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="30 -6 24" rot="351.25 284.25 30.9" scale="0.9999999 7.0043 1" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="25 -6 24" rot="5 270 31.98" scale="1 11.97657 1" />
+    <tile name="FOREST_GREEN_GROUND" pos="-100 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="9 8 56" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-100 -4 120" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-80 -4 70" />
+    <tile name="FOREST_GREEN_GROUND" pos="-110 -4 110" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_A" pos="-100 -4 90" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-110 -4 90" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-90 -4 90" />
+    <tile name="FOREST_GREEN_CLIFF_16M_CORNER_A" pos="25 -8 115" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-80 -4 80" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-40 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_CLIFF_16M_CORNER_A" pos="45 -8 65" roty="270" />
+    <tile name="FOREST_GREEN_CLIFF_16M_CORNER_A" pos="45 -8 45" />
+    <tile name="FOREST_GREEN_CLIFF_16M_INNERCORNER_A" pos="25 -8 65" roty="180" />
+    <tile name="FOREST_GREEN_CLIFF_16M_STRAIGHT_A" pos="25 -8 45" />
+    <tile name="FOREST_GREEN_GROUND" pos="-40 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-100 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-110 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-50 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-110 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-35 -4 92" roty="240.03" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-50 -4 110" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-38 -4 97" roty="150" />
+    <tile name="FOREST_GREEN_GROUND" pos="-30 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-30 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_BANK_STRAIGHT_B" pos="-70 -4 70" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-70 -4 80" roty="180" />
+    <tile name="FOREST_GREEN_ROAD_ROAD_END_A" pos="-70 -4 110" roty="270" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-67 -4 99" roty="194" />
+    <tile name="FOREST_GREEN_GROUND" pos="-80 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-110 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-90 -4 130" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-40 -4 110" roty="270" />
+    <tile name="FOREST_GREEN_GROUND" pos="-50 -4 120" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-60 -4 120" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-60 -4 99" roty="284.45" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-70 -4 90" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-30 -4 110" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-60 -4 140" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-65 -4 93" roty="78" />
+    <tile name="FOREST_GREEN_GROUND" pos="-60 -4 130" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-50 -4 140" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_STRAIGHT_A" pos="-60 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-40 -4 150" roty="90" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_B" pos="-61 -4 81" roty="65.04" />
+    <tile name="FOREST_GREEN_GROUND" pos="-50 -4 150" roty="90" />
+    <tile name="FOREST_GREEN_GROUND" pos="-60 -4 150" roty="90" />
+    <tile name="FOREST_GREEN_CITY_4M_STAIRS_DEADEND_DOWN" pos="10 -20 110" />
+    <tile name="FOREST_GREEN_GROUND" pos="-60 -4 110" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-20 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_GROUND" pos="-100 -4 140" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_OBJECT" pos="-10 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-25 -4 99" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_OBJECT" pos="-20 -4 110" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-29 -4 92" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-22 -4 107" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_OBJECT" pos="-10 -4 110" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-20 -4 96" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-33 -4 104" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_OBJECT" pos="-20 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_ROAD_CITY_PATCH_SMALL_A" pos="-22 -4 88" roty="270" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="0 -4 110" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="-10 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="0 -4 120" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH" pos="10 -4 120" roty="180" />
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-70.5 -13 77.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-73.5 -13 102.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-69.5 -13 84.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-60.5 -13 108.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-34.5 -13 100.5" roty="180">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-70.5 -13 92.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-40.5 -13 102.5" roty="180">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-62.5 -13 70.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-69.5 -13 72.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-74.5 -13 98.5" roty="180">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-50.5 -13 101.5" roty="180">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <tile name="T1_TUTORIAL_NPCBLOCKER" pos="-77.5 -13 101.5" roty="90">
+      <tutorialblocker id="BLOCKNPCS" blockeddefault="true" />
+    </tile>
+    <criticaltile name="T2_CARPENTERSWORKSHOP_TUTORIAL" pos="-73 -4 89" id="actionbuilding_05" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_TOOLMAKER_TUTORIAL" pos="-58 -4 113" roty="69" id="actionbuilding_04" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_FORGE_TUTORIAL" pos="-51 -4 104" roty="349" id="actionbuilding_06" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_HUNTERSLODGE_TUTORIAL" pos="-41 -4 103" roty="84" id="actionbuilding_07" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_MAGICITEMS_TUTORIAL" pos="-32 -4 105" roty="88" id="actionbuilding_08" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_TANNERY_TUTORIAL" pos="-75 -4 98" roty="270" id="actionbuilding_09" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_WEAVINGMILL_TUTORIAL" pos="-74 -4 81" id="actionbuilding_10" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="T2_REPAIRSHOP_TUTORIAL" pos="-73 -4 72" roty="272" id="actionbuilding_02" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <criticaltile name="FOREST_GREEN_MARKETPLACE_TUTORIAL" pos="-69 -4 69" id="actionbuilding_03" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <tile name="MiniMapMarker" pos="-67 -3 71">
+      <minimapmarker type="Marketplace" />
+    </tile>
+    <tile name="FACTION_GUARD_ROYAL" pos="-75.5 -4 121.5" roty="67" />
+    <tile name="FACTION_GUARD_ROYAL" pos="-30.5 -4 66.5" roty="212" />
+    <tile name="FOREST_GREEN_FILL_NPCS_CONSTRUCTOR_A" pos="-51.5 -4 57.5" roty="185" />
+    <criticaltile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-77.5 -4 113.5" roty="92" id="questgiverobject_01" type="questgiverobject">
+      <questgiverobject reference="WOUNDEDCRAFTER_SECONDENCOUNTER" />
+    </criticaltile>
+    <criticaltile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-47.5 -4 79.5" id="questgiverobject_02" type="questgiverobject">
+      <questgiverobject reference="CAPTAIN_TIA" />
+    </criticaltile>
+    <criticaltile name="T2_SMELTER" pos="-76 -4 106" id="actionbuilding_01" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <tile name="FOREST_GREEN_FILL_NPCS_CONSTRUCTOR_A" pos="-57.5 0 53.5" roty="10" />
+    <tile name="FACTION_GUARD_ROYAL" pos="-33.5 -4 59.5" roty="2" />
+    <tile name="FACTION_GUARD_ROYAL" pos="-32.5 -4 68.5" roty="225" />
+    <criticaltile name="T1_TUTORIAL_SHIP_CRANE_A" pos="-57 -4 61" id="actionbuilding_11" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <tile name="FOREST_GREEN_FILL_CITY_CRANE_LARGE_A" pos="-57.5 -4 61.5" roty="270" />
+    <tile name="FOREST_GREEN_FILL_NPCS_CONSTRUCTOR_A" pos="-30.5 -4 104.5" roty="95" />
+    <tile name="FOREST_GREEN_FILL_NPCS_CONSTRUCTOR_A" pos="-18.5 -4 93.5" roty="23" />
+    <tile name="FOREST_GREEN_FILL_NPCS_CONSTRUCTOR_A" pos="-11.5 8 112.5" roty="321.89" />
+    <tile name="T1_TUTORIAL_SHIP_HUD" pos="-53.5 0 74.5" roty="90">
+      <tutorialblocker id="FIXSHIP" blockeddefault="true" />
+    </tile>
+    <tile name="FACTION_GUARD_ROYAL" pos="-65.5 -4 121.5" roty="337" />
+    <tile name="FOREST_GREEN_FILL_LADDER_LARGE_A" pos="16 -3 23" rot="13 189 103" />
+    <tile name="FOREST_GREEN_FILL_LADDER_LARGE_A" pos="22 -5 23" rot="12.19 183.56 97.77" />
+    <tile name="FOREST_GREEN_FILL_AWNING_LARGE_A" pos="-76.5 -6 87.5" roty="260" />
+    <tile name="FOREST_GREEN_FILL_BUILDING_FILL_C" pos="-51 -4 60" roty="90" />
+    <tile name="FOREST_GREEN_FILL_CONSTSITE_WOODPILE_A" pos="-50 -5 52" rot="355.58 46.46 2.92" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="18 -4 46" rot="5 92 12" scale="1.67209 2.446741 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="25 -8 48" rot="31 282 2" scale="1.67209 1.625249 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="17 -5 41" rot="354 279 6" scale="1.672092 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="23 -6 48" rot="354 278 6" scale="1.672089 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="30 -8 38" rot="354 187.6 6" scale="1.672091 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="33 -9 50" rot="354 125 6" scale="1.672089 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="29 -9 50" rot="354 278 6" scale="1.672089 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="36 -9 45" rot="354 188 6" scale="1.67209 1.748181 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-6 -1 77" rot="5 170 0" scale="1.092339 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="20 1 62" rot="5 260 0" scale="1.672093 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-5 -4 81" rot="4 127 2" scale="1.672092 1.62525 1.671247" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="42 -9 50" rot="354 125 6" scale="1.67209 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="38 -9 50" rot="354 278 6" scale="1.67209 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="45 -9 45" rot="354 188 6" scale="1.672091 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="56 -9 50" rot="354 125 6" scale="1.67209 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="52 -9 50" rot="354 278 6" scale="1.67209 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="59 -9 45" rot="354 188 6" scale="1.672091 1.74818 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-18 -6 75" rot="30 116 7" scale="1.113063 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-12 -6 80" rot="12 10 36" scale="1.672091 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-12 -6 79" rot="12 10 36" scale="1.672091 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-17 -10 37" rot="17 3 23" scale="1.672089 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_C" pos="-15 -5 50" roty="180" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_C" pos="-27 -5 45" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-1 1 75" rot="5 260 0" scale="1.092341 1.62525 1.000001" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-45 -4 127" rot="7 81 359" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-30 -3 128" rot="346 81 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-86 -7 86" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-34 -6 126" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="3 -4 36" rot="5 261 0" scale="1.092341 1.759331 0.824873" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-1 3 88" rot="354 125 6" scale="0.3376528 0.80556 0.6752633" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="13 3 71" rot="354 125 6" scale="0.33765 0.8055599 0.67526" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_A" pos="10 -2 103" rot="352.75 0 0" scale="1 1.689023 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-2 -7 87" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-1 -11 28" rot="3 260 0" scale="1.67209 1.62525 1.533482" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_A" pos="10 8 69" roty="270" scale="0.6521736 0.8654583 0.6521736" />
+    <tile name="FOREST_GREEN_FILL_RUIN_BRIDGE_A" pos="10 5 96" rot="344 0 0" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="-54 -4 99" roty="158" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="27 2 57" roty="270" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="34 2 55" roty="180" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-102 -7 91" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="-2 -13 13" rot="339 169 5" scale="0.6882402 1.62525 1" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="34 -3 62" roty="180" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="33 -8 70" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_NOCOL_OCEAN" pos="43 -8 68" roty="180" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_DIAGONAL_C_DEBRIS" pos="-124 -6 84" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A_DEBRIS_NOCOL" pos="24 -4 135" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_B" pos="-30 -4 74" roty="180" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_B" pos="-117 -4 97" roty="90" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_C" pos="-33 -4 55" roty="180" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="-56 -4 100" roty="338" />
+    <tile name="FOREST_GREEN_BEACH_S_FOOTSTEPS_A" pos="-56 -4 98" roty="158" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-89 -7 137" roty="270" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-113 -7 111" roty="270" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-97 -7 104" roty="270" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-52 -4 147" rot="7 81 359" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-20 3 132" rot="346 81 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_C" pos="-12 -5 56" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A_DEBRIS_NOCOL" pos="0 5 109" roty="51.7" scale="0.4134069 0.6171155 0.4970489" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A_DEBRIS_NOCOL" pos="-2 2 103" roty="257" scale="0.61712 0.61712 0.61712" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-32 5 151" rot="346 351 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="17 5 138" rot="346 81 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="29 1 123" rot="346 129 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="32 -5 113" rot="346 56.72 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-18 5 140" rot="346 81 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="16 13 151" rot="346 81 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-16 13 151" rot="0 81 0" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="15 17 160" rot="346 261 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-17 17 157" rot="346 261 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A_DEBRIS_NOCOL" pos="-5 2 91" roty="214" scale="0.380705 0.61712 0.6171204" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A_DEBRIS_NOCOL" pos="-10 -3 95" roty="234.87" scale="0.3807101 0.61712 0.6171203" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="16 13 151" rot="346 351 2" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-74 -24 155" rot="7 351 359" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_C" pos="-38 -4 56" />
+    <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-99 -7 127" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_A" pos="-74.5 -4 116.5" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-55.5 -4 118.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_BUSH_A" pos="-53.5 -4 120.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-59.5 -4 117.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_DECO_BUSH_B" pos="-21.5 7 78.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_DECO_BUSH_C" pos="-18.5 6 82.5" />
+    <tile name="FOREST_GREEN_T1_DECO_BUSH_A" pos="-20.5 -3 52.5" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-82.5 -4 113.5" roty="180" />
+    <tile name="FOREST_GREEN_T1_TREE_B" pos="-78.5 -4 123.5" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-60.5 -4 119.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-81.5 -4 103.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-63.5 -4 120.5" roty="180" />
+    <tile name="FOREST_GREEN_T1_TREE_B" pos="-77.5 -4 127.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-73.5 -4 122.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-86.5 -4 120.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-57.5 -4 104.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_BUSH_B" pos="-82.5 -4 107.5" roty="180" />
+    <tile name="FOREST_GREEN_T1_BUSH_A" pos="-79.5 -4 119.5" />
+    <tile name="FOREST_GREEN_T1_BUSH_A" pos="-82.5 -4 120.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-55.5 -4 115.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-52.5 -4 117.5" roty="180" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-55.5 -4 104.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-47.5 -4 120.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-84.5 -4 117.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-81.5 -4 116.5" roty="180" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-57.5 -4 111.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-73.5 -4 114.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-66.5 -4 116.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-82.5 -4 110.5" roty="270" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-54.5 -4 107.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-73.5 -4 120.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-61.5 -4 103.5" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-77.5 -4 120.5" roty="90" />
+    <tile name="FOREST_GREEN_T1_ROCK" pos="-78.5 -4 106.5" />
+    <tile name="LocationMarker" pos="-56.5 -4 62.5">
+      <locationmarker locationid="SHIP_CHECK" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-62.5 -4 71.5">
+      <locationmarker locationid="MARKETPLACE" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-62.5 -4 112.5">
+      <locationmarker locationid="TOOLMAKERSMALL" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-71.5 -4 89.5">
+      <locationmarker locationid="CARPENTER" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-73.5 -4 97.5">
+      <locationmarker locationid="SKINNER" radius="2" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-69.5 -4 132.5">
+      <locationmarker locationid="CAMP" radius="10" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="QuestTrigger" pos="-42.5 -4 68.5">
+      <questtrigger questid="MISSIONS_T2_TUTORIAL_TEST_F" radius="10" triggeronexit="false" />
+    </tile>
+    <tile name="LocationMarker" pos="-0.5 12 146.5">
+      <locationmarker locationid="MOUNTAIN" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-41.5 -4 68.5">
+      <locationmarker locationid="CAPTAIN_TIA" radius="10" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-77.5 -4 113.5">
+      <locationmarker locationid="CRAFTER" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-0.5 15 146.5">
+      <locationmarker locationid="FINALCHAPTER" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-75.5 -4 105.5">
+      <locationmarker locationid="SMELTER" radius="5" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-72.5 -4 81.5">
+      <locationmarker locationid="WEAVER" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-46.5 -4 79.5">
+      <locationmarker locationid="TIA" radius="2.48" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-70.5 -4 139.5">
+      <locationmarker locationid="FOREST" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-72.5 -4 72.5">
+      <locationmarker locationid="REPAIR" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-48.5 -4 102.5">
+      <locationmarker locationid="FORGE" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-40.5 -4 102.5">
+      <locationmarker locationid="LODGE" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-33.5 -4 101.5">
+      <locationmarker locationid="TOWER" radius="1" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-70.5 -4 139.5">
+      <locationmarker locationid="CAMP" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="LocationMarker" pos="-0.5 12 146.5">
+      <locationmarker locationid="FORT" radius="3" visibleinworld="true" visibleonminimap="true" />
+    </tile>
+    <tile name="water_sealevel_30x30" pos="-100 -4 20" />
+    <tile name="water_sealevel_30x30" pos="-70 -4 20" />
+    <tile name="water_sealevel_30x30" pos="-10 -4 20" />
+    <tile name="water_sealevel_30x30" pos="50 -4 20" />
+    <tile name="water_sealevel_30x30" pos="-40 -4 20" />
+    <tile name="water_sealevel_30x30" pos="-40 -4 50" />
+    <tile name="water_sealevel_30x30" pos="-100 -4 80" />
+    <tile name="water_sealevel_30x30" pos="-100 -4 50" />
+    <tile name="water_sealevel_30x30" pos="-70 -4 80" />
+    <tile name="water_sealevel_30x30" pos="-70 -4 50" />
+    <tile name="water_sealevel_30x30" pos="50 -4 50" />
+    <tile name="water_sealevel_30x30" pos="50 -4 80" />
+    <tile name="water_sealevel_30x30" pos="20 -4 80" />
+    <tile name="water_sealevel_30x30" pos="20 -4 110" />
+    <tile name="water_sealevel_30x30" pos="50 -4 110" />
+    <tile name="water_sealevel_30x30" pos="20 -4 20" />
+    <tile name="water_sealevel_30x30" pos="50 -4 140" />
+    <compoundtile name="_FOREST_GREEN_BASE_10x30_COMP_01" pos="-66 -4 138" roty="270" />
+    <compoundtile name="_FOREST_GREEN_BASE_10x30_COMP_01" pos="-80 -4 139" roty="270" />
+    <compoundtile name="_FOREST_GREEN_BASE_10x30_COMP_01" pos="-50 0 126" roty="270" />
+    <compoundtile name="_FOREST_GREEN_BASE_10x30_COMP_01" pos="-39 7 121" roty="180" />
+    <tile name="FOREST_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="0 8 130" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="10 8 130" />
+    <tile name="FOREST_GREEN_CITY_12M_STAIRS_DIAGONAL_B" pos="-15 -4 105" roty="90" />
+    <tile name="FOREST_GREEN_ROAD_ROAD_DIAGONAL_20_A" pos="-75 -4 155" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_INNERCORNER_A" pos="-40 -4 100" roty="270" />
+    <tile name="FOREST_GREEN_ROAD_ROAD_STRAIGHT_A" pos="-70 -4 140" roty="270" />
+    <tile name="FOREST_GREEN_ROAD_ROAD_STRAIGHT_A" pos="-70 -4 120" roty="270" />
+    <tile name="FOREST_GREEN_ROAD_ROAD_STRAIGHT_A" pos="-70 -4 130" roty="270" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_INNERCORNER_A" pos="-50 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_BEACH_INNERCORNER_A" pos="-30 -4 100" roty="180" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="-10 8 120" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="10 8 120" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="-10 8 130" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="0 8 130" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="0 8 120" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_OBJ" pos="0 8 110" />
+    <tile name="FOREST_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="0 12 140" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_A_DIAGONAL_OBJ" pos="-10 8 110" roty="270" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOWDRIFT_LARGE_A" pos="-4.5 20 152.5" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_A" pos="-0.5 14 138.5" rot="327.58 7.61 359.3" />
+    <tile name="FOREST_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="0 16 150" roty="90" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_B" pos="1 12 137" />
+    <tile name="MOUNTAIN_GREEN_VEG_STONE_SNOW_SMALL_A" pos="8.5 8 120.5" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_A" pos="-9 8 124" roty="270" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_B" pos="5.5 8 124.5" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_CORNER_A" pos="10 5 97" rot="0 90 344.65" scale="0.615191 0.6151909 0.6151911" />
+    <tile name="FOREST_GREEN_CITY_WALL_STRAIGHT_A" pos="10 -20 120" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_CORNER_A" pos="10 5 96" rot="0 270 9" scale="0.4877557 0.2643314 0.4877557" />
+    <tile name="MOUNTAIN_GREEN_VEG_SNOW_PATCH_B" pos="0 11 130" rot="333.33 4.75 354.26" />
+    <tile name="FOREST_GREEN_WATER_PUDDLE_A" pos="-8 8 117" roty="25" scale="0.9999999 1 1.663572" />
+    <tile name="FOREST_GREEN_WATER_PUDDLE_A" pos="-1 8 117" roty="295" scale="1.454747 0.6782491 1.128317" />
+    <tile name="FOREST_GREEN_WATER_PUDDLE_A" pos="2 8 125" roty="205" scale="1.454748 0.6782491 1.128317" />
+    <tile name="FOREST_GREEN_WATER_PUDDLE_A" pos="8 8 120" roty="115" scale="1.454747 0.6782491 1.128317" />
+    <tile name="T1_TUTORIAL_STONE_BLOCKER" pos="-19 -3 100">
+      <tutorialblocker id="MOUNTAIN" blockeddefault="true" />
+    </tile>
+    <tile name="FOREST_GREEN_FILL_BUILDING_FILL_D" pos="-28 -4 104.5" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="-27 -4 105" roty="270" />
+    <tile name="T1_TUTORIAL_GATE" pos="-66.5 -12 124.5" roty="180">
+      <tutorialblocker id="FORESTBLOCK" blockeddefault="true" />
+    </tile>
+    <tile name="FOREST_GREEN_FILL_BOTTLE_A" pos="-47.5 -4 81.5" />
+    <tile name="FOREST_GREEN_FILL_FIRE_CAMP_B" pos="-48 -4 83" />
+    <tile name="FOREST_GREEN_FILL_PLAYBOARD_A" pos="-50 -4 78" />
+    <tile name="FOREST_GREEN_HER_FILL_MAP_TABLE_B_DIAGONAL" pos="-46 -4 79" />
+    <tile name="T1_TUTORIAL_GATE" pos="-74.5 -12 124.5" roty="180">
+      <tutorialblocker id="" blockeddefault="true" />
+    </tile>
+  </tiles>
+</template>

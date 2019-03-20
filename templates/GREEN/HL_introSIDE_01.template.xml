@@ -70,11 +70,6 @@
         </exit>
       </tile>
     </criticalscenemember>
-    <criticalscenemember id="questgiverobject_01" type="questgiverobject" layerId="">
-      <tile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-14.5 4 -335.5">
-        <questgiverobject reference="ROYALMINER" />
-      </tile>
-    </criticalscenemember>
     <criticalscenemember id="actionbuilding_01" type="actionbuilding" layerId="">
       <tile name="T3_STONEMASONRY" pos="-15 4 -345">
         <actionbuilding />
@@ -83,11 +78,6 @@
     <criticalscenemember id="actionbuilding_02" type="actionbuilding" layerId="">
       <tile name="T3_SMELTER" pos="-10 4 -330">
         <actionbuilding />
-      </tile>
-    </criticalscenemember>
-    <criticalscenemember id="questgiverobject_02" type="questgiverobject" layerId="">
-      <tile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-38.5 20 -225.5" roty="9.41">
-        <questgiverobject reference="ROYALLUMBERJACK" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="actionbuilding_03" type="actionbuilding" layerId="">
@@ -2644,9 +2634,6 @@
       <resourcenode nodetype="medium" resourcetype="ore" />
     </tile>
     <tile name="Atmosphere_WRL_NONE_HL_GREEN" pos="0 0 0" />
-    <criticaltile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-14.5 4 -335.5" id="questgiverobject_01" type="questgiverobject">
-      <questgiverobject reference="ROYALMINER" />
-    </criticaltile>
     <criticaltile name="T3_STONEMASONRY" pos="-15 4 -345" id="actionbuilding_01" type="actionbuilding">
       <actionbuilding />
     </criticaltile>
@@ -2698,9 +2685,6 @@
     <tile name="MOBCAMP_MEDIUM_NODE" pos="-285.5 16 372.5">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <criticaltile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="-38.5 20 -225.5" roty="9.41" id="questgiverobject_02" type="questgiverobject">
-      <questgiverobject reference="ROYALLUMBERJACK" />
-    </criticaltile>
     <criticaltile name="T2_CARPENTERSWORKSHOP" pos="-45 20 -235" id="actionbuilding_03" type="actionbuilding">
       <actionbuilding />
     </criticaltile>

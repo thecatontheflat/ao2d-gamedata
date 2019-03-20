@@ -12,7 +12,6 @@
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_A" pos="13 0 -7" roty="180" />
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_SPIKE_C" pos="-14.5 0 18.5" roty="90" />
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_SPIKE_D" pos="12 0 17" roty="270" />
-    <tile name="SWAMP_RED_FILL_HILL_BASE_A" pos="18 0 18" roty="246" />
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_SPIKE_C" pos="-11.5 0 -10.5" roty="270" />
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_A" pos="-9 0 -18" />
     <tile name="SWAMP_RED_FILL_VOLCANO_SUB_02_SPIKE_C" pos="-12.5 0 -18.5" roty="270" />

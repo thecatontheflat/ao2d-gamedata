@@ -69,16 +69,16 @@
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_A" pos="4.5 0 -12" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_A" pos="-8.5 1 11" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_B" pos="17.5 4 -3" roty="93" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_CORNER_A" pos="5 0 -14" roty="270" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_STRAIGHT_A" pos="20.5 0 1" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_STRAIGHT_A" pos="13 0 -11.5" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_CORNER_A" pos="5 0 -14" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_SIDE_B" pos="20.5 0 1" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_SIDE_B" pos="13 0 -11.5" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_GATE_OPEN_A" pos="-9.5 4 0" roty="180" />
     <tile name="SWAMP_GREEN_CASTLE_RAILING_PILLAR_B" pos="-9 4 -7" roty="270" />
     <tile name="SWAMP_GREEN_FILL_CRYPT_PEDESTAL_A" pos="0.5 4 6.5" />
     <tile name="SWAMP_GREEN_FILL_CRYPT_PEDESTAL_A" pos="5.5 4 -6.5" roty="180" />
     <tile name="SWAMP_GREEN_FILL_CRYPT_PEDESTAL_B" pos="11.5 4 7.5" />
     <tile name="SWAMP_GREEN_FILL_LIGHT_CANDLES_A" pos="4.5 7 -9.5" roty="270" />
-    <tile name="SWAMP_GREEN_FILL_PRISON_CAGE_A_NO_COLLISION" pos="6.5 3 -11.5" rot="31 335 0" />
+    <tile name="SWAMP_GREEN_FILL_PRISON_CAGE_A_NOCOL" pos="6.5 3 -11.5" rot="31 335 0" />
     <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_B" pos="-10 0 18" />
     <tile name="SWAMP_GREEN_FILL_STORAGE_BARRELS_BROKEN_A" pos="-5 4 4.5" />
     <tile name="SWAMP_GREEN_FILL_SPIKES_A" pos="-8 4 -10.5" roty="180" />

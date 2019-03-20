@@ -75,13 +75,15 @@
     <ClusterChange cooldownseconds="10"/>
     <SpawnBuff>
       <!-- The first buff makes you immune to invul shields for respawning in the open world -->
-      <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="false" onlyonrevive="true" onlyinarena="false" onlyingvg="false" onlyinexpedition="false"/>
-      <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       onlywhenpvppossible="false" onlyonlogin="false" onlyonclusterchange="false" onlyonrevive="true" onlyinarena="false" onlyingvg="false" onlyinexpedition="false"/> <!-- For transitioning from city to guild territory -->
-      <buff name="SPAWN_INVULNERABILITY"            onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="true" onlyonrevive="false" onlyinarena="false" onlyingvg="false" onlyinexpedition="false"/>
-      <buff name="SPAWN_INVULNERABILITY"            onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="false" onlyonrevive="false" onlyinarena="false" onlyingvg="true" onlyinexpedition="false"/> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
-      <buff name="SPAWN_INVULNERABILITY_EXPEDITION" onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="false" onlyonrevive="true" onlyinarena="false" onlyingvg="false" onlyinexpedition="true"/>
-      <buff name="SPAWN_SPEED"                      onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="true" onlyonrevive="false" onlyinarena="false" onlyingvg="false" onlyinexpedition="false"/>
-      <buff name="SPAWN_BUFFIMMUNITY"               onlywhenpvppossible="true" onlyonlogin="false" onlyonclusterchange="true" onlyonrevive="false" onlyinarena="false" onlyingvg="false" onlyinexpedition="false"/>
+      <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+      <buff name="TUTORIAL_STUN"                    isintutorial="Must" isfirstlogin="Must" />
+      <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" isinexpedition="MustNot" isindungeon="MustNot"/>
+      <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+      <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="DoesNotMatter" isclusterchange="Must" isinexpedition="Must"/>
+      <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="DoesNotMatter" isrevive="Must" isinexpedition="Must"/>
+      <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must" isindungeon="Must"/>
+      <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+      <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
       <!-- order is important: immunity LAST (obvious, right?) -->
     </SpawnBuff>
     <Logout timeseconds="60" inactivitylogoutminutes="30" />
@@ -1292,13 +1294,13 @@
    <GoldPurchasePackage name="GOLDPACKAGE5" gold="21000" price="99.95"/>
   </GoldPurchasePackages>
   <ClusterDangerBonusTypes>
-    <ClusterDangerBonus type="safe" icon="safe" famefactor="1.375" moblootfactor="1.25" mobsilverlootfactor="1.25"/>
-    <ClusterDangerBonus type="yellow" icon="yellow" famefactor="1.5" moblootfactor="1.33" mobsilverlootfactor="1.33"/>
+    <ClusterDangerBonus type="safe" icon="safe" famefactor="1.8" moblootfactor="1.25" mobsilverlootfactor="1.25"/>
+    <ClusterDangerBonus type="yellow" icon="yellow" famefactor="2" moblootfactor="1.33" mobsilverlootfactor="1.33"/>
     <ClusterDangerBonus type="red"  icon="red" famefactor="2.75" moblootfactor="2.25" mobsilverlootfactor="2.25"/>
     <ClusterDangerBonus type="black"  icon="black" famefactor="3.5" moblootfactor="2.75" mobsilverlootfactor="2.75"/>
-    <ClusterDangerBonus type="hell"  icon="black" famefactor="3.0" moblootfactor="5" mobsilverlootfactor="5"/>
-    <ClusterDangerBonus type="hell_yellow"  icon="yellow" famefactor="2.5" moblootfactor="2.25" mobsilverlootfactor="2.25"/>
-    <ClusterDangerBonus type="hell_green"  icon="yellow" famefactor="1.375" moblootfactor="1.75" mobsilverlootfactor="1.75"/>
+    <ClusterDangerBonus type="hell"  icon="black" famefactor="5.0" moblootfactor="5" mobsilverlootfactor="5"/>
+    <ClusterDangerBonus type="hell_yellow"  icon="yellow" famefactor="3.5" moblootfactor="2.25" mobsilverlootfactor="2.25"/>
+    <ClusterDangerBonus type="hell_green"  icon="yellow" famefactor="1.8" moblootfactor="1.75" mobsilverlootfactor="1.75"/>
     <ClusterDangerBonus type="expedition"  icon="safe" famefactor="1" moblootfactor="0.5" mobsilverlootfactor="0.5"/>
   </ClusterDangerBonusTypes>
   <AchievementHud tutorial_idletime_till_highlight="30"/>
