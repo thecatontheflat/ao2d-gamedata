@@ -747,7 +747,7 @@
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_STRAIGHT_A" pos="40 -36 0" roty="180" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_STRAIGHT_A" pos="-20 -8 0" roty="180" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_STRAIGHT_A_OBJECT" pos="0 -8 50" roty="270" />
-    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJECT" pos="-20 -28 50" />
+    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJ" pos="-20 -28 50" />
     <tile name="HIGHLAND_GREEN_ROAD_STREET_PLACE_A_OBJECT" pos="-30 -8 80" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_STRAIGHT_A" pos="-10 -8 0" roty="180" />
     <tile name="HIGHLAND_GREEN_ROAD_STREET_PLACE_A_OBJECT" pos="-30 -8 100" />
@@ -965,12 +965,12 @@
     <tile name="HIGHLAND_GREEN_FILL_PILE_SIMPLE_D" pos="-49 -24 -40" roty="90" />
     <tile name="HIGHLAND_GREEN_FILL_PILE_SIMPLE_D" pos="-49 -24 -30" />
     <tile name="HIGHLAND_GREEN_FILL_RUIN_MAGIC_COLUM_A" pos="29.5 -28 40.5" roty="46.31" scale="1.26298 1.578751 1" />
-    <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_BROKEN_B_NO_COLLISION" pos="-22 -32 -20.5" />
-    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NO_COLLISION" pos="-38 -7 -17" roty="90" />
-    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NO_COLLISION" pos="-38 -7 -24" roty="270" />
-    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NO_COLLISION" pos="-42 -7 -17" roty="90" />
-    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NO_COLLISION" pos="-43 -7 -20" />
-    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NO_COLLISION" pos="-41 -7 -24" roty="270" />
+    <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_BROKEN_B_NOCOL" pos="-22 -32 -20.5" />
+    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NOCOL" pos="-38 -7 -17" roty="90" />
+    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NOCOL" pos="-38 -7 -24" roty="270" />
+    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NOCOL" pos="-42 -7 -17" roty="90" />
+    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NOCOL" pos="-43 -7 -20" />
+    <tile name="HIGHLAND_GREEN_MOR_CASTLE_DECO_ARMOR_A_NOCOL" pos="-41 -7 -24" roty="270" />
     <tile name="HIGHLAND_GREEN_MOR_FILL_WEAPONHOLDER_A" pos="-38.5 -8 -20" />
     <tile name="HIGHLAND_GREEN_MOR_MONASTERY_BOOKSHELF_B" pos="-30 -9 28" roty="90" scale="0.8559071 1 1" />
     <tile name="HIGHLAND_GREEN_MOR_MONASTERY_DECO_MAGIC_B" pos="-32.5 -7 17.5" roty="90" />
@@ -991,8 +991,8 @@
     <tile name="HIGHLAND_GREEN_CITY_8M_STAIRS_A" pos="-20 -60 -40" roty="90" />
     <tile name="HIGHLAND_GREEN_CITY_8M_STAIRS_A" pos="-30 -32 -40" roty="270" />
     <tile name="HIGHLAND_GREEN_CITY_8M_STAIRS_A" pos="-30 -40 -30" roty="90" />
-    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJECT" pos="-20 -28 40" />
-    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJECT" pos="20 -28 40" roty="180" />
+    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJ" pos="-20 -28 40" />
+    <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE_OBJ" pos="20 -28 40" roty="180" />
     <tile name="HIGHLAND_GREEN_FILL_RUIN_ARCH_LONG_A" pos="25 -21 -10" />
     <tile name="HIGHLAND_GREEN_FILL_RUIN_ARCH_LONG_A" pos="20 -21 -25" roty="270" />
     <tile name="HIGHLAND_GREEN_FILL_RUIN_ARCH_LONG_A" pos="44 -21 -30" roty="180" />

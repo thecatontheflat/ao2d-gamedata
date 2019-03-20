@@ -12,7 +12,6 @@
       showpvpplayeronminimap="true"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
 			craftefficiencybonus="0.0"
 			buildingcraftcapacityregenfactor="1"
@@ -169,7 +168,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
 			craftefficiencybonus="0"
 			buildingcraftcapacityregenfactor="1"
@@ -192,7 +190,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
 			craftefficiencybonus="0.18"
 			buildingcraftcapacityregenfactor="1"
@@ -213,7 +210,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.18"
       buildingcraftcapacityregenfactor="1"
@@ -236,7 +232,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.18"
 	    buildingcraftcapacityregenfactor="1"
@@ -259,7 +254,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="10"
       spellcooldownsonenteringseconds="0"
 			craftefficiencybonus="0"
 			buildingcraftcapacityregenfactor="1"
@@ -281,7 +275,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="120"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.0"
       buildingcraftcapacityregenfactor="1"
@@ -304,7 +297,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="120"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.0"
       buildingcraftcapacityregenfactor="1"
@@ -327,7 +319,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="120"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.0"
       buildingcraftcapacityregenfactor="1"
@@ -350,7 +341,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="120"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.0"
       buildingcraftcapacityregenfactor="1"
@@ -373,7 +363,6 @@
       showpvpplayeronminimap="false"
       showfriendlycount="true"
       showhostilecount="false"
-      logoutseconds="120"
       spellcooldownsonenteringseconds="0"
       craftefficiencybonus="0.0"
       buildingcraftcapacityregenfactor="1"
@@ -400,7 +389,7 @@
       spellcooldownsonenteringseconds="0"
 	    craftefficiencybonus="0.20"
 	    buildingcraftcapacityregenfactor="1"
-      itempowersoftcap="800"
+      itempowersoftcap="700"
       itempowerscalingfactor="0.2"    
       animalgrowthfactor="0.5"
       cropyieldfactor="2"
@@ -534,6 +523,7 @@
   <clustertypes>
 		<clustertype name="STARTAREA"
       archetype="GREEN"
+		  logoutseconds="10"
 			editorcolor="0, 255, 255"
 			furnitureobjectsallowed="false"
 	    hellgatemobminimapvisible="true"
@@ -544,13 +534,14 @@
 		  allowfactionrewards="false">
       <resourcespawns defaulttimefactor="1.0">
         <resourcetier tier="1" timefactor="0.1"/>
-        <resourcetier tier="2" timefactor="0.2"/>
+        <resourcetier tier="2" timefactor="0.5"/>
       </resourcespawns>
-      <mobspawns defaulttimefactor="0.05"/>
+      <mobspawns defaulttimefactor="0.2"/>
 		</clustertype>
 
     <clustertype name="TUTORIAL"
     archetype="GREEN"
+    logoutseconds="10"
     editorcolor="0, 255, 255"
     furnitureobjectsallowed="false"
     hellgatemobminimapvisible="true"
@@ -567,6 +558,7 @@
     
 		<clustertype name="TESTSTARTAREA"
       archetype="GREEN"
+		  logoutseconds="10"
 			editorcolor="0, 255, 255"
 			furnitureobjectsallowed="false"
 	    hellgatemobminimapvisible="true"
@@ -583,6 +575,7 @@
 
     <clustertype name="CITY"
       archetype="CITY-GREEN"
+      logoutseconds="10"
 			editorcolor="255, 0, 255"
 			furnitureobjectsallowed="true"
       isplayercity="true"
@@ -594,6 +587,7 @@
 
     <clustertype name="STARTINGCITY"
       archetype="CITY-START"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="false"
       isplayercity="false"
@@ -611,6 +605,7 @@
 
     <clustertype name="PLAYERCITY_SAFEAREA"
       archetype="CITY-GREEN"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="true"
       isplayercity="true"           
@@ -624,6 +619,7 @@
 
     <clustertype name="PLAYERCITY_SAFEAREA_NOFURNITURE"
       archetype="CITY-GREEN"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="false"
       isplayercity="true"
@@ -636,6 +632,7 @@
 
     <clustertype name="PLAYERCITY_RED"
       archetype="CITY-RED"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="true"
       isplayercity="true"
@@ -647,6 +644,7 @@
 
     <clustertype name="PLAYERCITY_BLACK"
       archetype="CITY-BLACK"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="true"
       isplayercity="true"
@@ -658,6 +656,7 @@
 
     <clustertype name="PLAYERCITY_BLACK_NOFURNITURE"
       archetype="CITY-BLACK"
+      logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="false"
       isplayercity="true"
@@ -669,6 +668,7 @@
 
     <clustertype name="SAFEAREA"
       archetype="GREEN"
+      logoutseconds="10"
 			editorcolor="0, 255, 0"
 			furnitureobjectsallowed="true"
 	    hellgatemobminimapvisible="true"
@@ -711,6 +711,7 @@
 
     <clustertype name="PLAYERISLAND"
       archetype="ISLAND"
+      logoutseconds="10"
       editorcolor="128, 128, 255"
       furnitureobjectsallowed="true"
   	  hellgatemobminimapvisible="true"
@@ -724,6 +725,7 @@
 
     <clustertype name="GUILDISLAND"
       archetype="ISLAND"
+      logoutseconds="10"
       editorcolor="128, 128, 255"
       furnitureobjectsallowed="true"
   	  hellgatemobminimapvisible="true"
@@ -737,7 +739,7 @@
 
 		<clustertype name="OPENPVP_YELLOW"
       archetype="YELLOW"
-			editorcolor="255, 255, 0"
+		  editorcolor="255, 255, 0"
 			furnitureobjectsallowed="true"
 	    hellgatemobminimapvisible="true"
 	    hellgateclustermessage="true"
@@ -832,6 +834,7 @@
 
     <clustertype name="PASSAGE_SAFEAREA"
       archetype="GREEN"
+      logoutseconds="10"
       editorcolor="0, 255, 50"
       editorcolor2="0, 128, 0"
       furnitureobjectsallowed="false"
@@ -871,7 +874,7 @@
 
     <clustertype name="PASSAGE_BLACK"
       archetype="BLACK"
-			editorcolor="128, 128, 178"
+      editorcolor="128, 128, 178"
 			editorcolor2="64, 64, 64"
 			furnitureobjectsallowed="true"
 	    hellgatemobminimapvisible="true"
@@ -881,9 +884,10 @@
       allowmounts="true">
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
-
+	
     <clustertype name="DUNGEON_SAFEAREA"
       archetype="GREEN"
+      logoutseconds="300"
 			editorcolor="0, 255, 0"
 			editorcolor2="0, 128, 0"
 			furnitureobjectsallowed="false"
@@ -897,6 +901,7 @@
 
     <clustertype name="DUNGEON_YELLOW"
       archetype="YELLOW"
+      logoutseconds="300"
 			editorcolor="255, 255, 0"
 			editorcolor2="128, 128, 0"
 			furnitureobjectsallowed="true"
@@ -910,6 +915,7 @@
 
 		<clustertype name="DUNGEON_RED"
       archetype="RED"
+		  logoutseconds="300"
 			editorcolor="255, 0, 0"
 			editorcolor2="128, 0, 0"
 			furnitureobjectsallowed="true"
@@ -923,6 +929,7 @@
 
     <clustertype name="DUNGEON_BLACK"
       archetype="BLACK"
+      logoutseconds="300"
 			editorcolor="128, 128, 128"
 			editorcolor2="64, 64, 64"
 			furnitureobjectsallowed="true"
@@ -936,6 +943,7 @@
 
     <clustertype name="DUNGEON_SAFEAREA_SANDBOX_SOLO"
       archetype="GREEN"
+      logoutseconds="300"
       editorcolor="0, 255, 0"
       editorcolor2="0, 128, 0"
       furnitureobjectsallowed="false"
@@ -949,6 +957,7 @@
 
     <clustertype name="DUNGEON_YELLOW_SANDBOX_SOLO"
       archetype="YELLOW"
+      logoutseconds="300"
 			editorcolor="255, 255, 0"
 			editorcolor2="128, 128, 0"
 			furnitureobjectsallowed="true"
@@ -962,6 +971,7 @@
 
     <clustertype name="DUNGEON_RED_SANDBOX_SOLO"
       archetype="RED"
+      logoutseconds="300"
 			editorcolor="255, 0, 0"
 			editorcolor2="128, 0, 0"
 			furnitureobjectsallowed="true"
@@ -975,6 +985,7 @@
 
     <clustertype name="DUNGEON_BLACK_SANDBOX_SOLO"
       archetype="BLACK"
+      logoutseconds="300"
 			editorcolor="128, 128, 128"
 			editorcolor2="64, 64, 64"
 			furnitureobjectsallowed="true"
@@ -988,6 +999,7 @@
 
     <clustertype name="DUNGEON_SAFEAREA_SANDBOX_GROUP"
       archetype="GREEN"
+      logoutseconds="300"
       editorcolor="0, 255, 0"
       editorcolor2="0, 128, 0"
       furnitureobjectsallowed="false"
@@ -1001,6 +1013,7 @@
 
     <clustertype name="DUNGEON_YELLOW_SANDBOX_GROUP"
       archetype="YELLOW"
+      logoutseconds="300"
 			editorcolor="255, 255, 0"
 			editorcolor2="128, 128, 0"
 			furnitureobjectsallowed="true"
@@ -1014,6 +1027,7 @@
 
     <clustertype name="DUNGEON_RED_SANDBOX_GROUP"
       archetype="RED"
+      logoutseconds="300"
 			editorcolor="255, 0, 0"
 			editorcolor2="128, 0, 0"
 			furnitureobjectsallowed="true"
@@ -1027,6 +1041,7 @@
 
     <clustertype name="DUNGEON_BLACK_SANDBOX_GROUP"
       archetype="BLACK"
+      logoutseconds="300"
 			editorcolor="128, 128, 128"
 			editorcolor2="64, 64, 64"
 			furnitureobjectsallowed="true"
@@ -1040,6 +1055,7 @@
     
     <clustertype name="DUNGEON_HELL"
       archetype="HELL"
+      logoutseconds="300"
 			editorcolor="255, 128, 0"
 			editorcolor2="128, 54, 0"
 			furnitureobjectsallowed="true"
@@ -1051,6 +1067,7 @@
 
     <clustertype name="DUNGEON_HELL_YELLOW"
       archetype="HELL_YELLOW"
+      logoutseconds="300"
       editorcolor="255, 128, 0"
       editorcolor2="128, 54, 0"
       furnitureobjectsallowed="true"
@@ -1062,6 +1079,7 @@
 
     <clustertype name="DUNGEON_HELL_GREEN"
       archetype="HELL_GREEN"
+      logoutseconds="300"
       editorcolor="255, 128, 0"
       editorcolor2="128, 54, 0"
       furnitureobjectsallowed="true"
@@ -1073,6 +1091,7 @@
 
     <clustertype name="T3_EXPEDITION_STANDARD"
        archetype="T3_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"                 
        isplayercity="false"
@@ -1086,6 +1105,7 @@
     </clustertype>
     <clustertype name="T4_EXPEDITION_STANDARD"
        archetype="T4_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1099,6 +1119,7 @@
     </clustertype>
     <clustertype name="T5_EXPEDITION_STANDARD"
        archetype="T5_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1112,6 +1133,7 @@
     </clustertype>
     <clustertype name="T6_EXPEDITION_STANDARD"
        archetype="T6_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1126,6 +1148,7 @@
 
     <clustertype name="T3_EXPEDITION_SURFACE"
        archetype="T3_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1139,6 +1162,7 @@
     </clustertype>
     <clustertype name="T4_EXPEDITION_SURFACE"
        archetype="T4_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1152,6 +1176,7 @@
     </clustertype>
     <clustertype name="T5_EXPEDITION_SURFACE"
        archetype="T5_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1165,6 +1190,7 @@
     </clustertype>
     <clustertype name="T6_EXPEDITION_SURFACE"
        archetype="T6_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1179,6 +1205,7 @@
     
     <clustertype name="HARDCORE_EXPEDITION_STANDARD"
        archetype="HARDCORE_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"
@@ -1192,6 +1219,7 @@
     </clustertype>
     <clustertype name="HARDCORE_EXPEDITION_SURFACE"
        archetype="HARDCORE_EXPEDITION"
+       logoutseconds="120"
        editorcolor="255, 0, 255"
        furnitureobjectsallowed="true"
        isplayercity="false"

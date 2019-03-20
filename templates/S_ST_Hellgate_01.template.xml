@@ -32,7 +32,6 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-10 0 0" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="0 0 10" roty="0" />
     <tile name="STEPPE_GREEN_GROUND_CRACK_LAVA_10M_A" pos="0 0 0" />
-    <tile name="STEPPE_GREEN_FILL_HILL_BASE_A" pos="18 0 18" roty="246" />
     <tile name="STEPPE_GREEN_T1_BUSH_DRY_A" pos="9.5 0 -20.5" rot="0 90 350" />
     <tile name="STEPPE_GREEN_T1_BUSH_DRY_A" pos="19.5 0 20.5" roty="180" />
     <tile name="STEPPE_GREEN_T1_BUSH_DRY_A" pos="-20.5 0 9.5" rot="0 180 350" />

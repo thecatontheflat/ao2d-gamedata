@@ -17,7 +17,7 @@
     <tile name="INVISIBLE_COLLISON_DIAGONAL" pos="39 -7 -29" roty="90" />
     <tile name="CRYSTAL_REALM_SKYSPHERE" pos="0 0 0" scale="4.5 4.5 4.5" />
     <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_A" pos="-29 -47 40" />
-    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NO_COLLISION" pos="-29 -77 40" />
+    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="-29 -77 40" />
     <tile name="HIGHLAND_GREEN_CASTLE_DIAGONAL_EXTENSION_A_NOCOL" pos="-34 -49 42" roty="151" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_SEASONS_SHIELD_A" pos="17 -7 -17" roty="271" />
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_COLUMN_DECO_A" pos="38 -7 16" roty="348.81" />
@@ -50,26 +50,14 @@
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C" pos="38 -17 -61" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C" pos="61 -17 -38" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C" pos="31 -17 -54" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="36 -34 -14" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-19 -52 31" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-31 -52 -10" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-36 -49 5" roty="90" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="22 -52 -7" roty="270" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="10 -52 -21" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="14 -35 -36" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-5 -49 36" roty="270" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-16 -52 -22" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="7 -52 32" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-32 -52 17" roty="270" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="21 -52 19" roty="90" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="-32 -22 17" roty="115" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="-19 -22 31" roty="145" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="7 -22 32" roty="205" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="21 -22 19" roty="235" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="22 -22 -7" roty="295" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="10 -22 -21" roty="325" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="-16 -22 -22" roty="25" />
-    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NO_COL" pos="-31 -22 -10" roty="55" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="-32 -22 17" roty="115" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="-19 -22 31" roty="145" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="7 -22 32" roty="205" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="21 -22 19" roty="235" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="22 -22 -7" roty="295" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="10 -22 -21" roty="325" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="-16 -22 -22" roty="25" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_STATUE_A_NOCOL" pos="-31 -22 -10" roty="55" />
     <tile name="HIGHLAND_GREEN_CASTLE_DIAGONAL_B" pos="52 11 -42" roty="90" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="18 4 4" roty="186" scale="1.64 1.64 1.64" />
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_COLUMN_DECO_B" pos="-12 -7 -24" roty="287" />
@@ -92,37 +80,25 @@
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="54 -34 -31" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="24 -34 -47" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="31 -34 -54" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-19 -80 31" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-31 -80 -10" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-36 -77 5" roty="90" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-32 -80 17" roty="270" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="36 -62 -14" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_DIAGONAL_EXTENSION_A_NOCOL" pos="-34 -77 42" roty="151" />
     <tile name="HIGHLAND_GREEN_CASTLE_DIAGONAL_EXTENSION_A_NOCOL" pos="-43 -49 32" roty="26" />
     <tile name="HIGHLAND_GREEN_CASTLE_DIAGONAL_EXTENSION_A_NOCOL" pos="-43 -77 32" roty="26.05" />
-    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NO_COLLISION" pos="-41 -77 26" />
+    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="-41 -77 26" />
     <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_A" pos="-41 -47 26" />
     <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_A" pos="-41 -54 44" />
-    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NO_COLLISION" pos="-41 -84 44" />
+    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="-41 -84 44" />
     <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_A" pos="-46 -54 38" />
-    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NO_COLLISION" pos="-46 -84 38" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="14 -62.32 -36" />
+    <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="-46 -84 38" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="3 4 26" roty="110" scale="1.64 1.64 1.64" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="-5 -77 36" roty="270" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="7 -80 32" roty="180" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="-14 4 25" roty="67" scale="1.64 1.64 1.64" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="-26 4 14" roty="27" scale="1.64 1.64 1.64" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="-27 4 -4" roty="337" scale="1.64 1.64 1.64" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="36 -89.45 -14" roty="180" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="14 -89 -36" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="24 -71 -47" roty="180" scale="1 2.153928 1" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="31 -71 -54" roty="180" scale="1 2.153928 1" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="47 -74 -24" roty="180" scale="1 2.372524 1" />
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_MAIN_SMALL_DIAGONAL_C_LOWER" pos="54 -74 -31" roty="180" scale="1 2.372524 1" />
     <tile name="HIGHLAND_GREEN_FILL_FIREBOWL_METAL_A" pos="0 -5 -40" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="0 -34 -40" />
     <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_TOP_B" pos="0 -7 -40" />
-    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B" pos="40 -34 0" roty="180" />
     <tile name="HIGHLAND_GREEN_FILL_FIREBOWL_METAL_A" pos="40 -5 0" />
     <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_TOP_B" pos="40 -7 0" />
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_COLUMN_DECO_B" pos="24 -7 12" roty="168.42" />
@@ -166,13 +142,13 @@
     <tile name="HIGHLAND_GREEN_UND_CRYPT_COLUMN_LARGE_MIDCUT_A" pos="29 -8 -50" roty="339" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="23 5 -40" roty="133" scale="1.45056 1.45056 1.45056" />
     <tile name="HIGHLAND_GREEN_CITY_CENTER_BANNER_HANGING_LARGE_A" pos="39 5 -23" roty="313" scale="1.64 1.64 1.64" />
-    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NO_COLLISION" pos="-2 -7 -26.5" roty="84" scale="1.604467 1 1" />
+    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NOCOL" pos="-2 -7 -26.5" roty="84" scale="1.604467 1 1" />
     <tile name="HIGHLAND_GREEN_FILL_FURNITURE_CHAIR_B" pos="18.5 -7 25.5" roty="337.68" scale="1.2 1.2 1.2" />
     <tile name="HIGHLAND_GREEN_WATER_PUDDLE_A" pos="-10 -7 -27" roty="65" scale="0.3033706 0.4482314 0.54023" />
     <tile name="HIGHLAND_GREEN_HER_FILL_BUCKET_C" pos="-8.5 -7 -26.5" roty="181" scale="0.7101032 0.7101032 0.7101032" />
-    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NO_COLLISION" pos="26.5 -7 3" roty="3" scale="1.60447 1 1" />
-    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NO_COLLISION" pos="22.5 -7 20" roty="332" scale="1.60447 1 1" />
-    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NO_COLLISION" pos="-21 -7 -22.5" roty="121" scale="1.60447 1 1" />
+    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NOCOL" pos="26.5 -7 3" roty="3" scale="1.60447 1 1" />
+    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NOCOL" pos="22.5 -7 20" roty="332" scale="1.60447 1 1" />
+    <tile name="HIGHLAND_GREEN_FILL_FURNITURE_BENCH_A_NOCOL" pos="-21 -7 -22.5" roty="121" scale="1.60447 1 1" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_WALL_CORNER_ROUNDED_SMALL_A_DECO" pos="2 -52 12" roty="270" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_WALL_CORNER_ROUNDED_SMALL_A_DECO" pos="-12 -52 12" roty="180" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_WALL_CORNER_ROUNDED_SMALL_A_DECO" pos="-12 -52 -2" roty="90" />
@@ -249,9 +225,33 @@
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_GROUND_EMBLEM_SEASONS_A" pos="-0.61 -7 -32.06" roty="173" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_GROUND_EMBLEM_SEASONS_A" pos="-23.32 -7 -27.72" roty="209.39" />
     <tile name="HIGHLAND_GREEN_FILL_MOP_A" pos="-9.84 -7 -26.32" roty="113.77" />
-    <tile name="BIRD_HALL_OF_FAME_01" pos="-30.48 -16.39 -54.35" rot="357 223 0" />
+    <tile name="BIRD_HALL_OF_FAME_01" pos="-30.48 -16.39 -54.35" rot="357.1 223.49 0" />
     <tile name="BIRD_HALL_OF_FAME_25" pos="34.73 -8.01 36.73" rot="5.71 323.04 0" />
     <tile name="BIRD_HALL_OF_FAME_24" pos="-62.07 -22.24 9.37" rot="27 130 0" scale="0.25 0.25 0.25" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-16 -52 -22" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-36 -77 5" roty="90" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-31 -52 -10" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="36 -89.45 -14" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="14 -89 -36" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="7 -52 32" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="14 -62.32 -36" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-5 -77 36" roty="270" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="10 -52 -21" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-19 -80 31" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-5 -49 36" roty="270" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-31 -80 -10" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-36 -49 5" roty="90" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="21 -52 19" roty="90" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-32 -52 17" roty="270" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="14 -35 -36" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="7 -80 32" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-32 -80 17" roty="270" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="40 -34 0" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="0 -34 -40" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="-19 -52 31" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="36 -34 -14" roty="180" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="22 -52 -7" roty="270" />
+    <tile name="HIGHLAND_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_B_NOCOL" pos="36 -62 -14" roty="180" />
     <tile name="HIGHLAND_GREEN_FILL_BUILDING_LOWER_LEVEL_B" pos="-93.5 -56 -53.5" roty="90" scale="0.4361538 0.4361538 0.4361538" />
     <tile name="HIGHLAND_GREEN_FILL_BUILDING_UPPER_LEVEL_C" pos="-93 -53 -53" roty="90" scale="0.4361538 0.4361538 0.4361538" />
     <tile name="HIGHLAND_GREEN_WALKWAY_WOODEN_BEAM_C_NOCOL" pos="-94.5 -49 -54.5" roty="270" scale="0.4609505 1.38285 0.4609505" />
@@ -1161,9 +1161,19 @@
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_TORCH_A" pos="25.78 -3.82 12.45" roty="73" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_TORCH_A" pos="7.61 -2.82 -23.71" roty="156" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_SEASONS_SHIELD_LIGHT_A" pos="19.06 1.53 -19.32" roty="90" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_LIGHT_A" pos="-51.5 -1 24.5" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_LIGHT_A" pos="-23.5 -1 51.5" roty="45" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_LIGHT_A" pos="-49.5 -1 -13.5" roty="315" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_SECONDARY_LIGHT_A" pos="-56.5 3 -12.5" roty="315" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_SECONDARY_LIGHT_A" pos="-21.5 3 56.5" roty="45" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_SECONDARY_LIGHT_A" pos="-53.5 3 29.5" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_LIGHT_B" pos="16.5 -1 52.5" roty="90" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_SECONDARY_LIGHT_B" pos="13.5 3 60.5" roty="90" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_GENERAL_LIGHT_A" pos="13.5 4 44.5" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_FIREBOWL_LIGHT_A" pos="36.25 -3.09 -18.59" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_FIREBOWL_LIGHT_A" pos="18.59 -3.06 -36" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_FIREBOWL_LIGHT_A" pos="-25.98 -3.04 -18.92" />
+    <tile name="HIGHLAND_GREEN_HALL_OF_FAME_FIREBOWL_LIGHT_A" pos="19.24 -3.07 25.89" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_GENERAL_ENTRANCE_LIGHT_A" pos="42.37 -1.14 -41.65" />
     <tile name="HIGHLAND_GREEN_MOR_CASTLE_ROOF_A" pos="-40 -6 -20" roty="90" />
     <tile name="HIGHLAND_GREEN_MOR_CASTLE_ROOF_A" pos="-20 -6 60" roty="90" />
@@ -1282,7 +1292,7 @@
     <tile name="HIGHLAND_GREEN_MOR_MONASTERY_ROOF_20X20_B" pos="-55 -6 5" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A" pos="-51 -6 -24" roty="56" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_A_SEASON_01" pos="-59 -7 -18">
-      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_01" useradius="8" data="1" />
+      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_01" useradius="8" type="0" data="1" />
     </tile>
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_B" pos="-59 -6 -7" roty="112" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_SEASON_NUMBER_01" pos="-44.5 -7 -11.5" roty="67" />
@@ -1295,7 +1305,7 @@
     <tile name="gvg_banner_hall_of_fame_s01_01" pos="-58.5 -12 -23.5" roty="247" scale="1.48214 2.0821 1.48214" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A" pos="-59 -6 18" roty="91" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_A_SEASON_02" pos="-60 -7 28">
-      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_02" useradius="8" data="2" />
+      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_02" useradius="8" type="0" data="2" />
     </tile>
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_B" pos="-52 -6 35" roty="157" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A_PEDESTAL" pos="-59 -7 18" roty="98.2" />
@@ -1307,7 +1317,7 @@
     <tile name="gvg_banner_hall_of_fame_s02_01" pos="-58.5 -12 33.5" roty="295" scale="1.48214 2.0821 1.48214" />
     <tile name="gvg_banner_hall_of_fame_s02_01" pos="-63.5 -12 23.5" roty="293" scale="1.48214 2.0821 1.48214" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_A_SEASON_03" pos="-28 -7 60" roty="90">
-      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_03" useradius="8" data="3" />
+      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_03" useradius="8" type="0" data="3" />
     </tile>
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A" pos="-34 -6 52" roty="136" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_B" pos="-18 -6 59" roty="202" />
@@ -1323,7 +1333,7 @@
     <tile name="gvg_banner_hall_of_fame_s04_03" pos="27.01 -5.91 49.12" roty="59" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A" pos="8 -6 59" roty="167" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_A_SEASON_04" pos="18 -7 60" roty="90">
-      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_04" useradius="8" data="4" />
+      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_2018_04" useradius="8" type="0" data="4" />
     </tile>
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_B" pos="25 -6 52" roty="215" />
     <tile name="HIGHLAND_GREEN_HALL_OF_FAME_THRONE_STATUE_A_PEDESTAL" pos="8 -7 59" roty="174" />
@@ -1373,7 +1383,7 @@
     <tile name="FACTION_GUARD_CAERLEON" pos="18.5 -7 -35.5" roty="53" />
     <tile name="FACTION_GUARD_CAERLEON" pos="35.5 -7 -18.5" roty="209" />
     <tile name="FACTION_GUARD_CAERLEON" pos="-29.12 -7 -18.01" roty="228" />
-    <tile name="HIGHLAND_GREEN_CASTLE_GROUND_B_OBJ" pos="0 -84 0" scale="20 20 20" />
+    <tile name="HIGHLAND_GREEN_CASTLE_GROUND_HALLOFFAME_01" pos="0 -84 0" scale="20 20 20" />
     <tile name="Atmosphere_WRL_NONE_HL_GREEN_HallOfFame" pos="0 0 0" />
   </tiles>
 </template>

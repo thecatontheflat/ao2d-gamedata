@@ -100,9 +100,9 @@
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_A" pos="4.5 0 -11" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_A" pos="-6.5 1 11" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_COLUMN_B" pos="16.5 4 -3" roty="90" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_CORNER_A" pos="5 0 -14" roty="270" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_STRAIGHT_A" pos="20.5 0 1" />
-    <tile name="SWAMP_GREEN_UND_STONES_FALLEN_STRAIGHT_A" pos="13 0 -11.5" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_CORNER_A" pos="5 0 -14" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_SIDE_B" pos="20.5 0 1" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_SIDE_B" pos="13 0 -11.5" roty="270" />
     <tile name="SWAMP_GREEN_GROUND" pos="20 0 -20" />
     <tile name="SWAMP_GREEN_GROUND" pos="20 0 20" />
     <tile name="SWAMP_GREEN_GROUND" pos="10 0 -20" />
