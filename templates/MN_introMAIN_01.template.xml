@@ -626,7 +626,7 @@
     <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_4M_B_DEBRIS_NOCOL" pos="-202 8 -27" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_4M_B_DEBRIS_NOCOL" pos="-204 8 -25" roty="180" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_8M_C" pos="-14 40 -347" roty="180" />
-    <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_8M_A" pos="411 7 99" roty="90" />
+    <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_8M_A" pos="411 7 99" roty="270" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_4M_B_DEBRIS" pos="407 8 104" roty="270" />
     <tile name="Atmosphere_WRL_NONE_MN_GREEN" pos="0 0 0" />
     <criticaltile name="T2_AGENT_ROYALARMY_COMBAT_M" pos="21.5 8 16.5" id="questgiverobject_02" type="questgiverobject">

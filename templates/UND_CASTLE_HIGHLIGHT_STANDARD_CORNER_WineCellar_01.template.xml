@@ -170,6 +170,9 @@
         <compoundtile name="_MOUNTAIN_GREEN_SB_DRYBRUSH_10x20_COMP_01" pos="-34 -24 2" roty="180" />
       </layer>
       <layer id="Layer_09" name="Cave_1">
+        <tile name="AtmosphereBubble_DNG_UND_DL_NONE_castle_indoor_light" pos="-5.6 -4 -12.5" roty="90">
+          <atmospherebubble layer="1" radius="24" blend="0.6666667" />
+        </tile>
         <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_8M_DIAGONAL_B_DEBRIS_NOCOL" pos="19 -28 -20" roty="270" />
         <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_8M_DIAGONAL_B_DEBRIS_NOCOL" pos="29 -30 -27" roty="270" scale="1 1.987415 1" />
         <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_8M_DIAGONAL_B_DEBRIS_NOCOL" pos="-11 -28 -28" />
@@ -241,9 +244,6 @@
         <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-35 -28 -5" />
         <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-35 -28 -35" />
         <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="35 -28 -5" />
-        <tile name="AtmosphereBubble_DNG_UND_DL_NONE_castle_indoor_light" pos="-5.6 -4 -12.5" roty="90">
-          <atmospherebubble layer="1" radius="24" blend="0.6666667" />
-        </tile>
       </layer>
       <layer id="Layer_11" name="Cave_Ocean">
         <tile name="FOREST_GREEN_WATER_sealevel" pos="5 -20 15" />
@@ -592,6 +592,27 @@
         </tile>
         <tile name="SpawnPoint_RANDOM_UNDEAD_VETERAN_PULLER" pos="-2.19 0 14.83" roty="10">
           <mobspawnpoint behavior="GUARD" spawnbehavior="UNDEAD_VETERAN_PULLER" />
+        </tile>
+      </layer>
+    </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_02" name="Solo">
+        <tile name="SpawnPoint_RANDOM_ROAMING_MINIBOSS_FOR_TEST" pos="-4.3 0 16.15" roty="27.1">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_MINIBOSS_FOR_TEST" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_ROAMING_BOSS_FOR_TEST" pos="-0.56 -4 -14.08">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_BOSS_FOR_TEST" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_ROAMING_STANDARD_FOR_TEST" pos="17.85 0 -2.09" roty="27">
+          <mobspawnpoint behavior="PATROL" spawnbehavior="ROAMING_STANDARD_FOR_TEST">
+            <path>
+              <waypoint pos="18.38983 -1.152009" idle="3" pace="WALK" />
+              <waypoint pos="20.58978 15.16429" idle="3" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_RANDOM_ROAMING_STANDARD_FOR_TEST" pos="21.61 0 18.24" roty="207">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_STANDARD_FOR_TEST" />
         </tile>
       </layer>
     </layergroup>

@@ -6951,7 +6951,7 @@
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="308.5 0 165.5" roty="90" />
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="273.5 4 83.5" roty="180" />
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="299.5 0 -124.5" roty="180" />
-    <tile name="MOUNTAIN_RED_T1_ROCK" pos="129.5 -8 -254.5" roty="270" />
+    <tile name="MOUNTAIN_RED_T1_ROCK" pos="115.5 -8 -254.5" roty="270" />
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="178.5 0 -249.5" roty="180" />
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="108.5 4 244.5" />
     <tile name="MOUNTAIN_RED_T1_ROCK" pos="126.5 8 276.5" />

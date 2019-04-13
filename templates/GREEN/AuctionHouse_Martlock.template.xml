@@ -396,7 +396,7 @@
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARREL_OPEN_SMALL_A" pos="18.5 -7 79.5" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARREL_WEAPONS_A" pos="16.5 -8 74.5" roty="270" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARREL_WEAPONS_A" pos="20.5 -7 97.5" />
-    <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARRELS_A" pos="-29 -8 59" roty="26.34" />
+    <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARRELS_A" pos="-29 -8 59" roty="26" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARRELS_A" pos="14 -8 104" roty="180" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARRELS_A" pos="20 -7 88" roty="270" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_LARGE_A" pos="12 -8 102" />
@@ -450,6 +450,8 @@
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_LARGE_A" pos="16 -26 112" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARREL_FOOD_A" pos="13.5 -28 122.5" roty="90" />
     <tile name="HIGHLAND_GREEN_FILL_STORAGE_BARREL_FOOD_A" pos="14.5 -28 121.5" roty="90" />
+    <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_LONG_B" pos="-25.5 -7 61.5" roty="349" />
+    <tile name="HIGHLAND_GREEN_FILL_STORAGE_CRATE_SMALL_A" pos="-27.5 -8 62.5" roty="259" />
     <tile name="HIGHLAND_GREEN_FILL_CITY_ARENA_SIGN_A" pos="-1 -8 -20" roty="239" />
     <tile name="HIGHLAND_GREEN_FILL_CITY_ARENA_SIGN_A" pos="18 -8 18" roty="59" />
     <tile name="HIGHLAND_GREEN_FILL_CITY_SIGN_A" pos="-4.5 -8 21.5" roty="180" />
@@ -719,5 +721,7 @@
     <tile name="MiniMapMarker" pos="0 -7 108">
       <minimapmarker type="Marketplace" />
     </tile>
+    <tile name="FACTION_GUARD_HIGHLAND" pos="-34.5 -4 87.5" />
+    <tile name="FACTION_GUARD_HIGHLAND" pos="-34.5 -4 92.5" roty="180" />
   </tiles>
 </template>

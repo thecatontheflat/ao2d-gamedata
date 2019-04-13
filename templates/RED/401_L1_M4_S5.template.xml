@@ -58,7 +58,7 @@
       <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="200 -8 122" />
     </criticalscenemember>
     <criticalscenemember id="randomdungeonrandomexitpositionmarker_20" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-48 0 -251" />
+      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-48 0 -257" />
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
@@ -468,13 +468,13 @@
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="227.5 0 275.5" roty="65" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="-42.5 0 232.5" roty="10" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="-52.5 0 209.5" roty="35" />
+    <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_MEDIUM_COMP_01" pos="-119 0 -68" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="-291.5 -8 -60.5" roty="236" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="-283.5 -8 -95.5" roty="57" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="81.5 0 291.5" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="300.5 0 200.5" roty="186" />
     <tile name="STEPPE_RED_VEG_STONE_GRASS_A" pos="101.5 0 297.5" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="-61 0 -226" />
-    <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_MEDIUM_COMP_01" pos="-120 0 -64" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_MEDIUM_COMP_01" pos="-96 0 -55" roty="270" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_MEDIUM_COMP_01" pos="-277 -8 -288" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_MEDIUM_COMP_01" pos="-277 -8 -254" roty="180" />
@@ -2241,7 +2241,7 @@
     <tile name="STEPPE_RED_GROUND" pos="130 0 300" />
     <tile name="STEPPE_RED_GROUND" pos="-40 0 60" roty="270" />
     <tile name="STEPPE_RED_GROUND" pos="-70 0 50" roty="90" />
-    <tile name="STEPPE_RED_GROUND" pos="-280 0 170" roty="270" />
+    <tile name="STEPPE_RED_GROUND" pos="-100 0 -70" />
     <tile name="STEPPE_RED_GROUND" pos="-280 0 160" roty="270" />
     <tile name="STEPPE_RED_GROUND" pos="-290 0 160" roty="180" />
     <tile name="STEPPE_RED_GROUND" pos="-290 0 170" roty="180" />
@@ -2252,11 +2252,11 @@
     <tile name="STEPPE_RED_GROUND" pos="110 -8 210" roty="180" />
     <tile name="STEPPE_RED_GROUND" pos="-300 0 150" roty="0" />
     <tile name="STEPPE_RED_GROUND" pos="-300 0 160" roty="180" />
-    <tile name="STEPPE_RED_GROUND" pos="-100 0 -70" roty="0" />
     <tile name="STEPPE_RED_GROUND" pos="-280 -8 260" roty="270" />
     <tile name="STEPPE_RED_GROUND" pos="-280 -8 250" roty="0" />
     <tile name="STEPPE_RED_GROUND" pos="-290 -8 250" roty="90" />
     <tile name="STEPPE_RED_GROUND" pos="-290 -8 260" roty="180" />
+    <tile name="STEPPE_RED_GROUND" pos="-280 0 170" roty="270" />
     <tile name="STEPPE_RED_GROUND" pos="-60 0 170" roty="180" />
     <tile name="STEPPE_RED_GROUND" pos="-230 0 -60" roty="270" />
     <tile name="STEPPE_RED_GROUND" pos="-130 0 -160" roty="0" />
@@ -2390,7 +2390,7 @@
     <compoundtile name="_STEPPE_RED_FILL_DRY_VEGETATION_BASE_COMP_03" pos="256 0 -10" roty="90" />
     <compoundtile name="_STEPPE_RED_FILL_DRY_VEGETATION_BASE_COMP_04" pos="230 0 258" />
     <compoundtile name="_STEPPE_RED_FILL_SLIM_VEGETATION_SUB_01_COMP_01" pos="210 0 11" />
-    <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="-61 0 -275" />
+    <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="-63 0 -278" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="20 0 296" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="77 0 301" roty="90" />
     <compoundtile name="_STEPPE_RED_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="-63 0 120" />
@@ -5343,7 +5343,7 @@
     <tile name="STEPPE_RED_T1_ROCK" pos="-2.5 0 -23.5" roty="236" />
     <tile name="STEPPE_RED_T1_ROCK" pos="12.5 0 3.5" roty="100" />
     <tile name="STEPPE_RED_T1_ROCK" pos="-40.5 0 271.5" roty="254" />
-    <tile name="STEPPE_RED_T1_ROCK" pos="-52.5 0 -249.5" roty="95" />
+    <tile name="STEPPE_RED_T1_ROCK" pos="-58.5 0 -251.5" roty="95" />
     <tile name="STEPPE_RED_T1_ROCK" pos="-5.5 0 69.5" roty="82" />
     <tile name="STEPPE_RED_T1_ROCK" pos="-146.5 0 -85.5" roty="128" />
     <tile name="STEPPE_RED_T1_ROCK" pos="-281.5 -8 -254.5" roty="97" />
@@ -5856,7 +5856,7 @@
     <tile name="ROAMING_MEDIUM_NODE" pos="-44 0 -298">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>
-    <tile name="ROAMING_MEDIUM_NODE" pos="-44 0 -265">
+    <tile name="ROAMING_MEDIUM_NODE" pos="-44 0 -270">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>
     <tile name="ROAMING_MEDIUM_NODE" pos="-165 0 -131">
@@ -5902,6 +5902,6 @@
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-223 0 -143" id="randomdungeonrandomexitpositionmarker_17" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-252 0 63" id="randomdungeonrandomexitpositionmarker_18" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="200 -8 122" id="randomdungeonrandomexitpositionmarker_19" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-48 0 -251" id="randomdungeonrandomexitpositionmarker_20" type="randomdungeonrandomexitpositionmarker" />
+    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-48 0 -257" id="randomdungeonrandomexitpositionmarker_20" type="randomdungeonrandomexitpositionmarker" />
   </tiles>
 </template>

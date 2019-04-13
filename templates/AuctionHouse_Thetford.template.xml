@@ -394,6 +394,7 @@
     <tile name="SWAMP_GREEN_WATER_PUDDLE_PLANE_B" pos="-30 -16 60" />
     <tile name="SWAMP_GREEN_WATER_PUDDLE_PLANE_B" pos="10 -8 80" />
     <tile name="SWAMP_GREEN_WATER_PUDDLE_PLANE_B" pos="-10 -8 80" />
+    <tile name="SWAMP_GREEN_FILL_STORAGE_CRATE_LONG_BROKEN_A" pos="-9.5 -7 106.5" roty="354.56" />
     <tile name="SWAMP_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_A_OBJ" pos="5 -8 5" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_A_OBJ" pos="-5 -8 -5" roty="90" />
     <tile name="SWAMP_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_B_OBJ" pos="5 -8 -5" />
@@ -1483,5 +1484,7 @@
     <tile name="FOREST_GREEN_VEG_SOIL_C" pos="18.5 -18 114.5" roty="180" />
     <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-29.5 -18 118.5" roty="90" />
     <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-19.5 -18 123.5" />
+    <tile name="FACTION_GUARD_SWAMP" pos="-33.5 -4 92.5" roty="180" />
+    <tile name="FACTION_GUARD_SWAMP" pos="-33.5 -4 87.5" />
   </tiles>
 </template>

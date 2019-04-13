@@ -610,6 +610,16 @@
         </tile>
       </layer>
     </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_04" name="Solo">
+        <tile name="SpawnPoint_RANDOM_ROAMING_MINIBOSS_FOR_TEST" pos="-0.19 0 -1.26" roty="48">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_MINIBOSS_FOR_TEST" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_ROAMING_STANDARD_FOR_TEST" pos="28.3 0 0.38" roty="90">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_STANDARD_FOR_TEST" />
+        </tile>
+      </layer>
+    </layergroup>
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-9 -15 -19" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_WINDOW_A" pos="5 0 25" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-5 0 35" roty="180" />

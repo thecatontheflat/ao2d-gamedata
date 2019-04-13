@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/HERETIC/HER_MINE_HIGHLIGHT_STANDARD_STRAIGHT_Prison_01.unity" unityguid="91492ebed667a324db50520ae7bb25df" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-45 -47" colBoundsMax="40 42">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_STANDARD" pos="-12.5 0 10.5" roty="12">
+      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_STANDARD" pos="-12.5 0 11.5" roty="12">
         <lootchest lootchesttype="HERETIC_CHEST_STANDARD" />
       </tile>
     </criticalscenemember>
@@ -63,7 +63,7 @@
     </layergroup>
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="0.5 5 2.5" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="-13.5 3 8.5" />
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_STANDARD" pos="-12.5 0 10.5" roty="12" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_STANDARD" pos="-12.5 0 11.5" roty="12" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="HERETIC_CHEST_STANDARD" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_C" pos="-8 0 -28" roty="270" />

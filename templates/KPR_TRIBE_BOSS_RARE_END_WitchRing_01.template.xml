@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_BOSS_RARE_END_WitchRing_01.unity" unityguid="d4858962f8c82d2489e3813a474738b3" editorBoundsMin="-80 -80" editorBoundsMax="80 80" colBoundsMin="-80 -80" colBoundsMax="80 80">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOSS_RARE" pos="33.5 0 19.5" roty="44">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOSS_RARE" pos="34.5 0 19.5" roty="44">
         <lootchest lootchesttype="KEEPER_CHEST_BOSS_RARE" />
       </tile>
     </criticalscenemember>
@@ -44,7 +44,7 @@
     <tile name="AtmosphereBubble_DNG_KPR_DL_NONE_tribe_boss_witch" pos="13.4 1.19 -9.5">
       <atmospherebubble layer="1" radius="65" blend="0.7692308" />
     </tile>
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOSS_RARE" pos="33.5 0 19.5" roty="44" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOSS_RARE" pos="34.5 0 19.5" roty="44" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_CHEST_BOSS_RARE" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_BACKDROP_CORNER_COLUMN_A" pos="5 0 -55" />

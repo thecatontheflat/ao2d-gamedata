@@ -3093,7 +3093,7 @@
     <tile name="SWAMP_RED_T1_ROCK" pos="-194.5 0 -100.5" roty="330" />
     <tile name="SWAMP_RED_T1_ROCK" pos="-241.5 0 -98.5" roty="113" />
     <tile name="SWAMP_RED_T1_ROCK" pos="-287.5 0 -6.5" roty="115" />
-    <tile name="SWAMP_RED_T1_ROCK" pos="-173.5 4 283.5" roty="49" />
+    <tile name="SWAMP_RED_T1_ROCK" pos="-173.5 4 278.5" roty="49" />
     <tile name="SWAMP_RED_T1_ROCK" pos="-138.5 0 292.5" roty="64" />
     <tile name="SWAMP_RED_T1_ROCK" pos="-117.5 0 259.5" roty="297" />
     <tile name="SWAMP_RED_T1_ROCK" pos="-91.5 0 186.5" roty="251" />

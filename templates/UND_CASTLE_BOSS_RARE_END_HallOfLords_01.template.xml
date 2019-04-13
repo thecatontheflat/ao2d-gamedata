@@ -3871,7 +3871,7 @@
     <tile name="FOREST_GREEN_UND_BENCH_A" pos="-6.5 4 -47" roty="6" />
     <tile name="FOREST_GREEN_UND_BENCH_A" pos="-4.5 4 -36" rot="0 351 6" />
     <tile name="FOREST_GREEN_UND_BENCH_A" pos="7.5 4 -37" rot="3.74 174.49 310.75" />
-    <tile name="FOREST_GREEN_UND_BENCH_A" pos="7.5 4 -45" roty="187" />
+    <tile name="FOREST_GREEN_UND_BENCH_A" pos="7.5 4 -45" roty="186.75" />
     <tile name="FOREST_GREEN_UND_CHAIR_B" pos="-20.5 7 -15.5" />
     <tile name="FOREST_GREEN_UND_CHAIR_B" pos="-23.5 7 -4.5" roty="24" />
     <tile name="FOREST_GREEN_UND_CHAIR_B" pos="-20.5 7 25.5" rot="9 30 13" />
@@ -3907,7 +3907,7 @@
     <tile name="FOREST_GREEN_UND_CURTAIN_HANGING_B" pos="10.5 8 -44.5" roty="180" />
     <tile name="FOREST_GREEN_UND_CURTAIN_HANGING_B" pos="10.5 8 -36.5" />
     <tile name="FOREST_GREEN_UND_CURTAIN_HANGING_B" pos="-19.5 2 -53.5" roty="180" />
-    <tile name="FOREST_GREEN_UND_THREAT_INDICATOR_RIGHT" pos="7 4 -32" rot="0 250.9 0" />
+    <tile name="FOREST_GREEN_UND_THREAT_INDICATOR_RIGHT" pos="7 4 -32" roty="251" />
     <tile name="FOREST_GREEN_UND_CITY_BANNER_CEILING_A" pos="-3.5 20 -65.5" roty="73" />
     <tile name="FOREST_GREEN_UND_THREAT_INDICATOR_LEFT" pos="-6 4 -31" roty="90" />
     <tile name="FOREST_GREEN_UND_CITY_BANNER_CEILING_A" pos="4.5 20 -65.5" roty="108" />

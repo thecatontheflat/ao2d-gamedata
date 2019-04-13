@@ -1,7 +1,17 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/UNDEAD/UND_CASTLE_BOSS_UNCOMMON_END_ThroneRoom_01.unity" unityguid="1303fa25f1e6df649a699a96c10773d3" editorBoundsMin="-40 -80" editorBoundsMax="40 80" colBoundsMin="-50 -90" colBoundsMax="51 89">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="Layer_01">
-      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="1.73 1.21 1.6">
+      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2">
+        <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="lootchest_02" type="lootchest" layerId="Layer_09">
+      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2">
+        <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="lootchest_03" type="lootchest" layerId="Layer_10">
+      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2">
         <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
       </tile>
     </criticalscenemember>
@@ -977,7 +987,7 @@
         <tile name="SpawnPoint_RANDOM_UNDEAD_VETERAN_SOLDIER" pos="2.39 0 -42.17" roty="180">
           <mobspawnpoint behavior="GUARD" spawnbehavior="UNDEAD_VETERAN_SOLDIER" />
         </tile>
-        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="1.73 1.21 1.6" id="lootchest_01" type="lootchest">
+        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2" id="lootchest_01" type="lootchest">
           <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
         </criticaltile>
         <tile name="SpawnPoint_RANDOM_UNDEAD_VETERAN_TRASH" pos="-5.03 4 13.46" roty="29">
@@ -1018,6 +1028,96 @@
         <tile name="SpawnPoint_RANDOM_UNDEAD_VETERAN_PULLER" pos="-8.82 4 -14.9" roty="47">
           <mobspawnpoint behavior="GUARD" spawnbehavior="UNDEAD_VETERAN_PULLER" />
         </tile>
+      </layer>
+    </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_09" name="Solo_1">
+        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2" id="lootchest_02" type="lootchest">
+          <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
+        </criticaltile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="3.1 0 -43.2" roty="180">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-4.78 4 -3.73" />
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_ARCHER_MINIBOSS_TEST" pos="0.5 4 -1.11" roty="183">
+          <mobspawnpoint behavior="PATROL" spawnbehavior="TEST_UNDEAD_ARCHER_SOLO_MINIBOSS">
+            <path>
+              <waypoint pos="0.4007889 -0.8814144" idle="5" pace="WALK" />
+              <waypoint pos="0.4691519 -18.32197" idle="3" pace="WALK" />
+              <waypoint pos="0.3296016 -40.66529" idle="3" pace="WALK" />
+              <waypoint pos="0.4691519 -18.32197" idle="3" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="5.82 4 -3.73" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_TRASH_SKELETON" pos="-3.87 4 -21.65" roty="90" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_TRASH_SKELETON" pos="4.39 4 -21.65" roty="270" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_GENERAL_BOSS" pos="0.38 8 30.26" roty="183">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="-1.2 0 -43.2" roty="180">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-2.1 4 -4.74" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="3.46 4 -4.74" />
+      </layer>
+      <layer id="Layer_10" name="Solo_2">
+        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_BOSS_UNCOMMON" pos="0.5 8 31.5" rot="2 1 2" id="lootchest_03" type="lootchest">
+          <lootchest lootchesttype="UNDEAD_CHEST_BOSS_UNCOMMON" />
+        </criticaltile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_ARCHER_MINIBOSS_TEST" pos="0.5 4 -1.11" roty="183">
+          <mobspawnpoint behavior="PATROL" spawnbehavior="TEST_UNDEAD_ARCHER_SOLO_MINIBOSS">
+            <path>
+              <waypoint pos="0.4007889 -0.8814144" idle="5" pace="WALK" />
+              <waypoint pos="0.4691519 -18.32197" idle="3" pace="WALK" />
+              <waypoint pos="0.3296016 -40.66529" idle="3" pace="WALK" />
+              <waypoint pos="0.4691519 -18.32197" idle="3" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="3.1 0 -43.2" roty="180">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="-2.92 0 -43.2" roty="180">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_GENERAL_BOSS" pos="0.38 8 30.26" roty="183">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SHADE" pos="3.36 8 28.93" roty="205">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="5.82 4 -3.73" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-4.78 4 -3.73" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-2.9 4 -4.58" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="4.59 4 -4.74" />
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="0.04 0 -45.15" roty="180">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="1.83 4 0.16" roty="183">
+          <mobspawnpoint behavior="PATROL">
+            <path>
+              <waypoint pos="1.730789 0.3885857" idle="5" pace="WALK" />
+              <waypoint pos="1.799152 -17.05198" idle="3" pace="WALK" />
+              <waypoint pos="1.659602 -39.3953" idle="3" pace="WALK" />
+              <waypoint pos="1.799152 -17.05198" idle="3" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="-0.99 4 0.16" roty="183">
+          <mobspawnpoint behavior="PATROL">
+            <path>
+              <waypoint pos="-1.089211 0.3885857" idle="5" pace="WALK" />
+              <waypoint pos="-1.020848 -17.05198" idle="3" pace="WALK" />
+              <waypoint pos="-1.160398 -39.3953" idle="3" pace="WALK" />
+              <waypoint pos="-1.020848 -17.05198" idle="3" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="7.37 4 -2.65" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-6.04 4 -2.65" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="-3.87 4 -21.65" roty="90" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="4.39 4 -21.65" roty="270" />
       </layer>
     </layergroup>
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 4 -15" roty="180" />
@@ -1071,8 +1171,6 @@
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-5 -28 -65" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-5 -32 -65" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="20 4 29" roty="180" />
-    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="5 -32 -65" />
-    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="5 -28 -65" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-18 8 48" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -17 25" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_DIAGONAL_A_CALM" pos="-15 8 55" />

@@ -1276,5 +1276,7 @@
     <tile name="MiniMapMarker" pos="0 -8 0" roty="270">
       <minimapmarker type="Bank" />
     </tile>
+    <tile name="FACTION_GUARD_MOUNTAIN" pos="-34.5 -4 2.5" roty="168" />
+    <tile name="FACTION_GUARD_MOUNTAIN" pos="-34.5 -4 -2.5" roty="348" />
   </tiles>
 </template>

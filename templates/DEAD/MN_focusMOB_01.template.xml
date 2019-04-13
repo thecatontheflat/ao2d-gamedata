@@ -6517,7 +6517,7 @@
     <tile name="ORE_LOW_NODE" pos="-343 0 -142">
       <resourcenode nodetype="low" resourcetype="ore" />
     </tile>
-    <tile name="ORE_LOW_NODE" pos="-364 0 -134" roty="180">
+    <tile name="ORE_LOW_NODE" pos="-363 0 -131" roty="180">
       <resourcenode nodetype="low" resourcetype="ore" />
     </tile>
     <tile name="ORE_LOW_NODE" pos="-363 0 -127" roty="270">
@@ -8251,7 +8251,7 @@
     <tile name="ROCK_HIGH_NODE" pos="-243 0 -390" roty="90">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
-    <tile name="ROCK_HIGH_NODE" pos="-362 0 -137">
+    <tile name="ROCK_HIGH_NODE" pos="-361 0 -136">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="ROCK_HIGH_NODE" pos="-349 0 -140" roty="180">
@@ -10594,7 +10594,7 @@
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="177 -16 -365" roty="270" scale="1.474075 0.5 1.474075" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="350 -16 -134" roty="90" scale="1.474075 0.5 1.474075" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-110 -8 -220" roty="180" scale="1.474075 0.5 1.474075" />
-    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-357 0 -138" roty="180" scale="1.474075 0.5 1.474075" />
+    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-356 0 -137" roty="180" scale="1.474075 0.5 1.474075" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-351 0 -123" scale="1.474075 0.5 1.474075" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-199 -8 -181" roty="180" scale="1.474075 0.5 1.474075" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_D" pos="-189 -8 -181" roty="180" scale="1.474075 0.5 1.474075" />

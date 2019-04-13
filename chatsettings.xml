@@ -55,7 +55,8 @@
     </PartyTab>
   </ChatUi>
 
-  <Cooldowns default_message_cooldown_ms ="500" whisper_cooldown_ms="500" say_radius="30">
+  <Cooldowns default_message_cooldown_ms ="500" say_cooldown_ms="500" whisper_cooldown_ms="500" say_radius="30" PlayerWhisperListCoolDownInSec="3600" 
+			 MaxPlayerOnWhisperCoolDownListTutorial="3" MaxPlayerOnWhisperCoolDownList="10" MaxPlayerOnWhisperCoolDownListTrusted="100" >
     <Channel id="Area"            cooldown_ms="500"/>
     <Channel id="Global"          cooldown_ms="1000"/>
     <Channel id="Trade"           cooldown_ms="30000"/>

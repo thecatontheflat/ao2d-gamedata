@@ -1221,5 +1221,7 @@
     <tile name="MiniMapMarker" pos="0 -7 108">
       <minimapmarker type="Marketplace" />
     </tile>
+    <tile name="FACTION_GUARD_STEPPE" pos="-28.5 -2 81.5" roty="37.86" />
+    <tile name="FACTION_GUARD_STEPPE" pos="-28.5 -2 98.5" roty="159" />
   </tiles>
 </template>

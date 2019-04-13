@@ -822,7 +822,7 @@
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="9 0 28" roty="180" />
     <tile name="FOREST_GREEN_MOR_CASTLE_COLUMN_A" pos="19 0 19" roty="180" />
     <tile name="FOREST_GREEN_MOR_CASTLE_WALL_OUT_DIAGONAL_A" pos="-15 0 25" roty="270" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="35 0 0" roty="180" scale="1 1 0.989767" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="35 0 0" roty="180" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="35 0 -5" roty="90" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="35 0 5" roty="270" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="5 0 35" />

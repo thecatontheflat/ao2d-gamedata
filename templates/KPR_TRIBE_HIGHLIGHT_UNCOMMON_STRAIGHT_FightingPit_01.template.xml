@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_HIGHLIGHT_UNCOMMON_STRAIGHT_FightingPit_01.unity" unityguid="6e8659bd6247d274985294be115fde57" editorBoundsMin="-40 -80" editorBoundsMax="40 80" colBoundsMin="-46 -83" colBoundsMax="42 82">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="0.5 0 50.5">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="0.5 0 52.5">
         <lootchest lootchesttype="KEEPER_CHEST_UNCOMMON" />
       </tile>
     </criticalscenemember>
@@ -148,7 +148,7 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="-15 -28 -45" />
     <tile name="FOREST_GREEN_DNG_GROUND" pos="-15 0 -55" />
     <tile name="FOREST_GREEN_DNG_GROUND" pos="5 0 -35" />
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="0.5 0 50.5" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="0.5 0 52.5" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_CHEST_UNCOMMON" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_INNERCORNER_A" pos="-25 0 5" roty="270" />
@@ -181,10 +181,10 @@
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-15 0 -65" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_CORNER_A" pos="-5 0 -55" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_INNERCORNER_A" pos="-5 0 -65" roty="180" />
-    <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_MINIBOSS" pos="5.29 0 29.01" roty="331">
+    <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_MINIBOSS" pos="4.39 0 33.3" roty="327">
       <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_MINIBOSS" />
     </tile>
-    <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_MINIBOSS" pos="-1.99 0 39.27" roty="156.13">
+    <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_MINIBOSS" pos="-2.81 0 40.9" rot="0 131.92 0">
       <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_MINIBOSS" />
     </tile>
     <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_BERSERK" pos="0.32 0 -6.13" roty="174">
@@ -312,8 +312,8 @@
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C_DIAGONAL" pos="34 0 -43" roty="180" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C_DIAGONAL" pos="-4 0 -47" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C" pos="16 0 -42" roty="180" />
-    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="-2 4 62" roty="90" />
-    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="1 4 62" />
+    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="-2 4 62" roty="270" />
+    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="2 4 62" roty="180" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_A_NOCOL" pos="29 3 30" roty="191" scale="1.49675 0.31876 3.04416" />
     <tile name="FOREST_GREEN_KPR_GIANTS_STONEPILE_A" pos="-10 0 42" roty="270" />
     <tile name="FOREST_GREEN_KPR_GIANTS_STONEPILE_A" pos="6 0 45" roty="90" />
@@ -392,10 +392,10 @@
     <tile name="FOREST_GREEN_KPR_FILL_GATE_WOOD_A_NOCOL" pos="-12 3 14" rot="36 225 0" />
     <tile name="FOREST_GREEN_KPR_DNG_FILL_SHELF_STONE_A_NOCOL" pos="8 -1 11" roty="181" scale="0.3485151 3.37316 0.73133" />
     <tile name="FOREST_GREEN_KPR_DNG_FILL_SHELF_STONE_A_NOCOL" pos="-7 -1 12" roty="181" scale="0.5575246 3.37316 0.7313299" />
-    <tile name="FOREST_GREEN_KPR_FILL_FUR_HANGING_A" pos="0 10 64" rot="323 180 0" scale="0.613363 0.7453629 0.613363" />
+    <tile name="FOREST_GREEN_KPR_FILL_FUR_HANGING_A" pos="0 10 63" rot="323 180 0" scale="0.613363 0.7453629 0.613363" />
     <tile name="FOREST_GREEN_KPR_GIANTS_TOOL_A" pos="-14.5 6 15.5" rot="310 347 127" />
     <tile name="FOREST_GREEN_KPR_TUSK_C" pos="6.5 0 48.5" rot="0 102 327" scale="1.232327 1.371524 1.060988" />
-    <tile name="FOREST_GREEN_KPR_FILL_FUR_HANGING_A" pos="2 10 65" rot="52 0 6" scale="0.613363 0.7766531 0.613363" />
+    <tile name="FOREST_GREEN_KPR_FILL_FUR_HANGING_A" pos="2 10 64" rot="52 0 6" scale="0.613363 0.7766531 0.613363" />
     <tile name="FOREST_GREEN_KPR_TUSK_C" pos="14.5 0 43.5" rot="356 130 327" scale="1.109562 1.234891 0.9552941" />
     <tile name="FOREST_GREEN_KPR_TUSK_C" pos="-14.5 0 16.5" rot="356 310 327" scale="1.109561 1.54805 0.9552908" />
     <tile name="FOREST_GREEN_KPR_FILL_WEAPON_RACK_A" pos="4.5 0 0" roty="270" />
@@ -422,7 +422,7 @@
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="-17.5 -1 21" rot="33 66 3" scale="3.091312 1.93653 1.89103" />
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="7.5 -1 8" rot="22 270 0" scale="3.054039 1.77948 1.891032" />
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="-19.5 -1 31" rot="38 92 3" scale="3.014419 1.936531 1.891029" />
-    <tile name="FOREST_GREEN_KPR_THREAT_INDICATOR_A" pos="0 2 66" rot="339 0 0" scale="1.191231 1.191231 1.191231" />
+    <tile name="FOREST_GREEN_KPR_THREAT_INDICATOR_A" pos="0 2 65" rot="339 0 0" scale="1.191231 1.191231 1.191231" />
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="20.5 -1 30" rot="38 271 1" scale="3.017328 1.93653 1.891026" />
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="12 -1 47.5" rot="41.46 209.13 1.08" scale="3.05683 1.936531 1.891029" />
     <tile name="FOREST_GREEN_KPR_FUR_D_NOCOL" pos="7.5 -1 0" rot="22 270 1.51" scale="3.083517 1.785971 1.891033" />
@@ -486,13 +486,13 @@
     <tile name="AtmosphereBubble_DNG_KPR_DL_NONE_tribe_indoor_warm" pos="0.1 4.01 2.6">
       <atmospherebubble layer="1" radius="40" blend="0.3625" />
     </tile>
-    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="0.51 7.56 33.09">
+    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="0.39 7.56 34.54">
       <pointlight range="15" intensity="4" color="1 0.7591847 0.2720588" />
     </tile>
     <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="0.58 6.23 -5.37">
       <pointlight range="10" intensity="4" color="1 0.7591847 0.2720588" />
     </tile>
-    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="0.5 4.29 51.07">
+    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="0.5 5.96 56.7">
       <pointlight range="10" intensity="4" color="1 0.7591847 0.2720588" />
     </tile>
     <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="-17.99 7.78 21.05">

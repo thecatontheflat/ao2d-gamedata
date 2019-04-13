@@ -693,6 +693,23 @@
         <Charge level="1-23" yield="1" gfxstate="1" respawnfactormin="0.5" respawnfactormax="1.5" respawncharges="23" />
       </Tier>
     </Harvestable>
+    <Harvestable name="ROCK_CRITTER_RANDOM_DUNGEON" resource="ROCK">
+      <ToolModifier>
+        <Modifier tierdifference="-1" timefactor="2" />
+        <Modifier tierdifference="0" timefactor="1" />
+        <Modifier tierdifference="1" timefactor="0.7" />
+        <Modifier tierdifference="2" timefactor="0.5" />
+        <Modifier tierdifference="3" timefactor="0.35" />
+        <Modifier tierdifference="4" timefactor="0.25" />
+        <Modifier tierdifference="5" timefactor="0.15" />
+        <Modifier tierdifference="6" timefactor="0.15" />
+        <Modifier tierdifference="7" timefactor="0.15" />
+      </ToolModifier>
+      <Tier tier="7" item="T7_ROCK" tile="HIGHLAND_DEAD_T7_ROCK_ELEMENTAL" maxchargesperharvest="1" respawntimeseconds="0" harvesttimeseconds="5" requirestool="true" decaytimeseconds="86400" decaytimewhenexhaustedseconds="86400">
+        <Charge level="0" gfxstate="0" respawnfactormin="0.5" respawnfactormax="1.5" respawncharges="2" />
+        <Charge level="1-2" yield="1" gfxstate="1" respawnfactormin="0.5" respawnfactormax="1.5" respawncharges="2" />
+      </Tier>
+    </Harvestable>
     <Harvestable name="ROCK_GUARDIAN_RED" resource="ROCK">
       <ToolModifier>
         <Modifier tierdifference="-1" timefactor="2" />

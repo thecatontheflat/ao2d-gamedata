@@ -30,21 +30,6 @@
         <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_STANDARD" pos="-10.3 -4 32.6">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_MAGE" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="-47.38 0 -68.93">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="-25.28 0 -49.3" roty="270">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="1.17 0 -49.72" roty="180">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="-8.35 -4 45.33" roty="180">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="-32.4 0 57.5" roty="180">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
-        </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_SCAVENGER" pos="-33.31 0.01 -66.94" rot="0 65.78 1">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_SCAVENGER" />
         </tile>
@@ -95,9 +80,6 @@
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_MINER" pos="-35.62 0.01 70.52" rot="0 115 1">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_MINER" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_TRAP" pos="1.12 0 -52.27" roty="90">
-          <mobspawnpoint spawnbehavior="HERETIC_TRAP" />
         </tile>
       </layer>
     </layergroup>
@@ -273,6 +255,7 @@
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_INNERCORNER_A" pos="-15 0 -75" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_BACKDROP_INNERCORNER_A" pos="-15 0 65" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-25 0 65" roty="180" />
+    <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-55 0 65" />
     <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_UNCOMMON" pos="-26.5 -4 -16.5" roty="231" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="HERETIC_CHEST_UNCOMMON" />
     </criticaltile>

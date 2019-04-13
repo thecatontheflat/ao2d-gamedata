@@ -3265,7 +3265,7 @@
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="-64 -4 -74">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="61 -4 106" roty="270">
+    <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="62.34 -4 107.94">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-4 -2 -27" />
@@ -3408,24 +3408,13 @@
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-60 -4 -69" roty="270" />
-    <tile name="SpawnPoint_T3_HERETIC_HEALER" pos="52 -3 106" roty="270">
-      <mobspawnpoint behavior="PATROL">
-        <path>
-          <waypoint pos="37.99999 105" idle="3" pace="WALK" />
-          <waypoint pos="60 105" idle="3" pace="WALK" />
-        </path>
-      </mobspawnpoint>
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-74 -4 -55" roty="90" />
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="71 -4 121" roty="225">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-105 -4 -73" />
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="75 -16 -78" roty="180">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-107 -4 -70" roty="90" />
-    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-107 -4 -77" />
     <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-75 -4 -1" />
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="92 -12 -19" roty="90">
       <mobspawnpoint behavior="GUARD" />
@@ -3454,9 +3443,6 @@
         </path>
       </mobspawnpoint>
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="36 -3 104" roty="225">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-16 -4 118" roty="315">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -3472,9 +3458,6 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="87 -4 131" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-19 -4 110" roty="315">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="9 -4 115" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -3485,6 +3468,9 @@
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_TANK" pos="90 -4 67" roty="45">
+      <mobspawnpoint behavior="GUARD" />
+    </tile>
+    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="29.93 -3 105.54" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="9 -4 93" roty="225">
@@ -3511,16 +3497,10 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="97 -4 104" roty="225">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="99 -20 -81">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="91 -20 -82" roty="225">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_TANK" pos="78 -4 100" roty="45">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="98 -20 -78" roty="135">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="91 -16 -40" roty="315">
@@ -3551,9 +3531,6 @@
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="97 -16 -47">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_HEALER" pos="101 -20 -79" roty="315">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="73 -16 -75" roty="270">
@@ -3587,9 +3564,6 @@
           <waypoint pos="-96 -88" idle="0" pace="WALK" />
         </path>
       </mobspawnpoint>
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-12 -4 114" roty="225">
-      <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="104 -4 108" roty="45">
       <mobspawnpoint behavior="GUARD" />
@@ -3646,6 +3620,9 @@
         </path>
       </mobspawnpoint>
     </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_MAGE_BOSS" pos="0 -3 -75" roty="225">
+      <mobspawnpoint spawnbehavior="HERETIC_MAGE_BOSS" />
+    </tile>
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="75 -16 -76">
       <mobspawnpoint behavior="PATROL">
         <path>
@@ -3662,6 +3639,9 @@
         </path>
       </mobspawnpoint>
     </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_THIEF_BOSS" pos="-114.53 -1.69 -74.81" roty="270">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_THIEF_BOSS" />
+    </tile>
     <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="-10 -4 105" roty="90">
       <mobspawnpoint behavior="PATROL">
         <path>
@@ -3674,11 +3654,19 @@
         </path>
       </mobspawnpoint>
     </tile>
-    <tile name="SpawnPoint_RANDOM_HERETIC_MAGE_BOSS" pos="0 -3 -75" roty="225">
-      <mobspawnpoint spawnbehavior="HERETIC_MAGE_BOSS" />
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="100.23 -20 -81.94" roty="128.34">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-105 -4 -90" roty="135">
       <mobspawnpoint behavior="GUARD" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_THIEF_BOSS" pos="52 -3 106" roty="270">
+      <mobspawnpoint behavior="PATROL" spawnbehavior="HERETIC_THIEF_BOSS">
+        <path>
+          <waypoint pos="31.80998 106.14" idle="3" pace="WALK" />
+          <waypoint pos="60.07001 108.15" idle="3" pace="WALK" />
+        </path>
+      </mobspawnpoint>
     </tile>
     <tile name="FOREST_GREEN_MOR_FX_GODRAY_ROOF_A" pos="-94 -4 -70" />
     <tile name="FOREST_GREEN_MOR_FX_GODRAY_ROOF_A" pos="18 -4 108" />

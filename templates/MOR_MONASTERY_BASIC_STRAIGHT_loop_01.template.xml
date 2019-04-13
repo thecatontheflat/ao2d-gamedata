@@ -1134,14 +1134,6 @@
         <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="24 0 -23" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="22 0 24" roty="17" />
         <tile name="FOREST_GREEN_MOR_POINT_LIGHT_AMBIENT_01" pos="-0.5 -24 -0.5" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="-12 -24 -5" roty="180" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="-12 -24 5" roty="182" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="12 -24 6" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="12 -24 -5" roty="2.22" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="-5 -24 12" roty="270" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="5 -24 12" roty="272" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="5 -24 -12" roty="90" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSTAND_A" pos="-5 -24 -12" roty="92" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_STRAIGHT_A_OBJ" pos="15 -40 5" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_STRAIGHT_A_OBJ" pos="15 -40 -5" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_STRAIGHT_A_OBJ" pos="-15 -40 5" />

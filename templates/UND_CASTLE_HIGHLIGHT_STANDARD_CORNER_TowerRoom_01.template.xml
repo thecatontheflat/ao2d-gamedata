@@ -625,11 +625,10 @@
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="-5 -24 5" />
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="5 -24 5" />
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="15 -24 5" />
-        <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="5 -24 -5" />
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="15 -24 -5" />
-        <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="5 -24 -15" />
+        <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="5 -24 -5" />
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="15 -24 -15" />
-        <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="-5 -24 -5" />
+        <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="5 -24 -15" />
       </layer>
     </layergroup>
     <layergroup name="ENCOUNTER">

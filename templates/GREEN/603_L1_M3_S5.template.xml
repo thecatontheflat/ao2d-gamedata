@@ -46,7 +46,7 @@
       <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="201 -8 -111" />
     </criticalscenemember>
     <criticalscenemember id="randomdungeonrandomexitpositionmarker_16" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-273 0 -65" />
+      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-306 0 -46" />
     </criticalscenemember>
     <criticalscenemember id="randomdungeonrandomexitpositionmarker_17" type="randomdungeonrandomexitpositionmarker" layerId="">
       <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-215 -8 -126" />
@@ -7002,7 +7002,7 @@
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-10 8 -258" id="randomdungeonrandomexitpositionmarker_13" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-19 8 -16" id="randomdungeonrandomexitpositionmarker_14" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="201 -8 -111" id="randomdungeonrandomexitpositionmarker_15" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-273 0 -65" id="randomdungeonrandomexitpositionmarker_16" type="randomdungeonrandomexitpositionmarker" />
+    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-306 0 -46" id="randomdungeonrandomexitpositionmarker_16" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-215 -8 -126" id="randomdungeonrandomexitpositionmarker_17" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-165 0 -38" id="randomdungeonrandomexitpositionmarker_18" type="randomdungeonrandomexitpositionmarker" />
     <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="116 8 181" id="randomdungeonrandomexitpositionmarker_19" type="randomdungeonrandomexitpositionmarker" />

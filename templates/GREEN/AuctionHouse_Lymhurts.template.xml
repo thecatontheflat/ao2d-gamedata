@@ -1451,5 +1451,7 @@
     <tile name="FOREST_GREEN_GROUND_30x30" pos="-130 -20 -40" />
     <tile name="FOREST_GREEN_GROUND_30x30" pos="-130 -20 -10" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-1.58 -28 42.15" />
+    <tile name="FACTION_GUARD_FOREST" pos="-34.5 -4 92.5" roty="180" />
+    <tile name="FACTION_GUARD_FOREST" pos="-34.5 -4 87.5" />
   </tiles>
 </template>

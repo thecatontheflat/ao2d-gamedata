@@ -683,7 +683,7 @@
           <mobspawnpoint behavior="GUARD" spawnbehavior="MORGANA_VETERAN_MINIBOSS" />
         </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_STANDARD" pos="3.77 2.59 3.13" roty="43">
-          <mobspawnpoint spawnbehavior="MORGANA_VETERAN_STANDARD" />
+          <mobspawnpoint behavior="GUARD" spawnbehavior="MORGANA_VETERAN_STANDARD" />
         </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_BLOODHOUND" pos="0.95 0 -11.39" roty="312">
           <mobspawnpoint behavior="GUARD" spawnbehavior="MORGANA_VETERAN_BLOODHOUND" />

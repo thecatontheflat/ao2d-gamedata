@@ -1251,5 +1251,7 @@
     <tile name="MiniMapMarker" pos="0 -8 0">
       <minimapmarker type="Bank" />
     </tile>
+    <tile name="FACTION_GUARD_STEPPE" pos="-28.5 -2 8.5" roty="129" />
+    <tile name="FACTION_GUARD_STEPPE" pos="-28.5 -2 -7.5" roty="39" />
   </tiles>
 </template>

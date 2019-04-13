@@ -1000,6 +1000,9 @@
     <tile name="FOREST_GREEN_VEG_MOSS_BROWN_STRAIGHT_A" pos="-16.5 0 1.5" scale="1 2.5 1" />
     <tile name="FOREST_GREEN_VEG_MOSS_BROWN_STRAIGHT_A" pos="-6.5 0 34.5" scale="1 2.5 1" />
     <tile name="FOREST_GREEN_UND_TORCH_COLUMN_B_2x2" pos="29 0 -7" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_TOWER_ROUND_B" pos="31 -41 -24" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_TOWER_ROUND_B" pos="31 -41 25" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_TOWER_ROUND_B" pos="-28 -41 -31" roty="180" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="-7.5 0 35" roty="270" scale="1 0.6130594 1" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="35 0 -7.5" scale="1 0.6130594 1" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="7.5 0 35" roty="90" scale="1 0.6130594 1" />

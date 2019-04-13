@@ -660,6 +660,7 @@
     <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_D" pos="16 8 53" roty="90" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_E_NOCOL" pos="-18 9 -74" roty="180" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B_NOCOL" pos="-24 8 -60" rot="349 268 0" />
+    <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="78 -8 -40" />
     <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_DEBRIS_SMALL_C_NOCOL" pos="-58 -4 61" roty="355" scale="0.5276197 0.22169 0.5276197" />
     <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_DEBRIS_SMALL_C_NOCOL" pos="-33 -4 83" roty="120" scale="0.36559 0.09012 0.36559" />
     <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_DEBRIS_SMALL_F" pos="-31 -4 72" roty="38" />
@@ -669,7 +670,6 @@
     <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A" pos="-2 -4 126" roty="90" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_DIAGONAL_A" pos="58 -4 141" roty="270" />
     <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="53 -8 151" roty="90" />
-    <tile name="FOREST_GREEN_BEACH_S_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="77 -8 -40" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-63 -4 114" roty="180" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-169 -4 143" roty="90" />
     <tile name="FOREST_GREEN_PLATEAU_ROCK_16M_A_DEBRIS" pos="-168 -4 122" roty="90" />
@@ -1546,5 +1546,7 @@
     <tile name="T1_TUTORIAL_NPCBLOCKER" pos="1.5 7 -51.5" roty="180">
       <tutorialblocker id="BLOCKFORGE" blockeddefault="true" />
     </tile>
+    <tile name="SOUND_BUBBLE_SEAGULLS" pos="-29 44 -38.3" />
+    <tile name="SOUND_BUBBLE_SEAGULLS" pos="21.71 -4 -113.28" />
   </tiles>
 </template>
