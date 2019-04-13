@@ -832,7 +832,6 @@
         <tile name="FOREST_GREEN_MOR_CASTLE_ROOF_INNERCORNER_A" pos="-15 0 -15" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="-25 0 5" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="-25 0 -5" roty="180" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-10 0 -28" roty="90" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="-5 0 -25" roty="90" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_WINDOW_STRAIGHT_F" pos="5 0 -25" roty="90" />
         <tile name="FOREST_GREEN_MOR_CASTLE_WALL_INNER_DIAGONAL_B" pos="-25 0 -15" roty="180" />
@@ -844,7 +843,7 @@
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-28 0 0" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-28 0 -10" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-28 0 10" roty="180" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-25 0 4" />
+        <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-10 0 -28" roty="90" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="10 0 -28" roty="90" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="0 0 -28" roty="90" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="17 0 18" roty="180" />
@@ -854,7 +853,8 @@
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="17 0 -9" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="17 0 -19" roty="180" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_B" pos="5 0 8" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="9 3 4" rot="346.88 121.69 48.26" />
+        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-25 0 4" />
+        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="9 3 4" rot="347 122 48" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_STEP_A" pos="9 0 2" roty="90" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="10.55 -0.01 4.72" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="8 0 13" roty="270" />
@@ -866,24 +866,23 @@
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="14 0 8" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="8 1 13" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="11 2 13" roty="270" />
-        <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="14 2 13" roty="270" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSHELF_DIAGONAL_A" pos="-23 0 -15" roty="270" />
+        <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="14 2 13" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="8 2 8" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="11 2 8" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="14 2 8" roty="270" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="13 3 14" roty="180" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-5 0 -25" roty="270" />
+        <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="13 3 11" roty="161.45" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-20 0 -20" roty="90" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="13 3 8" roty="194.66" />
-        <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="13 3 11" roty="161.45" />
-        <tile name="FOREST_GREEN_MOR_CASTLE_WALL_INNER_DIAGONAL_B" pos="-15 0 -25" roty="180" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_B" pos="7 0 -23" roty="180" />
+        <tile name="FOREST_GREEN_MOR_CASTLE_WALL_INNER_DIAGONAL_B" pos="-15 0 -25" roty="180" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A_DIAGONAL" pos="-20 0 -12" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_C" pos="4.5 0 4" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_B" pos="-23 0 -8" roty="270" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_BORDER_STONES_STRAIGHT_A" pos="-8 0 -27" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A" pos="15 0 -25" roty="180" />
-        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-25 0 -4" />
+        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-5 0 -25" roty="270" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A" pos="-25 0 15" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A" pos="-15 0 -25" roty="270" />
         <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_BORDER_STONES_STRAIGHT_A" pos="13 0 17" />
@@ -897,6 +896,7 @@
         <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_END_A" pos="0 0 25" roty="90" />
         <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="6 1 -26" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_END_A" pos="25 0 0" roty="180" />
+        <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-25 0 -4" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_DIAGONAL_A" pos="-15 0 -8" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_DIAGONAL_A" pos="-8 0 -15" roty="180" />
         <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_DIAGONAL_END_A" pos="-18.5 0 -4.5" />

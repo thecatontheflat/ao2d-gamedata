@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_HIGHLIGHT_RARE_STRAIGHT_MushroomCave_01.unity" unityguid="487d95b902c7db949b4e96dab0856646" editorBoundsMin="-80 -80" editorBoundsMax="80 80" colBoundsMin="-81 -85" colBoundsMax="86 82">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_RARE" pos="-45.5 0 -5.5" roty="268">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_RARE" pos="-45.5 0 -6.5" roty="268">
         <lootchest lootchesttype="KEEPER_CHEST_RARE" />
       </tile>
     </criticalscenemember>
@@ -123,7 +123,7 @@
         </tile>
       </layer>
     </layergroup>
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_RARE" pos="-45.5 0 -5.5" roty="268" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_RARE" pos="-45.5 0 -6.5" roty="268" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_CHEST_RARE" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_GROUND" pos="45 0 -55" roty="90" />

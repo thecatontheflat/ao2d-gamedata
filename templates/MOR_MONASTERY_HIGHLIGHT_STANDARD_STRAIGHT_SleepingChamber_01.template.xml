@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/MORGANA/MOR_MONASTERY_HIGHLIGHT_STANDARD_STRAIGHT_SleepingChamber_01.unity" unityguid="e9d8a003dd334da4b9269447606b4af7" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-48 -48" colBoundsMax="44 45">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_MORGANA_STANDARD" pos="-25.5 2 0.5" roty="270">
+      <tile name="FOREST_GREEN_LOOTCHEST_MORGANA_STANDARD" pos="-25.5 2 -0.5" roty="270">
         <lootchest lootchesttype="MORGANA_CHEST_STANDARD" />
       </tile>
     </criticalscenemember>
@@ -868,7 +868,7 @@
     <tile name="FOREST_GREEN_MOR_CASTLE_ROOF_A" pos="-5 0 5" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_ROOF_A" pos="-5 0 -5" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_ROOF_A" pos="-15 0 -5" roty="270" />
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_MORGANA_STANDARD" pos="-25.5 2 0.5" roty="270" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_MORGANA_STANDARD" pos="-25.5 2 -0.5" roty="270" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="MORGANA_CHEST_STANDARD" />
     </criticaltile>
   </tiles>

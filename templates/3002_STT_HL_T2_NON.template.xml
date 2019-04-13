@@ -1195,6 +1195,7 @@
     <tile name="HIGHLAND_GREEN_FILL_RUIN_WALL_COLUMN_B" pos="112 0 179.5" />
     <tile name="HIGHLAND_GREEN_FILL_WATER_DOCK_A" pos="184.5 -12 81.5" roty="266" />
     <tile name="HIGHLAND_GREEN_FILL_WATER_SHIP_ROWBOAT_A" pos="177.5 -10 70.5" roty="23.22" />
+    <tile name="HIGHLAND_GREEN_FILL_LADDER_LARGE_A" pos="114 -5 62" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_ROAD_BRIDGE_MIDDLE" pos="-20 0 120" />
     <tile name="HIGHLAND_GREEN_ROAD_ROAD_BRIDGE_MIDDLE" pos="-10 0 120" />
     <tile name="HIGHLAND_GREEN_ROAD_ROAD_BRIDGE_MIDDLE" pos="0 0 120" />

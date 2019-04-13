@@ -106,7 +106,7 @@
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_FORMATION_SPIKES_LARGE_B" pos="-3 0 -10" roty="180" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_RIGHT_A" pos="18 0 22" roty="180" />
     <tile name="FOREST_GREEN_DNG_KPR_ROOT_WALL_A" pos="-5.5 3 -12.5" rot="19 196.73 0" scale="0.8558601 0.85586 0.8558601" />
-    <tile name="FOREST_GREEN_KPR_FILL_SACK_MUSHROOMS_B" pos="15 0 9.5" />
+    <tile name="FOREST_GREEN_KPR_FILL_SACK_MUSHROOMS_B" pos="15 0 10.5" roty="180" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_FORMATION_SPIKES_DEBRIS_A_DIAGONAL" pos="5 0 -4" roty="180" />
     <tile name="FOREST_GREEN_DNG_KPR_ROOT_GROUND_BENDED_A" pos="10.5 0 15" rot="356 36 350" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_FORMATION_SPIKES_DEBRIS_A_DIAGONAL" pos="-10 0 14" roty="270" />
@@ -165,5 +165,6 @@
     <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="-14.24 9.29 -7.29">
       <pointlight range="15" intensity="4" color="0.584 0.7288827 1" />
     </tile>
+    <tile name="SOUND_BUBBLE_ENTRANCE_UNDERGROUND" pos="-13.2 0 -6.8" roty="270" />
   </tiles>
 </template>

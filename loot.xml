@@ -15978,59 +15978,58 @@
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_APR2019_LOOT">
     <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
     <OR>
-      <Item type="UNIQUE_HEAD_VANITY_JESTER" weight="10"/>
-      <Item type="UNIQUE_ARMOR_VANITY_JESTER" weight="10"/>
-      <Item type="UNIQUE_SHOES_VANITY_JESTER" weight="10"/>
-      <Item type="UNIQUE_HEAD_VANITY_DRESS_RED" weight="5"/>
-      <Item type="UNIQUE_ARMOR_VANITY_DRESS_RED" weight="5"/>
-      <Item type="UNIQUE_SHOES_VANITY_DRESS_RED" weight="5"/>
-      <Item type="UNIQUE_HEAD_VANITY_SKELETON" weight="1"/>
+      <Item type="UNIQUE_FURNITUREITEM_ADC_STATUE_MOUNTED_DIREWOLF_A" weight="10"/>
+      <Item type="UNIQUE_FURNITUREITEM_ADC_STATUE_MOUNTED_DIREWOLF_B" weight="10"/>      
+      <Item type="UNIQUE_FURNITUREITEM_ADC_RUG_DIREBEAR" weight="10"/>
+      <Item type="UNIQUE_FURNITUREITEM_ADC_RUG_WOLF" weight="10"/>
+      <Item type="PLAYERISLAND_FURNITUREITEM_STONE_STATUE_HUNTER_A" weight="5"/>
+      <Item type="PLAYERISLAND_FURNITUREITEM_STONE_STATUE_HUNTER_B" weight="5"/>
     </OR>
   </Lootlist>
 
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_GENERAL">
     <!--Guaranteed Fame Book-->
     <OR>
-      <OR>
+      <AND>
         <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1"/>
         <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1"/>
-      </OR>
-      <OR>
+      </AND>
+      <AND>
         <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1"/>
         <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1"/>
-      </OR>      
-      <OR>
+      </AND>
+      <AND>
         <Item type="T6_SKILLBOOK_NONTRADABLE" amount="2"/>      
-     </OR>
-      <OR>
+     </AND>
+      <AND>
         <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1"/>      
         <Item type="T6_SKILLBOOK_NONTRADABLE" amount="2"/>
-      </OR>
-      <OR>           
+      </AND>
+      <AND>           
         <Item type="T6_SKILLBOOK_NONTRADABLE" amount="3"/>
-      </OR>
+      </AND>
     </OR>    
     <!--Guaranteed Silver-->
     <OR>
-      <OR>
+      <AND>
         <Item type="T4_SILVERBAG_NONTRADABLE" amount="1"/>
         <Item type="T6_SILVERBAG_NONTRADABLE" amount="1"/>
-      </OR>
-      <OR>
+      </AND>
+      <AND>
         <Item type="T5_SILVERBAG_NONTRADABLE" amount="1"/>
         <Item type="T6_SILVERBAG_NONTRADABLE" amount="1"/>
-      </OR>      
-      <OR>
+      </AND>
+      <AND>
         <Item type="T7_SILVERBAG_NONTRADABLE" amount="1"/>      
-     </OR>
-      <OR>
+     </AND>
+      <AND>
         <Item type="T5_SILVERBAG_NONTRADABLE" amount="1"/>      
         <Item type="T7_SILVERBAG_NONTRADABLE" amount="1"/>
-      </OR>
-      <OR>
+      </AND>
+      <AND>
         <Item type="T6_SILVERBAG_NONTRADABLE" amount="1"/>           
         <Item type="T7_SILVERBAG_NONTRADABLE" amount="1"/>
-      </OR>
+      </AND>
     </OR>
     <OR>
       <Item type="T4_SKILLBOOK_STANDARD" amount ="1" weight="4"/>
@@ -16153,4 +16152,13 @@
   <Lootlist name="T8_CHEST_FAME">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="5"/>
   </Lootlist>
+
+  <!-- TELLAFRIEND-->
+  <Lootlist name="UNIQUE_LOOTCHEST_FIRSTREFERRAL_LOOT">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="20"/>
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_SKILLBOOKS_TELLAFRIEND_LOOT">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="10"/>
+  </Lootlist>
+
 </LootDefinition>

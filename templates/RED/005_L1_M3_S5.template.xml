@@ -2802,16 +2802,16 @@
     <tile name="WOOD_LOW_NODE" pos="47 0 242" roty="158">
       <resourcenode nodetype="low" resourcetype="wood" />
     </tile>
-    <tile name="WOOD_LOW_NODE" pos="119 0 -188" roty="42">
-      <resourcenode nodetype="low" resourcetype="wood" />
-    </tile>
     <tile name="WOOD_LOW_NODE" pos="-21 0 302" roty="198">
       <resourcenode nodetype="low" resourcetype="wood" />
     </tile>
-    <tile name="WOOD_LOW_NODE" pos="-26 0 312" roty="87">
+    <tile name="WOOD_LOW_NODE" pos="119 0 -188" roty="42">
       <resourcenode nodetype="low" resourcetype="wood" />
     </tile>
     <tile name="WOOD_LOW_NODE" pos="133 0 -210" roty="91">
+      <resourcenode nodetype="low" resourcetype="wood" />
+    </tile>
+    <tile name="WOOD_LOW_NODE" pos="-26 0 312" roty="87">
       <resourcenode nodetype="low" resourcetype="wood" />
     </tile>
     <tile name="WOOD_LOW_NODE" pos="109 0 -202" roty="211">
@@ -2888,6 +2888,9 @@
     </tile>
     <tile name="WOOD_LOW_NODE" pos="-49 0 -12" roty="118">
       <resourcenode nodetype="low" resourcetype="wood" />
+    </tile>
+    <tile name="WOOD_MEDIUM_NODE" pos="294 0 207" roty="107">
+      <resourcenode nodetype="medium" resourcetype="wood" />
     </tile>
     <tile name="WOOD_LOW_NODE" pos="-56 0 -12" roty="156">
       <resourcenode nodetype="low" resourcetype="wood" />
@@ -3016,9 +3019,6 @@
       <resourcenode nodetype="medium" resourcetype="wood" />
     </tile>
     <tile name="WOOD_MEDIUM_NODE" pos="284 0 208" roty="299">
-      <resourcenode nodetype="medium" resourcetype="wood" />
-    </tile>
-    <tile name="WOOD_MEDIUM_NODE" pos="290 0 207" roty="107">
       <resourcenode nodetype="medium" resourcetype="wood" />
     </tile>
     <tile name="WOOD_MEDIUM_NODE" pos="221 0 115" roty="311">

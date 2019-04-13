@@ -1044,7 +1044,7 @@
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="-63 -24 -15" roty="90" />
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="53 -24 -6" />
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="49 -24 28" roty="270" />
-        <compoundtile name="_HIGHLAND_GREEN_SB_TREE_GROVE_30x30_COMP_01" pos="68 -23 -25" roty="270" />
+        <compoundtile name="_HIGHLAND_GREEN_SB_TREE_GROVE_30x30_COMP_01" pos="70 -23 -24" roty="270" />
         <compoundtile name="_HIGHLAND_GREEN_SB_TREE_GROVE_30x30_COMP_01" pos="67 -23 21" roty="90" />
       </layer>
       <layer id="Layer_14" name="Cave_3">
@@ -1218,6 +1218,44 @@
         <tile name="SpawnPoint_RANDOM_UNDEAD_VETERAN_TRASH" pos="22.51 2 -3.76" roty="9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="UNDEAD_VETERAN_SKELETON_TRASH" />
         </tile>
+      </layer>
+    </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_01" name="Solo_1">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_TRASH_SKELETON" pos="40.14 2 16.76" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="14.31 2.16 2.87" roty="126" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_TRASH_SKELETON" pos="37.41 2 16.76" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="43.33 0 -24.68" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="38.91 0 -24.73" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE_BOSS" pos="13.48 2.5 0.15" roty="85">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="14.31 2.16 -2.92" roty="36" />
+      </layer>
+      <layer id="Layer_04" name="Solo_2">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="43.33 0 -24.68" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="37.77 0 -24.89" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE_BOSS" pos="13.48 2.5 0.15" roty="85">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="14.31 2.16 -2.92" roty="36" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="40.4 0 -22.92" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="40.14 2 16.76" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="16.36 2.16 -1.49" roty="126" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="16.44 2.16 2.69" roty="126" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="13.85 2.16 3.28" roty="126" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="37.41 2 16.76" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER_VETERAN" pos="50.53 2 -0.16" roty="270" />
       </layer>
     </layergroup>
     <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_UNCOMMON" pos="5.5 4 0.5" rot="0 270.6 0" id="lootchest_01" type="lootchest">

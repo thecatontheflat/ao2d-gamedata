@@ -1323,5 +1323,7 @@
     <tile name="MiniMapMarker" pos="0 -7 108">
       <minimapmarker type="Marketplace" />
     </tile>
+    <tile name="FACTION_GUARD_MOUNTAIN" pos="-34.5 -4 92.5" roty="168" />
+    <tile name="FACTION_GUARD_MOUNTAIN" pos="-34.5 -4 87.5" roty="348" />
   </tiles>
 </template>

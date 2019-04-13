@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_HIGHLIGHT_UNCOMMON_CORNER_FishingLake_01.unity" unityguid="9be79c82b3cdb9f4ab6793dafbece975" editorBoundsMin="-80 -40" editorBoundsMax="80 40" colBoundsMin="-80 -41" colBoundsMax="81 42">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="-14.5 0 2.5" rot="359 291 357">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="-14.5 0 1.5" rot="359 291 357">
         <lootchest lootchesttype="KEEPER_CHEST_UNCOMMON" />
       </tile>
     </criticalscenemember>
@@ -44,7 +44,7 @@
         </tile>
       </layer>
     </layergroup>
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="-14.5 0 2.5" rot="359 291 357" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_UNCOMMON" pos="-14.5 0 1.5" rot="359 291 357" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_CHEST_UNCOMMON" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="25 12 -35" />

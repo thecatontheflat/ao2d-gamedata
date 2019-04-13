@@ -411,19 +411,19 @@
         <tile name="SpawnPoint_Steppe_RHINO" pos="10.59 0 -117.42" roty="297.92" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-106.16 0 141.77" roty="183" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-141.45 0 41.87" roty="72" />
+        <tile name="SpawnPoint_Steppe_RHINO" pos="124.83 0 -108.89" roty="289" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-30.35 -8 -75.18" roty="47" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="88.5 -4 -75.9" roty="249" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-104.1 0 44.43" roty="123" />
-        <tile name="SpawnPoint_Steppe_RHINO" pos="72.2 0 -30.1" roty="242" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-116.05 0 141.42" roty="156" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="-116.95 0 73.19" roty="96" />
-        <tile name="SpawnPoint_Steppe_RHINO" pos="30.22 -8 22.2" roty="221" />
+        <tile name="SpawnPoint_Steppe_RHINO" pos="72.2 0 -30.1" roty="242" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="41.44 0 -133.53" roty="290" />
+        <tile name="SpawnPoint_Steppe_RHINO" pos="30.22 -8 22.2" roty="221" />
+        <tile name="SpawnPoint_Steppe_RHINO" pos="-30.14 -8 -69.59" roty="96.2" />
         <tile name="HIDE_HIGH_NODE" pos="-18 -9 30" roty="230">
           <resourcenode nodetype="high" resourcetype="hide" />
         </tile>
-        <tile name="SpawnPoint_Steppe_RHINO" pos="-30.14 -8 -69.59" roty="96.2" />
-        <tile name="SpawnPoint_Steppe_RHINO" pos="124.83 0 -108.89" roty="289" />
         <tile name="SpawnPoint_Steppe_RHINO" pos="17.76 0 118.77" roty="180" />
         <tile name="HIDE_HIGH_NODE" pos="-29 -8 -32">
           <resourcenode nodetype="high" resourcetype="hide" />

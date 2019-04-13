@@ -527,6 +527,9 @@
     <tile name="HIGHLAND_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-9.5 -8 20.5" roty="180" />
     <tile name="HIGHLAND_GREEN_DNG_PLATEAU_24M_SHALLOW_S_WATERFALL" pos="30 -43 70" />
     <tile name="HIGHLAND_GREEN_DNG_SHALLOW_WATER_RIVER_STRAIGHT_A_OBJ" pos="20 -19 70" roty="270" />
+    <tile name="HIGHLAND_GREEN_FILL_CITY_ARENA_SIGN_A" pos="-19 -8 -19" roty="149" />
+    <tile name="HIGHLAND_GREEN_FILL_RUIN_DEBRIS_A" pos="-19 -8 -23" roty="90" />
+    <tile name="HIGHLAND_GREEN_FILL_RUIN_DEBRIS_A" pos="-3 -12 -23" roty="90" />
     <tile name="HIGHLAND_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_A_OBJ" pos="5 -8 5" roty="270" />
     <tile name="HIGHLAND_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_A_OBJ" pos="-5 -8 -5" roty="90" />
     <tile name="HIGHLAND_GREEN_CASTLE_2M_STAIRS_CORNER_ROUNDED_FLAT_B_OBJ" pos="5 -8 -5" />
@@ -729,5 +732,7 @@
     <tile name="MiniMapMarker" pos="0 -6 0">
       <minimapmarker type="Bank" />
     </tile>
+    <tile name="FACTION_GUARD_HIGHLAND" pos="-34.5 -4 -2.5" />
+    <tile name="FACTION_GUARD_HIGHLAND" pos="-34.5 -4 2.5" roty="180" />
   </tiles>
 </template>

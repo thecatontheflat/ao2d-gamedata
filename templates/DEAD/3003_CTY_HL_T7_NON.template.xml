@@ -3342,9 +3342,9 @@
     <tile name="HIGHLAND_DEAD_CASTLE_STRAIGHT_RAILING_A" pos="-80 4 -45" roty="270" />
     <tile name="HIGHLAND_DEAD_FILL_RUIN_ROAD_CITY_BROKEN_DARK_A_1M_SNAP" pos="-80 4 -40" roty="270" />
     <tile name="HIGHLAND_DEAD_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-80 -24 -40" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_PEDESTAL_A" pos="-55 2 -35" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_PEDESTAL_A" pos="-55 2 -25" />
     <tile name="HIGHLAND_DEAD_FILL_RUIN_MAGIC_STATUE_LARGE_A" pos="-57 2 -35" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_CAERLEON" pos="-55 2 -25" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_CAERLEON" pos="-55 2 -35" />
     <tile name="HIGHLAND_DEAD_CASTLE_GATE_BARS_LARGE_CLOSED_A" pos="154.5 -12 -30" roty="180" />
     <tile name="HIGHLAND_DEAD_CITYWALL_WOOD_STRAIGHT_B" pos="71.5 -28 188" roty="90" />
     <tile name="HIGHLAND_DEAD_CITYWALL_WOOD_STRAIGHT_B" pos="-52.5 -28 -248" roty="270" />
@@ -12002,8 +12002,6 @@
     <criticaltile name="RealEstate" pos="255 -36 -205" id="realestate_118" type="realestate">
       <realestate size="20 20" platepos="244.5 -36 -205" doorpos="245 -33.5 -209" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="E" />
     </criticaltile>
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A" pos="-63 6 -37" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A" pos="-74 6 -45" roty="90" />
     <tile name="HIGHLAND_DEAD_FILL_CITY_BORDERSTONE_B" pos="-70 4 -24.5" roty="180" />
     <tile name="HIGHLAND_DEAD_FILL_CITY_BORDERSTONE_B" pos="-70 4 -34.5" roty="180" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-63 -16 -37" scale="0.79 0.79 0.79" />
@@ -12021,7 +12019,6 @@
     <tile name="HIGHLAND_DEAD_CASTLE_INNERCORNER_ROUNDED_RAILING_B" pos="-70 4 -20" roty="90" />
     <tile name="HIGHLAND_DEAD_CASTLE_CORNER_ROUNDED_C_DARK" pos="-90 -24 -40" roty="90" />
     <tile name="HIGHLAND_DEAD_CASTLE_CORNER_ROUNDED_C_DARK" pos="-90 -24 -20" roty="180" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A" pos="-63 6 -23" roty="90" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_TOP_A" pos="-63 6 -37" scale="0.79 0.79 0.79" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-63 -38 -37" scale="0.79 0.79 0.79" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-74 -38 -45" scale="0.79 0.79 0.7" />
@@ -12029,6 +12026,12 @@
     <tile name="HIGHLAND_DEAD_FILL_RUIN_DEBRIS_B" pos="-82 4 -43" roty="180" />
     <tile name="HIGHLAND_DEAD_FILL_RUIN_DEBRIS_B" pos="-88 4 -19" roty="270" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-63 -38 -23" scale="0.79 0.79 0.79" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_CAERLEON" pos="-63 6 -23" roty="90" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_CAERLEON" pos="-63 6 -37" roty="90" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_CAERLEON" pos="-74 6 -45" roty="90" />
+    <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-74 -16 -15" scale="0.79 0.79 0.79" />
+    <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_A" pos="-74 -38 -15" scale="0.79 0.79 0.79" />
+    <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_ROUNDED_DECO_TOWER_TOP_A" pos="-74 6 -15" scale="0.79 0.79 0.79" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-24.3 0 0.6" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-61.5 0 -27.1" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-22.6 0 -55.2" />
@@ -12100,10 +12103,48 @@
     <tile name="FACTION_GUARD_CAERLEON" pos="6.5 0 37.5" roty="180" />
     <tile name="FACTION_GUARD_CAERLEON" pos="13.5 0 37.5" roty="180" />
     <tile name="FACTION_GUARD_CAERLEON" pos="6.5 0 -97.5" />
-    <tile name="FACTION_GUARD_CAERLEON" pos="13.5 0 -97.5" roty="0" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="13.5 0 -97.5" />
     <tile name="FACTION_GUARD_CAERLEON" pos="87.5 0 -33.5" roty="270" />
     <tile name="FACTION_GUARD_CAERLEON" pos="87.5 0 -26.5" roty="270" />
     <tile name="FACTION_GUARD_CAERLEON" pos="-130.5 -12 -34.5" roty="90" />
     <tile name="FACTION_GUARD_CAERLEON" pos="-130.5 -12 -25.5" roty="90" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-25.5 4 42.5" roty="348" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="52.5 4 42.5" roty="18" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="92.5 4 -2.5" roty="94" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="92.5 4 -61.5" roty="99" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="54.5 4 -102.5" roty="166" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-25.5 4 -102.5" roty="191" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-82.5 4 -68.5" roty="285" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-82.5 4 -5.5" roty="294" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-145.5 0 -24.5" roty="167" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-145.5 0 -35.5" roty="27" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="90.5 4 52.5" roty="20" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="107.5 -10 137.5" roty="346" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="92.5 -10 137.5" roty="34" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="24.5 -14 172.5" roty="346" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-19.5 -16 181.5" roty="43" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-72.5 -10 137.5" roty="313" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-87.5 -10 137.5" roty="43" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-82.5 4 47.5" roty="313" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-180.5 -22 77.5" roty="334" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-198.5 -22 77.5" roty="17" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-242.5 -16 -19.5" roty="287" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-242.5 -16 -39.5" roty="270" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-201.5 -22 -136.5" roty="128" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-181.5 -22 -137.5" roty="219" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-87.5 -10 -196.5" roty="129" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-71.5 -10 -197.5" roty="219" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-2.5 -14 -231.5" roty="129" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="37.5 -16 -239.5" roty="270" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="92.5 -10 -196.5" roty="129" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="106.5 -10 -195.5" roty="219" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="199.5 -22 -137.5" roty="129" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="219.5 -22 -137.5" roty="219" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="262.5 -16 -39.5" roty="39" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="262.5 -16 -21.5" roty="129" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="201.5 -22 77.5" roty="39" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="218.5 -22 77.5" roty="336" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-82.5 4 -101.5" roty="223" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="102.5 4 -104.5" roty="133" />
   </tiles>
 </template>

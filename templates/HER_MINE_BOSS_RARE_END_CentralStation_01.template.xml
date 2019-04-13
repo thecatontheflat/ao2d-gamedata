@@ -302,7 +302,7 @@
     <tile name="FOREST_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="-33 -5 -112" rot="21 90 0" scale="1 0.55066 1" />
     <tile name="FOREST_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="-47 -5 -109" rot="21 270 0" scale="1 0.55066 1" />
     <tile name="FOREST_GREEN_FILL_CONSTSITE_WOODPILE_B" pos="-49 0 -115" roty="90" />
-    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="-49 8 -104" roty="109" />
+    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="-49 8 -104" roty="72.08" />
     <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="-48 6 -116" roty="87" />
     <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="-30 8 -106" roty="267" />
     <tile name="FOREST_GREEN_HER_MINE_TRAIN_ROUND_20" pos="-30 0 -80" />

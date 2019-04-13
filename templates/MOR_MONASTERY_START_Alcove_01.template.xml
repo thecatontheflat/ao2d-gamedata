@@ -756,8 +756,9 @@
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-18 0 20" roty="180" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_END_A" pos="0 0 0" roty="90" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_A" pos="0 0 20" roty="270" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="0 0 -5" roty="90" />
     <tile name="FOREST_GREEN_MOR_WEAPONCRATE_C" pos="-26 0 16.5" roty="270" />
-    <tile name="FOREST_GREEN_MOR_WEAPONCRATE_C" pos="-23.5 0 2" roty="180" />
+    <tile name="FOREST_GREEN_MOR_WEAPONCRATE_C" pos="-24.5 0 2" roty="180" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_BORDER_STONES_STRAIGHT_A" pos="7 0 35" roty="90" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_BORDER_STONES_STRAIGHT_A" pos="-7 0 35" roty="90" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_BORDER_STONES_STRAIGHT_A" pos="7 0 -15" roty="90" />
@@ -792,7 +793,7 @@
     <tile name="FOREST_GREEN_MOR_MONASTERY_LANTERN_A" pos="12 14 11" roty="90" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="18 0 20" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="18 0 -1" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="16 0 10" roty="0" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="16 0 10" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_DOOR_CLOSED_A_20M_BLEND" pos="20 0 10" roty="0" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A" pos="15 0 25" roty="90" />
     <tile name="FOREST_GREEN_MOR_CASTLE_WALL_INNER_DIAGONAL_A" pos="15 0 25" roty="180" />
@@ -809,6 +810,7 @@
         </guards>
       </exit>
     </criticaltile>
+    <tile name="SOUND_BUBBLE_ENTRANCE_UNDERGROUND" pos="0.11 0 -12.27" roty="270" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M" pos="0 0 25" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_DOOR_OPENED_A_20M_BLEND" pos="0 0 29" roty="90" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_CURTAIN_SIDE_A" pos="-18 5 14" />

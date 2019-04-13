@@ -1563,12 +1563,11 @@
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="30 12 -70" roty="270" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="90 28 80" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-50 12 -50" roty="180" />
-    <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-80 32 100" roty="270" />
+    <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-80 28 -100" roty="270" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-50 12 -70" roty="90" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-110 32 130" roty="270" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-130 28 -100" roty="180" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-60 20 50" roty="180" />
-    <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-80 28 -100" roty="270" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-40 20 50" roty="270" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-70 28 100" roty="90" />
     <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-110 32 80" roty="180" />
@@ -1838,6 +1837,7 @@
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="-97 4 130" roty="270" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="-67 8 110" roty="270" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="-26 7 110" roty="90" />
+    <tile name="MOUNTAIN_DEAD_CASTLE_RAILING_PILLAR_B" pos="-80 32 100" roty="270" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="-7 7 111" roty="180" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="5 7 110" roty="270" />
     <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_PLATEAU_STRAIGHT_A_NOCOL" pos="19 7 110" roty="270" />
@@ -3778,6 +3778,7 @@
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="126.5 0 -148.5" roty="92" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="125.5 1 -134.5" roty="155" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="103.5 1 -136.5" roty="40" />
+    <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="-53.5 12 -117.5" rot="1 77 1" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="109.5 8 -121.5" roty="112" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="134.5 1 -115.5" roty="318" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="122.5 9 -114.5" roty="190" />
@@ -3809,7 +3810,6 @@
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="73.5 0 -143.5" roty="121.68" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="2.5 0 -141.5" roty="226.52" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="117.5 12 55.5" rot="358 251.66 358" />
-    <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="-53.5 12 -117.5" rot="1 77.28 1" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="-142.5 0 -148.5" rot="1 353.36 1" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="146.5 0 -132.5" roty="207.44" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_B" pos="146.5 0 79.5" rot="358 119 358" />
@@ -3884,7 +3884,7 @@
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="143.5 0 71.5" rot="1 113.04 0" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="131.5 0 141.5" rot="1 359.16 0" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="108.5 4 -25.5" roty="38.56" />
-    <tile name="MOUNTAIN_DEAD_T1_TREE_PLAIN_C" pos="-60.5 7 -117.5" roty="270" />
+    <tile name="MOUNTAIN_DEAD_T1_TREE_PLAIN_C" pos="-61.5 7 -117.5" roty="270" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="113.5 2 -13.5" roty="296" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="104.5 6 -6.5" roty="319" />
     <tile name="MOUNTAIN_DEAD_T1_BUSH_DRY_C" pos="115.5 0 7.5" roty="139" />
@@ -4875,8 +4875,8 @@
     <tile name="MOUNTAIN_DEAD_FILL_HUMAN_BONES_A" pos="-0.5 28 0.5" roty="180" scale="1.45 1.45 1.45" />
     <tile name="MOUNTAIN_DEAD_KPR_BONES_A" pos="-7.5 28 11.5" />
     <tile name="MOUNTAIN_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_D" pos="117 8 27" />
-    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FORMATION_F_NOCOL" pos="-79 0 -107" />
-    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_B" pos="-77 2 -113" />
+    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FORMATION_F_NOCOL" pos="-79 0 -108" />
+    <tile name="MOUNTAIN_DEAD_FILL_ROCK_ADD_FLAT_B" pos="-77 2 -115" />
     <criticaltile name="Exit" pos="37.5 7 -37.5" roty="90" id="exit_01" type="exit">
       <exit size="13 13" spawnpos="10 10" faction="Undead" kind="DungeonGroup" roadtype="Primary" />
     </criticaltile>

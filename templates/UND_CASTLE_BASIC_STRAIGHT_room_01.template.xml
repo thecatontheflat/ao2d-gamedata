@@ -699,6 +699,69 @@
         </tile>
       </layer>
     </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_02" name="Solo_1">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="19.63 0 22.17" roty="239" />
+        <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-3.12 0 -20.98" />
+        <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-0.46 0 -18.06" roty="270" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE_MINIBOSS" pos="10.08 0 10.64" roty="180">
+          <mobspawnpoint behavior="PATROL">
+            <path>
+              <waypoint pos="14.1 6.45" idle="0" pace="WALK" />
+              <waypoint pos="4.799999 0.3900003" idle="10" pace="WALK" />
+              <waypoint pos="8.77 11.28" idle="0" pace="WALK" />
+              <waypoint pos="18.24845 17.45508" idle="10" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-2.57 0 -17.11" roty="156.11" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SPECIAL_PULLER" pos="3.64 0 -0.62" roty="59">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_SOLDIER_TEST" pos="6.18 0 -20.18" roty="239">
+          <mobspawnpoint behavior="PATROL" spawnbehavior="TEST_UNDEAD_SOLDIER_SOLO">
+            <path>
+              <waypoint pos="3.500593 -19.23502" idle="3" pace="WALK" />
+              <waypoint pos="20.23612 -17.61406" idle="8" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="5.36 0 -1.96" roty="270" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="2.91 0 1.7" roty="180" />
+      </layer>
+      <layer id="Layer_05" name="Solo_2">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE_MINIBOSS" pos="10.08 0 10.64" roty="180">
+          <mobspawnpoint behavior="PATROL">
+            <path>
+              <waypoint pos="14.1 6.45" idle="0" pace="WALK" />
+              <waypoint pos="4.799999 0.3900003" idle="10" pace="WALK" />
+              <waypoint pos="8.77 11.28" idle="0" pace="WALK" />
+              <waypoint pos="18.24845 17.45508" idle="10" pace="WALK" />
+            </path>
+          </mobspawnpoint>
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="5.36 0 -1.96" roty="270" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SPECIAL_PULLER" pos="3.64 0 -0.62" roty="59">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T3_HERETIC_RAT_VETERAN" pos="-0.98 0 -20.25" roty="156">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_VETERAN" pos="2.91 0 1.7" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_BIGGHOUL" pos="0.3 0 -23.87">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T3_HERETIC_RAT_VETERAN" pos="1.42 0 -20.08" roty="209.23">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T3_HERETIC_RAT_VETERAN" pos="3.54 0 -21.48" roty="234.06">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="19.63 0 22.17" roty="239" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="17.19 0 21.16" roty="149" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="19.78 0 19.08" roty="329" />
+      </layer>
+    </layergroup>
     <tile name="FOREST_GREEN_MOR_FX_WATERDROP_01" pos="-6 0 -30" />
     <tile name="FOREST_GREEN_WATER_PUDDLE_A" pos="-6 0 -29" roty="165" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-15 2 -5" roty="90" />
@@ -908,7 +971,7 @@
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="8 -6 -35" />
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="-8 -6 35" roty="180" />
     <tile name="FOREST_GREEN_UND_TORCH_COLUMN_B_2x2" pos="-7 0 -31" />
-    <tile name="FOREST_GREEN_UND_TORCH_COLUMN_B_2x2" pos="8 0 -11" roty="90" />
+    <tile name="FOREST_GREEN_UND_TORCH_COLUMN_B" pos="7.5 0 -11.5" roty="104.45" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CORNER_ROUNDED_SMALL_A_CALM" pos="25 0 25" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_DIAGONAL_A_CALM" pos="25 0 -25" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 25" roty="90" />

@@ -841,7 +841,7 @@
       </layer>
     </layergroup>
     <layergroup name="Encounter">
-      <layer id="Layer_01" name="mob_standard_02">
+      <layer id="Layer_01" name="mob_veteranstandard_02">
         <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_STANDARD" pos="2.67 0.27 1.94" roty="224">
           <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_STANDARD" />
         </tile>
@@ -852,7 +852,7 @@
           <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_UNPROVEN" />
         </tile>
       </layer>
-      <layer id="Layer_03" name="mob_light_01">
+      <layer id="Layer_03" name="mob_veteran_light_01">
         <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_WILL-O-WISP" pos="0.34 0 7.34">
           <mobspawnpoint spawnbehavior="KEEPER_VETERAN_WILL-O-WISP" />
         </tile>
@@ -875,7 +875,7 @@
           <mobspawnpoint spawnbehavior="KEEPER_VETERAN_WILL-O-WISP" />
         </tile>
       </layer>
-      <layer id="Layer_04" name="mob_standard_01">
+      <layer id="Layer_04" name="mob_veteranstandard_01">
         <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_BERSERK" pos="3.47 0.27 -19.43" roty="21">
           <mobspawnpoint behavior="PATROL" spawnbehavior="KEEPER_VETERAN_BERSERK">
             <path>
@@ -912,7 +912,7 @@
           <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_UNPROVEN" />
         </tile>
       </layer>
-      <layer id="Layer_14" name="mob_light_02">
+      <layer id="Layer_14" name="mob_veteranlight_02">
         <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_UNPROVEN_ANY" pos="7.08 0.27 -4.82" roty="50">
           <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_UNPROVEN" />
         </tile>
@@ -927,6 +927,31 @@
         </tile>
         <tile name="SpawnPoint_RANDOM_KEEPER_VETERAN_UNPROVEN_ANY" pos="11.82 0.27 -6.64" roty="302.38">
           <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_VETERAN_UNPROVEN" />
+        </tile>
+      </layer>
+    </layergroup>
+    <layergroup name="Encounter_Solo">
+      <layer id="Layer_02" name="mob_solo_standard_01">
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_AXE_THROWER" pos="12.56 0 0.24" roty="253">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_AXE_THROWER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_AXE_THROWER" pos="11.77 0 -6.26" roty="320">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_AXE_THROWER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_UNPROVEN_ANY" pos="5.5 0 1.1" roty="140">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_UNPROVEN" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_UNPROVEN_ANY" pos="3.86 0 -0.98" roty="100.94">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_UNPROVEN" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_AXE_THROWER" pos="-3.21 0 25.32" roty="143">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_AXE_THROWER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_DRUID" pos="-2.09 0 19.81" roty="340">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_DRUID" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_UNPROVEN_ANY" pos="5.54 0 -5.97" roty="57.09">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_UNPROVEN" />
         </tile>
       </layer>
     </layergroup>

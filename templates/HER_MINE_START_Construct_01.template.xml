@@ -187,8 +187,8 @@
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_A" pos="-9.7 0.04 13.78" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-12 0 1" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="0 0 -12" />
+    <tile name="FOREST_GREEN_HER_FILL_BUCKET_A" pos="-11.5 0 11.5" />
     <tile name="FOREST_GREEN_HER_FILL_BARREL_TOOLS_A" pos="-11.5 0 3.5" />
-    <tile name="FOREST_GREEN_HER_FILL_BUCKET_A" pos="-10.5 0 11.5" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WHEELBARROW_A" pos="-2.5 0 -10" rot="0 283.96 0" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="0.5 4 21.5" />
     <tile name="FOREST_GREEN_HER_FILL_ORE_BAG_B" pos="10.5 0 12.5" />
@@ -224,5 +224,6 @@
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A" pos="-14 0 14" roty="270" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="14 1 35" roty="180" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="-15 1 35" />
+    <tile name="SOUND_BUBBLE_ENTRANCE_UNDERGROUND" pos="-6.9 0 -5.7" roty="270" />
   </tiles>
 </template>

@@ -682,7 +682,6 @@
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_4M_B_DEBRIS" pos="108 0 70" roty="90" />
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="-62 0 -125" roty="90" />
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_4M_B_DEBRIS" pos="-98 23 -70" roty="180" />
-    <tile name="SWAMP_GREEN_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="16 0 127" />
     <tile name="SWAMP_GREEN_PLATEAU_PLUG_ROCK_8M_A_DEBRIS" pos="-7 12 -83" roty="270" />
     <tile name="SWAMP_GREEN_PLATEAU_PLUG_ROCK_16M_A" pos="-97 0 50" />
     <tile name="SWAMP_GREEN_PLATEAU_PLUG_ROCK_16M_C" pos="34 0 110" roty="180" />
@@ -695,6 +694,7 @@
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_4M_A_DEBRIS" pos="-5 0 143" roty="180" />
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_4M_A_DEBRIS" pos="12 0 117" roty="180" />
     <tile name="SWAMP_GREEN_PLATEAU_ROCK_12M_DIAGONAL_A" pos="-49 0 94" />
+    <tile name="SWAMP_GREEN_PLATEAU_ROCK_8M_DIAGONAL_A_DEBRIS" pos="16 0 127" />
     <tile name="SWAMP_GREEN_CLIFF_12M_CORNER_A" pos="-120 0 -100" roty="90" />
     <tile name="SWAMP_GREEN_CLIFF_12M_CORNER_A" pos="-110 0 30" roty="180" />
     <tile name="SWAMP_GREEN_CLIFF_12M_CORNER_A" pos="-100 0 90" roty="180" />
@@ -3328,9 +3328,6 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-47 12 -41" roty="270">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_HEALER" pos="-81 22 10" roty="90">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="-11 22 87" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -3352,7 +3349,7 @@
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="76.2 14 79.47" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="68 18 -71">
+    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="70.34 18 -72.97">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-45 20 15" roty="180">
@@ -3460,7 +3457,7 @@
           <waypoint pos="-78 -76" idle="0" pace="WALK" />
           <waypoint pos="-82 -76" idle="0" pace="WALK" />
           <waypoint pos="-85 -74" idle="0" pace="WALK" />
-          <waypoint pos="-85.32001 -68" idle="3" pace="WALK" />
+          <waypoint pos="-85.12001 -67.93001" idle="3" pace="WALK" />
           <waypoint pos="-85 -74" idle="0" pace="WALK" />
           <waypoint pos="-82 -76" idle="0" pace="WALK" />
           <waypoint pos="-78 -76" idle="0" pace="WALK" />
@@ -3519,12 +3516,6 @@
           <waypoint pos="-56 42" idle="0" pace="WALK" />
         </path>
       </mobspawnpoint>
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="70 18 -69" roty="270">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="-60 22 -51" roty="90">
-      <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-55 22 -50" roty="90">
       <mobspawnpoint behavior="GUARD" />
@@ -3609,26 +3600,38 @@
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-105 12 -2" roty="180">
       <mobspawnpoint behavior="GUARD" />
     </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-81 22 10" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="10.02 22 102.16" roty="161">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="72.24 18 -71.82" roty="270">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-60 22 -51" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="57 12 106" roty="180">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-43.67 0 -115.6">
+    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-43.22 0 -115.92">
       <mobspawnpoint behavior="PATROL">
         <path>
-          <waypoint pos="-43.67 -115.6" idle="0" pace="WALK" />
-          <waypoint pos="-44.67 -111.6" idle="0" pace="WALK" />
-          <waypoint pos="-41.67 -110.6" idle="3" pace="WALK" />
-          <waypoint pos="-38.67 -111.6" idle="0" pace="WALK" />
-          <waypoint pos="-38.67 -114.6" idle="0" pace="WALK" />
-          <waypoint pos="-40.67 -113.6" idle="0" pace="WALK" />
-          <waypoint pos="-41.67 -116.6" idle="0" pace="WALK" />
-          <waypoint pos="-44.67 -116.6" idle="0" pace="WALK" />
-          <waypoint pos="-45.67 -119.6" idle="0" pace="WALK" />
-          <waypoint pos="-48.67 -117.6" idle="3" pace="WALK" />
-          <waypoint pos="-51.67 -117.6" idle="0" pace="WALK" />
-          <waypoint pos="-50.67 -114.6" idle="0" pace="WALK" />
-          <waypoint pos="-52.67 -110.6" idle="0" pace="WALK" />
-          <waypoint pos="-45.67 -111.6" idle="3" pace="WALK" />
+          <waypoint pos="-43.22 -115.92" idle="0" pace="WALK" />
+          <waypoint pos="-44.22 -111.92" idle="0" pace="WALK" />
+          <waypoint pos="-41.22 -110.92" idle="3" pace="WALK" />
+          <waypoint pos="-38.22 -111.92" idle="0" pace="WALK" />
+          <waypoint pos="-38.22 -114.92" idle="0" pace="WALK" />
+          <waypoint pos="-40.22 -113.92" idle="0" pace="WALK" />
+          <waypoint pos="-41.22 -116.92" idle="0" pace="WALK" />
+          <waypoint pos="-44.22 -116.92" idle="0" pace="WALK" />
+          <waypoint pos="-45.22 -119.92" idle="0" pace="WALK" />
+          <waypoint pos="-48.22 -117.92" idle="3" pace="WALK" />
+          <waypoint pos="-51.22 -117.92" idle="0" pace="WALK" />
+          <waypoint pos="-50.22 -114.92" idle="0" pace="WALK" />
+          <waypoint pos="-52.22 -110.92" idle="0" pace="WALK" />
+          <waypoint pos="-45.22 -111.92" idle="3" pace="WALK" />
         </path>
       </mobspawnpoint>
     </tile>

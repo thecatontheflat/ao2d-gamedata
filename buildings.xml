@@ -15,7 +15,7 @@
   </tutorialbuilding>-->
 
   <!--TUTORIAL SHIP-->
-     <tutorialbuilding uniquename="T1_TUTORIAL_SHIP_CRANE_A" tier="1" nutritionstorage="795000" nutritionloss="0" iconAtlas="RefItemAtlas" iconSprite="UNIQUE_INGREDIENT_ANCHOR_FOUNDER_LEGENDARY" uispritename="Gui/Avatars/Buildings/TYPE_FORGE" uinpcspritename="Gui/Avatars/Buildings/NPC_WORKBENCH" uisoundevent="Play_ui_select_forge" accessrightspreset="public" repaircostfactor="0.9" destructionreturnfactor="0" initialnutrition="1" upgradeableto="T2_TUTORIAL_BUILDING">
+    <tutorialbuilding uniquename="T1_TUTORIAL_SHIP_CRANE_A" tier="1" nutritionstorage="795000" nutritionloss="0" iconAtlas="RefItemAtlas" iconSprite="UNIQUE_INGREDIENT_ANCHOR_FOUNDER_LEGENDARY" uispritename="Gui/Avatars/Buildings/TYPE_FORGE" uinpcspritename="Gui/Avatars/Buildings/NPC_WORKBENCH" uisoundevent="Play_ui_select_forge" accessrightspreset="public" repaircostfactor="0.9" destructionreturnfactor="0" initialnutrition="1" upgradeableto="T2_TUTORIAL_BUILDING">
     <AudioInfo name="NPC_WORKBENCH" />
   </tutorialbuilding>
   

@@ -198,6 +198,9 @@
   <hint uniquename="MAPINTRO_07" title="@HINT_TITLE_MAPINTRO_07" infotext="@HINT_INFO_MAPINTRO_07" nexthint="MAPINTRO_08"  blockworldinteraction="true" skiptonextstate="true" triggerui="clustermaprightdetail"/>
   <hint uniquename="MAPINTRO_08" title="@HINT_TITLE_MAPINTRO_08" infotext="@HINT_INFO_MAPINTRO_08" blockworldinteraction="true" completebutton="true" setnextstateonend="true" triggerui="clustermaprightdetail" endtriggerui="clear" />
 
+  <!--COMBAT 2 - Spacebar -->
+  <hint uniquename="COMBAT2" title="@HINT_TITLE_COMBAT2" infotext="@HINT_INFO_COMBAT2" completebutton="true"/>
+
   <!--LEARNLP-->
   <hint uniquename="LEARNLP_01" title="@HINT_TITLE_LEARNLP_01" infotext="@HINT_INFO_LEARNLP_01"  nexthint="LEARNLP_02" blockworldinteraction="true" skiptonextstate="false" delay="3" triggerui="destinyboardbuttonhighlight" endtriggerui="destinyboardcombat"/>
   <hint uniquename="LEARNLP_02" title="@HINT_TITLE_LEARNLP_02" infotext="@HINT_INFO_LEARNLP_02"  nexthint="LEARNLP_03" blockworldinteraction="true" skiptonextstate="false" triggerui="destinyboardlplocation" delay="2"/>
@@ -214,11 +217,6 @@
   
   <!--TRACKER-->
   <hint uniquename="TRACKERINTRO" title="@HINT_TITLE_TRACKERINTRO" infotext="@HINT_INFO_TRACKERINTRO" nexthint="TRACKERINTRO_03"  blockworldinteraction="true" triggerui="destinyboardbuttonhighlight"/>
-
-  <!--<hint uniquename="TRACKERINTRO_1" title="@HINT_TITLE_TRACKERINTRO_1" infotext="@HINT_INFO_TRACKERINTRO_1" nexthint="TRACKERINTRO_01" blockworldinteraction="true" skiptonextstate="true" triggerui="destinyboardcombat"/>
-  <hint uniquename="TRACKERINTRO_01" title="@HINT_TITLE_TRACKERINTRO_01" infotext="@HINT_INFO_TRACKERINTRO_01" nexthint="TRACKERINTRO_02" blockworldinteraction="true" skiptonextstate="true" triggerui="destinyboardrequirements"/>
-  <hint uniquename="TRACKERINTRO_02" title="@HINT_TITLE_TRACKERINTRO_02" infotext="@HINT_INFO_TRACKERINTRO_02" nexthint="TRACKERINTRO_03" blockworldinteraction="true" skiptonextstate="true" triggerui="destinyboardcombattrack" />
-  <hint uniquename="TRACKERINTRO_03" title="@HINT_TITLE_TRACKERINTRO_03" infotext="@HINT_INFO_TRACKERINTRO_03" nexthint="TRACKERINTRO_02" blockworldinteraction="true" triggerui="destinyboardcombat"  completebutton="true" setnextstateonend="false" />-->
 
   <hint uniquename="TRACKERINTRO_04"  triggerui="destinyboardcombat" />
    <!--GETGEAR-->
@@ -238,7 +236,7 @@
 
   <!--PREMIUM-->
   <hint uniquename="PREMIUMSMALL" title="@HINT_TITLE_PREMIUM" infotext="@HINT_INFO_PREMIUM" nexthint="PREMIUM" blockworldinteraction="true" triggerui="clear" delay="1"/>
-  <hint uniquename="PREMIUM" explanation="weapon" blockworldinteraction="true" completebutton="true" endtriggerui="clear"/>
+  <hint uniquename="PREMIUM" explanation="weapon" blockworldinteraction="true" completebutton="true"/>
 
 
   <hint uniquename="USEITMES" title="@HINT_TITLE_USINGITEMS" infotext="@HINT_INFO_USINGITEMS" nexthint="PREMIUM" blockworldinteraction="true"/>
@@ -282,6 +280,8 @@
 <!--WYW-->
   <hint uniquename="AFTER_WHATYOUWEAR" explanation="whatyouwear" blockworldinteraction="true" setnextstateonend="true"/>
 
+<!--READY FOR WORLD-->
+  <hint uniquename="NOMOREQUESTS"  title="@HINT_TITLE_NOMOREQUESTS_01" infotext="@HINT_INFO_NOMOREQUESTS_01" blockworldinteraction="true" completebutton="true"/>
 
   <!-- STARTGEAR -->
   <startgear>

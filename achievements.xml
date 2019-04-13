@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<achievements Version="dce01cca-0096-40a8-83f4-b6c7ee48aa2f" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<achievements Version="6822aea4-41e3-4a65-9272-97f4306cc861" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <template name="REFINE_T4" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     3713;15;0.2;2;8;2;8;4
     5826;15;0.2;4;4;4;4;

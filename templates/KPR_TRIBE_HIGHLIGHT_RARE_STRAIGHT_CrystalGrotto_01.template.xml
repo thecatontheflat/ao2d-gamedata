@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_HIGHLIGHT_RARE_STRAIGHT_CrystalGrotto_01.unity" unityguid="599574c89ac0b0e42b54269b30716eca" editorBoundsMin="-80 -80" editorBoundsMax="80 80" colBoundsMin="-80 -81" colBoundsMax="80 82">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOOKCHEST_RARE" pos="-53.5 0 14.5" roty="266">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOOKCHEST_RARE" pos="-53.5 0 15.5" roty="266">
         <lootchest lootchesttype="KEEPER_BOOKCHEST_RARE" />
       </tile>
     </criticalscenemember>
@@ -113,7 +113,7 @@
         </tile>
       </layer>
     </layergroup>
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOOKCHEST_RARE" pos="-53.5 0 14.5" roty="266" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_BOOKCHEST_RARE" pos="-53.5 0 15.5" roty="266" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_BOOKCHEST_RARE" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_GROUND" pos="55 0 45" roty="90" />

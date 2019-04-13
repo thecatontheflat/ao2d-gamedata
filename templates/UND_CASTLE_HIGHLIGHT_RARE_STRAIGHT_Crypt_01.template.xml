@@ -1125,7 +1125,7 @@
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="45 0 45" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="55 -28 -15" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="55 -28 15" roty="270" />
-    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -20 -35" />
+    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -24 -35" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-25 -20 -35" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -20 35" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-25 -20 35" />
@@ -1180,7 +1180,19 @@
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -21 35" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-25 -21 35" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-25 -21 -35" roty="90" />
-    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -21 -35" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -23 -35" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-15 5 -35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-25 9 -35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-35 9 -35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-45 9 -35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-55 9 -35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-55 9 -25" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-15 5 35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-25 9 35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-35 9 35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-45 9 35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-55 9 35" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="-55 9 25" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="35 1 -25" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="35 0 25" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="55 1 -45" />
@@ -1201,13 +1213,13 @@
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 5" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-5 -12 -25" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 15" roty="180" />
-    <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="5 -12 25" />
+    <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="5 -4 25" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 35" roty="270" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="25 -2 -45" roty="270" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 -35" roty="90" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 -5" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-5 -2 -55" roty="180" />
-    <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="5 -12 -25" />
+    <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="5 -4 -25" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="5 -2 -55" roty="90" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-5 -2 55" roty="270" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-35 -8 35" roty="270" />
@@ -1223,17 +1235,16 @@
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-16.5 -8 -17.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-45 -8 -35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-6.5 -4 -33.5" />
-    <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="6.5 -4 -33.5" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-41.5 -6 -5.5" roty="180" />
-    <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-40.5 -6 5.5" roty="270" />
+    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="9 -4 -41" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="27.5 0 -45.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-30.5 -6 -5.5" roty="180" />
-    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="9 -8 -41" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="10 -8 -8" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-50 -8 10" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="28.5 0 -54.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-50 -8 -10" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="10 -8 8" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-40.5 -6 5.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-19 -8 -9" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="-16.5 -8 19.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-20 -8 20" roty="90" />
@@ -1251,9 +1262,10 @@
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-55 -8 35" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="55 1 -45" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-9 -8 20" roty="90" />
-    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="49 0 -20" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_C" pos="6.5 -4 -35.5" />
+    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="9 -8 -20" roty="90" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-5 -2 -45" roty="180" />
-    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="10 -8 -20" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="49 0 -20" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="60 0 -7" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_GATE_MAIN_BROKEN_A" pos="0 -16 -30.5" roty="270" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="35 1 -35" roty="180" />
@@ -1288,11 +1300,10 @@
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_B" pos="45 4 -65" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="45 4 65" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_WINDOW_A" pos="35 0 -65" roty="180" />
-    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-45 -20 35" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-15 -24 35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="25 -26 -5" roty="180" />
-    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-15 -20 35" roty="90" />
+    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-15 -24 -35" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_STATUE_SMALL_B" pos="-8 -4 -48" roty="90" />
-    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-15 -20 -35" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-35 -20 -35" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-55 -20 -35" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="25 -26 25" roty="180" />
@@ -1303,11 +1314,11 @@
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="15 -30 35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-25 -20 35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-45 -20 -35" roty="270" />
-    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-35 -20 35" roty="90" />
-    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="25 -26 -15" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-25 -20 -35" roty="270" />
+    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="25 -26 -15" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="25 -26 5" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-55 -20 25" />
+    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_A" pos="-45 -20 35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="31 0 19" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_BROKEN_A" pos="49 0 59" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_STATUE_SMALL_B" pos="1 -4 -58" />
@@ -1318,6 +1329,7 @@
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="31 0 -10" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-9 -4 -39" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_STATUE_SMALL_B" pos="1 -4 58" roty="180" />
+    <tile name="FOREST_GREEN_UND_CRYPT_BACKDROP_B" pos="-35 -20 35" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-9 -4 41" roty="90" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="31 0 -25" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="60 0 41" roty="270" />
@@ -1381,11 +1393,8 @@
     <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-28.93 3.14 -0.54" roty="270">
       <pointlight range="15" intensity="4.629456" color="0.5882353 1 0.5735294" />
     </tile>
-    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.5 3 34.41" roty="270">
+    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.5 0.5 34.41" roty="270">
       <pointlight range="10" intensity="3.372152" color="0.5882353 1 0.5735294" />
-    </tile>
-    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.5 3 -32.5" roty="270">
-      <pointlight range="10" intensity="3.270651" color="0.5882353 1 0.5735294" />
     </tile>
     <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_RARE" pos="-27.5 -6 -0.5" roty="270" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="UNDEAD_CHEST_RARE" />
@@ -1610,11 +1619,8 @@
     <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-15.39 -0.98 15.21">
       <pointlight range="10" intensity="3.608896" color="0.5882353 1 0.5735294" />
     </tile>
-    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.09 3.02 -35.17">
+    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.09 0.16 -34.28">
       <pointlight range="10" intensity="3.374478" color="0.5882353 1 0.5735294" />
-    </tile>
-    <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="-0.09 3.02 33.3">
-      <pointlight range="10" intensity="3.240882" color="0.5882353 1 0.5735294" />
     </tile>
     <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="31.8 3.02 49.75">
       <pointlight range="10" intensity="3.449515" color="0.5882353 1 0.5735294" />
@@ -1672,12 +1678,12 @@
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A" pos="24 0 -35" roty="90" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A" pos="19 0 35" roty="90" />
     <tile name="FOREST_GREEN_GROUND_STONES_CALM_B" pos="-39 -3 -2" roty="95.44" scale="0.2755075 0.3662233 0.5539127" />
-    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 8 40" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 5 40" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-25 8 40" roty="270" />
-    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-10 8 35" roty="180" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-10 5 35" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-25 8 -40" roty="90" />
-    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 8 -40" roty="90" />
-    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-10 8 -35" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 4 -40" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-10 4 -35" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_SMALL_WALL_A" pos="32 0 -80" roty="270" />
     <tile name="FOREST_GREEN_UND_TORCH_COLUMN_B_2x2" pos="33 0 -80" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_SMALL_WALL_A" pos="48 0 79" roty="90" />
@@ -1695,6 +1701,32 @@
     <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_B" pos="40.1 3.02 -76.3">
       <pointlight range="10" intensity="2" color="0.5882353 1 0.5735294" />
     </tile>
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-55 -6 10" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-55 -6 -9" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-20 5 -36" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-20 5 35" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-30 10 -34" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 4 -30" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-20 8 -35" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-25 8 -30" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-35 8 -30" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-45 8 -30" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-50 8 -25" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="-11 0 -42" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-15 5 30" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-20 8 35" roty="180" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-25 8 30" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-35 8 30" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-45 8 30" roty="90" />
+    <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_B_NOCOL" pos="-50 8 25" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-31 9 35" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_STRAIGHT_A" pos="-18 1 42" roty="90" />
+    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_B" pos="25.5 4 -24.5" />
+    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_STRAIGHT_A" pos="27.5 4 -15.5" />
+    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_STRAIGHT_A" pos="22.5 4 10.5" />
+    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_B" pos="25.5 4 23.5" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="22 3 -13" roty="180" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="25 3 27" roty="270" />
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="23 -5 -74" roty="90" scale="22.0003 1 22.0003" />
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="59 -5 -77" roty="270" scale="22.00031 1 22.00031" />
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="60 -5 -29" roty="270" scale="22.00032 1 22.00032" />

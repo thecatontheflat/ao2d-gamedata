@@ -3,13 +3,24 @@
   <!--*************************************************************************************************************************************************************-->
   <!--MOUNTS-->
   <!--*************************************************************************************************************************************************************-->
-  <!--
-    <AssetVfxInfo uniquename="UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL">
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL">
     <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_rhino_crystal_horn_01" />
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_tower_chariot_crystal_head" />
+    </AssetVfx>
+    <AssetVfx socketname="cart">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_tower_chariot_crystal_cart" />
     </AssetVfx>
   </AssetVfxInfo>
-  -->
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_TOWER_CHARIOT_GOLD">
+    <AssetVfx socketname="cart">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_tower_chariot_gold_cart" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_TOWER_CHARIOT_SILVER">
+    <AssetVfx socketname="cart">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_tower_chariot_silver_cart" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL">
     <AssetVfx socketname="head_mount">
       <Vfx prefabName="FX/ClientPrefabs/fx_rhino_crystal_horn_01" />
@@ -101,6 +112,11 @@
     </AssetVfx>
     <AssetVfx socketname="body_glow">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_cougar_glow_neck" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOUNT_PANTHER">
+    <AssetVfx socketname="head">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_black_panther_eye_glow" />
     </AssetVfx>
   </AssetVfxInfo>
   <!-- XMAS -->
@@ -1489,6 +1505,18 @@
   <AssetVfxInfo uniquename="MOB_UNDEAD_GHOUL_PLAGUE">
     <AssetVfx socketname="floor">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_ghoul_plague" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="damage">
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_ghoul_body_glow" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="jaw">
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_goo" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_UNDEAD_GHOUL_MINIBOSS">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_ghoul_plague" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="pointconstraint" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="damage">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_ghoul_body_glow" constraintpreset="pointconstraint" ignoreSocketScale="true" />

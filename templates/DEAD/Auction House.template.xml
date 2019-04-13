@@ -863,8 +863,6 @@
     <tile name="HIGHLAND_DEAD_CASTLE_WALL_ARCH_SIDE_EXTENSION_A" pos="30 -40 80" roty="270" />
     <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A" pos="-33 -4 97" roty="270" />
     <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_FIREBOWL_A" pos="-33 -4 83" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_PILLAR_B" pos="-33.5 -5 94.5" roty="342.04" />
-    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_PILLAR_B" pos="-34.5 -5 85.5" roty="332" />
     <tile name="HIGHLAND_DEAD_FILL_PILE_A" pos="22 -8 98" roty="90" />
     <tile name="HIGHLAND_DEAD_FILL_PILE_E" pos="24 -8 91" />
     <tile name="HIGHLAND_DEAD_FILL_PILE_E" pos="44 4 100" />
@@ -897,6 +895,8 @@
     <tile name="HIGHLAND_DEAD_FILL_CITY_TORCH_B_SMALL" pos="4 -4 55" roty="270" />
     <tile name="HIGHLAND_DEAD_FILL_CITY_TORCH_B_SMALL" pos="35 4 84" roty="180" />
     <tile name="HIGHLAND_DEAD_FILL_CITY_TORCH_B_SMALL" pos="35 4 76" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_PILLAR_B_CAERLEON" pos="-34.5 -5 85.5" roty="332" />
+    <tile name="HIGHLAND_DEAD_CITY_PORTAL_IN_MAGIC_PILLAR_B_CAERLEON" pos="-34.5 -5 94.5" roty="342" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_B" pos="0 0 -30" roty="180" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_B" pos="0 0 30" roty="180" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_B" pos="-30 0 0" roty="180" />
@@ -1476,5 +1476,9 @@
     <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -40 50" />
     <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -40 80" />
     <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -40 110" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-33.5 -4 92.5" roty="180" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="-33.5 -4 87.5" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="32.5 0 83.5" roty="180" />
+    <tile name="FACTION_GUARD_CAERLEON" pos="32.5 0 76.5" />
   </tiles>
 </template>

@@ -8615,7 +8615,7 @@
     <tile name="ORE_MEDIUM_NODE" pos="-310 16 221">
       <resourcenode nodetype="medium" resourcetype="ore" />
     </tile>
-    <tile name="ORE_HIGH_NODE" pos="-244 8 -256" roty="270">
+    <tile name="ORE_HIGH_NODE" pos="-243 8 -256" roty="270">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="FIBER_MEDIUM_NODE" pos="155.5 0 88.5">
@@ -9008,7 +9008,7 @@
     <tile name="ROCK_HIGH_NODE" pos="-311 8 -260" roty="180">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
-    <tile name="ORE_HIGH_NODE" pos="-365 8 -295" roty="270">
+    <tile name="ORE_HIGH_NODE" pos="-364 8 -295" roty="270">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ORE_MEDIUM_NODE" pos="297 16 251" roty="90">
@@ -9353,7 +9353,7 @@
     <tile name="FIBER_MEDIUM_NODE" pos="-206.5 16 169.5" roty="270">
       <resourcenode nodetype="medium" resourcetype="fiber" />
     </tile>
-    <tile name="ROCK_HIGH_NODE" pos="-257 0 -191">
+    <tile name="ROCK_HIGH_NODE" pos="-257 0 -187">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="ROCK_HIGH_NODE" pos="-167 0 -83" roty="270">
@@ -9575,7 +9575,7 @@
     <tile name="ROCK_HIGH_NODE" pos="367 0 -132">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
-    <tile name="ORE_HIGH_NODE" pos="-369 8 -290" roty="270">
+    <tile name="ORE_HIGH_NODE" pos="-368 8 -286" roty="270">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ROCK_MEDIUM_NODE" pos="-237 0 48">
@@ -9599,7 +9599,7 @@
     <tile name="ROCK_HIGH_NODE" pos="146 0 -365" roty="270">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
-    <tile name="ORE_HIGH_NODE" pos="-236 8 -253" roty="180">
+    <tile name="ORE_HIGH_NODE" pos="-235 8 -250" roty="180">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ORE_MEDIUM_NODE" pos="-68 16 294" roty="90">
@@ -10106,7 +10106,7 @@
     <tile name="ORE_HIGH_NODE" pos="12 0 -254">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
-    <tile name="ROCK_HIGH_NODE" pos="-250 0 -199" roty="90">
+    <tile name="ROCK_HIGH_NODE" pos="-246 0 -198" roty="90">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="ORE_MEDIUM_NODE" pos="-4 16 139" roty="90">
@@ -10271,7 +10271,7 @@
     <tile name="ORE_MEDIUM_NODE" pos="74 16 100" roty="270">
       <resourcenode nodetype="medium" resourcetype="ore" />
     </tile>
-    <tile name="ROCK_HIGH_NODE" pos="-238 0 -137">
+    <tile name="ROCK_HIGH_NODE" pos="-237 0 -135">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="ORE_HIGH_NODE" pos="73 0 -365" roty="270">
@@ -10310,7 +10310,7 @@
     <tile name="ROCK_HIGH_NODE" pos="362 0 -287" roty="90">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
-    <tile name="ORE_HIGH_NODE" pos="-237 8 -257">
+    <tile name="ORE_HIGH_NODE" pos="-238 8 -257">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ORE_HIGH_NODE" pos="-43 0 -229" roty="90">
@@ -11561,7 +11561,7 @@
     <tile name="FIBER_HIGH_NODE" pos="-299.5 8 -60.5" roty="90">
       <resourcenode nodetype="high" resourcetype="fiber" />
     </tile>
-    <tile name="ROCK_HIGH_NODE" pos="-253 0 -191" roty="270">
+    <tile name="ROCK_HIGH_NODE" pos="-250 0 -192" roty="270">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="ROCK_HIGH_NODE" pos="58 0 -367">
@@ -12365,7 +12365,7 @@
     <tile name="FishingZone_FRESHWATER_SPOT_FISH" pos="-155.55 0 149.23" />
     <tile name="FishingZone_FRESHWATER_SPOT_TREASURE" pos="-147.22 0 172.2" />
     <tile name="FishingZone_FRESHWATER_SPOT_TREASURE" pos="-243.66 0 111.08" />
-    <tile name="ROCK_HIGH_NODE" pos="-256 0 -133" roty="90">
+    <tile name="ROCK_HIGH_NODE" pos="-252 0 -143" roty="90">
       <resourcenode nodetype="high" resourcetype="rock" />
     </tile>
     <tile name="MOUNTAIN_GREEN_T1_ROCK" pos="-258.5 0 -141.5" roty="270" />

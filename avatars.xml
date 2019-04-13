@@ -64,6 +64,7 @@
 
     <!-- Other Rings -->
     <avatarring name="AVATARRING_TELLAFRIEND" locked="true" hidden="true"/>
+	<avatarring name="AVATARRING_ORIGINAL_PLAYER" locked="true" hidden="true"/>
 
     <!-- GvG Season Rings -->
     <avatarring name="RING_GVGSEASONREWARD_1ST" locked="true" hidden="true"/>

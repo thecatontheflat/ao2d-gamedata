@@ -195,7 +195,7 @@
         <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="-10 20 52" roty="180">
           <mobspawnpoint behavior="PATROL">
             <path>
-              <waypoint pos="-13.57 50" idle="3" pace="WALK" />
+              <waypoint pos="-13.34 50" idle="3" pace="WALK" />
               <waypoint pos="-30 50" idle="3" pace="WALK" />
             </path>
           </mobspawnpoint>
@@ -203,7 +203,7 @@
         <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="-52 20 10" roty="90">
           <mobspawnpoint behavior="PATROL">
             <path>
-              <waypoint pos="-50 12.39" idle="3" pace="WALK" />
+              <waypoint pos="-50 12.23" idle="3" pace="WALK" />
               <waypoint pos="-50 30" idle="3" pace="WALK" />
             </path>
           </mobspawnpoint>
@@ -740,9 +740,6 @@
         <tile name="SpawnPoint_T4_MOB_UNDEAD_CHEST" pos="-29.39 24 31.47" roty="137">
           <mobspawnpoint behavior="GUARD" />
         </tile>
-        <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER_VETERAN" pos="-106.6 20 -13.92" roty="270">
-          <mobspawnpoint behavior="GUARD" />
-        </tile>
         <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER" pos="49.02 12 18.86" roty="45">
           <mobspawnpoint behavior="GUARD" />
         </tile>
@@ -762,6 +759,9 @@
         <criticaltile name="FOREST_GREEN_FIXED_EXIT_10x10_UND_T4" pos="19 24 39" roty="90" id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" />
         <criticaltile name="FOREST_GREEN_FIXED_EXIT_10x10_UND_T4" pos="-39 24 -18" id="randomdungeonfixedexit_03" type="randomdungeonfixedexit" />
         <criticaltile name="FOREST_GREEN_FIXED_EXIT_10x10_UND_T4" pos="-115 28 25" id="randomdungeonfixedexit_04" type="randomdungeonfixedexit" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER" pos="-106.6 20 -13.92" roty="270">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
       </layer>
       <layer id="Layer_02" name="T7">
         <tile name="SpawnPoint_RANDOM_UNDEAD_ANY_BOSS" pos="-7 28 7" roty="135">
@@ -817,7 +817,7 @@
         <tile name="SpawnPoint_T7_MOB_UNDEAD_ARCHER" pos="-10 20 52" roty="180">
           <mobspawnpoint behavior="PATROL">
             <path>
-              <waypoint pos="-13.57 50" idle="3" pace="WALK" />
+              <waypoint pos="-13.34 50" idle="3" pace="WALK" />
               <waypoint pos="-30 50" idle="3" pace="WALK" />
             </path>
           </mobspawnpoint>
@@ -881,7 +881,7 @@
         <tile name="SpawnPoint_T7_MOB_UNDEAD_ARCHER" pos="-52 20 10" roty="90">
           <mobspawnpoint behavior="PATROL">
             <path>
-              <waypoint pos="-50 12.39" idle="3" pace="WALK" />
+              <waypoint pos="-50 12.23" idle="3" pace="WALK" />
               <waypoint pos="-50 30" idle="3" pace="WALK" />
             </path>
           </mobspawnpoint>

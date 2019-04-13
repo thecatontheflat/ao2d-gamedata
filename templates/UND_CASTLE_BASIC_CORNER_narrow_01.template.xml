@@ -732,6 +732,16 @@
         </tile>
       </layer>
     </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_06" name="Solo">
+        <tile name="SpawnPoint_RANDOM_ROAMING_MINIBOSS_FOR_TEST" pos="15.7 0 -0.57" roty="90">
+          <mobspawnpoint spawnbehavior="ROAMING_MINIBOSS_FOR_TEST" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_ROAMING_MINIBOSS_FOR_TEST" pos="-0.2 0 19.42">
+          <mobspawnpoint spawnbehavior="ROAMING_MINIBOSS_FOR_TEST" />
+        </tile>
+      </layer>
+    </layergroup>
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 25" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="35 0 -5" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 -5" roty="180" />
@@ -888,6 +898,7 @@
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="25 -12 11" roty="90" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="27 -12 16" />
     <tile name="FOREST_GREEN_UND_BANNER_CEILING_A" pos="24.5 20 11.5" roty="270" />
+    <tile name="FOREST_GREEN_CASTLE_WALL_COLUMN_DECO_B" pos="10 2 9" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="-15 4 -5" roty="90" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="15 2 -15" roty="180" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_B" pos="-5 0 15" roty="180" />

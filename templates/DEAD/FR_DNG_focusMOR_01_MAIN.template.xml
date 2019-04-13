@@ -9907,7 +9907,7 @@
     <tile name="FOREST_DEAD_MOR_CASTLE_GROUND_DIAGONAL_A_OBJ" pos="60 -48 -230" roty="180" />
     <tile name="FOREST_DEAD_MOR_CASTLE_GROUND_DIAGONAL_A_OBJ" pos="70 -48 -220" roty="180" />
     <tile name="FOREST_DEAD_MOR_CASTLE_WALL_OUT_DIAGONAL_A" pos="60 -48 -230" roty="90" />
-    <tile name="FOREST_DEAD_MOR_CASTLE_CARPET_END_A" pos="115.53 -32 -189.71" roty="180" />
+    <tile name="FOREST_DEAD_MOR_CASTLE_CARPET_END_A" pos="113 -32 -190" roty="180" />
     <tile name="FOREST_DEAD_MOR_CASTLE_WALL_OUT_STRAIGHT_A" pos="80 -48 -210" roty="90" />
     <tile name="FOREST_DEAD_MOR_CASTLE_CARPET_END_A" pos="148 -32 -190" />
     <tile name="FOREST_DEAD_MOR_CASTLE_CARPET_SYMBOL_A" pos="118 -32 -190" roty="180" />

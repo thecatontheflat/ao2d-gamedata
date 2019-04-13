@@ -781,6 +781,8 @@
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A" pos="-30 8 -8" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A" pos="-14 8 -20" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_SMALL_WALL_A" pos="9 0 40" roty="90" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_B" pos="-5 0 -25" />
+    <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_BROKEN_SMALL_A" pos="-10 -9 9" roty="270" />
     <tile name="FOREST_GREEN_UND_POINT_LIGHT_DNG_CASTLE_STANDARD_A" pos="-0.1 5.13 27.87">
       <pointlight range="10" intensity="4" color="0.5882353 1 0.5735294" />
     </tile>
@@ -822,6 +824,7 @@
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="-31 9 -10" roty="270" scale="23.2127 23.21266 23.21269" />
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="-17 9 -18" roty="90" scale="23.21271 23.21266 23.2127" />
     <tile name="RND_FX_UNDEAD_CLOUDS_A" pos="-13 -7 9" roty="270" scale="23.21268 23.21266 23.21267" />
+    <tile name="SOUND_BUBBLE_ENTRANCE_UNDERGROUND" pos="-11.9 0 -2.8" roty="270" />
     <criticaltile name="ExitTrigger_10x10_DIAGONAL_EXIT" pos="-12 3 -2" roty="270" id="exit_02" type="exit">
       <exit size="10 10" spawnpos="7.453535 -8.896729" faction="None" kind="Cluster" roadtype="Primary">
         <guards>

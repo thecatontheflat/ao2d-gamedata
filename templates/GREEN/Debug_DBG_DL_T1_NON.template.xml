@@ -789,7 +789,7 @@
       <portalentrance spawnpos="13.73126 0" />
     </criticaltile>
     <tile name="MiniMapMarker" pos="290 0 330">
-      <minimapmarker type="Portal_City" />
+      <minimapmarker type="Portal_City_DEPRECATED" />
     </tile>
     <criticaltile name="FASTTRAVEL_POINT" pos="290 0 304" id="fasttravelpoint_01" type="fasttravelpoint">
       <fasttravelpoint spawnpos="9.929993 -1.019989" />

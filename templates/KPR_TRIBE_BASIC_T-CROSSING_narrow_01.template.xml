@@ -333,7 +333,6 @@
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B_DIAGONAL" pos="9 0 7" roty="270" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B_DIAGONAL" pos="9 0 -19" roty="180" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C" pos="-2 0 -20" />
-    <tile name="FOREST_GREEN_DNG_KPR_ROCK_ROOT_C_BLEND" pos="-10 -16 10" roty="180" />
     <tile name="FOREST_GREEN_DNG_KPR_ROCK_ROOT_D_BLEND" pos="-12 -6 -12" roty="90" />
     <tile name="FOREST_GREEN_DNG_KPR_ROOT_CEILING_A" pos="-21.5 23 11.5" />
     <tile name="FOREST_GREEN_DNG_KPR_ROOT_CEILING_B" pos="-11.5 35 -25.5" />
@@ -344,5 +343,6 @@
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_B_BLEND" pos="15 0 -26" roty="214" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_B_BLEND" pos="20 0 9" rot="0 115.62 0" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_B_BLEND" pos="26 0 -14" roty="238.02" />
+    <tile name="FOREST_GREEN_DNG_KPR_ROCK_ROOT_A_BLEND" pos="-15 -16 5" roty="90" />
   </tiles>
 </template>

@@ -2387,8 +2387,7 @@
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="310 0 90" roty="180" />
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="-220 0 -230" roty="270" />
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="190 0 70" />
-    <tile name="STEPPE_RED_GROUND" pos="160 0 310" />
-    <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="-110 1 10" />
+    <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="-110 0 10" />
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="20 0 180" />
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_E_COMP_01_MEDIUM_FIBER_A" pos="-280 -4 -70" roty="270" />
     <compoundtile name="_STEPPE_RED_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="-60 0 10" />
@@ -2541,6 +2540,7 @@
     <tile name="STEPPE_RED_GROUND" pos="-100 0 10" roty="180" />
     <tile name="STEPPE_RED_GROUND" pos="50 0 -10" roty="0" />
     <tile name="STEPPE_RED_GROUND" pos="50 0 10" roty="180" />
+    <tile name="STEPPE_RED_GROUND" pos="160 0 310" />
     <tile name="STEPPE_RED_GROUND" pos="30 0 10" roty="180" />
     <tile name="STEPPE_RED_GROUND" pos="20 0 0" roty="90" />
     <tile name="STEPPE_RED_GROUND" pos="20 0 10" roty="180" />

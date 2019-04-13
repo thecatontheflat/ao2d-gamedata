@@ -824,7 +824,6 @@
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="17 -50 30" roty="90" />
     <tile name="SWAMP_GREEN_FILL_CITY_ARENA_SIGN_A" pos="-40 -6 -32" roty="219.2" />
     <tile name="SWAMP_GREEN_FILL_CITY_TORCH_B" pos="4.5 -11 -25.5" roty="180" />
-    <tile name="SWAMP_GREEN_FILL_CITY_TORCH_B" pos="-10.5 -13 -25.5" roty="180" />
     <tile name="SWAMP_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="-19 -29 -37" />
     <tile name="SWAMP_GREEN_FILL_LADDER_LARGE_A" pos="-21 -16 64" rot="0 270 357" />
     <tile name="SWAMP_GREEN_FILL_CONSTSITE_SCAFFOLD_STRAIGHT_B" pos="36 -16 -17" roty="279.21" />
@@ -888,7 +887,6 @@
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-35 -45 25" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="35 -25 25" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-36 15 -26" />
-    <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-35 -15 24" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-35 -25 -35" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-36 -15 -26" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="55 -45 5" />
@@ -899,7 +897,6 @@
     <tile name="SWAMP_GREEN_FILL_WATER_SHIP_ROWBOAT_B" pos="-2.5 -17 -41.5" roty="248" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-35 15 24" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 7 10" />
-    <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-35 -15 16" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -28 -20" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -27 0" />
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_B" pos="-45 -15 25" />
@@ -1230,6 +1227,8 @@
     <tile name="SWAMP_GREEN_CITY_BANNER_LARGE_A" pos="-35 6 83" roty="180" />
     <tile name="SWAMP_GREEN_CITY_BANNER_LARGE_A" pos="-35 6 7" roty="180" />
     <tile name="SWAMP_GREEN_CITY_BANNER_LARGE_A" pos="-35 6 -7" roty="180" />
+    <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_A" pos="-35 -15 16" />
+    <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_A" pos="-35 -15 24" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_ROOF_A" pos="-20 0 -10" roty="180" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_ROOF_A" pos="-30 0 -10" roty="180" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_ROOF_A" pos="20 0 -10" roty="180" />
@@ -1458,5 +1457,7 @@
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="4.9 144.78 141.2" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-42.3 144.78 131.9" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-86.3 144.78 79.2" />
+    <tile name="FACTION_GUARD_SWAMP" pos="-34.5 -4 -2.5" />
+    <tile name="FACTION_GUARD_SWAMP" pos="-34.5 -4 2.5" roty="180" />
   </tiles>
 </template>

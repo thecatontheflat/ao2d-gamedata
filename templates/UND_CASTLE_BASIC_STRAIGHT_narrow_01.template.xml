@@ -740,6 +740,30 @@
         </tile>
       </layer>
     </layergroup>
+    <layergroup name="SOLO-ENCOUNTER">
+      <layer id="Layer_14" name="Solo_1">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON" pos="-4.55 0 -20.57" roty="17">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="-2.92 0 24.95" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="3.75 0 25.37" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="-3.37 0 -17.89" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+      </layer>
+      <layer id="Layer_15" name="Solo_2">
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="3.75 0 25.37" roty="180" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_MAGE" pos="-3.37 0 -17.89" roty="180">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="2.39 0 26.87" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SKELETON_RANGED" pos="-1.81 0 26.87" />
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_SHADE" pos="-4.55 0 -20.57" roty="17">
+          <mobspawnpoint behavior="GUARD" />
+        </tile>
+        <tile name="SpawnPoint_T4_MOB_UNDEAD_ARCHER" pos="-3.36 0 25.37" roty="180" />
+      </layer>
+    </layergroup>
     <layergroup name="Story">
       <layer id="Layer_01" name="Walkway">
         <tile name="FOREST_GREEN_CASTLE_8M_STAIRS_FLAT_B" pos="25 -20 0" roty="90" />
@@ -816,8 +840,8 @@
         <tile name="FOREST_GREEN_CASTLE_STAIRS_ROUNDED_DECO_TOWER_TOP_A" pos="-20 -1 -20" />
         <tile name="FOREST_GREEN_VEG_MOSS_BROWN_A" pos="-24.5 -2 -22.5" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="-25 0 -25" roty="180" />
-        <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 -35" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-15 0 -35" roty="270" />
+        <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 -35" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="-15 -12 -15" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="-25 -12 -15" roty="270" />
         <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A_NOCOL" pos="-19 -7 -17" roty="90" />
@@ -846,7 +870,7 @@
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 -5" roty="180" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 -25" roty="180" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-15 8 -35" roty="270" />
-        <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 -35" roty="270" />
+        <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 8 -35" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 25" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-15 0 25" roty="270" />
         <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_A" pos="-25 0 25" roty="180" />

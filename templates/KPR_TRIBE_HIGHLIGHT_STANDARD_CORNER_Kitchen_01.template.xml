@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/KEEPER/KPR_TRIBE_HIGHLIGHT_STANDARD_CORNER_Kitchen_01.unity" unityguid="7b877b5eb7a6b1440b0b4e1942d38e65" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-41 -43" colBoundsMax="42 43">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_STANDARD" pos="-17.5 -4 -1.5" roty="286">
+      <tile name="FOREST_GREEN_LOOTCHEST_KEEPER_STANDARD" pos="-18.5 -4 -1.5" roty="286">
         <lootchest lootchesttype="KEEPER_CHEST_STANDARD" />
       </tile>
     </criticalscenemember>
@@ -195,7 +195,7 @@
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C" pos="-13 -4 -14" roty="270" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_FORMATION_SPIKES_DEBRIS_A_DIAGONAL" pos="9 0 36" roty="180" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_LEFT_A" pos="32 0 -13" roty="270" />
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_STANDARD" pos="-17.5 -4 -1.5" roty="286" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_KEEPER_STANDARD" pos="-18.5 -4 -1.5" roty="286" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="KEEPER_CHEST_STANDARD" />
     </criticaltile>
     <tile name="FOREST_GREEN_KPR_DNG_FILL_CAULDRON_LARGE_A" pos="-18 -4 8" roty="305" />

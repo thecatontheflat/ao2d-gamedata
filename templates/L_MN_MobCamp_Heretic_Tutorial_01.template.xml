@@ -2615,9 +2615,6 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-47 12 -41" roty="270">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_HEALER" pos="-81 22 10" roty="90">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="-11 22 87" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -2639,7 +2636,7 @@
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="76.2 14 79.47" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="68 18 -71">
+    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="70.34 18 -72.97">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-45 20 15" roty="180">
@@ -2747,7 +2744,7 @@
           <waypoint pos="-78 -76" idle="0" pace="WALK" />
           <waypoint pos="-82 -76" idle="0" pace="WALK" />
           <waypoint pos="-85 -74" idle="0" pace="WALK" />
-          <waypoint pos="-85.46001 -68" idle="3" pace="WALK" />
+          <waypoint pos="-85.12001 -67.93001" idle="3" pace="WALK" />
           <waypoint pos="-85 -74" idle="0" pace="WALK" />
           <waypoint pos="-82 -76" idle="0" pace="WALK" />
           <waypoint pos="-78 -76" idle="0" pace="WALK" />
@@ -2761,7 +2758,7 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-28 12 -52">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="74 15 47" roty="270">
+    <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="74 14 47" roty="270">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="-12 22 17">
@@ -2770,7 +2767,7 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="97 12 -15">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="12 23 21" roty="225">
+    <tile name="SpawnPoint_T3_HERETIC_MAGE" pos="12 22 21" roty="225">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_TANK" pos="-8 20 -18" roty="90">
@@ -2806,12 +2803,6 @@
           <waypoint pos="-56 42" idle="0" pace="WALK" />
         </path>
       </mobspawnpoint>
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="70 18 -69" roty="270">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="-60 22 -51" roty="90">
-      <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-55 22 -50" roty="90">
       <mobspawnpoint behavior="GUARD" />
@@ -2896,26 +2887,38 @@
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-105 12 -2" roty="180">
       <mobspawnpoint behavior="GUARD" />
     </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-81 22 10" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="10.02 22 102.16" roty="161">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="72.24 18 -71.82" roty="270">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-60 22 -51" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="57 12 106" roty="180">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-44.04 0 -116.01">
+    <tile name="SpawnPoint_T3_HERETIC_RAT" pos="-43.22 0 -115.92">
       <mobspawnpoint behavior="PATROL">
         <path>
-          <waypoint pos="-44.04 -116.01" idle="0" pace="WALK" />
-          <waypoint pos="-45.04 -112.01" idle="0" pace="WALK" />
-          <waypoint pos="-42.04 -111.01" idle="3" pace="WALK" />
-          <waypoint pos="-39.04 -112.01" idle="0" pace="WALK" />
-          <waypoint pos="-39.04 -115.01" idle="0" pace="WALK" />
-          <waypoint pos="-41.04 -114.01" idle="0" pace="WALK" />
-          <waypoint pos="-42.04 -117.01" idle="0" pace="WALK" />
-          <waypoint pos="-45.04 -117.01" idle="0" pace="WALK" />
-          <waypoint pos="-46.04 -120.01" idle="0" pace="WALK" />
-          <waypoint pos="-49.04 -118.01" idle="3" pace="WALK" />
-          <waypoint pos="-52.04 -118.01" idle="0" pace="WALK" />
-          <waypoint pos="-51.04 -115.01" idle="0" pace="WALK" />
-          <waypoint pos="-53.04 -111.01" idle="0" pace="WALK" />
-          <waypoint pos="-46.04 -112.01" idle="3" pace="WALK" />
+          <waypoint pos="-43.22 -115.92" idle="0" pace="WALK" />
+          <waypoint pos="-44.22 -111.92" idle="0" pace="WALK" />
+          <waypoint pos="-41.22 -110.92" idle="3" pace="WALK" />
+          <waypoint pos="-38.22 -111.92" idle="0" pace="WALK" />
+          <waypoint pos="-38.22 -114.92" idle="0" pace="WALK" />
+          <waypoint pos="-40.22 -113.92" idle="0" pace="WALK" />
+          <waypoint pos="-41.22 -116.92" idle="0" pace="WALK" />
+          <waypoint pos="-44.22 -116.92" idle="0" pace="WALK" />
+          <waypoint pos="-45.22 -119.92" idle="0" pace="WALK" />
+          <waypoint pos="-48.22 -117.92" idle="3" pace="WALK" />
+          <waypoint pos="-51.22 -117.92" idle="0" pace="WALK" />
+          <waypoint pos="-50.22 -114.92" idle="0" pace="WALK" />
+          <waypoint pos="-52.22 -110.92" idle="0" pace="WALK" />
+          <waypoint pos="-45.22 -111.92" idle="3" pace="WALK" />
         </path>
       </mobspawnpoint>
     </tile>
@@ -2934,7 +2937,7 @@
           <waypoint pos="-123 14" idle="3" pace="WALK" />
           <waypoint pos="-123 11" idle="0" pace="WALK" />
           <waypoint pos="-126 12" idle="0" pace="WALK" />
-          <waypoint pos="-127.24 14.36" idle="0" pace="WALK" />
+          <waypoint pos="-130 9.999998" idle="0" pace="WALK" />
           <waypoint pos="-129 17" idle="3" pace="WALK" />
         </path>
       </mobspawnpoint>

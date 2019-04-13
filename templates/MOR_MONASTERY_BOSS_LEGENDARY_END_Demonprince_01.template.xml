@@ -1145,44 +1145,13 @@
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="10 -39 -36" roty="35" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="10 -39 -27" roty="125" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="10 -34 -23" roty="171.54" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -5" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 5" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 25" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 5" roty="90" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -5" roty="90" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -15" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -15" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -35" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -25" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -45" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -55" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -65" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -55" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -65" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -75" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -75" roty="270" />
-    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="35 -13 6" rot="331 132 336" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -25" roty="180" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="34 -11 5" rot="331 132 336" scale="0.6869946 0.6869944 0.6869946" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="35 -18 -5" rot="15 307 11" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -3 5" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -3 -5" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -3 5" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -3 -5" roty="180" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="40 -5 8" rot="311 153 304" scale="0.7058579 0.7058579 0.7058579" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="36 -4 -9" rot="311 153 304" scale="0.70586 0.4402945 0.7058601" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -25" roty="180" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-40 -34 -16" roty="180" scale="1.153677 0.8698879 1.481561" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-40 -34 -26" scale="1.15368 1.083026 2.265041" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-40 -34 7" roty="180" scale="1.15368 1.08303 2.26504" />
@@ -1191,29 +1160,19 @@
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-31 -31 -7" roty="180" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-31 -31 8" rot="352 6 0" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-40 -34 22" roty="180" scale="1.15368 0.86989 1.48156" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -3 -5" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -3 5" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -3 -5" roty="0" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -3 5" roty="0" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-40 -5 -8" rot="311 333 304" scale="0.7058604 0.70586 0.7058604" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-36 -5 8" rot="311 333 304" scale="0.9459866 0.4402903 0.906137" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="21 -34 -29" roty="180" />
-    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="27 -34 -21" rot="12.41 86.1 358.87" scale="1 0.9129453 1.006537" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="27 -34 -21" rot="12 86 359" scale="1 0.9129453 1.006537" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="25 -37 -26" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="19 -30 -30" rot="3 271 359" scale="1 0.70565 1" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="31 -31 8" scale="1 1.298055 1" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="31 -31 -8" rot="352 186 0" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -28 35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -28 35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 35" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -28 45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -28 45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 45" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-6 -13 35" rot="331 42 336" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="5 -18 35" rot="15 217 11" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -3 35" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -3 35" roty="90" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-8 -5 40" rot="311 63 304" scale="0.7058604 0.70586 0.7058604" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="9 -4 36" rot="311 63 304" scale="0.7058604 0.4402901 0.7058604" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-8 -31 31" roty="270" scale="1 1.29806 1" />
@@ -1223,39 +1182,94 @@
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-15 -32 48" roty="180" scale="2.792024 1.3375 1.3375" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="1 -32 48" roty="180" scale="2.79202 1.3375 1.3375" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="17 -32 45" roty="214.03" scale="2.79202 1.3375 1.3375" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -3 35" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 15" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 5" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 -5" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 -15" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -3 35" roty="90" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="39 -34 20" scale="1.15368 0.86989 1.48156" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -35" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="32 -34 -31" scale="1.15368 0.86989 1.48156" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="32 -34 -26" roty="270" scale="1.15368 0.86989 1.48156" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="31 -30 -10" rot="3 271 359" scale="1 0.70565 1" />
     <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="40 -31 -10" roty="90" scale="1 0.5952266 1" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -3 45" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -3 45" roty="270" />
     <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_A" pos="-25 -30 -5" roty="90" />
     <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_A" pos="5 -30 25" roty="90" />
     <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_A" pos="-5 -30 25" roty="180" />
     <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_B" pos="-25 -30 5" />
-    <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_B" pos="25 -30 5" roty="270" />
     <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_B" pos="25 -30 -5" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 15" roty="0" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 5" roty="180" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 -5" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 -15" roty="180" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -75" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -85" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -65" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 -15" roty="0" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 15" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 25" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 25" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 15" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 25" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 25" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -25" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 -15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 15" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 5" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 -5" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="35 -28 -25" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 5" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -5" roty="180" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -28 25" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -28 25" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 35" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 35" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="5 -28 35" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-5 -28 35" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 35" roty="90" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 35" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-35 -28 25" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 5" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -5" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -15" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -15" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -25" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -25" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -35" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -35" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -45" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -55" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -65" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="15 -28 -75" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -35" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -45" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -55" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -65" roty="270" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -75" roty="270" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -85" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -65" roty="270" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -45" />
-    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="25 -28 -55" roty="270" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -45" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -45" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -55" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -65" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-15 -28 -75" roty="270" />
     <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -55" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -65" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -75" roty="270" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -85" roty="270" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-30 -34 -33" scale="1.15368 1.08303 2.26504" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-29 -34 -40" scale="1.15368 1.08303 2.26504" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="30 -30 -40" scale="1.15368 0.86989 1.48156" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="23 -37 21" />
+    <tile name="FOREST_GREEN_LAVA_GROUND_OBJ_NOCOL" pos="-25 -28 -35" roty="270" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-13 -37 -30" roty="90" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="18 -29 21" roty="90" />
+    <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="-19 -30 22" rot="359 181 357" scale="1 0.70565 1" />
+    <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="14 -30 20" rot="3 271 359" />
+    <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="-13 -30 20" roty="90" />
+    <tile name="HELL_FILL_ROCK_20M_NoCollision" pos="-20 -30 26" rot="357 90.95 1" scale="0.7104921 0.5013584 0.7104922" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-20 -29 31" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="31 -4 3" scale="1 0.42137 1" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="31 -4 -2" roty="180" scale="1 0.4213744 1" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-31 -4 -2" scale="1 0.42137 1" />
+    <tile name="FOREST_GREEN_LAVA_PLATEAU_28M_RIVER_WATERFALL_CORNER_A" pos="25 -30 5" roty="270" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-31 -4 3" roty="180" scale="1 0.42137 1" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-2 -4 31" roty="270" scale="1 0.42137 1" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="3 -4 31" roty="90" scale="1 0.42137 1" />
     <tile name="FOREST_GREEN_MOR_PRISON_CELL_DIAGONAL_A" pos="-21 -58 -14" roty="46" />
     <tile name="FOREST_GREEN_MOR_PRISON_CELL_DIAGONAL_A" pos="-13 -58 -22" roty="46" />
     <tile name="FOREST_GREEN_MOR_PRISON_CELL_DIAGONAL_A" pos="-17 -58 -18" roty="46" />
@@ -1378,5 +1392,49 @@
     <criticaltile name="FOREST_GREEN_LOOTCHEST_MORGANA_BOSS_LEGENDARY" pos="0.5 -16 12.5" id="lootchest_02" type="lootchest">
       <lootchest lootchesttype="MORGANA_CHEST_BOSS_LEGENDARY" />
     </criticaltile>
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-17 -18 9" scale="1 1 0.9130028" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-19 -16 5" scale="0.7331271 0.1789315 1.00376" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-19 -16 -6" scale="0.6579775 0.1789315 1.00376" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-8 -18 18" roty="90" scale="1 1 0.9130009" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="4 -16 19" roty="90" scale="0.7671909 0.17893 1.003761" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-17 -18 -8" rot="12 185 351" scale="1 1 0.9130003" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="17 -18 -10" roty="180" scale="1 1 0.913" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="20 -16 -6" roty="180" scale="0.76719 0.17893 1.00376" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="19 -16 6" roty="180" scale="0.65798 0.17893 1.00376" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="17 -18 7" rot="12 5 351" scale="1 1 0.9130003" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-19 -18 7" rot="10 359 1" scale="1 2.027771 0.6398698" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="-7 -16 18" roty="90" scale="0.6579804 0.17893 1.003761" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="19 -18 -8" rot="10 179 1" scale="1 2.02777 0.6398692" />
+    <tile name="HELL_FILL_ROCK_4M_NoCollision" pos="19 -18 7" rot="357 179 1" scale="1 2.027771 0.6398697" />
+    <tile name="Bubbles_9s" pos="-22.71 -28 -16.58" />
+    <tile name="Bubbles_13s" pos="-24.65 -28 -12.13" />
+    <tile name="Flames_Lava_5m" pos="-14.91 -11.18 -24.3" />
+    <tile name="Bubbles_9s" pos="-12.56 -28 -27.33" />
+    <tile name="Bubbles_9s" pos="-14.9 -28 -36.41" />
+    <tile name="Bubbles_9s" pos="22.61 -28 -16.44" />
+    <tile name="Bubbles_9s" pos="24.89 -28 -7.94" />
+    <tile name="Bubbles_9s" pos="22.56 -28 3.06" />
+    <tile name="Bubbles_9s" pos="14.65 -28 21.46" />
+    <tile name="Bubbles_9s" pos="15.33 -28 18.58" />
+    <tile name="Bubbles_9s" pos="-13.57 -28 22.81" />
+    <tile name="Bubbles_9s" pos="-25.08 -28 13.08" />
+    <tile name="Bubbles_9s" pos="-23.18 -28 -8.63" />
+    <tile name="Bubbles_13s" pos="-23.3 -28 2.34" />
+    <tile name="Bubbles_13s" pos="-21.1 -28 14.36" />
+    <tile name="Bubbles_13s" pos="25.19 -28 0.65" />
+    <tile name="Bubbles_13s" pos="19.99 -28 13.64" />
+    <tile name="Bubbles_13s" pos="0.91 -28 24.73" />
+    <tile name="Bubbles_13s" pos="18.17 -28 23.12" roty="90" />
+    <tile name="Bubbles_13s" pos="24.83 -28 -14.15" />
+    <tile name="Bubbles_13s" pos="15.8 -28 -23.79" />
+    <tile name="Bubbles_13s" pos="14.89 -28 -36.12" />
+    <tile name="Bubbles_13s" pos="-13.21 -28 -33.69" />
+    <tile name="Bubbles_13s" pos="15.44 -28 -57.76" />
+    <tile name="Bubbles_13s" pos="-14.91 -28 -60.97" />
+    <tile name="Bubbles_9s" pos="-16.57 -28 -56.91" />
+    <tile name="Bubbles_9s" pos="15.45 -28 -59.86" />
+    <tile name="Bubbles_9s" pos="14.88 -28 -48.06" />
+    <tile name="Bubbles_9s" pos="15.42 -28 -75.04" />
+    <tile name="Bubbles_9s" pos="-14.22 -28 -69.94" />
   </tiles>
 </template>

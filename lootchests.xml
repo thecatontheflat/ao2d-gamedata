@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LootChests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lootchests.xsd">
- 
+   
+  <!--   #     # ##### ##### #####  ####   #####  #   #  -->
+  <!--   #     # #       #   #      #   #  #   #  ##  #  -->
+  <!--    #   #  #####   #   #####  ####   #####  # # #  -->
+  <!--     # #   #       #   #      #   #  #   #  #  ##  -->
+  <!--      #    #####   #   #####  #   #  #   #  #   #  -->
   <!--************************************-->
   <!--Book Chests-->
   <!--************************************-->
   
   <!--Morgana-->
-  <LootChest uniquename="MORGANA_BOOKCHEST_STANDARD" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+  <LootChest uniquename="MORGANA_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.013532"/>
@@ -25,7 +30,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_BOOKCHEST_UNCOMMON" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="MORGANA_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="11.467234"/>
@@ -47,7 +52,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_BOOKCHEST_RARE" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+  <LootChest uniquename="MORGANA_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.401701"/>
@@ -71,7 +76,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_BOOKCHEST_LEGENDARY" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="MORGANA_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="3.475741"/>
@@ -96,7 +101,7 @@
     </Loot>
   </LootChest>
   <!--Undead-->
-  <LootChest uniquename="UNDEAD_BOOKCHEST_STANDARD" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+  <LootChest uniquename="UNDEAD_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.013532"/>
@@ -115,7 +120,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_BOOKCHEST_UNCOMMON" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="UNDEAD_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="11.467234"/>
@@ -137,7 +142,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_BOOKCHEST_RARE" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+  <LootChest uniquename="UNDEAD_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.401701"/>
@@ -161,7 +166,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_BOOKCHEST_LEGENDARY" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="UNDEAD_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="3.475741"/>
@@ -186,7 +191,7 @@
     </Loot>
   </LootChest>
   <!--Keeper-->
-  <LootChest uniquename="KEEPER_BOOKCHEST_STANDARD" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+  <LootChest uniquename="KEEPER_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.013532"/>
@@ -205,7 +210,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_BOOKCHEST_UNCOMMON" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="KEEPER_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="11.467234"/>
@@ -227,7 +232,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_BOOKCHEST_RARE" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+  <LootChest uniquename="KEEPER_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.401701"/>
@@ -251,7 +256,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_BOOKCHEST_LEGENDARY" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="KEEPER_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="3.475741"/>
@@ -276,7 +281,7 @@
     </Loot>
   </LootChest>
   <!--Heretic-->
-  <LootChest uniquename="HERETIC_BOOKCHEST_STANDARD" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+  <LootChest uniquename="HERETIC_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.013532"/>
@@ -295,7 +300,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_BOOKCHEST_UNCOMMON" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="HERETIC_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="11.467234"/>
@@ -317,7 +322,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_BOOKCHEST_RARE" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+  <LootChest uniquename="HERETIC_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.401701"/>
@@ -341,7 +346,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_BOOKCHEST_LEGENDARY" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="HERETIC_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <Item type="T1_SKILLBOOK_NONTRADABLE" chance="3.475741"/>
@@ -372,7 +377,7 @@
   
   <!--Morgana-->
   <!--boss-->
-  <LootChest uniquename="MORGANA_CHEST_BOSS_UNCOMMON" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="MORGANA_CHEST_BOSS_UNCOMMON" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_MORGANA_BOSS_LOOT" chance="1" />
@@ -441,7 +446,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_CHEST_BOSS_RARE" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="MORGANA_CHEST_BOSS_RARE" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_MORGANA_BOSS_LOOT" chance="2" />
@@ -514,7 +519,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_CHEST_BOSS_LEGENDARY" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="MORGANA_CHEST_BOSS_LEGENDARY" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_MORGANA_BOSS_LOOT" chance="10" />
@@ -588,7 +593,7 @@
     </Loot>
   </LootChest>
   <!--normal-->
-  <LootChest uniquename="MORGANA_CHEST_STANDARD" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+  <LootChest uniquename="MORGANA_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
     <Loot>      
       <LootByTier tier="4">
         <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000892" />
@@ -651,7 +656,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_CHEST_UNCOMMON" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="MORGANA_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.002548" />
@@ -715,7 +720,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_CHEST_RARE" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="MORGANA_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.007645" />
@@ -783,7 +788,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="MORGANA_CHEST_LEGENDARY" avatar="MORGANACHEST1" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="MORGANA_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.040772" />
@@ -854,7 +859,7 @@
   
   <!--Keeper-->
   <!--boss-->
-  <LootChest uniquename="KEEPER_CHEST_BOSS_UNCOMMON" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="KEEPER_CHEST_BOSS_UNCOMMON" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_KEEPER_BOSS_LOOT" chance="1" />
@@ -923,7 +928,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_CHEST_BOSS_RARE" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="KEEPER_CHEST_BOSS_RARE" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_KEEPER_BOSS_LOOT" chance="2" />
@@ -996,7 +1001,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_CHEST_BOSS_LEGENDARY" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="KEEPER_CHEST_BOSS_LEGENDARY" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_KEEPER_BOSS_LOOT" chance="10" />
@@ -1070,7 +1075,7 @@
     </Loot>
   </LootChest>
   <!--normal-->
-  <LootChest uniquename="KEEPER_CHEST_STANDARD" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+  <LootChest uniquename="KEEPER_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000892" />
@@ -1133,7 +1138,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_CHEST_UNCOMMON" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="KEEPER_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.002548" />
@@ -1197,7 +1202,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_CHEST_RARE" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="KEEPER_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.007645" />
@@ -1265,7 +1270,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="KEEPER_CHEST_LEGENDARY" avatar="KEEPERCHEST1" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="KEEPER_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.040772" />
@@ -1336,7 +1341,7 @@
   
   <!--Undead-->
   <!--boss-->
-  <LootChest uniquename="UNDEAD_CHEST_BOSS_UNCOMMON" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="UNDEAD_CHEST_BOSS_UNCOMMON" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_UNDEAD_BOSS_LOOT" chance="1" />
@@ -1400,7 +1405,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_CHEST_BOSS_RARE" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="UNDEAD_CHEST_BOSS_RARE" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_UNDEAD_BOSS_LOOT" chance="2" />
@@ -1468,7 +1473,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_CHEST_BOSS_LEGENDARY" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="UNDEAD_CHEST_BOSS_LEGENDARY" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_UNDEAD_BOSS_LOOT" chance="10" />
@@ -1537,7 +1542,7 @@
     </Loot>
   </LootChest>
   <!--normal-->
-  <LootChest uniquename="UNDEAD_CHEST_STANDARD" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+  <LootChest uniquename="UNDEAD_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_FRAGMENT_LOOT" chance="2.424" />
@@ -1595,7 +1600,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_CHEST_UNCOMMON" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="UNDEAD_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_FRAGMENT_LOOT" chance="6.9256" />
@@ -1654,7 +1659,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_CHEST_RARE" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="UNDEAD_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_FRAGMENT_LOOT" chance="20.7768" />
@@ -1717,7 +1722,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="UNDEAD_CHEST_LEGENDARY" avatar="UNDEADCHEST1" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="UNDEAD_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="FRAGMENT_LOOT_10X" chance="11.08093" />
@@ -1783,7 +1788,7 @@
   
   <!--Heretics-->
   <!--boss-->
-  <LootChest uniquename="HERETIC_CHEST_BOSS_UNCOMMON" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="HERETIC_CHEST_BOSS_UNCOMMON" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_HERETIC_BOSS_LOOT" chance="1" />
@@ -1852,7 +1857,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_CHEST_BOSS_RARE" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="HERETIC_CHEST_BOSS_RARE" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_HERETIC_BOSS_LOOT" chance="2" />
@@ -1925,7 +1930,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_CHEST_BOSS_LEGENDARY" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="HERETIC_CHEST_BOSS_LEGENDARY" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="T4_RANDOM_DUNGEON_HERETIC_BOSS_LOOT" chance="10" />
@@ -1999,7 +2004,7 @@
     </Loot>
   </LootChest>
   <!--normal-->
-  <LootChest uniquename="HERETIC_CHEST_STANDARD" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+  <LootChest uniquename="HERETIC_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000892" />
@@ -2062,7 +2067,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_CHEST_UNCOMMON" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+  <LootChest uniquename="HERETIC_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.002548" />
@@ -2126,7 +2131,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_CHEST_RARE" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+  <LootChest uniquename="HERETIC_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.007645" />
@@ -2194,7 +2199,7 @@
       </LootByTier>
     </Loot>
   </LootChest>
-  <LootChest uniquename="HERETIC_CHEST_LEGENDARY" avatar="HERETICCHEST1" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+  <LootChest uniquename="HERETIC_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
     <Loot>
       <LootByTier tier="4">
         <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.040772" />
@@ -2259,6 +2264,1496 @@
         <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="151.855012" />
         <Item type="T1_SILVERBAG_NONTRADABLE" chance="6.96878"/>
         <Item type="T4_SILVERBAG_NONTRADABLE" chance="39"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+
+  <!-- #####  #####  #     ##### -->
+  <!-- #      #   #  #     #   # -->
+  <!-- #####  #   #  #     #   # -->
+  <!--     #  #   #  #     #   # -->
+  <!-- #####  #####  ##### ##### -->
+  <!--************************************-->
+  <!--Book Chests-->
+  <!--************************************-->
+
+  <!--Morgana-->
+  <LootChest uniquename="MORGANA_SOLO_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.912"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.43276"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.067546"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.638176"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.184307"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.6065"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.093599"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.907274"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.914529"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.55292"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="7.8195"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="12.280798"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="17.721821"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.21082"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.948904"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.7045"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="2"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.497591"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="3"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.516376"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="4"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <!--Undead-->
+  <LootChest uniquename="UNDEAD_SOLO_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.912"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.43276"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.067546"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.638176"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.184307"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.6065"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.093599"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.907274"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.914529"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.55292"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="7.8195"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="12.280798"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="17.721821"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.21082"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.948904"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.7045"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="2"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.497591"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="3"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.516376"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="4"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <!--Keeper-->
+  <LootChest uniquename="KEEPER_SOLO_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.912"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.43276"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.067546"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.638176"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.184307"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.6065"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.093599"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.907274"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.914529"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.55292"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="7.8195"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="12.280798"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="17.721821"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.21082"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.948904"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.7045"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="2"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.497591"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="3"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.516376"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="4"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <!--Heretic-->
+  <LootChest uniquename="HERETIC_SOLO_BOOKCHEST_STANDARD" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@BOOKCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.8"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="0.912"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.43276"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.067546"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_BOOKCHEST_UNCOMMON" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@BOOKCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.638176"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.184307"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="2.6065"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.093599"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.907274"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_BOOKCHEST_RARE" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@BOOKCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="4.914529"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.55292"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="7.8195"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="12.280798"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="17.721821"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_BOOKCHEST_LEGENDARY" avatar="RD_BOOKCHEST" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@BOOKCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="6.21082"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.948904"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="1"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="1.7045"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="2"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="5.497591"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="3"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <Item type="T1_SKILLBOOK_NONTRADABLE" chance="14.516376"/>
+        <Item type="T4_SKILLBOOK_STANDARD" chance="4"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+
+  <!--************************************-->
+  <!-- LOOT CHESTS-->
+  <!--************************************-->
+
+  <!--Morgana-->
+  <!--normal-->
+  <LootChest uniquename="MORGANA_SOLO_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000127" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.3463" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000064" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0143" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.002129" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.724342" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.406111" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.0658" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.344017"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.00017" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="0.4617" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000085" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0191" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.001337" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.082998" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.175471" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.043271" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.3832" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.458704"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000203" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="0.5508" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000102" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0228" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.000517" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.418648" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.103239" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.025643" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.457129" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.430645" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.5472"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000318" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="0.8653" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.00016" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0358" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.0004" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.324379" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.08057" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.493275" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.338274" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.859656"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000459" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="1.2487" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.000231" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0517" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.000287" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.232532" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.468095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.474547" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.240527"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000364" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.9894" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000183" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.041" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.006082" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="4.926691" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.160317" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.187999" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.982906"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000485" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="1.3192" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000244" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0546" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.00382" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.094279" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.501346" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.123632" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.094856" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.310584"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.000579" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="1.5742" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000291" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0652" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.001477" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.196497" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.295057" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.073287" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.306475" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.230785" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.5639"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.00091" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="2.4723" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.000457" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1023" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.001144" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.926796" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.230199" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.409356" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.966496" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.45616"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.001313" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="3.5677" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.00066" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1477" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.00082" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.664377" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.337414" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.355848" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.544364"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.001092" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="2.9681" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000549" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1229" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.018247" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="14.780074" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.48095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.563996" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.948717"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.001456" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="3.9576" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000732" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1638" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.01146" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="9.282837" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.504038" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.370897" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.284568" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.931752"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.001738" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="4.7226" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000873" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1955" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.004431" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.589492" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.885172" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.21986" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.919426" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.692356" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="4.6917"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.002729" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="7.4169" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.001371" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.307" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.003433" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="2.780388" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.690596" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.228067" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="2.899487" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="7.368479"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.003938" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="10.703" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.001979" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.443" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.002461" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.993131" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.012243" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.067545" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="10.633092"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="MORGANA_SOLO_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="MORGANA" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.005825" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="15.8299" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.002926" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.6553" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.097317" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="78.827063" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="18.565065" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.007978" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="15.726492"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.007766" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="21.1072" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.003902" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.8737" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.061122" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="49.508462" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="8.021537" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.978119" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="17.517699" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.969343"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.009268" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="25.1872" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.004656" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.0426" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.023635" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="19.144188" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.720976" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.172602" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="20.903856" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="19.692803" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="5.0227"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.014555" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="39.557" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.007312" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.6374" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.018307" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="14.828738" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="3.68318" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="22.549692" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="15.463933" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="9.298555"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="3"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_MORGANA_FURNITURE" chance="0.021004" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="57.0827" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.010552" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="2.3629" />
+        <LootListReference name="LOOT_MORGANA_FACTION_CAPES" chance="0.013123" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="10.630034" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="21.398628" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="21.693573" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="6.709826"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="5"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+
+  <!--Keeper-->  
+  <!--normal-->
+  <LootChest uniquename="KEEPER_SOLO_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000127" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.3463" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000064" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0143" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.002129" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.724342" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.406111" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.0658" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.344017"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.00017" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="0.4617" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000085" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0191" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.001337" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.082998" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.175471" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.043271" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.3832" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.458704"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000203" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="0.5508" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000102" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0228" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.000517" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.418648" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.103239" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.025643" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.457129" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.430645" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.5472"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000318" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="0.8653" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.00016" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0358" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.0004" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.324379" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.08057" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.493275" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.338274" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.859656"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000459" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="1.2487" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.000231" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0517" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.000287" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.232532" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.468095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.474547" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.240527"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000364" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.9894" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000183" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.041" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.006082" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="4.926691" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.160317" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.187999" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.982906"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000485" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="1.3192" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000244" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0546" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.00382" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.094279" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.501346" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.123632" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.094856" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.310584"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.000579" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="1.5742" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000291" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0652" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.001477" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.196497" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.295057" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.073287" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.306475" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.230785" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.5639"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.00091" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="2.4723" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.000457" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1023" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.001144" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.926796" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.230199" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.409356" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.966496" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.45616"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.001313" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="3.5677" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.00066" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1477" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.00082" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.664377" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.337414" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.355848" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.544364"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.001092" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="2.9681" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000549" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1229" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.018247" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="14.780074" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.48095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.563996" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.948717"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.001456" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="3.9576" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000732" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1638" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.01146" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="9.282837" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.504038" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.370897" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.284568" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.931752"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.001738" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="4.7226" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000873" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1955" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.004431" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.589492" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.885172" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.21986" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.919426" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.692356" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="4.6917"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.002729" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="7.4169" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.001371" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.307" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.003433" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="2.780388" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.690596" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.228067" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="2.899487" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="7.368479"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.003938" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="10.703" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.001979" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.443" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.002461" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.993131" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.012243" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.067545" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="10.633092"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="KEEPER_SOLO_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="KEEPER" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.005825" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="15.8299" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.002926" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.6553" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.097317" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="78.827063" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="18.565065" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.007978" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="15.726492"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.007766" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="21.1072" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.003902" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.8737" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.061122" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="49.508462" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="8.021537" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.978119" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="17.517699" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.969343"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.009268" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="25.1872" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.004656" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.0426" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.023635" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="19.144188" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.720976" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.172602" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="20.903856" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="19.692803" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="5.0227"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.014555" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="39.557" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.007312" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.6374" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.018307" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="14.828738" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="3.68318" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="22.549692" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="15.463933" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="9.298555"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="3"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_KEEPER_FURNITURE" chance="0.021004" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="57.0827" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.010552" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="2.3629" />
+        <LootListReference name="LOOT_KEEPER_FACTION_CAPES" chance="0.013123" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="10.630034" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="21.398628" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="21.693573" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="6.709826"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="5"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+
+  <!--Undead-->
+  <!--normal-->
+  <LootChest uniquename="UNDEAD_SOLO_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.3463" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000064" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0143" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.002129" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.724342" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.406111" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.0658" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.344017"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="0.4617" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000085" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0191" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.001337" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.082998" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.175471" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.043271" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.3832" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.458704"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="0.5508" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000102" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0228" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.000517" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.418648" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.103239" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.025643" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.457129" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.430645" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.5472"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="0.8653" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.00016" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0358" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.0004" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.324379" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.08057" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.493275" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.338274" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.859656"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="1.2487" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.000231" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0517" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.000287" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.232532" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.468095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.474547" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.240527"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.9894" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000183" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.041" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.006082" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="4.926691" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.160317" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.187999" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.982906"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="1.3192" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000244" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0546" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.00382" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.094279" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.501346" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.123632" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.094856" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.310584"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="1.5742" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000291" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0652" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.001477" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.196497" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.295057" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.073287" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.306475" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.230785" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.5639"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="2.4723" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.000457" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1023" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.001144" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.926796" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.230199" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.409356" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.966496" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.45616"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="3.5677" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.00066" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1477" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.00082" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.664377" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.337414" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.355848" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.544364"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="2.9681" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000549" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1229" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.018247" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="14.780074" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.48095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.563996" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.948717"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="3.9576" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000732" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1638" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.01146" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="9.282837" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.504038" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.370897" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.284568" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.931752"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="4.7226" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000873" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1955" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.004431" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.589492" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.885172" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.21986" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.919426" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.692356" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="4.6917"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="7.4169" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.001371" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.307" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.003433" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="2.780388" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.690596" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.228067" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="2.899487" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="7.368479"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="10.703" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.001979" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.443" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.002461" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.993131" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.012243" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.067545" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="10.633092"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="UNDEAD_SOLO_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="UNDEAD" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="15.8299" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.002926" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.6553" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.097317" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="78.827063" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="18.565065" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.007978" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="15.726492"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="21.1072" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.003902" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.8737" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.061122" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="49.508462" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="8.021537" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.978119" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="17.517699" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.969343"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="25.1872" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.004656" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.0426" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.023635" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="19.144188" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.720976" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.172602" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="20.903856" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="19.692803" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="5.0227"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="39.557" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.007312" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.6374" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.018307" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="14.828738" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="3.68318" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="22.549692" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="15.463933" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="9.298555"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="3"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="57.0827" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.010552" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="2.3629" />
+        <LootListReference name="LOOT_UNDEAD_FACTION_CAPES" chance="0.013123" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="10.630034" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="21.398628" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="21.693573" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="6.709826"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="5"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+
+  <!--Heretics-->
+  <!--normal-->
+  <LootChest uniquename="HERETIC_SOLO_CHEST_STANDARD" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_standard" spawnsoundevent="Play_spawn_loot_standard" namelocatag="@LOOTCHEST_NAME_STANDARD">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000127" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.3463" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000064" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0143" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.002129" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.724342" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.406111" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.0658" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.344017"/>
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.00017" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="0.4617" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000085" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0191" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.001337" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.082998" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.175471" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.043271" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.3832" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.458704"/>
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000203" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="0.5508" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000102" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0228" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.000517" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.418648" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.103239" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.025643" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="0.457129" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.430645" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.5472"/>
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000318" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="0.8653" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.00016" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0358" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.0004" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.324379" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.08057" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.493275" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.338274" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.859656"/>
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000459" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="1.2487" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.000231" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0517" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.000287" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.232532" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.468095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.474547" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.240527"/>
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_CHEST_UNCOMMON" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_uncommon" spawnsoundevent="Play_spawn_loot_uncommon" namelocatag="@LOOTCHEST_NAME_UNCOMMON">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000364" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="0.9894" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000183" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.041" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.006082" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="4.926691" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.160317" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.187999" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.982906"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000485" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="1.3192" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000244" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0546" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.00382" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.094279" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.501346" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.123632" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.094856" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.310584"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.000579" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="1.5742" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000291" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.0652" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.001477" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.196497" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.295057" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.073287" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="1.306475" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="1.230785" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="1.5639"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.00091" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="2.4723" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.000457" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1023" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.001144" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.926796" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.230199" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.409356" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="0.966496" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.45616"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.001313" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="3.5677" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.00066" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1477" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.00082" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.664377" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.337414" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.355848" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.544364"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_CHEST_RARE" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_rare" spawnsoundevent="Play_spawn_loot_rare" namelocatag="@LOOTCHEST_NAME_RARE">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.001092" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="2.9681" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.000549" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1229" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.018247" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="14.780074" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.48095" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="0.563996" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="2.948717"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.001456" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="3.9576" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.000732" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1638" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.01146" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="9.282837" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="1.504038" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.370897" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.284568" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="3.931752"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.001738" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="4.7226" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.000873" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.1955" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.004431" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.589492" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="0.885172" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.21986" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="3.919426" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="3.692356" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="4.6917"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.002729" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="7.4169" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.001371" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.307" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.003433" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="2.780388" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="0.690596" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.228067" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="2.899487" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="7.368479"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.003938" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="10.703" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.001979" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.443" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.002461" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.993131" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.012243" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="4.067545" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="10.633092"/>
+
+      </LootByTier>
+    </Loot>
+  </LootChest>
+  <LootChest uniquename="HERETIC_SOLO_CHEST_LEGENDARY" avatar="RD_CHEST_BOSS" faction="HERETIC" alertradius="20" spell="OPEN_LOOTCHEST" respawntimesecondsmin="84000" respawntimesecondsmax="84000" opensoundevent="Play_open_chest_legendary" spawnsoundevent="Play_spawn_loot_legendary" namelocatag="@LOOTCHEST_NAME_LEGENDARY">
+    <Loot>
+      <LootByTier tier="4">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.005825" />
+        <LootListReference name="T4_FRAGMENT_LOOT" chance="15.8299" />
+        <LootListReference name="T4_LOOT_EXPEDITION_TOKEN" chance="0.002926" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.6553" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.097317" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="78.827063" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="18.565065" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="3.007978" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="15.726492"/>
+
+      </LootByTier>
+      <LootByTier tier="5">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.007766" />
+        <LootListReference name="T5_FRAGMENT_LOOT" chance="21.1072" />
+        <LootListReference name="T5_LOOT_EXPEDITION_TOKEN" chance="0.003902" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="0.8737" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.061122" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="49.508462" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="8.021537" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="1.978119" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="17.517699" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="0.969343"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="6">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.009268" />
+        <LootListReference name="T6_FRAGMENT_LOOT" chance="25.1872" />
+        <LootListReference name="T6_LOOT_EXPEDITION_TOKEN" chance="0.004656" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.0426" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.023635" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="19.144188" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="4.720976" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="1.172602" />
+        <LootListReference name="T4_DIRECTLOOTDROP_WHITE" chance="20.903856" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="19.692803" />
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="5.0227"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="2"/>
+
+      </LootByTier>
+      <LootByTier tier="7">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.014555" />
+        <LootListReference name="T7_FRAGMENT_LOOT" chance="39.557" />
+        <LootListReference name="T7_LOOT_EXPEDITION_TOKEN" chance="0.007312" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="1.6374" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.018307" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="14.828738" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="3.68318" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="22.549692" />
+        <LootListReference name="T5_DIRECTLOOTDROP_WHITE" chance="15.463933" />
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="9.298555"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="3"/>
+
+      </LootByTier>
+      <LootByTier tier="8">
+        <LootListReference name="LOOT_HERETIC_FURNITURE" chance="0.021004" />
+        <LootListReference name="T8_FRAGMENT_LOOT" chance="57.0827" />
+        <LootListReference name="T8_LOOT_EXPEDITION_TOKEN" chance="0.010552" />
+        <LootListReference name="TREASURES_STANDARD_LOOT" chance="2.3629" />
+        <LootListReference name="LOOT_HERETIC_FACTION_CAPES" chance="0.013123" />
+        <LootListReference name="T8_DIRECTLOOTDROP_WHITE" chance="10.630034" />
+        <LootListReference name="T7_DIRECTLOOTDROP_WHITE" chance="21.398628" />
+        <LootListReference name="T6_DIRECTLOOTDROP_WHITE" chance="21.693573" />
+
+
+        <Item type="T1_SILVERBAG_NONTRADABLE" chance="6.709826"/>
+        <Item type="T4_SILVERBAG_NONTRADABLE" chance="5"/>
+
       </LootByTier>
     </Loot>
   </LootChest>

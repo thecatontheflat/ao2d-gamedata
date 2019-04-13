@@ -771,6 +771,7 @@
   <!--KEEPER-->
   
   <!--ROAMING-->
+
   <!--ROAMING STANDARD SPAWNS-->
   <spawnbehavior name="ROAMING_KEEPER_ANY">
     <clustertype tier="5" respawntimesecondsmin="450" respawntimesecondsmax="750" charges="13">
@@ -1691,7 +1692,7 @@
   
   <!--HERETIC-->
   <spawnbehavior name="HERETIC_ARCHER_BOSS">
-    <clustertype tier="3" respawntimesecondsmin="225" respawntimesecondsmax="375" charges="13">
+    <clustertype tier="3" respawntimesecondsmin="90" respawntimesecondsmax="150" charges="13">
       <mob name="T3_MOB_HERETIC_ARCHER_MINIBOSS" weight="8"/>
       <mob name="T3_MOB_HERETIC_BALLISTA_BOSS" weight="1"/>
     </clustertype>
@@ -1700,7 +1701,7 @@
     </default>
   </spawnbehavior>
   <spawnbehavior name="HERETIC_MAGE_BOSS">
-    <clustertype tier="3" respawntimesecondsmin="225" respawntimesecondsmax="375" charges="13">
+    <clustertype tier="3" respawntimesecondsmin="90" respawntimesecondsmax="150" charges="13">
       <mob name="T3_MOB_HERETIC_MAGE_MINIBOSS" weight="8"/>
       <mob name="T3_MOB_HERETIC_OVERSEER_BOSS" weight="1"/>
     </clustertype>
@@ -1709,7 +1710,7 @@
     </default>
   </spawnbehavior>  
   <spawnbehavior name="HERETIC_THIEF_BOSS">
-    <clustertype tier="3" respawntimesecondsmin="225" respawntimesecondsmax="375" charges="13">
+    <clustertype tier="3" respawntimesecondsmin="90" respawntimesecondsmax="150" charges="13">
       <mob name="T3_MOB_HERETIC_THIEF_MINIBOSS" weight="8"/>
       <mob name="T3_MOB_HERETIC_LUMBERJACK_BOSS" weight="1"/>
     </clustertype>
@@ -1719,7 +1720,7 @@
   </spawnbehavior>
 
   <spawnbehavior name="HERETIC_ANY_BOSS">
-    <clustertype tier="3" respawntimesecondsmin="225" respawntimesecondsmax="375" charges="13">
+    <clustertype tier="3" respawntimesecondsmin="90" respawntimesecondsmax="150" charges="13">
       <mob name="T3_MOB_HERETIC_ARCHER_MINIBOSS" weight="8"/>
       <mob name="T3_MOB_HERETIC_BALLISTA_BOSS" weight="1"/>
       <mob name="T3_MOB_HERETIC_MAGE_MINIBOSS" weight="8"/>
@@ -3513,7 +3514,7 @@
       <mob name="T6_MOB_LIGHTNING_ROCK_CCW" weight="1"/>
     </default>
   </spawnbehavior>
-  <!-- ### Single ### -->
+  <!-- ### VETERAN ### -->
   <!--Standard-->
   <spawnbehavior name="KEEPER_VETERAN_WILL-O-WISP">
     <clustertype tier="4" respawntimesecondsmin="87000" respawntimesecondsmax="87000" charges="1">
@@ -4000,4 +4001,648 @@
       <mob name="T6_MOB_RD_KEEPER_EARTHMOTHER_VETERAN_BOSS" weight="1"/>
     </default>
   </spawnbehavior>
-</randomspawnbehaviors>
+
+  <!-- ### SOLO ### -->
+  <!--Standard-->
+  <spawnbehavior name="KEEPER_WILL-O-WISP">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_WISP" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_WISP" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_WISP" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_WISP" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_WISP" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_WISP" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_LIVING_PEBBLE">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_ELEMENTAL" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_EARTHELEMENTAL">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T3_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_EARTHELEMENTAL" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_UNPROVEN_FEMALE">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_UNPROVEN_FEMALE_SKNNING">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_UNPROVEN_FEMALE_SKINNING" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_UNPROVEN_FEMALE_SKINNING" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE_SKINNING" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_UNPROVEN_FEMALE_SKINNING" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_UNPROVEN_FEMALE_SKINNING" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_UNPROVEN_MALE">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_MUSHROOM_THROWER_YELLOW">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_MUSHROOM_THROWER" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_MUSHROOM_THROWER_BLUE">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_MUSHROOM_THROWER_BLUE" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_BERSERK">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_AXE_THROWER">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_DRUID">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_DRUID" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_SNIPER">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_SPECIAL_SNIPER" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_GIANT">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_GIANT" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <!--Highlights-->
+  <spawnbehavior name="KEEPER_HIGHLIGHT_CHEST_STANDARD">
+    <default respawntimesecondsmax="900" respawntimesecondsmin="1500" charges="13">
+      <mob name="T6_MOB_MORGANA_HIGHLIGHT_CHEST_SMALL" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_HIGHLIGHT_CHEST_UNCOMMON">
+    <default respawntimesecondsmax="900" respawntimesecondsmin="1500" charges="13">
+      <mob name="T6_MOB_MORGANA_HIGHLIGHT_CHEST_NORMAL" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_HIGHLIGHT_CHEST_RARE">
+    <default respawntimesecondsmax="900" respawntimesecondsmin="1500" charges="13">
+      <mob name="T6_MOB_MORGANA_HIGHLIGHT_CHEST_BIG" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_HIGHLIGHT_CHEST_LEGENDARY">
+    <default respawntimesecondsmax="900" respawntimesecondsmin="1500" charges="13">
+      <mob name="T6_MOB_MORGANA_HIGHLIGHT_CHEST_LEGENDARY" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <!-- ### Groups ### -->
+  <spawnbehavior name="KEEPER_UNPROVEN">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_FEMALE" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_UNPROVEN_MALE" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_STANDARD">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_DRUID" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_BERSERK" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_MINIBOSS">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_AXE_THROWER_MINIBOSS" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_DRUID_MINIBOSS" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_GIANT_MINIBOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_AXE_THROWER_MINIBOSS" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_DRUID_MINIBOSS" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_GIANT_MINIBOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_AXE_THROWER_MINIBOSS" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_DRUID_MINIBOSS" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_GIANT_MINIBOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_AXE_THROWER_MINIBOSS" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_DRUID_MINIBOSS" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_GIANT_MINIBOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_AXE_THROWER_MINIBOSS" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_DRUID_MINIBOSS" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_GIANT_MINIBOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_BERSERK_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_BOSS_HIGHLIGHT">
+    <clustertype tier="4" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmin="300" respawntimesecondsmax="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_EARTHDAUGHTER_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_ENDBOSS_UNCOMMON">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T4_MOB_RD_KEEPER_ANCIENT_GIANT_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T5_MOB_RD_KEEPER_ANCIENT_GIANT_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T6_MOB_RD_KEEPER_ANCIENT_GIANT_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T7_MOB_RD_KEEPER_ANCIENT_GIANT_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T8_MOB_RD_KEEPER_ANCIENT_GIANT_BOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_SEER_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_WITCH_LOCATOR">
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_WITCH_LOCATOR" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_ENDBOSS_RARE_WITCH">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_WITCH_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_ENDBOSS_RARE_CHIEFTAIN">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_CHIEFTAIN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="KEEPER_ENDBOSS_LEGENDARY">
+    <clustertype tier="4" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T4_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="5" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T5_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="6" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="7" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T7_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </clustertype>
+    <clustertype tier="8" respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T8_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </clustertype>
+    <default respawntimesecondsmax="300" respawntimesecondsmin="300" charges="1">
+      <mob name="T6_MOB_RD_KEEPER_EARTHMOTHER_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+
+  
+  <!-- ###################################################################################### -->
+  <!-- ##########################  SOLO RANDOM DUNGEON TEST MOBS ############################ -->
+  <!-- ###################################################################################### -->
+	  
+  <spawnbehavior name="ROAMING_STANDARD_FOR_TEST">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T5_MOB_ROAMING_KEEPER_AXE_THROWER" weight="1"/>
+      <mob name="T5_MOB_ROAMING_KEEPER_BERSERK" weight="1"/>
+      <mob name="T6_MOB_ROAMING_MORGANA_SOLDIER" weight="1"/>
+      <mob name="T6_MOB_ROAMING_MORGANA_CROSSBOWMAN" weight="1"/>
+      <mob name="T7_MOB_ROAMING_UNDEAD_GHOUL" weight="1"/>
+      <mob name="T7_MOB_ROAMING_UNDEAD_SOLDIER" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="ROAMING_MINIBOSS_FOR_TEST">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T5_MOB_ROAMING_KEEPER_GIANT_MINIBOSS" weight="1"/>
+      <mob name="T6_MOB_ROAMING_MORGANA_KNIGHT_MINIBOSS" weight="1"/>
+      <mob name="T7_MOB_ROAMING_UNDEAD_ARCHER_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="ROAMING_BOSS_FOR_TEST">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T5_MOB_ROAMING_KEEPER_SEER_BOSS" weight="1"/>
+      <mob name="T6_MOB_ROAMING_MORGANA_KNIGHT_BOSS" weight="1"/>
+      <mob name="T7_MOB_ROAMING_UNDEAD_NECROMANCER_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  
+  <!-- SOLO -->  
+  <!-- Standard -->    
+  <spawnbehavior name="TEST_UNDEAD_SOLDIER_SOLO">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_ROAMING_UNDEAD_SOLDIER" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  
+  <!-- Boss -->  
+  <spawnbehavior name="TEST_UNDEAD_ARCHER_SOLO_MINIBOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_ROAMING_UNDEAD_ARCHER_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  
+   <spawnbehavior name="TEST_UNDEAD_NECROMANCER_SOLO_BOSS"> 
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_ROAMING_UNDEAD_NECROMANCER_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>
+  
+  <!-- VETERAN -->  
+  <!-- Standard -->   
+  <spawnbehavior name="TEST_UNDEAD_SKELTON_MELEE_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_SKELETON_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>    
+  <spawnbehavior name="TEST_UNDEAD_SKELTON_RANGED_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_SKELETON_RANGED_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>    
+ <spawnbehavior name="TEST_UNDEAD_RAT_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_RAT_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>
+  <spawnbehavior name="TEST_UNDEAD_ARCHER_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_UNDEAD_ARCHER_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_GHOUL_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_GHOUL_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_MAGE_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_MAGE_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_KNIGHT_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_KNIGHT_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_SOLDIER_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_SOLDIER_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>    
+  <spawnbehavior name="TEST_UNDEAD_GHOST_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_GHOST_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>    
+  <spawnbehavior name="TEST_UNDEAD_PULLER_VETERAN">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_PULLER_VETERAN" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  
+  <!-- BOSS -->  
+  <spawnbehavior name="TEST_UNDEAD_ARCHER_VETERAN_MINIBOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_ARCHER_VETERAN_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>   
+  <spawnbehavior name="TEST_UNDEAD_MAGE_VETERAN_MINIBOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_MAGE_VETERAN_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_GHOUL_VETERAN_MINIBOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_GHOUL_VETERAN_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_SOLDIER_VETERAN_MINIBOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_SOLDIER_VETERAN_MINIBOSS" weight="1"/>
+    </default>
+  </spawnbehavior>   
+  <spawnbehavior name="TEST_UNDEAD_GENERAL_VETERAN_BOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_GENERAL_VETERAN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_HARVESTER_VETERAN_BOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_HARVESTER_VETERAN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_NECROMANCER_VETERAN_BOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_NECROMANCER_VETERAN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_GHOST_VETERAN_BOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_GHOST_VETERAN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  <spawnbehavior name="TEST_UNDEAD_HERO_DUALWIELD_VETERAN_BOSS">
+    <default respawntimesecondsmin="300" respawntimesecondsmax="300" charges="13">
+      <mob name="T4_MOB_RD_UNDEAD_HERO_DUALWIELD_VETERAN_BOSS" weight="1"/>
+    </default>
+  </spawnbehavior>  
+  
+  <!-- ###################################################################################### -->
+  <!-- ###################################################################################### -->
+  <!-- ###################################################################################### -->	  
+  
+  </randomspawnbehaviors>

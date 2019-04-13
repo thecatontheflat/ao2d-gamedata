@@ -98,9 +98,6 @@
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-47 12 -41" roty="270">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_HEALER" pos="-81 22 10" roty="90">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="-11 22 87" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -122,7 +119,7 @@
     <tile name="SpawnPoint_T3_HERETIC_THIEF" pos="76.2 14 79.47" roty="45">
       <mobspawnpoint behavior="GUARD" />
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="68 18 -71">
+    <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="70.34 18 -72.97">
       <mobspawnpoint behavior="GUARD" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-45 20 15" roty="180">
@@ -290,12 +287,6 @@
         </path>
       </mobspawnpoint>
     </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="70 18 -69" roty="270">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
-    <tile name="SpawnPoint_T3_HERETIC_TANK" pos="-60 22 -51" roty="90">
-      <mobspawnpoint behavior="GUARD" />
-    </tile>
     <tile name="SpawnPoint_T3_HERETIC_WORKER" pos="-55 22 -50" roty="90">
       <mobspawnpoint behavior="GUARD" />
     </tile>
@@ -378,6 +369,18 @@
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="-105 12 -2" roty="180">
       <mobspawnpoint behavior="GUARD" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-81 22 10" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="10.02 22 102.16" roty="161">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="72.24 18 -71.82" roty="270">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_HERETIC_ANY_BOSS" pos="-60 22 -51" roty="90">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ANY_BOSS" />
     </tile>
     <tile name="SpawnPoint_T3_HERETIC_ARCHER" pos="57 12 106" roty="180">
       <mobspawnpoint behavior="GUARD" />

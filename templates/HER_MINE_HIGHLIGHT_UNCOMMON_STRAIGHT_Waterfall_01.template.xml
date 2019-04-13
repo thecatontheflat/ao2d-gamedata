@@ -1,7 +1,7 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/HERETIC/HER_MINE_HIGHLIGHT_UNCOMMON_STRAIGHT_Waterfall_01.unity" unityguid="a3b09943929dcd24688dbceaea21b335" editorBoundsMin="-80 -40" editorBoundsMax="80 40" colBoundsMin="-80 -45" colBoundsMax="80 41">
   <criticalscenemembers>
     <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
-      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_UNCOMMON" pos="-23.5 0 -3.5" roty="249">
+      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_UNCOMMON" pos="-23.5 0 -2.5" roty="249">
         <lootchest lootchesttype="HERETIC_CHEST_UNCOMMON" />
       </tile>
     </criticalscenemember>
@@ -341,7 +341,7 @@
     <tile name="FOREST_GREEN_MOR_FX_WATERDROP_01" pos="-27 0 1" />
     <tile name="FOREST_GREEN_MOR_FX_WATERDROP_01" pos="-26 0 4" />
     <tile name="FOREST_GREEN_MOR_FX_WATERDROP_01" pos="-8 0 -4" />
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_UNCOMMON" pos="-23.5 0 -3.5" roty="249" id="lootchest_01" type="lootchest">
+    <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_UNCOMMON" pos="-23.5 0 -2.5" roty="249" id="lootchest_01" type="lootchest">
       <lootchest lootchesttype="HERETIC_CHEST_UNCOMMON" />
     </criticaltile>
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C_DIAGONAL" pos="-25 0 -1" />
