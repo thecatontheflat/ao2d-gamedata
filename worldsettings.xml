@@ -43,7 +43,7 @@
       cropyieldfactor="2"
       clusterdangerbonustype="yellow"
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
-      requiredreputationtoenter="-3000"
+      requiredreputationtoenter="-20000"
       showdiebuttondelay="20"
       />
 
@@ -126,7 +126,7 @@
       spellcooldownsonenteringseconds="15"
 			craftefficiencybonus="0.20"
 			buildingcraftcapacityregenfactor="1"
-      itempowersoftcap="800"
+      itempowersoftcap="700"
       itempowerscalingfactor="0.2"
       animalgrowthfactor="0.5"
       cropyieldfactor="2"
@@ -488,13 +488,13 @@
       <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_02" tier="7" faction="ANY" weight="100" clustertype="OPENPVP_YELLOW" />
       <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_02" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_YELLOW" />
       
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="4" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_T5RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="6" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="7" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="4" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_T5RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="6" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="7" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_RED" />
 
       <!--Low Outlands -->
       <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_1" />
@@ -505,12 +505,12 @@
       <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_1" />
 
       <!--Mid Outlands -->
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="4" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="6" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="7" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
-      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="4" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="5" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="6" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="7" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
+      <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_01" tier="8" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_2" />
 
       <!--High Outlands -->
       <hellgatemob name="T5_MOB_DEMON_GATEKEEPER_SOLO" tier="3" faction="ANY" weight="100" clustertype="OPENPVP_BLACK_3" />
@@ -1308,7 +1308,7 @@
   </islands>
 
   <hellclusters>
-    <!--Full Loot Hell Gates-->
+    <!-- Black 5v5 Hell Gate-->
     <hellcluster
 			type="T5_HELLGATE_GROUP_01"
 			hellclusterlevel="HELLGATE-0003_HEL_DL_T5_NON_GROUP_01"
@@ -1329,14 +1329,14 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="240"
 
-			hellgatemobdespawntime="29"
+			hellgatemobdespawntime="99999"
 
 			hellgatemobwavetimer="15"
-			hellgatemobspawnmaxamount="83"
+			hellgatemobspawnmaxamount="80"
 			hellgatemindistance="1"
 
-			hellgatemobchargepool="50"
-			hellgatemobchargesadded="50"
+			hellgatemobchargepool="80"
+			hellgatemobchargesadded="80"
 			hellgatemobchargetime="15"
 
 			hellclusterjointimelimit="45"
@@ -1350,6 +1350,8 @@
 			enableenterwarningmessage="false"
 			showhellgatetimerwhenxminareleft="15"
 	  />
+
+    <!-- Black 2v2 Hell Gate-->      
     <hellcluster
 			type="T4_HELLGATE_SINGLE_02"
 			hellclusterlevel="HELLGATE-0004_HEL_DL_T5_NON_GROUP_01"
@@ -1370,14 +1372,14 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="0"
 
-			hellgatemobdespawntime="29"
+			hellgatemobdespawntime="99999"
 
 			hellgatemobwavetimer="8"
-			hellgatemobspawnmaxamount="83"
+			hellgatemobspawnmaxamount="80"
 			hellgatemindistance="1"
 
-			hellgatemobchargepool="50"
-			hellgatemobchargesadded="50"
+			hellgatemobchargepool="80"
+			hellgatemobchargesadded="80"
 			hellgatemobchargetime="8"
 
 			hellclusterjointimelimit="45"
@@ -1392,9 +1394,8 @@
 			showhellgatetimerwhenxminareleft="15"
 	  />
 
-    <!-- Knockdown Hell Gates-->
-    <!-- enterwarningmessagestring = @HELLCLUSTER_ENTER_WARNING   -->
-    
+    <!-- Yellow 5v5 Hell Gate-->
+    <!-- enterwarningmessagestring = @HELLCLUSTER_ENTER_WARNING   -->    
     <hellcluster
 			type="T5_HELLGATE_GROUP_02"
 			hellclusterlevel="HELLGATE-0002_HEL_DL_T5_NON_GROUP_01"
@@ -1415,14 +1416,14 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="240"
 
-			hellgatemobdespawntime="29"
+			hellgatemobdespawntime="99999"
 
 			hellgatemobwavetimer="10"
-			hellgatemobspawnmaxamount="100"
+			hellgatemobspawnmaxamount="20"
 			hellgatemindistance="1"
 
-			hellgatemobchargepool="100"
-			hellgatemobchargesadded="17"
+			hellgatemobchargepool="20"
+			hellgatemobchargesadded="20"
 			hellgatemobchargetime="10"
 
 			hellclusterjointimelimit="45"
@@ -1436,6 +1437,8 @@
 			enableenterwarningmessage="true"
 			showhellgatetimerwhenxminareleft="15"
 	  />
+    
+    <!-- Safe 2v2 Hell Gate-->      
     <hellcluster
 			type="T4_HELLGATE_SINGLE_01"
 			hellclusterlevel="HELLGATE-0001_HEL_DL_T4_NON_GROUP_01"
@@ -1456,7 +1459,7 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="0"
 
-			hellgatemobdespawntime="29"
+			hellgatemobdespawntime="99999"
 
 			hellgatemobwavetimer="3"
 			hellgatemobspawnmaxamount="100"
