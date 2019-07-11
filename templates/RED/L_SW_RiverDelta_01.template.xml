@@ -1,18 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/SWAMP/Slave/L_SW_RiverDelta_01.unity" unityguid="8e7011128395e4041a7bba15bfadf6b2" editorBoundsMin="-150 -150" editorBoundsMax="150 150" colBoundsMin="-210 -153" colBoundsMax="156 210">
-  <criticalscenemembers>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_01" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-28 -4 -36" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_02" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="70 -4 32" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_03" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-21 -4 -127" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_04" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="127 0 -88" />
-    </criticalscenemember>
-  </criticalscenemembers>
+  <criticalscenemembers />
   <tiles>
     <layergroup name="">
       <layer id="Layer_01" name="KPR" activationRule="X_X_X_Keeper_X_X">
@@ -5184,10 +5171,10 @@
         <tile name="FIBER_MEDIUM_NODE" pos="-74.5 -4 12.5">
           <resourcenode nodetype="medium" resourcetype="fiber" />
         </tile>
-        <tile name="FIBER_MEDIUM_NODE" pos="-79.5 -4 10.5">
+        <tile name="FIBER_MEDIUM_NODE" pos="-82.5 -4 3.5">
           <resourcenode nodetype="medium" resourcetype="fiber" />
         </tile>
-        <tile name="FIBER_MEDIUM_NODE" pos="-80.5 -4 7.5">
+        <tile name="FIBER_MEDIUM_NODE" pos="-84.5 -4 2.5">
           <resourcenode nodetype="medium" resourcetype="fiber" />
         </tile>
         <tile name="FIBER_MEDIUM_NODE" pos="-95.5 -4 1.5">
@@ -6390,7 +6377,7 @@
         <tile name="FIBER_HIGH_NODE" pos="-1.5 -4 -42.5" roty="270">
           <resourcenode nodetype="high" resourcetype="fiber" />
         </tile>
-        <tile name="FIBER_HIGH_NODE" pos="-0.5 -4 -38.5" roty="180">
+        <tile name="FIBER_HIGH_NODE" pos="10.5 -4 -55.5" roty="180">
           <resourcenode nodetype="high" resourcetype="fiber" />
         </tile>
         <tile name="FIBER_HIGH_NODE" pos="3.5 -4 -38.5">
@@ -6588,7 +6575,7 @@
         <tile name="WOOD_LOW_NODE" pos="-70 -4 -138" roty="90">
           <resourcenode nodetype="low" resourcetype="wood" />
         </tile>
-        <tile name="WOOD_HIGH_NODE" pos="4 -4 -53" roty="180">
+        <tile name="WOOD_HIGH_NODE" pos="0 -4 -40" roty="180">
           <resourcenode nodetype="high" resourcetype="wood" />
         </tile>
         <tile name="WOOD_HIGH_NODE" pos="35 0 -118" roty="90">
@@ -6612,7 +6599,7 @@
         <tile name="WOOD_HIGH_NODE" pos="1 -4 117" roty="90">
           <resourcenode nodetype="high" resourcetype="wood" />
         </tile>
-        <tile name="WOOD_HIGH_NODE" pos="-73 -4 62" roty="180">
+        <tile name="WOOD_HIGH_NODE" pos="-62 -4 60" roty="180">
           <resourcenode nodetype="high" resourcetype="wood" />
         </tile>
         <tile name="WOOD_HIGH_NODE" pos="-5 -4 6" roty="90">
@@ -6660,7 +6647,7 @@
         <tile name="WOOD_HIGH_NODE" pos="61 -4 13" roty="180">
           <resourcenode nodetype="high" resourcetype="wood" />
         </tile>
-        <tile name="WOOD_HIGH_NODE" pos="-82 -4 3" roty="270">
+        <tile name="WOOD_HIGH_NODE" pos="-79 -4 10" roty="270">
           <resourcenode nodetype="high" resourcetype="wood" />
         </tile>
         <tile name="WOOD_HIGH_NODE" pos="130 0 42" roty="270">
@@ -6726,7 +6713,7 @@
         <tile name="HIDE_MEDIUM_NODE" pos="-90 -4 62" roty="270">
           <resourcenode nodetype="medium" resourcetype="hide" />
         </tile>
-        <tile name="HIDE_MEDIUM_NODE" pos="-62 -4 60" roty="270">
+        <tile name="HIDE_MEDIUM_NODE" pos="-74 -4 59" roty="270">
           <resourcenode nodetype="medium" resourcetype="hide" />
         </tile>
         <tile name="HIDE_MEDIUM_NODE" pos="55 -4 58">
@@ -7469,12 +7456,12 @@
         <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-75 -4 55" roty="90" />
         <tile name="SWAMP_RED_RIVER_CORNER" pos="-75 -4 75" roty="90" />
         <tile name="SWAMP_RED_RIVER_CORNER" pos="-85 -4 45" roty="270" />
-        <tile name="SWAMP_RED_RIVER_CORNER" pos="-105 -4 55" />
-        <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-115 -4 -5" roty="90" />
-        <tile name="SWAMP_RED_RIVER_CORNER" pos="-105 -4 65" roty="90" />
         <tile name="SWAMP_RED_RIVER_CORNER" pos="-95 -4 45" />
-        <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-85 -4 -5" roty="90" />
+        <tile name="SWAMP_RED_RIVER_CORNER" pos="-105 -4 55" />
+        <tile name="SWAMP_RED_RIVER_CORNER" pos="-105 -4 65" roty="90" />
         <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-85 -4 5" roty="180" />
+        <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-85 -4 -5" roty="90" />
+        <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-115 -4 -5" roty="90" />
         <tile name="SWAMP_RED_RIVER_INNERCORNER" pos="-105 -4 -5" roty="0" />
         <tile name="SWAMP_RED_RIVER_CORNER" pos="-115 -4 -15" />
         <tile name="SWAMP_RED_RIVER_CORNER" pos="-105 -4 -15" roty="270" />
@@ -10838,9 +10825,9 @@
     <tile name="ROAMING_MEDIUM_NODE" pos="45 0 -105">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-28 -4 -36" id="randomdungeonrandomexitpositionmarker_01" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="70 -4 32" id="randomdungeonrandomexitpositionmarker_02" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-21 -4 -127" id="randomdungeonrandomexitpositionmarker_03" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="127 0 -88" id="randomdungeonrandomexitpositionmarker_04" type="randomdungeonrandomexitpositionmarker" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-28 -4 -36" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="70 -4 32" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-21 -4 -127" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="127 0 -88" />
   </tiles>
 </template>

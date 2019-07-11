@@ -270,7 +270,7 @@
     <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-60.5 0 25.5" roty="90" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-18.5 -8 53.5" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-13.5 -7 33.5" roty="180" />
-    <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-15.5 -7 17.5" />
+    <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-14.5 -8 14.5" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_B" pos="-26.5 0 63.5" roty="270" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_C" pos="-10.5 0 -73.5" roty="180" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_C" pos="53.5 0 -67.5" />
@@ -347,21 +347,21 @@
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-65.5 0 33.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-70.5 0 22.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-69.5 0 13.5" />
-    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-70.5 1 5.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-69.5 0 -60.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="11.5 -8 -56.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="26.5 -8 -49.5" />
-    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="45.5 -8 -36.5" />
+    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-20.5 -8 31.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="18.5 -8 -4.5" />
-    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-20.5 -7 31.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-25.5 -8 47.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-28.5 -8 -57.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="23.5 -8 -27.5" />
+    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-70.5 0 5.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-3.5 -8 -6.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="63.5 0 71.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="22.5 0 71.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-60.5 0 -72.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-33.5 0 -74.5" />
+    <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="45.5 -8 -36.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="13.5 0 -74.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="0.5 -8 -65.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_SMALL_C" pos="-42.5 -8 41.5" />

@@ -1,6 +1,11 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/HERETIC/HER_MINE_BOSS_LEGENDARY_END_Insanity_01.unity" unityguid="1964cfcc0293329419a1c14e8e586440" editorBoundsMin="-120 -120" editorBoundsMax="120 120" colBoundsMin="-121 -123" colBoundsMax="121 121">
   <criticalscenemembers>
-    <criticalscenemember id="lootchest_01" type="lootchest" layerId="">
+    <criticalscenemember id="lootchest_03" type="lootchest" layerId="Layer_05">
+      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_SOLO_BOSS_LEGENDARY" pos="-25.5 -16 -24.5" roty="270">
+        <lootchest lootchesttype="HERETIC_SOLO_CHEST_BOSS_LEGENDARY" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="lootchest_01" type="lootchest" layerId="Layer_06">
       <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_BOSS_LEGENDARY" pos="-25.5 -16 -24.5" roty="270">
         <lootchest lootchesttype="HERETIC_CHEST_BOSS_LEGENDARY" />
       </tile>
@@ -61,10 +66,63 @@
           <mobspawnpoint spawnbehavior="HERETIC_VETERAN_SCAVENGER" />
         </tile>
       </layer>
+      <layer id="Layer_07" name="mob_solo_hard_01">
+        <tile name="SpellZone_SANITY" pos="25 -12 -24" roty="270">
+          <spellzone spell="SPELLZONE_HERETIC_SANITY" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_ENDBOSS_RARE" pos="-15.94 -16 -26.34" roty="82">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ENDBOSS_RARE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_HEALER" pos="42.42 -9.39 -28.98" roty="324">
+          <mobspawnpoint spawnbehavior="HERETIC_HEALER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_MAGE" pos="73.65 0 -61.03" roty="324">
+          <mobspawnpoint spawnbehavior="HERETIC_MAGE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="73.08 0 -82.36" roty="179">
+          <mobspawnpoint spawnbehavior="HERETIC_DUALCROSSBOW" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="6.41 -16 -15.05" roty="306.58">
+          <mobspawnpoint spawnbehavior="HERETIC_SCAVENGER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_STANDARD" pos="69.02 0 -58.39" roty="144">
+          <mobspawnpoint spawnbehavior="HERETIC_STANDARD" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="0.89 -16 -35.79" roty="127">
+          <mobspawnpoint spawnbehavior="HERETIC_SCAVENGER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="77.46 0 -82.54" roty="169">
+          <mobspawnpoint spawnbehavior="HERETIC_DUALCROSSBOW" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="6.09 -16 -33.49" roty="208">
+          <mobspawnpoint spawnbehavior="HERETIC_SCAVENGER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="68.84 0 -98.56" roty="308">
+          <mobspawnpoint spawnbehavior="HERETIC_SCAVENGER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="2.64 -16 -14.19" roty="28">
+          <mobspawnpoint spawnbehavior="HERETIC_SCAVENGER" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_TANK" pos="75.14 0 -85.36" roty="189">
+          <mobspawnpoint spawnbehavior="HERETIC_TANK" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_STANDARD" pos="37.06 -12 -25.84" roty="144">
+          <mobspawnpoint spawnbehavior="HERETIC_STANDARD" />
+        </tile>
+      </layer>
     </layergroup>
-    <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_BOSS_LEGENDARY" pos="-25.5 -16 -24.5" roty="270" id="lootchest_01" type="lootchest">
-      <lootchest lootchesttype="HERETIC_CHEST_BOSS_LEGENDARY" />
-    </criticaltile>
+    <layergroup name="Reward">
+      <layer id="Layer_05" name="reward_solo">
+        <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_SOLO_BOSS_LEGENDARY" pos="-25.5 -16 -24.5" roty="270" id="lootchest_03" type="lootchest">
+          <lootchest lootchesttype="HERETIC_SOLO_CHEST_BOSS_LEGENDARY" />
+        </criticaltile>
+      </layer>
+      <layer id="Layer_06" name="reward_veteran">
+        <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_BOSS_LEGENDARY" pos="-25.5 -16 -24.5" roty="270" id="lootchest_01" type="lootchest">
+          <lootchest lootchesttype="HERETIC_CHEST_BOSS_LEGENDARY" />
+        </criticaltile>
+      </layer>
+    </layergroup>
     <tile name="FOREST_GREEN_DNG_GROUND" pos="75 0 -95" roty="90" />
     <tile name="FOREST_GREEN_DNG_GROUND" pos="85 0 -105" roty="90" />
     <tile name="FOREST_GREEN_DNG_GROUND" pos="75 0 -85" roty="90" />
@@ -1242,6 +1300,7 @@
     <tile name="AtmosphereBubble_DNG_HER_DL_NONE_mine_shadowmask" pos="-14.7 -8 -25.5">
       <atmospherebubble layer="1" radius="54" blend="0.7037037" />
     </tile>
+    <tile name="FOREST_GREEN_HER_THREAT_INDICATOR_GROUND" pos="75 0 -76" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B" pos="83 0 -105" roty="270" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C" pos="83 0 -111" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="86 0 -105" roty="270" />

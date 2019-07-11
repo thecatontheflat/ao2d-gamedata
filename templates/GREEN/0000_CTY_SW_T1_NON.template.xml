@@ -470,14 +470,14 @@
         <actionbuilding />
       </tile>
     </criticalscenemember>
-    <criticalscenemember id="actionbuilding_06" type="actionbuilding" layerId="">
-      <tile name="SWAMP_GREEN_FACTION_TRADER" pos="34 12 2" roty="90">
-        <actionbuilding />
-      </tile>
-    </criticalscenemember>
     <criticalscenemember id="portalentrance_01" type="portalentrance" layerId="">
       <tile name="SWAMP_GREEN_PORTAL_ENTRANCE_THETFORD" pos="-65 12 40">
         <portalentrance spawnpos="13.73127 0" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_06" type="actionbuilding" layerId="">
+      <tile name="SWAMP_GREEN_FACTION_TRADER" pos="34 12 2" roty="90">
+        <actionbuilding />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="">
@@ -3922,7 +3922,7 @@
     <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="20 12 0" roty="270" />
     <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-50 12 40" />
     <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_C_WATER" pos="-60 12 40" roty="90" />
-    <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-50 12 50" />
+    <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_B" pos="-50 12 50" roty="90" />
     <criticaltile name="RealEstate" pos="65 0 55" id="realestate_01" type="realestate">
       <realestate size="20 20" platepos="65 0 44.5" doorpos="69 2.5 45" doorsize="2 7 1" overridesaleprice="-1" plateorientation="SouthWest" locationquality="A" />
     </criticaltile>
@@ -5280,7 +5280,6 @@
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-92 0 -49" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-53 0 -49" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_6M_STRAIGHT_RAILING_A" pos="-101.5 -3 -49" roty="90" />
-    <tile name="SWAMP_GREEN_WALKWAY_WOODEN_6M_STRAIGHT_RAILING_A" pos="-43.5 -3 -44" roty="90" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_20M_STRAIGHT_RAILING_A" pos="-53 -2 -46.5" roty="180" />
     <tile name="SWAMP_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="13.5 12 -20.5" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_20M_STRAIGHT_RAILING_A" pos="-72 -2 -46.5" roty="180" />
@@ -5517,6 +5516,11 @@
     <tile name="SWAMP_GREEN_CITY_WATCHTOWER_A" pos="6 6 -103" scale="0.6487988 0.6487986 0.6487986" />
     <tile name="SWAMP_GREEN_CITY_WATCHTOWER_A" pos="-27 6 -117" scale="0.6487988 0.6487986 0.6487986" />
     <tile name="SWAMP_GREEN_CITY_WATCHTOWER_A" pos="107 6 -28" scale="0.6487988 0.6487986 0.6487986" />
+    <tile name="SWAMP_GREEN_ARENA_GROUND_STONES_MEDIUM_A" pos="-50 12 52" roty="90" scale="1 1.4742 1" />
+    <tile name="SWAMP_GREEN_ARENA_GROUND_STONES_MEDIUM_A" pos="-62 12 45" roty="180" scale="1 1.4742 1" />
+    <tile name="SWAMP_GREEN_ARENA_GROUND_STONES_MEDIUM_A" pos="-62 12 35" roty="180" scale="1 1.4742 1" />
+    <tile name="SWAMP_GREEN_ARENA_GROUND_STONES_SMALL_A" pos="-40 12 53" roty="90" />
+    <tile name="SWAMP_GREEN_ARENA_GROUND_STONES_SMALL_A" pos="-50 12 49" roty="270" scale="1 1.4742 1" />
     <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_A" pos="39.5 12 0.5" />
     <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_A" pos="-15.5 12 22.5" />
     <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_A" pos="-39.5 12 5.5" />
@@ -5961,16 +5965,6 @@
       <minimapmarker type="Arena" />
     </tile>
     <tile name="ARENA_ENTRANCE_COUGAR" pos="-40.5 12 58.5" roty="243.35" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-40.5 19 55.5" />
-    <tile name="ARENA_ENTRANCE_BIG_LIGHT" pos="-40.5 16 54.5" />
-    <tile name="FACTION_TRADER_SWAMP_MOUNT" pos="35.31 12.31 0.47" roty="100.03" />
-    <criticaltile name="SWAMP_GREEN_FACTION_TRADER" pos="34 12 2" roty="90" id="actionbuilding_06" type="actionbuilding">
-      <actionbuilding />
-    </criticaltile>
-    <tile name="MiniMapMarker" pos="34 12 2" roty="90">
-      <minimapmarker type="Outpost_Swamp" />
-    </tile>
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-39.5 16 65.5" />
     <criticaltile name="SWAMP_GREEN_PORTAL_ENTRANCE_THETFORD" pos="-65 12 40" id="portalentrance_01" type="portalentrance">
       <portalentrance spawnpos="13.73127 0" />
     </criticaltile>
@@ -5978,6 +5972,19 @@
       <minimapmarker type="Portal_Entrance_Thetford" />
     </tile>
     <tile name="SWAMP_GREEN_CITY_PORTAL_CITY_A_THETFORD" pos="-65 12 40" scale="0.7 0.7 0.7" />
+    <tile name="FACTION_TRADER_SWAMP_MOUNT" pos="35.31 12.31 0.47" roty="100.03" />
+    <criticaltile name="SWAMP_GREEN_FACTION_TRADER" pos="34 12 2" roty="90" id="actionbuilding_06" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <tile name="MiniMapMarker" pos="34 12 2" roty="90">
+      <minimapmarker type="Outpost_Swamp" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-40.5 16.77 54.5">
+      <pointlight range="10" intensity="5" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-39.5 16 65.5">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
     <criticaltile name="Exit" pos="59.5 12 -10.5" roty="180" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="16.03781 1.40207E-06" faction="None" kind="Cluster" roadtype="Primary">
         <guards>

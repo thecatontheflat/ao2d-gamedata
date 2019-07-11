@@ -65,14 +65,14 @@
         <actionbuilding />
       </tile>
     </criticalscenemember>
-    <criticalscenemember id="actionbuilding_06" type="actionbuilding" layerId="">
-      <tile name="HIGHLAND_GREEN_FACTION_TRADER" pos="-12 -4 44" roty="90">
-        <actionbuilding />
-      </tile>
-    </criticalscenemember>
     <criticalscenemember id="portalentrance_01" type="portalentrance" layerId="">
       <tile name="HIGHLAND_GREEN_PORTAL_ENTRANCE_MARTLOCK" pos="-85 16 20">
         <portalentrance spawnpos="13.73127 0" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="actionbuilding_06" type="actionbuilding" layerId="">
+      <tile name="HIGHLAND_GREEN_FACTION_TRADER" pos="-12 -4 44" roty="90">
+        <actionbuilding />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="">
@@ -192,7 +192,7 @@
     </criticalscenemember>
     <criticalscenemember id="realestate_16" type="realestate" layerId="">
       <tile name="RealEstate" pos="55 4 -35">
-        <realestate size="20 20" platepos="65.5 4 -35" doorpos="65 6.5 -40" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="B" />
+        <realestate size="20 20" platepos="65.5 4 -35" doorpos="65 6.57 -40" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="B" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="realestate_17" type="realestate" layerId="">
@@ -342,7 +342,7 @@
     </criticalscenemember>
     <criticalscenemember id="realestate_46" type="realestate" layerId="">
       <tile name="RealEstate" pos="85 -12 -175">
-        <realestate size="20 20" platepos="74.5 -12 -175" doorpos="75 -9.5 -179" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
+        <realestate size="20 20" platepos="74.5 -12 -175" doorpos="75 -9.43 -179" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="realestate_47" type="realestate" layerId="">
@@ -402,7 +402,7 @@
     </criticalscenemember>
     <criticalscenemember id="realestate_58" type="realestate" layerId="">
       <tile name="RealEstate" pos="-175 0 -135">
-        <realestate size="20 20" platepos="-164.5 0 -135" doorpos="-165 2.5 -131" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="E" />
+        <realestate size="20 20" platepos="-164.5 0 -135" doorpos="-165 2.57 -131" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="E" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="realestate_59" type="realestate" layerId="">
@@ -2611,6 +2611,9 @@
         </spawnpositions>
       </warcamp>
     </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-79.85 19.65 38.09">
+      <pointlight range="10" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
     <criticaltile name="HIGHLAND_GREEN_ISLAND_SELLER" pos="-29 0 -31" roty="90" id="islandaccesspoint_01" type="islandaccesspoint">
       <islandaccesspoint />
     </criticaltile>
@@ -2656,16 +2659,6 @@
     </tile>
     <tile name="ARENA_ENTRANCE_COUGAR" pos="-82.5 16 41.5" roty="210" />
     <tile name="ARENA_ENTRANCE_VANITY_BANNERS_A" pos="-85 16 41" roty="256" />
-    <tile name="ARENA_ENTRANCE_BIG_LIGHT" pos="-79.5 20 37.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-88.5 19 42.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-83.5 19 48.5" />
-    <tile name="FACTION_TRADER_HIGHLAND_MOUNT" pos="-10.43 -4 34.29" roty="64" />
-    <criticaltile name="HIGHLAND_GREEN_FACTION_TRADER" pos="-12 -4 44" roty="90" id="actionbuilding_06" type="actionbuilding">
-      <actionbuilding />
-    </criticaltile>
-    <tile name="MiniMapMarker" pos="-14 -4 43" roty="90">
-      <minimapmarker type="Outpost_Highland" />
-    </tile>
     <criticaltile name="HIGHLAND_GREEN_PORTAL_ENTRANCE_MARTLOCK" pos="-85 16 20" id="portalentrance_01" type="portalentrance">
       <portalentrance spawnpos="13.73127 0" />
     </criticaltile>
@@ -2673,6 +2666,19 @@
       <minimapmarker type="Portal_Entrance_Martlock" />
     </tile>
     <tile name="HIGHLAND_GREEN_CITY_PORTAL_CITY_A_MARTLOCK" pos="-85.5 16 20" scale="0.7 0.7 0.7" />
+    <tile name="FACTION_TRADER_HIGHLAND_MOUNT" pos="-10.43 -4 34.29" roty="64" />
+    <criticaltile name="HIGHLAND_GREEN_FACTION_TRADER" pos="-12 -4 44" roty="90" id="actionbuilding_06" type="actionbuilding">
+      <actionbuilding />
+    </criticaltile>
+    <tile name="MiniMapMarker" pos="-14 -4 43" roty="90">
+      <minimapmarker type="Outpost_Highland" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-88.04 19.09 44.06">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-84.08 19.09 48.34">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="Atmosphere_WRL_NONE_HL_GREEN" pos="-60 0 0" />
     <tile name="INVISIBLE_COLLISON_A" pos="-1 -4 64.5" />
     <tile name="INVISIBLE_COLLISON_A" pos="10 -4 59.5" />
@@ -2705,7 +2711,6 @@
     <tile name="HIGHLAND_GREEN_CITY_SHED_A" pos="39 4 9" roty="180" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_CORNER_LARGE_A" pos="-75 -12 35" roty="180" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_CORNER_LARGE_B" pos="-45 -16 25" roty="270" />
-    <tile name="HIGHLAND_GREEN_CITY_WALL_CORNER_LARGE_B" pos="-75 -12 5" roty="90" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_GATE_A" pos="-60 0 -21" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_GATE_A" pos="-87 14 47" roty="45" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_RAILING_CORNER_LARGE_A" pos="-75 16 5" roty="90" />
@@ -2750,7 +2755,6 @@
     <tile name="HIGHLAND_GREEN_GROUND" pos="-50 12 20" roty="90" />
     <tile name="HIGHLAND_GREEN_GROUND" pos="-50 12 10" roty="90" />
     <tile name="HIGHLAND_GREEN_GROUND" pos="-70 16 20" roty="270" />
-    <tile name="HIGHLAND_GREEN_GROUND" pos="-70 16 10" roty="270" />
     <tile name="HIGHLAND_GREEN_GROUND" pos="-50 0 -10" roty="90" />
     <tile name="HIGHLAND_GREEN_GROUND" pos="40 4 10" roty="90" />
     <tile name="HIGHLAND_GREEN_GROUND" pos="40 4 20" roty="90" />
@@ -2771,7 +2775,6 @@
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A" pos="-105 -16 -20" roty="180" />
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A" pos="-45 -16 90" roty="180" />
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A" pos="-65 -8 -10" roty="180" />
-    <tile name="HIGHLAND_GREEN_HILL_8M_BASE_20X20_INNERCORNER_ROCK_A" pos="-85 -16 5" roty="270" />
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_20X20_INNERCORNER_ROCK_A" pos="-125 -24 15" roty="270" />
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_20X20_INNERCORNER_ROCK_A" pos="-65 -24 125" roty="270" />
     <tile name="HIGHLAND_GREEN_HILL_8M_BASE_20X20_INNERCORNER_ROCK_A" pos="-5 -16 115" roty="270" />
@@ -7325,7 +7328,6 @@
     <tile name="HIGHLAND_GREEN_GROUND" pos="-50 -28 30" roty="90" />
     <tile name="HIGHLAND_GREEN_CITYWALL_WOOD_INNERCORNER_A_NOCOL" pos="-84 -9 4" />
     <tile name="HIGHLAND_GREEN_CITY_WALL_CORNER_LARGE_A_TO_BRIDGE" pos="-45 -16 5" />
-    <tile name="HIGHLAND_GREEN_GROUND" pos="-70 -8 0" roty="90" />
     <tile name="HIGHLAND_GREEN_FILL_ROCK_HIGH_C" pos="20 -5 -37" roty="180" />
     <tile name="HIGHLAND_GREEN_KPR_FIREBOWL_GROUP_ROCK_B_NO_EMISSIVE" pos="-236 -16 -66" />
     <tile name="HIGHLAND_GREEN_KPR_FLAG_A" pos="-236.5 -16 -70.5" rot="0.23 309.78 6.35" />
@@ -7362,7 +7364,6 @@
     <tile name="HIGHLAND_GREEN_T1_BUSH_A" pos="-35.5 0 -15.5" roty="122" />
     <tile name="HIGHLAND_GREEN_FILL_CITY_SIGN_PVP_AREA_A_ANIM" pos="-66.5 16 42.5" roty="90" />
     <tile name="HIGHLAND_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-90.5 18 43.5" roty="225" />
-    <tile name="HIGHLAND_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-84.5 18 49.5" roty="225" />
     <tile name="HIGHLAND_GREEN_HER_FILL_WEAPONHOLDER_C" pos="-70 16 41.5" roty="90" />
     <tile name="HIGHLAND_GREEN_HER_FILL_WEAPONHOLDER_D" pos="-66.5 16 39" roty="180" />
     <tile name="HIGHLAND_GREEN_FILL_CITY_BUNTING_20M_A" pos="-82 21 34.5" rot="353.83 228.92 10.13" />
@@ -7881,6 +7882,14 @@
     <tile name="HIGHLAND_GREEN_GROUND" pos="-30 -17 50" roty="90" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_A" pos="-50.5 12 33.5" roty="180" />
     <tile name="HIGHLAND_GREEN_T1_BUSH_A" pos="-55.5 14 30.5" roty="270" />
+    <tile name="HIGHLAND_GREEN_FILL_ROCK_SHEET_MEDIUM_A" pos="-75 16 5" roty="266" />
+    <tile name="HIGHLAND_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-83.5 18 49.5" roty="315" />
+    <tile name="HIGHLAND_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-89.5 18 43.5" roty="135" />
+    <tile name="HIGHLAND_GREEN_CASTLE_CORNER_ROUNDED_20x20_B" pos="-75 -12 5" roty="90" />
+    <tile name="HIGHLAND_GREEN_CASTLE_GROUND_CORNER_ROUNDED_LARGE_A_BASE" pos="-75 16 5" roty="180" />
+    <tile name="HIGHLAND_GREEN_GROUND_OBJECT" pos="-70 16 10" roty="270" />
+    <tile name="HIGHLAND_GREEN_HILL_8M_BASE_20X20_INNERCORNER_ROCK_A_OBJECT" pos="-85 -16 5" roty="270" />
+    <tile name="HIGHLAND_GREEN_GROUND_OBJECT" pos="-70 -8 0" roty="90" />
     <criticaltile name="Exit" pos="-0.5 -4 65.5" roty="90" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="15.60622 1.823963" faction="None" kind="Cluster" roadtype="Primary">
         <guards>
@@ -7959,7 +7968,7 @@
       <realestate size="20 20" platepos="65.5 4 35" doorpos="65 6.5 39" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="B" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="55 4 -35" id="realestate_16" type="realestate">
-      <realestate size="20 20" platepos="65.5 4 -35" doorpos="65 6.5 -40" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="B" />
+      <realestate size="20 20" platepos="65.5 4 -35" doorpos="65 6.57 -40" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="B" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="95 4 25" id="realestate_17" type="realestate">
       <realestate size="40 40" platepos="74.5 4 25" doorpos="75 6.5 20" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="B" />
@@ -8049,7 +8058,7 @@
       <realestate size="20 20" platepos="144.5 -4 15" doorpos="145 -1.5 20" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="85 -12 -175" id="realestate_46" type="realestate">
-      <realestate size="20 20" platepos="74.5 -12 -175" doorpos="75 -9.5 -179" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
+      <realestate size="20 20" platepos="74.5 -12 -175" doorpos="75 -9.43 -179" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="145 -4 125" id="realestate_47" type="realestate">
       <realestate size="40 40" platepos="124.5 -4 125" doorpos="125 -1.5 120" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="D" />
@@ -8085,7 +8094,7 @@
       <realestate size="20 20" platepos="-164.5 0 -155" doorpos="-165 2.5 -151" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="E" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="-175 0 -135" id="realestate_58" type="realestate">
-      <realestate size="20 20" platepos="-164.5 0 -135" doorpos="-165 2.5 -131" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="E" />
+      <realestate size="20 20" platepos="-164.5 0 -135" doorpos="-165 2.57 -131" doorsize="1 7 2" overridesaleprice="-1" plateorientation="SouthEast" locationquality="E" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="175 -12 -95" id="realestate_59" type="realestate">
       <realestate size="20 20" platepos="175 -12 -105.5" doorpos="170 -9.5 -105" doorsize="2 7 1" overridesaleprice="-1" plateorientation="SouthWest" locationquality="E" />

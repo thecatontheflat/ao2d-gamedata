@@ -10,12 +10,6 @@
         <exit size="7 7" spawnpos="10 0" faction="Keeper" kind="DungeonStubSolo" roadtype="Primary" />
       </tile>
     </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" layerId="">
-      <tile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="33 0 35" roty="90" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" layerId="">
-      <tile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="-34 0 -35" />
-    </criticalscenemember>
   </criticalscenemembers>
   <tiles>
     <layergroup name="Dungeon">
@@ -36,8 +30,8 @@
         </tile>
       </layer>
     </layergroup>
-    <criticaltile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="33 0 35" roty="90" id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" />
-    <criticaltile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="-34 0 -35" id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" />
+    <tile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="33 0 35" roty="90" />
+    <tile name="SWAMP_RED_FIXED_EXIT_10x10_KPR_T5" pos="-34 0 -35" />
     <tile name="SWAMP_RED_GROUND" pos="30 0 40" />
     <tile name="SWAMP_RED_GROUND" pos="10 0 -20" />
     <tile name="SWAMP_RED_GROUND" pos="-40 0 20" />
@@ -925,5 +919,45 @@
     <tile name="FishingZone_FRESHWATER_SPOT_SWARM" pos="58 -4 50.2" />
     <tile name="FishingZone_FRESHWATER_SPOT_SWARM" pos="-49.6 -4 -57" />
     <tile name="FishingZone_FRESHWATER_SPOT_TREASURE" pos="-59.5 -4 35.8" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="20 -40 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="20 -40 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-10 -40 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-10 -40 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 -10" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 -20" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 0" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 40" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 40" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 0" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-20 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -20" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 0" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 30" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 20" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 10" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-20 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -40 40" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 10" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 20" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -20" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -30" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 40" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -30" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="30 -40 30" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="30 -40 40" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -40 40" roty="270" />
   </tiles>
 </template>

@@ -6840,14 +6840,15 @@
     <tile name="MOUNTAIN_GREEN_FILL_STORAGE_BARREL_WEAPONS_A" pos="-81.5 -12 26.5" />
     <tile name="MOUNTAIN_GREEN_HER_FILL_WEAPONHOLDER_B" pos="-81.5 -12 22" roty="10.86" />
     <tile name="MOUNTAIN_GREEN_FILL_CITY_LANTERN_B" pos="-74.5 -12 15.5" roty="180" />
-    <tile name="MOUNTAIN_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-85.5 -9 38.5" roty="225" />
-    <tile name="MOUNTAIN_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-88.5 -9 35.5" roty="225" />
     <tile name="MOUNTAIN_GREEN_ARENA_BANNER_NEUTRAL_A" pos="-78 -11 33" roty="300" />
     <tile name="MOUNTAIN_GREEN_ARENA_BANNER_NEUTRAL_A" pos="-83 -11 28" roty="335" />
     <tile name="MOUNTAIN_GREEN_ARENA_BANNER_NEUTRAL_HANGING_A" pos="-91 -10 35" roty="335" />
     <tile name="MOUNTAIN_GREEN_ARENA_BANNER_NEUTRAL_HANGING_A" pos="-85 -10 41" roty="300" />
     <tile name="MOUNTAIN_GREEN_FILL_CITY_BUNTING_20M_A" pos="-90 -12 36.5" rot="0 147 20" />
     <tile name="ARENA_ENTRANCE_VANITY_BANNERS_A" pos="-85 -11 32" roty="248" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-80.43 -7.64 30.43">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL" pos="1 -1 -84.5" roty="270" />
     <tile name="MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL" pos="1 2 -84.5" roty="270" />
     <tile name="MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A" pos="10 -16 -80" roty="270" />
@@ -6904,9 +6905,6 @@
     <tile name="MOUNTAIN_GREEN_CASTLE_WALL_ARCH_NO_INNERWALL_A" pos="0 -16 -80" roty="90" />
     <tile name="MOUNTAIN_GREEN_ROAD_STREET_SIDE_A" pos="10 0 -30" roty="90" />
     <tile name="MOUNTAIN_GREEN_ROAD_STREET_SIDE_A" pos="-10 0 -30" roty="270" />
-    <tile name="ARENA_ENTRANCE_BIG_LIGHT" pos="-80.5 -8 30.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-87.5 -9 34.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-84.5 -9 37.5" />
     <tile name="MOUNTAIN_GREEN_GROUND_NO_MESH" pos="-20 0 -30" roty="180" />
     <tile name="MOUNTAIN_GREEN_GROUND_NO_MESH" pos="-20 0 -40" roty="180" />
     <tile name="MOUNTAIN_GREEN_CITY_BANNER_LARGE_C_RIGHT" pos="-15 11 -28" roty="180" />
@@ -7041,6 +7039,17 @@
     <tile name="MOUNTAIN_GREEN_CITY_SHED_SMALL_A" pos="-19 -12 72" roty="270" />
     <tile name="MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A" pos="-60 -28 -10" roty="270" />
     <tile name="MOUNTAIN_GREEN_ROAD_STREET_PLACE_A" pos="-40 -12 60" />
+    <tile name="MOUNTAIN_GREEN_GROUND_STONES_B" pos="-44 -12 57" roty="277" />
+    <tile name="MOUNTAIN_GREEN_GROUND_STONES_C" pos="-44 -12 60" roty="93.9" />
+    <tile name="MOUNTAIN_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-88.5 -9 35.5" roty="225" />
+    <tile name="MOUNTAIN_GREEN_GROUND_STONES_B" pos="-47 -12 58" roty="7" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-84.69 -7.64 37.67">
+      <pointlight range="10" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="MOUNTAIN_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-85.5 -9 38.5" roty="225" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-87.6 -7.64 34.62">
+      <pointlight range="10" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
     <criticaltile name="Exit" pos="68.5 0 -0.5" roty="180" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="12.30435 1.075681E-06" faction="None" kind="Cluster" roadtype="Primary">
         <guards>

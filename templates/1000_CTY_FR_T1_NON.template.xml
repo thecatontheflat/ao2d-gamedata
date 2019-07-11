@@ -516,7 +516,7 @@
       </tile>
     </criticalscenemember>
     <criticalscenemember id="actionbuilding_08" type="actionbuilding" layerId="">
-      <tile name="SEASONS_STORE" pos="-65 -4 30" roty="341.27">
+      <tile name="SEASONS_STORE" pos="-65 -4 30" roty="341">
         <actionbuilding />
       </tile>
     </criticalscenemember>
@@ -721,7 +721,6 @@
         <tile name="XMAS_FILL_CITY_GINGERBREAD_A" pos="-60 -3 63.5" />
         <tile name="XMAS_FILL_CITY_GROUNDPATCH_B" pos="-42.2 0 -33.44" />
         <tile name="XMAS_FILL_CITY_LIGHT_A" pos="-49.5 -4 44.5" roty="90" />
-        <tile name="XMAS_FILL_CITY_LIGHT_C" pos="-65.5 3 26.5" scale="1 0.88125 1" />
         <tile name="XMAS_FILL_CITY_LIGHT_B" pos="-64.5 -4 43.5" />
         <tile name="XMAS_FILL_CITY_STAND_A" pos="2 0 -28" roty="180" />
         <tile name="XMAS_FILL_CITY_LIGHT_A" pos="-65.5 -4 23.5" />
@@ -2774,8 +2773,12 @@
       <minimapmarker type="Outpost_Forest" />
     </tile>
     <tile name="FACTION_TRADER_FOREST_MOUNT" pos="-63.5 -4 1.5" roty="212.7" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-57.5 2 44.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-62.5 2 44.5" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-62.5 1.48 44.98">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-59.3 -2.52 59.83">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="Atmosphere_WRL_NONE_FR_GREEN" pos="-41.34 5.19 2.82" />
     <compoundtile name="_FOREST_GREEN_FILL_ANIMAL_CAVE_A_VEG_COMP01" pos="87 -28 90" roty="180" />
     <compoundtile name="_FOREST_GREEN_FILL_ANIMAL_CAVE_B_COMP_01" pos="193 -20 15" roty="180" />
@@ -3876,7 +3879,7 @@
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="91 -24 226.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="255.5 -20 -58" roty="270" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="210 -20 176.5" roty="180" />
-    <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="40 -24 233.5" roty="180" />
+    <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="41 -24 233.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="170 -34 25.5" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="170 -34 34.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_GATE_A" pos="170 -27 125.5" />
@@ -3932,15 +3935,15 @@
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_A" pos="255.5 -24 0" roty="270" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_A" pos="255.5 -24 10" roty="270" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="139 -20 233.5" roty="180" />
-    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="30 -20 233.5" roty="180" />
-    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="24.5 -20 238" roty="270" />
+    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="31 -20 233.5" roty="180" />
+    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="25.5 -20 238" roty="270" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="163.5 -20 205" roty="270" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_B" pos="50 -20 233.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_END_A" pos="255.5 -20 -31.5" roty="90" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_END_A" pos="255.5 -24 -16.5" roty="90" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_END_A" pos="255.5 -24 17.5" roty="90" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="257.77 -24 124.65" />
-    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="21.5 -20 242.5" roty="180" />
+    <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="22.5 -20 242.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="257.5 -24 135.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="192.5 -20 176.5" roty="180" />
     <tile name="FOREST_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_A" pos="163.5 -20 212.5" roty="270" />
@@ -8433,6 +8436,12 @@
     <tile name="FOREST_GREEN_FILL_STORAGE_BARRELS_A" pos="12 0 -33" roty="25" />
     <tile name="FOREST_GREEN_HER_FILL_STORAGE_CRATE_MEDIUM_A" pos="15.5 0 -32.5" roty="16" />
     <tile name="FOREST_GREEN_FILL_CITY_STONECIRCLE_TREE_C_NOCOL" pos="4.5 0 -27.5" />
+    <tile name="FOREST_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="91 -27 227" roty="90" />
+    <tile name="FOREST_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="40 -27 234" roty="90" />
+    <tile name="FOREST_GREEN_GROUND_STONES_B" pos="-68 -4 30" />
+    <tile name="FOREST_GREEN_GROUND_STONES_C" pos="-65 -4 30" roty="273" />
+    <tile name="FOREST_GREEN_GROUND_STONES_B" pos="-62 -4 30" roty="180" />
+    <tile name="FOREST_GREEN_GROUND_STONES_B" pos="-65 -4 32" roty="90" />
     <criticaltile name="Exit" pos="-19.5 -4 73.5" roty="90" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="15.00003 -0.6590023" faction="None" kind="Cluster" roadtype="Primary">
         <guards>
@@ -8970,19 +8979,19 @@
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -50" />
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -50" />
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 -30" />
-    <criticaltile name="SEASONS_STORE" pos="-65 -4 30" roty="341.27" id="actionbuilding_08" type="actionbuilding">
+    <criticaltile name="SEASONS_STORE" pos="-65 -4 30" roty="341" id="actionbuilding_08" type="actionbuilding">
       <actionbuilding />
     </criticaltile>
-    <tile name="MiniMapMarker" pos="-65 -4 30" roty="341.27">
+    <tile name="MiniMapMarker" pos="-65 -4 30" roty="341">
       <minimapmarker type="Icon_Gvg_Seasons" />
     </tile>
     <tile name="fx_buildings_shardtrader_pointlight_01" pos="-62.5 -3 27.5" roty="90" />
     <tile name="FOREST_GREEN_FILL_STORAGE_CRATE_MEDIUM_B" pos="-63.5 -4 26.5" roty="237" />
-    <tile name="FOREST_GREEN_SHARD_TRADER_BANNER_HANGING_A" pos="-65.5 -3 25.5" roty="236" />
+    <tile name="FOREST_GREEN_FILL_STORAGE_CRATE_MEDIUM_A" pos="-63.5 -4 28.5" roty="346" />
     <tile name="fx_buildings_shardtrader_pointlight_01" pos="-69.5 -3 30.5" />
+    <tile name="FOREST_GREEN_SHARD_TRADER_BANNER_HANGING_A" pos="-65.5 -3 25.5" roty="236" />
     <tile name="FOREST_GREEN_SHARD_TRADER_CANISTER_A" pos="-68.5 -4 30.5" roty="108" />
     <tile name="FOREST_GREEN_SHARD_TRADER_CANISTER_B" pos="-63.5 -3 28.5" roty="108" />
-    <tile name="FOREST_GREEN_FILL_STORAGE_CRATE_MEDIUM_A" pos="-63.5 -4 28.5" roty="346" />
     <tile name="FOREST_GREEN_SHARD_TRADER_CANISTER_C" pos="-62.5 -4 27.5" roty="198" />
     <tile name="fx_buildings_shardtrader_pointlight_01" pos="-63.5 -2 28.5" roty="90" />
     <tile name="FOREST_GREEN_FILL_STORAGE_TRANSPORT_CART_B" pos="-71.5 -4 29.5" roty="292" />
