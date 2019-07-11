@@ -408,16 +408,16 @@
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_2M_RAILING_A" pos="-15 4 34" />
     <tile name="HIGHLAND_DEAD_CASTLE_STAIRS_2M_RAILING_A" pos="15 4 34" />
     <tile name="HIGHLAND_DEAD_CASTLE_4M_STAIRS_A_1M_SNAP_OBJ" pos="0 -26 60" roty="180" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STAIRS_4M_A" pos="0 -2 60" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STAIRS_4M_A" pos="-10 2 30" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STAIRS_4M_A" pos="-10 2 45" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STAIRS_4M_A" pos="10 2 30" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STAIRS_4M_A" pos="10 2 45" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_END_A" pos="0 2 55" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_END_A" pos="-10 4 26" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_END_A" pos="10 4 26" roty="90" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_END_A" pos="10 2 50" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_END_A" pos="-10 2 50" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STAIRS_4M_A" pos="0 -2 60" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STAIRS_4M_A" pos="-10 2 30" roty="90" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STAIRS_4M_A" pos="-10 2 45" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STAIRS_4M_A" pos="10 2 30" roty="90" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STAIRS_4M_A" pos="10 2 45" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_END_A" pos="0 2 55" roty="90" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_END_A" pos="-10 4 26" roty="90" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_END_A" pos="10 4 26" roty="90" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_END_A" pos="10 2 50" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_END_A" pos="-10 2 50" roty="270" />
     <tile name="HIGHLAND_DEAD_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="20 -36 34" />
     <tile name="HIGHLAND_DEAD_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="21 -38 54" />
     <tile name="HIGHLAND_DEAD_UND_CRYPT_COLUMN_LARGE_A_NOCOL" pos="-20 -38 34" />
@@ -441,10 +441,10 @@
     <tile name="HIGHLAND_DEAD_CASTLE_2M_STAIRS_FLAT_SLIM_DARK_A" pos="10 4 31" />
     <tile name="HIGHLAND_DEAD_CASTLE_2M_STAIRS_FLAT_SLIM_DARK_A" pos="-10 4 31" />
     <tile name="HIGHLAND_DEAD_CASTLE_2M_STAIRS_FLAT_SLIM_DARK_A" pos="0 4 31" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STRAIGHT_SHORT_A" pos="10 4 26" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STRAIGHT_SHORT_A" pos="-10 4 26" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STRAIGHT_SHORT_A" pos="-10 6 35" roty="270" />
-    <tile name="HIGHLAND_DEAD_CITY_CENTER_CARPET_STRAIGHT_SHORT_A" pos="10 6 35" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STRAIGHT_SHORT_A" pos="10 4 26" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STRAIGHT_SHORT_A" pos="-10 4 26" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STRAIGHT_SHORT_A" pos="-10 6 35" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_CARPET_REDISH_STRAIGHT_SHORT_A" pos="10 6 35" roty="270" />
     <tile name="HIGHLAND_DEAD_HALL_OF_FAME_ENTRANCE_FX" pos="10 6 38" />
     <tile name="HIGHLAND_DEAD_HALL_OF_FAME_ENTRANCE_FX" pos="-10 6 38" />
     <tile name="HIGHLAND_DEAD_ROAD_CITY_PLACE_A_DARK_OBJ_1M_SNAP" pos="10 6 38" roty="270" />

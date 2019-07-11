@@ -15,13 +15,14 @@
       spellcooldownsonenteringseconds="0"
 			craftefficiencybonus="0.0"
 			buildingcraftcapacityregenfactor="1"
-      itempowersoftcap="700"
-      itempowerscalingfactor="0.2"        
+      itempowersoftcap="0"
+      itempowerscalingfactor="0"        
       animalgrowthfactor="1"
       cropyieldfactor="1"
       clusterdangerbonustype="safe"
       requiredreputationtoenter="-1000"
       showdiebuttondelay="20"
+	  vanityvisibility="Allowed"
       />
     
     <archetype
@@ -37,14 +38,15 @@
       spellcooldownsonenteringseconds="15"
 	    craftefficiencybonus="0.10"
 	    buildingcraftcapacityregenfactor="1"
-      itempowersoftcap="800"
-      itempowerscalingfactor="0.2"    
+      itempowersoftcap="0"
+      itempowerscalingfactor="0"    
       animalgrowthfactor="0.5"
       cropyieldfactor="2"
       clusterdangerbonustype="yellow"
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-20000"
       showdiebuttondelay="20"
+	  vanityvisibility="Allowed"
       />
 
     <archetype
@@ -66,6 +68,7 @@
       cropyieldfactor="2"
       clusterdangerbonustype="red"
       requiredreputationtoenter="-20000"
+	  vanityvisibility="Allowed"
       />
 
     <archetype
@@ -87,7 +90,8 @@
       cropyieldfactor="2"
       clusterdangerbonustype="black"
       requiredreputationtoenter="-50000"
-      allowfactionflagging="false"
+      allowfactionflagging="false" 
+	  vanityvisibility="Allowed"
       />
 
     <archetype
@@ -96,7 +100,7 @@
       pvpwarningtype="black"
       pvprule="PvpForced"
       playersarelethal="true"
-      mobsarelethal="true"
+      mobsarelethal="false"
       showpvpplayeronminimap="false"
       showfriendlycount="false"
       showhostilecount="false"
@@ -111,6 +115,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
+	  vanityvisibility="Disabled"
       />
     
     <archetype
@@ -119,7 +124,7 @@
       pvpwarningtype="black"
       pvprule="PvpForced"
       playersarelethal="true"
-      mobsarelethal="true"
+      mobsarelethal="false"
       showpvpplayeronminimap="false"
       showfriendlycount="false"
       showhostilecount="false"
@@ -134,6 +139,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
+	  vanityvisibility="Disabled"
       />
     
     <archetype
@@ -157,6 +163,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
+	  vanityvisibility="Disabled"
       />
     
     
@@ -180,6 +187,7 @@
       requiredreputationtoenter="-1000"
       allowfactionflagging="false"
       allowfactionflaggedenter="false"
+	  vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -200,6 +208,7 @@
       animalgrowthfactor="1"
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
+	  vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -221,6 +230,7 @@
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
+	  vanityvisibility="AllowedAndDefault"
       />
 
 
@@ -244,6 +254,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       allowfactionflaggedenter="false"
+	  vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -265,6 +276,7 @@
       cropyieldfactor="1"
       requiredreputationtoenter="-1000"
       durabilitydecaydivider="0"
+	  vanityvisibility="AllowedAndDefault"
       />
     
     <archetype
@@ -288,6 +300,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
+	  vanityvisibility="Disabled"
     />
     <archetype
       name = "T4_EXPEDITION"
@@ -310,6 +323,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
+	  vanityvisibility="Disabled"
     />
     <archetype
       name = "T5_EXPEDITION"
@@ -332,6 +346,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
+	  vanityvisibility="Disabled"
     />
     <archetype
       name = "T6_EXPEDITION"
@@ -354,6 +369,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
+	  vanityvisibility="Disabled"
     />
     <archetype
       name = "HARDCORE_EXPEDITION"
@@ -376,6 +392,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
+	  vanityvisibility="Disabled"
     />
 	
 	<archetype
@@ -399,6 +416,7 @@
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-50000"
 	    allowfactionflagging="false"
+	  vanityvisibility="Disabled"
 	  />
     <archetype
       name = "ARENA_CUSTOM"
@@ -421,6 +439,7 @@
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-50000"
 	    allowfactionflagging="false"
+	  vanityvisibility="Disabled"
 	  />
     <archetype
      name = "ARENA_CRYSTAL"
@@ -443,10 +462,19 @@
      knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
      requiredreputationtoenter="-50000"
      allowfactionflagging="false"
+	  vanityvisibility="Disabled"
 	  />
   </archetypes>
 
   <gvgitempowerscaling>
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="3" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="4" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="5" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="5" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="6" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="7" clustertype="OPENPVP_YELLOW" />
+    <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="8" clustertype="OPENPVP_YELLOW" />
+    
     <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="3" clustertype="OPENPVP_RED" />    
     <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="4" clustertype="OPENPVP_RED" />
     <customscaling itempowersoftcap="800" itempowerscalingfactor="0.2" tier="5" clustertype="OPENPVP_RED" />
@@ -551,14 +579,17 @@
     isdungeon="false"
     allowmounts="true"
     isstartarea="true">
-      <resourcespawns defaulttimefactor="1.0">
-        <resourcetier tier="1" timefactor="0.1"/>
-        <resourcetier tier="2" timefactor="1"/>
-      </resourcespawns>
-      <mobspawns defaulttimefactor="1000"/>
-    </clustertype>
-    
-		<clustertype name="TESTSTARTAREA"
+    <spawnbuff>
+      <buff name="TUTORIAL_STUN" isfirstlogin="Must" />
+    </spawnbuff>
+    <resourcespawns defaulttimefactor="1.0">
+      <resourcetier tier="1" timefactor="0.1"/>
+      <resourcetier tier="2" timefactor="1"/>
+    </resourcespawns>
+    <mobspawns defaulttimefactor="1000"/>
+  </clustertype>
+  
+	<clustertype name="TESTSTARTAREA"
       archetype="GREEN"
 		  logoutseconds="10"
 			editorcolor="0, 255, 255"
@@ -677,6 +708,11 @@
 	    hellgateclustermessage="true"
 			isdungeon="false"
       allowmounts="true">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+      </spawnbuff>
       <resourcespawns defaulttimefactor="1.0">
         <resourcetier tier="1" timefactor="1.0"/>
         <resourcetier tier="2" timefactor="0.35"/>
@@ -747,6 +783,15 @@
 	    hellgateclustermessage="true"
       isdungeon="false"
       allowmounts="true">
+      <spawnbuff>
+		    <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+		    <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+		    <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+		    <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+		    <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+		    <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+		    <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <resourcespawns defaulttimefactor="1.0">
         <resourcetier tier="1" timefactor="1.0"/>
         <resourcetier tier="2" timefactor="0.35"/>
@@ -784,6 +829,15 @@
 	    hellgateclustermessage="true"
 			isdungeon="false"
       allowmounts="true">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0">
         <mobspawn name="MOB_BEAR" timefactor="0.5" />
         <mobspawn name="T5_MOB_HIDE_SWAMP_GIANTSNAKE" timefactor="0.5" />
@@ -808,6 +862,15 @@
 	    hellgateclustermessage="true"
 			isdungeon="false"
       allowmounts="true">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -820,6 +883,15 @@
       isdungeon="false"
       allowmounts="true"
       allowfactionrewards="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -832,6 +904,15 @@
       isdungeon="false"
       allowmounts="true"
       allowfactionrewards="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -844,6 +925,15 @@
       isdungeon="false"
       allowmounts="true"
       allowfactionrewards="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -858,6 +948,11 @@
       escapedungeonspellavailable="false"
       isdungeon="true"
       allowmounts="true">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -871,6 +966,15 @@
       escapedungeonspellavailable="false"
       isdungeon="true"
       allowmounts="true">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -884,6 +988,15 @@
       escapedungeonspellavailable="false"
       isdungeon="true"
       allowmounts="true">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -897,6 +1010,15 @@
       escapedungeonspellavailable="false"
       isdungeon="true"
       allowmounts="true">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_INVULNERABILITY"            ispvppossible="Must" isingvg="Must" /> <!-- This for getting ported out after a resource gvg (gets ported in the same cluster) -->
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 	
@@ -911,6 +1033,11 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -925,6 +1052,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -939,6 +1074,14 @@
       escapedungeonspellavailable="true"
       isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -953,6 +1096,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -981,6 +1132,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -995,6 +1154,14 @@
       escapedungeonspellavailable="true"
       isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -1009,6 +1176,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -1037,6 +1212,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -1051,6 +1234,14 @@
       escapedungeonspellavailable="true"
       isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
 
@@ -1065,6 +1256,14 @@
       escapedungeonspellavailable="true"
 			isdungeon="true"
       allowmounts="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
     </clustertype>
     
@@ -1077,6 +1276,14 @@
 			isdungeon="true"
       allowmounts="false"                 
 			persistsimulationtodatabase="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999.0" defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1" />
 		</clustertype>
 
@@ -1089,6 +1296,14 @@
       isdungeon="true"
       allowmounts="false"
       persistsimulationtodatabase="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999.0" defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1" />
     </clustertype>
 
@@ -1101,6 +1316,14 @@
       isdungeon="true"
       allowmounts="false"
       persistsimulationtodatabase="false">
+      <spawnbuff>
+        <!-- The first buff makes you immune to invul shields for respawning in the open world -->
+        <buff name="SPAWN_BUFFIMMUNITY_ONDEATH"       isrevive="Must" />
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" ispvppossible="Must" isclusterchange="Must"/>
+        <buff name="SPAWN_SPEED"                      ispvppossible="Must" isclusterchange="Must" />
+        <buff name="SPAWN_BUFFIMMUNITY"               ispvppossible="Must" isclusterchange="Must" />
+        <!-- order is important: immunity LAST (obvious, right?) -->
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999.0" defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1" />
     </clustertype>    
 
@@ -1115,6 +1338,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="true"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1129,6 +1356,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="true"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1143,6 +1374,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="true"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1157,6 +1392,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="true"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1172,6 +1411,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="false"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1186,6 +1429,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="false"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1200,6 +1447,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="false"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1214,6 +1465,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="false"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999" defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1229,6 +1484,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="true"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1243,6 +1502,10 @@
 	     escapedungeonspellavailable="true"
        isdungeon="false"
        allowmounts="false">
+      <spawnbuff>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isclusterchange="Must"/>
+        <buff name="SPAWN_INVULNERABILITY_EXPEDITION" isrevive="Must"/>
+      </spawnbuff>
       <mobspawns defaulttimefactor="9999"  defaultinitialchargemultiplicator="1" defaultmaxchargemultiplicator="1"/>
       <resourcespawns defaulttimefactor="9999"/>
     </clustertype>
@@ -1329,10 +1592,10 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="240"
 
-			hellgatemobdespawntime="99999"
+			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="15"
-			hellgatemobspawnmaxamount="80"
+			hellgatemobspawnmaxamount="150"
 			hellgatemindistance="1"
 
 			hellgatemobchargepool="80"
@@ -1372,10 +1635,10 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="0"
 
-			hellgatemobdespawntime="99999"
+			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="8"
-			hellgatemobspawnmaxamount="80"
+			hellgatemobspawnmaxamount="150"
 			hellgatemindistance="1"
 
 			hellgatemobchargepool="80"
@@ -1416,7 +1679,7 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="240"
 
-			hellgatemobdespawntime="99999"
+			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="10"
 			hellgatemobspawnmaxamount="20"
@@ -1459,7 +1722,7 @@
 			hellbosstimer="9999"
 			hellgateexitcooldowninsec="0"
 
-			hellgatemobdespawntime="99999"
+			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="3"
 			hellgatemobspawnmaxamount="100"

@@ -1,66 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/SWAMP/Master/Homebase/UND_SW_Homebase.unity" unityguid="a49a06c71e77f0149991776ea0a66989" editorBoundsMin="-315 -315" editorBoundsMax="315 315" colBoundsMin="-316 -316" colBoundsMax="316 315">
-  <criticalscenemembers>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_01" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-299 0 227" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_02" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-189 0 246" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_03" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-292 0 -214" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_04" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="91 0 -306" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_05" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-101 0 -291" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_06" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="283 0 1" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_07" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="235 0 -221" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_08" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="209 0 42" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_09" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="304 0 150" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_10" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="259 0 100" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_11" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="155 0 292" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_12" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-109 0 286" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_13" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-279 0 168" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_14" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-259 0 -282" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_15" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="78 0 304" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_16" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-188 0 70" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_17" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="200 0 -127" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_18" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-228 0 -26" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_19" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="215 0 203" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonrandomexitpositionmarker_20" type="randomdungeonrandomexitpositionmarker" layerId="">
-      <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-256 0 99" />
-    </criticalscenemember>
-  </criticalscenemembers>
+  <criticalscenemembers />
   <tiles>
     <layergroup name="MOBS">
       <layer id="3deea85e-09a9-46bd-9a84-3f6c39902879" name="T7">
@@ -32509,26 +32448,26 @@
     <tile name="FishingZone_FRESHWATER_SPOT_SWARM" pos="225.24 0 -126.71" />
     <tile name="FishingZone_FRESHWATER_SPOT_SWARM" pos="256.7 0 -257.9" />
     <tile name="FishingZone_FRESHWATER_SPOT_TREASURE" pos="270.44 0 -109.98" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-299 0 227" id="randomdungeonrandomexitpositionmarker_01" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-189 0 246" id="randomdungeonrandomexitpositionmarker_02" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-292 0 -214" id="randomdungeonrandomexitpositionmarker_03" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="91 0 -306" id="randomdungeonrandomexitpositionmarker_04" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-101 0 -291" id="randomdungeonrandomexitpositionmarker_05" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="283 0 1" id="randomdungeonrandomexitpositionmarker_06" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="235 0 -221" id="randomdungeonrandomexitpositionmarker_07" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="209 0 42" id="randomdungeonrandomexitpositionmarker_08" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="304 0 150" id="randomdungeonrandomexitpositionmarker_09" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="259 0 100" id="randomdungeonrandomexitpositionmarker_10" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="155 0 292" id="randomdungeonrandomexitpositionmarker_11" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-109 0 286" id="randomdungeonrandomexitpositionmarker_12" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-279 0 168" id="randomdungeonrandomexitpositionmarker_13" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-259 0 -282" id="randomdungeonrandomexitpositionmarker_14" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="78 0 304" id="randomdungeonrandomexitpositionmarker_15" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-188 0 70" id="randomdungeonrandomexitpositionmarker_16" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="200 0 -127" id="randomdungeonrandomexitpositionmarker_17" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-228 0 -26" id="randomdungeonrandomexitpositionmarker_18" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="215 0 203" id="randomdungeonrandomexitpositionmarker_19" type="randomdungeonrandomexitpositionmarker" />
-    <criticaltile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-256 0 99" id="randomdungeonrandomexitpositionmarker_20" type="randomdungeonrandomexitpositionmarker" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-299 0 227" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-189 0 246" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-292 0 -214" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="91 0 -306" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-101 0 -291" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="283 0 1" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="235 0 -221" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="209 0 42" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="304 0 150" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="259 0 100" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="155 0 292" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-109 0 286" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-279 0 168" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-259 0 -282" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="78 0 304" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-188 0 70" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="200 0 -127" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-228 0 -26" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="215 0 203" />
+    <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="-256 0 99" />
     <tile name="Atmosphere_WRL_NONE_SW_DEAD" pos="-56.5 0 61" />
     <tile name="AtmosphereBubbleOutdoors_DEAD_SWAMP_UNDEAD" pos="3.5 0 149.1">
       <atmospherebubble layer="1" radius="198" blend="0.637879" />

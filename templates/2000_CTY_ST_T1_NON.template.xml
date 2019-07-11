@@ -9716,7 +9716,6 @@
     <tile name="STEPPE_GREEN_FILL_HILL_BASE_D" pos="-26 -4 22" roty="270" />
     <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="33.5 -5 23.5" />
     <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="26.5 -5 23.5" roty="180" />
-    <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="25.5 1 6.5" roty="180" />
     <tile name="STEPPE_GREEN_FILL_CITY_BUNTING_20M_A" pos="25.5 3 7" roty="270" />
     <tile name="STEPPE_GREEN_FILL_STORAGE_BARREL_WEAPONS_A" pos="24.5 -4 3.5" />
     <tile name="STEPPE_GREEN_ARENA_BANNER_NEUTRAL_HANGING_A" pos="34 -1 23" />
@@ -9729,7 +9728,6 @@
     <tile name="STEPPE_GREEN_FILL_PILE_F" pos="36 -4 3" roty="180" />
     <tile name="STEPPE_GREEN_T1_TREE_UNIVERSAL_SLIM_A" pos="22.5 -4 5.5" roty="329" />
     <tile name="STEPPE_GREEN_ARENA_BANNER_NEUTRAL_HANGING_A" pos="26 -1 23" roty="325.82" />
-    <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="34.5 1 6.5" />
     <tile name="STEPPE_GREEN_CITY_COLUMN_A" pos="35 -5 6" />
     <tile name="STEPPE_GREEN_FILL_BONES_B" pos="32.5 -8 16.5" />
     <tile name="STEPPE_GREEN_FILL_BONES_A" pos="27.5 -8 22.5" roty="90" />
@@ -9737,9 +9735,6 @@
     <tile name="STEPPE_GREEN_FILL_ROCK_SHEET_SMALL_A" pos="30 -4 4" />
     <tile name="STEPPE_GREEN_FILL_CITY_ROPE_BORDER_SINGLE_A" pos="27 -4 4.5" />
     <tile name="STEPPE_GREEN_FILL_CITY_ROPE_BORDER_SINGLE_A" pos="33 -4 4.5" />
-    <tile name="ARENA_ENTRANCE_BIG_LIGHT" pos="30.5 0 3.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="27.5 3 5.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="33.5 3 5.5" />
     <tile name="STEPPE_GREEN_GROUND_SHALLOW_WATER_2_CORNERS_B" pos="-160 -4 -230" roty="180" />
     <tile name="STEPPE_GREEN_GROUND_SHALLOW_WATER_RIVER_CONNECTION_RIGHT_A" pos="-180 -4 -230" roty="180" />
     <tile name="STEPPE_GREEN_GROUND_SHALLOW_WATER_RIVER_CURVE_A" pos="-160 -4 -220" roty="270" />
@@ -10171,13 +10166,25 @@
     <tile name="STEPPE_GREEN_CITY_PORTAL_IN_MAGIC_FIREBOWL_A_BRIDGEWATCH" pos="-35 -2 19" />
     <tile name="STEPPE_GREEN_GROUND" pos="90 -16 -10" />
     <tile name="STEPPE_GREEN_PLATEAU_ROCK_4M_A_DEBRIS_NOCOL" pos="94 -16 -8" roty="270" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="30.5 0 3.5">
+      <pointlight range="10" intensity="5" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="STEPPE_GREEN_CITY_WALL_RAILING_PILAR_A" pos="-50 -4 43" roty="90" />
     <tile name="STEPPE_GREEN_CITY_WALL_RAILING_PILAR_A" pos="-40 -4 43" roty="90" />
     <tile name="STEPPE_GREEN_CITYWALL_WOOD_WATCHTOWER_A" pos="78.5 -9 -153" />
     <tile name="STEPPE_GREEN_CITYWALL_WOOD_WATCHTOWER_A" pos="121.5 -9 -151" />
+    <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="25.5 1 6.5" roty="180" />
     <tile name="STEPPE_GREEN_CITYWALL_WOOD_WATCHTOWER_A" pos="-109.5 -5 -148" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="27.5 3 5.5">
+      <pointlight range="6" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="STEPPE_GREEN_FILL_HILL_BASE_A" pos="-30 -4 23" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="33.5 3 5.5">
+      <pointlight range="6" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="STEPPE_GREEN_FILL_HILL_BASE_C" pos="-30 -3 19" />
+    <tile name="STEPPE_GREEN_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="34.5 1 6.5" />
+    <tile name="STEPPE_GREEN_FILL_ROCK_SHEET_MEDIUM_A" pos="-54 -4 27" roty="7.08" />
     <criticaltile name="Exit" pos="70.5 0 -3.5" roty="90" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="14.01658 0.09765816" faction="None" kind="Cluster" roadtype="Primary">
         <guards>

@@ -1,29 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/L_FR_focusMOB_Undead_01.unity" unityguid="0dd8d8fe701ce614b904447a67633e04" editorBoundsMin="-150 -150" editorBoundsMax="150 150" colBoundsMin="-150 -150" colBoundsMax="150 150">
   <criticalscenemembers>
-    <criticalscenemember id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" layerId="Layer_01">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-25 28 115" roty="90" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" layerId="Layer_01">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="19 24 39" roty="90" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_03" type="randomdungeonfixedexit" layerId="Layer_01">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-39 24 -18" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_04" type="randomdungeonfixedexit" layerId="Layer_01">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-115 28 25" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_05" type="randomdungeonfixedexit" layerId="Layer_02">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-39 24 -18" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_06" type="randomdungeonfixedexit" layerId="Layer_02">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-25 28 115" roty="90" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_07" type="randomdungeonfixedexit" layerId="Layer_02">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="19 24 39" roty="90" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_08" type="randomdungeonfixedexit" layerId="Layer_02">
-      <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-115 28 25" />
-    </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="">
       <tile name="Exit" pos="37.5 7 -37.5" roty="90">
         <exit size="13 13" spawnpos="10 10" faction="Undead" kind="DungeonGroup" roadtype="Primary" />
@@ -755,10 +731,10 @@
         <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER" pos="-20.91 12 -51.78" roty="162.91">
           <mobspawnpoint behavior="GUARD" />
         </tile>
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-25 28 115" roty="90" id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="19 24 39" roty="90" id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-39 24 -18" id="randomdungeonfixedexit_03" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-115 28 25" id="randomdungeonfixedexit_04" type="randomdungeonfixedexit" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-25 28 115" roty="90" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="19 24 39" roty="90" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-39 24 -18" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T4" pos="-115 28 25" />
         <tile name="SpawnPoint_T4_MOB_UNDEAD_SOLDIER" pos="-106.6 20 -13.92" roty="270">
           <mobspawnpoint behavior="GUARD" />
         </tile>
@@ -1489,10 +1465,10 @@
         <tile name="SpawnPoint_T7_MOB_UNDEAD_SOLDIER" pos="-20.91 12 -51.78" roty="163">
           <mobspawnpoint behavior="GUARD" />
         </tile>
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-39 24 -18" id="randomdungeonfixedexit_05" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-25 28 115" roty="90" id="randomdungeonfixedexit_06" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="19 24 39" roty="90" id="randomdungeonfixedexit_07" type="randomdungeonfixedexit" />
-        <criticaltile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-115 28 25" id="randomdungeonfixedexit_08" type="randomdungeonfixedexit" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-39 24 -18" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-25 28 115" roty="90" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="19 24 39" roty="90" />
+        <tile name="FOREST_DEAD_FIXED_EXIT_10x10_UND_T7" pos="-115 28 25" />
       </layer>
     </layergroup>
     <tile name="FOREST_DEAD_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-5 0 -5" roty="90" />
@@ -5521,5 +5497,57 @@
     <tile name="SWAMP_DEAD_UND_BANNER_STANDING_C" pos="111.5 24 120.5" roty="323.79" />
     <tile name="SWAMP_DEAD_UND_BANNER_STANDING_A" pos="84.5 24 125.5" roty="75" />
     <tile name="SWAMP_DEAD_UND_BANNER_STANDING_A" pos="116.5 24 100.5" roty="191" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="75 -40 -75" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="75 -40 -45" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="45 -40 -45" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="45 -40 -75" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="35 -40 -95" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="45 -40 -95" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="55 -40 -95" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="65 -40 -95" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="95 -40 -45" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="95 -40 -35" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="95 -40 -65" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="95 -40 -55" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="105 -40 -45" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="105 -40 -35" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="45 -40 -105" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="35 -40 -105" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="55 -40 -105" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="75 -40 -95" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="65 -40 -105" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="95 -40 -75" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="105 -40 -65" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="105 -40 -55" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-115 -40 25" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-105 -40 25" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-105 -40 35" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-105 -40 15" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-95 -40 25" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-25 -40 115" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-15 -40 105" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-25 -40 105" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-25 -40 95" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-25 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-25 -40 -15" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-35 -40 -15" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-15 -40 -15" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-15 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-35 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-35 -40 105" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="15 -40 25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="15 -40 35" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="15 -40 45" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 35" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 45" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 -55" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 -65" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="25 -40 -75" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="15 -40 -65" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="75 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="65 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="55 -40 -25" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="65 -40 -15" roty="90" />
   </tiles>
 </template>

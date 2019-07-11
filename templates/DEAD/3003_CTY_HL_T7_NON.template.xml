@@ -3381,11 +3381,17 @@
     <tile name="MiniMapMarker" pos="-7.5 0 -22.5" roty="135">
       <minimapmarker type="Arena" />
     </tile>
-    <tile name="ARENA_ENTRANCE_BIG_LIGHT" pos="-8.5 5 -23.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-15.5 3 -15.5" />
-    <tile name="ARENA_ENTRANCE_TORCH_LIGHT" pos="-13.5 3 -14.5" />
     <tile name="ARENA_ENTRANCE_COUGAR" pos="-10.5 0 -20.5" roty="207" />
     <tile name="ARENA_ENTRANCE_VANITY_BANNERS_A" pos="-13 0 -22" roty="270" />
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-15.5 3 -15.5">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-13.5 3 -14.5">
+      <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
+    </tile>
+    <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-8.5 5 -23.5">
+      <pointlight range="10" intensity="6" color="1 0.5137255 0.1411765" />
+    </tile>
     <tile name="Atmosphere_WRL_NONE_HL_DEAD" pos="-200 0 -180" />
     <tile name="HIGHLAND_DEAD_GROUND_SHALLOW_WATER_RIVER_DIAGONAL_RIGHT_A" pos="-15 -44 265" roty="180" />
     <tile name="HIGHLAND_DEAD_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="150 -35 -31" roty="90" />
@@ -11153,8 +11159,6 @@
     <tile name="HIGHLAND_DEAD_ARENA_BANNER_NEUTRAL_A" pos="-5 0 -17" />
     <tile name="HIGHLAND_DEAD_ARENA_BANNER_NEUTRAL_HANGING_B" pos="-18 1 -17" roty="315" />
     <tile name="HIGHLAND_DEAD_ARENA_BANNER_NEUTRAL_HANGING_B" pos="-13 1 -12" roty="315" />
-    <tile name="HIGHLAND_DEAD_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-17.5 1 -15.5" roty="180" />
-    <tile name="HIGHLAND_DEAD_FILL_LIGHT_WALL_TORCHHOLDER_B" pos="-14.5 1 -11.5" roty="270" />
     <tile name="HIGHLAND_DEAD_FILL_PILE_F" pos="-12 0 -25" roty="180" />
     <tile name="HIGHLAND_DEAD_CASTLE_CORNER_ROUNDED_A_OBJ" pos="-50 -52 50" roty="270" />
     <tile name="HIGHLAND_DEAD_FILL_LIGHT_LANTERN_A" pos="-84.5 -8 -173.5" roty="334.93" />
@@ -11668,6 +11672,8 @@
     <tile name="HIGHLAND_DEAD_FILL_RUIN_DEBRIS_LARGE_A" pos="-178 1 -14" />
     <tile name="HIGHLAND_DEAD_FILL_RUIN_DEBRIS_LARGE_A" pos="-182 1 -46" roty="270" />
     <tile name="HIGHLAND_DEAD_FILL_RUIN_DEBRIS_LARGE_A" pos="-173 1 -48" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-14.5 1 -11.5" roty="270" />
+    <tile name="HIGHLAND_DEAD_FILL_LIGHT_WALL_TORCHHOLDER_B_NO_POINTLIGHT" pos="-17.5 1 -15.5" roty="180" />
     <criticaltile name="ExitTrigger_10x10_DIAGONAL_EXIT" pos="80 -8 28" roty="135" id="exit_01" type="exit">
       <exit size="10 10" spawnpos="12.00005 8.583069E-06" faction="None" kind="Cluster" roadtype="Primary">
         <guards>

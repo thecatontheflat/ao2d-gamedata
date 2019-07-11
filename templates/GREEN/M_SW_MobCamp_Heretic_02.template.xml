@@ -1,11 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/SWAMP/Slave/M_SW_MobCamp_Heretic_02.unity" unityguid="722dd4a8b4419a646b0119cd2fd56cc3" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="75 76">
   <criticalscenemembers>
-    <criticalscenemember id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" layerId="35d6f869-d19f-414e-b442-be1b0c11b646">
-      <tile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="40 0 -27" />
-    </criticalscenemember>
-    <criticalscenemember id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" layerId="35d6f869-d19f-414e-b442-be1b0c11b646">
-      <tile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="-51 0 -51" />
-    </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="">
       <tile name="SWAMP_GREEN_HER_ENTRANCE_DUNGEON_A" pos="0 0 0">
         <exit size="9 9" spawnpos="-2.273737E-13 -13" faction="Heretic" kind="DungeonStubSolo" roadtype="Primary" />
@@ -144,8 +138,8 @@
         <tile name="SpawnPoint_T3_MOB_HERETIC_CHEST" pos="-23.83 0 13.24" roty="270">
           <mobspawnpoint behavior="GUARD" />
         </tile>
-        <criticaltile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="40 0 -27" id="randomdungeonfixedexit_01" type="randomdungeonfixedexit" />
-        <criticaltile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="-51 0 -51" id="randomdungeonfixedexit_02" type="randomdungeonfixedexit" />
+        <tile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="40 0 -27" />
+        <tile name="SWAMP_GREEN_FIXED_EXIT_10x10_HER_T3" pos="-51 0 -51" />
       </layer>
       <layer id="cbf9673b-6710-4250-9221-acf6eeb5f062" name="T2">
         <tile name="SpawnPoint_T2_HERETIC_THIEF" pos="47 0 24" roty="90">
@@ -1183,6 +1177,41 @@
     <tile name="AtmosphereBubbleOutdoors_GREEN_SWAMP_HERETIC" pos="1.7 0 -0.8">
       <atmospherebubble layer="1" radius="75" blend="0.8" />
     </tile>
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="20 -40 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="20 -40 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-10 -40 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -40 -40" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-10 -40 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 -50" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 -50" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 -10" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 -20" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 0" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 10" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="50 -40 -10" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="50 -40 0" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-10 -40 30" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="10 -40 40" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="0 -40 40" roty="180" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 0" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-30 -40 -20" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 0" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -10" roty="90" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -40 -30" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="50 -40 -30" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="50 -40 -20" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -50" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -40 -60" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-50 -40 -60" roty="270" />
+    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-50 -40 -50" roty="270" />
     <tile name="LevelMarker_Mobcamp_Heretics_15x15_SW" pos="0 0 0">
       <worldmapmarker type="LevelMarker_Mobcamp_Heretics_15x15_SW" />
     </tile>
