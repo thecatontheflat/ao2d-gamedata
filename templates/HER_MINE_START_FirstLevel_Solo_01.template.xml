@@ -1,8 +1,13 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/HERETIC/HER_MINE_START_FirstLevel_Solo_01.unity" unityguid="74663aaca23c1214686254f034f0b76f" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-40 -44" colBoundsMax="40 40">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="">
-      <tile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-8 0 -12">
-        <exit size="5 5" spawnpos="2.961602 2.39856" faction="None" kind="Cluster" roadtype="Primary" />
+      <tile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="-5 0 -14">
+        <exit size="6 6" spawnpos="0.6835785 7.960809" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="0.683578 -3.039191" />
+            <guard pos="0.6603073 -9.073673" />
+          </guards>
+        </exit>
       </tile>
     </criticalscenemember>
   </criticalscenemembers>
@@ -16,7 +21,7 @@
       <layer id="Layer_10" name="env_out_Steppe" />
       <layer id="Layer_11" name="env_out_Swamp" />
     </layergroup>
-    <layergroup name="ENCOUNTER">
+    <layergroup name="ENCOUNTER_SOLO">
       <layer id="Layer_12" name="mob_solo_Light_01">
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="3.42 0 23.73" roty="145.9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_SCAVENGER" />
@@ -44,9 +49,6 @@
       </layer>
       <layer id="Layer_15" name="mob_solo_Light_04" />
     </layergroup>
-    <criticaltile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-8 0 -12" id="exit_01" type="exit">
-      <exit size="5 5" spawnpos="2.961602 2.39856" faction="None" kind="Cluster" roadtype="Primary" />
-    </criticaltile>
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="15 0 35" roty="180" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_TO_BACKDROP_LEFT_A" pos="-15 0 25" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-15 0 35" />
@@ -177,19 +179,18 @@
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="15.5 10 35" rot="0 180 63" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="10.5 3 35" rot="0 0 180" scale="1 1 1.084641" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-14.5 10 35" rot="0 0 63" scale="1 1 1.08464" />
-    <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-9.5 3 35" rot="0 180 180" scale="1 1 1.084641" />
+    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-18 0 -15" roty="90" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_A" pos="2 0 -3" roty="90" />
-    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-16 0 -14" roty="180" />
+    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B" pos="-15 0 -20" />
     <tile name="FOREST_GREEN_HER_FILL_BUCKET_A" pos="7.5 0 -12.5" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="-1.5 4 28.5" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_A_BLEND" pos="10 0 31" roty="166" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-10 0 26" roty="90" />
-    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B" pos="-11 0 -20" />
+    <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-9.5 3 35" rot="0 180 180" scale="1 1 1.084641" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_C" pos="-7 0 36" roty="270" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_GATE_WOODEN_OPENED_A" pos="-1 0 30" roty="181.1" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-21 0 -19" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="14 1 35" roty="90" />
-    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="-13 1 -24" roty="270" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="9 0 38" roty="270" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_C" pos="9 1 35" roty="180" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_D" pos="-10 0 32" roty="90" />
@@ -202,6 +203,7 @@
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="10.5 3 -10" rot="0 0 180" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="14 1 -10" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="9 0 -7" roty="270" />
+    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="-17 1 -23" roty="270" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_C" pos="9 1 -10" roty="180" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="15 1 -10" roty="180" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-12 7 -25.5" rot="0 270 45" />
@@ -209,7 +211,7 @@
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-12 3 -23.5" rot="357.7 105.01 155.81" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="-12 1 -27" roty="180" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="-9 0 -22" />
-    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_C" pos="-12 1 -22" roty="270" />
+    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_C" pos="-11 1 -22" roty="180" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="-12 1 -28" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_A_BLEND" pos="-22 0 -20" roty="290.19" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_A" pos="-17 0 -10" roty="180" />
@@ -220,8 +222,9 @@
     <tile name="FOREST_GREEN_HER_MINE_TRAIN_STRAIGHT_10_A" pos="5 0 -5" roty="90" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="8 0 -7" roty="90" />
     <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="-8 4 -2" roty="88" />
-    <tile name="FOREST_GREEN_HER_MINE_TRAIN_STRAIGHT_10_A" pos="0 0 35" roty="90" />
+    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-15 0 -18" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="3 7 -25.5" rot="0 261 45" />
+    <tile name="FOREST_GREEN_HER_MINE_TRAIN_STRAIGHT_10_A" pos="0 0 35" roty="90" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="3 10 -28.5" rot="0 261 63" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="3 1 -27" roty="170.79" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="6 0 -22" roty="350.79" />
@@ -231,7 +234,6 @@
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A" pos="-4 10 -29.5" rot="0 270 63" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="6 7 -33" roty="270" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="-10 5 -33" rot="10.16 283.21 333.24" />
-    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-7 0 -21" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_B" pos="-8 0 -5" roty="270" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="8 0 30" roty="270" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_C" pos="10 1 29" roty="270" />
@@ -276,5 +278,17 @@
     <tile name="FOREST_GREEN_HER_MINE_TRAIN_TROLLEY_BROKEN_A" pos="-21 -17 17" rot="0 90 7.55" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A" pos="-23 -18 15" />
     <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A_NO_POINTLIGHT" pos="9 6 -13" rot="348.34 275.66 358.1" />
+    <criticaltile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="-5 0 -14" id="exit_01" type="exit">
+      <exit size="6 6" spawnpos="0.6835785 7.960809" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="0.683578 -3.039191" />
+          <guard pos="0.6603073 -9.073673" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <tile name="FOREST_GREEN_EXPEDITION_AGENCY_PLATFORM" pos="-5 0 -14" />
+    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_A" pos="-5 3.98 -14">
+      <pointlight range="8" intensity="4" color="0.4639959 0.8823529 0.3308824" />
+    </tile>
   </tiles>
 </template>

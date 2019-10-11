@@ -186,7 +186,7 @@
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="-13 -4 -35" />
     <tile name="FOREST_GREEN_DNG_BRIDGE_NATURAL_END_DECO_A_BLEND" pos="-3 14 -32" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_DIAGONAL_A" pos="20 -4 -25" roty="270" />
-    <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="13 -4 -30" roty="270" />
+    <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="13 -4 -29" roty="270" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_4M_B" pos="-11 -4 9" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_8M_C" pos="-17 -4 16" roty="90" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_GATE_A_BLEND" pos="-17 1 -30" roty="278" />
@@ -231,6 +231,7 @@
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_4M_B" pos="19 -2 -19" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_4M_B" pos="8 -2 19" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-4 -4 -24" />
+    <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_4M_B" pos="6 -4 -31" roty="90" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="35 0 15" roty="90" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-35 0 -5" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_STRAIGHT_A" pos="-15 0 25" />

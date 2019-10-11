@@ -845,11 +845,11 @@
         <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_TRASH" pos="34.27 0 -0.58" roty="312">
           <mobspawnpoint spawnbehavior="UNDEAD_SKELETON_TRASH" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_TRASH" pos="31.25 0 2.34" roty="312">
-          <mobspawnpoint spawnbehavior="UNDEAD_SKELETON_TRASH" />
-        </tile>
         <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_STATUE" pos="-0.84 0 -2.36" roty="307">
           <mobspawnpoint spawnbehavior="UNDEAD_STATUE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_TRASH" pos="31.25 0 2.34" roty="312">
+          <mobspawnpoint spawnbehavior="UNDEAD_SKELETON_TRASH" />
         </tile>
         <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_STANDARD" pos="2.51 0 33.22" roty="42">
           <mobspawnpoint spawnbehavior="UNDEAD_SKELETON_STANDARD" />
@@ -1206,7 +1206,6 @@
     <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_FORTIFIED_A" pos="5 -8 -20" roty="90" />
     <tile name="FOREST_GREEN_UND_CASTLE_WALL_INNER_STRAIGHT_BROKEN_A" pos="-5 0 -5" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_FORTIFIED_A" pos="16 -8 -20" roty="90" />
-    <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-5 -36 -15" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="5 -36 -15" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-25 -36 -25" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_WALL_STRAIGHT_A" pos="-15 -36 -25" roty="90" />

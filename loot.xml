@@ -4495,6 +4495,7 @@
     <Item type="QUESTITEM_TOKEN_EVENT_EASTER_2018" chance="1" amount="5-15" />
   </Lootlist>
 
+  <!--################################################-->
   <!--Treasure Chest Loot-->
 
   <Lootlist name="GENERAL_TREASURE_LOOT"> <!-- avg. value 60'0000 silver -->
@@ -4516,78 +4517,175 @@
 
       <Item type="UNIQUE_GVGTOKEN_GENERIC" weight="12" amount="20-40" /> <!-- 30'000 silver (1'000 silver per essence) -->      
     </OR>
-  </Lootlist>  
+  </Lootlist>
   
-  <Lootlist name="ROYAL_LOCKER_T5_LOOT">
-    <LootListReference name="GENERAL_TREASURE_LOOT" chance="1" />
-    
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="1.0">
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.12" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.6" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="3" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="5" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="7" />
-      </OR>
-    </AND>
-    <!--1.11.2018: increased chance from 1 to 1.5 to increase value of locker-->
-    <OR chance="1"> <!-- guaranteed treasure loot -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.12" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.6" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="3" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="5" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
-    </OR>    
-    <OR chance="1">
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.12" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.6" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="3" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="5" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
-    </OR>
-    <OR chance="0.25">
-      <OR weight="1">        
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.12" />
-      </OR>      
+  <!--TREASURE BASE LOOT LISTS-->
+  <!--Blackmarket-->
+  <Lootlist name="LOCKER_LOOT_BLACKMARKET">
+    <OR>
+      <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.12" />
+      <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.6" />
+      <LootListReference name="CHEST_T6_GEAR_LOOT" weight="3" />
+      <LootListReference name="CHEST_T5_GEAR_LOOT" weight="5" />
+      <LootListReference name="CHEST_T4_GEAR_LOOT" weight="7" />
     </OR>
   </Lootlist>
-  <Lootlist name="ROYAL_LOCKER_T7_LOOT">
+  <Lootlist name="CHEST_LOOT_BLACKMARKET">
+    <OR>
+      <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
+      <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
+      <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
+      <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
+      <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CASTLE_LOOT_BLACKMARKET">
+    <OR chance="21">
+      <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
+      <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
+      <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
+  
+  <!--Artifacts-->
+  <Lootlist name="LOCKER_LOOT_ARTEFACTS">
+    <OR>
+      <LootListReference name="MELD_4_1_ALL_LOOT" weight="522" />
+      <LootListReference name="MELD_4_2_ALL_LOOT" weight="174" />
+      <LootListReference name="MELD_4_3_ALL_LOOT" weight="58" />
+
+      <LootListReference name="MELD_5_1_ALL_LOOT" weight="378" />
+      <LootListReference name="MELD_5_2_ALL_LOOT" weight="126" />
+      <LootListReference name="MELD_5_3_ALL_LOOT" weight="42" />
+
+      <LootListReference name="MELD_6_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_6_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_6_3_ALL_LOOT" weight="25" />
+
+      <LootListReference name="MELD_7_1_ALL_LOOT" weight="36" />
+      <LootListReference name="MELD_7_2_ALL_LOOT" weight="12" />
+      <LootListReference name="MELD_7_3_ALL_LOOT" weight="4" />
+
+      <LootListReference name="MELD_8_1_ALL_LOOT" weight="9" />
+      <LootListReference name="MELD_8_2_ALL_LOOT" weight="3" />
+      <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CHEST_LOOT_ARTEFACTS">
+    <OR>
+      <LootListReference name="MELD_4_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_4_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_4_3_ALL_LOOT" weight="25" />
+
+      <LootListReference name="MELD_5_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_5_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_5_3_ALL_LOOT" weight="25" />
+
+      <LootListReference name="MELD_6_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_6_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_6_3_ALL_LOOT" weight="25" />
+
+      <LootListReference name="MELD_7_1_ALL_LOOT" weight="45" />
+      <LootListReference name="MELD_7_2_ALL_LOOT" weight="15" />
+      <LootListReference name="MELD_7_3_ALL_LOOT" weight="5" />
+
+      <LootListReference name="MELD_8_1_ALL_LOOT" weight="9" />
+      <LootListReference name="MELD_8_2_ALL_LOOT" weight="3" />
+      <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CASTLE_LOOT_ARTEFACTS">
+    <OR>
+      <LootListReference name="MELD_6_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_6_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_6_3_ALL_LOOT" weight="25" />
+
+      <LootListReference name="MELD_7_1_ALL_LOOT" weight="45" />
+      <LootListReference name="MELD_7_2_ALL_LOOT" weight="15" />
+      <LootListReference name="MELD_7_3_ALL_LOOT" weight="5" />
+
+      <LootListReference name="MELD_8_1_ALL_LOOT" weight="9" />
+      <LootListReference name="MELD_8_2_ALL_LOOT" weight="3" />
+      <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
+  
+  <!--Faction Cape Blueprints-->
+  <Lootlist name="LOCKER_LOOT_CAPE_BP">
+    <OR weight="1">
+      <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="7" />
+      <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="5" />
+      <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="3" />
+      <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.6" />
+      <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.12" />
+    </OR>
+    <OR weight="1">
+      <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="7" />
+      <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="5" />
+      <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="3" />
+      <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.6" />
+      <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.12" />
+    </OR>
+    <OR weight="1">
+      <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="7" />
+      <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="5" />
+      <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="3" />
+      <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.6" />
+      <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.12" />
+    </OR>
+    <OR weight="1">
+      <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="7" />
+      <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="5" />
+      <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="3" />
+      <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.6" />
+      <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.12" />
+    </OR>
+    <OR weight="1">
+      <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="7" />
+      <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="5" />
+      <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="3" />
+      <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.6" />
+      <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.12" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="LOOT_CAPE_BP">
+    <OR>
+      <OR weight="1">
+        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
+        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
+        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
+      </OR>
+      <OR weight="1">
+        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
+        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
+        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
+      </OR>
+      <OR weight="1">
+        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
+        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
+        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
+      </OR>
+      <OR weight="1">
+        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
+        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
+        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
+      </OR>
+      <OR weight="1">
+        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
+        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
+        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
+      </OR>
+    </OR>
+  </Lootlist>
+  
+  <!--LOCKER LOOT-->
+  <Lootlist name="ROYAL_LOCKER_T5_LOOT">
+    <LootListReference name="GENERAL_TREASURE_LOOT" chance="1" />
+    <LootListReference name="LOCKER_LOOT_BLACKMARKET" chance="220.5" />
+    <LootListReference name="LOCKER_LOOT_ARTEFACTS" chance="1" />
+    <LootListReference name="LOCKER_LOOT_CAPE_BP" chance="0.25" />
+  </Lootlist>
+  <Lootlist name="ROYAL_LOCKER_T7_LOOT"> <!--not used in game, didn't update setup-->
     <AND chance="220.5">
       <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
       <OR chance="1.5">
@@ -4608,617 +4706,84 @@
       <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
     </OR>
   </Lootlist>
+  
   <Lootlist name="OUTLAND_LOCKER_T6_LOOT">
     <LootListReference name="GENERAL_TREASURE_LOOT" chance="1.2" />
-
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="1.0">
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.12" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.6" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="3" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="5" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="7" />
-      </OR>
-    </AND>
-    <!--1.11.2018: increased chance from 1 to 1.5 to increase value of locker-->
-    <OR chance="1.5">
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.12" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.6" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="3" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="5" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
-    </OR>
-    <OR chance="0.25">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.12" />
-      </OR>
-    </OR>
+    <LootListReference name="LOCKER_LOOT_BLACKMARKET" chance="220.5" />
+    <LootListReference name="LOCKER_LOOT_ARTEFACTS" chance="1.5" />
+    <LootListReference name="LOCKER_LOOT_CAPE_BP" chance="0.25" />
   </Lootlist>
   <Lootlist name="OUTLAND_LOCKER_T7_LOOT">
     <LootListReference name="GENERAL_TREASURE_LOOT" chance="1.4" />
-
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="1.5">
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.12" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.6" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="3" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="5" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="7" />
-      </OR>
-
-    </AND>
-    <!--1.11.2018: increased chance by 1.5 to increase value of locker-->
-    <OR chance="2.25">
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.12" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.6" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="3" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="5" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
-    </OR>
-    <OR chance="0.375">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.12" />
-      </OR>
-    </OR>
+    <LootListReference name="LOCKER_LOOT_BLACKMARKET" chance="330.75" />
+    <LootListReference name="LOCKER_LOOT_ARTEFACTS" chance="2.25" />
+    <LootListReference name="LOCKER_LOOT_CAPE_BP" chance="0.375" />
   </Lootlist>
   <Lootlist name="OUTLAND_LOCKER_T8_LOOT">
     <LootListReference name="GENERAL_TREASURE_LOOT" chance="1.6" />
-
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="2">
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.12" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.6" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="3" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="5" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="7" />
-      </OR>
-    </AND>
-    <OR chance="3">
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.12" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.6" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="3" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="5" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="7" />
-    </OR>
-    <OR chance="0.5">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.12" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="7" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="5" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="3" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.6" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.12" />
-      </OR>
-    </OR>
-  </Lootlist>
-
-
-  <Lootlist name="ROYAL_CHEST_T5_LOOT">
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="1.125">
-        <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="1.125">
-      <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.04" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.2" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="1" />
-    </OR>
-  </Lootlist>
-  <Lootlist name="ROYAL_CHEST_T7_LOOT">
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="2.25">
-        <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="2.25">
-      <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.04" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.2" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="1" />
-    </OR>
+    <LootListReference name="LOCKER_LOOT_BLACKMARKET" chance="441" />
+    <LootListReference name="LOCKER_LOOT_ARTEFACTS" chance="3" />
+    <LootListReference name="LOCKER_LOOT_CAPE_BP" chance="0.5" />
   </Lootlist>
   
+  <!--CHEST LOOT-->
   <Lootlist name="OUTLAND_CHEST_T6_LOOT">
-    <LootListReference name="GENERAL_TREASURE_LOOT" chance="5.2" />    
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="1.5">
-        <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="2.25">
-      <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.04" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.2" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="1" />
-    </OR>
-    <OR chance="0.375">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
-  </Lootlist>
-  
+    <LootListReference name="GENERAL_TREASURE_LOOT" chance="5.2" />
+    <LootListReference name="CHEST_LOOT_BLACKMARKET" chance="330.75" />
+    <LootListReference name="CHEST_LOOT_ARTEFACTS" chance="2.25" />
+    <LootListReference name="LOOT_CAPE_BP" chance="0.375"/>
+  </Lootlist>  
   <Lootlist name="OUTLAND_CHEST_T7_LOOT">
     <LootListReference name="GENERAL_TREASURE_LOOT" chance="5.5" />
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="2.25">
-        <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="3.375">
-      <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.04" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.2" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="1" />
-    </OR>
-    <OR chance="0.5625">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
-  </Lootlist>
-  
+    <LootListReference name="CHEST_LOOT_BLACKMARKET" chance="496.125" />
+    <LootListReference name="CHEST_LOOT_ARTEFACTS" chance="3.375" />
+    <LootListReference name="LOOT_CAPE_BP" chance="0.5625"/>
+  </Lootlist>  
   <Lootlist name="OUTLAND_CHEST_T8_LOOT">
     <LootListReference name="GENERAL_TREASURE_LOOT" chance="5.8" />
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="3">
-        <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-        <!-- Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T5_GEAR_LOOT" weight="1" />
-        <LootListReference name="CHEST_T4_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-
-    <OR chance="4.5">
-      <!-- Settings on 31.7.2017 doubling chest spawn rate to twice a day, divided rewards by 2 -->
-      <!-- Artefact Loot -->
-      <LootListReference name="MELD_8_1_ALL_LOOT" weight="0.04" />
-      <LootListReference name="MELD_7_1_ALL_LOOT" weight="0.2" />
-      <LootListReference name="MELD_6_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_5_1_ALL_LOOT" weight="1" />
-      <LootListReference name="MELD_4_1_ALL_LOOT" weight="1" />
-    </OR>
-    <OR chance="0.75">
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T4_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T5_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
+    <LootListReference name="CHEST_LOOT_BLACKMARKET" chance="661.5" />
+    <LootListReference name="CHEST_LOOT_ARTEFACTS" chance="4.5" />
+    <LootListReference name="LOOT_CAPE_BP" chance="0.75"/>
   </Lootlist>
 
-
+  <!--CASTLE LOOT-->
   <Lootlist name="OUTLAND_COFFER_T6_LOOT">
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="24">
-        <!--Resource Loot -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="6">
-      <!--Artefact Loot-->
-      <OR weight="2">
-        <LootListReference name="MELD_8_2_ALL_LOOT" weight="0.04" />
-        <LootListReference name="MELD_7_2_ALL_LOOT" weight="0.2" />
-        <LootListReference name="MELD_6_2_ALL_LOOT" weight="1" />
-      </OR>
-      <OR weight="1">
-        <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-        <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-        <Item type="T6_SOUL" amount="25-50" weight="1" />
-      </OR>
-    <OR chance="3">
-        <!--Artefact Loot  -->
-        <OR weight="2">
-          <LootListReference name="MELD_8_3_ALL_LOOT" weight="0.04" />
-          <LootListReference name="MELD_7_3_ALL_LOOT" weight="0.2" />
-          <LootListReference name="MELD_6_3_ALL_LOOT" weight="1" />
-        </OR>
-        <OR weight="1">
-          <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-          <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-          <Item type="T6_SOUL" amount="25-50" weight="1" />
-        </OR>
-      </OR>
-    </OR>
-    <OR chance="1.5">
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="252"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="9"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="1.5"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="16.88" />
   </Lootlist>
   <Lootlist name="OUTLAND_COFFER_T7_LOOT">
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="36">
-        <!--Resource Loot-->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="9">
-      <!--Artefact Loot-->
-      <OR weight="2">
-        <LootListReference name="MELD_8_2_ALL_LOOT" weight="0.04" />
-        <LootListReference name="MELD_7_2_ALL_LOOT" weight="0.2" />
-        <LootListReference name="MELD_6_2_ALL_LOOT" weight="1" />
-      </OR>
-      <OR weight="1">
-        <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-        <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-        <Item type="T6_SOUL" amount="25-50" weight="1" />
-      </OR>
-      <OR chance="4.5">
-        <!--Artefact Loot  -->
-        <OR weight="2">
-          <LootListReference name="MELD_8_3_ALL_LOOT" weight="0.04" />
-          <LootListReference name="MELD_7_3_ALL_LOOT" weight="0.2" />
-          <LootListReference name="MELD_6_3_ALL_LOOT" weight="1" />
-        </OR>
-        <OR weight="1">
-          <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-          <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-          <Item type="T6_SOUL" amount="25-50" weight="1" />
-        </OR>
-      </OR>
-    </OR>
-    <OR chance="2.25">
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="378"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="13.5"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="2.25"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="25.3125" />
   </Lootlist>
   <Lootlist name="OUTLAND_COFFER_T8_LOOT">
-    <AND chance="220.5">
-      <!-- Moved chances for chest loot BEFORE the tier selection to ensure not all loot is of the same Tier! - Robin -->
-      <OR chance="48">
-        <!-- Resource Loot  -->
-        <LootListReference name="CHEST_T8_GEAR_LOOT" weight="0.04" />
-        <LootListReference name="CHEST_T7_GEAR_LOOT" weight="0.2" />
-        <LootListReference name="CHEST_T6_GEAR_LOOT" weight="1" />
-      </OR>
-    </AND>
-    <OR chance="12">
-      <!--Artefact Loot  -->
-      <OR weight="2">
-        <LootListReference name="MELD_8_2_ALL_LOOT" weight="0.04" />
-        <LootListReference name="MELD_7_2_ALL_LOOT" weight="0.2" />
-        <LootListReference name="MELD_6_2_ALL_LOOT" weight="1" />
-      </OR>
-      <OR weight="1">
-        <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-        <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-        <Item type="T6_SOUL" amount="25-50" weight="1" />
-      </OR>
-      <OR chance="6">
-        <!--Artefact Loot  -->
-        <OR weight="2">
-          <LootListReference name="MELD_8_3_ALL_LOOT" weight="0.04" />
-          <LootListReference name="MELD_7_3_ALL_LOOT" weight="0.2" />
-          <LootListReference name="MELD_6_3_ALL_LOOT" weight="1" />
-        </OR>
-        <OR weight="1">
-          <Item type="T8_SOUL" amount="25-50" weight="0.04" />
-          <Item type="T7_SOUL" amount="25-50" weight="0.2" />
-          <Item type="T6_SOUL" amount="25-50" weight="1" />
-        </OR>
-      </OR>
-    </OR>
-    <OR chance="3">
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_HERETIC_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_HERETIC_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_HERETIC_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_UNDEAD_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_UNDEAD_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_UNDEAD_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_KEEPER_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_KEEPER_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_KEEPER_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_MORGANA_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_MORGANA_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_MORGANA_BP" amount="1" weight="0.04" />
-      </OR>
-      <OR weight="1">
-        <Item type="T6_CAPEITEM_DEMON_BP" amount="1" weight="1" />
-        <Item type="T7_CAPEITEM_DEMON_BP" amount="1" weight="0.2" />
-        <Item type="T8_CAPEITEM_DEMON_BP" amount="1" weight="0.04" />
-      </OR>
-    </OR>
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="504"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="18"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="3"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="33.75" />
+  </Lootlist>
+
+  <!--CASTLE OUTPOST LOOT -->
+  <Lootlist name="OUTLAND_COFFER_CASTLEOUTPOST_T4_LOOT">
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="63"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="2.25"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="0.375"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="4.21875"/>
+  </Lootlist>
+  <Lootlist name="OUTLAND_COFFER_CASTLEOUTPOST_T5_LOOT">
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="94.5"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="3.375"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="0.5625"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="6.328125"/>
+  </Lootlist>
+  <Lootlist name="OUTLAND_COFFER_CASTLEOUTPOST_T6_LOOT">
+    <LootListReference name="CASTLE_LOOT_BLACKMARKET" chance="126"/>
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="4.5"/>
+    <LootListReference name="LOOT_CAPE_BP" chance="0.75"/>
+    <LootListReference name="FRAGMENT_LOOT_10X" chance="8.4375"/>
   </Lootlist>
 
 
@@ -16875,6 +16440,15 @@
     </OR>      
   </Lootlist>
   <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL2">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="6" chance="1.0" />
+    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="1">      
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL3">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="7" chance="1.0" />
     <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
@@ -16883,19 +16457,47 @@
       <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
     </OR>
   </Lootlist>
-  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL3">
-    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="8" chance="1.0" />
-    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL4">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="7" chance="1.0" />
     <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
-    <OR chance="1">      
+    <OR chance="1">
       <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
       <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
     </OR>
   </Lootlist>
-  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL1">
+  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL5">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="8" chance="1.0" />
+    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />    
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="1">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL6">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="8" chance="1.0" />
     <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="1">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_BONUS_TOWERLVL7">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="9" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="1">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  
+  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL1">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="7" chance="1.0" />
     <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <OR chance="2">      
@@ -16904,35 +16506,93 @@
     </OR>
   </Lootlist>
   <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL2">
-    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="10" chance="1.0" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="8" chance="1.0" />
     <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <OR chance="2">      
       <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
       <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL3">
-    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="11" chance="1.0" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="9" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <OR chance="2">      
       <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
       <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
     </OR>
   </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL4">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="10" chance="1.0" />
+    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
+    <OR chance="2">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL5">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="11" chance="1.0" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="2">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL6">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="12" chance="1.0" />
+    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />    
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="2">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_WINNER_TOWERLVL7">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="13" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <OR chance="2">
+      <LootListReference name="T7_DIRECTLOOTDROP_WHITE" weight="2" />
+      <LootListReference name="T8_DIRECTLOOTDROP_WHITE" weight="1" />
+    </OR>
+  </Lootlist>
+  
   <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL1">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="7" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL2">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="8" chance="1.0" />
     <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
   </Lootlist>
-  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL2">
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL3">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="9" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL4">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="10" chance="1.0" />
     <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
   </Lootlist>
-  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL3">
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL5">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="11" chance="1.0" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL6">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="12" chance="1.0" />
+    <Item type="T3_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
+  </Lootlist>
+  <Lootlist name="CRYSTALGVG_LOOT_NOMATCH_TOWERLVL7">
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="13" chance="1.0" />
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
   </Lootlist>
 
@@ -17185,12 +16845,37 @@
 
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_AUG2019_LOOT">
     <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
+	  <OR>
+      <Item type="UNIQUE_FURNITUREITEM_ADC_STATUE_MAGE_A" weight="1" />
+      <Item type="UNIQUE_FURNITUREITEM_ADC_HEALING_CIRCLE_A" weight="4" />
+      <Item type="UNIQUE_FURNITUREITEM_ADC_GLASS_SPHERE_A" weight="8" />
+    </OR>
   </Lootlist>
 
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_SEP2019_LOOT">
     <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
+    <OR>
+      <Item type="UNIQUE_FURNITUREITEM_HERETIC_STOVE_A" weight="1" />
+      <Item type="UNIQUE_FURNITUREITEM_HERETICS_TOOL_BOARD_A" weight="2" />
+      <Item type="UNIQUE_FURNITUREITEM_HERETIC_BARREL_BURNING_A" weight="8" />
+    </OR>
   </Lootlist>
   
+  <Lootlist name="UNIQUE_LOOTCHEST_ADC_OCT2019_LOOT">
+    <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
+    <OR>
+      <Item type="UNIQUE_FURNITUREITEM_MORGANA_PENTAGRAM" enchantmentlevel="3" weight="4"/>
+      <Item type="UNIQUE_FURNITUREITEM_MORGANA_CANDLESTAND_A" weight="6"/>
+      <Item type="PLAYERISLAND_FURNITUREITEM_FARM_DECO_D" weight="4"/>
+      <Item type="UNIQUE_HEAD_VANITY_PUMPKIN_01" weight="2" />
+      <Item type="UNIQUE_HEAD_VANITY_PUMPKIN_02" weight="2" />
+      <Item type="UNIQUE_HEAD_VANITY_PUMPKIN_03" weight="2" />
+      <Item type="UNIQUE_HEAD_VANITY_SKELETON" weight="1" />
+      <Item type="UNIQUE_ARMOR_VANITY_SKELETON" weight="2" />
+      <Item type="UNIQUE_SHOES_VANITY_SKELETON" weight="2" />
+      <Item type="UNIQUE_CAPE_VANITY_SKELETON" weight="2" />
+    </OR>
+  </Lootlist>
 
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_GENERAL">
     <!--Guaranteed Fame Book-->

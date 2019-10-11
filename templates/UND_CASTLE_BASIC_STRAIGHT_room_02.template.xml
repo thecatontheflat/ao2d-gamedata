@@ -1174,10 +1174,10 @@
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="25 0 15" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="25 0 -15" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="5 0 -15" roty="270" />
-    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="25 0 5" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_DIAGONAL_A_CALM" pos="25 0 25" roty="90" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="15 0 25" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="15 0 5" roty="180" />
+    <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="25 0 5" roty="180" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="-7.5 0 35" roty="270" scale="1 0.6130594 1" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="-7.5 0 -35" roty="270" scale="1 0.6130594 1" />
     <tile name="FOREST_GREEN_FILL_CITY_BORDERSTONE_B" pos="7.5 0 35" roty="90" scale="1 0.6130594 1" />

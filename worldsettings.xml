@@ -91,7 +91,7 @@
       clusterdangerbonustype="black"
       requiredreputationtoenter="-50000"
       allowfactionflagging="false" 
-	  vanityvisibility="Allowed"
+	    vanityvisibility="Allowed"
       />
 
     <archetype
@@ -191,7 +191,7 @@
       />
 
     <archetype
-      name = "CITY-GREEN"
+      name = "CITY-GREEN-01"
       uipvptype="Safe"
       pvpwarningtype="safe"
       pvprule="PvpDisabled"
@@ -205,6 +205,27 @@
 			buildingcraftcapacityregenfactor="1"
       itempowersoftcap="0"
       itempowerscalingfactor="0"        
+      animalgrowthfactor="1"
+      cropyieldfactor="1"
+      requiredreputationtoenter="-50000"
+	  vanityvisibility="AllowedAndDefault"
+      />
+
+    <archetype
+      name = "CITY-GREEN-02"
+      uipvptype="Safe"
+      pvpwarningtype="safe"
+      pvprule="PvpDisabled"
+      playersarelethal="false"
+      mobsarelethal="false"
+      showpvpplayeronminimap="false"
+      showfriendlycount="true"
+      showhostilecount="false"
+      spellcooldownsonenteringseconds="0"
+			craftefficiencybonus="0.18"
+			buildingcraftcapacityregenfactor="1"
+      itempowersoftcap="0"
+      itempowerscalingfactor="0"
       animalgrowthfactor="1"
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
@@ -497,7 +518,25 @@
     <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" tier="5" clustertype="OPENPVP_BLACK_2" />
     <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" tier="6" clustertype="OPENPVP_BLACK_2" />
     <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" tier="7" clustertype="OPENPVP_BLACK_2" />
-    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" tier="8" clustertype="OPENPVP_BLACK_2" />  
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" tier="8" clustertype="OPENPVP_BLACK_2" />
+
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="1"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="2"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="3"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="4"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="5"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="6"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="7"/>
+    <customscaling itempowersoftcap="1000" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_01" tier="8"/>  
+  
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="1"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="2"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="3"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="4"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="5"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="6"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="7"/>
+    <customscaling itempowersoftcap="1200" itempowerscalingfactor="0.5" clustertype="PLAYERCITY_SAFEAREA_02" tier="8"/>    
   </gvgitempowerscaling>
 
   <hellgatemobtypes>    
@@ -607,7 +646,7 @@
 		</clustertype>
 
     <clustertype name="CITY"
-      archetype="CITY-GREEN"
+      archetype="CITY-GREEN-01"
       logoutseconds="10"
 			editorcolor="255, 0, 255"
 			furnitureobjectsallowed="true"
@@ -636,8 +675,8 @@
       <mobspawns defaulttimefactor="0.5"/>
     </clustertype>
 
-    <clustertype name="PLAYERCITY_SAFEAREA"
-      archetype="CITY-GREEN"
+    <clustertype name="PLAYERCITY_SAFEAREA_01"
+      archetype="CITY-GREEN-01"
       logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="true"
@@ -650,8 +689,22 @@
       allowfactionrewards="false">
     </clustertype>
 
+    <clustertype name="PLAYERCITY_SAFEAREA_02"
+      archetype="CITY-GREEN-02"
+      logoutseconds="10"
+      editorcolor="255, 0, 255"
+      furnitureobjectsallowed="true"
+      isplayercity="true"
+      hellgatemobminimapvisible="true"
+      hellgateclustermessage="true"
+      isdungeon="false"
+      allowmounts="true"
+      playerfactionaffiliated="true"
+      allowfactionrewards="false">
+    </clustertype>
+
     <clustertype name="PLAYERCITY_SAFEAREA_NOFURNITURE"
-      archetype="CITY-GREEN"
+      archetype="CITY-GREEN-01"
       logoutseconds="10"
       editorcolor="255, 0, 255"
       furnitureobjectsallowed="false"
@@ -715,11 +768,11 @@
       </spawnbuff>
       <resourcespawns defaulttimefactor="1.0">
         <resourcetier tier="1" timefactor="1.0"/>
-        <resourcetier tier="2" timefactor="0.35"/>
-        <resourcetier tier="3" timefactor="0.25"/>
-        <resourcetier tier="4" timefactor="0.2"/>
+        <resourcetier tier="2" timefactor="0.7"/>
+        <resourcetier tier="3" timefactor="0.5"/>
+        <resourcetier tier="4" timefactor="0.4"/>
       </resourcespawns>
-      <mobspawns defaulttimefactor="0.15">
+      <mobspawns defaulttimefactor="0.3">
         <!--Tier 1 -->
         <mobspawn name="MOB_RABBIT" timefactor="1" />
         <mobspawn name="T1_MOB_HIDE_SWAMP_TOAD" timefactor="1" />
@@ -728,22 +781,22 @@
         <mobspawn name="T1_MOB_HIDE_HIGHLAND_MARMOT" timefactor="1" />
         <!--Tier 2 -->
         <mobspawn name="MOB_FOX" timefactor="0.35" />
-        <mobspawn name="T2_MOB_HIDE_SWAMP_SNAKE" timefactor="0.35" />
-        <mobspawn name="T2_MOB_HIDE_STEPPE_IMPALA" timefactor="0.35" />
+        <mobspawn name="T2_MOB_HIDE_SWAMP_SNAKE" timefactor="0.7" />
+        <mobspawn name="T2_MOB_HIDE_STEPPE_IMPALA" timefactor="0.7" />
         <!--Tier 3 -->
         <mobspawn name="MOB_WOLF" timefactor="0.25" />
-        <mobspawn name="T3_MOB_HIDE_SWAMP_GIANTTOAD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_HIDE_STEPPE_MOABIRD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_SWAMP_DRYAD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_STEPPE_COUGAR" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_GREEN_OREELEMENTAL" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_FOREST_SPIRIT" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_HIGHLAND_EARTHELEMENTAL" timefactor="0.25" />
+        <mobspawn name="T3_MOB_HIDE_SWAMP_GIANTTOAD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_HIDE_STEPPE_MOABIRD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_SWAMP_DRYAD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_STEPPE_COUGAR" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_GREEN_OREELEMENTAL" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_FOREST_SPIRIT" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_HIGHLAND_EARTHELEMENTAL" timefactor="0.5" />
         <!--Tier 4 -->
         <mobspawn name="MOB_BOAR" timefactor="0.2"/>
-        <mobspawn name="T4_MOB_HIDE_SWAMP_MONITORLIZARD" timefactor="0.2"/>
-        <mobspawn name="T4_MOB_HIDE_STEPPE_GIANTSTAG" timefactor="0.2"/>
+        <mobspawn name="T4_MOB_HIDE_SWAMP_MONITORLIZARD" timefactor="0.4"/>
+        <mobspawn name="T4_MOB_HIDE_STEPPE_GIANTSTAG" timefactor="0.4"/>
       </mobspawns>
     </clustertype>
 
@@ -794,30 +847,30 @@
       </spawnbuff>
       <resourcespawns defaulttimefactor="1.0">
         <resourcetier tier="1" timefactor="1.0"/>
-        <resourcetier tier="2" timefactor="0.35"/>
-        <resourcetier tier="3" timefactor="0.25"/>
-        <resourcetier tier="4" timefactor="0.2"/>
-        <resourcetier tier="5" timefactor="0.3"/>
+        <resourcetier tier="2" timefactor="0.7"/>
+        <resourcetier tier="3" timefactor="0.5"/>
+        <resourcetier tier="4" timefactor="0.4"/>
+        <resourcetier tier="5" timefactor="0.6"/>
       </resourcespawns>
       <mobspawns defaulttimefactor="1.0">
         <!--Tier 2 -->
-        <mobspawn name="MOB_FOX" timefactor="0.35" />
-        <mobspawn name="T2_MOB_HIDE_SWAMP_SNAKE" timefactor="0.35" />
-        <mobspawn name="T2_MOB_HIDE_STEPPE_IMPALA" timefactor="0.35" />
+        <mobspawn name="MOB_FOX" timefactor="0.5" />
+        <mobspawn name="T2_MOB_HIDE_SWAMP_SNAKE" timefactor="0.5" />
+        <mobspawn name="T2_MOB_HIDE_STEPPE_IMPALA" timefactor="0.5" />
         <!--Tier 3 -->
-        <mobspawn name="MOB_WOLF" timefactor="0.25" />
-        <mobspawn name="T3_MOB_HIDE_SWAMP_GIANTTOAD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_HIDE_STEPPE_MOABIRD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_SWAMP_DRYAD" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_STEPPE_COUGAR" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_GREEN_OREELEMENTAL" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_FOREST_SPIRIT" timefactor="0.25" />
-        <mobspawn name="T3_MOB_CRITTER_HIGHLAND_EARTHELEMENTAL" timefactor="0.25" />
+        <mobspawn name="MOB_WOLF" timefactor="0.5" />
+        <mobspawn name="T3_MOB_HIDE_SWAMP_GIANTTOAD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_HIDE_STEPPE_MOABIRD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_SWAMP_DRYAD" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_STEPPE_COUGAR" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_GREEN_OREELEMENTAL" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_FOREST_SPIRIT" timefactor="0.5" />
+        <mobspawn name="T3_MOB_CRITTER_HIGHLAND_EARTHELEMENTAL" timefactor="0.5" />
         <!--Tier 4 -->
-        <mobspawn name="MOB_BOAR" timefactor="0.2"/>
-        <mobspawn name="T4_MOB_HIDE_SWAMP_MONITORLIZARD" timefactor="0.2"/>
-        <mobspawn name="T4_MOB_HIDE_STEPPE_GIANTSTAG" timefactor="0.2"/>
+        <mobspawn name="MOB_BOAR" timefactor="0.4"/>
+        <mobspawn name="T4_MOB_HIDE_SWAMP_MONITORLIZARD" timefactor="0.4"/>
+        <mobspawn name="T4_MOB_HIDE_STEPPE_GIANTSTAG" timefactor="0.4"/>
       </mobspawns>
 		</clustertype>
 
@@ -1552,21 +1605,21 @@
   <!-- ISLANDS -->
   <islands>
     <island name="PLAYER_ISLAND" >
-      <cluster name="ISLAND-PLAYER-0001a" level="0" silverprice="12500"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_0_DESC" premiumrequirement="30" />   
-	    <cluster name="ISLAND-PLAYER-0001b" level="1" silverprice="37500"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_1_DESC" premiumrequirement="30" />   
-	    <cluster name="ISLAND-PLAYER-0001c" level="2" silverprice="125000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_2_DESC" premiumrequirement="30" />   
-	    <cluster name="ISLAND-PLAYER-0001d" level="3" silverprice="375000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_3_DESC" premiumrequirement="30" />   
-	    <cluster name="ISLAND-PLAYER-0001e" level="4" silverprice="1250000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_4_DESC" premiumrequirement="30" />   
-	    <cluster name="ISLAND-PLAYER-0001f" level="5" silverprice="2500000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_5_DESC" premiumrequirement="30" />   
+      <cluster name="ISLAND-PLAYER-0001a" level="0" silverprice="18750"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_0_DESC" premiumrequirement="30" />   
+	    <cluster name="ISLAND-PLAYER-0001b" level="1" silverprice="56250"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_1_DESC" premiumrequirement="30" />   
+	    <cluster name="ISLAND-PLAYER-0001c" level="2" silverprice="187500"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_2_DESC" premiumrequirement="30" />   
+	    <cluster name="ISLAND-PLAYER-0001d" level="3" silverprice="562500"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_3_DESC" premiumrequirement="30" />   
+	    <cluster name="ISLAND-PLAYER-0001e" level="4" silverprice="1875000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_4_DESC" premiumrequirement="30" />   
+	    <cluster name="ISLAND-PLAYER-0001f" level="5" silverprice="3750000"  descloca="@ISLAND_ACCESS_PLAYER_ISLAND_5_DESC" premiumrequirement="30" />   
     </island>
     
     <island name="GUILD_ISLAND">
-      <cluster name="ISLAND-GUILD-0001a" level="0" silverprice="75000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_0_DESC" premiumrequirement="0" />    
-	    <cluster name="ISLAND-GUILD-0001b" level="1" silverprice="150000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_1_DESC" premiumrequirement="0" />    
-	    <cluster name="ISLAND-GUILD-0001c" level="2" silverprice="450000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_2_DESC" premiumrequirement="0" />    
-	    <cluster name="ISLAND-GUILD-0001d" level="3" silverprice="1350000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_3_DESC" premiumrequirement="0" />    
-	    <cluster name="ISLAND-GUILD-0001e" level="4" silverprice="4050000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_4_DESC" premiumrequirement="0" />    
-      <cluster name="ISLAND-GUILD-0001f" level="5" silverprice="12150000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_5_DESC" premiumrequirement="0" />    
+      <cluster name="ISLAND-GUILD-0001a" level="0" silverprice="112500"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_0_DESC" premiumrequirement="0" />    
+	    <cluster name="ISLAND-GUILD-0001b" level="1" silverprice="225000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_1_DESC" premiumrequirement="0" />    
+	    <cluster name="ISLAND-GUILD-0001c" level="2" silverprice="675000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_2_DESC" premiumrequirement="0" />    
+	    <cluster name="ISLAND-GUILD-0001d" level="3" silverprice="2025000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_3_DESC" premiumrequirement="0" />    
+	    <cluster name="ISLAND-GUILD-0001e" level="4" silverprice="6075000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_4_DESC" premiumrequirement="0" />    
+      <cluster name="ISLAND-GUILD-0001f" level="5" silverprice="18225000"  descloca="@ISLAND_ACCESS_GUILD_ISLAND_5_DESC" premiumrequirement="0" />    
     </island>
   </islands>
 
@@ -1747,30 +1800,30 @@
   </hellclusters>
 
   <timeregions>
-    <timeregion name="US_05_00" starttime="05:00" timezone="-9" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="US_04_00" starttime="04:00" timezone="-8" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="US_03_00" starttime="03:00" timezone="-7" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="US_02_00" starttime="02:00" timezone="-6" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="US_01_00" starttime="01:00" timezone="-5" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="BR_00_00" starttime="00:00" timezone="-4" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="BR_23_00" starttime="23:00" timezone="-3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="BR_22_00" starttime="22:00" timezone="-2" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="EU_21_00" starttime="21:00" timezone="-1" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="EU_20_00" starttime="20:00" timezone="0" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="EU_19_00" starttime="19:00" timezone="+1" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="EU_RU_18_00" starttime="18:00" timezone="+2" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="RU_17_00" starttime="17:00" timezone="+3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="RU_16_00" starttime="16:00" timezone="+4" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="RU_15_00" starttime="15:00" timezone="+5" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="RU_14_00" starttime="14:00" timezone="+6" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
+    <timeregion name="US_05_00" starttime="05:00" timezone="-9" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="US_04_00" starttime="04:00" timezone="-8" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="US_03_00" starttime="03:00" timezone="-7" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="US_02_00" starttime="02:00" timezone="-6" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="US_01_00" starttime="01:00" timezone="-5" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="BR_00_00" starttime="00:00" timezone="-4" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="BR_23_00" starttime="23:00" timezone="-3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="BR_22_00" starttime="22:00" timezone="-2" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="EU_21_00" starttime="21:00" timezone="-1" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="EU_20_00" starttime="20:00" timezone="0" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="EU_19_00" starttime="19:00" timezone="+1" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="EU_RU_18_00" starttime="18:00" timezone="+2" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="RU_17_00" starttime="17:00" timezone="+3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="RU_16_00" starttime="16:00" timezone="+4" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="RU_15_00" starttime="15:00" timezone="+5" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="RU_14_00" starttime="14:00" timezone="+6" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
 
-    <timeregion name="RU_ASIA_13_00" starttime="13:00" timezone="+7" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
-    <timeregion name="RU_ASIA_12_00" starttime="12:00" timezone="+8" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00"/>
+    <timeregion name="RU_ASIA_13_00" starttime="13:00" timezone="+7" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
+    <timeregion name="RU_ASIA_12_00" starttime="12:00" timezone="+8" siegecamptime="3:00" territorydailyinstancedbattletime = "2:00" castlescoringtime="01:00"/>
     <!--Can be removed probably-->
-    <timeregion name="AMERICA_EAST" starttime="12:00" timezone="+8" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="AMERICA_WEST" starttime="14:00" timezone="+5" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="EU" starttime="16:00" timezone="0" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
-    <timeregion name="RUSSIA" starttime="18:00" timezone="+3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00"/>
+    <timeregion name="AMERICA_EAST" starttime="12:00" timezone="+8" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="AMERICA_WEST" starttime="14:00" timezone="+5" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="EU" starttime="16:00" timezone="0" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
+    <timeregion name="RUSSIA" starttime="18:00" timezone="+3" siegecamptime="18:00" territorydailyinstancedbattletime = "19:00" castlescoringtime="20:00"/>
   </timeregions>    
 
   <worldmap>
@@ -1778,7 +1831,7 @@
       <banner type="STARTAREA" resource="Prefabs/MAP_ALBION/MAP_BANNER_START"/>
       <banner type="GREEN" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
       <banner type="CITY-START" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
-      <banner type="CITY-GREEN" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
+      <banner type="CITY-GREEN-01" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
       <banner type="CITY-RED" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
       <banner type="CITY-BLACK" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>
       <banner type="ISLAND" resource="Prefabs/MAP_ALBION/MAP_BANNER_SAFE"/>

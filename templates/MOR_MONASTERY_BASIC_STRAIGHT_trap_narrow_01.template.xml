@@ -501,6 +501,12 @@
     </layergroup>
     <layergroup name="ENCOUNTER">
       <layer id="Layer_01" name="mob_solo_hard_01">
+        <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="15.92 -2 -25.01">
+          <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="15.19 -2 25" roty="180">
+          <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
+        </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="25.04 -2 -5.75" roty="270">
           <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
         </tile>
@@ -535,6 +541,12 @@
         </tile>
       </layer>
       <layer id="Layer_02" name="mob_solo_hard_03">
+        <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="15.92 -2 -25.01">
+          <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="15.19 -2 25" roty="180">
+          <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
+        </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_MAGMASPHERE" pos="25.04 -2 -5.75" roty="270">
           <mobspawnpoint spawnbehavior="MORGANA_MAGMASPHERE" />
         </tile>
@@ -589,6 +601,12 @@
         </tile>
       </layer>
       <layer id="Layer_05" name="mob_veteran_hard_02">
+        <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="15.19 -2 25" roty="180">
+          <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="15.92 -2 -25.01">
+          <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
+        </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="25.04 -2 -5.75" roty="270">
           <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
         </tile>
@@ -649,6 +667,12 @@
         </tile>
       </layer>
       <layer id="Layer_15" name="mob_veteran_hard_03">
+        <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="15.19 -2 25" roty="180">
+          <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="15.92 -2 -25.01">
+          <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
+        </tile>
         <tile name="SpawnPoint_RANDOM_MORGANA_VETERAN_MAGMASPHERE" pos="25.13 -2 3.96" roty="270">
           <mobspawnpoint spawnbehavior="MORGANA_VETERAN_MAGMASPHERE" />
         </tile>
@@ -841,13 +865,13 @@
     <tile name="FOREST_GREEN_MOR_TORTURER_BLOOD_SPLATTER_LARGE_B" pos="24 -2 5" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_RAILING_DECO_B" pos="5 0 -30" roty="133" />
     <tile name="FOREST_GREEN_MOR_CASTLE_RAILING_DECO_B" pos="5 0 29" roty="133" />
-    <tile name="FOREST_GREEN_MOR_CASTLE_RAILING_DECO_F" pos="5 0 -30" />
-    <tile name="FOREST_GREEN_MOR_TORTURER_BLOOD_SPLATTER_LARGE_B" pos="7 -2 2" roty="270" />
+    <tile name="FOREST_GREEN_MOR_TORTURER_BLOOD_SPLATTER_LARGE_B" pos="7 -2 1" roty="180" />
     <tile name="FOREST_GREEN_MOR_CASTLE_RAILING_DECO_F" pos="5 0 29" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_A" pos="21 -2 15" roty="180" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_B" pos="26 -2 10" roty="270" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_A" pos="21 -2 25" roty="180" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_B" pos="26 -2 19" roty="270" />
+    <tile name="FOREST_GREEN_MOR_CASTLE_RAILING_DECO_F" pos="5 0 -30" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_B" pos="26 -2 -11" roty="270" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_A" pos="21 -2 -15" roty="180" />
     <tile name="FOREST_GREEN_MOR_TORTURER_CELL_A" pos="21 -2 -25" roty="180" />

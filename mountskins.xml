@@ -9,6 +9,7 @@
 	<mountskin goldprice="0"     reference="SKIN_HORSE_PONY_TELLAFRIEND"             mountview="MountViewSmall"  state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_HORSE_UNDEAD"                       mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_HORSE_UNDEAD_HALLOWEEN"             mountview="MountViewMedium" state="Locked" />
+	<mountskin goldprice="0"     reference="SKIN_HORSE_GUILDBANNER"                  mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="750"   reference="SKIN_HORSE_BROWN"                        mountview="MountViewMedium"/>
 	<mountskin goldprice="1500"  reference="SKIN_HORSE_KEEPER"                       mountview="MountViewMedium"/>
 	<mountskin goldprice="4000"  reference="SKIN_HORSE_UNICORN"                      mountview="MountViewMedium"/>
@@ -28,6 +29,7 @@
 	<mountskin goldprice="0"     reference="SKIN_OX_CART_STARTERPACK"                mountview="MountViewTall"   state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_OX_YAK_TELLAFRIEND"                 mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_OX_TRANSPORT_RAM_TELLAFRIEND"       mountview="MountViewMedium" state="Locked" />
+	<mountskin goldprice="0"     reference="SKIN_OX_CART_HERETIC"                    mountview="MountViewTall"   state="Locked" />
 	<mountskin goldprice="750"   reference="SKIN_OX_BLACKMARKET"                     mountview="MountViewTall"/>
 	<mountskin goldprice="1500"  reference="SKIN_OX_BISON_AH"                        mountview="MountViewTall"/>
 	<mountskin goldprice="3000"  reference="SKIN_OX_BISON_ROYAL"                     mountview="MountViewTall"/>
@@ -41,6 +43,7 @@
 	<mountskin goldprice="0"     reference="SKIN_DIREWOLF_BERNARD_TELLAFRIEND"       mountview="MountViewSmall"  state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_DIREWOLF_HUSKYSLEIGH_TELLAFRIEND"   mountview="MountViewFlat"   state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_DIREWOLF_DIREFOX_TELLAFRIEND"       mountview="MountViewSmall"  state="Locked" />
+    <mountskin goldprice="0"     reference="SKIN_DIREWOLF_BOBTAIL"                   mountview="MountViewSmall"  state="Locked" />
   </mountcategory>
 
   <mountcategory uniquename="STAGS" icon="ICON_STAG">
@@ -49,12 +52,14 @@
 	<mountskin goldprice="0"     reference="SKIN_GIANTSTAG_TELLAFRIEND"              mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_GIANTSTAG_XMAS"                     mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_GIANTSTAG_IMPALA_TELLAFRIEND"       mountview="MountViewSmall"  state="Locked" />
+	<mountskin goldprice="0"     reference="SKIN_GIANTSTAG_DIVINE"                   mountview="MountViewMedium" state="Locked" />
   </mountcategory>
 
   <mountcategory uniquename="COUGARS" icon="ICON_COUGAR">
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_TIGER_WHITE_TELLAFRIEND"     mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_TIGER_TELLAFRIEND"           mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_ARENA"                       mountview="MountViewMedium" state="Locked" />
+  <mountskin goldprice="0"     reference="SKIN_COUGAR_OCCULT"                      mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_TOURNAMENT"                  mountview="MountViewMedium" state="Hidden" />
   </mountcategory>
 

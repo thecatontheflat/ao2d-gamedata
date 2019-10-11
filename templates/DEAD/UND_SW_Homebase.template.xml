@@ -21904,6 +21904,7 @@
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="-226 -1 -84" roty="274" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="-234 -1 -76" roty="94" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_B" pos="-46 8 254" roty="90" />
+    <compoundtile name="_SWAMP_DEAD_UNDEAD_CITY_GiantTomb_COMP" pos="-59 20 186" roty="270" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="-230 -1 -80" roty="184" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="-232 -1 -99" roty="184" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="-176 -2 -140" roty="4" />
@@ -21921,7 +21922,6 @@
     <tile name="SWAMP_DEAD_UND_IRON_FENCE_A" pos="-276 0 -66.5" roty="270" />
     <tile name="SWAMP_DEAD_UND_IRON_FENCE_A" pos="-256 0 -66.5" roty="270" />
     <tile name="SWAMP_DEAD_FILL_FURNITURE_CHAIR_A" pos="100.5 8 -24.5" roty="149" scale="1.200001 1.2 1.200001" />
-    <compoundtile name="_SWAMP_DEAD_UNDEAD_CITY_GiantTomb_COMP" pos="-59 20 186" roty="270" />
     <tile name="SWAMP_DEAD_UND_IRON_FENCE_A" pos="-294.5 0 -139" />
     <tile name="SWAMP_DEAD_CASTLE_INNERCORNER_RAILING_FORTIFIED_A" pos="-129 15 97" />
     <tile name="SWAMP_DEAD_UND_IRON_FENCE_A" pos="-294.5 0 -91" />
@@ -21963,6 +21963,7 @@
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="309 0 -253" roty="90" />
     <tile name="SWAMP_DEAD_FILL_CITY_BORDERSTONE_A" pos="287 0 -241.5" roty="180" />
     <tile name="SWAMP_DEAD_FILL_RUIN_DEBRIS_B" pos="282 2 -255" />
+    <compoundtile name="_SWAMP_DEAD_UNDEAD_CITY_GiantTomb_COMP" pos="-64 20 153" roty="180" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_A" pos="276 0 -279" roty="180" />
     <tile name="SWAMP_DEAD_UND_CRYPT_URN_BROKEN_A" pos="282.5 2 -280.5" roty="180" />
     <tile name="SWAMP_DEAD_UND_STATUE_B" pos="305 1 -255" roty="90" />
@@ -22026,7 +22027,6 @@
     <tile name="SWAMP_DEAD_FILL_CITY_BORDERSTONE_A" pos="-50 8 -54.5" roty="180" />
     <tile name="SWAMP_DEAD_FILL_CITY_BORDERSTONE_A" pos="-25.5 8 -130" roty="90" />
     <tile name="SWAMP_DEAD_FILL_FURNITURE_BENCH_A" pos="-76 8 -100.5" roty="90" />
-    <compoundtile name="_SWAMP_DEAD_UNDEAD_CITY_GiantTomb_COMP" pos="-64 20 153" roty="180" />
     <tile name="SWAMP_DEAD_UND_CRYPT_LIGHT_CANDELABRA_D" pos="311.5 2 -279.5" />
     <tile name="SWAMP_DEAD_UND_CRYPT_URN_GROUP_A" pos="283.5 2 -257" roty="270" />
     <tile name="SWAMP_DEAD_FILL_RUIN_WALL_ARCH_B" pos="314.5 2 -272" roty="90" />

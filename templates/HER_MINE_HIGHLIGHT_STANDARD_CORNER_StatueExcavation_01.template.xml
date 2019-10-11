@@ -314,7 +314,7 @@
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_B" pos="37 0 -8" roty="180" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_B" pos="-19 0 13" />
     <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_C" pos="-1 -4 -16" roty="180" />
-    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_D" pos="-17 0 1" roty="251.05" />
+    <tile name="FOREST_GREEN_HER_FILL_BAGS_PILE_D" pos="-17 0 1" roty="251" />
     <tile name="FOREST_GREEN_HER_FILL_CRANE_LARGE_A" pos="10.5 0 -3.5" roty="330.84" />
     <tile name="FOREST_GREEN_HER_FILL_HANGING_BUCKET_A" pos="-14.5 0 -4.5" roty="40" />
     <tile name="FOREST_GREEN_HER_FILL_HANGING_ROCK_SACK_A" pos="-17.5 -8 -10.5" roty="40" />
@@ -346,7 +346,6 @@
     <tile name="FOREST_GREEN_MOR_FILL_MAGE_PRIESTESS_STATUE_SMALL_A_COLORVERSION" pos="4 -6 11" rot="9.46 11.54 18.76" />
     <tile name="FOREST_GREEN_MOR_POUCH_A" pos="2.5 2 11.5" roty="129.02" />
     <tile name="FOREST_GREEN_MOR_SACRIFICE_ALTAR_C" pos="1.5 0 11.5" rot="345 13 333" />
-    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_HILL_A_NOCOL" pos="-18 0 -3" roty="39" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="-12 0 9" roty="180" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="-11 -4 -12" roty="180" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="-11 -4 -14" roty="90" />
@@ -369,6 +368,8 @@
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="-21 0 -5" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B" pos="6 0 13" roty="270" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_10_A_NOCOL" pos="31 3 -8.5" rot="4 120 184" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_HILL_A" pos="-18 0 -3" roty="39" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="2 -26 -12" roty="160" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE_BIG" pos="-6.5 0 -14.5" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="26.5 4 0.5" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="-1.5 4 20.5" />

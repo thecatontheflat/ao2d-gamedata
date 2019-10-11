@@ -4367,7 +4367,7 @@
     <tile name="FOREST_DEAD_VEG_SOIL_B" pos="-143.5 0 -60.5" roty="90" />
     <tile name="FOREST_DEAD_FILL_RUIN_DEBRIS_A" pos="8 28 -7" />
     <tile name="FOREST_DEAD_FILL_RUIN_DEBRIS_A" pos="6 28 -8" roty="90" />
-    <tile name="FOREST_DEAD_T1_BUSH_C" pos="117.5 8 26.5" roty="303" />
+    <tile name="FOREST_DEAD_T1_BUSH_C" pos="116.5 8 26.5" roty="303" />
     <tile name="FOREST_DEAD_T1_TREE_A" pos="144.5 1 41.5" roty="90" />
     <tile name="FOREST_DEAD_VEG_PLANTS_A" pos="47.5 12 50.5" roty="9" />
     <tile name="FOREST_DEAD_VEG_MOSS_PATCH_A" pos="-44.5 12 -70.5" rot="0 238 357" />
@@ -5479,6 +5479,8 @@
     <tile name="FOREST_DEAD_CASTLE_STRAIGHT_RAILING_FORTIFIED_B" pos="-120 28 25" roty="180" />
     <tile name="FOREST_DEAD_CASTLE_STRAIGHT_RAILING_SMALL_A" pos="8 24 50" roty="270" />
     <tile name="FOREST_DEAD_CASTLE_STRAIGHT_RAILING_A" pos="-50 24 -5" roty="180" />
+    <tile name="FOREST_DEAD_FILL_RUIN_DEBRIS_HILL_A" pos="119 8 29" rot="340 0 0" />
+    <tile name="FOREST_DEAD_T1_TREE_A" pos="-60.5 8 -117.5" roty="180" />
     <criticaltile name="Exit" pos="37.5 7 -37.5" roty="90" id="exit_01" type="exit">
       <exit size="13 13" spawnpos="10 10" faction="Undead" kind="DungeonGroup" roadtype="Primary" />
     </criticaltile>

@@ -893,6 +893,7 @@
     <tile name="HIGHLAND_GREEN_VEG_GRASS_B" pos="-137.5 0 112.5" />
     <tile name="HIGHLAND_GREEN_VEG_GRASS_B" pos="-142.5 0 106.5" />
     <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS" pos="105 0 -95" roty="270" />
+    <tile name="HIGHLAND_GREEN_PLATEAU_PLUG_ROCK_4M_A" pos="-145 -8 50" roty="180" />
     <tile name="WOOD_HIGH_NODE" pos="-17 0 24" roty="270">
       <resourcenode nodetype="high" resourcetype="wood" />
     </tile>
@@ -1250,7 +1251,7 @@
     <tile name="ORE_LOW_NODE" pos="-129 -8 48">
       <resourcenode nodetype="low" resourcetype="ore" />
     </tile>
-    <tile name="ORE_LOW_NODE" pos="-142 -8 48">
+    <tile name="ORE_LOW_NODE" pos="-132 -8 48">
       <resourcenode nodetype="low" resourcetype="ore" />
     </tile>
     <tile name="ORE_LOW_NODE" pos="-128 -8 92">

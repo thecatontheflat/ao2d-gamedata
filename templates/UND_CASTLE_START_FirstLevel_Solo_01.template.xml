@@ -1,8 +1,13 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/UNDEAD/UND_CASTLE_START_FirstLevel_Solo_01.unity" unityguid="2b5833767b06d674eb77096bda55f92c" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-44 -42" colBoundsMax="50 50">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="">
-      <tile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-7 0 -3">
-        <exit size="5 5" spawnpos="2.536246 1.938669" faction="None" kind="Cluster" roadtype="Primary" />
+      <tile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="-2 0 -7">
+        <exit size="6 6" spawnpos="0.04498291 9.019428" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="3.044982 5.019428" />
+            <guard pos="3.021712 -1.015054" />
+          </guards>
+        </exit>
       </tile>
     </criticalscenemember>
   </criticalscenemembers>
@@ -175,7 +180,7 @@
         <compoundtile name="_HIGHLAND_GREEN_SB_GRASS_BUSH_20x20_COMP_01" pos="29 -24 -11" roty="90" />
         <compoundtile name="_HIGHLAND_GREEN_SB_GRASS_BUSH_20x20_COMP_01" pos="31 -24 11" roty="180" />
         <compoundtile name="_HIGHLAND_GREEN_SB_GRASS_BUSH_20x20_COMP_01" pos="-17 -24 28" roty="90" />
-        <compoundtile name="_HIGHLAND_GREEN_SB_TREE_GROVE_30x30_COMP_01" pos="27 -23 27" />
+        <compoundtile name="_HIGHLAND_GREEN_SB_TREE_GROVE_30x30_COMP_01" pos="29 -23 27" />
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_16M_A_DEBRIS_NOCOL" pos="-17 -24 -15" roty="90" />
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="-8 -24 31" roty="270" />
         <tile name="HIGHLAND_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="15 -24 -20" />
@@ -606,7 +611,7 @@
         <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_A" pos="39 -24 24" roty="90" />
         <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_A" pos="38 -24 33" roty="90" />
         <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_B" pos="24 -24 -34" roty="270" />
-        <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_B" pos="-21 -24 13" roty="180" />
+        <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_B" pos="-28 -24 13" roty="180" />
         <tile name="MOUNTAIN_GREEN_FILL_TREE_GIANT_B" pos="-37 -24 2" roty="180" />
         <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_8M_A_DEBRIS_NOCOL" pos="14 -24 -22" />
         <tile name="MOUNTAIN_GREEN_PLATEAU_ROCK_8M_A_DEBRIS_NOCOL" pos="-9 -24 28" roty="90" />
@@ -629,7 +634,7 @@
         <tile name="MOUNTAIN_GREEN_GROUND_OBJECT" pos="-15 -24 -5" />
       </layer>
     </layergroup>
-    <layergroup name="ENCOUNTER">
+    <layergroup name="ENCOUNTER_SOLO">
       <layer id="Layer_01" name="mob_solo_light_03" />
       <layer id="Layer_02" name="mob_solo_light_02">
         <tile name="SpawnPoint_RANDOM_UNDEAD_SOLO_STANDARD" pos="1.39 0.19 28.47" roty="193.52">
@@ -661,9 +666,6 @@
         </tile>
       </layer>
     </layergroup>
-    <criticaltile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-7 0 -3" id="exit_01" type="exit">
-      <exit size="5 5" spawnpos="2.536246 1.938669" faction="None" kind="Cluster" roadtype="Primary" />
-    </criticaltile>
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="5 0 35" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 35" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="5 0 5" roty="270" />
@@ -675,7 +677,7 @@
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 -5" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 0 -15" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="5 0 -15" roty="180" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-2.5 0 14" rot="356.15 180 0" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-2.5 0 14" rot="356 180 0" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-2.5 0 22" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_DIAGONAL_A_CALM" pos="-15 0 -15" roty="270" />
     <tile name="FOREST_GREEN_CASTLE_STRAIGHT_RAILING_C" pos="-18 1 -6" roty="180" />
@@ -687,7 +689,7 @@
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="16 0 -5" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-18 0 -10" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="-18 0 0" roty="270" />
-    <tile name="FOREST_GREEN_UND_CHAIR_A" pos="-12.5 0 -8.5" rot="27 327 20" />
+    <tile name="FOREST_GREEN_UND_CHAIR_A" pos="-12.5 0 2.5" rot="27 327 20" />
     <tile name="FOREST_GREEN_UND_TABLE_BROKEN_A" pos="-13.5 0 -2.5" roty="187" />
     <tile name="FOREST_GREEN_UND_TABLE_BROKEN_B" pos="-13.5 0 -5.5" roty="156" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_SIDE_A" pos="-17 0 -7" />
@@ -755,8 +757,8 @@
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_FALLEN_DIAGONAL_B" pos="8 0 2" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_BROKEN_A" pos="17 0 -1" roty="340" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="6 0 30" />
-    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-8.5 0 25.5" roty="90" />
-    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="-9 0 27" roty="270" />
+    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-9.5 0 27.5" roty="90" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="-11 0 27" roty="270" />
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_INNERCORNER_B" pos="-12 0 3" />
     <tile name="FOREST_GREEN_GROUND_STONES_CALM_B" pos="-1 0 2" roty="180" />
     <tile name="FOREST_GREEN_UND_CHAIR_A" pos="9.5 0 -8.5" roty="328.02" />
@@ -768,16 +770,16 @@
     <tile name="FOREST_GREEN_UND_CRYPT_LIGHT_CANDELABRA_B" pos="5.5 0 8.5" rot="0 294.16 0" />
     <tile name="FOREST_GREEN_UND_TABLE_A" pos="11.5 0 -7" />
     <tile name="FOREST_GREEN_UND_TABLE_A" pos="5 0 -14.5" rot="2.19 256.53 0.58" />
-    <tile name="FOREST_GREEN_UND_TABLE_A" pos="-2 0 -14.5" roty="273.18" />
-    <tile name="FOREST_GREEN_VEG_MOSS_BROWN_B" pos="-15.5 0 24.5" />
+    <tile name="FOREST_GREEN_UND_TABLE_A" pos="-2 0 -15.5" rot="0 267.09 0" />
     <tile name="FOREST_GREEN_VEG_MOSS_BROWN_B" pos="10.5 0 -8.5" />
-    <tile name="FOREST_GREEN_UND_CHAIR_A" pos="-3.5 0 -12.5" roty="75.97" />
+    <tile name="FOREST_GREEN_UND_CHAIR_A" pos="2.5 0 -13.5" roty="76" />
     <tile name="FOREST_GREEN_UND_CHAIR_A" pos="5.5 1 -12.5" rot="358 117 83" scale="0.8118743 0.8118743 0.8118742" />
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="19 -6 3" />
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="19 -6 21" />
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="-19 -6 21" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_WALL_BUTTRESS_A" pos="-19 -6 3" roty="180" />
     <tile name="FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_A" pos="20 0 30" roty="270" />
+    <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="9 0 27" roty="270" />
     <tile name="FOREST_GREEN_UND_CRYPT_RAILING_LONG_C" pos="-6 -22 15" />
     <tile name="FOREST_GREEN_UND_CRYPT_RAILING_LONG_C" pos="-6 -22 21" />
     <tile name="FOREST_GREEN_UND_CRYPT_RAILING_LONG_C" pos="1 -22 20" />
@@ -844,5 +846,17 @@
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A_OBJ" pos="15 -16 25" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 -16 25" roty="180" />
     <tile name="FOREST_GREEN_CASTLE_GROUND_CALM_A" pos="-5 -16 15" roty="180" />
+    <criticaltile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="-2 0 -7" id="exit_01" type="exit">
+      <exit size="6 6" spawnpos="0.04498291 9.019428" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="3.044982 5.019428" />
+          <guard pos="3.021712 -1.015054" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <tile name="FOREST_GREEN_EXPEDITION_AGENCY_PLATFORM" pos="-2 0 -7" />
+    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_A" pos="-2 3.98 -7">
+      <pointlight range="8" intensity="4" color="0.3308824 0.8823529 0.4259635" />
+    </tile>
   </tiles>
 </template>

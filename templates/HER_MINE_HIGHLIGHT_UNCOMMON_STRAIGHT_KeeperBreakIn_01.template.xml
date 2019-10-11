@@ -35,10 +35,10 @@
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_ARCHER" pos="18 0 -8.25" roty="297">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ARCHER" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="-18.86 0 -0.25" roty="250">
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="-17.09 0 -7.44" roty="70">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_DUALCROSSBOW" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="-18.89 0 -7.44" roty="283">
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="-17.06 0 -0.25" roty="103">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_DUALCROSSBOW" />
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_DUALCROSSBOW" pos="21.02 0 -1.46" roty="250">
@@ -49,9 +49,6 @@
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_MINER" pos="44.97 0.02 -24.51" rot="3 44 9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_MINER" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_KEEPER_SOLO_MINIBOSS" pos="-31.87 0 -3.87" roty="100">
-          <mobspawnpoint behavior="GUARD" spawnbehavior="KEEPER_MINIBOSS" />
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_SCAVENGER" pos="34.13 0 29.79" roty="273">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_SCAVENGER" />
@@ -65,8 +62,11 @@
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_EXPLOSIVE_BARREL" pos="-22.07 0 1.78" roty="117">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_EXPLOSIVE_BARREL" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_TANK" pos="-17.57 0 -3.93" roty="283">
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_TANK" pos="-18.38 0 -3.76" roty="103">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_TANK" />
+        </tile>
+        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_MINIBOSS" pos="-29.38 0 -3.55" roty="96">
+          <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_MINIBOSS" />
         </tile>
       </layer>
       <layer id="Layer_03" name="mob_veteran_hard">

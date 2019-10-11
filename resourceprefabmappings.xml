@@ -186,8 +186,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
 
 
       </prefabs>
@@ -481,8 +480,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -757,8 +755,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -1019,8 +1016,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -1285,8 +1281,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -1569,8 +1564,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -1836,8 +1830,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T8_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -3495,8 +3488,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="FOREST_DEAD_T8_TREE_A" weight="40" />
-        <prefab name="FOREST_DEAD_T8_TREE_B" weight="40" />
+        <prefab name="FOREST_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>
@@ -3768,8 +3760,7 @@
 
     <wood tier="8">
       <prefabs>
-        <prefab name="FOREST_DEAD_T8_TREE_A" weight="40" />
-        <prefab name="FOREST_DEAD_T8_TREE_B" weight="40" />
+        <prefab name="FOREST_DEAD_T8_TREE_A" weight="100" />
         
       </prefabs>
       <fillerprefabs>

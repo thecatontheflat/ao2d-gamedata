@@ -478,18 +478,6 @@
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="305 0 -85" />
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="285 0 -65" roty="180" />
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="45 0 275" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="195 0 275" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-5 0 -95" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="245 0 -125" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-65 0 135" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="35 0 -75" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-105 0 145" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="15 0 105" roty="0" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="185 0 25" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-255 0 155" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-15 0 145" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="-185 0 25" />
-    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="25 0 -135" />
     <tile name="STEPPE_GREEN_GROUND" pos="200 8 90" />
     <tile name="STEPPE_GREEN_GROUND" pos="200 8 100" />
     <tile name="STEPPE_GREEN_GROUND" pos="200 8 110" />
@@ -726,6 +714,18 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-130 8 290" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="-120 8 290" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="-110 8 290" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="195 0 275" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-5 0 -95" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="245 0 -125" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-65 0 135" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="35 0 -75" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-105 0 145" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="15 0 105" roty="0" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="185 0 25" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-255 0 155" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A_COMP_01" pos="-15 0 145" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="-185 0 25" />
+    <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="25 0 -135" />
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="185 0 195" roty="180" />
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="25 0 275" roty="90" />
     <compoundtile name="_STEPPE_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A_COMP_01" pos="295 0 215" />
@@ -1208,435 +1208,6 @@
     <tile name="STEPPE_GREEN_GROUND" pos="210 0 -150" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-130 0 110" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="150 0 -300" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 310" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -130" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 310" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 310" />
-    <tile name="STEPPE_GREEN_GROUND" pos="190 0 150" />
-    <tile name="STEPPE_GREEN_GROUND" pos="230 0 100" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 210" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 200" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 170" />
-    <tile name="STEPPE_GREEN_GROUND" pos="310 0 10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="230 0 -110" />
-    <tile name="STEPPE_GREEN_GROUND" pos="230 0 -70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -110" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 80" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="310 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -30" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -310" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="120 0 20" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 20" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -170" />
-    <tile name="STEPPE_GREEN_GROUND" pos="250 0 120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 30" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 170" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="240 0 90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 140" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 130" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 60" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 20" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 280" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -40" />
-    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -40" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -60" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -60" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -140" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 110" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="250 0 170" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 20" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="50 0 20" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-270 0 30" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -220" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 90" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-260 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 190" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-210 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 160" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-230 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 240" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 -10" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-120 0 90" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="240 0 170" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 230" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 220" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 310" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 250" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 120" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="260 0 130" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -220" />
-    <tile name="STEPPE_GREEN_GROUND" pos="230 0 90" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -160" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 30" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="80 0 270" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 140" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="270 0 130" />
-    <tile name="STEPPE_GREEN_GROUND" pos="270 0 120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 190" />
-    <tile name="STEPPE_GREEN_GROUND" pos="260 0 120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="170 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="260 0 140" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 240" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 0" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 240" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 230" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 220" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 0" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 230" roty="0" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="10 0 -170" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="150 0 -280" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 200" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 -140" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 180" roty="0" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="60 0 290" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="240 0 -150" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-120 0 100" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="110 0 -300" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="230 0 -90" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="260 0 170" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 200" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="40 0 -180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 210" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 0" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="10 0 200" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 240" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 110" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 220" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="160 0 -230" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 120" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="270 0 140" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 270" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 230" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 270" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 -10" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 190" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -260" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 200" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 280" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 30" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="160 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 190" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 100" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 80" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 120" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 100" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="160 0 190" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="240 0 100" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 170" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 0" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 160" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 270" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="160 0 -170" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 290" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 220" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 140" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 100" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="0 0 -170" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="20 0 -170" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="150 0 -290" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 -150" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -100" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -80" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="40 0 -110" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="0 0 200" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 280" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 300" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="120 0 -300" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="100 0 -300" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="-150 0 210" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="-300 0 110" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="170 0 190" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="210 0 220" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="-150 0 190" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="210 0 60" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="140 0 190" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="210 0 300" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="285 0 255" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="235 0 115" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="265 0 155" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-200 0 60" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-10 0 180" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-190 0 10" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="270 0 300" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-110 0 40" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="100 0 -280" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 -30" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="20 0 -100" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-210 0 0" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="110 0 190" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 0" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="180 0 10" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 190" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="210 0 150" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="210 0 10" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-280 0 80" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="70 0 -20" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="10 0 180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 80" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="270 0 280" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="130 0 -230" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="220 0 190" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="280 0 -80" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 270" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 150" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="290 0 60" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="190 0 130" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-300 0 80" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="290 0 280" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-140 0 160" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-230 0 10" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-60 0 10" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="120 0 240" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="190 0 290" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="210 0 -10" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="200 0 210" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="240 0 180" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="60 0 10" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="270 0 200" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="210 0 130" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="180 0 210" roty="90" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="120 0 0" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="210 0 -40" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="120 0 10" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="300 0 60" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 60" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="50 0 10" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="160 0 -30" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="170 0 10" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="190 0 80" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="210 0 80" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="220 0 180" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="220 0 200" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 220" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 270" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 300" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="190 0 300" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="120 0 190" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="290 0 -80" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 150" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -120" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="140 0 -290" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 -20" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-10 0 190" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-60 0 0" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-190 0 0" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-230 0 0" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-190 0 60" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-140 0 150" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-140 0 170" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-150 0 230" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="250 0 180" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="-210 0 60" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="30 0 -100" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 -30" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 -30" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="-280 0 90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="170 0 -30" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 10" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 -20" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 0" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="200 0 10" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 140" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="10 0 190" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="280 0 200" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="280 0 280" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 210" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="30 0 -90" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="-310 0 90" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="120 0 250" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="230 0 -130" roty="270" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="200 0 -110" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="-80 0 150" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="40 0 -100" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="20 0 -90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="-110 0 30" roty="180" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="230 0 180" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="-220 0 0" roty="90" />
-    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_B" pos="-290 0 30" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="80 0 -40" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -80" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -70" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="220 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -60" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -100" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -120" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 80" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 80" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 80" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -110" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-60 0 210" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 70" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="80 0 220" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 70" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="210 0 260" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-20 0 190" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 80" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="90 0 -40" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-110 0 90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-110 0 100" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-220 0 100" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 70" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="310 0 -120" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="70 0 310" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="-80 8 40" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="260 0 -10" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="280 8 -140" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="200 8 0" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="160 0 20" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="310 0 280" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="80 0 260" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="110 0 -90" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="-310 0 100" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="0 0 270" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="210 0 -70" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-140 8 290" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="-40 0 180" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="30 0 -160" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="-260 0 0" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-60 0 80" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="230 0 80" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-50 0 140" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="130 8 -240" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-220 0 160" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="60 8 -90" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="200 0 -50" />
-    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="310 0 80" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="90 0 -200" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="100 8 0" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="130 0 20" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="310 0 230" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="10 8 -200" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="110 8 250" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="20 0 30" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="0 0 20" roty="180" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="110 8 -280" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-10 0 -310" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-250 0 30" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-120 0 80" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-110 8 10" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-40 0 20" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="120 0 -310" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="310 0 200" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="260 0 20" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-310 0 -10" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="150 0 -170" roty="90" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="70 8 -100" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="50 0 -60" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="180 0 150" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-90 8 10" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="140 8 -280" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="190 0 310" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="310 0 310" roty="270" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="280 0 -30" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="120 8 -290" />
-    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="270 0 70" />
-    <tile name="STEPPE_GREEN_GROUND" pos="250 0 -30" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 90" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 250" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="100 0 -180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -280" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -260" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -210" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-180 0 10" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 20" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -50" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -50" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -220" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 270" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="50 0 -280" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -60" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 290" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -140" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 310" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -130" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="40 0 -310" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 250" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 150" />
-    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -170" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -180" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -270" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="110 0 280" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -290" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -180" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 280" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -180" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -10" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="50 0 -210" />
-    <tile name="STEPPE_GREEN_GROUND" pos="80 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="240 0 -40" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 160" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -30" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -20" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 240" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -170" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -260" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -60" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 20" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 90" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="250 0 -40" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -40" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 290" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 250" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 250" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="100 0 310" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -10" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -60" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="80 0 190" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -290" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="80 0 280" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -210" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -140" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 270" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -160" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -10" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -310" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-130 0 100" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -200" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 110" roty="270" />
-    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -220" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -200" roty="90" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="257.5 0 145.5" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="274.5 0 162.5" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="278.5 0 153.5" />
@@ -2525,6 +2096,435 @@
     <tile name="STEPPE_GREEN_VEG_GRASS_A" pos="13.5 0 -42.5" />
     <tile name="STEPPE_GREEN_VEG_GRASS_A" pos="-166.5 0 15.5" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="-8.5 0 -44.5" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 210" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 310" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 210" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -130" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 310" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 310" />
+    <tile name="STEPPE_GREEN_GROUND" pos="190 0 150" />
+    <tile name="STEPPE_GREEN_GROUND" pos="230 0 100" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 210" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 200" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 170" />
+    <tile name="STEPPE_GREEN_GROUND" pos="310 0 10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="230 0 -110" />
+    <tile name="STEPPE_GREEN_GROUND" pos="230 0 -70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -110" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 80" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="310 0 -160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -30" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -310" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="120 0 20" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 20" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -170" />
+    <tile name="STEPPE_GREEN_GROUND" pos="250 0 120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 30" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 170" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-310 0 120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="240 0 90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 140" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 130" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 60" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 20" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 280" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -60" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -60" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="210 0 -140" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 110" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="250 0 170" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 20" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="50 0 20" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-270 0 30" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -220" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 90" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-260 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 190" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-210 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 160" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-230 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 240" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 -10" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-240 0 0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-120 0 90" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="240 0 170" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 230" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 220" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 310" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 250" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 120" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="260 0 130" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -220" />
+    <tile name="STEPPE_GREEN_GROUND" pos="230 0 90" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -160" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 30" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="80 0 270" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -210" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 140" />
+    <tile name="STEPPE_GREEN_GROUND" pos="270 0 130" />
+    <tile name="STEPPE_GREEN_GROUND" pos="270 0 120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 190" />
+    <tile name="STEPPE_GREEN_GROUND" pos="260 0 120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="170 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="260 0 140" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 240" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 0" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 210" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 240" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 230" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 220" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 210" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 0" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 230" roty="0" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="10 0 -170" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="150 0 -280" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 200" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 -140" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 180" roty="0" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="60 0 290" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="240 0 -150" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-120 0 100" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="110 0 -300" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="230 0 -90" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="260 0 170" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 200" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="40 0 -180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 210" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 0" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="10 0 200" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 240" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 110" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 220" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="160 0 -230" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-220 0 120" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="270 0 140" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 270" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 230" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 270" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 -10" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 190" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -260" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 200" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 280" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 30" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="160 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 190" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 100" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-150 0 120" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-200 0 100" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="160 0 190" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="240 0 100" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 170" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 0" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 160" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 270" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="160 0 -170" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 290" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 220" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 140" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 100" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="0 0 -170" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="20 0 -170" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="150 0 -290" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 -150" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -100" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -80" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="40 0 -110" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="0 0 200" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 280" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 300" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="120 0 -300" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="100 0 -300" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="-150 0 210" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="-300 0 110" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="170 0 190" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_A" pos="210 0 220" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="-150 0 190" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="210 0 60" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="140 0 190" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="210 0 300" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="285 0 255" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="235 0 115" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_LARGE_A" pos="265 0 155" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-200 0 60" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-10 0 180" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-190 0 10" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="270 0 300" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-110 0 40" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="100 0 -280" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 -30" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="20 0 -100" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-210 0 0" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="110 0 190" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 0" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="180 0 10" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="210 0 150" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="210 0 10" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 190" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-280 0 80" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="70 0 -20" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="10 0 180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="200 0 80" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="270 0 280" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="130 0 -230" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="220 0 190" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="280 0 -80" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 270" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="-90 0 150" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_01" pos="290 0 60" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="190 0 130" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-300 0 80" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="290 0 280" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-140 0 160" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-230 0 10" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="-60 0 10" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="120 0 240" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="190 0 290" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="210 0 -10" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="200 0 210" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="240 0 180" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="60 0 10" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="270 0 200" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="210 0 130" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="180 0 210" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_CAVE_A_COMP_02" pos="120 0 0" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="210 0 -40" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="120 0 10" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="300 0 60" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 60" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="50 0 10" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="160 0 -30" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="170 0 10" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="190 0 80" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="210 0 80" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="220 0 180" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="220 0 200" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 220" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 270" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="280 0 300" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="190 0 300" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="120 0 190" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="290 0 -80" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="200 0 150" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="230 0 -120" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="140 0 -290" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="60 0 -20" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-10 0 190" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-60 0 0" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-190 0 0" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-230 0 0" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-190 0 60" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-140 0 150" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-140 0 170" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="-150 0 230" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="250 0 180" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="-210 0 60" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_CORNER" pos="30 0 -100" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 -30" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 -30" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="-280 0 90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="170 0 -30" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 10" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 -20" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 0" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="200 0 10" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="210 0 140" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="10 0 190" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="280 0 200" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="280 0 280" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="190 0 210" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="30 0 -90" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="120 0 250" />
+    <tile name="STEPPE_GREEN_BASE_MUDHOLE_B" pos="-310 0 90" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="230 0 -130" roty="270" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="200 0 -110" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="-80 0 150" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="40 0 -100" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_INNERCORNER" pos="20 0 -90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_C" pos="-110 0 30" roty="180" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="230 0 180" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_D" pos="-220 0 0" roty="90" />
+    <tile name="STEPPE_GREEN_PLATEAU_8M_STRAIGHT_B" pos="-290 0 30" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="80 0 -40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -70" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="220 0 -160" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -60" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -100" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -120" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-90 0 70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-100 0 70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -110" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-60 0 210" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 70" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="80 0 220" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-50 0 70" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="210 0 260" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-20 0 190" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 80" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="90 0 -40" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-110 0 90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-110 0 100" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-220 0 100" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-80 0 70" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="310 0 -120" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="70 0 310" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="-80 8 40" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="260 0 -10" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="280 8 -140" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="200 8 0" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="160 0 20" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="310 0 280" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="80 0 260" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="110 0 -90" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_HIGH_FIBER_A" pos="-310 0 100" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="0 0 270" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="210 0 -70" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-140 8 290" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="-40 0 180" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="30 0 -160" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_LOW_FIBER_A" pos="-260 0 0" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-60 0 80" roty="180" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="230 0 80" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-50 0 140" roty="270" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="130 8 -240" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-220 0 160" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="60 8 -90" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="200 0 -50" />
+    <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_H_COMP_01_MEDIUM_FIBER_A" pos="310 0 80" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="90 0 -200" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="100 8 0" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="130 0 20" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="310 0 230" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="10 8 -200" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="110 8 250" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="20 0 30" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="0 0 20" roty="180" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="110 8 -280" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="-10 0 -310" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-250 0 30" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-120 0 80" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="-110 8 10" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-40 0 20" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="120 0 -310" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="310 0 200" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="260 0 20" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-310 0 -10" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="150 0 -170" roty="90" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="70 8 -100" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="50 0 -60" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="180 0 150" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="-90 8 10" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="140 8 -280" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="190 0 310" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="310 0 310" roty="270" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_B" pos="280 0 -30" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_C" pos="120 8 -290" />
+    <tile name="STEPPE_GREEN_BASE_PUDDLE_E" pos="270 0 70" />
+    <tile name="STEPPE_GREEN_GROUND" pos="250 0 -30" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 90" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 250" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="100 0 -180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -280" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -260" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -210" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-180 0 10" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-170 0 20" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -50" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -50" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -220" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-30 0 270" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="50 0 -280" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -60" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 290" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -140" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 -180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 310" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -130" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="40 0 -310" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 250" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 150" />
+    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -170" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="140 0 -180" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -270" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="110 0 280" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -290" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="150 0 -180" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 280" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="60 0 -180" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -10" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="50 0 -210" />
+    <tile name="STEPPE_GREEN_GROUND" pos="80 0 180" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="240 0 -40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-190 0 160" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -30" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -20" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 240" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -170" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -260" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -60" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-160 0 20" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 90" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="250 0 -40" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -40" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-20 0 290" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-40 0 250" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 250" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="100 0 310" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="20 0 -10" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -60" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="80 0 190" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="0 0 -290" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="80 0 280" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -210" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="90 0 -140" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-60 0 270" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -160" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 -10" roty="180" />
+    <tile name="STEPPE_GREEN_GROUND" pos="30 0 -310" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-130 0 100" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="70 0 -200" roty="0" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 110" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="120 0 -220" roty="90" />
+    <tile name="STEPPE_GREEN_GROUND" pos="130 0 -200" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="-30 0 300" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="140 0 -190" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="-160 0 110" roty="180" />
@@ -5373,13 +5373,13 @@
     <tile name="ORE_HIGH_NODE" pos="223 0 274">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
+    <tile name="ORE_HIGH_NODE" pos="197 0 224" roty="180">
+      <resourcenode nodetype="high" resourcetype="ore" />
+    </tile>
     <tile name="ORE_HIGH_NODE" pos="-81 0 275" roty="180">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ORE_HIGH_NODE" pos="194 0 300" roty="90">
-      <resourcenode nodetype="high" resourcetype="ore" />
-    </tile>
-    <tile name="ORE_HIGH_NODE" pos="205 0 215" roty="180">
       <resourcenode nodetype="high" resourcetype="ore" />
     </tile>
     <tile name="ORE_HIGH_NODE" pos="-155 0 232" roty="270">

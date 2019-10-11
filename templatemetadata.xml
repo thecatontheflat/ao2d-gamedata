@@ -1,46 +1,6 @@
 <templatemetadata>
   <faction name="Keeper">
     <type name="Basic">
-      <info size="1 1" pathsize="1" factionsubset="mine|tribe" environment="indoor|outdoor" flags="solo|veteran" pathdata="Aw==">
-        <template name="KPR_TRIBE_BASIC_CORNER_medium_02">
-          <weightedlayerblock name="shrine" flag="solo">
-            <layer id="Layer_16" weight="2" />
-            <layer id="Layer_17" weight="8" />
-          </weightedlayerblock>
-          <layercontrol type="all:environment|indoor|cave_01" layers="Layer_09" />
-          <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_11" />
-          <layercontrol type="all:environment|outdoor|forest" layers="Layer_01" />
-          <layercontrol type="all:environment|outdoor|highlands" layers="Layer_12" />
-          <layercontrol type="all:environment|outdoor|mountain" layers="Layer_08" />
-          <layercontrol type="all:environment|outdoor|steppe" layers="Layer_13" />
-          <layercontrol type="all:environment|outdoor|swamp" layers="Layer_14" />
-          <layercontrol type="solo:encounter|hard" layers="Layer_15" />
-          <layercontrol type="solo:encounter|light" layers="Layer_06" />
-          <layercontrol type="solo:encounter|standard" layers="Layer_05,Layer_07" />
-          <layercontrol type="veteran:encounter|hard" layers="Layer_18" />
-          <layercontrol type="veteran:encounter|light" layers="Layer_02" />
-          <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_04" />
-        </template>
-        <template name="KPR_TRIBE_BASIC_CORNER_trap_01">
-          <weightedlayerblock name="kpr_tribe_basic_corner_medium_03" flag="solo">
-            <layer id="Layer_10" weight="3" />
-            <layer id="Layer_15" weight="6" />
-          </weightedlayerblock>
-          <layercontrol type="all:environment|indoor|cave_01" layers="Layer_09" />
-          <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_11" />
-          <layercontrol type="all:environment|outdoor|forest" layers="Layer_01" />
-          <layercontrol type="all:environment|outdoor|highlands" layers="Layer_12" />
-          <layercontrol type="all:environment|outdoor|mountain" layers="Layer_08" />
-          <layercontrol type="all:environment|outdoor|steppe" layers="Layer_13" />
-          <layercontrol type="all:environment|outdoor|swamp" layers="Layer_14" />
-          <layercontrol type="solo:encounter|hard" layers="Layer_07" />
-          <layercontrol type="solo:encounter|light" layers="Layer_06" />
-          <layercontrol type="solo:encounter|standard" layers="Layer_05" />
-          <layercontrol type="veteran" layers="Layer_16" />
-          <layercontrol type="veteran:encounter|light" layers="Layer_02" />
-          <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_04" />
-        </template>
-      </info>
       <info size="1 1" pathsize="1" factionsubset="tribe" environment="indoor|outdoor" flags="solo|veteran" pathdata="Aw==">
         <template name="KPR_TRIBE_BASIC_CORNER_large_01">
           <weightedlayerblock name="shrine" flag="solo">
@@ -122,6 +82,25 @@
           <layercontrol type="veteran:encounter|light" layers="Layer_02,Layer_06,Layer_10" />
           <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_15" />
         </template>
+        <template name="KPR_TRIBE_BASIC_CORNER_medium_02">
+          <weightedlayerblock name="shrine" flag="solo">
+            <layer id="Layer_16" weight="2" />
+            <layer id="Layer_17" weight="8" />
+          </weightedlayerblock>
+          <layercontrol type="all:environment|indoor|cave_01" layers="Layer_09" />
+          <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_11" />
+          <layercontrol type="all:environment|outdoor|forest" layers="Layer_01" />
+          <layercontrol type="all:environment|outdoor|highlands" layers="Layer_12" />
+          <layercontrol type="all:environment|outdoor|mountain" layers="Layer_08" />
+          <layercontrol type="all:environment|outdoor|steppe" layers="Layer_13" />
+          <layercontrol type="all:environment|outdoor|swamp" layers="Layer_14" />
+          <layercontrol type="solo:encounter|hard" layers="Layer_15" />
+          <layercontrol type="solo:encounter|light" layers="Layer_06" />
+          <layercontrol type="solo:encounter|standard" layers="Layer_05,Layer_07" />
+          <layercontrol type="veteran:encounter|hard" layers="Layer_18" />
+          <layercontrol type="veteran:encounter|light" layers="Layer_02" />
+          <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_04" />
+        </template>
         <template name="KPR_TRIBE_BASIC_CORNER_medium_03">
           <weightedlayerblock name="shrine" flag="solo">
             <layer id="Layer_10" weight="25" />
@@ -162,6 +141,25 @@
           <layercontrol type="veteran:encounter|hard" layers="Layer_23" />
           <layercontrol type="veteran:encounter|light" layers="Layer_02,Layer_04,Layer_05" />
           <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_06" />
+        </template>
+        <template name="KPR_TRIBE_BASIC_CORNER_trap_01">
+          <weightedlayerblock name="kpr_tribe_basic_corner_medium_03" flag="solo">
+            <layer id="Layer_10" weight="3" />
+            <layer id="Layer_15" weight="6" />
+          </weightedlayerblock>
+          <layercontrol type="all:environment|indoor|cave_01" layers="Layer_09" />
+          <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_11" />
+          <layercontrol type="all:environment|outdoor|forest" layers="Layer_01" />
+          <layercontrol type="all:environment|outdoor|highlands" layers="Layer_12" />
+          <layercontrol type="all:environment|outdoor|mountain" layers="Layer_08" />
+          <layercontrol type="all:environment|outdoor|steppe" layers="Layer_13" />
+          <layercontrol type="all:environment|outdoor|swamp" layers="Layer_14" />
+          <layercontrol type="solo:encounter|hard" layers="Layer_07" />
+          <layercontrol type="solo:encounter|light" layers="Layer_06" />
+          <layercontrol type="solo:encounter|standard" layers="Layer_05" />
+          <layercontrol type="veteran" layers="Layer_16" />
+          <layercontrol type="veteran:encounter|light" layers="Layer_02" />
+          <layercontrol type="veteran:encounter|standard" layers="Layer_03,Layer_04" />
         </template>
       </info>
       <info size="1 1" pathsize="1" factionsubset="tribe" environment="indoor|outdoor" flags="solo|veteran" pathdata="BQ==">
@@ -314,7 +312,7 @@
         </template>
       </info>
       <info size="2 1" pathsize="1" factionsubset="tribe" environment="indoor|outdoor" flags="solo|veteran" pathdata="AAM=">
-        <template name="KPR_TRIBE_BASIC_CORNER_narrow_02">
+        <template name="KPR_TRIBE_BASIC_CORNER_narrow_02" disabled="true">
           <weightedlayerblock name="kpr_tribe_basic_corner_medium_03" flag="solo">
             <layer id="Layer_07" weight="2" />
             <layer id="Layer_10" weight="8" />
@@ -1222,6 +1220,10 @@
     <type name="Highlight" rarity="Uncommon">
       <info size="1 2" pathsize="2" factionsubset="monastery" environment="indoor|outdoor" flags="solo|veteran" pathdata="BQU=">
         <template name="MOR_MONASTERY_HIGHLIGHT_UNCOMMON_STRAIGHT_TrapExperiment_01">
+          <weightedlayerblock name="secret_veteran" flag="veteran">
+            <layer id="Layer_14" weight="8" />
+            <layer id="Layer_15" weight="2" />
+          </weightedlayerblock>
           <weightedlayerblock name="shrine" flag="solo">
             <layer id="Layer_06" weight="2" />
             <layer id="Layer_07" weight="8" />
@@ -1235,7 +1237,7 @@
           <layercontrol type="all:environment|outdoor|swamp" layers="Layer_13" />
           <layercontrol type="solo" layers="Layer_02" />
           <layercontrol type="solo:encounter|hard" layers="Layer_03" />
-          <layercontrol type="veteran" layers="Layer_01,Layer_14" />
+          <layercontrol type="veteran" layers="Layer_01" />
           <layercontrol type="veteran:encounter|hard" layers="Layer_05" />
         </template>
       </info>
@@ -1699,6 +1701,10 @@
           <layercontrol type="veteran:encounter|standard" layers="Layer_04,Layer_05" />
         </template>
         <template name="UND_CASTLE_BASIC_CORNER_room_01">
+          <weightedlayerblock name="shrine_solo" flag="solo">
+            <layer id="Layer_11" weight="2" />
+            <layer id="Layer_16" weight="8" />
+          </weightedlayerblock>
           <layercontrol type="all:environment|indoor|cave_01" layers="Layer_10" />
           <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_12" />
           <layercontrol type="all:environment|outdoor|forest" layers="Layer_09" />
@@ -2552,7 +2558,7 @@
         </template>
       </info>
       <info size="3 1" pathsize="1" factionsubset="mine" environment="outdoor" flags="solo|veteran" pathdata="AAUA">
-        <template name="HER_MINE_BASIC_STRAIGHT_narrow_02">
+        <template name="HER_MINE_BASIC_STRAIGHT_narrow_02" disabled="true">
           <layercontrol type="all:environment|indoor|cave_01" layers="Layer_06" />
           <layercontrol type="all:environment|indoor|cave_ocean" layers="Layer_09" />
           <layercontrol type="all:environment|outdoor|forest" layers="Layer_08" />
