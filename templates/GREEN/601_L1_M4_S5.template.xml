@@ -4089,10 +4089,10 @@
     <tile name="ROCK_MEDIUM_NODE" pos="-300 0 139" roty="180">
       <resourcenode nodetype="medium" resourcetype="rock" />
     </tile>
-    <tile name="ROCK_MEDIUM_NODE" pos="-127 4 215" roty="180">
+    <tile name="ROCK_MEDIUM_NODE" pos="-122 4 206" roty="180">
       <resourcenode nodetype="medium" resourcetype="rock" />
     </tile>
-    <tile name="ROCK_MEDIUM_NODE" pos="-125 4 219" roty="180">
+    <tile name="ROCK_MEDIUM_NODE" pos="-122 4 197" roty="180">
       <resourcenode nodetype="medium" resourcetype="rock" />
     </tile>
     <tile name="ROCK_MEDIUM_NODE" pos="302 -4 151" roty="90">

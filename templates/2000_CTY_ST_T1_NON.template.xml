@@ -765,6 +765,103 @@
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_B" pos="35 5 5" />
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_A" pos="65 11 -6" roty="180" />
       </layer>
+      <layer id="Layer_06" name="Anniversary">
+        <tile name="ANNIVERSARY_BANNER_A" pos="55 -4 -16.5" scale="1.33935 1.33935 1.33935" />
+        <tile name="ANNIVERSARY_BANNER_A" pos="36.5 -8 -46" roty="270" scale="1.339351 1.33935 1.339351" />
+        <tile name="ANNIVERSARY_BANNER_A" pos="-52 -4 -43.5" roty="317" scale="1.33935 1.33935 1.33935" />
+        <tile name="ANNIVERSARY_BANNER_A" pos="25.5 -8 -123" roty="270" scale="1.339351 1.33935 1.339351" />
+        <tile name="ANNIVERSARY_BANNER_A" pos="34.5 -8 -146" roty="270" scale="1.339351 1.33935 1.339351" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="-5 -1 52" scale="1.5 1.5 1.5" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="-45 -2 43" scale="1.5 1.5 1.5" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="-61 -2 16" roty="270" scale="1.283787 1.283787 1.283787" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="70 -1 -6" scale="1.5 1.5 1.5" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="2 -5 -50" scale="1.5 1.5 1.5" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="30 -7 21" scale="1.283787 1.283787 1.283787" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="42 -1 -2" scale="1.283787 1.283787 1.283787" />
+        <tile name="ANNIVERSARY_BANNER_B" pos="0 -16 -122" scale="1.5 1.5 1.5" />
+        <tile name="ANNIVERSARY_BANNER_C" pos="-4 -2 -17" roty="29" scale="1.405607 1.405607 1.405607" />
+        <tile name="ANNIVERSARY_BANNER_C" pos="8 -2 -10" roty="269" scale="1.405607 1.405607 1.405607" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-55.5 5 44" roty="106.83" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="77 8 -7" rot="355 348 337" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="64 9 -6" rot="359 206 338" scale="1.1227 1.1227 1.1227" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="59 5 -31" rot="351 141 350" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="40 9 0" rot="355 238 330" scale="1.0506 1.0506 1.0506" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="18 7 13" rot="357.74 50.14 336.91" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="17 3 -42" roty="346" scale="1.11 1.11 1.11" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-47 7 6" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-39 7 -35" roty="155" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-53 5 -44" rot="359.14 162.88 338.5" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-55 7 -4" roty="73" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-64 7 13" roty="47.64" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="-64 7 19" roty="312.76" />
+        <tile name="ANNIVERSARY_BUNTING_10M_A" pos="25 2 -134" roty="266.32" scale="1.03341 1.03341 1.03341" />
+        <tile name="ANNIVERSARY_BUNTING_20M_A" pos="-25 0 30.5" roty="241.36" />
+        <tile name="ANNIVERSARY_BUNTING_20M_B" pos="-15 7 -32" roty="306" />
+        <tile name="ANNIVERSARY_BUNTING_40M_A" pos="15 8 31" rot="0 159 358" />
+        <tile name="ANNIVERSARY_BUNTING_40M_A" pos="20 7 42" roty="178" />
+        <tile name="ANNIVERSARY_BUNTING_40M_A" pos="14 8 33" rot="0 106.34 358" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-5 6 52.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-49.5 3 -21" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-62.5 3 16" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-50.5 5 -32" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-50.5 6 -2" roty="303" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="70 6 -5.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="2 2 -49.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="15 6 16.5" roty="45" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="30 -3 25.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="40 -3 25.5" roty="331" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="47.5 -3 33" roty="301" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="40 -15 25.5" roty="331" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="47.5 -15 33" roty="301" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="66 -2 -26.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="74 -2 -26.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="82 -2 -26.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="0 -9 -121.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="40 3 -36.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -48" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -56" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -64" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -76" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -84" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="16.5 -5 -92" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-13.5 -5 -98" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-13.5 -5 -90" roty="270" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-8 3 -56.5" />
+        <tile name="ANNIVERSARY_BUNTING_A" pos="-28 0 -42.5" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-24 -3 34" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-18 -4 49" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="10 -4 9" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-48 -4 41" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-48 -4 36" roty="90" scale="1 1.650406 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-58 -4 18" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-65 -3 16" roty="180" scale="1 15.41133 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-51 -4 -10" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-53 2 -3" roty="180" scale="1 13.86871 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="28 -8 22" roty="270" scale="1 1.540256 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="33 -8 21" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="32 -4 2" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="80 0 -13" scale="1 1.974461 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="84 0 -17" roty="90" scale="1 7.369164 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-47 -4 -39" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-24 -4 -24" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-20 -4 -29" roty="180" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-11 -2 -47" roty="270" scale="0.7500005 15.57535 0.7500005" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-15 -2 -41" scale="1 18.22513 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="9 -4 -37" roty="180" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="53 -4 -17" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-23 -4 8" scale="1 17.63294 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-19 -3 17" scale="1 10.73562 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-18 -4 22" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="6 -4 23" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="8 -4 13" roty="180" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="16 2 16" scale="1 11.61614 1" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-28 -4 4" roty="90" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-6 -4 -3" roty="180" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-8 -4 -13" roty="270" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="25 -8 -127" roty="90" scale="0.7500005 1 0.7500005" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="20 -2 -123" roty="90" scale="0.7500005 9.906872 0.7500005" />
+        <tile name="ANNIVERSARY_CONFETTI_A" pos="-44 -4 32" roty="180" scale="0.7500005 1.65041 0.7500005" />
+      </layer>
     </layergroup>
     <tile name="STEPPE_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="-150 12 370" roty="270" />
     <tile name="STEPPE_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="-130 12 470" />

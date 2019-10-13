@@ -26,9 +26,6 @@
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_EXPLOSIVE_BARREL" pos="-5.11 0.02 -32.75" rot="3 88 9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_EXPLOSIVE_BARREL" />
         </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_EXPLOSIVE_BARREL" pos="7.77 0.02 -7.91" roty="308.19">
-          <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_EXPLOSIVE_BARREL" />
-        </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_BRAWLER" pos="3.72 0.02 -8.95" rot="3 122 9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_BRAWLER" />
         </tile>
@@ -99,9 +96,6 @@
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_ALARM" pos="6.51 0.02 34.59" rot="3 311 9">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_ALARM" />
-        </tile>
-        <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_EXPLOSIVE_BARREL" pos="7.77 0.02 -7.91" roty="308">
-          <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_EXPLOSIVE_BARREL" />
         </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_VETERAN_EXPLOSIVE_BARREL" pos="-0.04 0.02 14.5" roty="323">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_VETERAN_EXPLOSIVE_BARREL" />

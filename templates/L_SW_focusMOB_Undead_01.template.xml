@@ -5186,6 +5186,7 @@
     <tile name="SWAMP_GREEN_T1_BUSH_B" pos="22.5 20 107.5" roty="55" />
     <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_A" pos="19.5 20 108.5" roty="90" />
     <tile name="SWAMP_GREEN_FILL_ROCK_SMALL_D" pos="89.5 0 -77.5" rot="3 359 1" />
+    <tile name="SWAMP_GREEN_T1_TREE_PLAIN_B" pos="116.5 8 30.5" />
     <tile name="LevelMarker_Mobcamp_Undead_30x30_SW" pos="43 8 -43">
       <worldmapmarker type="LevelMarker_Mobcamp_Undead_30x30_SW" />
     </tile>

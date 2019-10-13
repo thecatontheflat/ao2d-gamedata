@@ -2270,11 +2270,9 @@
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="193.5 8 3.5" roty="166" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="2.5 8 191.5" roty="293.49" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="-4.5 8 33.5" roty="304" />
-    <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="169.5 8 210.5" roty="123.49" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="184.5 8 -1.5" roty="69" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="20.5 8 199.5" roty="15.94" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="5.5 8 37.5" roty="124" />
-    <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="199.5 8 199.5" roty="193.67" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="13.5 8 290.5" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="172.5 8 -15.5" roty="56" />
     <tile name="MOUNTAIN_RED_T1_BUSH_DRY_C" pos="18.5 8 283.5" roty="30.41" />
@@ -2358,7 +2356,6 @@
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="237.5 8 297.5" roty="245.7" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="5.5 8 48.5" roty="349" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="173.5 8 -16.5" roty="120.35" />
-    <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="199.5 8 199.5" roty="269.04" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="170.5 8 -31.5" roty="153.09" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="7.5 8 62.5" roty="324" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="196.5 8 207.5" roty="299.77" />
@@ -2385,7 +2382,6 @@
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="13.5 8 289.5" roty="110.81" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="175.5 8 216.5" roty="196" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="202.5 8 6.5" roty="221.66" />
-    <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="169.5 8 210.5" roty="355.68" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="19.5 8 297.5" roty="173.76" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="199.5 8 7.5" roty="245.03" />
     <tile name="MOUNTAIN_RED_VEG_BLEND_SMALL_A" pos="32.5 8 290.5" roty="11.1" />

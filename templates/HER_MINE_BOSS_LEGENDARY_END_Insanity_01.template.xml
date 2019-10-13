@@ -67,9 +67,6 @@
         </tile>
       </layer>
       <layer id="Layer_07" name="mob_solo_hard_01">
-        <tile name="SpellZone_SANITY" pos="25 -12 -24" roty="270">
-          <spellzone spell="SPELLZONE_HERETIC_SANITY" />
-        </tile>
         <tile name="SpawnPoint_RANDOM_HERETIC_SOLO_ENDBOSS_RARE" pos="-15.94 -16 -26.34" roty="82">
           <mobspawnpoint behavior="GUARD" spawnbehavior="HERETIC_ENDBOSS_RARE" />
         </tile>
@@ -716,7 +713,6 @@
     <tile name="FOREST_GREEN_KPR_TUSK_A" pos="11.5 -17 -34.5" rot="356.9 300.98 49.31" scale="0.7894397 1.023238 0.6796716" />
     <tile name="FOREST_GREEN_KPR_TUSK_A" pos="11.5 -16 -34.5" rot="80 227 329" scale="0.78944 1.023239 0.6796717" />
     <tile name="FOREST_GREEN_KPR_TUSK_A" pos="63.5 2 -89.5" rot="80 227 329" scale="0.7894406 1.02324 0.6796702" />
-    <tile name="FOREST_GREEN_KPR_TUSK_A" pos="58.5 1 -97.5" rot="80 47 329" scale="0.7894406 1.02324 0.6796702" />
     <tile name="FOREST_GREEN_KPR_TUSK_B" pos="15.5 -16 -40.5" rot="0 0 52.53" />
     <tile name="FOREST_GREEN_KPR_TUSK_C" pos="3.5 -16 -35.5" rot="318.37 294.71 18.19" scale="0.7894394 1.023238 0.6796716" />
     <tile name="FOREST_GREEN_MOR_BANNER_STANDING_A" pos="-0.5 -16 -5.5" rot="29.04 103.03 0" />
@@ -738,6 +734,7 @@
     <tile name="FOREST_GREEN_MOR_MONASTERY_STEP_A" pos="-29 -16 -18" />
     <tile name="FOREST_GREEN_MOR_POUCH_A" pos="1.5 -14 -11.5" />
     <tile name="FOREST_GREEN_MOR_SIEGE_PALISADE" pos="0.5 -13 -7.5" rot="0 90 25.21" />
+    <tile name="FOREST_GREEN_KPR_TUSK_A" pos="65.5 0 -99.5" rot="325.39 106.6 352.54" scale="0.7894406 1.02324 0.6796702" />
     <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A" pos="0 -16 -7" />
     <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A_DIAGONAL" pos="12 -16 -5" />
     <tile name="FOREST_GREEN_MOR_WEAPONCRATE_A_DIAGONAL" pos="0 -14 -8" />
@@ -790,6 +787,8 @@
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_MINE_BACKDROP_D_NOCOL_LOW" pos="72.5 -68 -98.5" />
     <tile name="FOREST_GREEN_HER_FILL_STORAGE_BARREL_BURNING" pos="64.5 -4 -53.5" roty="180" />
     <tile name="FOREST_GREEN_HER_FILL_STORAGE_BARREL_BURNING" pos="43.5 -8 -47.5" roty="180" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_RAILING_10_A" pos="70 0 -75" roty="90" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_RAILING_10_A" pos="80 0 -75" roty="270" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_10_B" pos="75 0 -75" roty="270" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_RAMP_ROUND_LEFT_20_A" pos="70 -4 -60" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_RAMP_ROUND_LEFT_20_A" pos="40 -12 -30" />

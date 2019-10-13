@@ -662,10 +662,9 @@
     <tile name="FOREST_GREEN_FILL_AWNING_STRAIGHT_20M_A" pos="-61.5 4 17.5" roty="255.99" />
     <tile name="FOREST_GREEN_FILL_BLOOD_SPLATTER_LARGE_B" pos="-3 0 17" />
     <tile name="FOREST_GREEN_FILL_CITY_ATTACH_STEP_A" pos="-45.5 0 9.5" />
-    <tile name="FOREST_GREEN_FILL_CITY_DRINKING_A" pos="-47.5 0 11.5" roty="180" />
+    <tile name="FOREST_GREEN_FILL_CITY_DRINKING_A" pos="-47.5 0 12.5" roty="180" />
     <tile name="FOREST_GREEN_FILL_COFFIN_A" pos="-43 0 12.5" />
     <tile name="FOREST_GREEN_FILL_CRAFTER_WEAVER_B" pos="-34.5 0 31.5" roty="53" />
-    <tile name="FOREST_GREEN_FILL_EXP_FLOATING_BOOT_C" pos="-44.5 0 15.5" />
     <tile name="FOREST_GREEN_FILL_FURNITURE_BOOKSHELF_45_A" pos="-52.5 0 14.5" roty="135.93" />
     <tile name="FOREST_GREEN_FILL_FURNITURE_BOOKSHELF_45_A" pos="-50.5 0 12.5" roty="136" />
     <tile name="FOREST_GREEN_FILL_FURNITURE_CHAIR_C" pos="-50.5 0 24.5" roty="152" scale="1.2 1.2 1.2" />
@@ -679,7 +678,7 @@
     <tile name="FOREST_GREEN_HER_FILL_MAP_TABLE_A" pos="-52.5 0 23" roty="90" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_GATE_WOODEN_CLOSED_A" pos="-40 1 39" />
     <tile name="FOREST_GREEN_HER_FILL_STORAGE_BARREL_BURNING" pos="-52.5 0 28.5" />
-    <tile name="FOREST_GREEN_HER_FILL_STORAGE_BARREL_BURNING" pos="-53.5 0 18.5" roty="270" />
+    <tile name="FOREST_GREEN_HER_FILL_STORAGE_BARREL_BURNING" pos="-51.5 0 18.5" roty="270" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_A_NOCOL" pos="-55 -3 34" roty="90" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_A_NOCOL" pos="-60 -3 16" roty="270" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="-62 0 21" />
@@ -797,11 +796,6 @@
     <tile name="FOREST_GREEN_HER_SHANTY_WOOD_C" pos="50 0 -58" scale="0.750001 0.75 0.750001" />
     <tile name="FOREST_GREEN_HER_SHANTY_WOOD_C" pos="28 0 -79" roty="180" scale="0.750001 0.75 0.750001" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_COVER" pos="46 0 -30" roty="180" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-8.5 13 -22" roty="148" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="16.5 11 30" roty="7" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-9.5 13 0" roty="7.52" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="12 11 25.5" roty="277" />
-    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_OBJ" pos="-9.5 13 -13" roty="180" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_POD_QUAD_A" pos="57 11 -19" roty="180" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_POD_TWO_A" pos="50 8 -27" roty="134" />
     <tile name="FOREST_GREEN_HER_WALKWAYS_POD_TWO_A" pos="49 16 1" roty="26" />
@@ -1044,11 +1038,22 @@
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="44.5 0 -52.5" roty="90" />
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="33.5 0 -55.5" />
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="27.5 0 -23.5" />
+    <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="20.5 4 4.5" />
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="24.5 0 4.5" roty="233.18" />
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="6.5 1 0.5" roty="312" />
+    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-55 0 34" roty="180" />
     <tile name="FOREST_GREEN_HER_FILL_BANNER_A" pos="6.5 1 -18.5" roty="290" />
+    <tile name="FOREST_GREEN_FILL_EXP_BOOT_A" pos="-44.5 0 15.5" />
     <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="21.5 4 -24.5" />
-    <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE" pos="20.5 4 4.5" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_DECORATION" pos="-9.5 13 -13" roty="180" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_DECORATION" pos="16.5 11 30" roty="7" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_DECORATION" pos="-8.5 13 -22" roty="148" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_DECORATION" pos="-9.5 13 0" roty="8" />
+    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-3 0 4" roty="90" />
+    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="6 0 -30" roty="270" />
+    <tile name="FOREST_GREEN_HER_WALKWAYS_FLOOR_5_A_DECORATION" pos="12 11 25.5" roty="277" />
+    <tile name="FOREST_GREEN_FILL_PILE_SIMPLE_D" pos="-54 0 17" roty="90" />
+    <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-46 0 8" roty="270" />
     <tile name="FOREST_GREEN_KPR_FLY_ISLAND_STRAIGHT_B_DNG" pos="15 0 -55" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_BACKDROP_STRAIGHT_A" pos="65 0 25" roty="90" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_TO_BACKDROP_RIGHT_A" pos="55 0 25" />

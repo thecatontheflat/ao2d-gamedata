@@ -3515,7 +3515,7 @@
     <tile name="ROAMING_MEDIUM_NODE" pos="-17 0 285">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>
-    <tile name="ROAMING_MEDIUM_NODE" pos="-100 0 301">
+    <tile name="ROAMING_MEDIUM_NODE" pos="41 0 224">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>
     <tile name="ROAMING_MEDIUM_NODE" pos="-111 0 282">

@@ -7916,7 +7916,7 @@
     <tile name="ROCK_LOW_NODE" pos="-242 8 -245" roty="283">
       <resourcenode nodetype="low" resourcetype="rock" />
     </tile>
-    <tile name="ROCK_LOW_NODE" pos="-302 8 -251" roty="147">
+    <tile name="ROCK_LOW_NODE" pos="-296 8 -243" roty="147">
       <resourcenode nodetype="low" resourcetype="rock" />
     </tile>
     <tile name="ROCK_LOW_NODE" pos="-321 8 -261" roty="327">
@@ -7928,7 +7928,7 @@
     <tile name="ROCK_MEDIUM_NODE" pos="-316 8 -252" roty="31">
       <resourcenode nodetype="medium" resourcetype="rock" />
     </tile>
-    <tile name="ROCK_MEDIUM_NODE" pos="-298 8 -247" roty="267">
+    <tile name="ROCK_MEDIUM_NODE" pos="-298 8 -250" roty="267">
       <resourcenode nodetype="medium" resourcetype="rock" />
     </tile>
     <tile name="ROCK_HIGH_NODE" pos="299 0 368" roty="249">

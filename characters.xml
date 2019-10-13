@@ -296,7 +296,7 @@
         <Mesh uniquename="HF_HAIR_MESH_12" mesh="T0_HAIR_12_HF" namelocatag="@CHARACTER_CUSTOMIZATION_HUMAN_FEMALE_HAIR_MESH_12" state="Buyable" goldprice="250">
           <FaceState state="FACE"/>
           <FaceState state="HOOD"/>
-          <FaceState state="HALF" mesh="T0_HAIR_12_HF_HALF"/>
+          <FaceState state="HALF"/>
         </Mesh>
         <Mesh uniquename="HF_HAIR_MESH_13" mesh="T0_HAIR_13_HF" namelocatag="@CHARACTER_CUSTOMIZATION_HUMAN_FEMALE_HAIR_MESH_13" state="Buyable" goldprice="250">
           <FaceState state="FACE"/>

@@ -1,8 +1,13 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/MORGANA/MOR_MONASTERY_START_FirstLevel_Solo_01.unity" unityguid="158eabf7c416b9843be10791e0a5ceab" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-45 -44" colBoundsMax="81 44">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="">
-      <tile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-6 0 -14">
-        <exit size="5 5" spawnpos="2.523191 2.419605" faction="None" kind="Cluster" roadtype="Primary" />
+      <tile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="0 0 -18">
+        <exit size="6 6" spawnpos="0.1151962 9.071532" faction="None" kind="Cluster" roadtype="Primary">
+          <guards>
+            <guard pos="5.115196 -5.928468" />
+            <guard pos="5.091925 -11.96295" />
+          </guards>
+        </exit>
       </tile>
     </criticalscenemember>
   </criticalscenemembers>
@@ -164,6 +169,7 @@
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="33 -43 17" rot="0 180 1" scale="1 1.29798 3.120702" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="33 -37 8" rot="0 180 358" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="35 -40 -2" rot="0 0 5" scale="1 1 2.41579" />
+        <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-31 -40 -2" rot="0 0 5" scale="1 1 2.41579" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="15 -43 -32" rot="0 90 1" scale="0.9999998 1.29798 3.1207" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-26 -37 34" rot="0 180 358" />
         <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="33 -36 -17" />
@@ -172,7 +178,6 @@
         <tile name="HELL_FILL_ROCK_12M_NoCollision" pos="30 -37 -32" roty="180" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-33 -43 17" rot="0 180 1" scale="0.9999998 1.29798 3.1207" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-33 -37 8" rot="0 180 358" />
-        <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-31 -40 -2" rot="0 0 5" scale="1 1 2.41579" />
         <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="-33 -36 -17" />
         <tile name="HELL_FILL_ROCK_28M_NoCollision" pos="-7 -43 -32" rot="0 90 1" scale="1 1.29798 3.120702" />
         <tile name="HELL_FILL_ROCK_8M_NoCollision" pos="16 -36 32" roty="180" />
@@ -583,7 +588,7 @@
         <tile name="SWAMP_GREEN_PLATEAU_ROCK_8M_A_DEBRIS_NOCOL" pos="-31 -28 7" roty="270" />
       </layer>
     </layergroup>
-    <layergroup name="ENCOUNTER">
+    <layergroup name="ENCOUNTER_SOLO">
       <layer id="Layer_09" name="mob_solo_light_01">
         <tile name="SpawnPoint_RANDOM_MORGANA_SOLO_RECRUIT" pos="2.04 0 24.11" roty="275">
           <mobspawnpoint behavior="GUARD" spawnbehavior="MORGANA_RECRUIT" />
@@ -690,10 +695,10 @@
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A_OBJ" pos="-25 -16 -25" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_STRAIGHT_A_OBJ" pos="15 -16 -5" roty="180" />
     <tile name="FOREST_GREEN_MOR_CASTLE_GROUND_DIAGONAL_A_OBJ" pos="25 -16 -25" roty="180" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-6 0 -25" roty="295" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-3 0 -25" roty="247" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="4 0 -25" roty="295.12" />
-    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="7 0 -25" roty="247" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-14 0 -20" roty="329.51" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="-12 0 -23" roty="274.22" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="13 0 -23" rot="0 261.06 0" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_FURNITURE_CHAIR_A" pos="15 0 -20" roty="198.33" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSHELF_A" pos="-30 -16 20" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSHELF_A" pos="-30 -16 -3" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_BOOKSHELF_A" pos="30 -16 22" roty="180" />
@@ -774,9 +779,8 @@
     <tile name="FOREST_GREEN_MOR_MONASTERY_LIGHT_CANDLES_LARGE_A" pos="10.5 0 25.5" roty="270" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_LIGHT_CANDLES_LARGE_A" pos="-9.5 0 28.5" roty="180" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_LIGHT_CANDLES_LARGE_A" pos="-11.5 0 25.5" roty="64" />
-    <criticaltile name="RANDOM_EXIT_PORTAL_SOLO_INSIDE" pos="-6 0 -14" id="exit_01" type="exit">
-      <exit size="5 5" spawnpos="2.523191 2.419605" faction="None" kind="Cluster" roadtype="Primary" />
-    </criticaltile>
+    <tile name="FOREST_GREEN_MOR_MONASTERY_LIGHT_CANDELABRA_B" pos="-7.5 0 -25.5" roty="300" />
+    <tile name="FOREST_GREEN_MOR_MONASTERY_LIGHT_CANDELABRA_B" pos="7.5 0 -25.5" rot="0 233.96 0" />
     <tile name="FOREST_GREEN_MOR_CASTLE_DOOR_OPENED_A_20M_BLEND" pos="0 0 31" roty="270" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_CARPET_SHORT_A" pos="0 0 40" roty="90" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-8 0 0" roty="180" />
@@ -818,7 +822,7 @@
     <tile name="FOREST_GREEN_MOR_CASTLE_WALL_OUT_BUTTRESS_A" pos="-11 -4 -30" roty="90" />
     <tile name="FOREST_GREEN_MOR_CASTLE_WALL_OUT_BUTTRESS_A" pos="21 -4 30" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_WALL_OUT_BUTTRESS_A" pos="-22 -4 30" roty="270" />
-    <tile name="FOREST_GREEN_MOR_POINT_LIGHT_AMBIENT_01" pos="1.5 5 -3.5" />
+    <tile name="FOREST_GREEN_MOR_POINT_LIGHT_AMBIENT_01" pos="0.5 5 -1.5" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="19 0 -27" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="-19 0 -27" />
     <tile name="FOREST_GREEN_MOR_MONASTERY_COLLUMN_A" pos="8 0 0" roty="180" />
@@ -867,5 +871,17 @@
     <tile name="FOREST_GREEN_MOR_CASTLE_DOOR_WALL_DECO_A" pos="0 -15 20" roty="270" />
     <tile name="FOREST_GREEN_MOR_CASTLE_BRIDGE_COLLUMN_CHAIN_A" pos="13 -3 28" />
     <tile name="FOREST_GREEN_MOR_CASTLE_BRIDGE_COLLUMN_CHAIN_A" pos="-12 -3 28" />
+    <criticaltile name="ExitTrigger_10x10_EXIT_RND_DNG-SOLO" pos="0 0 -18" id="exit_01" type="exit">
+      <exit size="6 6" spawnpos="0.1151962 9.071532" faction="None" kind="Cluster" roadtype="Primary">
+        <guards>
+          <guard pos="5.115196 -5.928468" />
+          <guard pos="5.091925 -11.96295" />
+        </guards>
+      </exit>
+    </criticaltile>
+    <tile name="FOREST_GREEN_EXPEDITION_AGENCY_PLATFORM" pos="0 0 -18" />
+    <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_A" pos="0 4.86 -18">
+      <pointlight range="8" intensity="4" color="0.9254902 0.8588235 0.8156863" />
+    </tile>
   </tiles>
 </template>
