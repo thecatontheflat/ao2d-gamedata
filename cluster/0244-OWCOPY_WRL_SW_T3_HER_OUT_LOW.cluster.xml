@@ -67,7 +67,11 @@
   <templateinstance id="instanceslot_20" ref="M_SW_RockField_01" pos="-230 0 110" rot="90">
     <activelayer id="Layer_01" />
   </templateinstance>
-  <templateinstance id="instanceslot_21" ref="S_SW_ForestViewpoint_01" pos="70 0 -20" rot="180" />
+  <templateinstance id="instanceslot_21" ref="S_SW_AvalonianInvasion_01" pos="70 0 -20">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
   <templateinstance id="instanceslot_22" ref="S_SW_Hellgate_01" pos="-180 0 280" rot="270" />
   <templateinstance id="instanceslot_23" ref="S_SW_HillViewpoint_01" pos="70 0 -220" rot="270">
     <activelayer id="Layer_01" />

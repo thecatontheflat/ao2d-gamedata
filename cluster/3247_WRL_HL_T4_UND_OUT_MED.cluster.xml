@@ -78,5 +78,9 @@
   <templateinstance id="instanceslot_26" ref="S_HL_LastStand_01" pos="-200 -8 0" rot="270">
     <activelayer id="Layer_01" />
   </templateinstance>
-  <templateinstance id="instanceslot_27" ref="S_HL_RockNeedle_01" pos="-100 -8 -100" />
+  <templateinstance id="instanceslot_27" ref="S_HL_AvalonianInvasion_01" pos="-100 -8 -100">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
 </cluster>

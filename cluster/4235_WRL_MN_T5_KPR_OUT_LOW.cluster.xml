@@ -47,8 +47,10 @@
   <templateinstance id="instanceslot_14" ref="S_MN_MorganaCheckpoint_01" pos="280 0 100">
     <activelayer id="Layer_01" />
   </templateinstance>
-  <templateinstance id="instanceslot_15" ref="S_MN_MorganaMemorial_01" pos="0 -8 -240">
-    <activelayer id="Layer_01" />
+  <templateinstance id="instanceslot_15" ref="S_MN_AvalonianInvasion_01" pos="0 -8 -240">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_16" ref="S_MN_ExpeditionEntrance_01" pos="-230 -8 0" />
   <templateinstance id="instanceslot_17" ref="S_MN_Hellgate_01" pos="100 0 280" rot="180" />

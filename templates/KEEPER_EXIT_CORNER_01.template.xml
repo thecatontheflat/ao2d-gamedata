@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/KEEPER_EXIT_CORNER_01.unity" unityguid="ec3c6c4abb9e4f448945c48a6aa9ebee" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="77 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/KEEPER_EXIT_CORNER_01.unity" unityguid="ec3c6c4abb9e4f448945c48a6aa9ebee" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="77 75">
   <criticalscenemembers>
     <criticalscenemember id="exit_04" type="exit" layerId="7a578f01-5898-4f66-8480-f76494a1ff41">
       <tile name="FOREST_GREEN_KPR_EXIT_STAIRCASE_20M_EXIT" pos="-15 0 0">

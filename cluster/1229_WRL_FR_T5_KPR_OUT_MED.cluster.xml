@@ -8,6 +8,7 @@
     <activelayer id="aedb9bd0-8269-4dda-b00e-f3c47fe6aea4" />
     <activelayer id="d3c57df0-5864-4e1d-b7fb-66c55154c8e4" />
     <activelayer id="de14e46c-cc3c-43f4-9492-1f48c15575af" />
+    <activelayer id="Layer_01" />
   </templateinstance>
   <templateinstance id="instanceslot_01" ref="B_FR_Corner_01" pos="-360 0 360" rot="270">
     <activelayer id="780372f7-d62c-4c8b-82ff-3325106fe5a1" />
@@ -74,6 +75,7 @@
   </templateinstance>
   <templateinstance id="instanceslot_22" ref="M_FR_Portal_01" pos="240 0 -240" rot="270">
     <activelayer id="Layer_04" />
+    <activelayer id="Layer_07" />
   </templateinstance>
   <templateinstance id="instanceslot_23" ref="M_FR_AnimalTrail_01" pos="-240 0 240" rot="180" />
   <templateinstance id="instanceslot_24" ref="M_FR_WatchtowerResources_01" pos="-240 0 -160">
@@ -82,8 +84,10 @@
   <templateinstance id="instanceslot_25" ref="S_FR_FishingPond_02" pos="-240 0 90" />
   <templateinstance id="instanceslot_26" ref="S_FR_Hellgate_01" pos="-90 0 -190" rot="180" />
   <templateinstance id="instanceslot_27" ref="S_FR_Siegecamp_01" pos="-120 8 80" />
-  <templateinstance id="instanceslot_28" ref="S_FR_CrushedLumberjack_01" pos="20 -4 -220" rot="180">
-    <activelayer id="Layer_03" />
+  <templateinstance id="instanceslot_28" ref="S_FR_AvalonianInvasion_01" pos="20 -4 -220">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_29" ref="S_FR_FishingPond_01" pos="100 -4 -190" rot="270" />
 </cluster>

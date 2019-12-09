@@ -3,6 +3,43 @@
   <!--*************************************************************************************************************************************************************-->
   <!--MOUNTS-->
   <!--*************************************************************************************************************************************************************-->
+  <AssetVfxInfo uniquename="MOUNT_ARMORED_HORSE_UNDEAD">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_armoredhorse_undead_head" />
+    </AssetVfx>
+    <AssetVfx socketname="spine">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_armoredhorse_undead_spine" />
+    </AssetVfx>
+  </AssetVfxInfo>  
+  <AssetVfxInfo uniquename="MOUNT_AVALON_BASILISK">
+    <AssetVfx socketname="fx_head">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_avalon_basilisk_head" />
+    </AssetVfx>
+  </AssetVfxInfo>  
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_BEETLE_CRYSTAL">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_crystal_head_01" />
+    </AssetVfx>
+    <AssetVfx socketname="spine_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_crystal_spine_01" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_BEETLE_SILVER">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_silver_head_01" />
+    </AssetVfx>
+    <AssetVfx socketname="spine_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_silver_spine_01" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_BEETLE_GOLD">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_gold_head_01" />
+    </AssetVfx>
+    <AssetVfx socketname="spine_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_beetle_gold_spine_01" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL">
     <AssetVfx socketname="head_mount">
       <Vfx prefabName="FX/ClientPrefabs/fx_unique_mount_armored_eagle_01_head_crystal" />
@@ -906,6 +943,67 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_keeper_earthmother_glow_arm_left" />
     </AssetVfx>
   </AssetVfxInfo>
+  <!--****************************************************************************************************************-->
+  <!--###################################-->
+  <!--AVALONIANS-->
+  <!--###################################-->
+  <AssetVfxInfo uniquename="MOB_AVALON_MAGE">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="head">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_mage_head" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_MINION">
+    <AssetVfx socketname="center">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_minion" constraintpreset="pointconstraint" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_STATUE">
+    <AssetVfx socketname="root">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_statue_core" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_EAGLE_MINIBOSS_01">
+    <AssetVfx socketname="mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_eagle_core" />
+    </AssetVfx>
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_CONSTRUCT_BOSS">
+    <AssetVfx socketname="head_fx">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_construct_head" />
+    </AssetVfx>
+    <AssetVfx socketname="leftShoulderPlate">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_construct_leftshoulderplate" />
+    </AssetVfx>
+    <AssetVfx socketname="rightShoulderPlate">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_construct_rightshoulderplate" />
+    </AssetVfx>
+    <AssetVfx socketname="damage">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_construct_core" />
+    </AssetVfx>
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_BOWMAN">
+    <AssetVfx socketname="arrow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_righthandhardpoint" />
+    </AssetVfx>
+    <AssetVfx socketname="bow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_leftarm3" />
+    </AssetVfx>
+    <AssetVfx socketname="spine3">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_spine3" />
+    </AssetVfx>
+  </AssetVfxInfo>
+
+
+  <!--****************************************************************************************************************-->
   <!--MINIBOSSES-->
   <AssetVfxInfo uniquename="MOB_MINIBOSS">
     <AssetVfx socketname="floor">      
@@ -1716,6 +1814,17 @@
   <AssetVfxInfo uniquename="MOB_UNDEAD_ARCHER_GATEKEEPER_GROUP">
     <AssetVfx socketname="floor">
       <Vfx prefabName="FX/ClientPrefabs/fx_gatekeeper_marker_group" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_UNDEAD_HALLOWEEN_BOSS">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="pointconstraint" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_head">
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" scale="0.5" ignoreSocketScale="true"/>
+    </AssetVfx>
+    <AssetVfx socketname="fx_weapon">
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_halloween_boss_bloodyaxe" />
     </AssetVfx>
   </AssetVfxInfo>
   <!-- ARCANE ELEMENTALS -->

@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Crossing.unity" unityguid="7f2885e55f29a884285d69cb5c56456e" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -55" colBoundsMax="71 57">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Crossing.unity" unityguid="7f2885e55f29a884285d69cb5c56456e" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -55" colBoundsMax="71 57">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Boss">

@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Straight_MortarLane.unity" unityguid="94892df8e668824448d9a4e1221c0f6b" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-63 -62" colBoundsMax="57 58">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Straight_MortarLane.unity" unityguid="94892df8e668824448d9a4e1221c0f6b" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-63 -62" colBoundsMax="57 58">
   <criticalscenemembers />
   <tiles>
     <layergroup name="">

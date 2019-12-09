@@ -8,6 +8,7 @@
     <activelayer id="74d4c16d-3492-4454-a4b3-6a91fb9e8b6b" />
     <activelayer id="ce5f5fa3-ab9a-409a-a256-0609b7c95819" />
     <activelayer id="d01f128d-07e0-4baf-a25e-b55beb7bf625" />
+    <activelayer id="Layer_01" />
   </templateinstance>
   <templateinstance id="instanceslot_01" ref="B_HL_Corner_01" pos="360 0 -360" rot="90">
     <activelayer id="7a7a4d94-73f0-4449-9073-12eb32c259e6" />
@@ -74,6 +75,7 @@
   </templateinstance>
   <templateinstance id="instanceslot_22" ref="M_HL_Portal_01" pos="220 -8 -220">
     <activelayer id="Layer_05" />
+    <activelayer id="Layer_07" />
   </templateinstance>
   <templateinstance id="instanceslot_23" ref="M_HL_WatchtowerResources_01" pos="190 0 -10">
     <activelayer id="Layer_01" />
@@ -83,8 +85,10 @@
     <activelayer id="Layer_02" />
   </templateinstance>
   <templateinstance id="instanceslot_26" ref="S_HL_FishingPond_02" pos="280 0 270" rot="180" />
-  <templateinstance id="instanceslot_27" ref="S_HL_Stonehenge_01" pos="220 0 280">
-    <activelayer id="Layer_02" />
+  <templateinstance id="instanceslot_27" ref="S_HL_AvalonianInvasion_01" pos="220 0 280">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_28" ref="S_HL_Hellgate_01" pos="60 8 -270" rot="90" />
   <templateinstance id="instanceslot_29" ref="S_HL_Siegecamp_01" pos="-260 8 270" />

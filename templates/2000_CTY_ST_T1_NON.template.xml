@@ -522,55 +522,8 @@
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
-    <layergroup name="market_bank_separation">
-      <layer id="Layer_01" name="included">
-        <criticaltile name="STEPPE_GREEN_MARKETPLACE" pos="-23 -4 13" roty="90" id="actionbuilding_01" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-22 -4 12" roty="90">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <criticaltile name="STEPPE_GREEN_T1_BANK" pos="-5 -4 -10" id="actionbuilding_04" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-4 -4 -9">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_B" pos="-11 -4 -2.5" roty="292" />
-        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="1 -4 -8.5" roty="315" />
-        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="-0.5 -4 -14" roty="348" />
-        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="-10 -4 -13.5" roty="90" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="0 -4 -10" />
-        <tile name="STEPPE_GREEN_GROUND" pos="-30 -4 20" />
-        <tile name="STEPPE_GREEN_FILL_CITY_LANTERN_A" pos="-8.5 -4 -6.5" roty="306" />
-        <tile name="STEPPE_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT" pos="-21 1 8" roty="180" />
-        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="30 -4 1.5" roty="270" />
-        <tile name="STEPPE_GREEN_GROUND" pos="-30 -4 10" />
-        <tile name="STEPPE_GREEN_GROUND" pos="-20 -4 20" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_CORNER_PLACE_20x20_A" pos="-15 -4 5" roty="180" />
-      </layer>
-      <layer id="Layer_02" name="separated">
-        <criticaltile name="STEPPE_GREEN_MARKETPLACE_ENTRANCE" pos="-25 -4 15" roty="90" id="exit_05" type="exit">
-          <exit size="10 10" spawnpos="6.993273 6.630239" faction="None" kind="Cluster" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-25 -4 16" roty="90">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <criticaltile name="STEPPE_GREEN_T1_BANK_ENTRANCE" pos="0 -4 -10" id="exit_06" type="exit">
-          <exit size="9 9" spawnpos="0 -10" faction="None" kind="DungeonSandbox" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="0 -4 -10">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="0 -12 -10" roty="270" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-30 -12 10" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_CORNER_PLACE_20x20_MARKETPLACE_A" pos="-15 -4 5" roty="180" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-30 -12 20" />
-        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-20 -12 20" />
-      </layer>
-    </layergroup>
-    <layergroup name="Season">
-      <layer id="Layer_03" name="Halloween">
+    <layergroup name="">
+      <layer id="Layer_03" name="Halloween" flags="halloween">
         <tile name="HALLOWEEN_BUNTING_B" pos="-49 -2 -21" roty="90" />
         <tile name="HALLOWEEN_PUMKIN_B" pos="35 -4 -17" roty="90" />
         <tile name="HALLOWEEN_PUMKIN_B" pos="27 -4 -15" roty="270" />
@@ -617,7 +570,9 @@
         <tile name="HALLOWEEN_PUMKIN_LIGHT_A" pos="-38 -4 37" roty="64" />
         <tile name="HALLOWEEN_PUMKIN_C" pos="-52 -4 37" roty="130" />
       </layer>
-      <layer id="Layer_04" name="Christmas">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_04" name="Christmas" flags="christmas">
         <tile name="XMAS_FILL_CITY_BUNTING_D" pos="72 0 -26.5" />
         <tile name="XMAS_FILL_CITY_BUNTING_D" pos="95.5 0 -15" roty="270" />
         <tile name="XMAS_FILL_CITY_BUNTING_D" pos="16.5 -4 -53" roty="270" />
@@ -716,7 +671,9 @@
         <tile name="XMAS_FILL_CITY_WREATH_B" pos="-44.5 6 44.5" />
         <tile name="XMAS_FILL_CITY_BUSH_A" pos="-56.5 -4 10.5" roty="309.7" />
       </layer>
-      <layer id="Layer_05" name="Easter">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_05" name="Easter" flags="easter">
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_A" pos="-60 5 7" roty="72" />
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_B" pos="-47 10 -16" roty="273" />
         <tile name="EASTER_DECO_A" pos="-25.5 -5 2.5" />
@@ -765,7 +722,9 @@
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_B" pos="35 5 5" />
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_A" pos="65 11 -6" roty="180" />
       </layer>
-      <layer id="Layer_06" name="Anniversary">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_06" name="Anniversary" flags="anniversary">
         <tile name="ANNIVERSARY_BANNER_A" pos="55 -4 -16.5" scale="1.33935 1.33935 1.33935" />
         <tile name="ANNIVERSARY_BANNER_A" pos="36.5 -8 -46" roty="270" scale="1.339351 1.33935 1.339351" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-52 -4 -43.5" roty="317" scale="1.33935 1.33935 1.33935" />
@@ -861,6 +820,53 @@
         <tile name="ANNIVERSARY_CONFETTI_A" pos="25 -8 -127" roty="90" scale="0.7500005 1 0.7500005" />
         <tile name="ANNIVERSARY_CONFETTI_A" pos="20 -2 -123" roty="90" scale="0.7500005 9.906872 0.7500005" />
         <tile name="ANNIVERSARY_CONFETTI_A" pos="-44 -4 32" roty="180" scale="0.7500005 1.65041 0.7500005" />
+      </layer>
+    </layergroup>
+    <layergroup name="market_bank_separation">
+      <layer id="Layer_01" name="included">
+        <criticaltile name="STEPPE_GREEN_MARKETPLACE" pos="-23 -4 13" roty="90" id="actionbuilding_01" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-22 -4 12" roty="90">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <criticaltile name="STEPPE_GREEN_T1_BANK" pos="-5 -4 -10" id="actionbuilding_04" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-4 -4 -9">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_B" pos="-11 -4 -2.5" roty="292" />
+        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="1 -4 -8.5" roty="315" />
+        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="-0.5 -4 -14" roty="348" />
+        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="-10 -4 -13.5" roty="90" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="0 -4 -10" />
+        <tile name="STEPPE_GREEN_GROUND" pos="-30 -4 20" />
+        <tile name="STEPPE_GREEN_FILL_CITY_LANTERN_A" pos="-8.5 -4 -6.5" roty="306" />
+        <tile name="STEPPE_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT" pos="-21 1 8" roty="180" />
+        <tile name="STEPPE_GREEN_FILL_ROCK_ROAD_C" pos="30 -4 1.5" roty="270" />
+        <tile name="STEPPE_GREEN_GROUND" pos="-30 -4 10" />
+        <tile name="STEPPE_GREEN_GROUND" pos="-20 -4 20" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_CORNER_PLACE_20x20_A" pos="-15 -4 5" roty="180" />
+      </layer>
+      <layer id="Layer_02" name="separated">
+        <criticaltile name="STEPPE_GREEN_MARKETPLACE_ENTRANCE" pos="-25 -4 15" roty="90" id="exit_05" type="exit">
+          <exit size="10 10" spawnpos="6.993273 6.630239" faction="None" kind="Cluster" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-25 -4 16" roty="90">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <criticaltile name="STEPPE_GREEN_T1_BANK_ENTRANCE" pos="0 -4 -10" id="exit_06" type="exit">
+          <exit size="9 9" spawnpos="0 -10" faction="None" kind="DungeonSandbox" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="0 -4 -10">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="0 -12 -10" roty="270" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-30 -12 10" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_CORNER_PLACE_20x20_MARKETPLACE_A" pos="-15 -4 5" roty="180" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-30 -12 20" />
+        <tile name="STEPPE_GREEN_ROAD_ROAD_PLACE_A" pos="-20 -12 20" />
       </layer>
     </layergroup>
     <tile name="STEPPE_GREEN_CITY_4M_STAIRS_SINGLE_A" pos="-150 12 370" roty="270" />

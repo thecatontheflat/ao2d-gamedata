@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_DeadEnd_Gate.unity" unityguid="6ec11b86adca00c4691a495577f9f704" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -51" colBoundsMax="73 55">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_DeadEnd_Gate.unity" unityguid="6ec11b86adca00c4691a495577f9f704" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -51" colBoundsMax="73 55">
   <criticalscenemembers>
     <criticalscenemember id="hellgateexit_03" type="hellgateexit" layerId="66e987bd-bc03-4a05-9b1b-5530f79cb534">
       <tile name="GatewaySPortalExit" pos="20 4 -14" roty="135">

@@ -52,7 +52,11 @@
   <templateinstance id="instanceslot_15" ref="M_ST_Chest_01" pos="0 8 -120">
     <activelayer id="ccbcf86c-f46d-4330-89ba-1f6de38ccb4c" />
   </templateinstance>
-  <templateinstance id="instanceslot_16" ref="S_ST_FallOfDeath_01" pos="360 8 210" rot="270" />
+  <templateinstance id="instanceslot_16" ref="S_ST_AvalonianInvasion_01" pos="360 8 210">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
   <templateinstance id="instanceslot_17" ref="S_ST_AnimalNest_01" pos="180 0 -60" rot="90" />
   <templateinstance id="instanceslot_18" ref="S_ST_ExpeditionEntrance_01" pos="20 8 330" />
   <templateinstance id="instanceslot_19" ref="S_ST_Hellgate_01" pos="-170 16 -220" rot="270" />

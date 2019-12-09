@@ -138,8 +138,8 @@
     <tile name="MOUNTAIN_RED_VEG_SNOW_CHUNKS_A" pos="17.5 5 17.5" />
     <tile name="MOUNTAIN_RED_VEG_SNOW_CHUNKS_A" pos="-18.5 5 10.5" roty="173.91" />
     <tile name="MOUNTAIN_RED_VEG_SNOW_CHUNKS_B" pos="-15.5 14 14.5" scale="0.7670864 1 0.7296857" />
-    <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_FLAT_A" pos="11.5 4 -11.5" roty="180" />
-    <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_FLAT_A" pos="-6.5 4 -13.5" roty="180" />
+    <tile name="MOUNTAIN_RED_VEG_SNOW_CHUNKS_FLAT_A" pos="11.5 4 -11.5" roty="180" />
+    <tile name="MOUNTAIN_RED_VEG_SNOW_CHUNKS_FLAT_A" pos="-6.5 4 -13.5" roty="180" />
     <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_FLAT_B" pos="10.5 4 13.5" />
     <tile name="MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_FLAT_B" pos="-15.5 4 -11.5" />
     <tile name="MOUNTAIN_RED_VEG_SNOW_PATCH_A" pos="-16 5 -17" roty="90" />

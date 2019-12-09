@@ -63,8 +63,10 @@
   </templateinstance>
   <templateinstance id="instanceslot_19" ref="S_HL_ExpeditionEntrance_01" pos="-270 4 100" rot="270" />
   <templateinstance id="instanceslot_20" ref="S_HL_RockNeedle_01" pos="-80 8 240" />
-  <templateinstance id="instanceslot_21" ref="S_HL_Stonehenge_01" pos="170 0 240" rot="180">
-    <activelayer id="Layer_01" />
+  <templateinstance id="instanceslot_21" ref="S_HL_AvalonianInvasion_01" pos="170 0 240">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_22" ref="S_HL_Hellgate_01" pos="260 0 -10" rot="270" />
   <templateinstance id="instanceslot_23" ref="HL_StreetCrossing" pos="-30 0 300" rot="90">

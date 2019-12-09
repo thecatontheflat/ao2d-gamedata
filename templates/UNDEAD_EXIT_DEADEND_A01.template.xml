@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/UNDEAD_EXIT_DEADEND_A01.unity" unityguid="35a478a8debc08b429c77929ffbcc807" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -76" colBoundsMax="75 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/UNDEAD_EXIT_DEADEND_A01.unity" unityguid="35a478a8debc08b429c77929ffbcc807" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -76" colBoundsMax="75 75">
   <criticalscenemembers>
     <criticalscenemember id="hellgateexit_07" type="hellgateexit" layerId="0321fd8a-2beb-4241-8958-dc1610a4082a">
       <tile name="GatewaySPortalExit" pos="-7 4 42" roty="315">

@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_T-Crossing_Stairs.unity" unityguid="29e6195a44cc3ac418f7e9dba78c747c" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -47" colBoundsMax="55 55">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_T-Crossing_Stairs.unity" unityguid="29e6195a44cc3ac418f7e9dba78c747c" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -47" colBoundsMax="55 55">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="7a6b7ef8-506d-4d8b-801c-5c03c603ea3d">
       <tile name="FOREST_GREEN_HER_EXIT_STAIRCASE_20M_EXIT" pos="0 -4 0">

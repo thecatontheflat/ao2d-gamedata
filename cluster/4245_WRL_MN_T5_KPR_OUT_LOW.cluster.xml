@@ -43,8 +43,10 @@
     <activelayer id="Layer_04" />
   </templateinstance>
   <templateinstance id="instanceslot_12" ref="M_MN_FishingLake_01" pos="260 -8 -260" rot="90" />
-  <templateinstance id="instanceslot_13" ref="S_MN_Mine_01" pos="-280 8 -280">
-    <activelayer id="Layer_03" />
+  <templateinstance id="instanceslot_13" ref="S_MN_AvalonianInvasion_01" pos="-280 8 -280">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_14" ref="S_MN_ExpeditionEntrance_01" pos="-280 0 -100" />
   <templateinstance id="instanceslot_15" ref="S_MN_CrackHighlight_01" pos="0 -8 240" />

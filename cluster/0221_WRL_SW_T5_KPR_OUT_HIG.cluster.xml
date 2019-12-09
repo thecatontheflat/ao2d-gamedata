@@ -8,6 +8,7 @@
     <activelayer id="b06dc11d-5077-4c9b-9113-9fc8aaa5faa1" />
     <activelayer id="df5031f0-ace1-4018-a39e-f71ede7737dd" />
     <activelayer id="f00a02b7-918a-4c32-a9f0-178d6112a0f7" />
+    <activelayer id="Layer_01" />
   </templateinstance>
   <templateinstance id="instanceslot_01" ref="B_SW_Corner_01" pos="360 0 360">
     <activelayer id="60d6dfc8-2d84-4ecd-b43f-019e9ef483a1" />
@@ -78,8 +79,13 @@
   <templateinstance id="instanceslot_23" ref="M_SW_LakeDistrict_01" pos="210 0 170" rot="270" />
   <templateinstance id="instanceslot_24" ref="M_SW_Portal_01" pos="230 0 -230">
     <activelayer id="Layer_05" />
+    <activelayer id="Layer_07" />
   </templateinstance>
-  <templateinstance id="instanceslot_25" ref="S_SW_Forest_01" pos="-270 0 120" rot="90" />
+  <templateinstance id="instanceslot_25" ref="S_SW_AvalonianInvasion_01" pos="-270 0 120">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
   <templateinstance id="instanceslot_26" ref="S_SW_LakeSettlement_01" pos="-70 0 -210" rot="90">
     <activelayer id="Layer_02" />
   </templateinstance>

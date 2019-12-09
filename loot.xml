@@ -4494,6 +4494,19 @@
   <Lootlist name="EVENT_EASTER_2018_LOOT">
     <Item type="QUESTITEM_TOKEN_EVENT_EASTER_2018" chance="1" amount="5-15" />
   </Lootlist>
+  <Lootlist name="EVENT_WINTER_2019_LOOT">
+    <Item type="UNIQUE_CONSUMABLE_EVENT_WINTER_2017" chance="1" amount="1-3" />
+    <OR>
+      <Item type="UNIQUE_CONSUMABLE_EVENT_WINTER_2017" weight="1" amount="3-5" />
+      <AND weight="1">
+        <Item type="UNIQUE_HEAD_XMAS" chance="0.8" amount="1" />
+        <Item type="UNIQUE_UNLOCK_SKIN_GIANTSTAG_XMAS" chance="0.0017" amount="1" />
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_A" chance="0.1" amount="1" />
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_B" chance="0.1" amount="1" />
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_PRESENT" chance="0.04" amount="1" />
+      </AND>
+    </OR>
+  </Lootlist>
 
   <!--################################################-->
   <!--Treasure Chest Loot-->
@@ -16733,21 +16746,15 @@
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_DEC2018_LOOT">
     <LootListReference name="UNIQUE_LOOTCHEST_ADC_GENERAL" />
       <OR>
-        <Item type="UNIQUE_HEAD_VANITY_SANTACLAUS" weight="10" />
-        <Item type="UNIQUE_ARMOR_VANITY_SANTACLAUS" weight="10" />
-        <Item type="UNIQUE_SHOES_VANITY_SANTACLAUS" weight="10" />
-        <Item type="UNIQUE_BACKPACK_VANITY_SANTACLAUS" weight="10" />
-        <Item type="UNIQUE_FURNITUREITEM_XMAS_PRESENT" weight="10" />        
-        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_A" weight="10" />
-        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_B" weight="10" />
-        <Item type="UNIQUE_UNLOCK_SKIN_GIANTSTAG_XMAS" weight="1" />
+        <Item type="UNIQUE_HEAD_VANITY_SANTACLAUS" weight="1" />
+        <Item type="UNIQUE_ARMOR_VANITY_SANTACLAUS" weight="1" />
+        <Item type="UNIQUE_SHOES_VANITY_SANTACLAUS" weight="1" />
+        <Item type="UNIQUE_BACKPACK_VANITY_SANTACLAUS" weight="1" />
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_PRESENT" weight="2" />        
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_A" weight="3" />
+        <Item type="UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_B" weight="3" />
       </OR>
-      <OR chance="0.5">
-        <Item type="T3_VANITY_CONSUMABLE_FIREWORKS_BLUE_NONTRADABLE" amount="1" weight="4" />
-        <Item type="T3_VANITY_CONSUMABLE_FIREWORKS_GREEN_NONTRADABLE" amount="1" weight="3" />
-        <Item type="T3_VANITY_CONSUMABLE_FIREWORKS_YELLOW_NONTRADABLE" amount="1" weight="2" />
-        <Item type="T3_VANITY_CONSUMABLE_FIREWORKS_RED_NONTRADABLE" amount="1" weight="1" />
-      </OR>
+      <Item type="QUESTITEM_TOKEN_AVALON" amount="5-15"/>
   </Lootlist>
   
   <Lootlist name="UNIQUE_LOOTCHEST_ADC_JAN2019_LOOT">

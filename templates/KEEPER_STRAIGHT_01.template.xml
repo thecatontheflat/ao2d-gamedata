@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/KEEPER_STRAIGHT_01.unity" unityguid="3704886ec1329784c9ece2890677e3b0" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="75 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/KEEPER_STRAIGHT_01.unity" unityguid="3704886ec1329784c9ece2890677e3b0" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="75 75">
   <criticalscenemembers />
   <tiles>
     <layergroup name="BASIC">

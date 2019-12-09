@@ -1,0 +1,213 @@
+<template path="Assets/Levels/LEVEL_TEMPLATES/SWAMP/Slave/S_SW_AvalonianInvasion_01.unity" unityguid="1d7cffb1ac0b88043a03baf5cb962267" editorBoundsMin="-25 -25" editorBoundsMax="25 25" colBoundsMin="-25 -25" colBoundsMax="25 25">
+  <criticalscenemembers />
+  <tiles>
+    <layergroup name="">
+      <layer id="Layer_01" name="Phase_01" flags="avalonian_invasion_phase_1">
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-7.03 -2 6.12" rot="11 225 341" scale="1.746068 1.444145 1.746068" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-6.09 -3 4.23" rot="345 47 348" scale="1.925393 1.925393 1.925393" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-2.03 -2 5.11" rot="342 238 17" scale="1.024791 0.8401626 0.8401626" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_B" pos="-6 -2 3" roty="180" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-9.03 -3 8.11" rot="32 5 5" scale="0.7310149 0.7310149 0.7310149" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-4.03 -2 7.12" rot="26.19 100.37 29.57" scale="1.657305 1.657305 1.657305" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-7.03 -4 7.23" rot="336 58 27" scale="1.504558 1.504558 1.504558" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-4.09 -3 8.23" rot="32 38 2" scale="1.049701 1.049701 1.049701" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-5.11 -5 6.23" rot="24 130 359" scale="1.049701 1.049701 1.049701" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-0.05 -2 5.12" rot="358 28 326" scale="0.9860278 1.005144 0.9860278" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-5.01 -2 11.23" rot="7 328 331" scale="0.613583 0.8880123 0.613583" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-6.03 -6 7.12" rot="357 217 354" scale="2.64477 2.187446 2.64477" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-4.99 -2 1.12" rot="346 286 21" scale="0.9488059 1.105327 0.9488059" />
+        <tile name="HIGHLAND_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-9 -5 10" rot="345 47 348" scale="1.925471 1.925426 1.92547" />
+        <tile name="HIGHLAND_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-8 -5 10" rot="345 47 348" scale="1.925471 1.925426 1.92547" />
+        <tile name="HIGHLAND_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-9 -7 5" rot="4 17 358" scale="1.925422 2.073844 1.925418" />
+        <tile name="SWAMP_RED_AVA_DECO_ASTRONOMICAL_SPHERE_C" pos="-5 8 5" scale="0.5426567 0.5426559 0.5426567" />
+        <tile name="SWAMP_RED_GROUND_CRACK_SUB_02_A" pos="13.5 0 2.5" />
+        <tile name="SWAMP_RED_VEG_SOIL_C" pos="15.5 0 -12.5" />
+        <tile name="SWAMP_RED_VEG_SOIL_C" pos="-6.5 0 -11.5" roty="90" />
+      </layer>
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_02" name="Phase_02" flags="avalonian_invasion_phase_2">
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A_SUB_02" pos="9 0 8" roty="240" scale="1.009489 1 1.00317" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A_SUB_02" pos="-14 0 15" roty="226" scale="1.006017 1 1.006642" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-5 0 7" rot="342 148 17" scale="2.16465 1.774661 1.774661" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-9 -2 8" rot="32 5 5" scale="0.910593 0.910593 0.910593" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_B" pos="-5.97 -1 2.88" roty="180" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-6 -1 4" rot="11 135 341" scale="2.175 1.798907 2.175" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-10 -1 -8" rot="336 26.44 5" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-5 -3 7" rot="336 58 27" scale="1.874161 1.874161 1.874161" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-10 0 -8" rot="2 102 1" scale="0.7072249 0.7072249 0.7072249" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-4 -1 6" rot="23 103 10" scale="1.917547 1.917547 1.917547" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-6.53 -2 6.58" rot="32 308 2" scale="1.307566 1.307566 1.307566" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-4.98 -1 11.11" rot="7 328 331" scale="0.613583 0.8880123 0.613583" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-5.01 -2 6" rot="24 130 359" scale="1.307566 1.307566 1.307566" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-2 -1 5" rot="358 28 326" scale="0.9860278 1.005144 0.9860278" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-5 -1 2" rot="346 286 21" scale="0.9488059 1.105327 0.9488059" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="9 0 8" rot="5 1 6" scale="0.8246325 0.8246325 0.8246325" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="8 0 8" rot="2 191 334" scale="0.6954361 0.5678235 0.6954361" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-15 0 15" rot="1 175 352" scale="0.74 0.74 0.74" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_C_SUB_02" pos="-10 0 -8" roty="340" scale="1.005667 1 1.006991" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-8 -5 7" rot="15.63 143.28 350.74" scale="2.175 1.798907 2.175" />
+        <tile name="STEPPE_RED_FILL_STORAGE_BARREL_FOOD_A" pos="-10.5 -4 -8.5" />
+        <tile name="STEPPE_RED_FILL_STORAGE_BARREL_FOOD_A" pos="8.5 -4 7.5" />
+        <tile name="STEPPE_RED_FILL_STORAGE_BARREL_FOOD_A" pos="-14.5 -4 14.5" />
+        <tile name="SWAMP_RED_AVA_DECO_ASTRONOMICAL_SPHERE_C" pos="-5 9 5" scale="0.5712176 0.5712168 0.5712176" />
+        <tile name="SWAMP_RED_VEG_SOIL_C" pos="15.5 0 -12.5" />
+        <tile name="SWAMP_RED_VEG_SOIL_C" pos="-8.5 0 -14.5" roty="90" />
+      </layer>
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_03" name="Phase_03" flags="avalonian_invasion_phase_3">
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A" pos="21 0 20" roty="51" scale="1.212096 1 1.20893" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A_SUB_02" pos="-12 0 -9" roty="42" scale="1.61661 1 1.618737" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A_SUB_02" pos="-15 0 16" roty="136" scale="1.258628 1 1.25941" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_B" pos="-5.97 -1 2.88" roty="180" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-6.96 2 5.89" rot="11 225 341" scale="2.5 2.06771 2.5" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-5.97 1 2.88" rot="346 47 349" scale="2.655775 2.655775 2.655775" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-2.02 3 4.89" rot="342 238 17" scale="2.5 2.049594 2.049594" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-8.93 0 7.88" rot="32 5 5" scale="0.910593 0.910593 0.910593" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-2.02 3 5.89" rot="23 103 10" scale="1.917547 1.917547 1.917547" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-6.96 1 6.88" rot="336 58 27" scale="1.874161 1.874161 1.874161" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-3.01 2 9.88" rot="32 38 2" scale="1.307566 1.307566 1.307566" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-5 1 11" rot="7 328 331" scale="0.613583 0.8880123 0.613583" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-0.05 1 4.89" rot="357.83 28.11 325.96" scale="0.9860278 1.005144 0.9860278" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-4.98 1 0.89" rot="346 286 21" scale="0.9488059 1.105327 0.9488059" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-5.03 0 5.89" rot="23.71 130.47 358.73" scale="1.307566 1.307566 1.307566" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-6 0 -1" rot="1.81 91.87 338.24" scale="0.8010432 0.8264856 0.8010432" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-11 0 -8" rot="13.05 346.55 351.2" scale="1.3992 1.3992 1.3992" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-11 0 -8" rot="21.09 86.6 341.73" scale="1.251671 1.251671 1.251671" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-12 0 -8" rot="2 167 334" scale="1.145864 0.9102633 1.145864" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="11 0 6" rot="341 200 344" scale="1.747549 1.747549 1.747549" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-15 0 16" rot="5.49 0.92 5.91" scale="1.3992 1.3992 1.3992" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-14 0 16" rot="2 11 334" scale="0.9619359 0.9619359 0.9619359" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_B" pos="-15 0 15" rot="23 90 331" scale="1.4656 1.4656 1.4656" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="-20 -1 -20" rot="357 152 349" scale="0.8810186 0.8810186 0.8810186" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="11 -1 6" rot="10.63 219.45 337.2" scale="1.651724 1.651724 1.651724" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="-6 0 3" rot="342 248 10" scale="1.494079 1.494079 1.494079" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_B" pos="22 -1 20" rot="1.95 305.46 13.59" scale="1.229866 1.229866 1.229866" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="4 0 -6" rot="3 150 349" scale="0.5926887 0.5926887 0.5926887" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_C_SUB_02" pos="11 0 6" roty="20" scale="1.764758 1 1.753713" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_A_SUB_02" pos="3 0 -6" roty="85" scale="1.4332 1 1.4332" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_A" pos="19 -1 -18" rot="31.25 235.98 13.27" scale="1.12935 0.7668377 1.12935" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_D" pos="19 0 -19" roty="270" scale="1.429 1 1.429" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="19 0 -18" rot="8.23 60.34 349.88" />
+        <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_D" pos="-20 0 -20" roty="231" scale="1.110425 1 1.107525" />
+        <tile name="SWAMP_RED_CRYSTAL_REALM_CRYSTAL_FORMATION_B" pos="22 -2 20" rot="341 200 344" scale="1.3079 1.3079 1.3079" />
+        <tile name="STEPPE_RED_FILL_STORAGE_BARREL_FOOD_A" pos="18.5 -4 -18.5" />
+        <tile name="STEPPE_RED_FILL_STORAGE_CRATE_LARGE_A" pos="11 -4 6" />
+        <tile name="STEPPE_RED_FILL_STORAGE_CRATE_LARGE_A" pos="-15 -4 16" />
+        <tile name="STEPPE_RED_FILL_STORAGE_CRATE_LARGE_A" pos="-11 -4 -8" />
+        <tile name="SWAMP_RED_AVA_DECO_ASTRONOMICAL_SPHERE_C" pos="-5.11 10 5.03" scale="0.6491109 0.64911 0.6491109" />
+        <tile name="SWAMP_RED_VEG_SOIL_C" pos="2.5 0 -19.5" />
+      </layer>
+    </layergroup>
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="0 0 20" roty="180" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="20 0 0" roty="270" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="0 0 -20" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="10 0 20" roty="270" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="-10 0 20" roty="180" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="-20 0 0" roty="90" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="-20 0 20" roty="180" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="-20 0 10" roty="90" />
+    <tile name="SWAMP_RED_GROUND" pos="20 0 20" roty="270" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="-20 0 -20" roty="90" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_INNERCORNER_A" pos="10 0 10" roty="270" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="20 0 10" roty="270" />
+    <tile name="SWAMP_RED_GROUND_SUB_02" pos="0 0 -10" />
+    <tile name="SWAMP_RED_GROUND_SUB_02" pos="10 0 0" />
+    <tile name="SWAMP_RED_GROUND_SUB_02" pos="-10 0 -10" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="-10 0 -20" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_STRAIGHT_A" pos="-20 0 -10" roty="90" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="20 0 -10" />
+    <tile name="SWAMP_RED_GROUND" pos="20 0 -20" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_INNERCORNER_A" pos="10 0 -10" />
+    <tile name="SWAMP_RED_GROUND_SUB_02_CORNER_A" pos="10 0 -20" />
+    <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE_STANDARD_A" pos="-5.09 3.42 4.98" roty="270">
+      <pointlight range="14" intensity="10" color="0.07075471 0.3609219 1" />
+    </tile>
+    <tile name="SWAMP_RED_CRYSTAL_REALM_PLATFORM_STONE_HOLE_LARGE_A_SUB_02_NO_COL" pos="-5 0 5" roty="270" />
+    <tile name="SWAMP_RED_GROUND_CRACK_CRYSTAL_20M_A_SUB_02" pos="-5 0 5" roty="180" />
+    <tile name="FOREST_GREEN_HER_POINT_LIGHT_DNG_MINE_STANDARD_A" pos="-4.46 8.94 4.4" roty="270">
+      <pointlight range="10" intensity="4" color="0.07075471 0.3609219 1" />
+    </tile>
+    <tile name="SWAMP_RED_GROUND_CRACK_SUB_02_A" pos="1.5 0 -13.5" roty="180" />
+    <tile name="SWAMP_RED_GROUND_CRACK_SUB_02_A" pos="13.5 0 -2.5" roty="270" />
+    <tile name="SWAMP_RED_VEG_PLANTS_A" pos="-13.5 0 24.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="-1.5 0 -22.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="22.5 0 -9.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="-23.5 0 -16.5" roty="90" />
+    <tile name="SWAMP_RED_VEG_BLEND_SMALL_A" pos="-23.5 0 10.5" roty="270" />
+    <tile name="SWAMP_RED_VEG_BLEND_SMALL_A" pos="-23.5 0 18.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_SMALL_A" pos="6.5 0 24.5" roty="180" />
+    <tile name="SWAMP_RED_T1_TREE_WATER_B" pos="-18.5 0 24.5" roty="180" />
+    <tile name="SWAMP_RED_VEG_BLEND_HIGH_A" pos="-18.5 0 23.5" roty="90" />
+    <tile name="SWAMP_RED_T1_TREE_BAYOU_A" pos="-21.5 0 14.5" roty="90" />
+    <tile name="SWAMP_RED_VEG_BLEND_SMALL_A" pos="-20.5 0 17.5" roty="180" />
+    <tile name="SWAMP_RED_VEG_BLEND_HIGH_A" pos="-21.5 0 14.5" roty="180" />
+    <tile name="SWAMP_RED_VEG_PLANTS_A" pos="-24.5 0 20.5" roty="90" />
+    <tile name="SWAMP_RED_T1_TREE_BAYOU_A" pos="14.5 0 20.5" roty="270" />
+    <tile name="SWAMP_RED_VEG_PLANTS_A" pos="14.5 0 17.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_HIGH_A" pos="15.5 0 22.5" roty="270" />
+    <tile name="SWAMP_RED_VEG_PLANTS_A" pos="-13.5 0 -22.5" roty="180" />
+    <tile name="SWAMP_RED_T1_TREE_WATER_B" pos="-8.5 0 -22.5" />
+    <tile name="SWAMP_RED_VEG_BLEND_HIGH_A" pos="-8.5 0 -21.5" roty="270" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="23.5 0 -3.5" roty="90" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="22.5 0 13.5" roty="180" />
+    <tile name="SWAMP_RED_VEG_BLEND_B" pos="-23.5 0 4.5" roty="180" />
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_CLERIC" pos="6.89 0.59 2.86" roty="277">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_CLERIC" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_CLERIC" pos="-3.43 0 -7.03" roty="354">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_CLERIC" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_EAGLE" pos="7.57 0 -8.9" roty="314">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_EAGLE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_MAGE" pos="0.52 1.31 -1.19" roty="317.47">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_MAGE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_STATUE" pos="-20.34 0 -0.95" roty="337">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_STATUE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_STATUE" pos="-1.15 0 20.7" roty="105">
+      <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_CAMP_AVALON_STATUE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_BOWMAN" pos="-16.16 0 -19.1" roty="103">
+      <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_CAMP_AVALON_BOWMAN">
+        <path>
+          <waypoint pos="-16.04682 -19.05429" idle="5" pace="WALK" />
+          <waypoint pos="-12.92202 -19.07782" idle="0" pace="WALK" />
+          <waypoint pos="-7.22112 -19.50109" idle="0" pace="WALK" />
+          <waypoint pos="0.1646042 -21.20622" idle="0" pace="WALK" />
+          <waypoint pos="6.290548 -20.98868" idle="0" pace="WALK" />
+          <waypoint pos="13.64506 -19.89506" idle="0" pace="WALK" />
+          <waypoint pos="14.72443 -19.35399" idle="3" pace="WALK" />
+          <waypoint pos="13.64506 -19.89506" idle="0" pace="WALK" />
+          <waypoint pos="6.290548 -20.98868" idle="0" pace="WALK" />
+          <waypoint pos="0.1646042 -21.20622" idle="0" pace="WALK" />
+          <waypoint pos="-7.22112 -19.50109" idle="0" pace="WALK" />
+          <waypoint pos="-12.92202 -19.07782" idle="0" pace="WALK" />
+        </path>
+      </mobspawnpoint>
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_BOWMAN" pos="20.36 0 15.72" roty="132">
+      <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_CAMP_AVALON_BOWMAN">
+        <path>
+          <waypoint pos="21.21249 15.39648" idle="5" pace="WALK" />
+          <waypoint pos="22.11438 13.31951" idle="0" pace="WALK" />
+          <waypoint pos="22.83987 10.14994" idle="0" pace="WALK" />
+          <waypoint pos="23.52874 6.057955" idle="0" pace="WALK" />
+          <waypoint pos="23.699 2.944257" idle="0" pace="WALK" />
+          <waypoint pos="23.77001 -1.923594" idle="0" pace="WALK" />
+          <waypoint pos="22.71011 -8.450978" idle="0" pace="WALK" />
+          <waypoint pos="19.68944 -14.71999" idle="3" pace="WALK" />
+          <waypoint pos="22.71011 -8.450978" idle="0" pace="WALK" />
+          <waypoint pos="23.77001 -1.923594" idle="0" pace="WALK" />
+          <waypoint pos="23.699 2.944257" idle="0" pace="WALK" />
+          <waypoint pos="23.52874 6.057955" idle="0" pace="WALK" />
+          <waypoint pos="22.83987 10.14994" idle="0" pace="WALK" />
+          <waypoint pos="22.11438 13.31951" idle="0" pace="WALK" />
+        </path>
+      </mobspawnpoint>
+    </tile>
+  </tiles>
+</template>

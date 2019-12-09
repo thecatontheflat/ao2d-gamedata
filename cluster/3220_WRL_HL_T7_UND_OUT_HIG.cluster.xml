@@ -60,8 +60,10 @@
   <templateinstance id="instanceslot_17" ref="M_HL_WatchtowerResources_01" pos="290 0 150">
     <activelayer id="Layer_01" />
   </templateinstance>
-  <templateinstance id="instanceslot_18" ref="S_HL_FieldOfStones_01" pos="-350 8 -250" rot="270">
-    <activelayer id="Layer_01" />
+  <templateinstance id="instanceslot_18" ref="S_HL_AvalonianInvasion_01" pos="-350 8 -250">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
   </templateinstance>
   <templateinstance id="instanceslot_19" ref="S_HL_Hellgate_01" pos="-270 4 100" rot="90" />
   <templateinstance id="instanceslot_20" ref="S_HL_FishingPond_01" pos="-80 8 240" rot="90" />

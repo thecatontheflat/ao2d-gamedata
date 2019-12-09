@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Straight_MiniBoss.unity" unityguid="38237c5d9b17c3f42ae16ba9192204bd" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-59 -69" colBoundsMax="55 56">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Straight_MiniBoss.unity" unityguid="38237c5d9b17c3f42ae16ba9192204bd" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-59 -69" colBoundsMax="55 56">
   <criticalscenemembers />
   <tiles>
     <layergroup name="">

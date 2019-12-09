@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Straight_BallistaMaze.unity" unityguid="ebdca8080a8cc6c40867af82d98b1795" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -55" colBoundsMax="44 58">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Straight_BallistaMaze.unity" unityguid="ebdca8080a8cc6c40867af82d98b1795" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -55" colBoundsMax="44 58">
   <criticalscenemembers />
   <tiles>
     <layergroup name="">

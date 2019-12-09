@@ -55,5 +55,9 @@
     <activelayer id="Layer_03" />
   </templateinstance>
   <templateinstance id="instanceslot_19" ref="S_FR_ExpeditionEntrance_01" pos="360 8 270" />
-  <templateinstance id="instanceslot_20" ref="S_FR_AnimalCaves_01" pos="30 -4 260" rot="180" />
+  <templateinstance id="instanceslot_20" ref="S_FR_AvalonianInvasion_01" pos="30 -4 260">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
 </cluster>

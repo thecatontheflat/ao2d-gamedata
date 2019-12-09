@@ -522,59 +522,8 @@
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
-    <layergroup name="market_bank_separation">
-      <layer id="Layer_01" name="Separated">
-        <criticaltile name="SWAMP_GREEN_T1_BANK_ENTRANCE" pos="-10 12 -10" roty="270" id="exit_06" type="exit">
-          <exit size="9 9" spawnpos="1.136868E-13 -10.00002" faction="None" kind="DungeonSandbox" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-10 12 -10" roty="270">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-10 4 -10" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-20 4 -10" roty="270" />
-        <criticaltile name="SWAMP_GREEN_MARKETPLACE_ENTRANCE" pos="-25 12 25" roty="90" id="exit_05" type="exit">
-          <exit size="7 7" spawnpos="5.170006 4.62" faction="None" kind="Cluster" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-25 12 26" roty="90">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-30.5 12 19.5" roty="43" />
-      </layer>
-      <layer id="Layer_02" name="Included">
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-10 12 -10" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-20 12 -10" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-30 12 20" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-20 12 20" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-20 12 30" roty="270" />
-        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-30 12 30" roty="270" />
-        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-15.5 12 -1.5" roty="330" />
-        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-13.5 12 -19.5" roty="200" />
-        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-0.5 12 -13.5" roty="115" />
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-13.5 12 -15.5" roty="180" />
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-5.5 12 -6.5" roty="90" />
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-13.5 12 -6.5" />
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_SIDE_CORNER_A" pos="-5.5 12 -17.5" />
-        <criticaltile name="SWAMP_GREEN_MARKETPLACE" pos="-21 12 26" id="actionbuilding_03" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-20 12 26">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_B" pos="-25.5 12 22.5" roty="270" />
-        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_B" pos="-27.5 12 30.5" />
-        <tile name="SWAMP_GREEN_VEG_SOIL_D" pos="-26.5 12 24.5" />
-        <tile name="SWAMP_GREEN_FILL_PLATFORM_STONE_B" pos="-10 12 -10" roty="90" />
-        <criticaltile name="SWAMP_GREEN_T1_BANK" pos="-10 13 -10" id="actionbuilding_01" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-9.5 13 -9.5">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT" pos="-23 17 22" />
-      </layer>
-    </layergroup>
-    <layergroup name="Season">
-      <layer id="Layer_03" name="Halloween">
+    <layergroup name="">
+      <layer id="Layer_03" name="Halloween" flags="halloween">
         <tile name="HALLOWEEN_BUNTING_A" pos="-14.5 12 -50" roty="100" />
         <tile name="HALLOWEEN_PUMKIN_A" pos="-4 12 -41" roty="180" />
         <tile name="HALLOWEEN_PUMKIN_B" pos="-3 12 -39" />
@@ -621,7 +570,9 @@
         <tile name="SWAMP_GREEN_FILL_FARM_HAY_SACKS_B" pos="16 12 -4" />
         <tile name="SWAMP_GREEN_FILL_FARM_SCARECROW" pos="-29.5 12 50.5" roty="135" />
       </layer>
-      <layer id="Layer_04" name="Christmas">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_04" name="Christmas" flags="christmas">
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="-10 21 48.5" />
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="-48.5 21 -10" roty="270" />
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="-50.5 15 -20" roty="270" />
@@ -640,7 +591,9 @@
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="-35.5 19 1" roty="270" scale="0.7183008 0.7183006 0.7183009" />
         <tile name="XMAS_FILL_CITY_WREATH_B" pos="-36.5 20 0.5" roty="269.98" scale="1.500457 1.500456 1.500456" />
       </layer>
-      <layer id="Layer_05" name="Easter">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_05" name="Easter" flags="easter">
         <tile name="EASTER_DECO_A" pos="-46.5 12 -4.5" />
         <tile name="EASTER_DECO_A" pos="-4.5 12 43.5" roty="180" />
         <tile name="EASTER_DECO_A" pos="-14.5 12 -39.5" roty="90" />
@@ -678,7 +631,9 @@
         <tile name="EASTER_DECO_A" pos="-30.5 12 46.5" rot="9.04 0.56 8.92" />
         <tile name="EASTER_DECO_B" pos="27.5 12 -5.5" roty="180" />
       </layer>
-      <layer id="Layer_06" name="Anniversary">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_06" name="Anniversary" flags="anniversary">
         <tile name="ANNIVERSARY_BANNER_A" pos="16.5 12 -14" roty="270" scale="1.421929 1.421929 1.421929" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-34.5 12 -15" roty="270" scale="1.421929 1.421929 1.421929" />
         <tile name="ANNIVERSARY_BANNER_B" pos="42 12 -3" scale="1.428935 1.428936 1.428936" />
@@ -752,6 +707,57 @@
         <tile name="ANNIVERSARY_BUNTING_A" pos="56.5 20 -11" roty="270" />
         <tile name="ANNIVERSARY_BUNTING_A" pos="-43 20 8.5" roty="217" />
         <tile name="ANNIVERSARY_CONFETTI_A" pos="-37 11 -21" />
+      </layer>
+    </layergroup>
+    <layergroup name="market_bank_separation">
+      <layer id="Layer_01" name="Separated">
+        <criticaltile name="SWAMP_GREEN_T1_BANK_ENTRANCE" pos="-10 12 -10" roty="270" id="exit_06" type="exit">
+          <exit size="9 9" spawnpos="1.136868E-13 -10.00002" faction="None" kind="DungeonSandbox" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-10 12 -10" roty="270">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-10 4 -10" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-20 4 -10" roty="270" />
+        <criticaltile name="SWAMP_GREEN_MARKETPLACE_ENTRANCE" pos="-25 12 25" roty="90" id="exit_05" type="exit">
+          <exit size="7 7" spawnpos="5.170006 4.62" faction="None" kind="Cluster" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-25 12 26" roty="90">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-30.5 12 19.5" roty="43" />
+      </layer>
+      <layer id="Layer_02" name="Included">
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-10 12 -10" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_PLACE_A" pos="-20 12 -10" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-30 12 20" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-20 12 20" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-20 12 30" roty="270" />
+        <tile name="SWAMP_GREEN_ROAD_BIOMECITY_BOARDWALK_A" pos="-30 12 30" roty="270" />
+        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-15.5 12 -1.5" roty="330" />
+        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-13.5 12 -19.5" roty="200" />
+        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-0.5 12 -13.5" roty="115" />
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-13.5 12 -15.5" roty="180" />
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-5.5 12 -6.5" roty="90" />
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_C" pos="-13.5 12 -6.5" />
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_SIDE_CORNER_A" pos="-5.5 12 -17.5" />
+        <criticaltile name="SWAMP_GREEN_MARKETPLACE" pos="-21 12 26" id="actionbuilding_03" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-20 12 26">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_B" pos="-25.5 12 22.5" roty="270" />
+        <tile name="SWAMP_GREEN_VEG_MOSS_PATCH_B" pos="-27.5 12 30.5" />
+        <tile name="SWAMP_GREEN_VEG_SOIL_D" pos="-26.5 12 24.5" />
+        <tile name="SWAMP_GREEN_FILL_PLATFORM_STONE_B" pos="-10 12 -10" roty="90" />
+        <criticaltile name="SWAMP_GREEN_T1_BANK" pos="-10 13 -10" id="actionbuilding_01" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-9.5 13 -9.5">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT" pos="-23 17 22" />
       </layer>
     </layergroup>
     <tile name="FACTION_GUARD_SWAMP" pos="-50.5 12 -12.5" roty="90" />
