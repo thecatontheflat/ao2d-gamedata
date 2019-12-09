@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Corner_MortarTutorial.unity" unityguid="534ed936739f0724c98ab17dda2362c0" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -60" colBoundsMax="64 58">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Corner_MortarTutorial.unity" unityguid="534ed936739f0724c98ab17dda2362c0" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -60" colBoundsMax="64 58">
   <criticalscenemembers />
   <tiles>
     <layergroup name="">

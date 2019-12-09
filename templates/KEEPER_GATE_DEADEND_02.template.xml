@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/KEEPER_GATE_DEADEND_02.unity" unityguid="8a0c33d6c734f0b4b9ff21d0e90c2677" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="79 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/KEEPER_GATE_DEADEND_02.unity" unityguid="8a0c33d6c734f0b4b9ff21d0e90c2677" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="79 75">
   <criticalscenemembers>
     <criticalscenemember id="hellgateexit_02" type="hellgateexit" layerId="0d11a499-2daf-4768-9873-9a27a2ff0588">
       <tile name="GatewayExit" pos="-49 0 33" roty="270">

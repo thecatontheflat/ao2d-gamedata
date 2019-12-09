@@ -747,8 +747,8 @@
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
-    <layergroup name="Season">
-      <layer id="Layer_01" name="Halloween">
+    <layergroup name="">
+      <layer id="Layer_01" name="Halloween" flags="halloween">
         <tile name="HALLOWEEN_BUNTING_A" pos="-1 0 23.5" roty="180" />
         <tile name="HALLOWEEN_BUNTING_A" pos="65.5 -8 0" roty="100" />
         <tile name="HALLOWEEN_BUNTING_A" pos="65.5 -8 -60" roty="100" />
@@ -832,7 +832,9 @@
         <tile name="HIGHLAND_DEAD_VEG_MOSS_BROWN_SMALL_A" pos="33.5 0 7.5" roty="20" />
         <tile name="HIGHLAND_DEAD_VEG_MOSS_BROWN_STRAIGHT_A" pos="-11.5 0 -51.5" roty="270" />
       </layer>
-      <layer id="Layer_02" name="Christmas">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_02" name="Christmas" flags="christmas">
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="10 10 38.5" />
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="55.5 -8 -89" roty="270" />
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="50 3 38.5" />
@@ -1072,7 +1074,9 @@
         <tile name="XMAS_FILL_CITY_WREATH_C" pos="92.5 -7 124.5" roty="61" />
         <tile name="XMAS_FILL_CITY_WREATH_C" pos="63.5 2 -16.5" roty="266.38" />
       </layer>
-      <layer id="Layer_03" name="Easter">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_03" name="Easter" flags="easter">
         <tile name="EASTER_DECO_A" pos="-54.5 -8 3.5" />
         <tile name="EASTER_DECO_A" pos="-25.5 -8 16.5" />
         <tile name="EASTER_DECO_A" pos="-41.5 0 -26.5" roty="180" />
@@ -1160,7 +1164,9 @@
         <tile name="EASTER_DECO_HANGING_A" pos="64 10 -30" />
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_B" pos="-132 -1 -25" roty="272" />
       </layer>
-      <layer id="Layer_04" name="Anniversary">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_04" name="Anniversary" flags="anniversary">
         <tile name="ANNIVERSARY_BANNER_A" pos="-66.5 4 -24" roty="270" scale="1.266019 1.266018 1.266019" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-66.5 4 -36" roty="270" scale="1.266019 1.266018 1.266019" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-27 0 -25.5" scale="1.266018 1.266018 1.266018" />

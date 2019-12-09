@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/UNDEAD_EXIT_DEADEND_B01.unity" unityguid="ab32ae6a62cb6e04992cb349933129dc" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -77" colBoundsMax="79 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/UNDEAD_EXIT_DEADEND_B01.unity" unityguid="ab32ae6a62cb6e04992cb349933129dc" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -77" colBoundsMax="79 75">
   <criticalscenemembers>
     <criticalscenemember id="exit_04" type="exit" layerId="0290ff50-88f2-4546-a54d-675ff6ee3ea4">
       <tile name="FOREST_GREEN_UND_EXIT_STAIRCASE_20M_EXIT" pos="-31 4 32">

@@ -2052,13 +2052,12 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_A" pos="69 -7 20" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_A_NOCOL" pos="-26 -1 -13" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_A_NOCOL" pos="76 -7 19" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_A_NOCOL" pos="91 -16 28" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_A_NOCOL" pos="91 -18 28" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B" pos="-11 -2 7" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B" pos="57 0 -25" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B_NOCOL" pos="-52 -8 13" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B_NOCOL" pos="-65 -4 17" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B_NOCOL" pos="13 -16 33" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B_NOCOL" pos="-35 -16 42" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_CORNER_B_NOCOL" pos="13 -18 33" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A" pos="-4 -8 -11" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A" pos="13 -8 -1" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A" pos="-25 0 -4" roty="270" />
@@ -2091,10 +2090,10 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="-57 -8 28" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="-76 -15 48" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="-51 -8 49" roty="180" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="85 -15 33" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="85 -18 33" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="77 -10 25" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="75 -8 25" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="30 -15 49" roty="180" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="30 -19 49" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A_NOCOL" pos="21 -5 -30" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B" pos="-10 -8 22" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B" pos="-14 -8 -24" />
@@ -2123,9 +2122,9 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-54 -8 53" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-62 -8 28" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-73 -15 44" roty="180" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-78 -15 35" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-94 -15 28" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="79 -15 34" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-78 -19 35" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="-94 -19 28" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="79 -18 34" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_B_NOCOL" pos="20 -4 -34" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_C" pos="-4 -8 -3" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_D" pos="-4 -8 21" scale="1.474075 0.5 1.474075" />
@@ -2161,10 +2160,10 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="-22 -6 -24" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="-69 -13 51" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="-67 -8 25" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="34 -17 30" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="95 -15 21" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="75 -15 29" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="70 -15 29" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="34 -19 30" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="95 -18 21" roty="90" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="75 -18 29" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="70 -18 29" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_E_NOCOL" pos="-26 -12 42" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F" pos="1 -8 8" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F" pos="-13 -8 14" roty="90" />
@@ -2173,13 +2172,13 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F" pos="63 0 -31" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-22 -8 -34" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-71 -8 19" roty="180" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-85 -16 30" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-93 -16 15" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-85 -21 30" roty="90" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-93 -21 15" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-41 -20 56" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="29 -22 34" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="-77 -20 52" />
         <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="81 -14 19" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="95 -14 13" roty="180" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_FORMATION_F_NOCOL" pos="95 -18 13" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A" pos="-19.5 -4 12" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A" pos="15.5 -8 1" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A" pos="-20 -3 9.5" roty="180" />
@@ -2204,13 +2203,13 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="25 -15 28" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="58 -17 29" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="95 -7 9" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="70 -17 33" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="70 -18 33" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="47 -4 -23" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="64 3 -22" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="73 -7 14" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="63 -16 31" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="63 -18 31" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="79 -6 14" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="30 -17 51" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_A_NOCOL" pos="30 -21 51" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B" pos="-7 1 8.5" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B" pos="61 -13 26.5" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B" pos="60.5 -8 -12" roty="270" />
@@ -2225,7 +2224,7 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="-54 -3 12" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="-70 -15 44" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="72 -7 13" roty="180" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="66 -11 27" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="66 -12 27" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_B_NOCOL" pos="77 -6 14" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_C_NOCOL" pos="104 -14 9" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_D" pos="57 -8 -13" />
@@ -2250,25 +2249,25 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-28 -8 -25" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-21 -8 -19" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-66 -6 15" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-71 -16 36" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-71 -20 36" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-74 -12 26" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-59 -8 21" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-89 -16 22" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-89 -20 22" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="-44 -15 51" />
         <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="89 -15 17" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="86 -14 26" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_LARGE_A_ROUNDISH_NOCOL" pos="86 -16 26" />
         <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_A" pos="64 -8 26" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_A" pos="-30 -8 39" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_A" pos="-31 -8 41" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_A_NOCOL" pos="0.5 -15 59.5" roty="180" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B_NOCOL" pos="-0.5 -15 60.5" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B_NOCOL" pos="-100.5 -17 59.5" roty="270" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_C_NOCOL" pos="-99.5 -17 59.5" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_A_NOCOL" pos="0.5 -19 59.5" roty="180" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B_NOCOL" pos="-0.5 -19 60.5" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B_NOCOL" pos="-100.5 -21 59.5" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_C_NOCOL" pos="-99.5 -21 59.5" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B" pos="-10 -4 5" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B" pos="60 0 -27" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B" pos="55 -8 -23" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B_NOCOL" pos="-92 -16 12" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B_NOCOL" pos="-105 -16 13" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B_NOCOL" pos="-105 -20 13" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_INNERCORNER_B_NOCOL" pos="-57 -19 52" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A" pos="6.5 -4 6" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A" pos="9.5 -8 3" roty="270" />
@@ -2281,10 +2280,10 @@
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A" pos="18 -8 -32.5" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-9 0 7" roty="270" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-57 -8 14" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-79 -16 30" roty="180" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-79 -20 30" roty="180" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-73 -20 47" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="-9 -18 38" roty="90" />
-        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="63 -17 28" roty="90" />
+        <tile name="HIGHLAND_RED_FILL_ROCK_PLATEAU_STRAIGHT_A_NOCOL" pos="63 -19 28" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_SMALL_D" pos="49.5 -8 -31.5" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_SMALL_D" pos="14.5 -10 -33.5" roty="90" />
         <tile name="HIGHLAND_RED_FILL_ROCK_SMALL_D_NOCOL" pos="-33.5 -7 -28.5" />
@@ -2344,7 +2343,7 @@
         <tile name="HIGHLAND_RED_T1_DECO_BUSH_C" pos="-34.5 -8 44.5" roty="22" />
         <tile name="HIGHLAND_RED_T1_DECO_BUSH_C" pos="-64.5 -8 33.5" roty="98" />
         <tile name="HIGHLAND_RED_T1_DECO_BUSH_C" pos="-52.5 -8 43.5" roty="115" />
-        <tile name="HIGHLAND_RED_FILL_WATER_SHIP_ROWBOAT_A_RIVER" pos="51.5 -14 40.5" roty="270" />
+        <tile name="HIGHLAND_RED_FILL_WATER_SHIP_ROWBOAT_A_RIVER" pos="51.5 -18 40.5" roty="270" />
         <tile name="HIGHLAND_RED_VEG_FLOWERS_WHITE_B" pos="-60.5 0 -29.5" />
         <tile name="HIGHLAND_RED_VEG_FLOWERS_WHITE_B" pos="-66.5 0 -19.5" roty="90" />
         <tile name="HIGHLAND_RED_VEG_FLOWERS_WHITE_B" pos="-99.5 0 -9.5" roty="180" />
@@ -2408,28 +2407,28 @@
         <tile name="HIGHLAND_RED_VEG_STONE_FLOWER_B" pos="-47.5 -8 39.5" roty="106" />
         <tile name="HIGHLAND_RED_VEG_STONE_FLOWER_B" pos="49.5 -12 21.5" roty="171" />
         <tile name="HIGHLAND_RED_WALKWAY_WOODEN_6M_STRAIGHT_RAILING_A" pos="50 -20 38.5" roty="180" scale="1 1 0.7" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -13 30" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-30 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -13 30" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -13 30" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -13 30" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -13 30" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-30 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -13 90" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -13 60" />
-        <tile name="HIGHLAND_RED_WATER_sealevel" pos="100 -13 10" />
-        <tile name="HIGHLAND_RED_WATER_sealevel" pos="-100 -13 10" />
-        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -13 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -17 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-30 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -17 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="0 -17 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="90 -17 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="60 -17 30" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-30 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-90 -17 90" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="-60 -17 60" />
+        <tile name="HIGHLAND_RED_WATER_sealevel" pos="100 -17 10" />
+        <tile name="HIGHLAND_RED_WATER_sealevel" pos="-100 -17 10" />
+        <tile name="HIGHLAND_RED_WATER_sealevel_30x30" pos="30 -17 30" />
         <tile name="HIGHLAND_RED_GROUND" pos="80 -20 80" />
         <tile name="HIGHLAND_RED_GROUND" pos="90 -20 80" />
         <tile name="HIGHLAND_RED_GROUND" pos="-10 -20 70" />

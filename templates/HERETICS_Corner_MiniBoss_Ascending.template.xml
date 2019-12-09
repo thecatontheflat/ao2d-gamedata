@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Corner_MiniBoss_Ascending.unity" unityguid="93595dd66cde6cc479b51fbada4f4fd8" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -56" colBoundsMax="58 55">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Corner_MiniBoss_Ascending.unity" unityguid="93595dd66cde6cc479b51fbada4f4fd8" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-55 -56" colBoundsMax="58 55">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Deco">

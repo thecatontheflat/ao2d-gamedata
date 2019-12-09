@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_DeadEnd_Boss.unity" unityguid="6a733bbfd30a4ed4cbbf289ecf52965a" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-70 -61" colBoundsMax="55 58">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_DeadEnd_Boss.unity" unityguid="6a733bbfd30a4ed4cbbf289ecf52965a" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-70 -61" colBoundsMax="55 58">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Boss">

@@ -86,7 +86,11 @@
   </templateinstance>
   <templateinstance id="instanceslot_26" ref="S_FR_Siegecamp_01" pos="190 0 -90" />
   <templateinstance id="instanceslot_27" ref="S_FR_Hellgate_01" pos="-80 8 -120" rot="270" />
-  <templateinstance id="instanceslot_28" ref="S_FR_ForestHill_01" pos="190 -4 100" />
+  <templateinstance id="instanceslot_28" ref="S_FR_AvalonianInvasion_01" pos="190 -4 100">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
   <templateinstance id="instanceslot_29" ref="S_FR_WindmillFarm_01" pos="220 -4 20" rot="270">
     <activelayer id="Layer_02" />
   </templateinstance>

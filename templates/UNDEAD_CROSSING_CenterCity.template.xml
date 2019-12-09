@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/UNDEAD_CROSSING_CenterCity.unity" unityguid="4f43c9afa821cb54a9e472c046de9409" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-76 -76" colBoundsMax="76 76">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/UNDEAD_CROSSING_CenterCity.unity" unityguid="4f43c9afa821cb54a9e472c046de9409" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-76 -76" colBoundsMax="76 76">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="2ab8708d-95d9-4897-a700-9d7816ff6039">
       <tile name="FOREST_GREEN_UND_EXIT_STAIRCASE_20M_EXIT" pos="0 -4 0">

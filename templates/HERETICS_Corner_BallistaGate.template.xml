@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Corner_BallistaGate.unity" unityguid="9f60c1b343cc770418bb6be5371ca958" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -55" colBoundsMax="64 58">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Corner_BallistaGate.unity" unityguid="9f60c1b343cc770418bb6be5371ca958" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-56 -55" colBoundsMax="64 58">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Deco">

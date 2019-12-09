@@ -22,7 +22,7 @@
       clusterdangerbonustype="safe"
       requiredreputationtoenter="-1000"
       showdiebuttondelay="20"
-	  vanityvisibility="Allowed"
+	    vanityvisibility="Allowed"
       />
     
     <archetype
@@ -46,7 +46,8 @@
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-20000"
       showdiebuttondelay="20"
-	  vanityvisibility="Allowed"
+	    vanityvisibility="Allowed"
+      zergdebuffenabled="true"
       />
 
     <archetype
@@ -68,7 +69,8 @@
       cropyieldfactor="2"
       clusterdangerbonustype="red"
       requiredreputationtoenter="-20000"
-	  vanityvisibility="Allowed"
+	    vanityvisibility="Allowed"
+      zergdebuffenabled="true"
       />
 
     <archetype
@@ -92,6 +94,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false" 
 	    vanityvisibility="Allowed"
+      zergdebuffenabled="true"
       />
 
     <archetype
@@ -115,7 +118,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
-	  vanityvisibility="Disabled"
+	    vanityvisibility="Disabled"
       />
     
     <archetype
@@ -139,7 +142,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
-	  vanityvisibility="Disabled"
+	    vanityvisibility="Disabled"
       />
     
     <archetype
@@ -163,7 +166,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       ignoreguilds="true"
-	  vanityvisibility="Disabled"
+  	  vanityvisibility="Disabled"
       />
     
     
@@ -187,7 +190,7 @@
       requiredreputationtoenter="-1000"
       allowfactionflagging="false"
       allowfactionflaggedenter="false"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -208,7 +211,7 @@
       animalgrowthfactor="1"
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -229,7 +232,7 @@
       animalgrowthfactor="1"
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -251,7 +254,7 @@
       cropyieldfactor="1"
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
 
 
@@ -275,7 +278,7 @@
       requiredreputationtoenter="-50000"
       allowfactionflagging="false"
       allowfactionflaggedenter="false"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
 
     <archetype
@@ -297,7 +300,7 @@
       cropyieldfactor="1"
       requiredreputationtoenter="-1000"
       durabilitydecaydivider="0"
-	  vanityvisibility="AllowedAndDefault"
+	    vanityvisibility="AllowedAndDefault"
       />
     
     <archetype
@@ -321,8 +324,8 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
-	  vanityvisibility="Disabled"
-    />
+  	  vanityvisibility="Disabled"
+      />
     <archetype
       name = "T4_EXPEDITION"
       uipvptype="Safe"
@@ -344,7 +347,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+  	  vanityvisibility="Disabled"
     />
     <archetype
       name = "T5_EXPEDITION"
@@ -367,7 +370,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+  	  vanityvisibility="Disabled"
     />
     <archetype
       name = "T6_EXPEDITION"
@@ -390,7 +393,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+  	  vanityvisibility="Disabled"
     />
     <archetype
       name = "HARDCORE_EXPEDITION"
@@ -413,7 +416,7 @@
       clusterdangerbonustype="expedition"
 	    allowtrade="false"
       allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+  	  vanityvisibility="Disabled"
     />
 	
 	<archetype
@@ -437,7 +440,7 @@
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-50000"
 	    allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+	    vanityvisibility="Disabled"
 	  />
     <archetype
       name = "ARENA_CUSTOM"
@@ -460,7 +463,7 @@
       knockdownbuffaftergetup="SPAWN_KNOCKDOWN_INVULNERABILITY"
       requiredreputationtoenter="-50000"
 	    allowfactionflagging="false"
-	  vanityvisibility="Disabled"
+	    vanityvisibility="Disabled"
 	  />
     <archetype
      name = "ARENA_CRYSTAL"
@@ -946,6 +949,7 @@
         <!-- order is important: immunity LAST (obvious, right?) -->
       </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
+      <gvgseasonpoints mobrewardfactor="1.0"/>
     </clustertype>
 
     <clustertype name="OPENPVP_BLACK_2"
@@ -967,6 +971,7 @@
         <!-- order is important: immunity LAST (obvious, right?) -->
       </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
+      <gvgseasonpoints mobrewardfactor="1.4"/>
     </clustertype>
 
     <clustertype name="OPENPVP_BLACK_3"
@@ -988,6 +993,7 @@
         <!-- order is important: immunity LAST (obvious, right?) -->
       </spawnbuff>
       <mobspawns defaulttimefactor="1.0"/>
+      <gvgseasonpoints mobrewardfactor="1.8"/>
     </clustertype>
 
     <clustertype name="PASSAGE_SAFEAREA"

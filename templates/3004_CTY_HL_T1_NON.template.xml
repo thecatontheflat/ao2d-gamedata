@@ -522,49 +522,8 @@
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
-    <layergroup name="market_bank_separation">
-      <layer id="Layer_01" name="included">
-        <criticaltile name="HIGHLAND_GREEN_MARKETPLACE" pos="-23 0 4" roty="81" id="actionbuilding_01" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-22 0 4" roty="81">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <criticaltile name="HIGHLAND_GREEN_T1_BANK" pos="-4 0 -16" id="actionbuilding_03" type="actionbuilding">
-          <actionbuilding />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-4 0 -16">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_SMALL_A" pos="-5.5 0 -19.5" />
-        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_SMALL_A" pos="-2.5 0 -11.5" />
-        <tile name="HIGHLAND_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-7.5 0 -16.5" />
-        <tile name="HIGHLAND_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-6.5 0 -12.5" />
-        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_A" pos="-0.5 0 -17.5" />
-        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 0 -10" />
-        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 0 0" />
-      </layer>
-      <layer id="Layer_02" name="separated">
-        <criticaltile name="HIGHLAND_GREEN_MARKETPLACE_ENTRANCE" pos="-24.5 -1 4.5" id="exit_05" type="exit">
-          <exit size="10 10" spawnpos="10.65884 -8.191306" faction="None" kind="Cluster" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="-25.5 -1 4.5">
-          <minimapmarker type="Marketplace" />
-        </tile>
-        <criticaltile name="HIGHLAND_GREEN_T1_BANK_ENTRANCE" pos="0 0 -10" id="exit_06" type="exit">
-          <exit size="9 9" spawnpos="0 -7.276974" faction="None" kind="DungeonSandbox" roadtype="Primary" />
-        </criticaltile>
-        <tile name="MiniMapMarker" pos="0 0 -10">
-          <minimapmarker type="Bank" />
-        </tile>
-        <tile name="HIGHLAND_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-16.5 0 2.5" roty="302" />
-        <tile name="HIGHLAND_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-22.5 0 -3.5" roty="322" />
-        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 -13 -10" roty="90" />
-        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 -13 0" roty="90" />
-      </layer>
-    </layergroup>
-    <layergroup name="Season">
-      <layer id="Layer_03" name="Halloween">
+    <layergroup name="">
+      <layer id="Layer_03" name="Halloween" flags="halloween">
         <tile name="HALLOWEEN_BUNTING_A" pos="-58.5 0 -21" roty="90" />
         <tile name="HALLOWEEN_BUNTING_A" pos="-5.5 0 -49" roty="90" />
         <tile name="HALLOWEEN_BUNTING_A" pos="16.5 0 -30" roty="90" />
@@ -604,7 +563,9 @@
         <tile name="XMAS_FILL_CITY_GROUNDPATCH_B" pos="-45.5 0 -15.5" />
         <tile name="XMAS_FILL_CITY_GROUNDPATCH_B" pos="39.5 4 4.5" />
       </layer>
-      <layer id="Layer_04" name="Christmas">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_04" name="Christmas" flags="christmas">
         <tile name="XMAS_FILL_CITY_BANNER_A" pos="176.5 -20 -148.5" />
         <tile name="XMAS_FILL_CITY_BUNTING_A" pos="-49 0 -13.5" roty="346.31" />
         <tile name="XMAS_FILL_CITY_BUNTING_A" pos="27 -4 -39.5" />
@@ -721,7 +682,9 @@
         <tile name="XMAS_FILL_CITY_BUNTING_C" pos="-4 2 -62.5" scale="0.8068629 0.8068629 0.8068629" />
         <tile name="XMAS_FILL_CITY_STAND_B" pos="28.5 4 60.5" roty="13" />
       </layer>
-      <layer id="Layer_05" name="Easter">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_05" name="Easter" flags="easter">
         <tile name="EASTER_DECO_HANGING_ROPES_LAMPS_10M_B" pos="18 9 -25" roty="270" />
         <tile name="EASTER_DECO_BUNTING_A" pos="38 4 4.5" roty="180" />
         <tile name="EASTER_DECO_A" pos="-36.5 12 17.5" />
@@ -764,7 +727,9 @@
         <tile name="EASTER_DECO_B" pos="-46.5 12 0.5" />
         <tile name="EASTER_DECO_B" pos="-25.5 12 50.5" />
       </layer>
-      <layer id="Layer_06" name="Anniversary">
+    </layergroup>
+    <layergroup name="">
+      <layer id="Layer_06" name="Anniversary" flags="anniversary">
         <tile name="ANNIVERSARY_BANNER_A" pos="-54.5 12 25" roty="270" scale="1.250001 1.25 1.250001" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-46.5 12 0" roty="311.61" scale="1.25 1.25 1.25" />
         <tile name="ANNIVERSARY_BANNER_A" pos="-32 0 -15.5" roty="310.69" scale="1.25 1.25 1.25" />
@@ -836,6 +801,47 @@
         <tile name="ANNIVERSARY_CONFETTI_A" pos="-42 10 -1" roty="180" scale="1 9.134346 1" />
         <tile name="ANNIVERSARY_CONFETTI_A" pos="39 4 6" roty="270" />
         <tile name="ANNIVERSARY_CONFETTI_A" pos="-77 16 6" roty="180" />
+      </layer>
+    </layergroup>
+    <layergroup name="market_bank_separation">
+      <layer id="Layer_01" name="included">
+        <criticaltile name="HIGHLAND_GREEN_MARKETPLACE" pos="-23 0 4" roty="81" id="actionbuilding_01" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-22 0 4" roty="81">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <criticaltile name="HIGHLAND_GREEN_T1_BANK" pos="-4 0 -16" id="actionbuilding_03" type="actionbuilding">
+          <actionbuilding />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-4 0 -16">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_SMALL_A" pos="-5.5 0 -19.5" />
+        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_SMALL_A" pos="-2.5 0 -11.5" />
+        <tile name="HIGHLAND_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-7.5 0 -16.5" />
+        <tile name="HIGHLAND_GREEN_VEG_MOSS_BROWN_SMALL_A" pos="-6.5 0 -12.5" />
+        <tile name="HIGHLAND_GREEN_VEG_MOSS_GREEN_A" pos="-0.5 0 -17.5" />
+        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 0 -10" />
+        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 0 0" />
+      </layer>
+      <layer id="Layer_02" name="separated">
+        <criticaltile name="HIGHLAND_GREEN_MARKETPLACE_ENTRANCE" pos="-24.5 -1 4.5" id="exit_05" type="exit">
+          <exit size="10 10" spawnpos="10.65884 -8.191306" faction="None" kind="Cluster" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="-25.5 -1 4.5">
+          <minimapmarker type="Marketplace" />
+        </tile>
+        <criticaltile name="HIGHLAND_GREEN_T1_BANK_ENTRANCE" pos="0 0 -10" id="exit_06" type="exit">
+          <exit size="9 9" spawnpos="0 -7.276974" faction="None" kind="DungeonSandbox" roadtype="Primary" />
+        </criticaltile>
+        <tile name="MiniMapMarker" pos="0 0 -10">
+          <minimapmarker type="Bank" />
+        </tile>
+        <tile name="HIGHLAND_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-16.5 0 2.5" roty="302" />
+        <tile name="HIGHLAND_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-22.5 0 -3.5" roty="322" />
+        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 -13 -10" roty="90" />
+        <tile name="HIGHLAND_GREEN_ROAD_ROAD_PLACE_A" pos="0 -13 0" roty="90" />
       </layer>
     </layergroup>
     <tile name="HIGHLAND_GREEN_CASTLE_GATE_BARS_LARGE_CLOSED_A" pos="-150 12 324.5" roty="270" />

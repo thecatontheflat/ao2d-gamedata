@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Blank.unity" unityguid="ead939193bee1ba4d9bb271df1019b64" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-40 -37" colBoundsMax="41 44">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Blank.unity" unityguid="ead939193bee1ba4d9bb271df1019b64" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-40 -37" colBoundsMax="41 44">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Deco">

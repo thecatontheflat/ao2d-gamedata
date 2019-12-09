@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<achievements Version="6c67f5ef-d50f-4ee0-8d81-0b0d84eb541c" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<achievements Version="0f3dece2-52c6-4fc5-8583-fc6baae71ddc" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <template name="REFINE_T4" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     3713;15;0.2;2;8;2;8;4
     5826;15;0.2;4;4;4;4;
@@ -101,7 +101,7 @@
     75695;99;0.2;4;4;4;4;
     77600;102;0.2;4;4;4;4;
     79550;104;0.2;4;4;4;4;
-    </template>
+  </template>
   <template name="REFINE_T5" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     45000;137;0.2;2;8;2;8;5
     7907;15;0.2;5;5;5;5;
@@ -203,7 +203,7 @@
     102730;99;0.2;5;5;5;5;
     105313;102;0.2;5;5;5;5;
     107960;104;0.2;5;5;5;5;
-    </template>
+  </template>
   <template name="REFINE_T6" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     210000;457;0.2;2;8;2;8;6
     14316;15;0.2;6;6;6;6;
@@ -305,7 +305,7 @@
     185995;99;0.2;6;6;6;6;
     190672;102;0.2;6;6;6;6;
     195464;104;0.2;6;6;6;6;
-    </template>
+  </template>
   <template name="REFINE_T7" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     860000;914;0.2;2;8;2;8;7
     38453;15;0.2;7;7;7;7;
@@ -407,7 +407,7 @@
     499590;99;0.2;7;7;7;7;
     512156;102;0.2;7;7;7;7;
     525024;104;0.2;7;7;7;7;
-    </template>
+  </template>
   <template name="REFINE_T8" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     2795000;2971;0.2;2;8;2;8;8
     38453;15;0.2;8;8;8;8;
@@ -509,7 +509,7 @@
     499590;99;0.2;8;8;8;8;
     512156;102;0.2;8;8;8;8;
     525024;104;0.2;8;8;8;8;
-    </template>
+  </template>
   <template name="FARM_BASE" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     203;0;1;0;8;0;8;4
     215;0;1;0;8;0;8;
@@ -611,7 +611,7 @@
     6800;0;1;0;8;0;8;
     6993;0;1;0;8;0;8;
     7191;0;1;0;8;0;8;8
-    </template>
+  </template>
   <template name="FARM_SPEC" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     1782;0;1;0;8;0;8;
     1892;0;1;0;8;0;8;
@@ -713,7 +713,7 @@
     59844;0;1;0;8;0;8;
     61542;0;1;0;8;0;8;
     63284;0;1;0;8;0;8;
-    </template>
+  </template>
   <template name="COMBAT_BASE" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     25157;15;0.2;3;8;2;8;4;
     25898;15;0.2;3;8;2;8;;
@@ -815,7 +815,7 @@
     421471;101;0.2;3;8;2;8;;
     433898;102;0.2;3;8;2;8;;
     446692;104;0.2;3;8;2;8;8;
-    </template>
+  </template>
   <template name="COMBAT_SPEC" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     57861;17;0.2;3;8;2;8;;
     59565;17;0.2;3;8;2;8;;
@@ -917,7 +917,7 @@
     969383;116;0.2;3;8;2;8;;
     997965;117;0.2;3;8;2;8;;
     1027392;120;0.2;3;8;2;8;;
-    </template>
+  </template>
   <template name="COMBAT_OFF" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     25157;15;0.2;3;8;2;8;4;
     25898;15;0.2;3;8;2;8;;
@@ -1019,7 +1019,7 @@
     421471;101;0.2;3;8;2;8;;
     433898;102;0.2;3;8;2;8;;
     446692;104;0.2;3;8;2;8;8;
-    </template>
+  </template>
   <template name="GATHER_T4" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     30000;105;0.2;2;8;2;8;4
     5826;17;0.2;4;4;4;4;
@@ -1121,7 +1121,7 @@
     75696;114;0.2;4;4;4;4;
     77598;117;0.2;4;4;4;4;
     79548;120;0.2;4;4;4;4;
-    </template>
+  </template>
   <template name="GATHER_T5" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     140000;350;0.2;2;8;2;8;5
     7907;17;0.2;5;5;5;5;
@@ -1223,7 +1223,7 @@
     102729;114;0.2;5;5;5;5;
     105314;117;0.2;5;5;5;5;
     107958;120;0.2;5;5;5;5;
-    </template>
+  </template>
   <template name="GATHER_T6" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     513333;701;0.2;2;8;2;8;6
     14316;17;0.2;6;6;6;6;
@@ -1325,7 +1325,7 @@
     185994;114;0.2;6;6;6;6;
     190673;117;0.2;6;6;6;6;
     195462;120;0.2;6;6;6;6;
-    </template>
+  </template>
   <template name="GATHER_T7" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     1000000;1051;0.2;2;8;2;8;7
     38454;17;0.2;7;7;7;7;
@@ -1427,7 +1427,7 @@
     499590;114;0.2;7;7;7;7;
     512154;117;0.2;7;7;7;7;
     525024;120;0.2;7;7;7;7;
-    </template>
+  </template>
   <template name="GATHER_T8" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     1166667;1227;0.2;2;8;2;8;8
     39224;17;0.2;8;8;8;8;
@@ -1529,7 +1529,7 @@
     989189;114;0.2;8;8;8;8;
     1019187;117;0.2;8;8;8;8;
     1050048;120;0.2;8;8;8;8;
-    </template>
+  </template>
   <template name="CRAFT_BASE" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     7212;15;0.2;0;8;3;8;4;
     7467;15;0.2;0;8;4;8;;
@@ -1631,7 +1631,7 @@
     212312;101;0.2;0;8;4;8;;
     219846;102;0.2;0;8;4;8;;
     227647;104;0.2;0;8;4;8;8;
-    </template>
+  </template>
   <template name="CRAFT_SPEC" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     14424;15;0.2;0;8;4;8;;
     14934;15;0.2;0;8;4;8;;
@@ -1733,7 +1733,7 @@
     424624;101;0.2;0;8;4;8;;
     439692;102;0.2;0;8;4;8;;
     455294;104;0.2;0;8;4;8;;
-    </template>
+  </template>
   <template name="CRAFT_OFF" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier;UnlockSpells">
     7212;15;0.2;0;8;3;8;4;
     7467;15;0.2;0;8;4;8;;
@@ -1835,7 +1835,7 @@
     212312;101;0.2;0;8;4;8;;
     219846;102;0.2;0;8;4;8;;
     227647;104;0.2;0;8;4;8;;
-    </template>
+  </template>
   <template name="GATHER_FISH" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     7000;16;0.2;2;8;2;8;4
     4230;7;0.2;4;4;4;4;
@@ -1937,7 +1937,7 @@
     136236;47;0.2;7;7;7;7;
     141254;48;0.2;7;7;7;7;
     146456;49;0.2;7;7;7;7;8
-    </template>
+  </template>
   <template name="GATHER_FISH_FISH" structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     8160;16;0.2;2;8;2;8;
     8461;14;0.2;8;8;8;8;
@@ -2039,7 +2039,7 @@
     272473;94;0.2;8;8;8;8;
     282508;96;0.2;8;8;8;8;
     292913;97;0.2;8;8;8;8;
-    </template>
+  </template>
   <achievement id="ADVENTURER_ADEPT">
     <masterylevels>
       <masterylevel>
@@ -2099,6 +2099,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T4_2H_TOOL_SIEGEHAMMER" />
+              <entry id="T4_2H_TOOL_SIEGEHAMMER_AVALON" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -2175,6 +2176,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T8_2H_TOOL_SIEGEHAMMER" />
+              <entry id="T8_2H_TOOL_SIEGEHAMMER_AVALON" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -2249,6 +2251,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T5_2H_TOOL_SIEGEHAMMER" />
+              <entry id="T5_2H_TOOL_SIEGEHAMMER_AVALON" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -2322,6 +2325,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T7_2H_TOOL_SIEGEHAMMER" />
+              <entry id="T7_2H_TOOL_SIEGEHAMMER_AVALON" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -2465,6 +2469,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T6_2H_TOOL_SIEGEHAMMER" />
+              <entry id="T6_2H_TOOL_SIEGEHAMMER_AVALON" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -10662,7 +10667,7 @@
   </achievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_AXE">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_AXE*" />
+      <itempattern pattern="T?_2H_TOOL_AXE" />
       <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
       <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
       <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10670,7 +10675,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10678,7 +10683,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10686,7 +10691,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10717,7 +10722,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10725,7 +10730,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10751,7 +10756,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10759,7 +10764,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10785,7 +10790,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10793,7 +10798,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_AXE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_AXE*" />
+        <itempattern pattern="T?_2H_TOOL_AXE" />
         <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
         <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
         <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -10814,7 +10819,7 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" id="CRAFT_TOOL_FISHINGROD" famemultiplier="1" lpmultiplier="0.3333">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+      <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
       <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
       <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
       <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10822,7 +10827,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10830,7 +10835,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10838,7 +10843,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10869,7 +10874,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10877,7 +10882,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10903,7 +10908,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10911,7 +10916,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10937,7 +10942,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10945,7 +10950,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_FISHINGROD_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -10966,7 +10971,7 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_HAMMER">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+      <itempattern pattern="T?_2H_TOOL_HAMMER" />
       <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
       <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
       <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -10974,7 +10979,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -10982,7 +10987,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -10990,7 +10995,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11021,7 +11026,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11029,7 +11034,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11055,7 +11060,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11063,7 +11068,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11089,7 +11094,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11097,7 +11102,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_HAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_HAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_HAMMER" />
         <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
         <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -11118,7 +11123,7 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_KNIFE">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+      <itempattern pattern="T?_2H_TOOL_KNIFE" />
       <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
       <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
       <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11126,7 +11131,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11134,7 +11139,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11142,7 +11147,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11173,7 +11178,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11181,7 +11186,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11207,7 +11212,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11215,7 +11220,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11241,7 +11246,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11249,7 +11254,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_KNIFE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_KNIFE*" />
+        <itempattern pattern="T?_2H_TOOL_KNIFE" />
         <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
         <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -11270,7 +11275,7 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_PICK">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_PICK*" />
+      <itempattern pattern="T?_2H_TOOL_PICK" />
       <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
       <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
       <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11278,7 +11283,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11286,7 +11291,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11294,7 +11299,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11325,7 +11330,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11333,7 +11338,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11359,7 +11364,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11367,7 +11372,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11393,7 +11398,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11401,7 +11406,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_PICK_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_PICK*" />
+        <itempattern pattern="T?_2H_TOOL_PICK" />
         <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
         <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
         <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -11422,7 +11427,7 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_SICKLE">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+      <itempattern pattern="T?_2H_TOOL_SICKLE" />
       <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
       <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
       <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11430,7 +11435,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11438,7 +11443,7 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.6" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11446,7 +11451,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="1.5" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11477,7 +11482,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11485,7 +11490,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11511,7 +11516,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11519,7 +11524,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11545,7 +11550,7 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11553,7 +11558,7 @@
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SICKLE_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SICKLE*" />
+        <itempattern pattern="T?_2H_TOOL_SICKLE" />
         <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
         <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -11574,19 +11579,19 @@
   </templateachievement>
   <templateachievement usetemplate="CRAFT_BASE" missiontype="craftitemfame" lpmultiplier="0.3333" famemultiplier="1" id="CRAFT_TOOL_SIEGEHAMMER">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+      <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
       <bonus type="itemcraftquality" bonus="0.75" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
     </rewards>
     <parentachievements allrequired="false">
@@ -11596,24 +11601,24 @@
   </templateachievement>
   <templateachievement id="CRAFT_TOOL_SIEGEHAMMER_SIEGEHAMMER" usetemplate="CRAFT_SPEC" missiontype="craftitemfame" famemultiplier="3" lpmultiplier="1">
     <itemlist>
-      <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+      <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
     </itemlist>
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_CATEGORYBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
       <bonus bonus="0.75" type="itemcraftquality" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_CATEGORYBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
       <bonus mintier="4" maxtier="8" type="craftingfocuscostreduction" bonus="3.4">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_SIEGEHAMMER_GROUPBONUS_FOCUS" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
       <bonus type="itemcraftquality" bonus="8.25" mintier="4" maxtier="8">
         <description tag="@DESTINYBOARD_CRAFT_TOOL_SIEGEHAMMER_SIEGEHAMMER_GROUPBONUS_QUALITY" />
-        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER*" />
+        <itempattern pattern="T?_2H_TOOL_SIEGEHAMMER" />
       </bonus>
     </rewards>
     <parentachievements allrequired="false">
@@ -12260,7 +12265,20 @@
   </templateachievement>
   <templateachievement usetemplate="FARM_BASE" missiontype="craftitemfame" lpmultiplier="1" famemultiplier="2" id="FARM_COOK">
     <itemlist>
-      <itempattern pattern="T?_MEAL*" />
+      <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+      <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+      <itempattern pattern="T?_MEAL_SOUP" />
+      <itempattern pattern="T?_MEAL_SOUP_FISH" />
+      <itempattern pattern="T?_MEAL_SALAD" />
+      <itempattern pattern="T?_MEAL_SALAD_FISH" />
+      <itempattern pattern="T?_MEAL_PIE" />
+      <itempattern pattern="T?_MEAL_PIE_FISH" />
+      <itempattern pattern="T?_MEAL_OMELETTE" />
+      <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+      <itempattern pattern="T?_MEAL_STEW" />
+      <itempattern pattern="T?_MEAL_STEW_FISH" />
+      <itempattern pattern="T?_MEAL_SANDWICH" />
+      <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
       <itempattern pattern="T?_MEAT*" />
       <itempattern pattern="T?_BUTTER" />
       <itempattern pattern="T?_FLOUR" />
@@ -12269,7 +12287,20 @@
     </itemlist>
     <rewards>
       <unlock type="itemcraft">
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12278,7 +12309,20 @@
       </unlock>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12305,7 +12349,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12329,7 +12386,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12354,7 +12424,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12380,7 +12463,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12406,7 +12502,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12431,7 +12540,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12456,7 +12578,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12481,7 +12616,20 @@
     <rewards>
       <bonus type="craftingfocuscostreduction" bonus="0.3" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_COOK_CATEGORYBONUS" />
-        <itempattern pattern="T?_MEAL*" />
+        <itempattern pattern="T?_MEAL_GRILLEDFISH" />
+        <itempattern pattern="T?_MEAL_SEAWEEDSALAD" />
+        <itempattern pattern="T?_MEAL_SOUP" />
+        <itempattern pattern="T?_MEAL_SOUP_FISH" />
+        <itempattern pattern="T?_MEAL_SALAD" />
+        <itempattern pattern="T?_MEAL_SALAD_FISH" />
+        <itempattern pattern="T?_MEAL_PIE" />
+        <itempattern pattern="T?_MEAL_PIE_FISH" />
+        <itempattern pattern="T?_MEAL_OMELETTE" />
+        <itempattern pattern="T?_MEAL_OMELETTE_FISH" />
+        <itempattern pattern="T?_MEAL_STEW" />
+        <itempattern pattern="T?_MEAL_STEW_FISH" />
+        <itempattern pattern="T?_MEAL_SANDWICH" />
+        <itempattern pattern="T?_MEAL_SANDWICH_FISH" />
         <itempattern pattern="T?_MEAT*" />
         <itempattern pattern="T?_BUTTER" />
         <itempattern pattern="T?_FLOUR" />
@@ -12507,6 +12655,10 @@
             <validitem id="T2_POTION_HEAL" />
             <validitem id="T1_MEAL_SOUP" />
             <validitem id="T2_MEAL_SALAD" />
+            <validitem id="T1_MEAL_GRILLEDFISH" />
+            <validitem id="T1_MEAL_SEAWEEDSALAD" />
+            <validitem id="T1_MEAL_SOUP_FISH" />
+            <validitem id="T2_MEAL_SALAD_FISH" />
           </mission>
         </missions>
         <rewardgroups>
@@ -12954,7 +13106,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_SICKLE" />
+          <itempattern pattern="T?_2H_TOOL_SICKLE*" />
           <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -13024,7 +13176,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_SICKLE" />
+          <itempattern pattern="T?_2H_TOOL_SICKLE*" />
           <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -13094,7 +13246,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_SICKLE" />
+          <itempattern pattern="T?_2H_TOOL_SICKLE*" />
           <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -13164,7 +13316,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_SICKLE" />
+          <itempattern pattern="T?_2H_TOOL_SICKLE*" />
           <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -13234,7 +13386,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_SICKLE" />
+          <itempattern pattern="T?_2H_TOOL_SICKLE*" />
           <itempattern pattern="T?_HEAD_GATHERER_FIBER*" />
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
@@ -13275,7 +13427,7 @@
     </itemlist>
     <rewards>
       <unlock type="itemuse">
-        <itempattern pattern="T?_2H_TOOL_FISHINGROD" />
+        <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
         <itempattern pattern="T?_HEAD_GATHERER_FISH*" />
         <itempattern pattern="T?_ARMOR_GATHERER_FISH*" />
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
@@ -13387,7 +13539,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_KNIFE" />
+          <itempattern pattern="T?_2H_TOOL_KNIFE*" />
           <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -13457,7 +13609,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_KNIFE" />
+          <itempattern pattern="T?_2H_TOOL_KNIFE*" />
           <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -13527,7 +13679,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_KNIFE" />
+          <itempattern pattern="T?_2H_TOOL_KNIFE*" />
           <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -13597,7 +13749,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_KNIFE" />
+          <itempattern pattern="T?_2H_TOOL_KNIFE*" />
           <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -13667,7 +13819,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_KNIFE" />
+          <itempattern pattern="T?_2H_TOOL_KNIFE*" />
           <itempattern pattern="T?_HEAD_GATHERER_HIDE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
@@ -13759,7 +13911,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_PICK" />
+          <itempattern pattern="T?_2H_TOOL_PICK*" />
           <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -13829,7 +13981,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_PICK" />
+          <itempattern pattern="T?_2H_TOOL_PICK*" />
           <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -13899,7 +14051,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_PICK" />
+          <itempattern pattern="T?_2H_TOOL_PICK*" />
           <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -13969,7 +14121,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_PICK" />
+          <itempattern pattern="T?_2H_TOOL_PICK*" />
           <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -14039,7 +14191,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_PICK" />
+          <itempattern pattern="T?_2H_TOOL_PICK*" />
           <itempattern pattern="T?_HEAD_GATHERER_ORE*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
@@ -14131,7 +14283,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_HAMMER" />
+          <itempattern pattern="T?_2H_TOOL_HAMMER*" />
           <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -14201,7 +14353,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_HAMMER" />
+          <itempattern pattern="T?_2H_TOOL_HAMMER*" />
           <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -14271,7 +14423,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_HAMMER" />
+          <itempattern pattern="T?_2H_TOOL_HAMMER*" />
           <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -14341,7 +14493,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_HAMMER" />
+          <itempattern pattern="T?_2H_TOOL_HAMMER*" />
           <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -14411,7 +14563,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_HAMMER" />
+          <itempattern pattern="T?_2H_TOOL_HAMMER*" />
           <itempattern pattern="T?_HEAD_GATHERER_ROCK*" />
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
@@ -14533,7 +14685,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_AXE" />
+          <itempattern pattern="T?_2H_TOOL_AXE*" />
           <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -14603,7 +14755,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_AXE" />
+          <itempattern pattern="T?_2H_TOOL_AXE*" />
           <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -14673,7 +14825,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_AXE" />
+          <itempattern pattern="T?_2H_TOOL_AXE*" />
           <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -14743,7 +14895,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_AXE" />
+          <itempattern pattern="T?_2H_TOOL_AXE*" />
           <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
@@ -14813,7 +14965,7 @@
     <overridemasterylevel level="0">
       <rewards>
         <unlock type="itemuse">
-          <itempattern pattern="T?_2H_TOOL_AXE" />
+          <itempattern pattern="T?_2H_TOOL_AXE*" />
           <itempattern pattern="T?_HEAD_GATHERER_WOOD*" />
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />

@@ -39,6 +39,8 @@
   <flags>
     <flag name="solo"/>
     <flag name="veteran"/>
+    <flag name="halloween"/>
+    <flag name="christmas"/>
   </flags>
 
 </randomclusterattributes>

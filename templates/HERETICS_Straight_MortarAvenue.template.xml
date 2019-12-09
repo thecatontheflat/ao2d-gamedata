@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_Straight_MortarAvenue.unity" unityguid="6e3617420b7fe9e44a088b0ab0cb02fe" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-61 -57" colBoundsMax="55 56">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_Straight_MortarAvenue.unity" unityguid="6e3617420b7fe9e44a088b0ab0cb02fe" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-61 -57" colBoundsMax="55 56">
   <criticalscenemembers />
   <tiles>
     <layergroup name="">

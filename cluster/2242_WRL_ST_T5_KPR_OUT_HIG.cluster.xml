@@ -5,6 +5,7 @@
     <activelayer id="494621f8-a264-4a8f-ba44-fb95ac04fb36" />
     <activelayer id="4b5b677d-7277-467d-94f7-82bed66cd6b3" />
     <activelayer id="a5cb4050-a782-4905-a439-7be8062aeab5" />
+    <activelayer id="Layer_01" />
   </templateinstance>
   <templateinstance id="instanceslot_01" ref="B_ST_Corner_01" pos="-360 0 360" rot="270">
     <activelayer id="1cc59939-2d9d-4231-bcbe-4e8209dfab99" />
@@ -65,6 +66,7 @@
   </templateinstance>
   <templateinstance id="instanceslot_20" ref="M_ST_Portal_01" pos="-150 0 -240">
     <activelayer id="Layer_05" />
+    <activelayer id="Layer_07" />
   </templateinstance>
   <templateinstance id="instanceslot_21" ref="M_ST_ImpalaHerd_01" pos="-150 0 240" rot="180">
     <activelayer id="Layer_03" />
@@ -79,5 +81,9 @@
   </templateinstance>
   <templateinstance id="instanceslot_26" ref="S_ST_Hellgate_01" pos="70 0 250" rot="180" />
   <templateinstance id="instanceslot_27" ref="S_ST_Siegecamp_01" pos="290 0 250" />
-  <templateinstance id="instanceslot_28" ref="S_ST_Steppe_01" pos="180 0 250" />
+  <templateinstance id="instanceslot_28" ref="S_ST_AvalonianInvasion_01" pos="180 0 250">
+    <activelayer id="Layer_01" flags="avalonian_invasion_phase_1" />
+    <activelayer id="Layer_02" flags="avalonian_invasion_phase_2" />
+    <activelayer id="Layer_03" flags="avalonian_invasion_phase_3" />
+  </templateinstance>
 </cluster>

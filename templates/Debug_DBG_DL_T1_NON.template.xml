@@ -4648,5 +4648,56 @@
     <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="42 0 166" roty="90" />
     <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="39 0 363" roty="180" />
     <tile name="RandomExitPositionMarker_10x10_EXIT_RND-DNG" pos="60 0 258" roty="90" />
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_BOWMAN" pos="175 0 45">
+      <mobspawnpoint worldboss="WORLD_BOSS_CAMP_AVALON_BOWMAN" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_MAGE" pos="184.3 0 45">
+      <mobspawnpoint worldboss="WORLD_BOSS_CAMP_AVALON_MAGE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_STATUE" pos="194 0 45">
+      <mobspawnpoint worldboss="WORLD_BOSS_CAMP_AVALON_STATUE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_EAGLE" pos="204.6 0 45">
+      <mobspawnpoint worldboss="WORLD_BOSS_CAMP_AVALON_EAGLE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_CAMP_AVALON_CLERIC" pos="214.7 0 45">
+      <mobspawnpoint worldboss="WORLD_BOSS_CAMP_AVALON_CLERIC" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="175 0 34.6">
+      <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_CONSTRUCT" pos="185.9 0 34.6">
+      <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_CONSTRUCT" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MAGE" pos="194.9 0 34.6">
+      <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MAGE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="205.1 0 34.6">
+      <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="215.1 0 34.6">
+      <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_ROAMING_AVALON_CONSTRUCT" pos="175 0 24.8">
+      <mobspawnpoint worldboss="WORLD_BOSS_ROAMING_AVALON_CONSTRUCT" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_ROAMING_AVALON_EAGLE" pos="184.9 0 24.8">
+      <mobspawnpoint worldboss="WORLD_BOSS_ROAMING_AVALON_EAGLE" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_ROAMING_AVALON_MINION" pos="195.1 0 24.8">
+      <mobspawnpoint worldboss="WORLD_BOSS_ROAMING_AVALON_MINION" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_ROAMING_AVALON_PIKEMAN" pos="205.5 0 24.8">
+      <mobspawnpoint worldboss="WORLD_BOSS_ROAMING_AVALON_PIKEMAN" />
+    </tile>
+    <tile name="SpawnPoint_WORLD_BOSS_ROAMING_AVALON_STATUE" pos="215.7 0 24.8">
+      <mobspawnpoint worldboss="WORLD_BOSS_ROAMING_AVALON_STATUE" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_ROAMING_AVALON_BOWMAN" pos="225.1 0 24.7">
+      <mobspawnpoint behavior="GUARD" spawnbehavior="ROAMING_AVALON_BOWMAN" />
+    </tile>
+    <tile name="SpawnPoint_RANDOM_ROAMING_AVALON_CLERIC" pos="234.4 0 24.7">
+      <mobspawnpoint spawnbehavior="ROAMING_AVALON_CLERIC" />
+    </tile>
   </tiles>
 </template>

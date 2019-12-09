@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/SUBCENTERCITY_CORNER_01.unity" unityguid="a51ffad3aa9758040bde22e7e97ff2bf" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-95 -85" colBoundsMax="75 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/SUBCENTERCITY_CORNER_01.unity" unityguid="a51ffad3aa9758040bde22e7e97ff2bf" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-95 -85" colBoundsMax="75 75">
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="Layer_02">
       <tile name="FOREST_GREEN_UND_EXIT_STAIRCASE_20M_EXIT" pos="5 -8 6">

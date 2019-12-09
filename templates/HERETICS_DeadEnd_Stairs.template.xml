@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/HERETICS_DeadEnd_Stairs.unity" unityguid="3379c50219315414b86781e75e5f1fe7" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-53 -28" colBoundsMax="56 55">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/HERETICS_DeadEnd_Stairs.unity" unityguid="3379c50219315414b86781e75e5f1fe7" editorBoundsMin="-55 -55" editorBoundsMax="55 55" colBoundsMin="-53 -28" colBoundsMax="56 55">
   <criticalscenemembers>
     <criticalscenemember id="exit_04" type="exit" layerId="19c8d96e-1f06-4581-a075-40a6d191b9fe">
       <tile name="FOREST_GREEN_HER_EXIT_STAIRCASE_20M_EXIT" pos="35 4 5" roty="270">

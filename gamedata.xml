@@ -28,7 +28,7 @@
 	
     <SiegeCamp vaultsize="64" battlevaultsize="64" weightlimit="10000.0" siegecampclaimtimeinsec="15" cooldowninmin="360" costfactor="2.5" />
     <Territory territoryclaimtimeinsec="15" />
-    <Alliance cost="500000" upkeeptimerinmin="10080" upkeepcostperguild="0" changecooldownminutes="2880"/>
+    <Alliance cost="500000" upkeeptimerinmin="10080" upkeepcostperguild="0" changecooldownminutes="10080"/>
     <GoldMarket setupsellordercost="10" setupbuyordercost="10" swaptransactiongoldpurchaseinterval="5" />
     <Respawn autorespawntimerinsecs="600" />
     <Fame pvpfamesharingradius="50" pvefamesharingradius="50">
@@ -656,6 +656,65 @@
     <attackers numbergreaterorequal="19" buff="HEALINGSICKNESS_19"/>
     <attackers numbergreaterorequal="20" buff="HEALINGSICKNESS_20"/>
   </PlayerHealingSickness>
+  <ZergDebuff checkfrequency="20">
+    <allies numbergreaterorequal="25" debuff="ZERGDEBUFF_LVL1"/>
+    <allies numbergreaterorequal="30" debuff="ZERGDEBUFF_LVL2"/>
+    <allies numbergreaterorequal="35" debuff="ZERGDEBUFF_LVL3"/>
+    <allies numbergreaterorequal="40" debuff="ZERGDEBUFF_LVL4"/>
+    <allies numbergreaterorequal="45" debuff="ZERGDEBUFF_LVL5"/>
+    <allies numbergreaterorequal="50" debuff="ZERGDEBUFF_LVL6"/>
+    <allies numbergreaterorequal="55" debuff="ZERGDEBUFF_LVL7"/>
+    <allies numbergreaterorequal="60" debuff="ZERGDEBUFF_LVL8"/>
+    <allies numbergreaterorequal="65" debuff="ZERGDEBUFF_LVL9"/>
+    <allies numbergreaterorequal="70" debuff="ZERGDEBUFF_LVL10"/>
+    <allies numbergreaterorequal="75" debuff="ZERGDEBUFF_LVL11"/>
+    <allies numbergreaterorequal="80" debuff="ZERGDEBUFF_LVL12"/>
+    <allies numbergreaterorequal="85" debuff="ZERGDEBUFF_LVL13"/>
+    <allies numbergreaterorequal="90" debuff="ZERGDEBUFF_LVL14"/>
+    <allies numbergreaterorequal="95" debuff="ZERGDEBUFF_LVL15"/>
+    <allies numbergreaterorequal="100" debuff="ZERGDEBUFF_LVL16"/>
+    <allies numbergreaterorequal="105" debuff="ZERGDEBUFF_LVL17"/>
+    <allies numbergreaterorequal="110" debuff="ZERGDEBUFF_LVL18"/>
+    <allies numbergreaterorequal="115" debuff="ZERGDEBUFF_LVL19"/>
+    <allies numbergreaterorequal="120" debuff="ZERGDEBUFF_LVL20"/>
+    <allies numbergreaterorequal="125" debuff="ZERGDEBUFF_LVL21"/>
+    <allies numbergreaterorequal="130" debuff="ZERGDEBUFF_LVL22"/>
+    <allies numbergreaterorequal="135" debuff="ZERGDEBUFF_LVL23"/>
+    <allies numbergreaterorequal="140" debuff="ZERGDEBUFF_LVL24"/>
+    <allies numbergreaterorequal="145" debuff="ZERGDEBUFF_LVL25"/>
+    <allies numbergreaterorequal="150" debuff="ZERGDEBUFF_LVL26"/>
+    <allies numbergreaterorequal="155" debuff="ZERGDEBUFF_LVL27"/>
+    <allies numbergreaterorequal="160" debuff="ZERGDEBUFF_LVL28"/>
+    <allies numbergreaterorequal="165" debuff="ZERGDEBUFF_LVL29"/>
+    <allies numbergreaterorequal="170" debuff="ZERGDEBUFF_LVL30"/>
+    <allies numbergreaterorequal="175" debuff="ZERGDEBUFF_LVL31"/>
+    <allies numbergreaterorequal="180" debuff="ZERGDEBUFF_LVL32"/>
+    <allies numbergreaterorequal="185" debuff="ZERGDEBUFF_LVL33"/>
+    <allies numbergreaterorequal="190" debuff="ZERGDEBUFF_LVL34"/>
+    <allies numbergreaterorequal="195" debuff="ZERGDEBUFF_LVL35"/> 
+    <allies numbergreaterorequal="200" debuff="ZERGDEBUFF_LVL36"/>
+    <allies numbergreaterorequal="205" debuff="ZERGDEBUFF_LVL37"/>
+    <allies numbergreaterorequal="210" debuff="ZERGDEBUFF_LVL38"/>
+    <allies numbergreaterorequal="215" debuff="ZERGDEBUFF_LVL39"/>
+    <allies numbergreaterorequal="220" debuff="ZERGDEBUFF_LVL40"/>
+    <allies numbergreaterorequal="225" debuff="ZERGDEBUFF_LVL41"/>
+    <allies numbergreaterorequal="230" debuff="ZERGDEBUFF_LVL42"/>
+    <allies numbergreaterorequal="235" debuff="ZERGDEBUFF_LVL43"/>
+    <allies numbergreaterorequal="240" debuff="ZERGDEBUFF_LVL44"/>
+    <allies numbergreaterorequal="245" debuff="ZERGDEBUFF_LVL45"/>     
+    <allies numbergreaterorequal="250" debuff="ZERGDEBUFF_LVL46"/>
+    <allies numbergreaterorequal="255" debuff="ZERGDEBUFF_LVL47"/>
+    <!--
+    <allies numbergreaterorequal="260" debuff="ZERGDEBUFF_LVL48"/>
+    <allies numbergreaterorequal="265" debuff="ZERGDEBUFF_LVL49"/>
+    <allies numbergreaterorequal="270" debuff="ZERGDEBUFF_LVL50"/>
+    <allies numbergreaterorequal="275" debuff="ZERGDEBUFF_LVL51"/>
+    <allies numbergreaterorequal="280" debuff="ZERGDEBUFF_LVL52"/>
+    <allies numbergreaterorequal="285" debuff="ZERGDEBUFF_LVL53"/>
+    <allies numbergreaterorequal="290" debuff="ZERGDEBUFF_LVL54"/>
+    <allies numbergreaterorequal="295" debuff="ZERGDEBUFF_LVL55"/>  
+   -->
+  </ZergDebuff>
   <RareResources checkintervall="3600">
 	  <cluster ContinentType="Outlands" ClusterQuality="High">
 		  <RareState state="0" weight="1556" />
@@ -1294,7 +1353,7 @@
     </ExpeditionBonusRewardTimer>
   </Expedition>
   <PersonalStatement characterlimit="270" />
-  <FeaturedFeature utcdate="2017-10-17T10:15:00" />
+  <FeaturedFeature utcdate="2019-11-13T10:15:00" />
   <SiegeCampBank size="64" weightlimit="10000.0">
     <DefaultTab Name="@SIEGECAMP_VAULT_TITLE" Icon="icon_tag_chest" IconColorBg="2B2C29FF"/>
   </SiegeCampBank>
@@ -1493,4 +1552,5 @@
       <cluster id="2247" />  
     </clustergroup>
   </TerritoryFirstClaimTimes>
+  <GvgSeason alliancesharefactor="0.5" />
 </AO-GameData>

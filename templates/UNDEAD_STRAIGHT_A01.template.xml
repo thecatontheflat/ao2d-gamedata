@@ -1,4 +1,4 @@
-<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/Dungeon/UNDEAD_STRAIGHT_A01.unity" unityguid="08d77da5fc9dfe84fb98207417a48640" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="75 75">
+<template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/_OLD/UNDEAD_STRAIGHT_A01.unity" unityguid="08d77da5fc9dfe84fb98207417a48640" editorBoundsMin="-75 -75" editorBoundsMax="75 75" colBoundsMin="-75 -75" colBoundsMax="75 75">
   <criticalscenemembers />
   <tiles>
     <layergroup name="Deco">
