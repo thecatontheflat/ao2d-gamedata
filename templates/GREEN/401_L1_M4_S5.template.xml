@@ -1,1235 +1,6 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/STEPPE/Master/401_L1_M4_S5.unity" unityguid="1f177ba125e76b643ac45f9e7e86ce5f" editorBoundsMin="-315 -315" editorBoundsMax="315 315" colBoundsMin="-318 -318" colBoundsMax="321 318">
   <criticalscenemembers />
   <tiles>
-    <layergroup name="AVALONIAN_INVASION">
-      <layer id="Layer_01" name="Phase3_EventSpawnpoints">
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-195 0 -23.2" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_CONSTRUCT" pos="-11.25 0 34.97" roty="357">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_CONSTRUCT">
-            <path>
-              <waypoint pos="-11.37664 35.09354" idle="5" pace="WALK" />
-              <waypoint pos="-10.00382 44.4382" idle="0" pace="WALK" />
-              <waypoint pos="-10.50017 50.73384" idle="0" pace="WALK" />
-              <waypoint pos="-13.59588 55.25834" idle="0" pace="WALK" />
-              <waypoint pos="-18.59664 60.6163" idle="0" pace="WALK" />
-              <waypoint pos="-19.90636 65.61707" idle="0" pace="WALK" />
-              <waypoint pos="-19.76084 75.07954" idle="0" pace="WALK" />
-              <waypoint pos="-22.31371 81.75509" idle="0" pace="WALK" />
-              <waypoint pos="-27.78919 86.87553" idle="0" pace="WALK" />
-              <waypoint pos="-30.94167 91.61705" idle="0" pace="WALK" />
-              <waypoint pos="-30.40882 100.5572" idle="0" pace="WALK" />
-              <waypoint pos="-40.02976 112.1696" idle="0" pace="WALK" />
-              <waypoint pos="-39.9333 120.456" idle="0" pace="WALK" />
-              <waypoint pos="-33.56211 125.1859" idle="0" pace="WALK" />
-              <waypoint pos="-30.85633 130.1143" idle="0" pace="WALK" />
-              <waypoint pos="-31.13477 135.427" idle="5" pace="WALK" />
-              <waypoint pos="-30.85633 130.1143" idle="0" pace="WALK" />
-              <waypoint pos="-33.56211 125.1859" idle="0" pace="WALK" />
-              <waypoint pos="-39.9333 120.456" idle="0" pace="WALK" />
-              <waypoint pos="-40.02976 112.1696" idle="0" pace="WALK" />
-              <waypoint pos="-30.40882 100.5572" idle="0" pace="WALK" />
-              <waypoint pos="-30.94167 91.61705" idle="0" pace="WALK" />
-              <waypoint pos="-27.78919 86.87553" idle="0" pace="WALK" />
-              <waypoint pos="-22.31371 81.75509" idle="0" pace="WALK" />
-              <waypoint pos="-19.76084 75.07954" idle="0" pace="WALK" />
-              <waypoint pos="-19.90636 65.61707" idle="0" pace="WALK" />
-              <waypoint pos="-18.59664 60.6163" idle="0" pace="WALK" />
-              <waypoint pos="-13.59588 55.25834" idle="0" pace="WALK" />
-              <waypoint pos="-10.50017 50.73384" idle="0" pace="WALK" />
-              <waypoint pos="-10.00382 44.4382" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-191.5 0 -30">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-206.7 -4 -29.8" roty="275">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="-207.0874 -29.78508" idle="3" pace="WALK" />
-              <waypoint pos="-214.0943 -30.44197" idle="0" pace="WALK" />
-              <waypoint pos="-224.7141 -29.34715" idle="0" pace="WALK" />
-              <waypoint pos="-229.4219 -25.40577" idle="0" pace="WALK" />
-              <waypoint pos="-233.6917 -15.99025" idle="0" pace="WALK" />
-              <waypoint pos="-238.1805 -11.93939" idle="0" pace="WALK" />
-              <waypoint pos="-246.004 -10.46083" idle="0" pace="WALK" />
-              <waypoint pos="-247.0326 -11.7762" idle="3" pace="WALK" />
-              <waypoint pos="-246.004 -10.46083" idle="0" pace="WALK" />
-              <waypoint pos="-238.1805 -11.93939" idle="0" pace="WALK" />
-              <waypoint pos="-233.6917 -15.99025" idle="0" pace="WALK" />
-              <waypoint pos="-229.4219 -25.40577" idle="0" pace="WALK" />
-              <waypoint pos="-224.7141 -29.34715" idle="0" pace="WALK" />
-              <waypoint pos="-214.0943 -30.44197" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_CONSTRUCT" pos="-30.1 0 -182.2" roty="177">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_CONSTRUCT">
-            <path>
-              <waypoint pos="-29.84003 -181.3687" idle="3" pace="WALK" />
-              <waypoint pos="-29.28264 -163.0209" idle="0" pace="WALK" />
-              <waypoint pos="-30.98748 -159.9159" idle="0" pace="WALK" />
-              <waypoint pos="-36.66327 -154.9627" idle="0" pace="WALK" />
-              <waypoint pos="-39.50268 -148.3915" idle="0" pace="WALK" />
-              <waypoint pos="-42.34209 -141.8203" idle="0" pace="WALK" />
-              <waypoint pos="-45.18151 -136.3037" idle="0" pace="WALK" />
-              <waypoint pos="-50.69809 -131.7606" idle="0" pace="WALK" />
-              <waypoint pos="-56.9448 -129.8136" idle="0" pace="WALK" />
-              <waypoint pos="-67.57233 -127.0553" idle="0" pace="WALK" />
-              <waypoint pos="-76.49619 -122.999" idle="0" pace="WALK" />
-              <waypoint pos="-78.92999 -118.3748" idle="0" pace="WALK" />
-              <waypoint pos="-79.25449 -115.6165" idle="3" pace="WALK" />
-              <waypoint pos="-78.92999 -118.3748" idle="0" pace="WALK" />
-              <waypoint pos="-76.49619 -122.999" idle="0" pace="WALK" />
-              <waypoint pos="-67.57233 -127.0553" idle="0" pace="WALK" />
-              <waypoint pos="-56.9448 -129.8136" idle="0" pace="WALK" />
-              <waypoint pos="-50.69809 -131.7606" idle="0" pace="WALK" />
-              <waypoint pos="-45.18151 -136.3037" idle="0" pace="WALK" />
-              <waypoint pos="-42.34209 -141.8203" idle="0" pace="WALK" />
-              <waypoint pos="-39.50268 -148.3915" idle="0" pace="WALK" />
-              <waypoint pos="-36.66327 -154.9627" idle="0" pace="WALK" />
-              <waypoint pos="-30.98748 -159.9159" idle="0" pace="WALK" />
-              <waypoint pos="-29.28264 -163.0209" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_CONSTRUCT" pos="258.9 0 129.8" roty="177">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_CONSTRUCT">
-            <path>
-              <waypoint pos="258.6694 129.532" idle="0" pace="WALK" />
-              <waypoint pos="258.8371 120.7303" idle="0" pace="WALK" />
-              <waypoint pos="259.843 112.1801" idle="0" pace="WALK" />
-              <waypoint pos="263.9504 106.9828" idle="0" pace="WALK" />
-              <waypoint pos="268.1417 103.2107" idle="0" pace="WALK" />
-              <waypoint pos="270.9918 97.76206" idle="0" pace="WALK" />
-              <waypoint pos="270.4857 85.85613" idle="0" pace="WALK" />
-              <waypoint pos="270.3212 72.44662" idle="5" pace="WALK" />
-              <waypoint pos="270.4857 85.85613" idle="0" pace="WALK" />
-              <waypoint pos="270.9918 97.76206" idle="0" pace="WALK" />
-              <waypoint pos="268.1417 103.2107" idle="0" pace="WALK" />
-              <waypoint pos="263.9504 106.9828" idle="0" pace="WALK" />
-              <waypoint pos="259.843 112.1801" idle="0" pace="WALK" />
-              <waypoint pos="258.8371 120.7303" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-86.6 0 -104.9" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-72.2 0 -104.9" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-34.1 0 -195.79" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-27.9 0 -196.09">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-63 0 -237.2" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-63 0 -243.3" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-63 0 -220.1" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-63 0 -226.2" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-58.3 0 -240.5" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-58.3 0 -223.4" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-36.1 0 -201.89" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-30 0 -201.89" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-24.5 0 -201.89" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-33.92 0 -207.25">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-38.55 0 -207.17">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-30.98 0 -236.25" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-30.98 0 -243.61" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-26.57 0 -246.72" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="12.36 0 -227.1" roty="275">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="12.53663 -226.5826" idle="0" pace="WALK" />
-              <waypoint pos="8.879739 -231.306" idle="0" pace="WALK" />
-              <waypoint pos="6.213265 -235.1153" idle="0" pace="WALK" />
-              <waypoint pos="-2.167101 -238.7722" idle="0" pace="WALK" />
-              <waypoint pos="-13.36631 -239.1531" idle="0" pace="WALK" />
-              <waypoint pos="-20.29916 -239.1531" idle="0" pace="WALK" />
-              <waypoint pos="-26.54634 -239.4579" idle="20" pace="WALK" />
-              <waypoint pos="-20.29916 -239.1531" idle="0" pace="WALK" />
-              <waypoint pos="-13.36631 -239.1531" idle="0" pace="WALK" />
-              <waypoint pos="-2.167101 -238.7722" idle="0" pace="WALK" />
-              <waypoint pos="6.213265 -235.1153" idle="0" pace="WALK" />
-              <waypoint pos="8.879739 -231.306" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-26.57 0 -232.01" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="0.63 0 -308.89" roty="275">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="0.8003115 -308.3242" idle="1" pace="WALK" />
-              <waypoint pos="0.5755758 -298.881" idle="0" pace="WALK" />
-              <waypoint pos="-2.014721 -296.6716" idle="0" pace="WALK" />
-              <waypoint pos="-6.814382 -293.0148" idle="0" pace="WALK" />
-              <waypoint pos="-8.033342 -288.4437" idle="0" pace="WALK" />
-              <waypoint pos="-12.29971 -281.7393" idle="0" pace="WALK" />
-              <waypoint pos="-17.78504 -278.0825" idle="0" pace="WALK" />
-              <waypoint pos="-19.9944 -271.7591" idle="0" pace="WALK" />
-              <waypoint pos="-20.29914 -266.5785" idle="0" pace="WALK" />
-              <waypoint pos="-25.32737 -261.0932" idle="0" pace="WALK" />
-              <waypoint pos="-29.289 -251.6467" idle="0" pace="WALK" />
-              <waypoint pos="-30.74041 -251.6481" idle="20" pace="WALK" />
-              <waypoint pos="-29.289 -251.6467" idle="0" pace="WALK" />
-              <waypoint pos="-25.32737 -261.0932" idle="0" pace="WALK" />
-              <waypoint pos="-20.29914 -266.5785" idle="0" pace="WALK" />
-              <waypoint pos="-19.9944 -271.7591" idle="0" pace="WALK" />
-              <waypoint pos="-17.78504 -278.0825" idle="0" pace="WALK" />
-              <waypoint pos="-12.29971 -281.7393" idle="0" pace="WALK" />
-              <waypoint pos="-8.033342 -288.4437" idle="0" pace="WALK" />
-              <waypoint pos="-6.814382 -293.0148" idle="0" pace="WALK" />
-              <waypoint pos="-2.014721 -296.6716" idle="0" pace="WALK" />
-              <waypoint pos="0.5755758 -298.881" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-152.3 0 -156" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-146.2 0 -156" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-149.53 0 -150.5" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-163.91 0 -136.04" roty="185">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-163.7945 -135.7819" idle="1" pace="WALK" />
-              <waypoint pos="-204.707 -135.3847" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-122.93 0 -86.04" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-129.03 0 -86.04" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-136.36 0 -86.04" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-24.3 0 -153.2" roty="234.98">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-33.4 0 -142.7" rot="0 254.89 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-97.1 0 -129.1" roty="224.47">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-93.2 0 -133.4" roty="224">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-91.9 0 -126.9" roty="206">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-130.26 0 -73.94" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-136.36 0 -73.94" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-122.93 0 -73.94" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-80.04 0 -90.53" rot="0.14 355.89 1.99">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-80.20773 -90.75523" idle="0" pace="WALK" />
-              <waypoint pos="-84.03728 -89.61313" idle="0" pace="WALK" />
-              <waypoint pos="-89.23156 -87.59247" idle="0" pace="WALK" />
-              <waypoint pos="-93.44859 -84.25401" idle="0" pace="WALK" />
-              <waypoint pos="-100.3891 -80.56411" idle="0" pace="WALK" />
-              <waypoint pos="-110.5802 -79.77341" idle="0" pace="WALK" />
-              <waypoint pos="-128.0633 -79.59771" idle="0" pace="WALK" />
-              <waypoint pos="-132.1041 -79.68562" idle="3" pace="WALK" />
-              <waypoint pos="-128.0633 -79.59771" idle="0" pace="WALK" />
-              <waypoint pos="-110.5802 -79.77341" idle="0" pace="WALK" />
-              <waypoint pos="-100.3891 -80.56411" idle="0" pace="WALK" />
-              <waypoint pos="-93.44859 -84.25401" idle="0" pace="WALK" />
-              <waypoint pos="-89.23156 -87.59247" idle="0" pace="WALK" />
-              <waypoint pos="-84.03728 -89.61313" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-142.68 0 -78.75" roty="101">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-195 0 -36.3" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-304.7 0 -5.2" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-304.4 0 5.4" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-249 -4 -18.3">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-253.3 -4 -17.9">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-256 -4 -14.3">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-249.4 -4 -26.5" roty="22">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-262.3 -4 -22.2" roty="22">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-245.6 0 -53.7" roty="9.15">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-225.3 0 -53.3" roty="353">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-294.82 0 0" roty="95">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="-294.5897 -0.04562114" idle="0" pace="WALK" />
-              <waypoint pos="-290.1305 -0.9889164" idle="0" pace="WALK" />
-              <waypoint pos="-281.8123 -0.5601473" idle="0" pace="WALK" />
-              <waypoint pos="-272.3794 -0.3886395" idle="0" pace="WALK" />
-              <waypoint pos="-263.461 -0.04561996" idle="0" pace="WALK" />
-              <waypoint pos="-258.3157 -1.246174" idle="0" pace="WALK" />
-              <waypoint pos="-255.4001 -5.019352" idle="0" pace="WALK" />
-              <waypoint pos="-252.1414 -7.420467" idle="0" pace="WALK" />
-              <waypoint pos="-250.5979 -8.706779" idle="0" pace="WALK" />
-              <waypoint pos="-251.2839 -10.33611" idle="3" pace="WALK" />
-              <waypoint pos="-250.5979 -8.706779" idle="0" pace="WALK" />
-              <waypoint pos="-252.1414 -7.420467" idle="0" pace="WALK" />
-              <waypoint pos="-255.4001 -5.019352" idle="0" pace="WALK" />
-              <waypoint pos="-258.3157 -1.246174" idle="0" pace="WALK" />
-              <waypoint pos="-263.461 -0.04561996" idle="0" pace="WALK" />
-              <waypoint pos="-272.3794 -0.3886395" idle="0" pace="WALK" />
-              <waypoint pos="-281.8123 -0.5601473" idle="0" pace="WALK" />
-              <waypoint pos="-290.1305 -0.9889164" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-238.4 0 43.8" roty="322.72">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-239.4 0 57.8">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-250.89 0 53.25">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-251.69 0 44.72">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-143.08 0 -27.7" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-143.35 0 -31.58" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-154.72 0 -54.64" roty="138.13">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-170.1 0 -57.6">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-173.1 0 -57.6">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-136.2 0 -29.8" rot="0 89.54 0">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-136.7846 -29.5088" idle="3" pace="WALK" />
-              <waypoint pos="-122.6344 -29.5088" idle="0" pace="WALK" />
-              <waypoint pos="-116.0108 -29.80986" idle="0" pace="WALK" />
-              <waypoint pos="-111.5201 -30.95387" idle="0" pace="WALK" />
-              <waypoint pos="-110.0823 -35.6926" idle="0" pace="WALK" />
-              <waypoint pos="-108.7132 -38.42769" idle="0" pace="WALK" />
-              <waypoint pos="-105.0001 -39.73232" idle="0" pace="WALK" />
-              <waypoint pos="-97.67998 -39.71413" idle="0" pace="WALK" />
-              <waypoint pos="-89.51762 -39.97927" idle="3" pace="WALK" />
-              <waypoint pos="-97.67998 -39.71413" idle="0" pace="WALK" />
-              <waypoint pos="-105.0001 -39.73232" idle="0" pace="WALK" />
-              <waypoint pos="-108.7132 -38.42769" idle="0" pace="WALK" />
-              <waypoint pos="-110.0823 -35.6926" idle="0" pace="WALK" />
-              <waypoint pos="-111.5201 -30.95387" idle="0" pace="WALK" />
-              <waypoint pos="-116.0108 -29.80986" idle="0" pace="WALK" />
-              <waypoint pos="-122.6344 -29.5088" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_CONSTRUCT" pos="85.8 0 160.8" roty="267">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_CONSTRUCT">
-            <path>
-              <waypoint pos="84.82141 160.7003" idle="5" pace="WALK" />
-              <waypoint pos="73.77206 160.7003" idle="0" pace="WALK" />
-              <waypoint pos="62.12219 162.2616" idle="0" pace="WALK" />
-              <waypoint pos="55.39649 166.2249" idle="0" pace="WALK" />
-              <waypoint pos="46.62908 170.0682" idle="0" pace="WALK" />
-              <waypoint pos="38.94257 172.5903" idle="0" pace="WALK" />
-              <waypoint pos="34.61891 175.833" idle="0" pace="WALK" />
-              <waypoint pos="28.73393 178.9557" idle="0" pace="WALK" />
-              <waypoint pos="22.96905 179.7964" idle="0" pace="WALK" />
-              <waypoint pos="8.747925 180.7948" idle="0" pace="WALK" />
-              <waypoint pos="-1.090561 183.1832" idle="0" pace="WALK" />
-              <waypoint pos="-5.346748 187.967" idle="0" pace="WALK" />
-              <waypoint pos="-10.33681 189.5451" idle="5" pace="WALK" />
-              <waypoint pos="-11.53783 189.5451" idle="5" pace="WALK" />
-              <waypoint pos="-10.33681 189.5451" idle="5" pace="WALK" />
-              <waypoint pos="-5.346748 187.967" idle="0" pace="WALK" />
-              <waypoint pos="-1.090561 183.1832" idle="0" pace="WALK" />
-              <waypoint pos="8.747925 180.7948" idle="0" pace="WALK" />
-              <waypoint pos="22.96905 179.7964" idle="0" pace="WALK" />
-              <waypoint pos="28.73393 178.9557" idle="0" pace="WALK" />
-              <waypoint pos="34.61891 175.833" idle="0" pace="WALK" />
-              <waypoint pos="38.94257 172.5903" idle="0" pace="WALK" />
-              <waypoint pos="46.62908 170.0682" idle="0" pace="WALK" />
-              <waypoint pos="55.39649 166.2249" idle="0" pace="WALK" />
-              <waypoint pos="62.12219 162.2616" idle="0" pace="WALK" />
-              <waypoint pos="73.77206 160.7003" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-10.95 0 23.87" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-17.35 0 23.97" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-20.83 0 18.52" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-9.47 0 18.9" roty="9">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-15.05 0 18.47" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-45.48 0 -29.31" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-45.02 0 -33.63" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-44.61 0 -37.93" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-33.37 0 -12.21" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-28.58 0 -12.21" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-23.2 0 -12.21" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-28.61 0 -29.97" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-36.21 0 -24.42" roty="129.96">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-38.75 0 142.06" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-38.75 0 150.03" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-30.69 0 154.97" roty="189">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-23.01 0 147.47" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-23.01 0 141.08" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-26.81 0 68.68" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-27.15 0 63.18" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-33.12 0 70.19" roty="89.93">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-24.87 0 76.23" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-14.56 0 80.28" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-47.02 0 113.24" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-33.6 0 116.3" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-36.49 0 89.2" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-24.06 0 103.07" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="252.1 0 112.37" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="255.4 0 83.2" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="251.83 0 117.49" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="265.88 0 61.13" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="275.18 0 61.13" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="270.18 0 57.78">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="260.29 0 80.92" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="260.29 0 74.21" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="260.29 0 87.96" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="255.4 0 77.1" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="266.47 0 116.77" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="274.48 4 124.55" rot="0 248.74 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="253.3 0 163.1" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="249.5 0 169.1" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="244.1 0 172.4" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="203.02 0 209.87" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="206 0 215.63" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="212.67 0 215.63" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="209.63 0 209.87" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="209.5 0 203.1" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="216.7 0 209.87" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="236.2 0 155.6" roty="224.73">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="217.4 0 164.8" roty="201">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="185.1 0 102.4" roty="68">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="234.33 0 85.6" rot="0 259.19 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="185.08 0 144.68" rot="0 117.26 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="218.29 0 178.91" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="217.7153 178.8936" idle="0" pace="WALK" />
-              <waypoint pos="152.67 178.05" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="212.51 0 178.91" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="211.9353 178.8936" idle="0" pace="WALK" />
-              <waypoint pos="146.89 178.05" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="206.51 0 178.91" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="205.9353 178.8936" idle="0" pace="WALK" />
-              <waypoint pos="140.89 178.05" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="218.29 0 182.61" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="217.7153 182.5936" idle="0" pace="WALK" />
-              <waypoint pos="152.67 181.75" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="212.51 0 182.61" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="211.9353 182.5936" idle="0" pace="WALK" />
-              <waypoint pos="146.89 181.75" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="206.51 0 182.61" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="205.9353 182.5936" idle="0" pace="WALK" />
-              <waypoint pos="140.89 181.75" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="160.98 0 188.65" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="168.91 0 188.65" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="107.33 0 162.5" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="133.7 0 184.3" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="133.9 0 179.4" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="134.6 0 174.8" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="102.27 0 167.61" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="104.98 0 164.85" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="104.98 0 164.85" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="108.04 0 167.58" roty="270">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="107.99 167.839" idle="1" pace="WALK" />
-              <waypoint pos="113.9709 169.9193" idle="0" pace="WALK" />
-              <waypoint pos="119.6268 169.8542" idle="0" pace="WALK" />
-              <waypoint pos="122.0971 170.8944" idle="0" pace="WALK" />
-              <waypoint pos="123.7224 173.4298" idle="0" pace="WALK" />
-              <waypoint pos="125.4776 175.4451" idle="0" pace="WALK" />
-              <waypoint pos="126.9078 176.9403" idle="0" pace="WALK" />
-              <waypoint pos="130.2233 178.5005" idle="1" pace="WALK" />
-              <waypoint pos="126.9078 176.9403" idle="0" pace="WALK" />
-              <waypoint pos="125.4776 175.4451" idle="0" pace="WALK" />
-              <waypoint pos="123.7224 173.4298" idle="0" pace="WALK" />
-              <waypoint pos="122.0971 170.8944" idle="0" pace="WALK" />
-              <waypoint pos="119.6268 169.8542" idle="0" pace="WALK" />
-              <waypoint pos="113.9709 169.9193" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="73.69 0 147.96" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="77.2 0 151.34">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="69.9 0 151.34">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="60.9 0 173.5" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="42 0 178.1" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="82.36 0 168.4" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="68 0 168.4" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="45.1 0 157.3" roty="52.58">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="51.4 0 154.3" roty="30.82">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-24.08 0 188.89" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-24.15 0 192.9" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-39.47 0 206.5" roty="9">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-35.44 0 207.83" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-43.89 0 207.83" roty="5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="9.8 0 281" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="9.8 0 274.61" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="14.38 0 277.6" roty="279">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="16.01 0 300" roty="279">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="9.8 0 302.25" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="9.8 0 295.86" roty="275">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-7.68 0 285.78" roty="99">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-6.18 0 279.88" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-6.18 0 292.99" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="1.33 0 308.51" roty="184">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="1.47949 308.6505" idle="1" pace="WALK" />
-              <waypoint pos="1.654597 264.841" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-0.98 0 308.51" roty="184">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-0.8305097 308.6505" idle="1" pace="WALK" />
-              <waypoint pos="-0.6554031 264.841" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-38.61 0 212.93" roty="9">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-38.72587 212.8064" idle="1" pace="WALK" />
-              <waypoint pos="-34.86811 215.3783" idle="0" pace="WALK" />
-              <waypoint pos="-32.81064 220.3505" idle="0" pace="WALK" />
-              <waypoint pos="-31.1818 225.3227" idle="0" pace="WALK" />
-              <waypoint pos="-29.12433 235.3529" idle="0" pace="WALK" />
-              <waypoint pos="-26.98113 238.3533" idle="0" pace="WALK" />
-              <waypoint pos="-21.0659 239.2106" idle="0" pace="WALK" />
-              <waypoint pos="-15.23639 240.668" idle="0" pace="WALK" />
-              <waypoint pos="-11.97873 242.4683" idle="0" pace="WALK" />
-              <waypoint pos="-11.12145 245.1259" idle="0" pace="WALK" />
-              <waypoint pos="-11.12145 248.2978" idle="0" pace="WALK" />
-              <waypoint pos="-8.978245 252.7557" idle="0" pace="WALK" />
-              <waypoint pos="-4.520393 255.4132" idle="0" pace="WALK" />
-              <waypoint pos="-1.262726 257.6422" idle="0" pace="WALK" />
-              <waypoint pos="-1.091274 258.4137" idle="1" pace="WALK" />
-              <waypoint pos="-1.262726 257.6422" idle="0" pace="WALK" />
-              <waypoint pos="-4.520393 255.4132" idle="0" pace="WALK" />
-              <waypoint pos="-8.978245 252.7557" idle="0" pace="WALK" />
-              <waypoint pos="-11.12145 248.2978" idle="0" pace="WALK" />
-              <waypoint pos="-11.12145 245.1259" idle="0" pace="WALK" />
-              <waypoint pos="-11.97873 242.4683" idle="0" pace="WALK" />
-              <waypoint pos="-15.23639 240.668" idle="0" pace="WALK" />
-              <waypoint pos="-21.0659 239.2106" idle="0" pace="WALK" />
-              <waypoint pos="-26.98113 238.3533" idle="0" pace="WALK" />
-              <waypoint pos="-29.12433 235.3529" idle="0" pace="WALK" />
-              <waypoint pos="-31.1818 225.3227" idle="0" pace="WALK" />
-              <waypoint pos="-32.81064 220.3505" idle="0" pace="WALK" />
-              <waypoint pos="-34.86811 215.3783" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-36.64 0 238.39" roty="86.8">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-34.21 0 246.15" rot="0 146.92 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-26.44 0 246.96" roty="177">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-287.49 -8 77.74" roty="125">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-283.51 -8 76.25" roty="125">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-284.5837 76.51852" idle="3" pace="WALK" />
-              <waypoint pos="-283.4629 76.1916" idle="0" pace="WALK" />
-              <waypoint pos="-281.7816 81.65577" idle="0" pace="WALK" />
-              <waypoint pos="-279.3064 86.18588" idle="0" pace="WALK" />
-              <waypoint pos="-278.3723 90.6226" idle="0" pace="WALK" />
-              <waypoint pos="-277.1581 95.66647" idle="0" pace="WALK" />
-              <waypoint pos="-276.084 103.3724" idle="0" pace="WALK" />
-              <waypoint pos="-273.6555 108.6497" idle="0" pace="WALK" />
-              <waypoint pos="-271.227 110.798" idle="0" pace="WALK" />
-              <waypoint pos="-270.6177 112.0618" idle="3" pace="WALK" />
-              <waypoint pos="-271.227 110.798" idle="0" pace="WALK" />
-              <waypoint pos="-273.6555 108.6497" idle="0" pace="WALK" />
-              <waypoint pos="-276.084 103.3724" idle="0" pace="WALK" />
-              <waypoint pos="-277.1581 95.66647" idle="0" pace="WALK" />
-              <waypoint pos="-278.3723 90.6226" idle="0" pace="WALK" />
-              <waypoint pos="-279.3064 86.18588" idle="0" pace="WALK" />
-              <waypoint pos="-281.7816 81.65577" idle="0" pace="WALK" />
-              <waypoint pos="-283.4629 76.1916" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-294.58 0 87.13" rot="0 129.62 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-293.23 0 92.25" roty="94">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-254.62 0 81.03" roty="184">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-249.32 0 86.21" roty="177">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-237.9 0 80.78" roty="184">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-243.32 0 86.02" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-249.32 0 77.94" roty="177">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-243.32 0 77.75" roty="185">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-254.75 0 71.57" roty="4">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN">
-            <path>
-              <waypoint pos="-255.0843 71.58939" idle="1" pace="WALK" />
-              <waypoint pos="-238.3016 71.40221" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-285.57 -4 15.84" roty="26">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-292.33 0 146.33">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-294.6153 147.1058" idle="0" pace="WALK" />
-              <waypoint pos="-298.6714 149.6167" idle="0" pace="WALK" />
-              <waypoint pos="-300.95 152.64" idle="0" pace="WALK" />
-              <waypoint pos="-302.1089 157.179" idle="0" pace="WALK" />
-              <waypoint pos="-300.6995 163.0406" idle="0" pace="WALK" />
-              <waypoint pos="-295.0981 166.807" idle="0" pace="WALK" />
-              <waypoint pos="-289.8831 166.807" idle="0" pace="WALK" />
-              <waypoint pos="-285.151 164.9721" idle="0" pace="WALK" />
-              <waypoint pos="-282.9297 162.0748" idle="0" pace="WALK" />
-              <waypoint pos="-281.8674 157.8255" idle="0" pace="WALK" />
-              <waypoint pos="-282.2538 153.6728" idle="0" pace="WALK" />
-              <waypoint pos="-283.6058 149.2304" idle="0" pace="WALK" />
-              <waypoint pos="-287.0825 147.6852" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-299.95 0 163.9" roty="128">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-297.9317 165.2232" idle="0" pace="WALK" />
-              <waypoint pos="-293.4559 166.8736" idle="0" pace="WALK" />
-              <waypoint pos="-289.6707 166.8078" idle="0" pace="WALK" />
-              <waypoint pos="-285.3804 164.9266" idle="0" pace="WALK" />
-              <waypoint pos="-281.6292 160.2072" idle="0" pace="WALK" />
-              <waypoint pos="-282.1097 153.4745" idle="0" pace="WALK" />
-              <waypoint pos="-285.3204 149.3649" idle="0" pace="WALK" />
-              <waypoint pos="-289.6797 146.7657" idle="0" pace="WALK" />
-              <waypoint pos="-293.3303 146.799" idle="0" pace="WALK" />
-              <waypoint pos="-297.3328 148.578" idle="0" pace="WALK" />
-              <waypoint pos="-300.3673 151.4391" idle="0" pace="WALK" />
-              <waypoint pos="-303.0356 155.2395" idle="0" pace="WALK" />
-              <waypoint pos="-302.1128 158.9305" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-281.53 0 157.48" roty="264">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-282.0627 155.1261" idle="0" pace="WALK" />
-              <waypoint pos="-284.1358 150.8297" idle="0" pace="WALK" />
-              <waypoint pos="-286.9044 148.2477" idle="0" pace="WALK" />
-              <waypoint pos="-291.2974 146.6206" idle="0" pace="WALK" />
-              <waypoint pos="-297.2742 147.4096" idle="0" pace="WALK" />
-              <waypoint pos="-301.6054 152.5866" idle="0" pace="WALK" />
-              <waypoint pos="-302.1506 157.773" idle="0" pace="WALK" />
-              <waypoint pos="-300.8203 162.6711" idle="0" pace="WALK" />
-              <waypoint pos="-298.1711 165.183" idle="0" pace="WALK" />
-              <waypoint pos="-294.0562 166.6836" idle="0" pace="WALK" />
-              <waypoint pos="-289.8859 166.7335" idle="0" pace="WALK" />
-              <waypoint pos="-285.3264 165.8532" idle="0" pace="WALK" />
-              <waypoint pos="-283.4263 162.5571" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-301.81 0 208.44" roty="177">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="-301.7426 208.1408" idle="1" pace="WALK" />
-              <waypoint pos="-301.6163 235.5072" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-299.16 0 205.78" roty="184">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-296.32 0 208.44" roty="177">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="-296.2526 208.1408" idle="1" pace="WALK" />
-              <waypoint pos="-296.1263 235.5072" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-290 -8 247.2">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-289.0547 247.9141" idle="1" pace="WALK" />
-              <waypoint pos="-290.5199 254.5742" idle="0" pace="WALK" />
-              <waypoint pos="-292.5179 258.5703" idle="0" pace="WALK" />
-              <waypoint pos="-290.1203 264.2645" idle="0" pace="WALK" />
-              <waypoint pos="-288.6551 268.9266" idle="0" pace="WALK" />
-              <waypoint pos="-286.5238 274.1215" idle="0" pace="WALK" />
-              <waypoint pos="-284.3925 276.2528" idle="0" pace="WALK" />
-              <waypoint pos="-280.6628 276.5192" idle="0" pace="WALK" />
-              <waypoint pos="-278.132 280.3821" idle="0" pace="WALK" />
-              <waypoint pos="-275.4679 283.9785" idle="0" pace="WALK" />
-              <waypoint pos="-273.7363 286.5094" idle="0" pace="WALK" />
-              <waypoint pos="-270.4062 288.3743" idle="0" pace="WALK" />
-              <waypoint pos="-267.7421 291.7043" idle="0" pace="WALK" />
-              <waypoint pos="-265.3445 293.5692" idle="0" pace="WALK" />
-              <waypoint pos="-259.4836 292.6368" idle="0" pace="WALK" />
-              <waypoint pos="-256.4199 292.3704" idle="0" pace="WALK" />
-              <waypoint pos="-256.4199 292.6368" idle="1" pace="WALK" />
-              <waypoint pos="-256.4199 292.3704" idle="0" pace="WALK" />
-              <waypoint pos="-259.4836 292.6368" idle="0" pace="WALK" />
-              <waypoint pos="-265.3445 293.5692" idle="0" pace="WALK" />
-              <waypoint pos="-267.7421 291.7043" idle="0" pace="WALK" />
-              <waypoint pos="-270.4062 288.3743" idle="0" pace="WALK" />
-              <waypoint pos="-273.7363 286.5094" idle="0" pace="WALK" />
-              <waypoint pos="-275.4679 283.9785" idle="0" pace="WALK" />
-              <waypoint pos="-278.132 280.3821" idle="0" pace="WALK" />
-              <waypoint pos="-280.6628 276.5192" idle="0" pace="WALK" />
-              <waypoint pos="-284.3925 276.2528" idle="0" pace="WALK" />
-              <waypoint pos="-286.5238 274.1215" idle="0" pace="WALK" />
-              <waypoint pos="-288.6551 268.9266" idle="0" pace="WALK" />
-              <waypoint pos="-290.1203 264.2645" idle="0" pace="WALK" />
-              <waypoint pos="-292.5179 258.5703" idle="0" pace="WALK" />
-              <waypoint pos="-290.5199 254.5742" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-254.6 0 -124.7">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-268.2 0 -125.1">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-281.5 0 -125.1">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-280.4 0 -135.5">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-268.5 0 -135.2">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-253.7 0 -136.3">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-287.2 0 -154.4" rot="0 123.81 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-295.2 0 -253.26" roty="113.64">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-1.6 0 -178" roty="239.98">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="3.71 0 -170.25">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-1.96 0 -172.26">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="4.02 0 -174.9">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="35.6 0 235.5" rot="0 216.39 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="115.1 0 233.8" roty="116">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="252.1 0 244.92" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="246.34 0 247.9" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="246.34 0 254.57" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="252.1 0 251.53" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="252.1 0 258.6" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="166.72 0 291.1" roty="93">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="171.2 0 281.06" roty="57">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="167.22 0 284.95" roty="70">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="205.9 0 286.54" rot="0 309.48 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="207.4 0 291.19" roty="273.87">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="182.91 0 309.78" roty="159">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="287.2 0 195.4" roty="95">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="293.6 0 189.9" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="295.9 0 195.3" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="295.1 0 202.6" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-96.4 0 -16.2" roty="11">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-103.3 0 -18.2" roty="11">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-234.6 0 -195.9">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-236.0775 -195.9485" idle="1" pace="WALK" />
-              <waypoint pos="-247.3658 -193.8691" idle="0" pace="WALK" />
-              <waypoint pos="-260.882 -193.8691" idle="0" pace="WALK" />
-              <waypoint pos="-277.2202 -193.572" idle="0" pace="WALK" />
-              <waypoint pos="-290.4394 -193.572" idle="0" pace="WALK" />
-              <waypoint pos="-300.2423 -192.5323" idle="1" pace="WALK" />
-              <waypoint pos="-290.4394 -193.572" idle="0" pace="WALK" />
-              <waypoint pos="-277.2202 -193.572" idle="0" pace="WALK" />
-              <waypoint pos="-260.882 -193.8691" idle="0" pace="WALK" />
-              <waypoint pos="-247.3658 -193.8691" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-254.34 0 -253.91" roty="264.91">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-254.2 0 -144.3" roty="171.52">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-284.85 0 -44.35" rot="0 242.62 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-295.02 0 285.39" roty="153">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-284.37 0 294.99" rot="0 144.65 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-257.53 0 266.96" roty="254">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-231.4 0 302.2">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-294.4 0 291.2">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-48.3 0 250.85">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-50.58527 251.6258" idle="0" pace="WALK" />
-              <waypoint pos="-54.64142 254.1367" idle="0" pace="WALK" />
-              <waypoint pos="-56.91998 257.16" idle="0" pace="WALK" />
-              <waypoint pos="-58.07889 261.699" idle="0" pace="WALK" />
-              <waypoint pos="-56.66946 267.5606" idle="0" pace="WALK" />
-              <waypoint pos="-51.06815 271.327" idle="0" pace="WALK" />
-              <waypoint pos="-45.85312 271.327" idle="0" pace="WALK" />
-              <waypoint pos="-41.12097 269.4921" idle="0" pace="WALK" />
-              <waypoint pos="-39.66999 266.44" idle="0" pace="WALK" />
-              <waypoint pos="-38.85999 262.19" idle="0" pace="WALK" />
-              <waypoint pos="-38.22375 258.1928" idle="0" pace="WALK" />
-              <waypoint pos="-40.70999 253.92" idle="0" pace="WALK" />
-              <waypoint pos="-43.05246 252.2052" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-55.92 0 268.42" roty="128">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-53.90174 269.7432" idle="0" pace="WALK" />
-              <waypoint pos="-49.42588 271.3936" idle="0" pace="WALK" />
-              <waypoint pos="-45.64067 271.3278" idle="0" pace="WALK" />
-              <waypoint pos="-41.35039 269.4466" idle="0" pace="WALK" />
-              <waypoint pos="-39.26127 264.3386" idle="0" pace="WALK" />
-              <waypoint pos="-38.07969 257.9944" idle="0" pace="WALK" />
-              <waypoint pos="-41.29038 253.8849" idle="0" pace="WALK" />
-              <waypoint pos="-45.64971 251.2856" idle="0" pace="WALK" />
-              <waypoint pos="-49.3003 251.319" idle="0" pace="WALK" />
-              <waypoint pos="-53.30281 253.098" idle="0" pace="WALK" />
-              <waypoint pos="-56.33733 255.9591" idle="0" pace="WALK" />
-              <waypoint pos="-58.36924 259.7626" idle="0" pace="WALK" />
-              <waypoint pos="-58.08279 263.4505" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-37.75 0 261.86" roty="264">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="-38.28265 259.5061" idle="0" pace="WALK" />
-              <waypoint pos="-40.35583 255.2097" idle="0" pace="WALK" />
-              <waypoint pos="-43.1244 252.6276" idle="0" pace="WALK" />
-              <waypoint pos="-47.5174 251.0006" idle="0" pace="WALK" />
-              <waypoint pos="-53.65931 252.8879" idle="0" pace="WALK" />
-              <waypoint pos="-57.82545 256.9666" idle="0" pace="WALK" />
-              <waypoint pos="-58.37057 262.153" idle="0" pace="WALK" />
-              <waypoint pos="-57.04035 267.0511" idle="0" pace="WALK" />
-              <waypoint pos="-54.39115 269.563" idle="0" pace="WALK" />
-              <waypoint pos="-50.27619 271.0636" idle="0" pace="WALK" />
-              <waypoint pos="-46.10587 271.1135" idle="0" pace="WALK" />
-              <waypoint pos="-42.43978 269.1698" idle="0" pace="WALK" />
-              <waypoint pos="-39.6463 266.9371" idle="0" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="268.6 0 279.3">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_MINION">
-            <path>
-              <waypoint pos="269.2749 280.3346" idle="1" pace="WALK" />
-              <waypoint pos="304.9557 280.212" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="190.67 -8 116.73">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="193.28 -8 130.61">
-          <mobspawnpoint worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="46.8 0 152.9" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="41.3 0 160.8" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="57.3 0 152" roty="11">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="24.2 0 194" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="80.2 0 283.55" roty="93">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="80.32191 284.1838" idle="1" pace="WALK" />
-              <waypoint pos="44.03934 284.1838" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="80.2 0 279.01" roty="93">
-          <mobspawnpoint behavior="PATROL" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN">
-            <path>
-              <waypoint pos="80.32191 279.6438" idle="1" pace="WALK" />
-              <waypoint pos="44.03934 279.6438" idle="1" pace="WALK" />
-            </path>
-          </mobspawnpoint>
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="135.52 0 309.72" rot="0 105.8 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="143.24 0 309.72" rot="0 237.29 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-99.9 0 -16.56" roty="169.2">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-85.55 0 -21.28" roty="267.78">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-      </layer>
-    </layergroup>
     <layergroup name="route_01">
       <layer id="4b5b677d-7277-467d-94f7-82bed66cd6b3" name="route_01_on">
         <roads nodes="-40 190;-31.07 239.54;-0.87 263.54;-0.87 315.05" links="0 1;1 2;2 3" />
@@ -1593,7 +364,6 @@
     <tile name="STEPPE_GREEN_T1_TREE_PLAIN_DRY_A" pos="-277.5 0 -164.5" roty="270" />
     <tile name="STEPPE_GREEN_VEG_STONE_CURVE_A" pos="143.5 0 292.5" />
     <tile name="STEPPE_GREEN_VEG_STONE_SMALL_A" pos="221.5 0 221.5" roty="131" />
-    <tile name="STEPPE_GREEN_VEG_STONE_SMALL_A" pos="117.5 0 287.5" />
     <tile name="STEPPE_GREEN_VEG_STONE_SMALL_A" pos="-263.5 -8 -101.5" roty="35" />
     <tile name="STEPPE_GREEN_VEG_STONE_SMALL_A" pos="150.5 0 215.5" roty="300" />
     <tile name="STEPPE_GREEN_VEG_STONE_SMALL_A" pos="-259.5 -8 -79.5" roty="222" />
@@ -1623,7 +393,6 @@
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="160.5 0 165.5" roty="218" />
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="162.5 0 158.5" roty="333" />
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="151.5 0 203.5" roty="114" />
-    <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="114.5 0 277.5" />
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="180.5 0 205.5" roty="81" />
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="210.5 0 275.5" />
     <tile name="STEPPE_GREEN_VEG_STONE_GRASS_A" pos="157.5 0 297.5" />
@@ -1695,8 +464,7 @@
     <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FLAT_B_COMP_01_BASE" pos="-211 0 -60" roty="90" />
     <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FLAT_B_COMP_01_BASE" pos="105 0 308" roty="90" />
     <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FLAT_B_COMP_01_BASE" pos="61 0 144" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="-37 0 -284" roty="180" />
-    <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="0 0 5" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="-10 0 10" roty="90" />
     <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="-58 0 -298" />
     <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="188 0 294" roty="180" />
     <compoundtile name="_STEPPE_GREEN_HER_FILL_CAMP_WAGON_B_COMP" pos="-254 0 52" />
@@ -1712,6 +480,7 @@
     <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_A_COMP_02" pos="195 0 -5" />
     <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_A_COMP_02" pos="5 0 -255" />
     <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_A_COMP_02" pos="5 0 105" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_FILL_ROCKS_FORMATION_B_COMP_01_BASE" pos="-37 0 -284" roty="180" />
     <compoundtile name="_STEPPE_GREEN_STONE_PUDDLE_A_COMP_02" pos="-65 0 285" roty="270" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="-293.5 -4 14.5" />
     <tile name="STEPPE_GREEN_VEG_GRASS_B" pos="-293.5 -4 8.5" />
@@ -2066,7 +835,6 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-300 0 -250" />
     <tile name="STEPPE_GREEN_GROUND" pos="-280 -8 280" />
     <tile name="STEPPE_GREEN_GROUND" pos="-310 0 300" />
-    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-250 -8 280" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="-280 -8 90" />
     <tile name="STEPPE_GREEN_GROUND" pos="40 -8 200" />
     <tile name="STEPPE_GREEN_GROUND" pos="-230 0 280" />
@@ -2320,6 +1088,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-60 0 -80" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="30 -8 210" />
     <tile name="STEPPE_GREEN_GROUND" pos="220 0 10" roty="90" />
+    <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-250 -8 280" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="220 0 0" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="220 0 -10" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="220 0 20" roty="90" />
@@ -2407,7 +1176,7 @@
     <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-290 -8 -120" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="40 -8 210" />
     <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-240 -8 290" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="290 0 60" />
+    <tile name="STEPPE_GREEN_GROUND" pos="290 0 60" roty="0" />
     <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-300 -8 240" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="210 -8 100" />
     <compoundtile name="_STEPPE_GREEN_PLATEAU_8M_INNERCORNER_COMP_02" pos="-250 -8 110" roty="180" />
@@ -2526,7 +1295,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="10 0 90" />
     <tile name="STEPPE_GREEN_GROUND" pos="0 0 60" />
     <tile name="STEPPE_GREEN_GROUND" pos="-10 0 100" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="0 0 40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="10 0 30" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="0 0 30" roty="0" />
@@ -2899,15 +1668,15 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-50 0 -310" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -310" />
     <tile name="STEPPE_GREEN_GROUND" pos="-60 0 -310" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -260" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -260" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-40 0 -190" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -200" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -200" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-50 0 -190" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-70 0 -190" />
     <tile name="STEPPE_GREEN_GROUND" pos="170 0 130" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="170 0 180" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="160 0 180" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="100 0 150" />
+    <tile name="STEPPE_GREEN_GROUND" pos="100 0 150" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="120 0 160" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="90 0 150" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="90 0 140" roty="0" />
@@ -2975,7 +1744,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-140 0 -40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-250 0 -60" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="40 0 290" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="10 0 310" />
+    <tile name="STEPPE_GREEN_GROUND" pos="10 0 310" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-40 0 90" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-50 0 120" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-70 0 120" roty="0" />
@@ -3001,7 +1770,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-250 0 40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-240 0 40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-250 0 60" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-230 0 80" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-230 0 80" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-60 0 200" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-60 0 130" />
     <tile name="STEPPE_GREEN_GROUND" pos="-230 0 50" roty="0" />
@@ -3046,7 +1815,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-270 -8 -70" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-260 -8 -110" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-160 0 -160" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-130 0 -40" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-130 0 -40" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-130 0 -70" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-50 0 140" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="100 -8 190" roty="0" />
@@ -3214,6 +1983,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="10 0 -180" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -200" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -180" roty="270" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -240" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -250" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-20 0 -250" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="-20 0 -240" roty="90" />
@@ -3323,9 +2093,8 @@
     <tile name="STEPPE_GREEN_GROUND" pos="240 0 240" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="220 0 240" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="240 0 230" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="220 0 210" />
+    <tile name="STEPPE_GREEN_GROUND" pos="220 0 210" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="210 0 210" roty="0" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-10 0 -240" />
     <tile name="STEPPE_GREEN_GROUND" pos="210 0 230" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="230 0 240" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="210 0 220" roty="180" />
@@ -3339,7 +2108,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="160 0 310" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="160 0 290" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="160 0 300" roty="90" />
-    <tile name="STEPPE_GREEN_GROUND" pos="160 0 280" />
+    <tile name="STEPPE_GREEN_GROUND" pos="160 0 280" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-270 -8 -250" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="150 0 280" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="140 0 310" roty="270" />
@@ -3487,7 +2256,7 @@
     <tile name="STEPPE_GREEN_GROUND" pos="-270 -8 -270" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="-270 -8 -260" roty="270" />
     <tile name="STEPPE_GREEN_GROUND" pos="-280 -8 -280" roty="180" />
-    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 -150" />
+    <tile name="STEPPE_GREEN_GROUND" pos="-140 0 -150" roty="0" />
     <tile name="STEPPE_GREEN_GROUND" pos="-140 0 -140" roty="180" />
     <tile name="STEPPE_GREEN_GROUND" pos="-110 0 -70" roty="90" />
     <tile name="STEPPE_GREEN_GROUND" pos="-250 -8 -280" roty="270" />
@@ -3562,13 +2331,11 @@
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="20 0 296" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="77 0 301" roty="90" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="-63 0 120" />
-    <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="151 0 160" />
+    <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="151 0 175" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="113 -8 204" roty="90" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="218 0 225" />
-    <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="302 0 193" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="166 0 297" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="141 0 301" roty="270" />
-    <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="116 0 274" roty="270" />
     <compoundtile name="_STEPPE_GREEN_FILL_VEGETATION_SUB_01_LARGE_COMP_02" pos="236 0 296" />
     <tile name="Atmosphere_WRL_NONE_ST_GREEN" pos="0 0 0" roty="90" />
     <tile name="FIBER_LOW_NODE" pos="98.5 0 136.5" roty="82">
@@ -6213,7 +4980,7 @@
     <tile name="SpawnPoint_Steppe_MARMOT" pos="255.01 0 157.46" />
     <tile name="SpawnPoint_Steppe_MARMOT" pos="252.46 0 126.27" roty="180" />
     <tile name="SpawnPoint_Steppe_MARMOT" pos="275.24 0 93.47" />
-    <tile name="SpawnPoint_Steppe_MARMOT" pos="260.43 0 75.51" roty="270" />
+    <tile name="SpawnPoint_Steppe_MARMOT" pos="261.94 0 75.51" roty="270" />
     <tile name="SpawnPoint_Steppe_MARMOT" pos="260.46 0 67.91" />
     <tile name="SpawnPoint_Steppe_MARMOT" pos="252.03 0 53.6" roty="270" />
     <tile name="SpawnPoint_Steppe_MARMOT" pos="276.25 0 38.13" roty="90" />
@@ -6574,49 +5341,49 @@
     <tile name="STEPPE_GREEN_T1_ROCK" pos="260.5 0 155.5" roty="3" />
     <tile name="STEPPE_GREEN_T1_ROCK" pos="-282.5 -8 -272.5" roty="263" />
     <tile name="STEPPE_GREEN_T1_ROCK" pos="-28.5 0 -222.5" roty="70" />
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="158.5 0 144.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="158 0 145">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="304.5 0 304.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="305 0 305">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="122.5 0 285.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="122 0 286">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-47.5 0 304.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-48 0 305">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-234.5 0 271.5" roty="180">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-235 0 271" roty="180">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="304.5 0 174.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="305 0 174">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="174.5 0 1.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="175 0 2">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="4.5 0 -16.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="5 0 -16">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-305.5 0 117.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-305 0 118">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-53.5 0 83.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-54 0 84">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-305.5 0 -139.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-305 0 -139">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-236.5 0 -242.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-236 0 -242">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-46.5 0 -67.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-45 0 -66">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="4.5 0 -210.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="5 0 -210">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
-    <tile name="MOBCAMP_MEDIUM_NODE" pos="-102.5 0 -155.5">
+    <tile name="MOBCAMP_MEDIUM_NODE" pos="-102 0 -155">
       <resourcenode nodetype="medium" resourcetype="mobcamp" />
     </tile>
     <tile name="ROAMING_MEDIUM_NODE" pos="-289 0 -309">

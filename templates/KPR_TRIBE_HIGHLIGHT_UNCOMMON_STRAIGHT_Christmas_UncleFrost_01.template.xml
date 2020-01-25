@@ -498,10 +498,10 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ" pos="35 -24 -35" roty="180" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ" pos="25 -24 -35" roty="180" />
     <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="24.19 6.19 -0.56">
-      <pointlight range="13" intensity="5" color="1 0.7591847 0.2720588" />
+      <pointlight range="10" intensity="4" color="1 0.7591847 0.2720588" />
     </tile>
     <tile name="FOREST_GREEN_KPR_POINT_LIGHT_DNG_STANDARD_FLICKER_A" pos="-28.23 6.19 -1.45">
-      <pointlight range="13" intensity="5" color="1 0.7591847 0.2720588" />
+      <pointlight range="10" intensity="4" color="1 0.7591847 0.2720588" />
     </tile>
     <tile name="AtmosphereBubble_DNG_KPR_DL_NONE_tribe_indoor_cold" pos="-0.1 0 0.2">
       <atmospherebubble layer="1" radius="40" blend="0.4025" />
@@ -523,7 +523,7 @@
     <tile name="XMAS_FILL_CITY_TREE_A" pos="0 0 15" roty="180" />
     <tile name="XMAS_FILL_CITY_TREE_A" pos="-19 -16 33" scale="3 2.19084 3" />
     <tile name="XMAS_FILL_CITY_TREE_A" pos="-48 -16 -3" roty="90" scale="3.000002 3 3.000002" />
-    <tile name="XMAS_FILL_CITY_TREE_A" pos="-43 -16 20" roty="90" scale="3.000002 3 3.000002" />
+    <tile name="XMAS_FILL_CITY_TREE_A" pos="-43 -16 20" roty="90" scale="3.000002 2.70777 3.000002" />
     <tile name="XMAS_FILL_CITY_TREE_A" pos="-40 -16 -22" scale="3 2.64339 3" />
     <tile name="FOREST_GREEN_FILL_FX_SNOWFALL" pos="-31 0 0" />
     <tile name="XMAS_FILL_CITY_TREE_A" pos="2 -16 30" roty="270" scale="3.000002 3 3.000002" />

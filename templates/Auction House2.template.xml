@@ -1063,7 +1063,6 @@
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="40 -20 70" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="40 -20 60" roty="270" />
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_STRAIGHT_NO_BATTLEMENT_A" pos="20 -18 140" roty="90" />
-    <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="40 -16 90" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="40 -8 110" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="-40 -8 80" roty="180" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="-40 -8 100" roty="180" />
@@ -1155,7 +1154,6 @@
     <tile name="HIGHLAND_GREEN_CASTLE_STRAIGHT_RAILING_SMALL_A" pos="15 -8 112" roty="180" />
     <tile name="HIGHLAND_GREEN_CASTLE_WALL_STRAIGHT_NO_BATTLEMENT_A" pos="40 -24 90" roty="90" />
     <tile name="HIGHLAND_GREEN_DNG_PLATEAU_16M_RIVER_WATERFALL_MIDDLE" pos="-20 -28 50" />
-    <tile name="HIGHLAND_GREEN_ROAD_CITY_SIDE_A" pos="20 -8 80" roty="90" />
     <tile name="HIGHLAND_GREEN_CASTLE_2M_STAIRS_B_OBJ" pos="-6 -36 113" roty="90" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_BOARDWALK_A" pos="0 -8 60" roty="270" />
     <tile name="HIGHLAND_GREEN_ROAD_CITY_SIDE_A" pos="0 -8 70" roty="180" />
