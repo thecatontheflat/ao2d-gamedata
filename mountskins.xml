@@ -61,6 +61,7 @@
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_TIGER_TELLAFRIEND"           mountview="MountViewMedium" state="Locked" />
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_ARENA"                       mountview="MountViewMedium" state="Locked" />
   <mountskin goldprice="0"     reference="SKIN_COUGAR_OCCULT"                      mountview="MountViewMedium" state="Locked" />
+  <mountskin goldprice="0"     reference="SKIN_COUGAR_ARMORED_GREY"                mountview="MountViewMedium" state="Hidden" />    
 	<mountskin goldprice="0"     reference="SKIN_COUGAR_TOURNAMENT"                  mountview="MountViewMedium" state="Hidden" />
   </mountcategory>
 

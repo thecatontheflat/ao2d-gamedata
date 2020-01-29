@@ -32,247 +32,6 @@
     </criticalscenemember>
   </criticalscenemembers>
   <tiles>
-    <layergroup name="AVALONIAN_INVASION">
-      <layer id="Layer_07" name="Phase3_EventSpawnpoints_A">
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-49.32 2.13 -4.7" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="50.58 0 -50.24" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="50.03 0 -58.7" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="53.96 0 -55.37" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-49.6 2.13 4.54" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="2.29 0.01 -73.32">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="45.57 0 -54.34" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="68.98 -0.47 0" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="68.81 -0.47 5.82" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="68.9 -0.47 -5.1" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="41.97 3.53 -4.35" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="41.69 3.53 4.89" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="54.57 0 49.57" roty="229">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="5.94 -1.83 71.4" roty="194.56">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-0.12 -1.83 72.38" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-5.62 -1.83 71.45" rot="0 169.93 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-46.65 0 65.75" roty="161">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-45.2 0 72.26" roty="165.86">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-53.78 0 63.1" rot="0 160.81 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-58.98 0 68.39" rot="0 148.09 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-53.02 0 -46.28" roty="50">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-48.57 0 -51.98" roty="40">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-43.31 4.1 -4.7" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-43.59 4.1 4.54" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="48.91 1.85 -4.35" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="48.63 1.85 4.89" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="-2.1 0.01 -73.32">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_BOWMAN" pos="47.03 0 54.87" roty="219.55">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_BOWMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MAGE" pos="-71.5 -0.07 -0.01" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MAGE" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MAGE" pos="49.61 -0.07 50.15" roty="214">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MAGE" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MAGE" pos="44.98 -0.07 -48.43" roty="319">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MAGE" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="4.55 10.17 24.42" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-0.02 0.01 -64.18">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="52.66 0 -57.66" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="4.8 10.17 -25.09">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="48.48 0 -52.87" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="50.32 0 -54.94" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="0.15 0.01 -70.44">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-51.09 0 68.05" roty="161">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-54.8 0 70.23" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-49.5 0 71.58" roty="315">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-4.44 10.17 -25.06">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-5.67 10.17 -29.01">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="6.45 10.17 -29.01">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-24.75 12 -1.15" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-24.7 12 2.81" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="25.93 12 -1.8" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="25.98 12 2.16" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="6.24 10.17 30.07" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-49.6 2.13 -0.22" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-48.18 -0.07 61.29" rot="0 164.81 0">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-66.86 0 -4.6" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-32.01 10.17 2.74" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-32.06 10.17 -1.22" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="51.83 0 44.13" roty="233">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="42.52 0 50.65" roty="224.18">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="41.97 3.53 0.41" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="61.46 0 -1.99" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-5.88 10.17 30.07" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="32.99 10.17 2.06" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="61.58 0 2.85" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-1.96 0.01 -60.37">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="2 0.01 -60.42">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="32.94 10.17 -1.9" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="2.53 -1.83 66.9" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-58.61 0 -45.91" roty="55">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-0.02 12 25.51" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="0.03 12 -26.02">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="0.6 9.87 -31.43">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="0.2 9.87 30.87" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-57.13 0 -51.69" roty="55">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-53.53 0 -55.57" roty="55">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="48.91 1.85 0.41" roty="270">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-48.49 0 -57.51" roty="49">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-43.59 4.1 -0.22" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-1.43 -1.83 66.95" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_PIKEMAN" pos="-66.82 0 4.04" roty="90">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_PIKEMAN" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-5 10.17 24.42" roty="180">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-        <tile name="SpawnPoint_WORLD_BOSS_EVENT_AVALON_MINION" pos="-0.02 0.01 -67.66">
-          <mobspawnpoint behavior="GUARD" worldboss="WORLD_BOSS_EVENT_AVALON_MINION" />
-        </tile>
-      </layer>
-    </layergroup>
     <layergroup name="KIND">
       <layer id="Layer_01" name="LYMHURST">
         <criticaltile name="FOREST_RED_PORTAL_EXIT_LYMHURST" pos="0 14 0" id="portalexit_04" type="portalexit">
@@ -683,7 +442,7 @@
     <tile name="HIGHLAND_RED_FILL_ROCK_VEGETATION_SMALL_A" pos="59 0 -69" />
     <tile name="HIGHLAND_RED_FILL_ROCK_VEGETATION_SMALL_B" pos="34 0 -48" />
     <tile name="HIGHLAND_RED_FILL_ROCK_VEGETATION_SMALL_B" pos="29 0 -56" />
-    <tile name="HIGHLAND_RED_FILL_ROCK_VEGETATION_TINY_B" pos="31 0 47" />
+    <tile name="HIGHLAND_RED_FILL_ROCK_VEGETATION_TINY_B" pos="30.64 0.24 46.84" />
     <tile name="HIGHLAND_RED_FILL_ROCK_SHEET_LARGE_A" pos="47 0 65" roty="238.57" />
     <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A" pos="7 0 -63" roty="270" />
     <tile name="HIGHLAND_RED_FILL_ROCK_FLAT_A" pos="60 1 54" roty="270" />
@@ -691,14 +450,14 @@
     <tile name="HIGHLAND_RED_FILL_ROCK_HIGH_E" pos="61 0 66" roty="180" />
     <tile name="HIGHLAND_RED_FILL_ROCK_SMALL_D" pos="-58.5 2 8.5" />
     <tile name="HIGHLAND_RED_FILL_ROCK_SMALL_D" pos="-40.5 0 -63.5" />
-    <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B" pos="10 0 60" />
+    <tile name="HIGHLAND_RED_FILL_ROCK_MEDIUM_B" pos="9.5 0 60.5" />
     <tile name="HIGHLAND_RED_FILL_BONES_C" pos="-48.5 0 68.5" />
     <tile name="HIGHLAND_RED_FILL_BRANCH_C" pos="-6.5 12 10.5" roty="45" />
     <tile name="HIGHLAND_RED_FILL_HILL_BASE_A" pos="66 0 13" />
     <tile name="HIGHLAND_RED_FILL_HILL_BASE_A" pos="-10 0 62" roty="270" />
     <tile name="HIGHLAND_RED_FILL_HILL_BASE_A" pos="-66 0 68" roty="180" />
     <tile name="HIGHLAND_RED_FILL_HILL_BASE_B" pos="61 0 38" />
-    <tile name="HIGHLAND_RED_FILL_HILL_BASE_B" pos="-54 0 50" roty="311" />
+    <tile name="HIGHLAND_RED_FILL_HILL_BASE_B" pos="-54 0 50" roty="311.1" />
     <tile name="HIGHLAND_RED_FILL_HUMAN_BONES_A" pos="-40.5 0 57.5" />
     <tile name="HIGHLAND_RED_FILL_IVY_A" pos="31.5 8 21.5" roty="31.62" />
     <tile name="HIGHLAND_RED_FILL_IVY_A" pos="9.5 12 10.5" rot="353.31 29.27 1.1" />
@@ -712,7 +471,7 @@
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="-31.5 0 48.5" roty="281" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="-64.5 0 -31.5" roty="35" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="4.5 0 64.5" roty="232" />
-    <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="53.5 0 29.5" roty="59" />
+    <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="53.5 -0.01 29.5" roty="59" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="11.5 0 67.5" roty="288" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="64.5 0 17.5" roty="168" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="-51.5 0 49.5" rot="337 135 5" />
@@ -773,7 +532,7 @@
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="4.5 0 -55.5" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="15.5 1 -53.5" rot="345.21 11.1 354.58" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="53.5 0 14.5" />
-    <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="44.5 0 -34.5" />
+    <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="44.13 0.19 -34.69" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="35.5 0 -44.5" roty="289.17" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_B" pos="-43.5 0 34.5" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_E" pos="-33.5 0 47.5" />
@@ -787,17 +546,17 @@
     <tile name="HIGHLAND_RED_VEG_PLANTS_E" pos="60.5 0 7.5" roty="229" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_E" pos="5.5 0 62.5" roty="62" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_E" pos="6.5 0 68.5" roty="242" />
-    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_A" pos="-10.5 12 6.5" />
+    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_A" pos="-10.27 11.97 6.67" />
     <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_A" pos="63.5 0 -10.5" roty="270" />
     <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_A" pos="59.5 0 -6.5" roty="76.5" />
-    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="-8.5 12 -6.5" />
-    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="-7.5 12 -8.5" />
+    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="-8.01 11.86 -6.24" />
+    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="-7.11 11.86 -8.48" />
     <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="7.5 12 -7.5" roty="270" />
     <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_B" pos="7.5 12 7.5" roty="180" />
-    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_SMALL_A" pos="-5.5 12 11.5" />
-    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_SMALL_A" pos="-9.5 12 11.5" />
+    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_SMALL_A" pos="-5.63 11.96 11.62" />
+    <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_SMALL_A" pos="-9.36 11.96 11.03" />
     <tile name="HIGHLAND_RED_VEG_MOSS_BROWN_STRAIGHT_A" pos="68.5 0 -7.5" roty="101" />
-    <tile name="HIGHLAND_RED_VEG_FLOWERS_COLOR_SMALL_A" pos="19.5 12 7.5" />
+    <tile name="HIGHLAND_RED_VEG_FLOWERS_COLOR_SMALL_A" pos="19.54 12.49 7.66" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="11.5 12 -8.5" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="9.5 12 -12.5" roty="270" />
     <tile name="HIGHLAND_RED_VEG_PLANTS_A" pos="7.5 12 14.5" />
@@ -821,7 +580,7 @@
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-35.5 8 8.5" roty="80" />
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="35.5 8 -21.5" roty="297" />
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-68.5 0 53.5" roty="106" />
-    <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-42.5 0 -52.5" roty="80" />
+    <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-42.5 0.01 -52.5" roty="80" />
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-22.5 0 62.5" roty="99" />
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="14.5 0 55.5" roty="43" />
     <tile name="HIGHLAND_RED_T1_BUSH_A" pos="-25.5 8 -28.5" roty="343" />

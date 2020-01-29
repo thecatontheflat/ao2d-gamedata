@@ -283,11 +283,20 @@
 <!--READY FOR WORLD-->
   <hint uniquename="NOMOREQUESTS"  title="@HINT_TITLE_NOMOREQUESTS_01" infotext="@HINT_INFO_NOMOREQUESTS_01" blockworldinteraction="true" completebutton="true"/>
 
+  <!-- CRYSTAL LEAGUE -->
+  <hint uniquename="CRYSTAL_LEAGUE_INFO" explanation="CrystalLeagueInfo" blockworldinteraction="true" />
+
+  <!-- SMART CLUSTER QUEUE -->
+  <hint uniquename="CLUSTER_QUEUE_INFO" explanation="SmartClusterQueue" blockworldinteraction="true" />
+
    <!-- Avalonian Season -->
   <hint uniquename="AVALONIAN_SEASON_INFO" explanation="AvalonianSeason" blockworldinteraction="true" />
 
    <!-- Extended Alliance Infos -->
   <hint uniquename="ALLIANCE_INFO" explanation="AllianceInfo" blockworldinteraction="true" />
+
+  <!-- Extended Alliance Infos -->
+ <hint uniquename="PORTAL_INFO" explanation="PortalInfo" blockworldinteraction="true" />
 
   <!-- STARTGEAR -->
   <startgear>
