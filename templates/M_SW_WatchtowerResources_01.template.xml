@@ -406,33 +406,31 @@
     <tile name="PlacementBlocker_Territory" pos="0 0 0">
       <placementblocker size="110" locaid="TERRITORY" types="1" />
     </tile>
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-50 -4 -30" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-50 -4 -20" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -4 -20" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -4 -30" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-40 -4 -40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-50 -4 -40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-60 -4 -40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-60 -4 -30" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-60 -4 -20" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="30 -4 50" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="30 -4 60" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -4 60" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -4 50" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="40 -4 40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="30 -4 40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -4 40" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -4 50" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="20 -4 60" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-58 -4 58" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-58 -4 68" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-48 -4 68" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-48 -4 58" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-48 -4 48" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-58 -4 48" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-68 -4 48" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-68 -4 58" />
-    <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-68 -4 68" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -4 60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -4 60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -4 60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -4 60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -4 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -4 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -4 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -4 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -4 -30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -4 -30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -4 60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -4 30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -4 0" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -4 -30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -4 -30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -4 -30" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -4 -60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -4 -60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -4 -60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -4 -60" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -4 -60" />
     <tile name="SWAMP_GREEN_CASTLE_STRAIGHT_RAILING_D" pos="-60 2 45" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_STRAIGHT_RAILING_D" pos="-70 2 -45" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_STRAIGHT_RAILING_D" pos="45 2 70" roty="180" />
@@ -445,8 +443,8 @@
     <tile name="SWAMP_GREEN_FILL_PLATFORM_STONE_ORB_B" pos="-60 2 60" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_COLUMN_BROKEN_A" pos="45 0 45" roty="90" />
     <tile name="SWAMP_GREEN_FILL_PLATFORM_STONE_ORB_B" pos="30 2 50" roty="180" />
-    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 50" roty="270" />
-    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 70" roty="90" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 60" roty="90" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="39 -26 40" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-50 -26 -20" roty="180" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 50" roty="90" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="40 -26 50" roty="90" />
@@ -508,7 +506,6 @@
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_A" pos="-50 2 -30" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_A" pos="30 2 50" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_A" pos="-20 6 20" roty="270" />
-    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_A_OBJ" pos="30 2 70" roty="180" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_PATCH_INNERCORNER_B" pos="-60 2 60" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_PATCH_STRAIGHT_A" pos="-60 2 70" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_PATCH_STRAIGHT_B" pos="-70 2 60" />
@@ -533,8 +530,6 @@
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 70" roty="180" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 -20" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 -40" roty="90" />
-    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B_OBJ" pos="20 2 70" roty="270" />
-    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B_OBJ" pos="40 2 70" roty="180" />
     <tile name="SWAMP_GREEN_FILL_RUIN_COLUMN_BROKEN_C" pos="53 0 30" />
     <tile name="SWAMP_GREEN_FILL_RUIN_DEBRIS_B" pos="53 0 30" roty="180" />
     <tile name="SWAMP_GREEN_FILL_CITY_BORDERSTONE_CORNER_A" pos="50 0 -50" />
@@ -549,7 +544,6 @@
     <tile name="SWAMP_GREEN_FILL_RUIN_STAIRS_2M_A_NOCOL" pos="20 -28 50" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_STAIRS_2M_A_NOCOL" pos="40 -28 50" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_STAIRS_2M_A_NOCOL" pos="20 -28 40" roty="90" />
-    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B_OBJ" pos="20 2 60" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_COLUMN_BROKEN_C" pos="15 0 56" roty="90" />
     <tile name="SWAMP_GREEN_FILL_RUIN_WALL_B" pos="10 -2 56" roty="270" />
     <tile name="SWAMP_GREEN_FILL_RUIN_STAIRS_2M_A_NOCOL" pos="-50 -28 -20" roty="180" />
@@ -868,6 +862,16 @@
     <tile name="SWAMP_GREEN_VEG_GRASS_A" pos="56.5 0 -15.5" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-60 -25 70" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 60" roty="180" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 -30" roty="180" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="30 -27 70" roty="270" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 -40" roty="180" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="40 -26 70" roty="270" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="-70 -26 -20" roty="180" />
+    <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_A_NOCOL" pos="20 -26 70" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_A" pos="30 2 70" roty="180" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_A" pos="20 2 70" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_A" pos="20 2 60" roty="270" />
+    <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_A" pos="40 2 70" roty="180" />
     <tile name="UnrestrictedPvpZone" pos="-10 8 10">
       <unrestrictedpvpzone radius="110" />
     </tile>
@@ -1253,7 +1257,6 @@
     <tile name="SWAMP_GREEN_GROUND" pos="-60 0 -40" roty="180" />
     <tile name="SWAMP_GREEN_GROUND" pos="40 0 60" roty="180" />
     <tile name="SWAMP_GREEN_GROUND" pos="70 0 -70" roty="90" />
-    <tile name="SWAMP_GREEN_GROUND" pos="20 0 60" roty="180" />
     <tile name="SWAMP_GREEN_GROUND" pos="-60 0 -20" roty="180" />
     <tile name="SWAMP_GREEN_GROUND" pos="70 0 -50" roty="180" />
     <tile name="SWAMP_GREEN_GROUND" pos="50 0 -70" roty="180" />
