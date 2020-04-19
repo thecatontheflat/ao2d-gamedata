@@ -2268,8 +2268,13 @@
       <craftitem uniquename="UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_MORGANA" category="@BUILDING_ITEMS_CATEGORY_MOUNTS_RARE" displaygroup="4" />
       
       <craftitem uniquename="QUESTITEM_TOKEN_ADC_FRAME" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="5" />
+      <craftitem uniquename="UNIQUE_AVATAR_ADC_TOKENLOCKED_01" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />      
       <craftitem uniquename="UNIQUE_AVATARRING_ADC_TOKENLOCKED_01" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />
-      <craftitem uniquename="UNIQUE_AVATAR_ADC_TOKENLOCKED_01" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />
+      <craftitem uniquename="UNIQUE_AVATARRING_ADC_TOKENLOCKED_NATURE" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />
+      <craftitem uniquename="UNIQUE_AVATARRING_ADC_TOKENLOCKED_FIRE" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" /> 
+      <craftitem uniquename="UNIQUE_AVATARRING_ADC_TOKENLOCKED_ARCANE" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />
+      <craftitem uniquename="UNIQUE_AVATARRING_ADC_TOKENLOCKED_SWORDS" category="@BUILDING_ITEMS_CATEGORY_ADVENTURER" displaygroup="6" />      
+
       
 	  <!--
       <craftitem uniquename="UNIQUE_MOUNT_HOUSEPIG" category="@BUILDING_ITEMS_CATEGORY_MOUNTS_RARE" displaygroup="3" />
@@ -2285,17 +2290,18 @@
       -->      
 
       <!-- Christmas ho ho ho! 
-      <craftitem uniquename="T4_VANITY_CONSUMABLE_SNOWBALL" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
+      <craftitem uniquename="T4_VANITY_CONSUMABLE_SNOWBALL" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" />
       QUESTITEM_EXP_TOKEN_D1_T6_EXP_HRD_WINTER_EVENT
       -->
-      <!--Easter Event
-      <craftitem uniquename="UNIQUE_HEAD_VANITY_EASTER_WHITE" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
-      <craftitem uniquename="UNIQUE_HEAD_VANITY_EASTER_BROWN" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
-      <craftitem uniquename="UNIQUE_ARMOR_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
-      <craftitem uniquename="UNIQUE_SHOES_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
-      <craftitem uniquename="UNIQUE_BACKPACK_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />
-      <craftitem uniquename="UNIQUE_FURNITUREITEM_EASTER_CHEST" category="@BUILDING_ITEMS_CATEGORY_VANITY" displaygroup="1" />    
-      -->
+      <!--Easter Event-->
+      <craftitem uniquename="UNIQUE_UNLOCK_UNIQUE_VANITY_2H_CHICKENGUN_EASTER" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_UNLOCK_HEAD_VANITY_EASTER_WHITE" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_UNLOCK_HEAD_VANITY_EASTER_BROWN" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_UNLOCK_ARMOR_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_UNLOCK_SHOES_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_UNLOCK_BACKPACK_VANITY_EASTER" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
+      <craftitem uniquename="UNIQUE_FURNITUREITEM_EASTER_CHEST" category="@BUILDING_ITEMS_CATEGORY_FESTIVITIES" displaygroup="1" flags="easter" />
 
     </craftingitemlist>
     <AudioInfo name="NPC_VANITY_MERCHANT" />
