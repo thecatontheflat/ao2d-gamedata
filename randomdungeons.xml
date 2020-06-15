@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <randomdungeons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="randomdungeons.xsd">
 
   <!--  maxlifetimeseconds:         time until the dungeon is closed even if players are inside -->
   <!--  lifetimeafteremptyseconds:  time until dungeon is closed, but it will pause when players are found in the dungeon -->
-  <DungeonLifeTimes maxlifetimeseconds="87000" lifetimeafteremptyseconds="300" />
+  <DungeonLifeTimes maxlifetimeseconds="87000" lifetimeafteremptyseconds="300" >
+    <exitsubtype type="SOLO" lifetimeafteremptyseconds="30" />
+    <exitsubtype type="ELITE" lifetimeafteremptyseconds="7200" />
+  </DungeonLifeTimes>
 
   <DifficultyLevels>
     <difficulty level="1" mobmodifier="MOB_RANDOM_DUNGEON_BUFF_01" silverfactor="1.4268" lootfactor="1.4268" mobfamefactor="1.276"/>
@@ -37,7 +40,13 @@
     <ClusterTypeMapping clustertype="DUNGEON_SAFEAREA" dungeonclustertype="DUNGEON_SAFEAREA"/>
     <ClusterTypeMapping clustertype="DUNGEON_YELLOW" dungeonclustertype="DUNGEON_YELLOW"/>
     <ClusterTypeMapping clustertype="DUNGEON_RED" dungeonclustertype="DUNGEON_RED"/>
-    <ClusterTypeMapping clustertype="DUNGEON_BLACK" dungeonclustertype="DUNGEON_BLACK"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK" dungeonclustertype="DUNGEON_BLACK"/>    
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_1" dungeonclustertype="DUNGEON_BLACK_1"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_2" dungeonclustertype="DUNGEON_BLACK_2"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_3" dungeonclustertype="DUNGEON_BLACK_3"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_4" dungeonclustertype="DUNGEON_BLACK_4"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_5" dungeonclustertype="DUNGEON_BLACK_5"/>
+    <ClusterTypeMapping clustertype="DUNGEON_BLACK_6" dungeonclustertype="DUNGEON_BLACK_6"/>
   </ClusterTypeMappings>
 
   <RandomDungeonNames>
@@ -131,30 +140,30 @@
     <FixedExit name="T8_MORGANA" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="0.1" activationtime="1200" cooldown="600" tier="8" />
     
     <!--Dungeons-->
-    <FixedExit name="T3_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="4" />
-    <FixedExit name="T4_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="5" />
-    <FixedExit name="T5_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="6" />
-    <FixedExit name="T6_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="7" />
-    <FixedExit name="T7_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
-    <FixedExit name="T8_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
+    <FixedExit name="T3_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="4" />
+    <FixedExit name="T4_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="5" />
+    <FixedExit name="T5_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="6" />
+    <FixedExit name="T6_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="7" />
+    <FixedExit name="T7_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
+    <FixedExit name="T8_HERETIC_DUNGEON" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
 
-    <FixedExit name="T4_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="5" />
-    <FixedExit name="T5_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="6" />
-    <FixedExit name="T6_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="7" />
-    <FixedExit name="T7_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
-    <FixedExit name="T8_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
+    <FixedExit name="T4_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="5" />
+    <FixedExit name="T5_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="6" />
+    <FixedExit name="T6_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="7" />
+    <FixedExit name="T7_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
+    <FixedExit name="T8_UNDEAD_DUNGEON" generatorName="UNDEAD_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
 
-    <FixedExit name="T4_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="5" />
-    <FixedExit name="T5_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="6" />
-    <FixedExit name="T6_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="7" />
-    <FixedExit name="T7_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
-    <FixedExit name="T8_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
+    <FixedExit name="T4_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="5" />
+    <FixedExit name="T5_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="6" />
+    <FixedExit name="T6_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="7" />
+    <FixedExit name="T7_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
+    <FixedExit name="T8_KEEPER_DUNGEON" generatorName="KEEPER_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
 
-    <FixedExit name="T4_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="5" />
-    <FixedExit name="T5_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="6" />
-    <FixedExit name="T6_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="7" />
-    <FixedExit name="T7_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
-    <FixedExit name="T8_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="3600" cooldown="600" tier="8" />
+    <FixedExit name="T4_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="5" />
+    <FixedExit name="T5_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="6" />
+    <FixedExit name="T6_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="7" />
+    <FixedExit name="T7_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
+    <FixedExit name="T8_MORGANA_DUNGEON" generatorName="MORGANA_RANDOM_DUNGEON" maxfillratio="1" activationtime="60" cooldown="600" tier="8" />
 
     <!--Passages-->
     <FixedExit name="T3_PASSAGE" generatorName="HERETIC_RANDOM_DUNGEON" maxfillratio="0.1" activationtime="1200" cooldown="600" tier="3" />
@@ -175,13 +184,14 @@
     <Continent name="None">		
 	  <!-- for Debug Cluster -->
       <Subtype name="SOLO">
-        <ClusterTier tier="1" maxfillratio="1">
+        <ClusterTier tier="1" maxfillratio="0.4">
           <RandomExit name="T6_KEEPER_SOLO" weight="1" />
         </ClusterTier>
       </Subtype>
       <Subtype name="VETERAN">
         <ClusterTier tier="1" maxfillratio="0.7">
-          <RandomExit name="T4_MORGANA" weight="0" />
+          <RandomExit name="T6_CORRUPTED_SOLO" weight="1" />
+          <RandomExit name="T4_MORGANA" weight="1" />
           <RandomExit name="T5_MORGANA" weight="0" />
           <RandomExit name="T6_MORGANA" weight="0" />
           <RandomExit name="T4_PORTAL" weight="0" />
@@ -192,13 +202,15 @@
 	  <Continent name="Royal">
       <Subtype name="SOLO">
         <ClusterTier tier="3" maxfillratio="0.7">
-          <RandomExit name="T3_PORTAL_SOLO" weight="1" />
+          <RandomExit name="T3_PORTAL_ROYAL_SOLO" weight="1" />
         </ClusterTier>
         <ClusterTier tier="4" maxfillratio="0.7">
-          <RandomExit name="T4_PORTAL_SOLO" weight="1" />
+          <RandomExit name="T4_PORTAL_ROYAL_SOLO" weight="1" />
+          <RandomExit name="T4_PORTAL_SOLO" weight="0" />
         </ClusterTier>
         <ClusterTier tier="5" maxfillratio="0.7">
-          <RandomExit name="T5_PORTAL_SOLO" weight="1" />
+          <RandomExit name="T5_PORTAL_ROYAL_SOLO" weight="1" />
+          <RandomExit name="T5_PORTAL_SOLO" weight="0" />
         </ClusterTier>
         <ClusterTier tier="6" maxfillratio="0.39">
           <RandomExit name="T6_PORTAL_SOLO" weight="1" />
@@ -384,6 +396,75 @@
 
   <!-- Random Exit types -->
   <RandomExitVisualizations>
+    <!--Corrupted Dungeons-->
+    <Visualization name="CORRUPTED_SOLO">
+      <biome name="Default">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+      <biome name="Forest">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+      <biome name="Steppe">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+      <biome name="Swamp">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+      <biome name="Highlands">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+      <biome name="Mountains">
+        <subbiome name="Green">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Red">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+        <subbiome name="Dead">
+          <prefab name="SHARED_RANDOM_EXIT_10x10_PORTAL_SOLO" />
+        </subbiome>
+      </biome>
+    </Visualization>
     <!--Solo-->
     <Visualization name="KEEPER_SOLO">
       <biome name="Default">
@@ -1215,77 +1296,87 @@
       </RandomDungeonGenerators>
       <Visualization ref="KEEPER"/>
     </RandomExit>
+    <!--  ##########################  -->
+    <!-- ###  Corrupted Dungeons  ### -->
+    <!--  ##########################  -->
+    
+    <RandomExit name="T6_CORRUPTED_SOLO" activationtime="0" cooldown="60" >
+      <RandomDungeonGenerators>
+        <CorruptedDungeonGenerator />
+      </RandomDungeonGenerators>
+      <Visualization ref="CORRUPTED_SOLO"/>
+    </RandomExit>
 
     <!--  ############  -->
     <!-- ###  Solo  ### -->
-    <!--  ############  -->
+    <!--  ############  -->    
 
     <!--Heretic-->
-    <RandomExit name="T4_HERETIC_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T4_HERETIC_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_SOLO" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T5_HERETIC_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T5_HERETIC_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_SOLO" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T6_HERETIC_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T6_HERETIC_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_SOLO" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T7_HERETIC_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T7_HERETIC_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_SOLO" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T8_HERETIC_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T8_HERETIC_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_SOLO" tier="8" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
-    </RandomExit>
+    </RandomExit>    
 
     <!--Undead-->
-    <RandomExit name="T4_UNDEAD_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T4_UNDEAD_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_SOLO" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T5_UNDEAD_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T5_UNDEAD_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_SOLO" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T6_UNDEAD_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T6_UNDEAD_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_SOLO" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T7_UNDEAD_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T7_UNDEAD_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_SOLO" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T8_UNDEAD_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T8_UNDEAD_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_SOLO" tier="8" />
       </RandomDungeonGenerators>
@@ -1293,14 +1384,14 @@
     </RandomExit>
 
     <!--Keeper-->
-    <RandomExit name="T4_KEEPER_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T4_KEEPER_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_SOLO" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T5_KEEPER_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T5_KEEPER_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_SOLO" tier="5" />
       </RandomDungeonGenerators>
@@ -1314,14 +1405,14 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T7_KEEPER_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T7_KEEPER_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_SOLO" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T8_KEEPER_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T8_KEEPER_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_SOLO" tier="8" />
       </RandomDungeonGenerators>
@@ -1329,35 +1420,35 @@
     </RandomExit>
 
     <!--Morgana-->
-    <RandomExit name="T4_MORGANA_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T4_MORGANA_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_SOLO" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T5_MORGANA_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T5_MORGANA_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_SOLO" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T6_MORGANA_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T6_MORGANA_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_SOLO" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T7_MORGANA_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T7_MORGANA_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_SOLO" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T8_MORGANA_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T8_MORGANA_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_SOLO" tier="8" />
       </RandomDungeonGenerators>
@@ -1365,14 +1456,14 @@
     </RandomExit>
 
     <!--Portal-->
-    <RandomExit name="T3_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T3_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO_T3" tier="3" weight="1" />
       </RandomDungeonGenerators>
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
     
-    <RandomExit name="T4_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T4_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
@@ -1382,7 +1473,7 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T5_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T5_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
@@ -1392,7 +1483,7 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T6_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T6_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="6" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="6" weight="1" />
@@ -1402,7 +1493,7 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T7_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T7_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="7" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="7" weight="1" />
@@ -1412,7 +1503,7 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
-    <RandomExit name="T8_PORTAL_SOLO" activationtime="300" cooldown="120" >
+    <RandomExit name="T8_PORTAL_SOLO" activationtime="60" cooldown="120" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="8" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="8" weight="1" />
@@ -1422,36 +1513,66 @@
       <Visualization ref="PORTAL_SOLO"/>
     </RandomExit>
 
+
+    <!--Portal - Quickly Closing Exits-->
+    <RandomExit name="T3_PORTAL_ROYAL_SOLO" activationtime="60" cooldown="120" lifetimeafterlastuse="60" >
+      <RandomDungeonGenerators>
+        <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO_T3" tier="3" weight="1" />
+      </RandomDungeonGenerators>
+      <Visualization ref="PORTAL_SOLO"/>
+    </RandomExit>
+
+    <RandomExit name="T4_PORTAL_ROYAL_SOLO" activationtime="60" cooldown="120" lifetimeafterlastuse="60" >
+      <RandomDungeonGenerators>
+        <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
+        <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
+        <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
+        <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO" tier="4" weight="1" />
+      </RandomDungeonGenerators>
+      <Visualization ref="PORTAL_SOLO"/>
+    </RandomExit>
+
+    <RandomExit name="T5_PORTAL_ROYAL_SOLO" activationtime="60" cooldown="120" lifetimeafterlastuse="60" >
+      <RandomDungeonGenerators>
+        <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
+        <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
+        <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
+        <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO" tier="5" weight="1" />
+      </RandomDungeonGenerators>
+      <Visualization ref="PORTAL_SOLO"/>
+    </RandomExit>
+
+
     <!--HALLOWEEN-->
-    <RandomExit name="T4_UNDEAD_HALLOWEEN" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_UNDEAD_HALLOWEEN" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_HALLOWEEN_DUNGEON" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="HALLOWEEN"/>
     </RandomExit>
 
-    <RandomExit name="T5_UNDEAD_HALLOWEEN" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_UNDEAD_HALLOWEEN" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_HALLOWEEN_DUNGEON" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="HALLOWEEN"/>
     </RandomExit>
 
-    <RandomExit name="T6_UNDEAD_HALLOWEEN" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_UNDEAD_HALLOWEEN" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_HALLOWEEN_DUNGEON" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="HALLOWEEN"/>
     </RandomExit>
 
-    <RandomExit name="T7_UNDEAD_HALLOWEEN" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_UNDEAD_HALLOWEEN" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_HALLOWEEN_DUNGEON" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="HALLOWEEN"/>
     </RandomExit>
 
-    <RandomExit name="T8_UNDEAD_HALLOWEEN" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_UNDEAD_HALLOWEEN" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_HALLOWEEN_DUNGEON" tier="8" />
       </RandomDungeonGenerators>
@@ -1462,35 +1583,35 @@
     <!-- ### Veteran ### -->
     <!--  #############  -->
     <!--Heretic-->
-    <RandomExit name="T4_HERETIC" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_HERETIC" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="HERETIC"/>
     </RandomExit>
 
-    <RandomExit name="T5_HERETIC" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_HERETIC" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="HERETIC"/>
     </RandomExit>
 
-    <RandomExit name="T6_HERETIC" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_HERETIC" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="HERETIC"/>
     </RandomExit>
 
-    <RandomExit name="T7_HERETIC" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_HERETIC" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="HERETIC"/>
     </RandomExit>
 
-    <RandomExit name="T8_HERETIC" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_HERETIC" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON" tier="8" />
       </RandomDungeonGenerators>
@@ -1498,35 +1619,35 @@
     </RandomExit>
 
     <!--Undead-->
-    <RandomExit name="T4_UNDEAD" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_UNDEAD" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="UNDEAD"/>
     </RandomExit>
 
-    <RandomExit name="T5_UNDEAD" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_UNDEAD" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="UNDEAD"/>
     </RandomExit>
 
-    <RandomExit name="T6_UNDEAD" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_UNDEAD" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="UNDEAD"/>
     </RandomExit>
 
-    <RandomExit name="T7_UNDEAD" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_UNDEAD" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="UNDEAD"/>
     </RandomExit>
 
-    <RandomExit name="T8_UNDEAD" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_UNDEAD" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON" tier="8" />
       </RandomDungeonGenerators>
@@ -1534,35 +1655,35 @@
     </RandomExit>
 
     <!--Keeper-->
-    <RandomExit name="T4_KEEPER" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_KEEPER" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="KEEPER"/>
     </RandomExit>
 
-    <RandomExit name="T5_KEEPER" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_KEEPER" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="KEEPER"/>
     </RandomExit>
 
-    <RandomExit name="T6_KEEPER" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_KEEPER" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="KEEPER"/>
     </RandomExit>
 
-    <RandomExit name="T7_KEEPER" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_KEEPER" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="KEEPER"/>
     </RandomExit>
 
-    <RandomExit name="T8_KEEPER" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_KEEPER" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="KEEPER_RANDOM_DUNGEON" tier="8" />
       </RandomDungeonGenerators>
@@ -1570,35 +1691,35 @@
     </RandomExit>
 
     <!--Morgana-->   
-    <RandomExit name="T4_MORGANA" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_MORGANA" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON" tier="4" />
       </RandomDungeonGenerators>
       <Visualization ref="MORGANA"/>
     </RandomExit>
 
-    <RandomExit name="T5_MORGANA" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_MORGANA" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON" tier="5" />
       </RandomDungeonGenerators>
       <Visualization ref="MORGANA"/>
     </RandomExit>
 
-    <RandomExit name="T6_MORGANA" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_MORGANA" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="MORGANA"/>
     </RandomExit>
 
-    <RandomExit name="T7_MORGANA" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_MORGANA" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="MORGANA"/>
     </RandomExit>
 
-    <RandomExit name="T8_MORGANA" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_MORGANA" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON" tier="8" />
       </RandomDungeonGenerators>
@@ -1606,7 +1727,7 @@
     </RandomExit>
 
     <!--Portal-->
-    <RandomExit name="T4_PORTAL" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_PORTAL" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL" tier="4" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL" tier="4" weight="1" />
@@ -1616,7 +1737,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
     
-    <RandomExit name="T5_PORTAL" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_PORTAL" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL" tier="5" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL" tier="5" weight="1" />
@@ -1626,7 +1747,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
     
-    <RandomExit name="T6_PORTAL" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_PORTAL" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL" tier="6" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL" tier="6" weight="1" />
@@ -1636,7 +1757,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
     
-    <RandomExit name="T7_PORTAL" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_PORTAL" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL" tier="7" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL" tier="7" weight="1" />
@@ -1646,7 +1767,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
     
-    <RandomExit name="T8_PORTAL" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_PORTAL" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL" tier="8" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL" tier="8" weight="1" />
@@ -1657,7 +1778,7 @@
     </RandomExit>
 
     <!--Portal - Consumable-->
-    <RandomExit name="T4_PORTAL_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T4_PORTAL_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="4" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="4" weight="1" />
@@ -1667,7 +1788,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
 
-    <RandomExit name="T5_PORTAL_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T5_PORTAL_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="5" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="5" weight="1" />
@@ -1677,7 +1798,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
 
-    <RandomExit name="T6_PORTAL_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_PORTAL_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="6" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="6" weight="1" />
@@ -1687,7 +1808,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
 
-    <RandomExit name="T7_PORTAL_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_PORTAL_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="7" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="7" weight="1" />
@@ -1697,7 +1818,7 @@
       <Visualization ref="PORTAL"/>
     </RandomExit>
 
-    <RandomExit name="T8_PORTAL_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_PORTAL_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="UNDEAD_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="8" weight="1" />
         <GeneratedRandomDungeon generatorName="MORGANA_RANDOM_DUNGEON_PORTAL_CONSUMABLE" tier="8" weight="1" />
@@ -1711,38 +1832,38 @@
     <!-- ### Elite ### -->
     <!--  #############  -->
     <!--Avalon-->
-    <RandomExit name="T6_AVALON_ELITE" activationtime="3600" cooldown="86400" >
+    <RandomExit name="T6_AVALON_ELITE" activationtime="60" cooldown="86400" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="AVALON_ELITE"/>
     </RandomExit>
-    <RandomExit name="T7_AVALON_ELITE" activationtime="3600" cooldown="86400" >
+    <RandomExit name="T7_AVALON_ELITE" activationtime="60" cooldown="86400" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="AVALON_ELITE"/>
     </RandomExit>
-    <RandomExit name="T8_AVALON_ELITE" activationtime="3600" cooldown="86400" >
+    <RandomExit name="T8_AVALON_ELITE" activationtime="60" cooldown="86400" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="8" />
       </RandomDungeonGenerators>
       <Visualization ref="AVALON_ELITE"/>
     </RandomExit>
     <!--Avalon - Consumable-->
-    <RandomExit name="T6_AVALON_ELITE_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T6_AVALON_ELITE_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="6" />
       </RandomDungeonGenerators>
       <Visualization ref="AVALON_ELITE"/>
     </RandomExit>
-    <RandomExit name="T7_AVALON_ELITE_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T7_AVALON_ELITE_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="7" />
       </RandomDungeonGenerators>
       <Visualization ref="AVALON_ELITE"/>
     </RandomExit>
-    <RandomExit name="T8_AVALON_ELITE_CONSUMABLE" activationtime="3600" cooldown="600" >
+    <RandomExit name="T8_AVALON_ELITE_CONSUMABLE" activationtime="60" cooldown="600" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="AVALON_RANDOM_DUNGEON_ELITE" tier="8" />
       </RandomDungeonGenerators>
