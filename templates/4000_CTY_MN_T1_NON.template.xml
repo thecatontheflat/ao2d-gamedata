@@ -3554,7 +3554,6 @@
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_CORNER" pos="-250 44 -200" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_CORNER" pos="210 44 -250" roty="270" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_CORNER" pos="-240 44 -210" />
-    <tile name="MOUNTAIN_GREEN_PLATEAU_16M_CORNER_NOCOL" pos="80 4 180" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_INNERCORNER" pos="90 4 170" roty="180" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_INNERCORNER" pos="200 -16 10" roty="90" />
     <tile name="MOUNTAIN_GREEN_PLATEAU_16M_INNERCORNER" pos="200 -16 -30" roty="180" />
@@ -7127,6 +7126,7 @@
     <tile name="ARENA_ENTRANCE_POINT_LIGHT_A" pos="-87.6 -7.64 34.62">
       <pointlight range="10" intensity="4" color="1 0.5137255 0.1411765" />
     </tile>
+    <tile name="MOUNTAIN_GREEN_PLATEAU_16M_CORNER" pos="80 4 180" />
     <criticaltile name="Exit" pos="68.5 0 -0.5" roty="180" id="exit_01" type="exit">
       <exit size="15 15" spawnpos="12.30435 1.075681E-06" faction="None" kind="Cluster" roadtype="Primary">
         <guards>
