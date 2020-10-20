@@ -2677,11 +2677,11 @@
 			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="10"
-			hellgatemobspawnmaxamount="225"
+			hellgatemobspawnmaxamount="350"
 			hellgatemindistance="1"
 
-			hellgatemobchargepool="225"
-			hellgatemobchargesadded="225"
+			hellgatemobchargepool="350"
+			hellgatemobchargesadded="350"
 			hellgatemobchargetime="10"
 
 			hellclusterjointimelimit="45"
@@ -2720,11 +2720,11 @@
 			hellgatemobdespawntime="29"
 
 			hellgatemobwavetimer="6"
-			hellgatemobspawnmaxamount="225"
+			hellgatemobspawnmaxamount="350"
 			hellgatemindistance="1"
 
-			hellgatemobchargepool="225"
-			hellgatemobchargesadded="225"
+			hellgatemobchargepool="350"
+			hellgatemobchargesadded="350"
 			hellgatemobchargetime="6"
 
 			hellclusterjointimelimit="20"
