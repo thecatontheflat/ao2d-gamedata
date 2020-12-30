@@ -63,8 +63,57 @@
          arenacategory="crystal_league"
          startdatetime="2020-08-29T11:00:00Z"
          enddatetime="2020-11-23T23:59:00Z"
+         showindailylimitui="true"          
          ruleset="CRYSTAL_LEAGUE"/>
   
+  <season uniquename="CL_SEASON_10_11_OFFSEASON"
+          displayname="@SEASONS_SEASONNAME_OFFSEASON"
+          category="CRYSTAL_LEAGUE"
+          arenacategory="crystal_league"
+          startdatetime="2020-11-23T11:00:00Z"
+          enddatetime="2020-12-05T10:59:00Z"
+          ruleset="CRYSTAL_LEAGUE_OFFSEASON"/>
+
+  <season uniquename="CL_SEASON_10_11_OFFSEASON_2"
+         displayname="@SEASONS_SEASONNAME_OFFSEASON"
+         category="CRYSTAL_LEAGUE"
+         arenacategory="crystal_league"
+         startdatetime="2020-11-23T11:00:00Z"
+         enddatetime="2020-12-05T10:59:00Z"
+         ruleset="CRYSTAL_LEAGUE_OFFSEASON_2"/>
+
+  <season uniquename="CL_SEASON_11"
+         displayname="@SEASONS_SEASONNAME_SEASON_11"
+         category="CRYSTAL_LEAGUE"
+         arenacategory="crystal_league"
+         startdatetime="2020-12-05T11:00:00Z"
+         enddatetime="2021-03-01T23:59:00Z"
+         showindailylimitui="true"
+         ruleset="CRYSTAL_LEAGUE"/>
+
+
+  <!-- ============================== 20v20 SEASONS ============================== -->
+  <season uniquename="CL_CITY_OFFSEASON_10_11"
+         displayname="@SEASONS_SEASONNAME_OFFSEASON"
+         category="CRYSTAL_LEAGUE_CITY"
+         arenacategory="crystal_league_city"
+         startdatetime="2020-11-23T11:00:00Z"
+         enddatetime="2020-12-05T10:59:00Z"
+         ruleset="CRYSTAL_LEAGUE_CITY_OFFSEASON"
+		 color="#FFC300"
+		 fontcolor="#543d2c"/>
+
+  <season uniquename="CL_CITY_SEASON_11"
+         displayname="@SEASONS_SEASONNAME_SEASON_11"
+         category="CRYSTAL_LEAGUE_CITY"
+         arenacategory="crystal_league_city"
+         startdatetime="2020-12-05T11:00:00Z"
+         enddatetime="2021-03-01T23:59:00Z"
+         ruleset="CRYSTAL_LEAGUE_CITY"
+		 color="#FFC300"
+         showindailylimitui="true"
+		 fontcolor="#543d2c"/>
+
 
   <!-- ============================== RULESETS ============================== -->
   <!-- rewards lootlist display is documented in http://confluence.office.albion.zone/display/AO/Crystal+League+UI#CrystalLeagueUI-BattleRewards -->
@@ -157,60 +206,10 @@
 
   <!--Off Season Final - Community Token - HIGH IP-->
 
-    <match level="4" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="4" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:00:00"/>
-            <timeslot utctime="00:30:00"/>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:30:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:00:00"/>
             <timeslot utctime="00:30:00"/>
             <timeslot utctime="01:00:00"/>
@@ -269,60 +268,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="5" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="5" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:05:00"/>
-            <timeslot utctime="00:35:00"/>
-            <timeslot utctime="01:05:00"/>
-            <timeslot utctime="01:35:00"/>
-            <timeslot utctime="02:05:00"/>
-            <timeslot utctime="02:35:00"/>
-            <timeslot utctime="03:05:00"/>
-            <timeslot utctime="03:35:00"/>
-            <timeslot utctime="04:05:00"/>
-            <timeslot utctime="04:35:00"/>
-            <timeslot utctime="05:05:00"/>
-            <timeslot utctime="05:35:00"/>
-            <timeslot utctime="06:05:00"/>
-            <timeslot utctime="06:35:00"/>
-            <timeslot utctime="07:05:00"/>
-            <timeslot utctime="07:35:00"/>
-            <timeslot utctime="08:05:00"/>
-            <timeslot utctime="08:35:00"/>
-            <timeslot utctime="09:05:00"/>
-            <timeslot utctime="09:35:00"/>
-            <timeslot utctime="10:05:00"/>
-            <timeslot utctime="10:35:00"/>
-            <timeslot utctime="11:05:00"/>
-            <timeslot utctime="11:35:00"/>
-            <timeslot utctime="12:05:00"/>
-            <timeslot utctime="12:35:00"/>
-            <timeslot utctime="13:05:00"/>
-            <timeslot utctime="13:35:00"/>
-            <timeslot utctime="14:05:00"/>
-            <timeslot utctime="14:35:00"/>
-            <timeslot utctime="15:05:00"/>
-            <timeslot utctime="15:35:00"/>
-            <timeslot utctime="16:05:00"/>
-            <timeslot utctime="16:35:00"/>
-            <timeslot utctime="17:05:00"/>
-            <timeslot utctime="17:35:00"/>
-            <timeslot utctime="18:05:00"/>
-            <timeslot utctime="18:35:00"/>
-            <timeslot utctime="19:05:00"/>
-            <timeslot utctime="19:35:00"/>
-            <timeslot utctime="20:05:00"/>
-            <timeslot utctime="20:35:00"/>
-            <timeslot utctime="21:05:00"/>
-            <timeslot utctime="21:35:00"/>
-            <timeslot utctime="22:05:00"/>
-            <timeslot utctime="22:35:00"/>
-            <timeslot utctime="23:05:00"/>
-            <timeslot utctime="23:35:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:05:00"/>
             <timeslot utctime="00:35:00"/>
             <timeslot utctime="01:05:00"/>
@@ -381,10 +330,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="6" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="6" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-         <week weeknumber="2">
-          <weekday day="Saturday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:10:00"/>
             <timeslot utctime="00:40:00"/>
             <timeslot utctime="01:10:00"/>
@@ -434,55 +383,67 @@
             <timeslot utctime="23:10:00"/>
             <timeslot utctime="23:40:00"/>
           </weekday>
-          <weekday day="Sunday">
-             <timeslot utctime="00:10:00"/>
-            <timeslot utctime="00:40:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:40:00"/>
+        </week>
+      </times>
+      <rewards>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_WINNER_LVL3"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_BONUS_LVL3"/>
+        <draw lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_DRAW_LVL3"/>
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
+      </rewards>
+    </match>
+    <match level="7" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
+      <times>
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+        <weekday>
+            <timeslot utctime="00:15:00"/>
+            <timeslot utctime="00:45:00"/>
+            <timeslot utctime="01:15:00"/>
+            <timeslot utctime="01:45:00"/>
+            <timeslot utctime="02:15:00"/>
+            <timeslot utctime="02:45:00"/>
+            <timeslot utctime="03:15:00"/>
+            <timeslot utctime="03:45:00"/>
+            <timeslot utctime="04:15:00"/>
+            <timeslot utctime="04:45:00"/>
+            <timeslot utctime="05:15:00"/>
+            <timeslot utctime="05:45:00"/>
+            <timeslot utctime="06:15:00"/>
+            <timeslot utctime="06:45:00"/>
+            <timeslot utctime="07:15:00"/>
+            <timeslot utctime="07:45:00"/>
+            <timeslot utctime="08:15:00"/>
+            <timeslot utctime="08:45:00"/>
+            <timeslot utctime="09:15:00"/>
+            <timeslot utctime="09:45:00"/>
+            <timeslot utctime="10:15:00"/>
+            <timeslot utctime="10:45:00"/>
+            <timeslot utctime="11:15:00"/>
+            <timeslot utctime="11:45:00"/>
+            <timeslot utctime="12:15:00"/>
+            <timeslot utctime="12:45:00"/>
+            <timeslot utctime="13:15:00"/>
+            <timeslot utctime="13:45:00"/>
+            <timeslot utctime="14:15:00"/>
+            <timeslot utctime="14:45:00"/>
+            <timeslot utctime="15:15:00"/>
+            <timeslot utctime="15:45:00"/>
+            <timeslot utctime="16:15:00"/>
+            <timeslot utctime="16:45:00"/>
+            <timeslot utctime="17:15:00"/>
+            <timeslot utctime="17:45:00"/>
+            <timeslot utctime="18:15:00"/>
+            <timeslot utctime="18:45:00"/>
+            <timeslot utctime="19:15:00"/>
+            <timeslot utctime="19:45:00"/>
+            <timeslot utctime="20:15:00"/>
+            <timeslot utctime="20:45:00"/>
+            <timeslot utctime="21:15:00"/>
+            <timeslot utctime="21:45:00"/>
+            <timeslot utctime="22:15:00"/>
+            <timeslot utctime="22:45:00"/>
+            <timeslot utctime="23:15:00"/>
+            <timeslot utctime="23:45:00"/>
           </weekday>
         </week>
       </times>
@@ -493,172 +454,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="7" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="8" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-        <weekday day="Saturday">
-            <timeslot utctime="00:15:00"/>
-            <timeslot utctime="00:45:00"/>
-            <timeslot utctime="01:15:00"/>
-            <timeslot utctime="01:45:00"/>
-            <timeslot utctime="02:15:00"/>
-            <timeslot utctime="02:45:00"/>
-            <timeslot utctime="03:15:00"/>
-            <timeslot utctime="03:45:00"/>
-            <timeslot utctime="04:15:00"/>
-            <timeslot utctime="04:45:00"/>
-            <timeslot utctime="05:15:00"/>
-            <timeslot utctime="05:45:00"/>
-            <timeslot utctime="06:15:00"/>
-            <timeslot utctime="06:45:00"/>
-            <timeslot utctime="07:15:00"/>
-            <timeslot utctime="07:45:00"/>
-            <timeslot utctime="08:15:00"/>
-            <timeslot utctime="08:45:00"/>
-            <timeslot utctime="09:15:00"/>
-            <timeslot utctime="09:45:00"/>
-            <timeslot utctime="10:15:00"/>
-            <timeslot utctime="10:45:00"/>
-            <timeslot utctime="11:15:00"/>
-            <timeslot utctime="11:45:00"/>
-            <timeslot utctime="12:15:00"/>
-            <timeslot utctime="12:45:00"/>
-            <timeslot utctime="13:15:00"/>
-            <timeslot utctime="13:45:00"/>
-            <timeslot utctime="14:15:00"/>
-            <timeslot utctime="14:45:00"/>
-            <timeslot utctime="15:15:00"/>
-            <timeslot utctime="15:45:00"/>
-            <timeslot utctime="16:15:00"/>
-            <timeslot utctime="16:45:00"/>
-            <timeslot utctime="17:15:00"/>
-            <timeslot utctime="17:45:00"/>
-            <timeslot utctime="18:15:00"/>
-            <timeslot utctime="18:45:00"/>
-            <timeslot utctime="19:15:00"/>
-            <timeslot utctime="19:45:00"/>
-            <timeslot utctime="20:15:00"/>
-            <timeslot utctime="20:45:00"/>
-            <timeslot utctime="21:15:00"/>
-            <timeslot utctime="21:45:00"/>
-            <timeslot utctime="22:15:00"/>
-            <timeslot utctime="22:45:00"/>
-            <timeslot utctime="23:15:00"/>
-            <timeslot utctime="23:45:00"/>
-          </weekday>
-          <weekday day="Sunday">
-            <timeslot utctime="00:15:00"/>
-            <timeslot utctime="00:45:00"/>
-            <timeslot utctime="01:15:00"/>
-            <timeslot utctime="01:45:00"/>
-            <timeslot utctime="02:15:00"/>
-            <timeslot utctime="02:45:00"/>
-            <timeslot utctime="03:15:00"/>
-            <timeslot utctime="03:45:00"/>
-            <timeslot utctime="04:15:00"/>
-            <timeslot utctime="04:45:00"/>
-            <timeslot utctime="05:15:00"/>
-            <timeslot utctime="05:45:00"/>
-            <timeslot utctime="06:15:00"/>
-            <timeslot utctime="06:45:00"/>
-            <timeslot utctime="07:15:00"/>
-            <timeslot utctime="07:45:00"/>
-            <timeslot utctime="08:15:00"/>
-            <timeslot utctime="08:45:00"/>
-            <timeslot utctime="09:15:00"/>
-            <timeslot utctime="09:45:00"/>
-            <timeslot utctime="10:15:00"/>
-            <timeslot utctime="10:45:00"/>
-            <timeslot utctime="11:15:00"/>
-            <timeslot utctime="11:45:00"/>
-            <timeslot utctime="12:15:00"/>
-            <timeslot utctime="12:45:00"/>
-            <timeslot utctime="13:15:00"/>
-            <timeslot utctime="13:45:00"/>
-            <timeslot utctime="14:15:00"/>
-            <timeslot utctime="14:45:00"/>
-            <timeslot utctime="15:15:00"/>
-            <timeslot utctime="15:45:00"/>
-            <timeslot utctime="16:15:00"/>
-            <timeslot utctime="16:45:00"/>
-            <timeslot utctime="17:15:00"/>
-            <timeslot utctime="17:45:00"/>
-            <timeslot utctime="18:15:00"/>
-            <timeslot utctime="18:45:00"/>
-            <timeslot utctime="19:15:00"/>
-            <timeslot utctime="19:45:00"/>
-            <timeslot utctime="20:15:00"/>
-            <timeslot utctime="20:45:00"/>
-            <timeslot utctime="21:15:00"/>
-            <timeslot utctime="21:45:00"/>
-            <timeslot utctime="22:15:00"/>
-            <timeslot utctime="22:45:00"/>
-            <timeslot utctime="23:15:00"/>
-            <timeslot utctime="23:45:00"/>
-          </weekday>
-         </week>
-      </times>
-      <rewards>
-        <winner lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_WINNER_LVL3"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_BONUS_LVL3"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_DRAW_LVL3"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
-      </rewards>
-    </match>
-    <match level="8" itempowersoftcap="1700" itempowerscalingfactor="0.2">
-      <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:20:00"/>
-            <timeslot utctime="00:50:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:50:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:50:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:50:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:50:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:50:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:50:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:50:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:50:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:50:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:50:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:50:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:50:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:50:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:50:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:50:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:50:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:50:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:50:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:50:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:50:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:50:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:50:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:50:00"/>      
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:20:00"/>
             <timeslot utctime="00:50:00"/>
             <timeslot utctime="01:20:00"/>
@@ -717,60 +516,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="9" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="9" itempowersoftcap="1700" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:25:00"/>
-            <timeslot utctime="00:55:00"/>
-            <timeslot utctime="01:25:00"/>
-            <timeslot utctime="01:55:00"/>
-            <timeslot utctime="02:25:00"/>
-            <timeslot utctime="02:55:00"/>
-            <timeslot utctime="03:25:00"/>
-            <timeslot utctime="03:55:00"/>
-            <timeslot utctime="04:25:00"/>
-            <timeslot utctime="04:55:00"/>
-            <timeslot utctime="05:25:00"/>
-            <timeslot utctime="05:55:00"/>
-            <timeslot utctime="06:25:00"/>
-            <timeslot utctime="06:55:00"/>
-            <timeslot utctime="07:25:00"/>
-            <timeslot utctime="07:55:00"/>
-            <timeslot utctime="08:25:00"/>
-            <timeslot utctime="08:55:00"/>
-            <timeslot utctime="09:25:00"/>
-            <timeslot utctime="09:55:00"/>
-            <timeslot utctime="10:25:00"/>
-            <timeslot utctime="10:55:00"/>
-            <timeslot utctime="11:25:00"/>
-            <timeslot utctime="11:55:00"/>
-            <timeslot utctime="12:25:00"/>
-            <timeslot utctime="12:55:00"/>
-            <timeslot utctime="13:25:00"/>
-            <timeslot utctime="13:55:00"/>
-            <timeslot utctime="14:25:00"/>
-            <timeslot utctime="14:55:00"/>
-            <timeslot utctime="15:25:00"/>
-            <timeslot utctime="15:55:00"/>
-            <timeslot utctime="16:25:00"/>
-            <timeslot utctime="16:55:00"/>
-            <timeslot utctime="17:25:00"/>
-            <timeslot utctime="17:55:00"/>
-            <timeslot utctime="18:25:00"/>
-            <timeslot utctime="18:55:00"/>
-            <timeslot utctime="19:25:00"/>
-            <timeslot utctime="19:55:00"/>
-            <timeslot utctime="20:25:00"/>
-            <timeslot utctime="20:55:00"/>
-            <timeslot utctime="21:25:00"/>
-            <timeslot utctime="21:55:00"/>
-            <timeslot utctime="22:25:00"/>
-            <timeslot utctime="22:55:00"/>
-            <timeslot utctime="23:25:00"/>
-            <timeslot utctime="23:55:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:25:00"/>
             <timeslot utctime="00:55:00"/>
             <timeslot utctime="01:25:00"/>
@@ -846,7 +595,7 @@
 
   <!--Off Season Final - Community Token-->
  <!--LEVEL 1-->
-    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false">
+    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false" hideinmatchschedule="true">
       <times>
         <week weeknumber="1">
           <weekday>
@@ -863,7 +612,7 @@
       </rewards>
     </match>
     <!--LEVEL 2-->
-    <match level="2" itempowersoftcap="900" itempowerscalingfactor="0.2">
+    <match level="2" itempowersoftcap="900" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
         <week weeknumber="1">
           <weekday>
@@ -879,7 +628,7 @@
       </rewards>
     </match>
     <!--LEVEL 3-->
-    <match level="3" itempowersoftcap="1100" itempowerscalingfactor="0.2">
+    <match level="3" itempowersoftcap="1100" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
         <week weeknumber="1">
           <weekday>
@@ -895,60 +644,10 @@
       </rewards>
     </match>
     <!--Level 4 and more-->
-    <match level="4" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="4" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:00:00"/>
-            <timeslot utctime="00:30:00"/>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:30:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:00:00"/>
             <timeslot utctime="00:30:00"/>
             <timeslot utctime="01:00:00"/>
@@ -1007,60 +706,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="5" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="5" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:05:00"/>
-            <timeslot utctime="00:35:00"/>
-            <timeslot utctime="01:05:00"/>
-            <timeslot utctime="01:35:00"/>
-            <timeslot utctime="02:05:00"/>
-            <timeslot utctime="02:35:00"/>
-            <timeslot utctime="03:05:00"/>
-            <timeslot utctime="03:35:00"/>
-            <timeslot utctime="04:05:00"/>
-            <timeslot utctime="04:35:00"/>
-            <timeslot utctime="05:05:00"/>
-            <timeslot utctime="05:35:00"/>
-            <timeslot utctime="06:05:00"/>
-            <timeslot utctime="06:35:00"/>
-            <timeslot utctime="07:05:00"/>
-            <timeslot utctime="07:35:00"/>
-            <timeslot utctime="08:05:00"/>
-            <timeslot utctime="08:35:00"/>
-            <timeslot utctime="09:05:00"/>
-            <timeslot utctime="09:35:00"/>
-            <timeslot utctime="10:05:00"/>
-            <timeslot utctime="10:35:00"/>
-            <timeslot utctime="11:05:00"/>
-            <timeslot utctime="11:35:00"/>
-            <timeslot utctime="12:05:00"/>
-            <timeslot utctime="12:35:00"/>
-            <timeslot utctime="13:05:00"/>
-            <timeslot utctime="13:35:00"/>
-            <timeslot utctime="14:05:00"/>
-            <timeslot utctime="14:35:00"/>
-            <timeslot utctime="15:05:00"/>
-            <timeslot utctime="15:35:00"/>
-            <timeslot utctime="16:05:00"/>
-            <timeslot utctime="16:35:00"/>
-            <timeslot utctime="17:05:00"/>
-            <timeslot utctime="17:35:00"/>
-            <timeslot utctime="18:05:00"/>
-            <timeslot utctime="18:35:00"/>
-            <timeslot utctime="19:05:00"/>
-            <timeslot utctime="19:35:00"/>
-            <timeslot utctime="20:05:00"/>
-            <timeslot utctime="20:35:00"/>
-            <timeslot utctime="21:05:00"/>
-            <timeslot utctime="21:35:00"/>
-            <timeslot utctime="22:05:00"/>
-            <timeslot utctime="22:35:00"/>
-            <timeslot utctime="23:05:00"/>
-            <timeslot utctime="23:35:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:05:00"/>
             <timeslot utctime="00:35:00"/>
             <timeslot utctime="01:05:00"/>
@@ -1119,10 +768,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="6" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="6" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-         <week weeknumber="2">
-          <weekday day="Saturday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:10:00"/>
             <timeslot utctime="00:40:00"/>
             <timeslot utctime="01:10:00"/>
@@ -1172,56 +821,6 @@
             <timeslot utctime="23:10:00"/>
             <timeslot utctime="23:40:00"/>
           </weekday>
-          <weekday day="Sunday">
-             <timeslot utctime="00:10:00"/>
-            <timeslot utctime="00:40:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:40:00"/>
-          </weekday>
         </week>
       </times>
       <rewards>
@@ -1231,60 +830,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="7" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="7" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-        <weekday day="Saturday">
-            <timeslot utctime="00:15:00"/>
-            <timeslot utctime="00:45:00"/>
-            <timeslot utctime="01:15:00"/>
-            <timeslot utctime="01:45:00"/>
-            <timeslot utctime="02:15:00"/>
-            <timeslot utctime="02:45:00"/>
-            <timeslot utctime="03:15:00"/>
-            <timeslot utctime="03:45:00"/>
-            <timeslot utctime="04:15:00"/>
-            <timeslot utctime="04:45:00"/>
-            <timeslot utctime="05:15:00"/>
-            <timeslot utctime="05:45:00"/>
-            <timeslot utctime="06:15:00"/>
-            <timeslot utctime="06:45:00"/>
-            <timeslot utctime="07:15:00"/>
-            <timeslot utctime="07:45:00"/>
-            <timeslot utctime="08:15:00"/>
-            <timeslot utctime="08:45:00"/>
-            <timeslot utctime="09:15:00"/>
-            <timeslot utctime="09:45:00"/>
-            <timeslot utctime="10:15:00"/>
-            <timeslot utctime="10:45:00"/>
-            <timeslot utctime="11:15:00"/>
-            <timeslot utctime="11:45:00"/>
-            <timeslot utctime="12:15:00"/>
-            <timeslot utctime="12:45:00"/>
-            <timeslot utctime="13:15:00"/>
-            <timeslot utctime="13:45:00"/>
-            <timeslot utctime="14:15:00"/>
-            <timeslot utctime="14:45:00"/>
-            <timeslot utctime="15:15:00"/>
-            <timeslot utctime="15:45:00"/>
-            <timeslot utctime="16:15:00"/>
-            <timeslot utctime="16:45:00"/>
-            <timeslot utctime="17:15:00"/>
-            <timeslot utctime="17:45:00"/>
-            <timeslot utctime="18:15:00"/>
-            <timeslot utctime="18:45:00"/>
-            <timeslot utctime="19:15:00"/>
-            <timeslot utctime="19:45:00"/>
-            <timeslot utctime="20:15:00"/>
-            <timeslot utctime="20:45:00"/>
-            <timeslot utctime="21:15:00"/>
-            <timeslot utctime="21:45:00"/>
-            <timeslot utctime="22:15:00"/>
-            <timeslot utctime="22:45:00"/>
-            <timeslot utctime="23:15:00"/>
-            <timeslot utctime="23:45:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+        <weekday>
             <timeslot utctime="00:15:00"/>
             <timeslot utctime="00:45:00"/>
             <timeslot utctime="01:15:00"/>
@@ -1343,10 +892,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="8" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="8" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:20:00"/>
             <timeslot utctime="00:50:00"/>
             <timeslot utctime="01:20:00"/>
@@ -1396,56 +945,6 @@
             <timeslot utctime="23:20:00"/>
             <timeslot utctime="23:50:00"/>      
           </weekday>
-          <weekday day="Sunday">
-            <timeslot utctime="00:20:00"/>
-            <timeslot utctime="00:50:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:50:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:50:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:50:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:50:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:50:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:50:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:50:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:50:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:50:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:50:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:50:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:50:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:50:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:50:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:50:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:50:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:50:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:50:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:50:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:50:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:50:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:50:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:50:00"/>
-          </weekday>
         </week>
       </times>
       <rewards>
@@ -1455,60 +954,10 @@
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_OFFSEASON_NOSHOW_LVL3"/>
       </rewards>
     </match>
-    <match level="9" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="9" itempowersoftcap="1500" itempowerscalingfactor="0.2" hideinmatchschedule="true">
       <times>
-        <week weeknumber="2">
-          <weekday day="Saturday">
-            <timeslot utctime="00:25:00"/>
-            <timeslot utctime="00:55:00"/>
-            <timeslot utctime="01:25:00"/>
-            <timeslot utctime="01:55:00"/>
-            <timeslot utctime="02:25:00"/>
-            <timeslot utctime="02:55:00"/>
-            <timeslot utctime="03:25:00"/>
-            <timeslot utctime="03:55:00"/>
-            <timeslot utctime="04:25:00"/>
-            <timeslot utctime="04:55:00"/>
-            <timeslot utctime="05:25:00"/>
-            <timeslot utctime="05:55:00"/>
-            <timeslot utctime="06:25:00"/>
-            <timeslot utctime="06:55:00"/>
-            <timeslot utctime="07:25:00"/>
-            <timeslot utctime="07:55:00"/>
-            <timeslot utctime="08:25:00"/>
-            <timeslot utctime="08:55:00"/>
-            <timeslot utctime="09:25:00"/>
-            <timeslot utctime="09:55:00"/>
-            <timeslot utctime="10:25:00"/>
-            <timeslot utctime="10:55:00"/>
-            <timeslot utctime="11:25:00"/>
-            <timeslot utctime="11:55:00"/>
-            <timeslot utctime="12:25:00"/>
-            <timeslot utctime="12:55:00"/>
-            <timeslot utctime="13:25:00"/>
-            <timeslot utctime="13:55:00"/>
-            <timeslot utctime="14:25:00"/>
-            <timeslot utctime="14:55:00"/>
-            <timeslot utctime="15:25:00"/>
-            <timeslot utctime="15:55:00"/>
-            <timeslot utctime="16:25:00"/>
-            <timeslot utctime="16:55:00"/>
-            <timeslot utctime="17:25:00"/>
-            <timeslot utctime="17:55:00"/>
-            <timeslot utctime="18:25:00"/>
-            <timeslot utctime="18:55:00"/>
-            <timeslot utctime="19:25:00"/>
-            <timeslot utctime="19:55:00"/>
-            <timeslot utctime="20:25:00"/>
-            <timeslot utctime="20:55:00"/>
-            <timeslot utctime="21:25:00"/>
-            <timeslot utctime="21:55:00"/>
-            <timeslot utctime="22:25:00"/>
-            <timeslot utctime="22:55:00"/>
-            <timeslot utctime="23:25:00"/>
-            <timeslot utctime="23:55:00"/>
-          </weekday>
-          <weekday day="Sunday">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37">
+          <weekday>
             <timeslot utctime="00:25:00"/>
             <timeslot utctime="00:55:00"/>
             <timeslot utctime="01:25:00"/>
@@ -1572,7 +1021,7 @@
 
   <!--CRYSTAL LEAGUE-->
   
-  <ruleset name="CRYSTAL_LEAGUE">
+  <ruleset name="CRYSTAL_LEAGUE" limitedpointsperday="true">    
     <matchtimers prebattlewarninginssec="10"
                  signupperiodinsec="1740"
                  dcendqueueinsec="90"
@@ -1584,9 +1033,9 @@
                     bonuslootlistamount="4"/>
 
     <!--LEVEL 1-->
-    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false">
+    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false" dailypointfactor="0">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14">
           <weekday>
            <timeslot utctime="02:00:00"/>
             <timeslot utctime="02:30:00"/>
@@ -1605,9 +1054,9 @@
       </rewards>
     </match>
     <!--LEVEL 2-->
-    <match level="2" itempowersoftcap="900" itempowerscalingfactor="0.2">
+    <match level="2" itempowersoftcap="900" itempowerscalingfactor="0.2" dailypointfactor="2">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14">
           <weekday>
             <timeslot utctime="02:00:00"/>
             <timeslot utctime="02:30:00"/>
@@ -1626,9 +1075,9 @@
       </rewards>
     </match>
     <!--LEVEL 3-->
-    <match level="3" itempowersoftcap="1100" itempowerscalingfactor="0.2">
+    <match level="3" itempowersoftcap="1100" itempowerscalingfactor="0.2" dailypointfactor="2">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14">
           <weekday>
             <timeslot utctime="02:00:00"/>
             <timeslot utctime="02:30:00"/>
@@ -1640,14 +1089,14 @@
         </week>
       </times>
       <rewards>        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL3" gvgseasonpoints="5"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL3" gvgseasonpoints="5"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL3" gvgseasonpoints="3"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL3" gvgseasonpoints="3"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL3"/>
         <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL3"/>
       </rewards>
     </match>
     <!--LEVEL 4-->
-    <match level="4" itempowersoftcap="1200" itempowerscalingfactor="0.2">
+    <match level="4" itempowersoftcap="1200" itempowerscalingfactor="0.2" dailypointfactor="2">
       <times>
         <week weeknumber="1 3 5 7 9 11 13">        
           <weekday day="Monday">
@@ -1704,17 +1153,17 @@
         </week>      
       </times>
       <rewards>        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL4" gvgseasonpoints="15"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL4" gvgseasonpoints="15"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL4" gvgseasonpoints="8"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL4" gvgseasonpoints="8"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL4"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL4" gvgseasonpoints="45"/>  
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL4" gvgseasonpoints="24"/>  
         <towerwin lootlist="CRYSTALLEAGUE_LOOT_TERRITORY_LVL4"/>  
       </rewards>
     </match>
     <!--LEVEL 5-->
-    <match level="5" itempowersoftcap="1300" itempowerscalingfactor="0.2">
+    <match level="5" itempowersoftcap="1300" itempowerscalingfactor="0.2" dailypointfactor="1.8">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
+        <week weeknumber="2 3 4 5 6 7 8 9 10 11 12 13">
           <weekday day="Tuesday">
             <timeslot utctime="13:30:00"/>
             <timeslot utctime="20:30:00"/>
@@ -1732,17 +1181,17 @@
         </week>
       </times>
       <rewards>       
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL5" gvgseasonpoints="40"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL5" gvgseasonpoints="40"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL5" gvgseasonpoints="20"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL5" gvgseasonpoints="20"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL5"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL5" gvgseasonpoints="120"/>
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL5" gvgseasonpoints="60"/>
         <towerwin lootlist="CRYSTALLEAGUE_LOOT_TERRITORY_LVL5"/>  
       </rewards>
     </match>
     <!--LEVEL 6-->
-    <match level="6" itempowersoftcap="1400" itempowerscalingfactor="0.2">
+    <match level="6" itempowersoftcap="1400" itempowerscalingfactor="0.2" dailypointfactor="2">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
+        <week weeknumber="2 3 4 5 6 7 8 9 10 11 12 13">
           <weekday day="Saturday">
             <timeslot utctime="14:00:00"/>
             <timeslot utctime="21:00:00"/>
@@ -1753,15 +1202,15 @@
         </week>      
       </times>
       <rewards>    
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL6" gvgseasonpoints="100"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL6" gvgseasonpoints="100"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL6" gvgseasonpoints="50"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL6" gvgseasonpoints="50"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL6"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL6" gvgseasonpoints="300"/>
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL6" gvgseasonpoints="150"/>
         <towerwin lootlist="CRYSTALLEAGUE_LOOT_TERRITORY_LVL6"/>  
       </rewards>
     </match>
     <!--LEVEL 7-->
-    <match level="7" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <match level="7" itempowersoftcap="1500" itempowerscalingfactor="0.2" dailypointfactor="1">
       <times>
         <week weeknumber="3 5 7 9 11 13">
           <weekday day="Saturday">
@@ -1774,15 +1223,15 @@
         </week>
       </times>
       <rewards>       
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL7" gvgseasonpoints="200"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL7" gvgseasonpoints="200"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL7" gvgseasonpoints="120"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL7" gvgseasonpoints="120"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL7"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL7" gvgseasonpoints="600"/>
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL7" gvgseasonpoints="360"/>
         <towerwin lootlist="CRYSTALLEAGUE_LOOT_TERRITORY_LVL7"/>  
       </rewards>
     </match>
     <!--LEVEL 8-->
-    <match level="8" itempowersoftcap="1600" itempowerscalingfactor="0.2">
+    <match level="8" itempowersoftcap="1600" itempowerscalingfactor="0.2" dailypointfactor="1">
       <times>
         <week weeknumber="6 10 13">
           <weekday day="Sunday">
@@ -1791,15 +1240,15 @@
         </week>
       </times>
       <rewards>       
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL8" gvgseasonpoints="500"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL8" gvgseasonpoints="500"/>
+        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL8" gvgseasonpoints="320"/>
+        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL8" gvgseasonpoints="320"/>
         <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL8"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL8" gvgseasonpoints="1500"/>
+        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL8" gvgseasonpoints="960"/>
         <towerwin lootlist="CRYSTALLEAGUE_LOOT_TERRITORY_LVL8"/>  
       </rewards>
     </match>
     <!--LEVEL 9-->
-    <match level="9" itempowersoftcap="1700" itempowerscalingfactor="0.2">
+    <match level="9" itempowersoftcap="1700" itempowerscalingfactor="0.2" dailypointfactor="1.4">
       <times>
         <week weeknumber="13">
           <weekday day="Sunday">
@@ -1816,9 +1265,9 @@
     </match>
   </ruleset>
 
-  <!-- TESTING - DEBUG RULESET  -->
-  
-  <ruleset name="RULESET_DEBUG">
+  <!--20v20 CRYSTAL LEAGUE-->
+
+  <ruleset name="CRYSTAL_LEAGUE_CITY" limitedpointsperday="true">
     <matchtimers prebattlewarninginssec="10"
                  signupperiodinsec="1740"
                  dcendqueueinsec="90"
@@ -1829,950 +1278,164 @@
                     crystalwinnerbonus="0.25"
                     bonuslootlistamount="4"/>
 
-    <match level="1" itempowersoftcap="700" itempowerscalingfactor="0.5">
+    <!--LEVEL 1-->
+    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false" dailypointfactor="1.2">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14">
           <weekday>
             <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="01:50:00"/>
-
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="02:50:00"/>
-
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="03:50:00"/>
-
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="04:50:00"/>
-
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="05:50:00"/>
-
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="06:50:00"/>
-
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="07:50:00"/>
-
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="08:50:00"/>
-
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="09:50:00"/>
-
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="10:50:00"/>
-
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="11:50:00"/>
-
             <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="12:50:00"/>
-
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="13:50:00"/>
-
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="14:50:00"/>
-
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="15:50:00"/>
-
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="16:50:00"/>
-
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="17:50:00"/>
-
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="18:50:00"/>
-
             <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="19:50:00"/>
-
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="20:50:00"/>
-
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="21:50:00"/>
-
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="22:50:00"/>
-
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:30:00"/>
-            <timeslot utctime="23:40:00"/>
-            <timeslot utctime="23:50:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL1" gvgseasonpoints="1"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL1" gvgseasonpoints="1"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL1"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL1"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL1" gvgseasonpoints="1" />
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL1" gvgseasonpoints="1" />
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL1"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL1"/>
       </rewards>
     </match>
-    <match level="2" itempowersoftcap="800" itempowerscalingfactor="0.5">
+    <!--LEVEL 2-->
+    <match level="2" itempowersoftcap="1100" itempowerscalingfactor="0.2" dailypointfactor="1.6">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14">
           <weekday>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:20:00"/>
             <timeslot utctime="01:30:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="01:50:00"/>
-
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="02:50:00"/>
-
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="03:50:00"/>
-
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="04:50:00"/>
-
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="05:50:00"/>
-
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="06:50:00"/>
-
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="07:50:00"/>
-
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="08:50:00"/>
-
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="09:50:00"/>
-
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="10:50:00"/>
-
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="11:50:00"/>
-
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:20:00"/>
             <timeslot utctime="12:30:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="12:50:00"/>
-
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="13:50:00"/>
-
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="14:50:00"/>
-
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="15:50:00"/>
-
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="16:50:00"/>
-
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="17:50:00"/>
-
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="18:50:00"/>
-
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:20:00"/>
             <timeslot utctime="19:30:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="19:50:00"/>
-
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="20:50:00"/>
-
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="21:50:00"/>
-
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="22:50:00"/>
-
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:30:00"/>
-            <timeslot utctime="23:40:00"/>
-            <timeslot utctime="23:50:00"/>
-          </weekday>
-        </week>
-      </times>
-      <rewards>   
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL2" gvgseasonpoints="3"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL2" gvgseasonpoints="2"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL2"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL2"/>
-      </rewards>
-    </match>
-    <match level="3" itempowersoftcap="900" itempowerscalingfactor="0.5">
-      <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52">
-          <weekday>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="01:50:00"/>
-
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="02:50:00"/>
-
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="03:50:00"/>
-
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="04:50:00"/>
-
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="05:50:00"/>
-
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="06:50:00"/>
-
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="07:50:00"/>
-
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="08:50:00"/>
-
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="09:50:00"/>
-
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="10:50:00"/>
-
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="11:50:00"/>
-
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="12:50:00"/>
-
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="13:50:00"/>
-
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="14:50:00"/>
-
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="15:50:00"/>
-
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="16:50:00"/>
-
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="17:50:00"/>
-
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="18:50:00"/>
-
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="19:50:00"/>
-
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="20:50:00"/>
-
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="21:50:00"/>
-
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="22:50:00"/>
-
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:30:00"/>
-            <timeslot utctime="23:40:00"/>
-            <timeslot utctime="23:50:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL3" gvgseasonpoints="6"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL3" gvgseasonpoints="5"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL3"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL3"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL2" gvgseasonpoints="3"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2" gvgseasonpoints="3"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL2"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL2"/>
       </rewards>
     </match>
-    <match level="4" itempowersoftcap="1000" itempowerscalingfactor="0.5">
+    <!--LEVEL 3-->
+    <match level="3" itempowersoftcap="1300" itempowerscalingfactor="0.2" dailypointfactor="1.5">
       <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52">
-          <weekday>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="01:50:00"/>
-
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="02:50:00"/>
-
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="03:50:00"/>
-
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="04:50:00"/>
-
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="05:50:00"/>
-
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="06:50:00"/>
-
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="07:50:00"/>
-
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="08:50:00"/>
-
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="09:50:00"/>
-
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="10:50:00"/>
-
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="11:50:00"/>
-
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="12:50:00"/>
-
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="13:50:00"/>
-
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="14:50:00"/>
-
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="15:50:00"/>
-
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="16:50:00"/>
-
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="17:50:00"/>
-
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="18:50:00"/>
-
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="19:50:00"/>
-
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="20:50:00"/>
-
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="21:50:00"/>
-
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="22:50:00"/>
-
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:30:00"/>
-            <timeslot utctime="23:40:00"/>
-            <timeslot utctime="23:50:00"/>
-          </weekday>
-        </week>
-      </times>
-      <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL4" gvgseasonpoints="15"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL4" gvgseasonpoints="11"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL4"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL4"/>
-      </rewards>
-    </match>
-    <match level="5" itempowersoftcap="1100" itempowerscalingfactor="0.5">
-      <times>
-        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52">
-          <weekday>
-            <timeslot utctime="01:00:00"/>
-            <timeslot utctime="01:10:00"/>
-            <timeslot utctime="01:20:00"/>
-            <timeslot utctime="01:30:00"/>
-            <timeslot utctime="01:40:00"/>
-            <timeslot utctime="01:50:00"/>
-
-            <timeslot utctime="02:00:00"/>
-            <timeslot utctime="02:10:00"/>
-            <timeslot utctime="02:20:00"/>
-            <timeslot utctime="02:30:00"/>
-            <timeslot utctime="02:40:00"/>
-            <timeslot utctime="02:50:00"/>
-
-            <timeslot utctime="03:00:00"/>
-            <timeslot utctime="03:10:00"/>
-            <timeslot utctime="03:20:00"/>
-            <timeslot utctime="03:30:00"/>
-            <timeslot utctime="03:40:00"/>
-            <timeslot utctime="03:50:00"/>
-
-            <timeslot utctime="04:00:00"/>
-            <timeslot utctime="04:10:00"/>
-            <timeslot utctime="04:20:00"/>
-            <timeslot utctime="04:30:00"/>
-            <timeslot utctime="04:40:00"/>
-            <timeslot utctime="04:50:00"/>
-
-            <timeslot utctime="05:00:00"/>
-            <timeslot utctime="05:10:00"/>
-            <timeslot utctime="05:20:00"/>
-            <timeslot utctime="05:30:00"/>
-            <timeslot utctime="05:40:00"/>
-            <timeslot utctime="05:50:00"/>
-
-            <timeslot utctime="06:00:00"/>
-            <timeslot utctime="06:10:00"/>
-            <timeslot utctime="06:20:00"/>
-            <timeslot utctime="06:30:00"/>
-            <timeslot utctime="06:40:00"/>
-            <timeslot utctime="06:50:00"/>
-
-            <timeslot utctime="07:00:00"/>
-            <timeslot utctime="07:10:00"/>
-            <timeslot utctime="07:20:00"/>
-            <timeslot utctime="07:30:00"/>
-            <timeslot utctime="07:40:00"/>
-            <timeslot utctime="07:50:00"/>
-
-            <timeslot utctime="08:00:00"/>
-            <timeslot utctime="08:10:00"/>
-            <timeslot utctime="08:20:00"/>
-            <timeslot utctime="08:30:00"/>
-            <timeslot utctime="08:40:00"/>
-            <timeslot utctime="08:50:00"/>
-
-            <timeslot utctime="09:00:00"/>
-            <timeslot utctime="09:10:00"/>
-            <timeslot utctime="09:20:00"/>
-            <timeslot utctime="09:30:00"/>
-            <timeslot utctime="09:40:00"/>
-            <timeslot utctime="09:50:00"/>
-
-            <timeslot utctime="10:00:00"/>
-            <timeslot utctime="10:10:00"/>
-            <timeslot utctime="10:20:00"/>
-            <timeslot utctime="10:30:00"/>
-            <timeslot utctime="10:40:00"/>
-            <timeslot utctime="10:50:00"/>
-
-            <timeslot utctime="11:00:00"/>
-            <timeslot utctime="11:10:00"/>
-            <timeslot utctime="11:20:00"/>
-            <timeslot utctime="11:30:00"/>
-            <timeslot utctime="11:40:00"/>
-            <timeslot utctime="11:50:00"/>
-
-            <timeslot utctime="12:00:00"/>
-            <timeslot utctime="12:10:00"/>
-            <timeslot utctime="12:20:00"/>
-            <timeslot utctime="12:30:00"/>
-            <timeslot utctime="12:40:00"/>
-            <timeslot utctime="12:50:00"/>
-
-            <timeslot utctime="13:00:00"/>
-            <timeslot utctime="13:10:00"/>
-            <timeslot utctime="13:20:00"/>
-            <timeslot utctime="13:30:00"/>
-            <timeslot utctime="13:40:00"/>
-            <timeslot utctime="13:50:00"/>
-
-            <timeslot utctime="14:00:00"/>
-            <timeslot utctime="14:10:00"/>
-            <timeslot utctime="14:20:00"/>
-            <timeslot utctime="14:30:00"/>
-            <timeslot utctime="14:40:00"/>
-            <timeslot utctime="14:50:00"/>
-
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="15:10:00"/>
-            <timeslot utctime="15:20:00"/>
-            <timeslot utctime="15:30:00"/>
-            <timeslot utctime="15:40:00"/>
-            <timeslot utctime="15:50:00"/>
-
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="16:10:00"/>
-            <timeslot utctime="16:20:00"/>
-            <timeslot utctime="16:30:00"/>
-            <timeslot utctime="16:40:00"/>
-            <timeslot utctime="16:50:00"/>
-
-            <timeslot utctime="17:00:00"/>
-            <timeslot utctime="17:10:00"/>
-            <timeslot utctime="17:20:00"/>
-            <timeslot utctime="17:30:00"/>
-            <timeslot utctime="17:40:00"/>
-            <timeslot utctime="17:50:00"/>
-
-            <timeslot utctime="18:00:00"/>
-            <timeslot utctime="18:10:00"/>
-            <timeslot utctime="18:20:00"/>
-            <timeslot utctime="18:30:00"/>
-            <timeslot utctime="18:40:00"/>
-            <timeslot utctime="18:50:00"/>
-
-            <timeslot utctime="19:00:00"/>
-            <timeslot utctime="19:10:00"/>
-            <timeslot utctime="19:20:00"/>
-            <timeslot utctime="19:30:00"/>
-            <timeslot utctime="19:40:00"/>
-            <timeslot utctime="19:50:00"/>
-
-            <timeslot utctime="20:00:00"/>
-            <timeslot utctime="20:10:00"/>
-            <timeslot utctime="20:20:00"/>
-            <timeslot utctime="20:30:00"/>
-            <timeslot utctime="20:40:00"/>
-            <timeslot utctime="20:50:00"/>
-
-            <timeslot utctime="21:00:00"/>
-            <timeslot utctime="21:10:00"/>
-            <timeslot utctime="21:20:00"/>
-            <timeslot utctime="21:30:00"/>
-            <timeslot utctime="21:40:00"/>
-            <timeslot utctime="21:50:00"/>
-
-            <timeslot utctime="22:00:00"/>
-            <timeslot utctime="22:10:00"/>
-            <timeslot utctime="22:20:00"/>
-            <timeslot utctime="22:30:00"/>
-            <timeslot utctime="22:40:00"/>
-            <timeslot utctime="22:50:00"/>
-
-            <timeslot utctime="23:00:00"/>
-            <timeslot utctime="23:10:00"/>
-            <timeslot utctime="23:20:00"/>
-            <timeslot utctime="23:30:00"/>
-            <timeslot utctime="23:40:00"/>
-            <timeslot utctime="23:50:00"/>
-          </weekday>
-        </week>
-      </times>
-      <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL5" gvgseasonpoints="50"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL5" gvgseasonpoints="38"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL5"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL5"/>
-      </rewards>
-    </match>
-    <match level="6" itempowersoftcap="1200" itempowerscalingfactor="0.5">
-      <times>
-        <week weeknumber="2 6 10 12">
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13">
           <weekday day="Saturday">
-            <timeslot utctime="15:00:00"/>
-            <timeslot utctime="22:00:00"/>
+            <timeslot utctime="12:00:00"/>
+            <timeslot utctime="19:00:00"/>
           </weekday>
           <weekday day="Sunday">
-            <timeslot utctime="04:00:00"/>
+            <timeslot utctime="01:00:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL6" gvgseasonpoints="125"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL6" gvgseasonpoints="94"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL6"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL6"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3" gvgseasonpoints="12"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL3" gvgseasonpoints="12"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL3"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL3" gvgseasonpoints="36"/>
       </rewards>
     </match>
-    <match level="7" itempowersoftcap="1300" itempowerscalingfactor="0.2">
+    <!--LEVEL 4-->
+    <match level="4" itempowersoftcap="1500" itempowerscalingfactor="0.2" dailypointfactor="1.4">
       <times>
-        <week weeknumber="2 6 10 12">
+        <week weeknumber="2 4 6 8 10 12 13">
           <weekday day="Saturday">
-            <timeslot utctime="16:00:00"/>
-            <timeslot utctime="23:00:00"/>
+            <timeslot utctime="12:30:00"/>
+            <timeslot utctime="19:30:00"/>
           </weekday>
           <weekday day="Sunday">
-            <timeslot utctime="05:00:00"/>
+            <timeslot utctime="01:30:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL7" gvgseasonpoints="500"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL7" gvgseasonpoints="375"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL7"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL7"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL4" gvgseasonpoints="40"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL4" gvgseasonpoints="40"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL4"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL4" gvgseasonpoints="120"/>
       </rewards>
     </match>
-    <match level="8" itempowersoftcap="1400" itempowerscalingfactor="0.2">
+    <!--LEVEL 5-->
+    <match level="5" itempowersoftcap="1600" itempowerscalingfactor="0.2" dailypointfactor="0.8">
       <times>
-        <week weeknumber="12">
-          <weekday day="Sunday">
+        <week weeknumber="6 10 13">
+          <weekday day="Saturday">
             <timeslot utctime="17:00:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL8" gvgseasonpoints="1000"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL8" gvgseasonpoints="750"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL8"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL8"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL5" gvgseasonpoints="150"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL5" gvgseasonpoints="150"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL5"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL5" gvgseasonpoints="450"/>
       </rewards>
     </match>
-    <match level="9" itempowersoftcap="1500" itempowerscalingfactor="0.2">
+    <!--LEVEL 6-->
+    <match level="6" itempowersoftcap="1700" itempowerscalingfactor="0.2" dailypointfactor="1">
       <times>
-        <week weeknumber="12">
-          <weekday day="Sunday">
+        <week weeknumber="13">
+          <weekday day="Saturday">
             <timeslot utctime="18:00:00"/>
           </weekday>
         </week>
       </times>
       <rewards>
-        
-        <winner lootlist="CRYSTALLEAGUE_LOOT_WINNER_LVL9" gvgseasonpoints="2500"/>
-        <bonus lootlist="CRYSTALLEAGUE_LOOT_BONUS_LVL9" gvgseasonpoints="1875"/>
-        <draw lootlist="CRYSTALLEAGUE_LOOT_DRAW_LVL9"/>
-        <nomatch lootlist="CRYSTALLEAGUE_LOOT_NOSHOW_LVL9"/>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL6" gvgseasonpoints="500"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6" gvgseasonpoints="500"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL6"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL6" gvgseasonpoints="1500"/>
+      </rewards>
+    </match>
+  </ruleset>
+
+
+  <!--20v20 CRYSTAL LEAGUE - OFFSEASON-->
+  
+  <ruleset name="CRYSTAL_LEAGUE_CITY_OFFSEASON">
+    <matchtimers prebattlewarninginssec="10"
+                 signupperiodinsec="1740"
+                 dcendqueueinsec="90"
+                 restrictiondurationinsec="43200"/>
+
+    <rewardsettings crystalprizepool="1000"
+                    crystalshareamount="0.75"
+                    crystalwinnerbonus="0.25"
+                    bonuslootlistamount="4"/>
+
+    <!--LEVEL 1-->
+    <match level="1" itempowersoftcap="900" itempowerscalingfactor="0" playersarelethal="false">
+      <times>
+        <week weeknumber="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15">
+          <weekday>
+            <timeslot utctime="01:00:00"/>
+            <timeslot utctime="12:00:00"/>
+            <timeslot utctime="19:00:00"/>
+          </weekday>
+        </week>
+      </times>
+      <rewards>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL1"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL1"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL1"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL1"/>
+      </rewards>
+    </match>
+    <!--LEVEL 2-->
+    <match level="2" itempowersoftcap="1100" itempowerscalingfactor="0.2">
+      <times>
+        <week weeknumber="1 2 3 4 5 6 7 8">
+          <weekday>
+            <timeslot utctime="01:30:00"/>
+            <timeslot utctime="12:30:00"/>
+            <timeslot utctime="19:30:00"/>
+          </weekday>
+        </week>
+      </times>
+      <rewards>
+        <winner lootlist="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL2_OFFSEASON"/>
+        <bonus lootlist="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2_OFFSEASON"/>
+        <draw lootlist="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL2_OFFSEASON"/>
+        <nomatch lootlist="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL2_OFFSEASON"/>
       </rewards>
     </match>
   </ruleset>
