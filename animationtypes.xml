@@ -79,7 +79,8 @@
       <xs:enumeration value="Melee_Lowstrike"/>
       <xs:enumeration value="melee_piercestrike"/>
       <xs:enumeration value="melee_shieldslam"/>
-      <xs:enumeration value="melee_skillshot"/>      
+      <xs:enumeration value="melee_skillshot"/>
+      <xs:enumeration value="melee_spin"/>      
       <xs:enumeration value="melee_slam"/>
       <xs:enumeration value="melee_standardstrike"/>
       <xs:enumeration value="melee_sweepingblow"/>
@@ -109,6 +110,8 @@
       <xs:enumeration value="ranged_standardshot"/>
       <xs:enumeration value="ranged_throwingknife"/>
       <xs:enumeration value="ranged_undirected"/>
+      <xs:enumeration value="rendingrage_left"/>
+      <xs:enumeration value="rendingrage_right"/>      
 
       <xs:enumeration value="self_buff"/>      
       <xs:enumeration value="singlesmash"/>
@@ -122,6 +125,10 @@
       <xs:enumeration value="vanity_trumpet_play"/>
 	    <xs:enumeration value="vanity_poison_pot"/>
 	    <xs:enumeration value="vanity_poison_pot_trick"/>
+      <xs:enumeration value="vanity_warbanner_present"/>
+      <xs:enumeration value="vanity_warbanner_charge"/>
+	  <xs:enumeration value="vanity_spellbook_fireworks"/>
+      <xs:enumeration value="vanity_spellbook_bird"/>
       <xs:enumeration value="open_chest"/>
       <xs:enumeration value="open_shrine"/>
       <xs:enumeration value="use_portal"/>
@@ -209,6 +216,7 @@
       <xs:enumeration value="mighty_blow_jump"/>      
       <xs:enumeration value="mount_giantstag_leap"/>
       <xs:enumeration value="rapierstab"/>
+      <xs:enumeration value="rendingrage_jump"/>      
       <xs:enumeration value="slam_down"/>
       <xs:enumeration value="slam_down_spear"/>
       <xs:enumeration value="spinattack"/>
