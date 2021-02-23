@@ -84,6 +84,10 @@
     <CharType name="mount"/>
     <MountType name="direwolf"/>
   </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DIREWOLF_ARMORED">
+    <CharType name="mount"/>
+    <MountType name="direwolf_armored"/>
+  </WwiseSwitchInfo>
   <WwiseSwitchInfo name="MOUNT_DIREBOAR">
     <CharType name="mount"/>
     <MountType name="direboar"/>
@@ -283,6 +287,14 @@
   <WwiseSwitchInfo name="MOUNT_ENT">
     <CharType name="mount"/>
     <MountType name="ent"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_LYNX">
+    <CharType name="mount"/>
+    <MountType name="lynx"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_BASTION">
+    <CharType name="mount"/>
+    <MountType name="bastion"/>
   </WwiseSwitchInfo>
 
   <!--*************************************************************************************************************************************************************-->
@@ -2543,6 +2555,10 @@
     <OnSpellHit name="Play_melee_impact_small" />
   </WwiseEventInfo>
 
+  <WwiseEventInfo name="MELEE_SWORD_MIGHTY_BLOW">
+    <OnCastFinished name="Play_melee_swoosh_big_double" />
+  </WwiseEventInfo>
+
   <WwiseEventInfo name="MELEE_MEDIUMCAST">
     <OnCastStart name="Play_melee_swoosh_medium" />
   </WwiseEventInfo>
@@ -2828,6 +2844,14 @@
       <ImpactType/>
     </OnSpellHit>
   </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_GROUND_SHAKER_MACE">
+    <OnCastStart name="Play_melee_mace_load_swoosh_faster" />
+    <OnCastCanceled name="Stop_melee_mace_load_swoosh_faster" />
+    <OnCastInterrupted name="Stop_melee_mace_load_swoosh_faster" />
+    <OnSpellHit name="Play_melee_impact_medium" >
+      <ImpactType/>
+    </OnSpellHit>
+  </WwiseEventInfo>
   <WwiseEventInfo name="MELEE_HEAVYSLAM_MACE">
     <OnCastStart name="Play_melee_mace_load_swoosh" />
     <OnCastCanceled name="Stop_melee_mace_load_swoosh" />
@@ -2857,6 +2881,10 @@
     <OnCastStart name="Play_shrinking_smash" />
     <OnCastCanceled name="Stop_shrinking_smash" />
     <OnCastInterrupted name="Stop_shrinking_smash" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="MELEE_MACE_QUADRUNE_CAST">
+    <OnCastStart name="Play_cast_load_buff" />
+    <OnCastFinished name="Play_magicrune_cast" />
   </WwiseEventInfo>
 
   <WwiseEventInfo name="MELEE_HAMMER_IRONBREAKER">
@@ -3573,6 +3601,9 @@
   <WwiseEventInfo name="SPELL_LIGHTNING_CAST_BIG">
     <OnCastFinished name="Play_lightning_cast_big" />
   </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_LIGHTNING_HIT_ADD">
+    <OnCastFinished name="Play_lightning_impact_add" />
+  </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_LIGHTNING_CHAIN">
     <OnCastFinished name="Play_lightningbolt_chain" />
   </WwiseEventInfo>
@@ -3651,6 +3682,9 @@
   </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_SELF_BUFF">
     <OnCastStart name="Play_selfbuff_cast" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_SELF_BUFF_CASTFINISHED">
+    <OnCastFinished name="Play_selfbuff_cast" />
   </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_SMALL_DEBUFF">
     <OnSpellHit name="Play_small_debuff" />
@@ -4044,6 +4078,23 @@
   
   <WwiseEventInfo name="SPELL_MOUNT_SPIDER_COCOON_IMPACT">
     <OnSpellHit name="Play_spider_cocoon_spawn" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_BASTION_BEAM">
+    <OnCastStart name="Play_bastion_cast_beam_load" />
+    <OnCastFinished name="Play_bastion_shoot_beam" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_BASTION_CHARGE">
+    <OnCastStart name="Play_bastion_cast_charge" />
+    <OnCastFinished name="Play_bastion_charge" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_MOUNT_BASTION_SHIELD_CHANNEL">
+    <OnChannelingStart name="Play_bastion_buff_shield_loop" />
+    <OnChannelingCancelled name="Stop_bastion_buff_shield_loop" />
+    <OnChannelingEnd name="Stop_bastion_buff_shield_loop" />
+    <OnChannelingInterrupted name="Stop_bastion_buff_shield_loop" />
   </WwiseEventInfo>
   
   <!--****************************************************-->
