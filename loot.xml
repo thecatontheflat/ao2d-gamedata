@@ -58,6 +58,11 @@
   </Lootlist>
   <Lootlist name="T5_RANDOM_DUNGEON_TOKEN">
     <OR>
+      <OR weight="25">        
+        <Item type="T5_HELLGATE_2V2_NON_LETHAL_1_MAP" enchantmentlevel="0" weight="10"/>
+        <Item type="T5_HELLGATE_5V5_NON_LETHAL_1_MAP" enchantmentlevel="0" weight="2"/>
+        <Item type="T5_HELLGATE_10V10_NON_LETHAL_1_MAP" enchantmentlevel="0" weight="1"/>
+      </OR>
       <OR weight="8">
         <Item type="T5_RANDOM_DUNGEON_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T5_RANDOM_DUNGEON_TOKEN_2" enchantmentlevel="1" weight="9" />
@@ -74,19 +79,22 @@
   </Lootlist>
   <Lootlist name="T6_RANDOM_DUNGEON_TOKEN">
     <OR>
-      <OR weight="1">
+      <OR weight="20">
+        <Item type="T6_HELLGATE_2V2_LETHAL_1_MAP" enchantmentlevel="0" weight="1"/>
+      </OR>
+      <OR weight="2">
         <Item type="T6_RANDOM_DUNGEON_ELITE_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T6_RANDOM_DUNGEON_ELITE_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T6_RANDOM_DUNGEON_ELITE_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T6_RANDOM_DUNGEON_ELITE_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="8">
+      <OR weight="16">
         <Item type="T6_RANDOM_DUNGEON_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T6_RANDOM_DUNGEON_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T6_RANDOM_DUNGEON_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T6_RANDOM_DUNGEON_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="80">
+      <OR weight="160">
         <Item type="T6_RANDOM_DUNGEON_SOLO_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T6_RANDOM_DUNGEON_SOLO_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T6_RANDOM_DUNGEON_SOLO_TOKEN_3" enchantmentlevel="2" weight="3" />
@@ -96,19 +104,22 @@
   </Lootlist>
   <Lootlist name="T7_RANDOM_DUNGEON_TOKEN">
     <OR>
-      <OR weight="1">
+      <OR weight="4">
+        <Item type="T7_HELLGATE_5V5_LETHAL_1_MAP" enchantmentlevel="0" weight="1"/>
+      </OR>
+      <OR weight="2">
         <Item type="T7_RANDOM_DUNGEON_ELITE_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T7_RANDOM_DUNGEON_ELITE_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T7_RANDOM_DUNGEON_ELITE_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T7_RANDOM_DUNGEON_ELITE_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="8">
+      <OR weight="16">
         <Item type="T7_RANDOM_DUNGEON_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T7_RANDOM_DUNGEON_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T7_RANDOM_DUNGEON_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T7_RANDOM_DUNGEON_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="80">
+      <OR weight="160">
         <Item type="T7_RANDOM_DUNGEON_SOLO_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T7_RANDOM_DUNGEON_SOLO_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T7_RANDOM_DUNGEON_SOLO_TOKEN_3" enchantmentlevel="2" weight="3" />
@@ -119,18 +130,21 @@
   <Lootlist name="T8_RANDOM_DUNGEON_TOKEN">
     <OR>
       <OR weight="1">
+        <Item type="T8_HELLGATE_10V10_LETHAL_1_MAP" enchantmentlevel="0" weight="1"/>
+      </OR>
+      <OR weight="2">
         <Item type="T8_RANDOM_DUNGEON_ELITE_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T8_RANDOM_DUNGEON_ELITE_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T8_RANDOM_DUNGEON_ELITE_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T8_RANDOM_DUNGEON_ELITE_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="8">
+      <OR weight="16">
         <Item type="T8_RANDOM_DUNGEON_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T8_RANDOM_DUNGEON_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T8_RANDOM_DUNGEON_TOKEN_3" enchantmentlevel="2" weight="3" />
         <Item type="T8_RANDOM_DUNGEON_TOKEN_4" enchantmentlevel="3" weight="1" />
       </OR>
-      <OR weight="80">
+      <OR weight="160">
         <Item type="T8_RANDOM_DUNGEON_SOLO_TOKEN_1" enchantmentlevel="0" weight="81" />
         <Item type="T8_RANDOM_DUNGEON_SOLO_TOKEN_2" enchantmentlevel="1" weight="9" />
         <Item type="T8_RANDOM_DUNGEON_SOLO_TOKEN_3" enchantmentlevel="2" weight="3" />
@@ -5082,7 +5096,6 @@
     </OR>
   </Lootlist>
   <Lootlist name="T5_RANDOM_DUNGEON_KEEPER_BOSS_LOOT">
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0605" amount="1" />
     <OR chance="1.3636">
       <OR weight="1">
         <OR weight="9">
@@ -5257,7 +5270,6 @@
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER" weight="1" />
     </OR>
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0727" amount="1" />
     <OR chance="1.6363">
       <OR weight="1">
         <OR weight="9">
@@ -5432,7 +5444,6 @@
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER" weight="1" />
     </OR>
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0872" amount="1" />
     <OR chance="1.909">
       <OR weight="1">
         <OR weight="9">
@@ -5607,7 +5618,6 @@
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER" weight="1" />
     </OR>
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.1047" amount="1" />
     <OR chance="2.1818">
       <OR weight="1">
         <OR weight="9">
@@ -6017,26 +6027,28 @@
 
   <!-- Unique Drops -->
   <Lootlist name="MOB_GIANTSTAG_LOOT">
-    <OR>
-      <Item type="T4_FARM_GIANTSTAG_BABY" weight="25" amount="1" />
-    </OR>
+    <Item type="T4_FARM_GIANTSTAG_BABY" amount="1" />
+  </Lootlist>
+  <Lootlist name="MOB_GIANTSTAG_RARE_LOOT">
+    <Item type="T6_FARM_GIANTSTAG_MOOSE_BABY" amount="1" />
+  </Lootlist>
+  <Lootlist name="MOB_COUGAR_LOOT">
+    <Item type="T5_FARM_COUGAR_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_DIREWOLF_LOOT">
-    <OR>
-      <Item type="T6_FARM_DIREWOLF_BABY" weight="25" amount="1" />
-    </OR>
+    <Item type="T6_FARM_DIREWOLF_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_DIREBOAR_LOOT">
-    <Item type="T7_FARM_DIREBOAR_BABY" chance="1.0" amount="1" />
+    <Item type="T7_FARM_DIREBOAR_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_SWAMPDRAGON_LOOT">
-    <Item type="T7_FARM_SWAMPDRAGON_BABY" chance="1.0" amount="1" />
+    <Item type="T7_FARM_SWAMPDRAGON_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_DIREBEAR_LOOT">
-    <Item type="T8_FARM_DIREBEAR_BABY" chance="1.0" amount="1" />
+    <Item type="T8_FARM_DIREBEAR_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_MAMMOTH_LOOT">
-    <Item type="T8_FARM_MAMMOTH_BABY" chance="1.0" amount="1" />
+    <Item type="T8_FARM_MAMMOTH_BABY" amount="1" />
   </Lootlist>
   <Lootlist name="MOB_HERETIC_SCAVENGER_LOOT">
     <Item type="T1_ROCK" chance="1.0" amount="1-5" />
@@ -6172,7 +6184,7 @@
       <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
     </OR>
   </Lootlist>
-  <Lootlist name="CASTLE_LOOT_ARTEFACTS">
+  <Lootlist name="CASTLE_LOOT_ARTEFACTS"> <!-- est. market value: 47,500 -->
     <OR>
       <LootListReference name="MELD_6_1_ALL_LOOT" weight="225" />
       <LootListReference name="MELD_6_2_ALL_LOOT" weight="75" />
@@ -6285,7 +6297,7 @@
     </OR>
   </Lootlist>
 
-  <Lootlist name="OUTLAND_TREASURES_TREASURE_LOOT">
+  <Lootlist name="OUTLAND_TREASURES_TREASURE_LOOT"> <!-- Calculated silver value 50,000-->
     <OR>
       <Item type="TREASURE_KNOWLEDGE_RARITY3" weight="2" amount="1-3" />
       <Item type="TREASURE_SILVERWARE_RARITY3" weight="2" amount="1-3" />
@@ -6296,7 +6308,7 @@
     </OR> 
   </Lootlist>
 
-  <Lootlist name="OUTLAND_TREASURES_BLACKMARKET_LOOT"> <!-- Calculated silver value 3992.87-->
+  <Lootlist name="OUTLAND_TREASURES_BLACKMARKET_LOOT"> <!-- Calculated silver value 3,992.87-->
     <OR>
       <LootListReference name="T4_DIRECTLOOTDROP_WHITE" weight="9" />
       <LootListReference name="T5_DIRECTLOOTDROP_WHITE" weight="27" />
@@ -6306,31 +6318,34 @@
     </OR>
   </Lootlist>
 
-  <Lootlist name="OUTLAND_CHEST_LOOT">
-    <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="7.7" /> 
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="2-3" />
-    <Item type="T4_SKILLBOOK_STANDARD" amount="8-11" />
-    <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="63.5" />
+  <Lootlist name="OUTLAND_CHEST_LOOT"> <!-- est. market value w/o tomes: 300,000 -->
+    <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="3.1" /> 
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="4-6" />
+    <Item type="T4_SKILLBOOK_STANDARD" amount="3-5" />
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="0.4"/>
+    <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="25.4" />
   </Lootlist>
-  <Lootlist name="OUTLAND_LOCKER_LOOT">
+  <Lootlist name="OUTLAND_LOCKER_LOOT"> <!-- est. market value w/o tomes: 2,120,000 -->
     <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="23.5" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="3-4" />
     <Item type="T4_SKILLBOOK_STANDARD" amount="32-37" />
     <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="194.4" />
   </Lootlist>
-  <Lootlist name="OUTLAND_COFFER_CASTLEOUTPOST_LOOT">
+  <Lootlist name="OUTLAND_COFFER_CASTLEOUTPOST_LOOT"> <!-- est. market value w/o tomes: 2,275,000 -->
     <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="21.6" />
     <Item type="T6_SILVERBAG_NONTRADABLE" amount="6-7" />
     <Item type="T4_SKILLBOOK_STANDARD" amount="23-30" />
     <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="178.525" />
   </Lootlist>
-  <Lootlist name="OUTLAND_COFFER_CASTLE_LOOT">
-    <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="244.8" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="19-20" />
+  <Lootlist name="OUTLAND_COFFER_CASTLE_LOOT"> <!-- est. market value w/o tomes: 44,640,000 -->
+    <LootListReference name="OUTLAND_TREASURES_TREASURE_LOOT" chance="468.7" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="36-38" />
     <Item type="T4_SKILLBOOK_STANDARD" amount="400-453" />
+    <LootListReference name="CASTLE_LOOT_ARTEFACTS" chance="40"/>
     <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="999" />
     <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="999" />
-    <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="25.2" />
+    <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="999" />
+    <LootListReference name="OUTLAND_TREASURES_BLACKMARKET_LOOT" chance="877" />
   </Lootlist>
 
 
@@ -6458,6 +6473,34 @@
       <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
     </OR>
     <OR chance="0.1">
+      <LootListReference name="T4_FACTION_CAPES" chance="1" />
+      <LootListReference name="T5_FACTION_CAPES" chance="1" />
+      <LootListReference name="T6_FACTION_CAPES" chance="1" />
+      <LootListReference name="T7_FACTION_CAPES" chance="0.2" />
+      <LootListReference name="T8_FACTION_CAPES" chance="0.04" />
+    </OR>
+  </Lootlist>
+  <Lootlist name="HELLGATE_ARTEFACT_LOOT"> <!--current est. value: 27,738 Silver-->
+    <OR>
+      <LootListReference name="MELD_4_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_4_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_4_3_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_5_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_5_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_5_3_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_6_1_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_6_2_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_6_3_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_7_1_ALL_LOOT" weight="45" />
+      <LootListReference name="MELD_7_2_ALL_LOOT" weight="15" />
+      <LootListReference name="MELD_7_3_ALL_LOOT" weight="5" />
+      <LootListReference name="MELD_8_1_ALL_LOOT" weight="9" />
+      <LootListReference name="MELD_8_2_ALL_LOOT" weight="3" />
+      <LootListReference name="MELD_8_3_ALL_LOOT" weight="1" />
+    </OR>    
+  </Lootlist>
+  <Lootlist name="HELLGATE_FACTION_CAPES">
+    <OR>
       <LootListReference name="T4_FACTION_CAPES" chance="1" />
       <LootListReference name="T5_FACTION_CAPES" chance="1" />
       <LootListReference name="T6_FACTION_CAPES" chance="1" />
@@ -10657,7 +10700,6 @@
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER" weight="1" />
     </OR>
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0605" amount="1" />
     <OR chance="1.3636">
       <OR weight="1">
         <OR weight="9">
@@ -10718,7 +10760,6 @@
   </Lootlist>
   <Lootlist name="T5_KEEPER_SEER_VETERAN_BOSS_LOOT">
     <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" chance="0.006" />
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0605" amount="1" />
     <OR chance="1.3636">
       <OR weight="1">
         <OR weight="9">
@@ -10779,7 +10820,6 @@
   </Lootlist>
   <Lootlist name="T5_KEEPER_ANCIENT_GIANT_VETERAN_BOSS_LOOT">
     <Item type="UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER" chance="0.006" />
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.0605" amount="1" />
     <OR chance="1.3636">
 
       <OR weight="1">
@@ -10841,8 +10881,6 @@
   </Lootlist>
   <!--raid bosses-->
   <Lootlist name="T5_KEEPER_SEER_ELITE_BOSS_LOOT">	
- 	  <Item type="T5_FARM_COUGAR_BABY" chance="0.002014" amount="1" />
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.002014" amount="1" />
 	  <OR chance="0.002553">
       <Item type="UNIQUE_UNLOCK_T6_CAPE_PLATE_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
@@ -10894,8 +10932,6 @@
     </OR>
   </Lootlist>
   <Lootlist name="T8_KEEPER_SEER_ELITE_BOSS_LOOT">
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.00348" amount="1" />
-    <Item type="T5_FARM_COUGAR_BABY" chance="0.00348" amount="1" />
     <OR chance="0.003868">
       <Item type="UNIQUE_UNLOCK_T6_CAPE_PLATE_KEEPER" weight="1" />
       <Item type="UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER" weight="1" />
@@ -20118,7 +20154,354 @@
         </OR>
       </OR>
     </OR>
-  </Lootlist>  
+  </Lootlist>
+
+  <!-- ########################################################################################## -->
+  <!-- ################################### FACTION CAMPAIGN ##################################### -->
+  <!-- ########################################################################################## -->
+  <!--Sub Loot tables for faction warfare-->
+  <!-- sub loot table - general -->
+  <Lootlist name="LOOT_FACTIONCAMPAIGN_GENERAL">
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1-3" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="6-10" />
+    <OR>
+      <OR>
+        <Item type="T4_WOOD_LEVEL1" amount="18-60" enchantmentlevel="1" />
+        <Item type="T4_WOOD_LEVEL2" amount="9-30" enchantmentlevel="2" />
+        <Item type="T4_WOOD_LEVEL3" amount="4-15" enchantmentlevel="3" />
+        <Item type="T5_WOOD" amount="18-60" />
+        <Item type="T5_WOOD_LEVEL1" amount="9-30" enchantmentlevel="1" />
+        <Item type="T5_WOOD_LEVEL2" amount="4-15" enchantmentlevel="2" />
+        <Item type="T6_WOOD" amount="9-30" />
+        <Item type="T6_WOOD_LEVEL1" amount="4-15" enchantmentlevel="1" />
+        <Item type="T7_WOOD" amount="4-15" />
+      </OR>
+      <OR>
+        <Item type="T4_ORE_LEVEL1" amount="18-60" enchantmentlevel="1" />
+        <Item type="T4_ORE_LEVEL2" amount="9-30" enchantmentlevel="2" />
+        <Item type="T4_ORE_LEVEL3" amount="4-15" enchantmentlevel="3" />
+        <Item type="T5_ORE" amount="18-60" />
+        <Item type="T5_ORE_LEVEL1" amount="9-30" enchantmentlevel="1" />
+        <Item type="T5_ORE_LEVEL2" amount="4-15" enchantmentlevel="2" />
+        <Item type="T6_ORE" amount="9-30" />
+        <Item type="T6_ORE_LEVEL1" amount="4-15" enchantmentlevel="1" />
+        <Item type="T7_ORE" amount="4-15" />
+      </OR>
+      <OR>
+        <Item type="T4_ROCK_LEVEL1" amount="18-60" enchantmentlevel="1" />
+        <Item type="T4_ROCK_LEVEL2" amount="9-30" enchantmentlevel="2" />
+        <Item type="T4_ROCK_LEVEL3" amount="4-15" enchantmentlevel="3" />
+        <Item type="T5_ROCK" amount="18-60" />
+        <Item type="T5_ROCK_LEVEL1" amount="9-30" enchantmentlevel="1" />
+        <Item type="T5_ROCK_LEVEL2" amount="4-15" enchantmentlevel="2" />
+        <Item type="T6_ROCK" amount="9-30" />
+        <Item type="T6_ROCK_LEVEL1" amount="4-15" enchantmentlevel="1" />
+        <Item type="T7_ROCK" amount="4-15" />
+      </OR>
+      <OR>
+        <Item type="T4_HIDE_LEVEL1" amount="18-60" enchantmentlevel="1" />
+        <Item type="T4_HIDE_LEVEL2" amount="9-30" enchantmentlevel="2" />
+        <Item type="T4_HIDE_LEVEL3" amount="4-15" enchantmentlevel="3" />
+        <Item type="T5_HIDE" amount="18-60" />
+        <Item type="T5_HIDE_LEVEL1" amount="9-30" enchantmentlevel="1" />
+        <Item type="T5_HIDE_LEVEL2" amount="4-15" enchantmentlevel="2" />
+        <Item type="T6_HIDE" amount="9-30" />
+        <Item type="T6_HIDE_LEVEL1" amount="4-15" enchantmentlevel="1" />
+        <Item type="T7_HIDE" amount="4-15" />
+      </OR>
+      <OR>
+        <Item type="T4_FIBER_LEVEL1" amount="18-60" enchantmentlevel="1" />
+        <Item type="T4_FIBER_LEVEL2" amount="9-30" enchantmentlevel="2" />
+        <Item type="T4_FIBER_LEVEL3" amount="4-15" enchantmentlevel="3" />
+        <Item type="T5_FIBER" amount="18-60" />
+        <Item type="T5_FIBER_LEVEL1" amount="9-30" enchantmentlevel="1" />
+        <Item type="T5_FIBER_LEVEL2" amount="4-15" enchantmentlevel="2" />
+        <Item type="T6_FIBER" amount="9-30" />
+        <Item type="T6_FIBER_LEVEL1" amount="4-15" enchantmentlevel="1" />
+        <Item type="T7_FIBER" amount="4-15" />
+      </OR>
+    </OR>
+    <OR>
+      <Item type="TREASURE_KNOWLEDGE_RARITY3"/>
+      <Item type="TREASURE_SILVERWARE_RARITY3"/>
+      <Item type="TREASURE_DECORATIVE_RARITY3"/>
+      <Item type="TREASURE_CEREMONIAL_RARITY3"/>
+      <Item type="TREASURE_TRIBAL_RARITY3"/>
+      <Item type="TREASURE_RITUAL_RARITY3"/>
+    </OR>
+    <OR>
+      <OR weight="1">
+        <LootListReference name="MELD_4_1_ALL_LOOT" weight="10" />
+        <Item type="T4_RUNE" weight="25" amount="1-51" />
+        <LootListReference name="MELD_4_2_ALL_LOOT" weight="5" />
+        <Item type="T4_SOUL" weight="5" amount="25-75" />
+        <LootListReference name="MELD_4_3_ALL_LOOT" weight="1" />
+        <Item type="T4_RELIC" weight="1" amount="25-75" />
+      </OR>
+      <OR weight="1">
+        <LootListReference name="MELD_5_1_ALL_LOOT" weight="10" />
+        <Item type="T5_RUNE" weight="25" amount="25-75" />
+        <LootListReference name="MELD_5_2_ALL_LOOT" weight="5" />
+        <Item type="T5_SOUL" weight="5" amount="25-75" />
+        <LootListReference name="MELD_5_3_ALL_LOOT" weight="1" />
+        <Item type="T5_RELIC" weight="1" amount="25-75" />
+      </OR>
+      <OR weight="1">
+        <LootListReference name="MELD_6_1_ALL_LOOT" weight="25" />
+        <Item type="T6_RUNE" weight="25" amount="25-75" />
+        <LootListReference name="MELD_6_2_ALL_LOOT" weight="5" />
+        <Item type="T6_SOUL" weight="5" amount="25-75" />
+      </OR>
+      <OR weight="0.2">
+        <LootListReference name="MELD_7_1_ALL_LOOT" weight="25" />
+        <Item type="T7_RUNE" weight="25" amount="25-75" />
+      </OR>
+    </OR>
+  </Lootlist>
+
+  <!-- Faction Campaign Chests -->
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_CAERLEON_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_GREYWOLF_FW_CAERLEON_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_CAERLEON_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_CAERLEON_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_CAERLEON_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_CAERLEON_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_CAERLEON_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_CAERLEON_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_GREYWOLF_FW_CAERLEON_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_CAERLEON_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_CAERLEON_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_CAERLEON_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_CAERLEON_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_CAERLEON_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_CAERLEON_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_GREYWOLF_FW_CAERLEON_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_CAERLEON_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_CAERLEON_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_CAERLEON_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_CAERLEON_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_CAERLEON_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_CAERLEON_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_GREYWOLF_FW_CAERLEON_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_CAERLEON_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_CAERLEON_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_CAERLEON_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_CAERLEON_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_CAERLEON_BP" chance="0.006278" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_FOREST_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_DIREBOAR_FW_LYMHURST_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_LYMHURST_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_LYMHURST_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_LYMHURST_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_LYMHURST_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_LYMHURST_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_FOREST_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_DIREBOAR_FW_LYMHURST_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_LYMHURST_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_LYMHURST_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_LYMHURST_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_LYMHURST_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_LYMHURST_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_FOREST_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_DIREBOAR_FW_LYMHURST_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_LYMHURST_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_LYMHURST_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_LYMHURST_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_LYMHURST_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_LYMHURST_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_FOREST_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_DIREBOAR_FW_LYMHURST_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_LYMHURST_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_LYMHURST_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_LYMHURST_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_LYMHURST_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_LYMHURST_BP" chance="0.006278" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_HIGHLAND_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_RAM_FW_MARTLOCK_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_MARTLOCK_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_MARTLOCK_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_MARTLOCK_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_MARTLOCK_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_MARTLOCK_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_HIGHLAND_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_RAM_FW_MARTLOCK_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_MARTLOCK_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_MARTLOCK_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_MARTLOCK_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_MARTLOCK_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_MARTLOCK_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_HIGHLAND_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_RAM_FW_MARTLOCK_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_MARTLOCK_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_MARTLOCK_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_MARTLOCK_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_MARTLOCK_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_MARTLOCK_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_HIGHLAND_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_RAM_FW_MARTLOCK_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_MARTLOCK_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_MARTLOCK_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_MARTLOCK_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_MARTLOCK_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_MARTLOCK_BP" chance="0.006278" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_MOUNTAIN_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_FORTSTERLING_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_FORTSTERLING_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_FORTSTERLING_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_FORTSTERLING_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_FORTSTERLING_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_MOUNTAIN_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_FORTSTERLING_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_FORTSTERLING_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_FORTSTERLING_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_FORTSTERLING_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_FORTSTERLING_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_MOUNTAIN_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_FORTSTERLING_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_FORTSTERLING_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_FORTSTERLING_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_FORTSTERLING_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_FORTSTERLING_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_MOUNTAIN_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_FORTSTERLING_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_FORTSTERLING_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_FORTSTERLING_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_FORTSTERLING_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_FORTSTERLING_BP" chance="0.006278" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_STEPPE_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_STEPPE_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_STEPPE_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_STEPPE_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_BRIDGEWATCH_BP" chance="0.006278" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_01_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1" />
+    <Item type="T1_FACTION_SWAMP_TOKEN_1" chance="0.133333" />
+    <Item type="T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY" chance="0.133333" />
+    <Item type="T4_CAPEITEM_FW_THETFORD_BP" chance="0.102839" />
+    <Item type="T5_CAPEITEM_FW_THETFORD_BP" chance="0.032407" />
+    <Item type="T6_CAPEITEM_FW_THETFORD_BP" chance="0.019108" />
+    <Item type="T7_CAPEITEM_FW_THETFORD_BP" chance="0.003134" />
+    <Item type="T8_CAPEITEM_FW_THETFORD_BP" chance="0.002511" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_02_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.25" />
+    <Item type="T1_FACTION_SWAMP_TOKEN_1" chance="0.166667" />
+    <Item type="T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY" chance="0.166667" />
+    <Item type="T4_CAPEITEM_FW_THETFORD_BP" chance="0.128549" />
+    <Item type="T5_CAPEITEM_FW_THETFORD_BP" chance="0.040509" />
+    <Item type="T6_CAPEITEM_FW_THETFORD_BP" chance="0.023885" />
+    <Item type="T7_CAPEITEM_FW_THETFORD_BP" chance="0.003918" />
+    <Item type="T8_CAPEITEM_FW_THETFORD_BP" chance="0.003139" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_03_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="1.5" />
+    <Item type="T1_FACTION_SWAMP_TOKEN_1" chance="0.2" />
+    <Item type="T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY" chance="0.2" />
+    <Item type="T4_CAPEITEM_FW_THETFORD_BP" chance="0.154258" />
+    <Item type="T5_CAPEITEM_FW_THETFORD_BP" chance="0.048611" />
+    <Item type="T6_CAPEITEM_FW_THETFORD_BP" chance="0.028662" />
+    <Item type="T7_CAPEITEM_FW_THETFORD_BP" chance="0.004702" />
+    <Item type="T8_CAPEITEM_FW_THETFORD_BP" chance="0.003767" />
+  </Lootlist>
+  <Lootlist name="UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_04_LOOT">
+    <LootListReference name="LOOT_FACTIONCAMPAIGN_GENERAL" chance="2.5" />
+    <Item type="T1_FACTION_SWAMP_TOKEN_1" chance="0.333333" />
+    <Item type="T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY" chance="0.333333" />
+    <Item type="T4_CAPEITEM_FW_THETFORD_BP" chance="0.257097" />
+    <Item type="T5_CAPEITEM_FW_THETFORD_BP" chance="0.081018" />
+    <Item type="T6_CAPEITEM_FW_THETFORD_BP" chance="0.047771" />
+    <Item type="T7_CAPEITEM_FW_THETFORD_BP" chance="0.007836" />
+    <Item type="T8_CAPEITEM_FW_THETFORD_BP" chance="0.006278" />
+  </Lootlist>
+
+
   <!--Random Loot Chests-->
   <!--Fame Chests-->
   <Lootlist name="T4_CHEST_FAME">
@@ -20144,21 +20527,43 @@
   <Lootlist name="UNIQUE_LOOTCHEST_SKILLBOOKS_TELLAFRIEND_LOOT">
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="10" />
   </Lootlist>
-
+  <!--Artifact Lootlist for Crystal League-->
+  <Lootlist name="CRYSTALLEAGUE_ARTEFACT_LOOT">
+    <!--current est. value: 27,864 Silver-->
+    <OR>
+      <LootListReference name="MELD_4_1_ALL_LOOT" weight="675" />
+      <LootListReference name="MELD_4_2_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_4_3_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_4_4_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_5_1_ALL_LOOT" weight="675" />
+      <LootListReference name="MELD_5_2_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_5_3_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_5_4_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_6_1_ALL_LOOT" weight="675" />
+      <LootListReference name="MELD_6_2_ALL_LOOT" weight="225" />
+      <LootListReference name="MELD_6_3_ALL_LOOT" weight="75" />
+      <LootListReference name="MELD_6_4_ALL_LOOT" weight="25" />
+      <LootListReference name="MELD_7_1_ALL_LOOT" weight="135" />
+      <LootListReference name="MELD_7_2_ALL_LOOT" weight="45" />
+      <LootListReference name="MELD_7_3_ALL_LOOT" weight="15" />
+      <LootListReference name="MELD_7_4_ALL_LOOT" weight="5" />
+      <LootListReference name="MELD_8_1_ALL_LOOT" weight="27" />
+      <LootListReference name="MELD_8_2_ALL_LOOT" weight="9" />
+      <LootListReference name="MELD_8_3_ALL_LOOT" weight="3" />
+      <LootListReference name="MELD_8_4_ALL_LOOT" weight="1" />
+    </OR>
+  </Lootlist>
   <!-- 20v20 CRYSTAL LEAGUE CITY-->
   <!--LEVEL 1-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL1">
     <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_02" amount="1" />
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
     <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL1">
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
     <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
@@ -20173,16 +20578,18 @@
   <!--LEVEL 2-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL2">
     <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_03_S11" amount="1" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="1.25" />
     <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2">
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="0.9375" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL2">
@@ -20195,21 +20602,18 @@
   </Lootlist>
   <!--LEVEL 3-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_04_S11" amount="1" />
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_04_S12" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.5" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL3">
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="1.875" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL3">
@@ -20222,22 +20626,26 @@
   </Lootlist>
   <!--LEVEL 4-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL4">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_05_S11" amount="1" />
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_05_S12" amount="1" />
     <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
-    <LootListReference name="BATTLEMOUNTS_SILVER" chance="0.2" />
-  </Lootlist>
-  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL4">
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.75" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL4">
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.0625" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
+  </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL4">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_04_S11" amount="1" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_04_S12" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL4">
     <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL4" />
@@ -20246,30 +20654,24 @@
   </Lootlist>
   <!--LEVEL 5-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL5">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_06_S11" amount="1" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_06_S12" amount="1" />
     <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="2" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
-    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
-    <OR>
-      <LootListReference name="BATTLEMOUNTS_SILVER" weight="4"/>
-      <LootListReference name="BATTLEMOUNTS_GOLD" weight="1"/>
-    </OR>
-  </Lootlist>
-  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL5">
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="3" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
+    <LootListReference name="BATTLEMOUNTS_SILVER" chance="0.2" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL5">
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.25" />
     <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL5">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_05_S11" amount="1" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_05_S12" amount="1" />
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL5">
     <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL5" />
@@ -20278,9 +20680,44 @@
   </Lootlist>
   <!--LEVEL 6-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL6">
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_07_S12" amount="1" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="4" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="2" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="3.375" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
+    <OR>
+      <LootListReference name="BATTLEMOUNTS_SILVER" weight="4"/>
+      <LootListReference name="BATTLEMOUNTS_GOLD" weight="1"/>
+    </OR>
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6">
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="1" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.53125" />
+    <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL6">
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_CITY_LVL_06_S12" amount="1" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL6">
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL6" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6" />
+  </Lootlist>
+  <!--LEVEL 7-->
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL7">
+    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="5" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="3.75" />
     <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
@@ -20289,35 +20726,24 @@
       <LootListReference name="BATTLEMOUNTS_CRYSTAL" weight="1"/>
     </OR>
   </Lootlist>
-  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6">
-    <Item type="T4_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="3" />
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL7">
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="4" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.8125" />
     <Item type="T4_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
     <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
   </Lootlist>
-  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL6">
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
-    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="4" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
-    <Item type="T5_SILVERBAG_NONTRADABLE" amount="2" />
-    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
-    <Item type="T8_SILVERBAG_NONTRADABLE" amount="4" />
-    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T6_SKILLBOOK_NONTRADABLE" amount="1" />
-    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="2" />
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL7">
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL7" />
   </Lootlist>
-  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL6">
-    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL6" />
-    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6" />
-    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL6" />
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL7">
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL7" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL7" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL7" />
   </Lootlist>
-
+  
   <!--20v20 Crystal League Offseason Loot-->
   <!--LEVEL 2-->
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL2_OFFSEASON">
@@ -20340,10 +20766,36 @@
   </Lootlist>
   <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL2_OFFSEASON">
     <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL2_OFFSEASON" />
-    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2" />
-    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2_OFFSEASON" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL2_OFFSEASON" />
   </Lootlist>
 
+  <!--LEVEL 3-->
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3_OFFSEASON">
+    <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="3" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="2.5" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T7_SKILLBOOK_NONTRADABLE" amount="1" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL3_OFFSEASON">
+    <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" />
+    <Item type="T8_SILVERBAG_NONTRADABLE" amount="2" />
+    <LootListReference name="CRYSTALLEAGUE_ARTEFACT_LOOT" chance="1.875" />
+    <Item type="T5_SKILLBOOK_NONTRADABLE" amount="2" />
+    <Item type="T8_SKILLBOOK_NONTRADABLE" amount="1" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_DRAW_LVL3_OFFSEASON">
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3_OFFSEASON" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3_OFFSEASON" />
+  </Lootlist>
+  <Lootlist name="CRYSTALLEAGUE_CITY_LOOT_NOSHOW_LVL3_OFFSEASON">
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_WINNER_LVL3_OFFSEASON" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL3_OFFSEASON" />
+    <LootListReference name="CRYSTALLEAGUE_CITY_LOOT_BONUS_LVL3_OFFSEASON" />
+  </Lootlist>
 
   <!-- CRYSTAL LEAGUE -->
   
@@ -20408,7 +20860,7 @@
 
   <!--LEVEL 3-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL3">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_04_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_04_S12" amount="1" chance="1.0" />
 
     <Item type="T5_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
@@ -20438,7 +20890,7 @@
   
   <!--LEVEL 4-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL4">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_05_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_05_S12" amount="1" chance="1.0" />
 
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
 
@@ -20456,7 +20908,7 @@
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL4">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_04_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_04_S12" amount="1" chance="1.0" />
   </Lootlist>
   
  <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL4">    
@@ -20467,7 +20919,7 @@
   
   <!--LEVEL 5-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL5">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_06_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_06_S12" amount="1" chance="1.0" />
 
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="2" chance="1.0" />
@@ -20483,7 +20935,7 @@
   </Lootlist>
   
   <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL5">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_05_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_05_S12" amount="1" chance="1.0" />
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL5">
@@ -20494,7 +20946,7 @@
   
   <!--LEVEL 6-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL6">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_07_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_07_S12" amount="1" chance="1.0" />
 
     <Item type="T6_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />    
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />    
@@ -20515,7 +20967,7 @@
   </Lootlist>
 
    <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL6">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_06_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_06_S12" amount="1" chance="1.0" />
   </Lootlist>
     
   <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL6">
@@ -20526,7 +20978,7 @@
 
   <!--LEVEL 7-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL7">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_08_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_08_S12" amount="1" chance="1.0" />
 
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="5" chance="1.0" />
@@ -20549,7 +21001,7 @@
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL7">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_07_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_07_S12" amount="1" chance="1.0" />
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL7">
@@ -20560,7 +21012,7 @@
 
   <!--LEVEL 8-->
   <Lootlist name="CRYSTALLEAGUE_LOOT_WINNER_LVL8">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_09_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_09_S12" amount="1" chance="1.0" />
 
     <Item type="T7_SILVERBAG_NONTRADABLE" amount="1" chance="1.0" />
     <Item type="T8_SILVERBAG_NONTRADABLE" amount="7" chance="1.0" />
@@ -20583,7 +21035,7 @@
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL8">
-    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_08_S11" amount="1" chance="1.0" />
+    <Item type="T4_TOKEN_CRYSTALLEAGUE_LVL_08_S12" amount="1" chance="1.0" />
   </Lootlist>
   
   <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL8">
@@ -20614,7 +21066,6 @@
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_DRAW_LVL9">
     <LootListReference name="CRYSTALLEAGUE_LOOT_WINNER_LVL9" chance="1.0" />
-    <LootListReference name="CRYSTALLEAGUE_LOOT_WINNER_LVL9" chance="1.0" />  
   </Lootlist>
 
   <Lootlist name="CRYSTALLEAGUE_LOOT_NOSHOW_LVL9">
@@ -20719,7 +21170,8 @@
       <Item type="UNIQUE_MOUNT_ARMORED_EAGLE_SILVER" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEETLE_SILVER" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEHEMOTH_SILVER" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_ENT_SILVER" amount="1" weight="1" />      
+      <Item type="UNIQUE_MOUNT_ENT_SILVER" amount="1" weight="1" />
+      <Item type="UNIQUE_MOUNT_BATTLESPIDER_SILVER" amount="1" weight="1" />      
     </OR>
   </Lootlist>
 
@@ -20731,6 +21183,7 @@
       <Item type="UNIQUE_MOUNT_BEETLE_GOLD" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEHEMOTH_GOLD" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_ENT_GOLD" amount="1" weight="1" />
+      <Item type="UNIQUE_MOUNT_BATTLESPIDER_GOLD" amount="1" weight="1" />
     </OR>
   </Lootlist>
 
@@ -20741,7 +21194,8 @@
       <Item type="UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEETLE_CRYSTAL" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEHEMOTH_CRYSTAL" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_ENT_CRYSTAL" amount="1" weight="1" />      
+      <Item type="UNIQUE_MOUNT_ENT_CRYSTAL" amount="1" weight="1" />
+      <Item type="UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL" amount="1" weight="1" />
     </OR>
   </Lootlist>  
 
