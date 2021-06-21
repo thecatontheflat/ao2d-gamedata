@@ -338,6 +338,7 @@
 	  <Continent name="Royal">
       <Subtype name="SOLO">
         <ClusterTier tier="3" maxfillratio="0.7">
+          <RandomExit name="T2_PORTAL_ROYAL_SOLO" weight="0" />
           <RandomExit name="T3_PORTAL_ROYAL_SOLO" weight="1" />
         </ClusterTier>
         <ClusterTier tier="4" maxfillratio="0.84">
@@ -434,49 +435,44 @@
   
       <Subtype name="EVENT_SOLO">
         <ClusterTier tier="4" maxfillratio="1">
-          <!--
           <RandomExit name="T4_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T4_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T4_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T4_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="5" maxfillratio="1">
-          <!--
           <RandomExit name="T5_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T5_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T5_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T5_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="6" maxfillratio="1">
-          <!--
           <RandomExit name="T6_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T6_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T6_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T6_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="7" maxfillratio="1">
-          <!--
           <RandomExit name="T7_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T7_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T7_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T7_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="8" maxfillratio="1">
-          <!--
           <RandomExit name="T8_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T8_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T8_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T8_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
       </Subtype>      
     </Continent>
@@ -650,49 +646,44 @@
       </Subtype>      
       <Subtype name="EVENT_SOLO">
         <ClusterTier tier="4" maxfillratio="1">
-          <!--
           <RandomExit name="T4_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T4_KEEPER_LEGACY" weight="1" />
-          -->
-          
+          <!--
           <RandomExit name="T4_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T4_UNDEAD_HALLOWEEN" weight="1" />
+          -->          
         </ClusterTier>
         <ClusterTier tier="5" maxfillratio="1">
-          <!--
           <RandomExit name="T5_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T5_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T5_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T5_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="6" maxfillratio="1">
-          <!--
           <RandomExit name="T6_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T6_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T6_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T6_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="7" maxfillratio="1">
-          <!--
           <RandomExit name="T7_KEEPER_LEGACY_SOLO" weight="19" />
           <RandomExit name="T7_KEEPER_LEGACY" weight="1" />
-          -->
-
+          <!--
           <RandomExit name="T7_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T7_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
         <ClusterTier tier="8" maxfillratio="1">
-          <!--
           <RandomExit name="T8_KEEPER_LEGACY_SOLO" weight="19" />
-          <RandomExit name="T8_KEEPER_LEGACY" weight="1" />
-          -->
-          
+          <RandomExit name="T8_KEEPER_LEGACY" weight="1" />          
+          <!--
           <RandomExit name="T8_UNDEAD_HALLOWEEN_SOLO" weight="19" />
           <RandomExit name="T8_UNDEAD_HALLOWEEN" weight="1" />
+          -->
         </ClusterTier>
       </Subtype>      
     </Continent>
@@ -2405,6 +2396,13 @@
 
 
     <!--Portal - Quickly Closing Exits-->
+    <RandomExit name="T2_PORTAL_ROYAL_SOLO" activationtime="60" cooldown="60" lifetimeafterlastuse="60" >
+      <RandomDungeonGenerators>
+        <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO_T3" tier="2" weight="1" />
+      </RandomDungeonGenerators>
+      <Visualization ref="PORTAL_SOLO"/>
+    </RandomExit>
+    
     <RandomExit name="T3_PORTAL_ROYAL_SOLO" activationtime="60" cooldown="120" lifetimeafterlastuse="60" >
       <RandomDungeonGenerators>
         <GeneratedRandomDungeon generatorName="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO_T3" tier="3" weight="1" />
@@ -5485,108 +5483,20 @@
             <highlight name="rare" weight="198" />
           </BossRarity>
           <Floor level="1">
-            <DungeonLength pathlength="4" highlightCount="0" weight="1">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="5" highlightCount="0" weight="4">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="6" highlightCount="0" weight="10">
+            <DungeonLength pathlength="6" highlightCount="1" weight="30">
               <highlight name="standard" weight="595" />
               <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
             </DungeonLength>
-            <DungeonLength pathlength="7" highlightCount="0" weight="35">
+            <DungeonLength pathlength="7" highlightCount="1" weight="40">
               <highlight name="standard" weight="595" />
               <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
             </DungeonLength>
-            <DungeonLength pathlength="8" highlightCount="1" weight="20">
+            <DungeonLength pathlength="8" highlightCount="1" weight="30">
               <highlight name="standard" weight="595" />
               <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
-            </DungeonLength>
-            <DungeonLength pathlength="9" highlightCount="1" weight="15">
-              <highlight name="standard" weight="595" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
-            </DungeonLength>
-            <DungeonLength pathlength="10" highlightCount="1" weight="10">
-              <highlight name="standard" weight="590" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="10" />
-            </DungeonLength>
-            <DungeonLength pathlength="11" highlightCount="2" weight="5">
-              <highlight name="standard" weight="590" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="10" />
             </DungeonLength>
           </Floor>
-        </Size>
-        <Size floors="2" weight="1">
-          <BossRarity>
-            <highlight name="uncommon" weight="792" />
-            <highlight name="rare" weight="198" />
-          </BossRarity>
-          <Floor level="1">
-            <DungeonLength pathlength="4" highlightCount="0" weight="15">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="5" highlightCount="0" weight="25">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="6" highlightCount="1" weight="50">
-              <highlight name="standard" weight="595" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
-            </DungeonLength>
-            <DungeonLength pathlength="7" highlightCount="1" weight="10">
-              <highlight name="standard" weight="595" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="5" />
-            </DungeonLength>
-          </Floor>
-          <Floor level="2">
-            <DungeonLength pathlength="4" highlightCount="0" weight="15">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="5" highlightCount="1" weight="50">
-              <highlight name="standard" weight="600" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-            </DungeonLength>
-            <DungeonLength pathlength="6" highlightCount="1" weight="25">
-              <highlight name="standard" weight="590" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="10" />
-            </DungeonLength>
-            <DungeonLength pathlength="7" highlightCount="2" weight="10">
-              <highlight name="standard" weight="590" />
-              <highlight name="uncommon" weight="300" />
-              <highlight name="rare" weight="100" />
-              <highlight name="legendary" weight="10" />
-            </DungeonLength>
-          </Floor>
-        </Size>        
+        </Size>     
       </DungeonSizeAndDepth>
     </RandomDungeonGenerator>
     <RandomDungeonGenerator name="HERETIC_RANDOM_DUNGEON_PORTAL_SOLO">
