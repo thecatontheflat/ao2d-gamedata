@@ -2,8 +2,8 @@
 
 <hideouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hideouts.xsd">
   <!--The feefactor is an approximation for TravelSettings TierModifier * Distance -->
-  <itemrecovery feefactor="900" notclaimabletime="2419200">
-    <avalonroads feefactor="900" notclaimabletime="2419200">
+  <itemrecovery feefactor="450" notclaimabletime="604800">
+    <avalonroads feefactor="450" notclaimabletime="604800">
       <target clusterid="0006" /><!-- thedford bank -->
       <target clusterid="1001" /><!-- lymhurst bank -->
       <target clusterid="2003" /><!-- bridgewatch bank -->
@@ -11,7 +11,7 @@
       <target clusterid="4001" /><!-- fort sterling bank -->
     </avalonroads>
   </itemrecovery>
-  <hideout startingnutrition="15000" vulnerabilitytimeseconds="1200" damagescalingthreshold="684" damagescalefactor="1.5" damagelookbacktimeseconds="3">
+  <hideout startingnutrition="15000" vulnerabilitytimeseconds="1200" damagescalingthreshold="684" damagescalefactor="1.5" damagelookbacktimeseconds="3" enterchanneltime="3">
     <constructionphases>
       <phase durationseconds="1200" maxdurability="15000" durabilityrecovery="0" />
       <phaseinvulnerable />
