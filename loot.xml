@@ -7132,10 +7132,9 @@
   
   <Lootlist name="T4_ARTEFACT_LVL3_MORGANA_RED">
     <OR>
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T4_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T4_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T4_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
+      <Item type="T4_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T4_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T4_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T4_ARTEFACT_LVL3_MORGANA_BLUE">
@@ -7154,10 +7153,9 @@
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL3_MORGANA_RED">
     <OR>
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T5_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T5_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T5_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
+      <Item type="T5_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T5_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T5_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL3_MORGANA_BLUE">
@@ -7176,10 +7174,9 @@
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL3_MORGANA_RED">
     <OR>
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T6_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
+      <Item type="T6_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL3_MORGANA_BLUE">
@@ -7197,11 +7194,10 @@
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL3_MORGANA_RED">
-    <OR>
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T7_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
+    <OR>    
+      <Item type="T7_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL3_MORGANA_BLUE">
@@ -7220,10 +7216,9 @@
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL3_MORGANA_RED">
     <OR>
-      <Item type="T8_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T8_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
+      <Item type="T8_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL3_MORGANA_BLUE">
@@ -8657,72 +8652,67 @@
 
   <Lootlist name="T4_ARTEFACT_LVL1_KEEPER">
     <OR>
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-      <Item type="T4_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_HEAD_CLOTH_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_SPEAR_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_OFF_HORN_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
+      <Item type="T4_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_HEAD_CLOTH_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_SPEAR_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_OFF_HORN_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL1_KEEPER">
     <OR>
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-      <Item type="T5_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_HEAD_CLOTH_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_SPEAR_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_OFF_HORN_KEEPER" weight="10" />
-      <Item type="T5_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
+      <Item type="T5_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_HEAD_CLOTH_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_SPEAR_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_OFF_HORN_KEEPER" weight="1" />
+      <Item type="T5_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL1_KEEPER">
     <OR>
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-      <Item type="T6_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_HEAD_CLOTH_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_SPEAR_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_OFF_HORN_KEEPER" weight="10" />
-      <Item type="T6_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
+      <Item type="T6_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_HEAD_CLOTH_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_SPEAR_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_OFF_HORN_KEEPER" weight="1" />
+      <Item type="T6_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL1_KEEPER">
     <OR>
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-      <Item type="T7_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_HEAD_CLOTH_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_SPEAR_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_OFF_HORN_KEEPER" weight="10" />
-      <Item type="T7_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
+      <Item type="T7_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_HEAD_CLOTH_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_SPEAR_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_OFF_HORN_KEEPER" weight="1" />
+      <Item type="T7_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
     </OR>
   </Lootlist>
 <Lootlist name="T8_ARTEFACT_LVL1_KEEPER">
   <OR>
-    <Item type="T8_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-    <Item type="T8_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_HEAD_CLOTH_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_SPEAR_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_OFF_HORN_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
+    <Item type="T8_ARTEFACT_ARMOR_CLOTH_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_HEAD_CLOTH_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_SPEAR_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_OFF_HORN_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
   </OR>
 </Lootlist>
   
@@ -8730,162 +8720,157 @@
 
   <Lootlist name="T4_ARTEFACT_LVL2_ALL">
     <OR>
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="1" />
-      <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_DUALHAMMER_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_MACE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_BOW_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_FIRESTAFF_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_ARCANESTAFF_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_HOLYSTAFF_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_2H_NATURESTAFF_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_OFF_JESTERCANE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_OFF_SHIELD_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_OFF_DEMONSKULL_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_ARMOR_PLATE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_HEAD_PLATE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_SHOES_PLATE_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_ARMOR_LEATHER_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_HEAD_LEATHER_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_SHOES_LEATHER_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="10" />
-      <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="10" />
+      <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_DUALHAMMER_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_MACE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_BOW_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_FIRESTAFF_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_ARCANESTAFF_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_HOLYSTAFF_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_2H_NATURESTAFF_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_OFF_JESTERCANE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_OFF_SHIELD_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_OFF_DEMONSKULL_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_ARMOR_PLATE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_HEAD_PLATE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_SHOES_PLATE_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_ARMOR_LEATHER_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_HEAD_LEATHER_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_SHOES_LEATHER_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="1" />
+      <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL2_ALL">
     <OR>
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_HELL" weight="1" />
-      <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_DUALHAMMER_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_MAIN_MACE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_BOW_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_FIRESTAFF_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_ARCANESTAFF_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_HOLYSTAFF_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_2H_NATURESTAFF_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_OFF_JESTERCANE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_OFF_SHIELD_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_OFF_DEMONSKULL_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_ARMOR_PLATE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_HEAD_PLATE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_SHOES_PLATE_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_ARMOR_LEATHER_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_HEAD_LEATHER_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_SHOES_LEATHER_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_ARMOR_CLOTH_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_HEAD_CLOTH_HELL" weight="10" />
-      <Item type="T5_ARTEFACT_SHOES_CLOTH_HELL" weight="10" />
+      <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_DUALHAMMER_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_MAIN_MACE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_BOW_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_FIRESTAFF_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_ARCANESTAFF_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_HOLYSTAFF_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_2H_NATURESTAFF_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_OFF_JESTERCANE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_OFF_SHIELD_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_OFF_DEMONSKULL_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_ARMOR_PLATE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_HEAD_PLATE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_SHOES_PLATE_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_ARMOR_LEATHER_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_HEAD_LEATHER_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_SHOES_LEATHER_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_ARMOR_CLOTH_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_HEAD_CLOTH_HELL" weight="1" />
+      <Item type="T5_ARTEFACT_SHOES_CLOTH_HELL" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL2_ALL">
     <OR>
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_HELL" weight="1" />
-      <Item type="T6_ARTEFACT_2H_SCYTHE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_SKULLORB_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_HARPOON_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_CLEAVER_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_TWINSCYTHE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_DUALHAMMER_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_MAIN_MACE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_BOW_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_FIRESTAFF_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_ARCANESTAFF_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_HOLYSTAFF_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_2H_NATURESTAFF_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_OFF_JESTERCANE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_OFF_SHIELD_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_OFF_DEMONSKULL_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_ARMOR_PLATE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_HEAD_PLATE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_SHOES_PLATE_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_ARMOR_LEATHER_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_HEAD_LEATHER_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_SHOES_LEATHER_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_ARMOR_CLOTH_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_HEAD_CLOTH_HELL" weight="10" />
-      <Item type="T6_ARTEFACT_SHOES_CLOTH_HELL" weight="10" />
+      <Item type="T6_ARTEFACT_2H_SCYTHE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_SKULLORB_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_HARPOON_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_CLEAVER_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_TWINSCYTHE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_DUALHAMMER_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_MAIN_MACE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_BOW_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_FIRESTAFF_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_ARCANESTAFF_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_HOLYSTAFF_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_2H_NATURESTAFF_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_OFF_JESTERCANE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_OFF_SHIELD_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_OFF_DEMONSKULL_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_ARMOR_PLATE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_HEAD_PLATE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_SHOES_PLATE_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_ARMOR_LEATHER_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_HEAD_LEATHER_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_SHOES_LEATHER_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_ARMOR_CLOTH_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_HEAD_CLOTH_HELL" weight="1" />
+      <Item type="T6_ARTEFACT_SHOES_CLOTH_HELL" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL2_ALL">
     <OR>
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_HELL" weight="1" />
-      <Item type="T7_ARTEFACT_2H_SCYTHE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_SKULLORB_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_HARPOON_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_CLEAVER_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_TWINSCYTHE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_DUALHAMMER_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_MAIN_MACE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_BOW_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_FIRESTAFF_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_ARCANESTAFF_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_HOLYSTAFF_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_2H_NATURESTAFF_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_OFF_JESTERCANE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_OFF_SHIELD_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_OFF_DEMONSKULL_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_ARMOR_PLATE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_HEAD_PLATE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_SHOES_PLATE_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_ARMOR_LEATHER_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_HEAD_LEATHER_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_SHOES_LEATHER_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_ARMOR_CLOTH_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_HEAD_CLOTH_HELL" weight="10" />
-      <Item type="T7_ARTEFACT_SHOES_CLOTH_HELL" weight="10" />
+      <Item type="T7_ARTEFACT_2H_SCYTHE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_SKULLORB_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_HARPOON_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_CLEAVER_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_TWINSCYTHE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_DUALHAMMER_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_MAIN_MACE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_BOW_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_FIRESTAFF_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_ARCANESTAFF_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_HOLYSTAFF_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_2H_NATURESTAFF_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_OFF_JESTERCANE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_OFF_SHIELD_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_OFF_DEMONSKULL_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_ARMOR_PLATE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_HEAD_PLATE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_SHOES_PLATE_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_ARMOR_LEATHER_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_HEAD_LEATHER_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_SHOES_LEATHER_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_ARMOR_CLOTH_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_HEAD_CLOTH_HELL" weight="1" />
+      <Item type="T7_ARTEFACT_SHOES_CLOTH_HELL" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL2_ALL">
     <OR>
-      <Item type="T8_ARTEFACT_2H_KNUCKLES_HELL" weight="1" />
-      <Item type="T8_ARTEFACT_2H_SCYTHE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_SKULLORB_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_HARPOON_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_CLEAVER_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_TWINSCYTHE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_DUALHAMMER_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_MAIN_MACE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_BOW_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_FIRESTAFF_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_ARCANESTAFF_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_HOLYSTAFF_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_2H_NATURESTAFF_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_OFF_JESTERCANE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_OFF_SHIELD_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_OFF_DEMONSKULL_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_ARMOR_PLATE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_HEAD_PLATE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_SHOES_PLATE_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_ARMOR_LEATHER_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_HEAD_LEATHER_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_SHOES_LEATHER_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_ARMOR_CLOTH_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_HEAD_CLOTH_HELL" weight="10" />
-      <Item type="T8_ARTEFACT_SHOES_CLOTH_HELL" weight="10" />
+      <Item type="T8_ARTEFACT_2H_SCYTHE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_SKULLORB_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_HARPOON_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_CLEAVER_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_TWINSCYTHE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_DUALHAMMER_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_MAIN_MACE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_BOW_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_FIRESTAFF_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_ICEGAUNTLETS_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_ARCANESTAFF_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_HOLYSTAFF_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_2H_NATURESTAFF_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_OFF_JESTERCANE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_OFF_SHIELD_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_OFF_DEMONSKULL_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_ARMOR_PLATE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_HEAD_PLATE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_SHOES_PLATE_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_ARMOR_LEATHER_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_HEAD_LEATHER_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_SHOES_LEATHER_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_ARMOR_CLOTH_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_HEAD_CLOTH_HELL" weight="1" />
+      <Item type="T8_ARTEFACT_SHOES_CLOTH_HELL" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL3_UNDEAD">
@@ -8929,44 +8914,41 @@
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL3_MORGANA">
     <OR>
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T6_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_HEAD_CLOTH_MORGANA" weight="10" />
-      <Item type="T6_ARTEFACT_SHOES_CLOTH_MORGANA" weight="10" />
+      <Item type="T6_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_HEAD_CLOTH_MORGANA" weight="1" />
+      <Item type="T6_ARTEFACT_SHOES_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL3_MORGANA">
     <OR>
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T7_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_HEAD_CLOTH_MORGANA" weight="10" />
-      <Item type="T7_ARTEFACT_SHOES_CLOTH_MORGANA" weight="10" />
+      <Item type="T7_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_HEAD_CLOTH_MORGANA" weight="1" />
+      <Item type="T7_ARTEFACT_SHOES_CLOTH_MORGANA" weight="1" />
     </OR>
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL3_MORGANA">
     <OR>
-      <Item type="T8_ARTEFACT_2H_KNUCKLES_MORGANA" weight="1" />
-      <Item type="T8_ARTEFACT_2H_MACE_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_HEAD_CLOTH_MORGANA" weight="10" />
-      <Item type="T8_ARTEFACT_SHOES_CLOTH_MORGANA" weight="10" />       
+      <Item type="T8_ARTEFACT_2H_MACE_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_2H_ENIGMATICORB_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_ARMOR_CLOTH_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_HEAD_CLOTH_MORGANA" weight="1" />
+      <Item type="T8_ARTEFACT_SHOES_CLOTH_MORGANA" weight="1" />       
     </OR>
   </Lootlist>
     <Lootlist name="T6_ARTEFACT_LVL3_KEEPER">
@@ -10488,11 +10470,10 @@
   
   <Lootlist name="T4_ARTEFACT_LVL1_KEEPER_RED">
     <OR>
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-      <Item type="T4_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
-      <Item type="T4_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-      <Item type="T4_RUNE" weight="10" amount="25-75" />
-      <Item type="T4_RUNE" weight="10" amount="25-75" />
+      <Item type="T4_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
+      <Item type="T4_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+      <Item type="T4_RUNE" weight="1" amount="25-75" />
+      <Item type="T4_RUNE" weight="1" amount="25-75" />
     </OR>
   </Lootlist>
   <Lootlist name="T4_ARTEFACT_LVL1_KEEPER_BLUE">
@@ -10513,11 +10494,10 @@
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL1_KEEPER_RED">
     <OR>
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-    <Item type="T5_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
-    <Item type="T5_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-    <Item type="T5_RUNE" weight="10" amount="25-75" />
-    <Item type="T5_RUNE" weight="10" amount="25-75" />
+    <Item type="T5_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
+    <Item type="T5_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+    <Item type="T5_RUNE" weight="1" amount="25-75" />
+    <Item type="T5_RUNE" weight="1" amount="25-75" />
     </OR>
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_LVL1_KEEPER_BLUE">
@@ -10538,11 +10518,10 @@
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL1_KEEPER_RED">
     <OR>
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-    <Item type="T6_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
-    <Item type="T6_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-    <Item type="T6_RUNE" weight="10" amount="25-75" />
-    <Item type="T6_RUNE" weight="10" amount="25-75" />
+    <Item type="T6_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
+    <Item type="T6_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+    <Item type="T6_RUNE" weight="1" amount="25-75" />
+    <Item type="T6_RUNE" weight="1" amount="25-75" />
     </OR>
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_LVL1_KEEPER_BLUE">
@@ -10563,11 +10542,10 @@
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL1_KEEPER_RED">
     <OR>
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-    <Item type="T7_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
-    <Item type="T7_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-    <Item type="T7_RUNE" weight="10" amount="25-75" />
-    <Item type="T7_RUNE" weight="10" amount="25-75" />
+    <Item type="T7_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
+    <Item type="T7_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+    <Item type="T7_RUNE" weight="1" amount="25-75" />
+    <Item type="T7_RUNE" weight="1" amount="25-75" />
     </OR>
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_LVL1_KEEPER_BLUE">
@@ -10588,11 +10566,10 @@
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL1_KEEPER_RED">
     <OR>
-      <Item type="T8_ARTEFACT_2H_KNUCKLES_KEEPER" weight="1" />
-    <Item type="T8_ARTEFACT_SHOES_CLOTH_KEEPER" weight="10" />
-    <Item type="T8_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="10" />
-    <Item type="T8_RUNE" weight="10" amount="25-75" />
-    <Item type="T8_RUNE" weight="10" amount="25-75" />
+    <Item type="T8_ARTEFACT_SHOES_CLOTH_KEEPER" weight="1" />
+    <Item type="T8_ARTEFACT_MAIN_ROCKMACE_KEEPER" weight="1" />
+    <Item type="T8_RUNE" weight="1" amount="25-75" />
+    <Item type="T8_RUNE" weight="1" amount="25-75" />
     </OR>
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_LVL1_KEEPER_BLUE">
@@ -11609,7 +11586,6 @@
         <Item type="T4_ARTEFACT_2H_DUALMACE_AVALON" amount="1" />
         <Item type="T4_ARTEFACT_2H_CROSSBOW_CANNON_AVALON" amount="1" />
         <Item type="T4_ARTEFACT_OFF_SHIELD_AVALON" amount="1" />
-        <Item type="T4_ARTEFACT_2H_KNUCKLES_AVALON" amount="1" weight="0.1"/>
         
         <Item type="T4_ARTEFACT_2H_DAGGER_KATAR_AVALON" amount="1" />
         <Item type="T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON" amount="1" />
@@ -11645,7 +11621,6 @@
         <Item type="T5_ARTEFACT_2H_DUALMACE_AVALON" amount="1" />
         <Item type="T5_ARTEFACT_2H_CROSSBOW_CANNON_AVALON" amount="1" />
         <Item type="T5_ARTEFACT_OFF_SHIELD_AVALON" amount="1" />
-        <Item type="T5_ARTEFACT_2H_KNUCKLES_AVALON" amount="1" weight="0.1"/>
 
         <Item type="T5_ARTEFACT_2H_DAGGER_KATAR_AVALON" amount="1" />
         <Item type="T5_ARTEFACT_MAIN_SPEAR_LANCE_AVALON" amount="1" />
@@ -11681,7 +11656,6 @@
         <Item type="T6_ARTEFACT_2H_DUALMACE_AVALON" amount="1" />
         <Item type="T6_ARTEFACT_2H_CROSSBOW_CANNON_AVALON" amount="1" />
         <Item type="T6_ARTEFACT_OFF_SHIELD_AVALON" amount="1" />
-        <Item type="T6_ARTEFACT_2H_KNUCKLES_AVALON" amount="1" weight="0.1" />
         
         <Item type="T6_ARTEFACT_2H_DAGGER_KATAR_AVALON" amount="1" />
         <Item type="T6_ARTEFACT_MAIN_SPEAR_LANCE_AVALON" amount="1" />
@@ -11717,7 +11691,6 @@
         <Item type="T7_ARTEFACT_2H_DUALMACE_AVALON" amount="1" />
         <Item type="T7_ARTEFACT_2H_CROSSBOW_CANNON_AVALON" amount="1" />
         <Item type="T7_ARTEFACT_OFF_SHIELD_AVALON" amount="1" />
-        <Item type="T7_ARTEFACT_2H_KNUCKLES_AVALON" amount="1" weight="0.1" />
 
         <Item type="T7_ARTEFACT_2H_DAGGER_KATAR_AVALON" amount="1" />
         <Item type="T7_ARTEFACT_MAIN_SPEAR_LANCE_AVALON" amount="1" />
@@ -11753,7 +11726,6 @@
         <Item type="T8_ARTEFACT_2H_DUALMACE_AVALON" amount="1" />
         <Item type="T8_ARTEFACT_2H_CROSSBOW_CANNON_AVALON" amount="1" />
         <Item type="T8_ARTEFACT_OFF_SHIELD_AVALON" amount="1" />
-        <Item type="T8_ARTEFACT_2H_KNUCKLES_AVALON" amount="1" weight="0.1" />
         
         <Item type="T8_ARTEFACT_2H_DAGGER_KATAR_AVALON" amount="1" />
         <Item type="T8_ARTEFACT_MAIN_SPEAR_LANCE_AVALON" amount="1" />
@@ -11774,11 +11746,10 @@
 
   <Lootlist name="T4_ARTEFACT_DEMON_WHITE_LOOT">
     <OR>
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="2187" />
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="218.7" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="2187" />
@@ -11806,11 +11777,10 @@
   </Lootlist>
   <Lootlist name="T5_ARTEFACT_DEMON_WHITE_LOOT">
     <OR>
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="2187" />
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="218.7" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="2187" />
@@ -11834,11 +11804,10 @@
       <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="10935" />
-      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="729" />
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_HELL" weight="72.9" />
+      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="729" />
@@ -11866,11 +11835,10 @@
   </Lootlist>
   <Lootlist name="T6_ARTEFACT_DEMON_WHITE_LOOT">
     <OR>
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="2187" />
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="218.7" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="2187" />
@@ -11894,11 +11862,10 @@
       <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="10935" />
-      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="729" />
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_HELL" weight="72.9" />
+      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="729" />
@@ -11922,11 +11889,10 @@
       <Item type="T5_ARTEFACT_ARMOR_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_HEAD_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_SHOES_CLOTH_HELL" weight="3645" />
-      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SCYTHE_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SKULLORB_HELL" weight="243" />
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_HELL" weight="24.3" />
+      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_HARPOON_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_CLEAVER_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_TWINSCYTHE_HELL" weight="243" />
@@ -11954,11 +11920,10 @@
   </Lootlist>
   <Lootlist name="T7_ARTEFACT_DEMON_WHITE_LOOT">
     <OR>
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="2187" />
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="218.7" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="2187" />
@@ -11982,11 +11947,10 @@
       <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="10935" />
-      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="729" />
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_HELL" weight="72.9" />
+      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="729" />
@@ -12010,11 +11974,10 @@
       <Item type="T5_ARTEFACT_ARMOR_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_HEAD_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_SHOES_CLOTH_HELL" weight="3645" />
-      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SCYTHE_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SKULLORB_HELL" weight="243" />
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_HELL" weight="24.3" />
+      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_HARPOON_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_CLEAVER_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_TWINSCYTHE_HELL" weight="243" />
@@ -12038,11 +12001,10 @@
       <Item type="T6_ARTEFACT_ARMOR_CLOTH_HELL" weight="1215" />
       <Item type="T6_ARTEFACT_HEAD_CLOTH_HELL" weight="1215" />
       <Item type="T6_ARTEFACT_SHOES_CLOTH_HELL" weight="1215" />
-      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_SCYTHE_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_SKULLORB_HELL" weight="81" />
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_HELL" weight="8.1" />
+      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_HARPOON_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_CLEAVER_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_TWINSCYTHE_HELL" weight="81" />
@@ -12070,11 +12032,10 @@
   </Lootlist>
   <Lootlist name="T8_ARTEFACT_DEMON_WHITE_LOOT">
     <OR>
-      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SCYTHE_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_SKULLORB_HELL" weight="2187" />
-      <Item type="T4_ARTEFACT_2H_KNUCKLES_HELL" weight="218.7" />
+      <Item type="T4_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_HARPOON_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_CLEAVER_HELL" weight="2187" />
       <Item type="T4_ARTEFACT_2H_TWINSCYTHE_HELL" weight="2187" />
@@ -12098,11 +12059,10 @@
       <Item type="T4_ARTEFACT_ARMOR_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_HEAD_CLOTH_HELL" weight="10935" />
       <Item type="T4_ARTEFACT_SHOES_CLOTH_HELL" weight="10935" />
-      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SCYTHE_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_SKULLORB_HELL" weight="729" />
-      <Item type="T5_ARTEFACT_2H_KNUCKLES_HELL" weight="72.9" />
+      <Item type="T5_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_HARPOON_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_CLEAVER_HELL" weight="729" />
       <Item type="T5_ARTEFACT_2H_TWINSCYTHE_HELL" weight="729" />
@@ -12126,11 +12086,10 @@
       <Item type="T5_ARTEFACT_ARMOR_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_HEAD_CLOTH_HELL" weight="3645" />
       <Item type="T5_ARTEFACT_SHOES_CLOTH_HELL" weight="3645" />
-      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SCYTHE_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_SKULLORB_HELL" weight="243" />
-      <Item type="T6_ARTEFACT_2H_KNUCKLES_HELL" weight="24.3" />
+      <Item type="T6_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_HARPOON_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_CLEAVER_HELL" weight="243" />
       <Item type="T6_ARTEFACT_2H_TWINSCYTHE_HELL" weight="243" />
@@ -12154,11 +12113,10 @@
       <Item type="T6_ARTEFACT_ARMOR_CLOTH_HELL" weight="1215" />
       <Item type="T6_ARTEFACT_HEAD_CLOTH_HELL" weight="1215" />
       <Item type="T6_ARTEFACT_SHOES_CLOTH_HELL" weight="1215" />
-      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_SCYTHE_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_SKULLORB_HELL" weight="81" />
-      <Item type="T7_ARTEFACT_2H_KNUCKLES_HELL" weight="8.1" />
+      <Item type="T7_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_HARPOON_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_CLEAVER_HELL" weight="81" />
       <Item type="T7_ARTEFACT_2H_TWINSCYTHE_HELL" weight="81" />
@@ -12182,11 +12140,10 @@
       <Item type="T7_ARTEFACT_ARMOR_CLOTH_HELL" weight="405" />
       <Item type="T7_ARTEFACT_HEAD_CLOTH_HELL" weight="405" />
       <Item type="T7_ARTEFACT_SHOES_CLOTH_HELL" weight="405" />
-      <Item type="T8_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_SCYTHE_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_DUALCROSSBOW_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_SKULLORB_HELL" weight="27" />
-      <Item type="T8_ARTEFACT_2H_KNUCKLES_HELL" weight="2.7" />
+      <Item type="T8_ARTEFACT_2H_IRONGAUNTLETS_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_HARPOON_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_CLEAVER_HELL" weight="27" />
       <Item type="T8_ARTEFACT_2H_TWINSCYTHE_HELL" weight="27" />
@@ -21313,9 +21270,7 @@
       <Item type="UNIQUE_MOUNT_BEETLE_SILVER" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BEHEMOTH_SILVER" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_ENT_SILVER" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_BATTLESPIDER_SILVER" amount="1" weight="1" />   
-      <Item type="UNIQUE_MOUNT_BASTION_SILVER" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_JUGGERNAUT_SILVER" amount="1" weight="1" />
+      <Item type="UNIQUE_MOUNT_BATTLESPIDER_SILVER" amount="1" weight="1" />      
     </OR>
   </Lootlist>
 
@@ -21328,8 +21283,6 @@
       <Item type="UNIQUE_MOUNT_BEHEMOTH_GOLD" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_ENT_GOLD" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BATTLESPIDER_GOLD" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_BASTION_GOLD" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_JUGGERNAUT_GOLD" amount="1" weight="1" />
     </OR>
   </Lootlist>
 
@@ -21342,8 +21295,6 @@
       <Item type="UNIQUE_MOUNT_BEHEMOTH_CRYSTAL" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_ENT_CRYSTAL" amount="1" weight="1" />
       <Item type="UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL" amount="1" weight="1" />
-      <Item type="UNIQUE_MOUNT_BASTION_CRYSTAL" amount="1" weight="1" />     
-      <Item type="UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL" amount="1" weight="1" /> 
     </OR>
   </Lootlist>  
 
