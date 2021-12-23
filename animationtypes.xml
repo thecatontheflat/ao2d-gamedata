@@ -194,7 +194,6 @@
       <xs:enumeration value="openworldattackconquer"/>
       <xs:enumeration value="territoryclaiming"/>
       <xs:enumeration value="orbclaiming"/>
-      <xs:enumeration value="traveltohideout"/>
     </xs:restriction>
   </xs:simpleType>
   

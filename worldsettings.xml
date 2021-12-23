@@ -211,7 +211,7 @@
       showpvpplayeronminimap="false"
       showfriendlycount="false"
       showhostilecount="true"
-      spellcooldownsonenteringseconds="0"
+      spellcooldownsonenteringseconds="15"
 			buildingcraftcapacityregenfactor="1"
       itempowersoftcap="900"
       itempowerscalingfactor="0.1"
@@ -238,7 +238,7 @@
       showpvpplayeronminimap="false"
       showfriendlycount="false"
       showhostilecount="true"
-      spellcooldownsonenteringseconds="0"
+      spellcooldownsonenteringseconds="15"
 			buildingcraftcapacityregenfactor="1"
       itempowersoftcap="900"
       itempowerscalingfactor="0.1"
@@ -265,7 +265,7 @@
       showpvpplayeronminimap="false"
       showfriendlycount="false"
       showhostilecount="true"
-      spellcooldownsonenteringseconds="0"
+      spellcooldownsonenteringseconds="15"
 			buildingcraftcapacityregenfactor="1"
       itempowersoftcap="900"
       itempowerscalingfactor="0.1"
@@ -2732,7 +2732,7 @@
         allowmounts="false"
         usegroupspawns="true">
         <spawnbuff>
-          <buff name="CORRUPTED_DUNGEON_ENTER"                   isclusterchange="Must"/>        
+          <buff name="HELL_2V2_ENTER"                   isclusterchange="Must"/>        
         </spawnbuff>
     </clustertype>
     
@@ -2748,7 +2748,7 @@
         allowmounts="false"
         usegroupspawns="true">
         <spawnbuff>
-          <buff name="CORRUPTED_DUNGEON_ENTER"                   isclusterchange="Must"/>
+          <buff name="HELL_2V2_ENTER"                   isclusterchange="Must"/>
         </spawnbuff>
     </clustertype>
 
@@ -2764,7 +2764,7 @@
         allowmounts="false"
         usegroupspawns="true">
         <spawnbuff>
-          <buff name="CORRUPTED_DUNGEON_ENTER"                   isclusterchange="Must"/>
+          <buff name="HELL_2V2_ENTER"                   isclusterchange="Must"/>
         </spawnbuff>
     </clustertype>
 

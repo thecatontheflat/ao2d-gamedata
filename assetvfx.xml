@@ -3,34 +3,9 @@
   <!--*************************************************************************************************************************************************************-->
   <!--MOUNTS-->
   <!--*************************************************************************************************************************************************************-->
-  <AssetVfxInfo uniquename="UNIQUE_MOUNT_STAG_DRUID">
-    <AssetVfx socketname="chest_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_mount_stag_druid_01_fireflies" />
-    </AssetVfx>
-  </AssetVfxInfo><AssetVfxInfo uniquename="MOUNT_HORSE_QUESTING_BEAST">
+  <AssetVfxInfo uniquename="MOUNT_HORSE_QUESTING_BEAST">
     <AssetVfx socketname="head_mount_chimera">
       <Vfx prefabName="FX/ClientPrefabs/fx_questing_beast_eyeglow" />
-    </AssetVfx>
-  </AssetVfxInfo>
-   <AssetVfxInfo uniquename="UNIQUE_MOUNT_TANKBEETLE_SILVER">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_tankbeetle_head" />
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="UNIQUE_MOUNT_TANKBEETLE_GOLD">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_tankbeetle_head" />
-    </AssetVfx>
-    <AssetVfx socketname="gem_mount_gold">
-      <Vfx prefabName="FX/ClientPrefabs/fx_tankbeetle_gem" />
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="UNIQUE_MOUNT_TANKBEETLE_CRYSTAL">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_tankbeetle_head" />
-    </AssetVfx>
-    <AssetVfx socketname="gem_mount_crystal">
-      <Vfx prefabName="FX/ClientPrefabs/fx_tankbeetle_gem" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_JUGGERNAUT_SILVER">
@@ -195,19 +170,9 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_armored_horse_paladin_01_eye_glow" />
     </AssetVfx>
   </AssetVfxInfo>   
-  <AssetVfxInfo uniquename="UNIQUE_MOUNT_ARMORED_HORSE_DEMONHUNTER">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_mount_armored_horse_demonhunter_01_eye_glow" />
-    </AssetVfx>
-  </AssetVfxInfo> 
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_COUGAR_DARK">
     <AssetVfx socketname="head_mount">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_cougar_dark_01_head" />
-    </AssetVfx>
-  </AssetVfxInfo>
-    <AssetVfxInfo uniquename="UNIQUE_MOUNT_WOLF_MIST">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_mount_wolf_mist_01_head" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOUNT_ARMORED_HORSE_UNDEAD">
@@ -299,11 +264,6 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_bison_ah_01_head" />
     </AssetVfx>
   </AssetVfxInfo>
-  <AssetVfxInfo uniquename="MOUNT_OX_BISON_MIST">
-    <AssetVfx socketname="head_mount">
-      <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_bison_mist_01_head" />
-    </AssetVfx>
-  </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOUNT_OX_DEFAULT_LANTERN">
     <AssetVfx socketname="lantern">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_bison_royal_01_single_lantern" />
@@ -315,14 +275,6 @@
     </AssetVfx>
     <AssetVfx socketname="lamp">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_cart_heretic_01_lamp" />
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="MOUNT_CART_LUXUS">
-    <AssetVfx socketname="lamp_front">
-      <Vfx prefabName="FX/ClientPrefabs/fx_lamp_glow_cart_ox_front" />
-    </AssetVfx>
-    <AssetVfx socketname="lamp">
-      <Vfx prefabName="FX/ClientPrefabs/fx_lamp_glow_cart_ox_back" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_UNDEAD_DIREBOAR_ADC">
@@ -1169,14 +1121,6 @@
   <AssetVfxInfo uniquename="MOB_HAZARD_GLUE">
     <AssetVfx socketname="root">
       <Vfx prefabName="FX/ClientPrefabs/fx_hazard_glue_puddle" />
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="MOB_CD_DEMON_IMP_ANTIRESET">
-    <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_fx_MOB_DEMON_HAZARD_CORRUPT_01_smoke" />
-    </AssetVfx>
-    <AssetVfx socketname="eyes">
-      <Vfx prefabName="FX/ClientPrefabs/fx_fx_MOB_DEMON_HAZARD_CORRUPT_01_head" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_CD_DEMON_WATCHER">
@@ -2440,29 +2384,6 @@
     </AssetVfx>
     <AssetVfx socketname="vanity_paladin_rightshoulder">
       <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_PALADIN_01_Shoulder"/>
-    </AssetVfx>
-  </AssetVfxInfo>
-  <!-- Demonhunter Set-->
-  <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_DEMONHUNTER">
-    <AssetVfx socketname="vanity_demonhunter_leftshoulder">
-      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DEMONHUNTER_01_LeftClavicle"/>
-    </AssetVfx>
-    <AssetVfx socketname="vanity_demonhunter_rightshoulder">
-      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DEMONHUNTER_01_RightClavicle"/>
-    </AssetVfx>
-    <AssetVfx socketname="vanity_demonhunter_flask">
-      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DEMONHUNTER_01_flask"/>
-    </AssetVfx>
-  </AssetVfxInfo>
-  <!-- Druid Set-->
-  <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_DRUID">
-    <AssetVfx socketname="neck">
-      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DRUID_01_fireflies"/>
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="UNIQUE_HEAD_VANITY_DRUID">
-    <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_HEAD_VANITY_DRUID_01_fireflies"/>
     </AssetVfx>
   </AssetVfxInfo>
 
