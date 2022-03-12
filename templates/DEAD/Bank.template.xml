@@ -2,7 +2,7 @@
   <criticalscenemembers>
     <criticalscenemember id="exit_05" type="exit" layerId="">
       <tile name="ExitTrigger_10x10_DIAGONAL_EXIT" pos="21 -9 -21" roty="180">
-        <exit size="10 10" spawnpos="8.773064 -9.19506" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="10 10" spawnpos="8.773064 -9.19506" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="7.226937 -14.80494" />
             <guard pos="7.250209 -8.770456" />
@@ -12,7 +12,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="">
       <tile name="Exit" pos="-0.5 -8 37.5" roty="90">
-        <exit size="15 15" spawnpos="15.00008 0" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="15.00008 0" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="4.499998 22.49991" />
             <guard pos="-5.500002 22.49991" />
@@ -22,7 +22,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_03" type="exit" layerId="">
       <tile name="Exit" pos="-0.5 -9 -36.5" roty="270">
-        <exit size="15 15" spawnpos="15.00083 0" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="15.00083 0" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="-5.500002 -21.49916" />
             <guard pos="4.499998 -21.49916" />
@@ -32,7 +32,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_04" type="exit" layerId="">
       <tile name="Exit" pos="35.5 -3 -0.5" roty="180">
-        <exit size="15 15" spawnpos="15.74725 -5.30679E-07" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="15.74725 -5.30679E-07" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="19.75274 -5.499998" />
             <guard pos="19.75274 4.619038" />
@@ -146,7 +146,7 @@
     <tile name="HIGHLAND_DEAD_HER_POINT_LIGHT_DNG_BANK_COZY" pos="-18.5 0 -17.5" />
     <tile name="CAM_fx_env_undead_dust" pos="13.97 0 -0.5" />
     <criticaltile name="ExitTrigger_10x10_DIAGONAL_EXIT" pos="21 -9 -21" roty="180" id="exit_05" type="exit">
-      <exit size="10 10" spawnpos="8.773064 -9.19506" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="10 10" spawnpos="8.773064 -9.19506" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="7.226937 -14.80494" />
           <guard pos="7.250209 -8.770456" />
@@ -154,7 +154,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="-0.5 -8 37.5" roty="90" id="exit_01" type="exit">
-      <exit size="15 15" spawnpos="15.00008 0" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="15.00008 0" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="4.499998 22.49991" />
           <guard pos="-5.500002 22.49991" />
@@ -162,7 +162,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="-0.5 -9 -36.5" roty="270" id="exit_03" type="exit">
-      <exit size="15 15" spawnpos="15.00083 0" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="15.00083 0" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="-5.500002 -21.49916" />
           <guard pos="4.499998 -21.49916" />
@@ -170,7 +170,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="35.5 -3 -0.5" roty="180" id="exit_04" type="exit">
-      <exit size="15 15" spawnpos="15.74725 -5.30679E-07" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="15.74725 -5.30679E-07" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="19.75274 -5.499998" />
           <guard pos="19.75274 4.619038" />
@@ -1291,11 +1291,9 @@
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_30X30_B" pos="0 -8 100" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_B" pos="0 0 30" roty="270" />
     <tile name="HIGHLAND_DEAD_MOR_CASTLE_ROOF_A" pos="0 0 -60" roty="180" />
-    <tile name="gvg_banner_standing_01" pos="-34.5 -9 -5.5" roty="270" scale="1.36873 1.36873 1.36873" />
-    <tile name="gvg_banner_standing_01" pos="-34.5 -9 5.5" roty="270" scale="1.36873 1.36873 1.36873" />
     <tile name="HIGHLAND_DEAD_CASTLE_GATE_MAIN_SMALL_C" pos="-37.5 -20 0" roty="180" scale="0.91725 1 1" />
     <tile name="HIGHLAND_DEAD_HALL_OF_FAME_THRONE_SIMPLE_A" pos="-32 -8 0" roty="90">
-      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_11" useradius="9" type="0" data="12" />
+      <informationprovider locatag="@HALLOFFAME_SEASONSTORY_13" useradius="8" type="0" data="14" data2="1" />
     </tile>
     <tile name="HIGHLAND_DEAD_BUILD_GROUND_20x20_A" pos="-25 -8 -15" roty="90" />
     <tile name="HIGHLAND_DEAD_BUILD_PATCH_TO_SUB_02_HALF_A" pos="20 -8 -19" roty="130.94" scale="1.773603 1 2.956" />
@@ -1482,5 +1480,7 @@
     <tile name="HIGHLAND_DEAD_FILL_FARM_HAY_A" pos="-24.5 -8 -21.5" roty="121" />
     <tile name="HIGHLAND_DEAD_FILL_WINE_SPLATTER_SMALL_A" pos="15 -8 22" roty="180" />
     <tile name="HIGHLAND_DEAD_FILL_PLATFORM_STONE_FLAT_B" pos="-30 -8 0" />
+    <tile name="gvg_banner_hall_of_fame_s13_01" pos="-34.5 -9 -5.5" roty="270" scale="1.36873 1.36873 1.36873" />
+    <tile name="gvg_banner_hall_of_fame_s13_01" pos="-34.5 -9 5.5" roty="270" scale="1.36873 1.36873 1.36873" />
   </tiles>
 </template>

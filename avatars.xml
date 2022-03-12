@@ -33,6 +33,19 @@
     <avatar name="GVGSEASON_10" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_11" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_12" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_13" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_BRONZE" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_BRONZE" locked="true" hidden="true"/>      
+    <avatar name="GVGSEASON_15_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_15_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_15_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_15_BRONZE" locked="true" hidden="true"/>      
 
     <avatar name="AVATAR_FAMERANK_01" locked="true"/>
     <avatar name="AVATAR_FAMERANK_02" locked="true"/>
@@ -79,6 +92,7 @@
     <avatarring name="AVATARRING_TELLAFRIEND" locked="true" hidden="true"/>
 	  <avatarring name="AVATARRING_ORIGINAL_PLAYER" locked="true" hidden="true"/>
     <avatarring name="AVATARRING_CHARITY_MARCH2020" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_CONTENT_CREATOR" locked="true" hidden="true"/>
 
     <!-- GvG Season Rings -->
     <avatarring name="RING_GVGSEASONREWARD_1ST" locked="true" hidden="true"/>
@@ -118,7 +132,7 @@
     
 	<!-- Vanity Rings -->
 	<avatarring name="AVATARRING_VANITY_BARBARIAN" locked="true" hidden="true"/>
-	<avatarring name="AVATARRING_VANITY_SOULKEEPER" locked="true" hidden="true"/>
+ 
 	 
     <!--
     <avatarring name="RING_PVE_1" locked="true"/>
