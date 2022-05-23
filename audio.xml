@@ -114,6 +114,10 @@
     <CharType name="mount"/>
     <MountType name="direwolf_armored"/>
   </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DIREWOLF_UNDEAD">
+	<CharType name="mount"/>
+	<MountType name="direwolf_undead"/>
+  </WwiseSwitchInfo>
   <WwiseSwitchInfo name="MOUNT_DIREBOAR">
     <CharType name="mount"/>
     <MountType name="direboar"/>
@@ -193,6 +197,10 @@
   <WwiseSwitchInfo name="MOUNT_IMPALA">
     <CharType name="mount"/>
     <MountType name="impala"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_DEER">
+	<CharType name="mount"/>
+	<MountType name="deer"/>
   </WwiseSwitchInfo>
  <WwiseSwitchInfo name="MOUNT_BALLISTA">
     <CharType name="mount"/>
@@ -341,6 +349,10 @@
   <WwiseSwitchInfo name="MOUNT_HELLHOUND">
 	<CharType name="mount"/>
 	<MountType name="hellhound"/>
+  </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOUNT_BUNNY">
+	<CharType name="mount"/>
+	<MountType name="bunny"/>
   </WwiseSwitchInfo>
 
   <!--*************************************************************************************************************************************************************-->
@@ -789,6 +801,18 @@
     <WeaponType name="swoosh_rock"/>
     <MountType name="empty"/>
   </WwiseSwitchInfo>
+  <WwiseSwitchInfo name="MOB_ELEMENTAL_SUMMON_ROCK">
+	<CharType name="mob"/>
+	<MobFaction name="critter"/>
+	<MobType name="critter_rock_summon"/>
+	<Size name="rock_medium"/>
+	<ArmorType name="rock"/>
+	<WeaponType name="swoosh_rock"/>
+	<MountType name="empty"/>
+  </WwiseSwitchInfo>
+  <WwiseEventInfo name ="MOB_ELEMENTAL_SUMMON_ROCK">
+	<OnMobDied name="Die"/>
+  </WwiseEventInfo>
   <WwiseSwitchInfo name="MOB_STUMP">
     <CharType name="mob"/>
     <MobFaction name="critter"/>
@@ -3519,6 +3543,10 @@
     <OnCastFinished name="Play_melee_knuckles_triple_roundhouse" />
   </WwiseEventInfo>
 
+  <WwiseEventInfo name="SPELL_KNUCKLES_W_ROUNDHOUSE" > <!-- W version of roundhouse kick which was originally an E spell-->
+	<OnCastFinished name="Play_melee_knuckles_roundhouse_kick_W" />
+  </WwiseEventInfo>
+
   <WwiseEventInfo name="SPELL_KNUCKLES_IMPACT_BIG_PUNCH">
     <OnSpellHit name="Play_melee_knuckles_impact_big_punch" >
       <ImpactType/>
@@ -4298,6 +4326,9 @@
   <WwiseEventInfo name="SPELL_DAMAGE_DECREASE">
     <OnSpellHit name="Play_damage_reduction" />
   </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_DAMAGE_DECREASE_REPEATED">
+    <OnSpellHit name="Play_damage_reduction_repeat" />
+  </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_SELF_BUFF_STOMP">
     <OnCastStart name="Play_selfbuff_cast" />
     <OnCastFinished name="Play_melee_stomp_small" />
@@ -4534,6 +4565,10 @@
 
   <WwiseEventInfo name="SPELL_BAT_BLINK" >
     <OnCastStart name="Play_bat_blink" />
+  </WwiseEventInfo>
+
+  <WwiseEventInfo name="SPELL_BUNNY_LEAP" >
+	<OnCastFinished name="Play_mount_bunny_leap" />
   </WwiseEventInfo>
 
   <WwiseEventInfo name="SPELL_SUMMON_FOX" >
@@ -4926,6 +4961,9 @@
   </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_GUARDIAN_STEPPE_AVALANCHE" >
     <OnCastFinished name="Play_rock_avalanche" />
+  </WwiseEventInfo>
+  <WwiseEventInfo name="SPELL_GUARDIAN_SUMMON_ROCK_AVALANCHE" >
+	<OnCastFinished name="Play_rock_elemental_avalanche" />
   </WwiseEventInfo>
   <WwiseEventInfo name="SPELL_GUARDIAN_ROCK_GIANT_TREMOR_CAST" >
     <OnCastStart name="Play_melee_swoosh_load_big" />
@@ -7078,6 +7116,26 @@
      <FarmAnimalType name="moa_baby"/>
    </WwiseSwitchInfo>
 
+  <WwiseEventInfo name="FARMABLE_BUNNY">
+	<OnOpened name="Play_ui_open_bunny"/>
+	<OnPlaceItemStarted name="Play_ui_open_bunny"/>
+  </WwiseEventInfo>
+
+  <WwiseSwitchInfo name="FARMABLE_BUNNY">
+	<CharType name="farmanimal"/>
+	<FarmAnimalType name="bunny"/>
+  </WwiseSwitchInfo>
+
+  <WwiseEventInfo name="FARMABLE_BUNNY_BABY">
+	<OnOpened name="Play_ui_open_bunny_baby"/>
+	<OnPlaceItemStarted name="Play_ui_open_bunny_baby"/>
+  </WwiseEventInfo>
+
+  <WwiseSwitchInfo name="FARMABLE_BUNNY_BABY">
+	<CharType name="farmanimal"/>
+	<FarmAnimalType name="bunny_baby"/>
+  </WwiseSwitchInfo>
+
   <!-- FURNITURE -->
    <WwiseEventInfo name="HIDEOUT_PLACEABLE_ITEM">
     <OnPlaceItemStarted name="Play_ui_action_place_hideout_start" />
@@ -7515,8 +7573,8 @@
     <SubBiom name="None"/>
     <MobFaction name="None"/>
     <Music name="Hideout"/>
-    <Hideout_Safety name="safe"/>
-    <Hideout_Attackstate name="Secure"/>
+    <Hideout_Safety name="None"/>
+    <Hideout_Attackstate name="None"/>
     <GlobalEnvironmentEffect name="cave"/>
   </WwiseClusterStateOverwrite>
   
@@ -7529,8 +7587,8 @@
     <SubBiom name="None"/>
     <MobFaction name="None"/>
     <Music name="Hideout"/>
-    <Hideout_Safety name="safe"/>
-    <Hideout_Attackstate name="Secure"/>
+    <Hideout_Safety name="None"/>
+    <Hideout_Attackstate name="None"/>
     <GlobalEnvironmentEffect name="cave"/>
   </WwiseClusterStateOverwrite>
 
@@ -7542,8 +7600,8 @@
     <SubBiom name="None"/>
     <MobFaction name="None"/>
     <Music name="Hideout"/>
-    <Hideout_Safety name="safe"/>
-    <Hideout_Attackstate name="Secure"/>
+    <Hideout_Safety name="None"/>
+    <Hideout_Attackstate name="None"/>
     <GlobalEnvironmentEffect name="cave"/>
   </WwiseClusterStateOverwrite>
   
