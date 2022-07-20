@@ -1,12 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/HERETIC/HER_MINE_HIGH_RARE_STRAIGHT_Harbor_01.unity" unityguid="a43e830e15e22ab49aae227149eaf1ba" editorBoundsMin="-80 -80" editorBoundsMax="80 80" colBoundsMin="-80 -81" colBoundsMax="80 82">
-  <criticalscenemembers>
-    <criticalscenemember id="lootchest_02" type="lootchest" layerId="Layer_02">
-      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_SOLO_RARE" pos="-7.5 -8 15.5" roty="320" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_01" type="lootchest" layerId="Layer_04">
-      <tile name="FOREST_GREEN_LOOTCHEST_HERETIC_RARE" pos="-7.5 -8 15.5" roty="320" />
-    </criticalscenemember>
-  </criticalscenemembers>
+  <criticalscenemembers />
   <tiles>
     <layergroup name="Backdrop">
       <layer id="Layer_05" name="env_out_Mountain" />
@@ -169,10 +162,10 @@
     </layergroup>
     <layergroup name="REWARD">
       <layer id="Layer_02" name="reward_solo">
-        <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_SOLO_RARE" pos="-7.5 -8 15.5" roty="320" id="lootchest_02" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_HERETIC_SOLO_RARE" pos="-7.5 -8 15.5" roty="320" />
       </layer>
       <layer id="Layer_04" name="reward_veteran">
-        <criticaltile name="FOREST_GREEN_LOOTCHEST_HERETIC_RARE" pos="-7.5 -8 15.5" roty="320" id="lootchest_01" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_HERETIC_VETERAN_RARE" pos="-7.5 -8 15.5" roty="320" />
       </layer>
     </layergroup>
     <tile name="FOREST_GREEN_DNG_GROUND" pos="35 0 -75" />
@@ -894,9 +887,9 @@
     <tile name="FOREST_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="32 -4 71" rot="21 298.85 0" scale="1 0.55066 1" />
     <tile name="FOREST_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="32 -4 -73" rot="21 262.17 0" scale="1 0.55066 1" />
     <tile name="FOREST_GREEN_FILL_CONSTSITE_SCAFFOLD_PILLAR_B" pos="50 -4 71" rot="21 51 0" scale="1 0.55066 1" />
-    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="29 8 68" roty="106.97" />
-    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="47 4 74" roty="220.84" />
-    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="32 7 -74" roty="72.9" />
+    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="29.77 7 69.06" roty="107" />
+    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="47.1 4 74.33" roty="221" />
+    <tile name="FOREST_GREEN_FILL_LAMP_HANGING_A" pos="31.57 5.95 -74.24" roty="73" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_5_A" pos="47.5 3 -69.5" rot="0 316 180" scale="1 1 1.08464" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_5_A" pos="25.5 7 69.5" rot="0 41.95 45" />
     <tile name="FOREST_GREEN_HER_FILL_MINE_WALL_5_A" pos="27.5 3 68.5" rot="0 210.84 180" scale="1 1 1.084641" />

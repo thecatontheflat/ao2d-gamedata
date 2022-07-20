@@ -20,6 +20,9 @@
     guildlogochangesilvercosts="0"
     maxhideouts="6"
     maxplayers="300"
+    hqdeclarationcooldowndays="14"
+    hqlostblockedaccessrightscooldowndays="7"
+    hqbeforeprimetimeblockingperiodminutes="120"
     >
       <guildinvitationlimits declinedinvitefalloffseconds="3600">
         <invitesdeclined amount="0" cooldownafternewdecline="0" maximumsimultaneousinvites="300"/>
@@ -54,6 +57,7 @@
     <GoldMarket setupsellordercost="10" setupbuyordercost="10" swaptransactiongoldpurchaseinterval="5" />
     <Respawn autorespawntimerinsecs="600" />
     <PveFameSession sessionconclusiondelaysecs="600"/>
+    <DecayingItemSettings marketplaceblockhours="24"/>
     <Fame pvpfamesharingradius="50" pvefamesharingradius="50">
       <GroupBonus>
         <Group size="3" bonusfactor="1.17"/>
@@ -156,6 +160,7 @@
   </ServerSettings>
   <ClientSettings>
     <MiniMap showgraveseconds="300"/>
+    <TrainingDummy comboduration="5"/>
     <CrimeWarning donotshowagainsecondes="900"/>
   </ClientSettings>
   <Items>
@@ -534,7 +539,7 @@
 
       <armorshare head="0" armor="1.0" shoes="0" mainhand="0" cape="0" shield="0" towershield="0" skullshield="0" spikedshield="0" avalonshield="0" torch="0" horn="0" cane="0" lamp="0" talisman="0" book="0" orb="0" demonskull="0" totem="0" censer="0"/>
       <ccrshare head="0" armor="1.0" shoes="0" mainhand="0" cape="0" shield="0.60" towershield="0" skullshield="0" spikedshield="0" avalonshield="0" torch="0" horn="0" cane="0" lamp="0" talisman="1.2" book="0" orb="0" demonskull="0" totem="0" censer="0"/>
-      <hitpointsshare head="0.25" armor="0.5" shoes="0.25" mainhand="0" cape="0" shield="0" towershield="0" skullshield="0" spikedshield="0" avalonshield="0" torch="0" horn="0" cane="0" lamp="0" talisman="0" book="0" orb="0" demonskull="0" totem="0.3" censer="0"/>
+      <hitpointsshare head="0.25" armor="0.5" shoes="0.25" mainhand="0" cape="0" shield="0" towershield="0" skullshield="0" spikedshield="0" avalonshield="0" torch="0" horn="0" cane="0" lamp="0" talisman="0" book="0" orb="0" demonskull="0" totem="0.25" censer="0"/>
       <energyshare head="0.5" armor="0.25" shoes="0.15" mainhand="0" cape="0.10" shield="0" towershield="0" skullshield="0" spikedshield="0" avalonshield="0" torch="0" horn="0" cane="0" lamp="0" talisman="0" book="0.15" orb="0.5" demonskull="0" totem="0" censer="0"/>
     </ItemPowerProgression>
     <QualityLevels>
@@ -848,6 +853,15 @@
   <MailSettings postage="50" sendmaillimitperday="30" />
   <MountSettings halfmountvfx="FX/ClientPrefabs/fx_spell_mount_radius" halfmountvfx_originalSize="15" combatmountcooldown="10" hostiledismountdetectionradius="40"/>
   <VfxSettings fadeouttime="1.0" />
+
+  <TownPortalSettings
+    maxLoad="1.0"
+    distanceCostCap="10"
+    distanceModifier="0.5"
+    costModifier="0.225"
+    baseCost="100.0"
+    slotDisabledTimeAfterTownPortalFailedByServerInSec ="2.0"
+    />    
 
   <DuelSettings>
     <DuelAreaLeftTimerInSeconds value="10"/>
@@ -1292,14 +1306,14 @@
       <Items>
         <RewardFactors lower="0" upper="1.0" />
         <GainFactors>
-          <Item tier="1" resource="0.25" silver="0.75" />
-          <Item tier="2" resource="0.25" silver="0.75" />
-          <Item tier="3" resource="0.25" silver="0.75" />
-          <Item tier="4" resource="0.25" silver="0.75" />
-          <Item tier="5" resource="0.25" silver="0.75" />
-          <Item tier="6" resource="0.25" silver="0.75" />
-          <Item tier="7" resource="0.25" silver="0.75" />
-          <Item tier="8" resource="0.25" silver="0.75" />
+          <Item tier="1" resource="0.2" silver="0.75" />
+          <Item tier="2" resource="0.2" silver="0.75" />
+          <Item tier="3" resource="0.2" silver="0.75" />
+          <Item tier="4" resource="0.2" silver="0.75" />
+          <Item tier="5" resource="0.2" silver="0.75" />
+          <Item tier="6" resource="0.2" silver="0.75" />
+          <Item tier="7" resource="0.2" silver="0.75" />
+          <Item tier="8" resource="0.2" silver="0.75" />
         </GainFactors>
         <Time crafttimefactor="0.1" />
       </Items>
@@ -1918,4 +1932,5 @@
       <ColorState color="063b00f2" name="@WORLDMAP_OVERLAY_CLUSTERVALUE_LEGEND_NAME_LOWEST"/>
     </ClusterValueColors>
   </ClusterValueVisualization>
+  <BatchUseSkillBook maxfame="10000000"/>
 </AO-GameData>

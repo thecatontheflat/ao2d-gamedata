@@ -1,24 +1,5 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/AVALON/AVA_TEMPLE_HIGHLIGHT_UNCOMMON_STRAIGHT_Construct_01.unity" unityguid="db1046fa9684fa042bfb3ac76fcf732a" editorBoundsMin="-200 -120" editorBoundsMax="200 120" colBoundsMin="-210 -121" colBoundsMax="209 121">
-  <criticalscenemembers>
-    <criticalscenemember id="lootchest_05" type="lootchest" layerId="Layer_06">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 33.5" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_06" type="lootchest" layerId="Layer_06">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 -34.5" roty="180" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_04" type="lootchest" layerId="Layer_07">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_RARE" pos="50.5 8 33.5" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_03" type="lootchest" layerId="Layer_08">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_STANDARD" pos="50.5 8 34.5" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_07" type="lootchest" layerId="Layer_09">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 -34.5" roty="180" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_01" type="lootchest" layerId="Layer_09">
-      <tile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 34.5" />
-    </criticalscenemember>
-  </criticalscenemembers>
+  <criticalscenemembers />
   <tiles>
     <layergroup name="DECO">
       <layer id="Layer_10" name="DECO_AB">
@@ -482,8 +463,8 @@
         <tile name="HIGHLAND_GREEN_AVA_POINTLIGHT_DNG_STANDARD_FLICKER_A" pos="50.4 15.24 -33.3" roty="180">
           <pointlight range="16" intensity="5" color="0.887 0.6786136 0.284727" />
         </tile>
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 33.5" id="lootchest_05" type="lootchest" />
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 -34.5" roty="180" id="lootchest_06" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 33.5" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_LEGENDARY" pos="50.5 8 -34.5" roty="180" />
       </layer>
       <layer id="Layer_07" name="Reward_Rare">
         <tile name="HIGHLAND_GREEN_AVA_FX_GODRAY_ROOF_20X20_A" pos="50 8 30" />
@@ -491,7 +472,7 @@
           <pointlight range="16" intensity="5" color="0.887 0.6786136 0.284727" />
         </tile>
         <tile name="HIGHLAND_GREEN_AVA_WEAPON_WRECK_A" pos="49 8 -34" roty="90" />
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_RARE" pos="50.5 8 33.5" id="lootchest_04" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_RARE" pos="50.5 8 33.5" />
       </layer>
       <layer id="Layer_08" name="Reward_Standard">
         <tile name="HIGHLAND_GREEN_AVA_FX_GODRAY_ROOF_20X20_A" pos="50 8 30" />
@@ -499,7 +480,7 @@
           <pointlight range="16" intensity="5" color="0.887 0.6786136 0.284727" />
         </tile>
         <tile name="HIGHLAND_GREEN_AVA_WEAPON_WRECK_A" pos="49 8 -34" roty="90" />
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_STANDARD" pos="50.5 8 34.5" id="lootchest_03" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_STANDARD" pos="50.5 8 34.5" />
       </layer>
       <layer id="Layer_09" name="Reward_Uncommon">
         <tile name="HIGHLAND_GREEN_AVA_FX_GODRAY_ROOF_20X20_A" pos="50 8 30" />
@@ -510,8 +491,8 @@
           <pointlight range="16" intensity="5" color="0.887 0.6786136 0.284727" />
         </tile>
         <tile name="HIGHLAND_GREEN_AVA_FX_GODRAY_ROOF_20X20_A" pos="50 8 -30" roty="180" />
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 -34.5" roty="180" id="lootchest_07" type="lootchest" />
-        <criticaltile name="HIGHLAND_GREEN_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 34.5" id="lootchest_01" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 34.5" />
+        <tile name="SpawnPoint_LOOTCHEST_AVALON_ELITE_UNCOMMON" pos="50.5 8 -34.5" roty="180" />
       </layer>
     </layergroup>
     <layergroup name="SECURITY_DOOR">
@@ -1162,6 +1143,8 @@
     <tile name="HIGHLAND_GREEN_AVA_COLUMN_SINGLE_A_BACKDROP_CUTTED" pos="-42 -60 47" roty="180" scale="1.3 0.7296684 1.3" />
     <tile name="HIGHLAND_GREEN_AVA_COLUMN_SINGLE_A_BACKDROP_CUTTED" pos="-75 -60 47" roty="180" scale="1.3 0.7296684 1.3" />
     <tile name="HIGHLAND_GREEN_AVA_COLUMN_SINGLE_A_BACKDROP" pos="-28 -45 21" roty="180" scale="1.3 0.7296684 1.3" />
+    <tile name="HIGHLAND_GREEN_AVA_WALL_THICK_STRAIGHT_A" pos="1 8 66" roty="180" />
+    <tile name="HIGHLAND_GREEN_AVA_WALL_THICK_STRAIGHT_A" pos="2 8 -65" roty="180" />
     <tile name="HIGHLAND_GREEN_AVA_GROUND_A_OBJECT" pos="-175 12 35" />
     <tile name="HIGHLAND_GREEN_AVA_GROUND_A_OBJECT" pos="165 16 105" roty="0" />
     <tile name="HIGHLAND_GREEN_AVA_GROUND_A_OBJECT" pos="165 16 -105" roty="0" />
@@ -2597,7 +2580,6 @@
     <tile name="HIGHLAND_GREEN_AVA_STATUE_CONSTRUCT_BACKDROP_A" pos="-2 -26 -26" roty="90" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="19 -9 41" roty="270" scale="0.4574702 1.209225 1.250444" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="1 -9 27" roty="180" scale="0.45747 1.262033 1.250443" />
-    <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="19 -31 42" roty="270" scale="0.4574702 1.835608 1.250444" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="0 -31 28" roty="180" scale="0.45747 1.835608 1.250443" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="82 -9 41" roty="270" scale="0.4574702 1.235842 1.250444" />
     <tile name="HIGHLAND_GREEN_AVA_GROUND_STONEPATH_INNERCORNER_SMALL_A" pos="43 8 -28" roty="180" />
@@ -2637,6 +2619,7 @@
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="19 -8 -41" rot="0 270 180" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="101 -8 27" rot="0 0 180" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="101 -6 -27" roty="180" />
+    <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_A" pos="19 -31 42" roty="270" scale="0.4574702 1.835608 1.250444" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="1 -27 -26" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="101 -27 -27" roty="180" />
     <tile name="HIGHLAND_GREEN_AVA_ENERGY_FIELD_BEAM_A" pos="1 -8 -26" rot="0 180 180" />
