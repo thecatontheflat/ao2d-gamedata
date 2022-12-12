@@ -3,6 +3,19 @@
   <!--*************************************************************************************************************************************************************-->
   <!--MOUNTS-->
   <!--*************************************************************************************************************************************************************-->
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_HORSE_PRIEST_HOLY">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_horse_priest_holy_01_head" />
+    </AssetVfx>
+    <AssetVfx socketname="spine_0">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_horse_priest_holy_01_tail" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_DIREBOAR_OCCULT">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_direboar_occult_01_head" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_COUGAR_FIREMAGE">
     <AssetVfx socketname="head_mount">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_lion_firemage_01_head" />
@@ -173,11 +186,11 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_spider_fangs" />
     </AssetVfx>
   </AssetVfxInfo>
-	<AssetVfxInfo uniquename="UNIQUE_MOUNT_ARMORED_HORSE_MONK">
-		<AssetVfx socketname="head_mount">
-			<Vfx prefabName="FX/ClientPrefabs/fx_mount_armored_horse_monk_01_head_glow" />
-		</AssetVfx>
-	</AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_MOUNT_ARMORED_HORSE_MONK">
+    <AssetVfx socketname="head_mount">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_armored_horse_monk_01_head_glow" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_MOUNT_ARMORED_HORSE_ROGUE">
     <AssetVfx socketname="head_mount">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_armored_horse_rogue_01_eye_glow" />
@@ -355,6 +368,14 @@
   <AssetVfxInfo uniquename="MOUNT_OX_DEFAULT_LANTERN">
     <AssetVfx socketname="lantern">
       <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_bison_royal_01_single_lantern" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOUNT_OX_CHRISTMAS_DECORATION">
+    <AssetVfx socketname="christmas_presents">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_christmas_presents" />
+    </AssetVfx>
+    <AssetVfx socketname="christmas_tree">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mount_ox_christmas_tree" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOUNT_CART_HERETIC">
@@ -715,10 +736,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" freecamvisibilitycontrollable="true" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="torso">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="pelvis">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_pelvis" />
@@ -736,10 +757,10 @@
   <!--Undead Soldier-->
   <AssetVfxInfo uniquename="MOB_UNDEAD_SOLDIER_CHAMPION">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="lefteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
@@ -762,10 +783,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="right_shoulder">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_soldier_miniboss02_shoulder" />
@@ -782,10 +803,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" freecamvisibilitycontrollable="true" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="torso">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="pelvis">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_pelvis" />
@@ -823,10 +844,10 @@
   <!--Undead Archer-->
   <AssetVfxInfo uniquename="MOB_UNDEAD_ARCHER_CHAMPION">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="righteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
@@ -838,10 +859,10 @@
     </AssetVfx>
     <AssetVfx socketname="head">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_body_headglow" />
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="righteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
@@ -852,11 +873,11 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_body_headglow" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="righteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
@@ -897,10 +918,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_MAGE_MINIBOSS">
@@ -922,11 +943,11 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_body_headglow" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_MAGE_BOSS">
@@ -948,11 +969,11 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_body_headglow" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_NECROMANCER_BOSS">
@@ -969,10 +990,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_necromancer_smoke" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_NECROMANCER_ROAMING_BOSS">
@@ -989,10 +1010,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_necromancer_smoke" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_MAGE">
@@ -1021,10 +1042,10 @@
   <!--Undead Ghoul-->
   <AssetVfxInfo uniquename="MOB_UNDEAD_GHOUL_CHAMPION">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_ghoul_body_glow" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="jaw">
@@ -1098,10 +1119,10 @@
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_KNIGHT_CHAMPION">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="torso">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_knight_chest" />
@@ -1118,13 +1139,13 @@
     <AssetVfx socketname="arm_right">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_knight_arm" />
     </AssetVfx>
-     <AssetVfx socketname="fx_weapon">
+    <AssetVfx socketname="fx_weapon">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_knight_sword_glow" />
     </AssetVfx>
-     <AssetVfx socketname="fx_smoke">
+    <AssetVfx socketname="fx_smoke">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_knight_Chest_smoke" />
     </AssetVfx>
-     <AssetVfx socketname="fx_eyes_02">
+    <AssetVfx socketname="fx_eyes_02">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_knight_eye_glow" />
     </AssetVfx>
   </AssetVfxInfo>
@@ -1134,10 +1155,10 @@
     </AssetVfx>
     <AssetVfx socketname="head">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_governor_head" />
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="torso">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_governor_chest" />
@@ -1174,13 +1195,13 @@
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_GENERAL_BOSS">
     <AssetVfx socketname="floor">
-      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="damage">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="lefteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
@@ -1188,7 +1209,7 @@
     <AssetVfx socketname="righteye">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_eyeglow" />
     </AssetVfx>
-     <AssetVfx socketname="fx_hammer">
+    <AssetVfx socketname="fx_hammer">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_general_hammer_glow" />
     </AssetVfx>
     <AssetVfx socketname="fx_eyeglow">
@@ -1198,10 +1219,10 @@
   <!--Undead Special-->
   <AssetVfxInfo uniquename="MOB_UNDEAD_STATUE_CHAMPION">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_SHADE">
@@ -1254,10 +1275,10 @@
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_UNDEAD_GHOST">
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />
@@ -1271,10 +1292,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" freecamvisibilitycontrollable="true" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />
@@ -1294,10 +1315,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_statue_intact" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />
@@ -2054,6 +2075,128 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_morgana_cultist_book_right" />
     </AssetVfx>
   </AssetVfxInfo>
+  <!-- avalonian roaming mobs -->
+   <AssetVfxInfo uniquename="MOB_AVALON_PIKEMAN_CHAMPION_ROAMING">
+    <AssetVfx socketname="fx_mainhand">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_pikeman_champion_weapon_RM" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_chest">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_pikeman_champion_body_RM" />
+    </AssetVfx>
+   </AssetVfxInfo>
+   <AssetVfxInfo uniquename="MOB_AVALON_MONK_CHAMPION_ROAMING">
+     <AssetVfx socketname="fx_mainhand">
+       <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_monk_champion_weapon_RM" />
+     </AssetVfx>
+     <AssetVfx socketname="fx_chest">
+       <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_monk_champion_body_RM" />
+     </AssetVfx>
+   </AssetVfxInfo>
+    <AssetVfxInfo uniquename="MOB_AVALON_BERSERK_MINIBOSS_ROAMING">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="mainhand">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_berserk_champion_weapon_right_axe" />
+    </AssetVfx>
+    <AssetVfx socketname="offhand">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_berserk_champion_weapon_left_axe" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bersek_miniboss_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+      <AssetVfxInfo uniquename="MOB_AVALON_KNIGHT_BOSS_ROAMING">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_shield">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_knight_shield" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_weapon">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_knight_sword" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_armor_r">
+      <Vfx prefabName="FX/ClientPrefabs/fx_MOB_AVALON_KNIGHT_01_rightshoulder" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_armor_l">
+      <Vfx prefabName="FX/ClientPrefabs/fx_MOB_AVALON_KNIGHT_01_leftshoulder" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_knight_boss_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+   <AssetVfxInfo uniquename="MOB_AVALON_BOWMAN_CHAMPION_ROAMING">
+    <AssetVfx socketname="arrow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_righthandhardpoint" />
+    </AssetVfx>
+    <AssetVfx socketname="bow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_leftarm3" />
+    </AssetVfx>
+    <AssetVfx socketname="spine3">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_spine3" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_chest">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_champion_body_RM" />
+    </AssetVfx>
+   </AssetVfxInfo>
+    <AssetVfxInfo uniquename="MOB_AVALON_BOWMAN_MINIBOSS_ROAMING">
+     <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="arrow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_righthandhardpoint" />
+    </AssetVfx>
+    <AssetVfx socketname="bow">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_leftarm3" />
+    </AssetVfx>
+    <AssetVfx socketname="spine3">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_spine3" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_chest">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_champion_body_RM" />
+    </AssetVfx>
+   </AssetVfxInfo>
+   <AssetVfxInfo uniquename="MOB_AVALON_WIZARD_CHAMPION_ROAMING">
+    <AssetVfx socketname="mainhandprojectile">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_wizard_core" constraintpreset="default" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_champion_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_CLERIC_CHAMPION_ROAMING">
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_bowman_champion_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_MAGE_MINIBOSS_ROAMING">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="head">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_mage_head" />
+    </AssetVfx>
+      <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_pikeman_champion_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_BOWMAN_BOSS_ROAMING">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_knight_boss_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_AVALON_MAGE_BOSS_ROAMING">
+    <AssetVfx socketname="floor">
+      <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" constraintpreset="default" ignoreSocketScale="true" />
+    </AssetVfx>
+    <AssetVfx socketname="fx_body">
+      <Vfx prefabName="FX/ClientPrefabs/fx_mob_avalon_knight_boss_body_RM" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <!-- keepers roaming mobs -->
   <!-- druids -->
   <AssetVfxInfo uniquename="MOB_KEEPER_DRUID_CHAMPION_ROAMING">
@@ -2765,14 +2908,14 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" freecamvisibilitycontrollable="true" constraintpreset="default" ignoreSocketScale="true" />
     </AssetVfx>
   </AssetVfxInfo>
-    <!-- infestors -->
+  <!-- infestors -->
   <AssetVfxInfo uniquename="MOB_MORGANA_INFESTOR_STATIC_CHAMPION">
-   <AssetVfx socketname="mainhand_championSD">
+    <AssetVfx socketname="mainhand_championSD">
       <Vfx prefabName="FX/ClientPrefabs/fx_mob_morgana_infestor_champion_weapon_RM" />
-   </AssetVfx>
-   <AssetVfx socketname="damage">
+    </AssetVfx>
+    <AssetVfx socketname="damage">
       <Vfx prefabName="FX/ClientPrefabs/fx_mob_morgana_infestor_champion_body_RM" />
-   </AssetVfx>
+    </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_MORGANA_INFESTOR_STATIC_MINIBOSS">
     <AssetVfx socketname="floor">
@@ -2928,6 +3071,98 @@
     </AssetVfx>
   </AssetVfxInfo>
   <!--*********************************************************-->
+  <!--Level 4 Treasure Locked-->
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_BASE_SMALL"> <!--T4 Fiber & Ore-->
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_BASE_MEDIUM"> <!--most Fiber & Ore-->
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_medium" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_BASE_LARGE">
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_large" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_ORE_SPECIAL"> <!--T6 & T8 Ore-->
+    <AssetVfx socketname="ore">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_medium" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_FIBER_SPECIAL"> <!--T8 Fiber-->
+    <AssetVfx socketname="fiber">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_medium" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_TREE"> <!--T4-T8 Wood-->
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_env_legendary_tree" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_EXTRASMALL">
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_extrasmall" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_SMALL"> <!--Monitor Lizard & Terror Bird-->
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_MEDIUM"> <!--Swamp Dragon-->
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_medium" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_LARGE">
+    <AssetVfx socketname="floor">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_large" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_BOAR"> <!--Boar-->
+    <AssetVfx socketname="boar">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_extrasmall" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_HIDE_DIREBOAR"> <!--Direboar-->
+    <AssetVfx socketname="boar">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_WOLF"> <!--Direwolf, Giant Snake, Hyena-->
+    <AssetVfx socketname="wolf">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_BEAR"> <!--Bear-->
+    <AssetVfx socketname="bear">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_STAG"> <!--Giant Stag-->
+    <AssetVfx socketname="stag">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_small" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_DIREBEAR"> <!--Direbear-->
+    <AssetVfx socketname="bear">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_large" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_RHINO"> <!--Rhino-->
+    <AssetVfx socketname="rhino">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_large" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_TREASURE_LEVEL4_LOCKED_MAMMOTH"> <!--Mammoth-->
+    <AssetVfx socketname="mammoth">
+	  <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_hide_legendary_extralarge" constraintpreset="default" ignoreSocketScale="true" />
+	</AssetVfx>	
+  </AssetVfxInfo>
+  <!--*********************************************************-->
   <!--HIDE MOBS (w/o Guardians)-->
   <!-- forest-->
   <AssetVfxInfo uniquename="MOB_WOLF">
@@ -2935,13 +3170,13 @@
   <AssetVfxInfo uniquename="MOB_BOAR">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_boar_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -2973,13 +3208,13 @@
   <AssetVfxInfo uniquename="MOB_DIREWOLF">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default"  ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default"  ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direwolf_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -2992,13 +3227,13 @@
   <AssetVfxInfo uniquename="MOB_DIREBOAR">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3011,13 +3246,13 @@
   <AssetVfxInfo uniquename="MOB_DIREBEAR">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3026,18 +3261,18 @@
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low" socket="enchantment" constraintpreset="default" />
       </RareState>
     </RareResourceFx>
-  </AssetVfxInfo>  
+  </AssetVfxInfo>
   <!-- steppe-->
   <AssetVfxInfo uniquename="MOB_GIANTSTAG">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_giantstag_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3050,13 +3285,13 @@
   <AssetVfxInfo uniquename="MOB_TERRORBIRD">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl5_low" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
@@ -3069,13 +3304,13 @@
   <AssetVfxInfo uniquename="MOB_RHINO">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_rhino_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3088,13 +3323,13 @@
   <AssetVfxInfo uniquename="MOB_MAMMOTH">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_04" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3108,13 +3343,13 @@
   <AssetVfxInfo uniquename="MOB_MONITORLIZARD">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3127,13 +3362,13 @@
   <AssetVfxInfo uniquename="MOB_GIANTSNAKE">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_11" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_snake_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3159,6 +3394,102 @@
       </RareState>
       <RareState stateid="5">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl6_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+    </RareResourceFx>
+  </AssetVfxInfo>
+  <!-- Mists -->
+  <AssetVfxInfo uniquename="MOB_MISTSTAG">
+    <RareResourceFx>
+      <RareState stateid="1">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="2">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="3">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="4">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_giantstag_lvl5_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+      <RareState stateid="5">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_giantstag_lvl6_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+    </RareResourceFx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_MISTOWL">
+    <RareResourceFx>
+      <RareState stateid="1">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="2">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="3">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="4">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl5_low" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="5">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl6_low" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+    </RareResourceFx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_MISTHOUND">
+    <RareResourceFx>
+      <RareState stateid="1">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="2">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="3">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="4">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direwolf_lvl5_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+      <RareState stateid="5">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direwolf_lvl6_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+    </RareResourceFx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_MISTBEAR">
+    <RareResourceFx>
+      <RareState stateid="1">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="2">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="3">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="4">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+      <RareState stateid="5">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+    </RareResourceFx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="MOB_MISTDRAGONHAWK">
+    <RareResourceFx>
+      <RareState stateid="1">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="2">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="3">
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
+      </RareState>
+      <RareState stateid="4">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_giantstag_lvl5_low" socket="enchantment" constraintpreset="default" />
+      </RareState>
+      <RareState stateid="5">
+        <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_giantstag_lvl6_low" socket="enchantment" constraintpreset="default" />
       </RareState>
     </RareResourceFx>
   </AssetVfxInfo>
@@ -3211,13 +3542,13 @@
   <AssetVfxInfo uniquename="MOB_ELEMENTAL">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3226,20 +3557,20 @@
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low" socket="enchantment" constraintpreset="default" />
       </RareState>
     </RareResourceFx>
-  </AssetVfxInfo>  
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_DRYAD">
     <AssetVfx socketname="head">
       <Vfx prefabName="FX/ClientPrefabs/fx_critter_dryad_glowy_eyes" />
     </AssetVfx>
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_06" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3252,13 +3583,13 @@
   <AssetVfxInfo uniquename="MOB_SPIRIT_WOOD">
     <RareResourceFx>
       <RareState stateid="1">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="2">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="3">
-        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true"/>
+        <Vfx prefabName="FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07" socket="enchantment" constraintpreset="default" ignoreSocketScale="true" />
       </RareState>
       <RareState stateid="4">
         <Vfx prefabName="FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low" socket="enchantment" constraintpreset="default" />
@@ -3296,7 +3627,7 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_critter_essence_smoke_arm_02" />
     </AssetVfx>
   </AssetVfxInfo>
-  <!--*********************************************************-->  
+  <!--*********************************************************-->
   <!-- GUARDIANS -->
   <AssetVfxInfo uniquename="MOB_GUARDIAN_DRYAD">
     <AssetVfx socketname="floor">
@@ -3623,7 +3954,7 @@
     <AssetVfx socketname="damage">
       <Vfx prefabName="FX/ClientPrefabs/fx_mob_heretic_mage_01_torch" constraintpreset="default" />
     </AssetVfx>
-  </AssetVfxInfo>  
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_HERETIC_MAGE_MINIBOSS_01">
     <AssetVfx socketname="floor">
       <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="default" ignoreSocketScale="true" />
@@ -3631,7 +3962,7 @@
     <AssetVfx socketname="fx_weapon">
       <Vfx prefabName="FX/ClientPrefabs/fx_mob_heretic_mage_01_torch" constraintpreset="default" />
     </AssetVfx>
-  </AssetVfxInfo>  
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="MOB_HERETIC_MAGE_MINIBOSS_02">
     <AssetVfx socketname="floor">
       <Vfx prefabName="FX/ClientPrefabs/fx_minibossmark" constraintpreset="default" ignoreSocketScale="true" />
@@ -3869,7 +4200,7 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_anniversary_statue_14_RightShoulderArmor" />
     </AssetVfx>
     <AssetVfx socketname="mainhand">
-      <Vfx prefabName="FX/ClientPrefabs/fx_anniversary_statue_14_RightHandHardPoint" ignoreSocketScale="false"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_anniversary_statue_14_RightHandHardPoint" ignoreSocketScale="false" />
     </AssetVfx>
     <AssetVfx socketname="floor">
       <Vfx prefabName="FX/ClientPrefabs/fx_bossmark" freecamvisibilitycontrollable="true" constraintpreset="default" ignoreSocketScale="true" />
@@ -3992,33 +4323,46 @@
   <!--*************************************************************************************************************************************************************-->
   <!-- Vanity Items -->
   <!--Fire and Frost Mages-->
+  <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_PRIEST_HOLY">
+    <AssetVfx socketname="vanity_offhand_priest_holy">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_LeftArm_3" />
+    </AssetVfx>
+    <AssetVfx socketname="vanity_mainhand_priest_holy">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_RightArm_3" />
+    </AssetVfx>
+  </AssetVfxInfo>
+  <AssetVfxInfo uniquename="UNIQUE_CAPE_VANITY_PRIEST_HOLY">
+    <AssetVfx socketname="vanity_cape_priest_holy">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_Neck_0" />
+    </AssetVfx>
+  </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_FIREMAGE">
-   <AssetVfx socketname="leftshoulder">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_LeftShoulderArmor" />
-   </AssetVfx>
-  <AssetVfx socketname="rightshoulder">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_RightShoulderArmor" />
-   </AssetVfx>
+    <AssetVfx socketname="leftshoulder">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_LeftShoulderArmor" />
+    </AssetVfx>
+    <AssetVfx socketname="rightshoulder">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_RightShoulderArmor" />
+    </AssetVfx>
     <AssetVfx socketname="mainhand_02">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_RightHandHardPoint" />
-   </AssetVfx>
-     <AssetVfx socketname="offhand_02">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_LeftHandHardPoint" />
-   </AssetVfx>  
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_RightHandHardPoint" />
+    </AssetVfx>
+    <AssetVfx socketname="offhand_02">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_LeftHandHardPoint" />
+    </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_FROSTMAGE">
-      <AssetVfx socketname="leftshoulder">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_LeftShoulderArmor" />
-   </AssetVfx>
-  <AssetVfx socketname="rightshoulder">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_RightShoulderArmor" />
-   </AssetVfx>
+    <AssetVfx socketname="leftshoulder">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_LeftShoulderArmor" />
+    </AssetVfx>
+    <AssetVfx socketname="rightshoulder">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_RightShoulderArmor" />
+    </AssetVfx>
     <AssetVfx socketname="mainhand_02">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_RightHandHardPoint" />
-   </AssetVfx>
-     <AssetVfx socketname="offhand_02">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_LeftHandHardPoint" />
-   </AssetVfx>
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_RightHandHardPoint" />
+    </AssetVfx>
+    <AssetVfx socketname="offhand_02">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_LeftHandHardPoint" />
+    </AssetVfx>
   </AssetVfxInfo>
   <!-- Gladiator Crystal-->
   <AssetVfxInfo uniquename="UNIQUE_HEAD_VANITY_GLADIATOR_CRYSTAL">
@@ -4027,9 +4371,9 @@
     </AssetVfx>
   </AssetVfxInfo>
   <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL">
-   <AssetVfx socketname="chest">
-     <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL_Spine_3" />
-   </AssetVfx>
+    <AssetVfx socketname="chest">
+      <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL_Spine_3" />
+    </AssetVfx>
   </AssetVfxInfo>
   <!-- Rogue Set-->
   <AssetVfxInfo uniquename="UNIQUE_ARMOR_VANITY_ROGUE">
@@ -4115,7 +4459,7 @@
     <AssetVfx socketname="vanity_monk_chest">
       <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MONK_01_Spine_3" />
     </AssetVfx>
-      <AssetVfx socketname="vanity_monk_neck">
+    <AssetVfx socketname="vanity_monk_neck">
       <Vfx prefabName="FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MONK_01_Neck_0" />
     </AssetVfx>
   </AssetVfxInfo>
@@ -4224,16 +4568,6 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_enigmaticorb_morgana" />
     </AssetVfx>
   </AssetVfxInfo>
-  <AssetVfxInfo uniquename="ARCANE_RINGPAIR_AVALON">
-    <AssetVfx socketname="mainweaponroot">
-      <Vfx prefabName="FX/ClientPrefabs/fx_ringpair_arcane" />
-    </AssetVfx>
-  </AssetVfxInfo>
-  <AssetVfxInfo uniquename="FIRE_RINGPAIR_AVALON">
-    <AssetVfx socketname="mainweaponroot">
-      <Vfx prefabName="FX/ClientPrefabs/fx_ringpair_fire" />
-    </AssetVfx>
-  </AssetVfxInfo>
   <!-- MORE MOBS... -->
   <AssetVfxInfo uniquename="MOB_UNDEAD_PULLER">
     <AssetVfx socketname="head">
@@ -4260,10 +4594,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_statue_intact" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />
@@ -4284,10 +4618,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_statue_intact" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />
@@ -4309,10 +4643,10 @@
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_statue_intact" />
     </AssetVfx>
     <AssetVfx socketname="head">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="chest">
-      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default"/>
+      <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest" constraintpreset="default" />
     </AssetVfx>
     <AssetVfx socketname="spine">
       <Vfx prefabName="FX/ClientPrefabs/fx_undead_sarcophagus_ghost_spine" />

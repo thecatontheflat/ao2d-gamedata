@@ -46,7 +46,7 @@
     </criticalscenemember>
     <criticalscenemember id="castle_01" type="castle" layerId="">
       <tile name="T1_CASTLE" pos="4 8 -4">
-        <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100">
+        <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100" rewardrectmin="-70 -60" rewardrectmax="60 64">
           <guardspawnpoint pos="-10.59 -37.31" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
           <guardspawnpoint pos="-10.54 -35.05" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_ARCHER" guardtype="BASIC" />
           <guardspawnpoint pos="-24.28 36.31" roty="0" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
@@ -166,7 +166,7 @@
       <actionbuilding />
     </criticaltile>
     <criticaltile name="T1_CASTLE" pos="4 8 -4" id="castle_01" type="castle">
-      <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100">
+      <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100" rewardrectmin="-70 -60" rewardrectmax="60 64">
         <guardspawnpoint pos="-10.59 -37.31" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
         <guardspawnpoint pos="-10.54 -35.05" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_ARCHER" guardtype="BASIC" />
         <guardspawnpoint pos="-24.28 36.31" roty="0" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
@@ -989,6 +989,9 @@
     <tile name="STEPPE_DEAD_CASTLE_STATUE_A" pos="58 2 -44" roty="48" scale="0.655283 0.655283 0.655283" />
     <tile name="STEPPE_DEAD_CASTLE_STATUE_A" pos="44 2 -57" roty="221" scale="-0.655283 0.655283 0.655283" />
     <tile name="STEPPE_DEAD_CASTLE_LIGHT_WALL_TORCH_A" pos="15 11 -54.36" roty="270" />
+    <tile name="STEPPE_DEAD_FILL_STORAGE_CRATE_BROKEN_A" pos="-50 16 -44" roty="104" />
+    <tile name="STEPPE_DEAD_FILL_STORAGE_CRATE_LARGE_B" pos="-49 16 -42" />
+    <tile name="STEPPE_DEAD_FILL_STORAGE_CRATE_MEDIUM_A" pos="-46.5 16 -42.5" roty="325" />
     <tile name="CASTLES_GVG_BANNER_LARGE_A" pos="26 5 5" roty="270" />
     <tile name="CASTLES_GVG_BANNER_LARGE_A" pos="-5 5 -26" roty="359" />
     <tile name="CASTLES_GVG_BANNER_LARGE_A" pos="15 6 43" roty="3" />

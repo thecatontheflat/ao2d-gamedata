@@ -12,5 +12,7 @@
     <filterbundle id="PT-BR" filename="profanity_pt.dict" loadon="client"/>
     <filterbundle id="ZH-CN" filename="profanity_zh.dict" loadon="client"/>
     <filterbundle id="KO-KR" filename="profanity_ko.dict" loadon="client"/>
+    <filterbundle id="JA-JP" filename="profanity_ja.dict" loadon="client"/>
+    <filterbundle id="IT-IT" filename="profanity_it.dict" loadon="client"/>
 </profanityfilters>
 

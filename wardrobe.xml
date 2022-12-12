@@ -61,8 +61,9 @@
   <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_MONK_MASK"			state="Locked"		/>
   <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_MONK_MASK_GUILD_COLORED" state="Locked" />
   <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_MARAUDER"			state="Locked"		/>
-  <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_FIREMAGE"			state="Hidden"/>
-  <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_FROSTMAGE"			state="Hidden"/>
+  <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_FIREMAGE"			state="Locked"/>
+  <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_FROSTMAGE"			state="Locked"/>
+  <item goldprice="1000" reference="UNIQUE_HEAD_VANITY_PRIEST_HOLY"			state="Hidden"/>  
     
     
 	<!--<item goldprice="1000" reference="UNIQUE_HEAD_VANITY_DUELIST"/>	-->
@@ -76,8 +77,8 @@
 	<item                 reference="UNIQUE_HEAD_VANITY_ARENA_EYEPATCH"			state="Locked"/>
   <item                 reference="UNIQUE_HEAD_VANITY_GLADIATOR_ARENA"	  state="Locked"/>
   <item                 reference="UNIQUE_HEAD_VANITY_GLADIATOR_CRYSTAL"  state="Locked"/>
-  <item       		  reference="UNIQUE_HEAD_VANITY_JESTER"					state="Locked"/>
-  <item       		  reference="UNIQUE_HEAD_VANITY_ENTERTAINER"					state="Locked"/>
+  <item       		      reference="UNIQUE_HEAD_VANITY_JESTER"					state="Locked"/>
+  <item       		      reference="UNIQUE_HEAD_VANITY_ENTERTAINER"					state="Locked"/>
 	<item                 reference="UNIQUE_HEAD_VANITY_PLAGUEDOC"				state="Locked"/>
 	<item                 reference="UNIQUE_HEAD_VANITY_PUMPKIN_01"				state="Locked"/>
 	<item                 reference="UNIQUE_HEAD_VANITY_PUMPKIN_02"				state="Locked"/>
@@ -117,8 +118,9 @@
   <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_MONK"					state="Locked"/>			
   <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_MONK_GUILD_COLORED" state="Locked"	/>
   <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_MARAUDER"			state="Locked"		/>
-  <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_FIREMAGE"			state="Hidden"/>
-  <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_FROSTMAGE"		state="Hidden"	/>
+  <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_FIREMAGE"			state="Locked"/>
+  <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_FROSTMAGE"		state="Locked"	/>
+  <item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_PRIEST_HOLY"		state="Hidden"	/>  
 
     <!--<item goldprice="2000" reference="UNIQUE_ARMOR_VANITY_DUELIST"/>-->
 	<item 			          reference="UNIQUE_ARMOR_VANITY_DRESS_RED"			state="Locked"/>
@@ -131,7 +133,7 @@
   <item                 reference="UNIQUE_ARMOR_VANITY_GLADIATOR_ARENA"			state="Locked"/>
   <item                 reference="UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL"		state="Locked"/>
 	<item 				        reference="UNIQUE_ARMOR_VANITY_JESTER"				state="Locked"/>
-  <item 			      	  reference="UNIQUE_ARMOR_VANITY_ENTERTAINER"				state="Hidden"/>
+  <item 			      	  reference="UNIQUE_ARMOR_VANITY_ENTERTAINER"				state="Locked"/>
 	<item                 reference="UNIQUE_ARMOR_VANITY_PLAGUEDOC"				state="Locked"/>
 	<item                 reference="UNIQUE_ARMOR_VANITY_SANTACLAUS"			state="Locked"/>
 	<item                 reference="UNIQUE_ARMOR_VANITY_EASTER"				state="Locked"/>
@@ -160,8 +162,9 @@
   <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_DEMONICWARRIOR"		state="Locked"/>
   <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_MONK"					state="Locked"/>
   <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_MARAUDER"			state="Locked"		/>
-  <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_FIREMAGE"			state="Hidden"/>
-  <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_FROSTMAGE"		state="Hidden"	/>    
+  <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_FIREMAGE"			state="Locked"/>
+  <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_FROSTMAGE"		state="Locked"	/>
+  <item goldprice="1000" reference="UNIQUE_SHOES_VANITY_PRIEST_HOLY"		state="Hidden"	/>  
     
 	<!--<item goldprice="600" reference="UNIQUE_SHOES_VANITY_DUELIST"/>-->
 	<item                 reference="UNIQUE_SHOES_VANITY_DRESS_RED"				state="Locked"/>
@@ -175,8 +178,8 @@
   <item                 reference="UNIQUE_SHOES_VANITY_GLADIATOR_CRYSTAL"   state="Locked"/>
   <item                 reference="UNIQUE_SHOES_VANITY_EASTER"				state="Locked"/>
 	<item                 reference="UNIQUE_SHOES_VANITY_SANTACLAUS"			state="Locked"/>
-	<item 				  reference="UNIQUE_SHOES_VANITY_JESTER"				state="Locked"/>
-  <item 				  reference="UNIQUE_SHOES_VANITY_ENTERTAINER"				state="Hidden"/>
+	<item 				        reference="UNIQUE_SHOES_VANITY_JESTER"				state="Locked"/>
+  <item 				        reference="UNIQUE_SHOES_VANITY_ENTERTAINER"				state="Locked"/>
 	<item                 reference="UNIQUE_SHOES_VANITY_PLAGUEDOC"				state="Locked"/>
 	<item                 reference="UNIQUE_SHOES_VANITY_SKELETON"				state="Locked"/>
 	<item                 reference="UNIQUE_SHOES_VANITY_SKELETON_UNDEAD"		state="Locked"/>
@@ -204,9 +207,9 @@
   <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_DEMONICWARRIOR" state="Locked"/>
   <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_MONK"					state="Locked"/>
   <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_MARAUDER"			state="Locked"		/>
-  <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_FIREMAGE"			state="Hidden"/>
-  <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_FROSTMAGE"			state="Hidden"/>    
-    
+  <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_FIREMAGE"			state="Locked"/>
+  <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_FROSTMAGE"			state="Locked"/>
+  <item goldprice="1000" reference="UNIQUE_CAPE_VANITY_PRIEST_HOLY"			state="Hidden"/>  
 	<!--<item goldprice="800" reference="UNIQUE_CAPE_VANITY_DUELIST"/>-->
 	<item                 reference="T6_CAPE_PLATE_UNDEAD"						state="Locked"/>
 	<item                 reference="T6_CAPE_LEATHER_UNDEAD"					state="Locked"/>
@@ -226,7 +229,7 @@
 	<item                 reference="UNIQUE_CAPE_VANITY_GLADIATOR_ARENA"    state="Locked"/>
   <item                 reference="UNIQUE_CAPE_VANITY_GLADIATOR_CRYSTAL"  state="Locked"/>
   <item                 reference="UNIQUE_BACKPACK_VANITY_EASTER"				state="Locked"/>
-	<item 				  reference="UNIQUE_BACKPACK_VANITY_SANTACLAUS"			state="Locked"/>
+	<item 				        reference="UNIQUE_BACKPACK_VANITY_SANTACLAUS"			state="Locked"/>
 	<item                 reference="UNIQUE_CAPE_VANITY_SKELETON_UNDEAD"		state="Locked"/>
 	<item                 reference="UNIQUE_CAPE_VANITY_SKELETON"				state="Locked"/>
 	<item                 reference="UNIQUE_CAPE_TELLAFRIEND"					state="Locked"/>
