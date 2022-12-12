@@ -50,7 +50,15 @@
     <avatar name="GVGSEASON_16_GOLD" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_16_SILVER" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_16_BRONZE" locked="true" hidden="true"/>      
-
+    <avatar name="GVGSEASON_17_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_17_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_17_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_17_BRONZE" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_18_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_18_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_18_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_18_BRONZE" locked="true" hidden="true"/>    
+    
     <avatar name="AVATAR_FAMERANK_01" locked="true"/>
     <avatar name="AVATAR_FAMERANK_02" locked="true"/>
     <avatar name="AVATAR_FAMERANK_03" locked="true"/>
@@ -111,6 +119,11 @@
 
     <avatarring name="RING_GVGSEASONREWARD_AVALON_INVASION" locked="true" hidden="true"/>    
     
+    <!-- Arena Rings -->
+    <avatarring name="AVATARRING_ARENA_CRYSTAL" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_ARENA_GOLD1" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_ARENA_SILVER1" locked="true" hidden="true"/>
+
     <!-- Adventurer Challenge Rings -->
   	<avatarring name="AVATARRING_ADC_NOV2018" locked="true" hidden="true"/>
 	  <avatarring name="AVATARRING_ADC_DEC2018" locked="true" hidden="true"/>

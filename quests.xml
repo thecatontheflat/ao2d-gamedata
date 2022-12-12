@@ -1149,7 +1149,16 @@
         </missions>
       </extendedmissionstep>
       <extendedmissionstep>
-        <missions>       
+        <missions>
+          <or textloca="@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT_KILL_MOBS">
+            <killmob count="12" faction="HERETIC" mintier="3" countpartykills="true" clusterdirect="DNG-HER-01-MAIN-01"/>
+            <killmob count="12" faction="HERETIC" mintier="3" countpartykills="true" clusterdirect="DNG-HER-01-MAIN-02"/>
+            <killmob count="12" faction="HERETIC" mintier="3" countpartykills="true" clusterdirect="DNG-HER-01-MAIN-03"/>
+            <killmob count="12" faction="HERETIC" mintier="3" countpartykills="true" clusterdirect="DNG-HER-01-MAIN-04"/>
+            <killmob count="12" faction="HERETIC" mintier="3" countpartykills="true" clusterdirect="DNG-HER-01-MAIN-05"/>
+          </or>
+
+          <!--
           <or textloca="@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT3" markedinworld="false" locationmarkerid="STATIC_DUNGEON_BOSS">
             <killmob mobid="T3_MOB_HERETIC_THIEF_VETERAN_CHAMPION" count="1" countpartykills="true"/>
             <killmob mobid="T3_MOB_HERETIC_THIEF_VETERAN_MINIBOSS" count="1" countpartykills="true"/>
@@ -1168,7 +1177,7 @@
             <validchest name="STATIC_HERETIC_CHAMPION"/>           
             <validchest name="STATIC_HERETIC_MINIBOSS"/>
             <validchest name="STATIC_HERETIC_BOSS"/>      
-          </unlocklootchest>
+          </unlocklootchest>-->
       </missions>
       </extendedmissionstep>
       <extendedcompletionstep locationmarkerid="STATIC_DUNGEON_EXIT" markedinworld="true" markedonminimap="true">
@@ -1213,7 +1222,6 @@
       <item itemid="QUESTITEM_TOKEN_ROYAL_T4" count="1"/>
     </rewards>
   </quest>
-  
   
   <!--RETURN TO THE COMMANDER AFTER GATHERER CRAFTER QUEST-->
   <quest uniquename="MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER_TITLE" offertext="@MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="crafter" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true"   previousquests="MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED" completetext="@MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER_COMPLETIONTEXT" requiresonlyonepreviousquest="true"  cancelable="true">
@@ -2201,7 +2209,7 @@
           <settutorialstate state="FIRSTCRAFT"/>
         </preactions>
         <missions>
-          <acquireitem itemid="T1_MAIN_SWORD" count="1" textloca="@MISSIONS_T2_TUTORIAL_TEST_D1_SIDETEXT"/> 
+          <acquireitem itemid="T1_MAIN_SWORD" count="1" textloca="@MISSIONS_T2_TUTORIAL_TEST_D1_SIDETEXT" locationmarkerid="FORGE"/> 
         </missions>
       </extendedmissionstep>
       <extendedmissionstep>
@@ -2302,17 +2310,21 @@
   </quest>
   
   <!--LEARN ABOUT TUTORIAL INSTANCES AND MEET TIA-->
-        <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_F" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_F_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_F_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_F_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="gotoa" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_F_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_E" cancelable="false" completesound="Play_NPC_VO_P1_Tia_Welcome" playcompletesoundonce="true">  
+  <quest uniquename="MISSIONS_T2_TUTORIAL_TEST_F" mobfaction="ROYALARMY" title="@MISSIONS_T2_TUTORIAL_TEST_F_TITLE" offertext="@MISSIONS_T2_TUTORIAL_TEST_F_OFFERTEXT" progresstext="@MISSIONS_T2_TUTORIAL_TEST_F_PROGRESSTEXT" priority="1" minlevel="1" maxlevel="2" tags="gotoa" offertimeout="0" questtimeout="3600000" questslotcooldown="0" uicategory="PROMOTION" onceonly="true" completetext="@MISSIONS_T2_TUTORIAL_TEST_F_COMPLETIONTEXT" previousquests="MISSIONS_T2_TUTORIAL_TEST_E" cancelable="false" completesound="Play_NPC_VO_P1_Tia_Welcome" playcompletesoundonce="true">  
     <variables>
       <dynamiccluster name="LOCATION_A">
         <distancetocluster mindistance="0" maxdistance="0"/>
       </dynamiccluster>
-     <dynamicquestgiver name ="CAPTAIN">
+      <dynamicquestgiver name ="CAPTAIN">
         <distancefromquestgiver mindistance="0" maxdistance="0"/>
         <questgivertag tag="CAPTAIN_TIA"/>
       </dynamicquestgiver>
+      <dynamicquestgiver name="SHIP_REPAIR_GUY">
+        <distancefromquestgiver mindistance="0" maxdistance="0"/>
+        <questgivertag tag="SHIP_REPAIRMAN"/>
+      </dynamicquestgiver>
     </variables>
-          <tasks>
+    <tasks>
       <extendedcompletionstep>
         <preactions>
           <settutorialstate state="WHEREAREMYFRIENDS"/>
@@ -5162,10 +5174,87 @@ Light-->
     <rewards>
     </rewards>
   </quest>
-
+<!-- Guild Finder Tutorial -->
+  <quest uniquename="MISSION_GUILD_FINDER" title="@MISSIONS_GUILD_FINDER_TITLE" offertext="@MISSIONS_GUILD_FINDER_OFFERTEXT" progresstext="@MISSIONS_GUILD_FINDER_PROGRESSTEXT" completetext="@MISSIONS_GUILD_FINDER_COMPLETIONTEXT" questtimeout="3600000" priority="1" tags="adventurer" mobfaction="ROYALARMY" minlevel="1" maxlevel="2" onceonly="true" cancelable="true" >
+    <variables>
+      <dynamiccluster name="LOCATION_A">
+        <distancetocluster mindistance="0" maxdistance="1" />
+      </dynamiccluster>
+    </variables>
+    <tasks>
+      <extendedcompletionstep>
+        <preactions>
+          <openhintbox uniquename="GUILDFINDERINTRO_01" displayonplatform="desktop"/>
+          <openhintbox uniquename="GUILDFINDERINTRO_01" displayonplatform="mobile"/>
+        </preactions>
+        <missions>
+          <gotoquestgiver/>
+        </missions>
+      </extendedcompletionstep>
+    </tasks>
+    <rewards>
+    </rewards>
+  </quest>
+  
+  <!-- Below here are local quests, those only are only cluster/area local and use a different system than the quest system -->  
+  <localquest uniquename="LOCAL_QUEST_MISTS_MEDIUM_HERETIC" name="@LOCAL_QUEST_CAMP_MEDIUM_HERETIC" type="mobcampquestbig" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="4550" scalewithclusterquestfactor="true" faction="HERETIC" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="5536" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="466" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_MEDIUM"/>
+    </rewards>
+  </localquest>
+  <localquest uniquename="LOCAL_QUEST_MISTS_MEDIUM_UNDEAD" name="@LOCAL_QUEST_CAMP_MEDIUM_UNDEAD" type="mobcampquestbig" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="4550" scalewithclusterquestfactor="true" faction="UNDEAD" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="5536" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="466" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_MEDIUM"/>
+    </rewards>
+  </localquest>
+  <localquest uniquename="LOCAL_QUEST_MISTS_MEDIUM_MORGANA" name="@LOCAL_QUEST_CAMP_MEDIUM_MORGANA" type="mobcampquestbig" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="4550" scalewithclusterquestfactor="true" faction="MORGANA" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="5536" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="466" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_MEDIUM"/>
+    </rewards>
+  </localquest>
+  <localquest uniquename="LOCAL_QUEST_MISTS_SMALL_HERETIC" name="@LOCAL_QUEST_CAMP_SMALL_HERETIC" type="mobcampquestsmall" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="1664" scalewithclusterquestfactor="true" faction="HERETIC" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="2024" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="170" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_SMALL"/>
+    </rewards>
+  </localquest>
+  <localquest uniquename="LOCAL_QUEST_MISTS_SMALL_UNDEAD" name="@LOCAL_QUEST_CAMP_SMALL_UNDEAD" type="mobcampquestsmall" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="1664" scalewithclusterquestfactor="true" faction="UNDEAD" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="2024" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="170" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_SMALL"/>
+    </rewards>
+  </localquest>
+  <localquest uniquename="LOCAL_QUEST_MISTS_SMALL_MORGANA" name="@LOCAL_QUEST_CAMP_SMALL_MORGANA" type="mobcampquestsmall" visibleonminimapbeforevisit="false">
+    <missions>
+      <killmobfame value="1664" scalewithclusterquestfactor="true" faction="MORGANA" countpartykillsinsamelocalquestarea="true" />
+    </missions>
+    <rewards>
+      <pvekillfame tier="4" points="2024" scalewithclusterquestfactor="true"/>
+      <mistsfactionstanding points="170" scalewithclusterquestfactor="true"/>
+      <pvpchallengeobjective objectivename="PVPCHALLENGE_MISTS_CAMP_SMALL"/>
+    </rewards>
+  </localquest>
 </quests>
-
-
-
-
-

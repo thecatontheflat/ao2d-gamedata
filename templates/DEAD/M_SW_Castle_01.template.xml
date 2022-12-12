@@ -46,7 +46,7 @@
     </criticalscenemember>
     <criticalscenemember id="castle_01" type="castle" layerId="">
       <tile name="T1_CASTLE" pos="4 8 -4">
-        <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100">
+        <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100" rewardrectmin="-68 -60" rewardrectmax="60 64">
           <guardspawnpoint pos="-10.59 -37.31" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
           <guardspawnpoint pos="-10.54 -35.05" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_ARCHER" guardtype="BASIC" />
           <guardspawnpoint pos="-24.28 36.31" roty="0" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
@@ -164,7 +164,7 @@
       <actionbuilding />
     </criticaltile>
     <criticaltile name="T1_CASTLE" pos="4 8 -4" id="castle_01" type="castle">
-      <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100">
+      <castle type="MEDIUMCASTLE" capturezonepos="0 0 0" musicmidpoint="-4.17 -7.99 3.99" musicrange="100" rewardrectmin="-68 -60" rewardrectmax="60 64">
         <guardspawnpoint pos="-10.59 -37.31" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
         <guardspawnpoint pos="-10.54 -35.05" roty="90" mobname="MOB_CASTLE_BASIC_GUARD_ARCHER" guardtype="BASIC" />
         <guardspawnpoint pos="-24.28 36.31" roty="0" mobname="MOB_CASTLE_BASIC_GUARD_SOLDIER" guardtype="BASIC" />
